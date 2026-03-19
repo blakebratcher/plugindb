@@ -272,10 +272,12 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
         formats_json = json.dumps(plugin.get("formats", []))
         daws_json = json.dumps(plugin.get("daws", []))
         os_json = json.dumps(plugin.get("os", []))
+        is_free = 1 if plugin.get("price_type") == "free" else 0
+        website = plugin.get("url")
         cur.execute(
             """INSERT INTO plugins
-               (slug, name, manufacturer_id, category, subcategory, formats, daws, os, description)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+               (slug, name, manufacturer_id, category, subcategory, formats, daws, os, description, website, is_free)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 plugin["slug"],
                 plugin["name"],
@@ -286,6 +288,8 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
                 daws_json,
                 os_json,
                 plugin.get("description"),
+                website,
+                is_free,
             ),
         )
         plugin_id = cur.lastrowid
