@@ -123,6 +123,10 @@ button, input, select { font: inherit; color: inherit; }
   padding: 10px 16px; cursor: pointer; transition: background var(--transition);
 }
 .suggest-item:hover, .suggest-item-active { background: var(--bg-tertiary); }
+.suggest-thumb {
+  width: 28px; height: 28px; border-radius: 4px;
+  object-fit: cover; flex-shrink: 0;
+}
 .suggest-name { font-weight: 600; flex-shrink: 0; }
 .suggest-meta {
   color: var(--text-secondary); font-size: 13px; flex: 1; min-width: 0;
@@ -190,10 +194,27 @@ button, input, select { font: inherit; color: inherit; }
 .plugin-card {
   display: block; background: var(--bg-secondary);
   border: 1px solid var(--border); border-left: 3px solid var(--accent);
-  border-radius: var(--radius); padding: 16px;
+  border-radius: var(--radius); padding: 0;
   transition: transform var(--transition), box-shadow var(--transition);
+  overflow: hidden;
 }
 .plugin-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35); }
+.card-image {
+  aspect-ratio: 16 / 9; overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
+  width: 100%; background: var(--bg-tertiary);
+}
+.card-image img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform var(--transition);
+}
+.plugin-card:hover .card-image img { transform: scale(1.03); }
+.card-body { padding: 16px; }
+.card-placeholder {
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  font-size: 36px; font-weight: 700;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
 .card-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
 .card-category { font-size: 11px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
 .card-title { font-size: 16px; font-weight: 600; margin-bottom: 2px; }
@@ -272,6 +293,16 @@ button, input, select { font: inherit; color: inherit; }
 .breadcrumb a { color: var(--text-secondary); transition: color var(--transition); }
 .breadcrumb a:hover { color: var(--text-primary); }
 .breadcrumb span { color: var(--border); }
+
+/* Detail hero */
+.detail-hero {
+  width: 100%; max-height: 400px; overflow: hidden;
+  border-radius: var(--radius); margin-bottom: 24px;
+  background: var(--bg-tertiary);
+}
+.detail-hero img {
+  width: 100%; max-height: 400px; object-fit: contain; display: block;
+}
 
 /* Detail header */
 .detail-header { margin-bottom: 32px; }
@@ -360,7 +391,7 @@ button, input, select { font: inherit; color: inherit; }
   #app { padding: 16px 12px; }
   .header-inner { padding: 10px 12px; }
   .search-input { padding: 10px 14px; font-size: 15px; }
-  .plugin-card { padding: 12px; }
+  .plugin-card .card-body { padding: 12px; }
   .meta-grid { padding: 14px; gap: 12px; }
   .pagination { gap: 4px; }
   .page-link { padding: 6px 10px; font-size: 13px; }

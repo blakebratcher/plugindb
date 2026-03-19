@@ -312,11 +312,12 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
         price_type = plugin.get("price_type", "paid")
         year = plugin.get("year")
         website = plugin.get("url")
+        image_url = plugin.get("image_url")
         cur.execute(
             """INSERT INTO plugins
                (slug, name, manufacturer_id, category, subcategory, formats, daws, os,
-                description, website, is_free, price_type, tags, year)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                description, website, image_url, is_free, price_type, tags, year)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 plugin["slug"],
                 plugin["name"],
@@ -328,6 +329,7 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
                 os_json,
                 plugin.get("description"),
                 website,
+                image_url,
                 is_free,
                 price_type,
                 tags_json,

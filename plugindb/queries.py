@@ -33,6 +33,7 @@ def _row_to_plugin(
         tags=tags,
         description=row["description"],
         website=row["website"],
+        image_url=row["image_url"],
         is_free=bool(row["is_free"]),
         price_type=row["price_type"],
         year=row["year"],

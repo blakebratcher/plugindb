@@ -171,10 +171,12 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
     from plugindb.routes.manufacturers import router as manufacturers_router
     from plugindb.routes.search import router as search_router
     from plugindb.routes.meta import router as meta_router
+    from plugindb.routes.images import router as images_router
 
     app.include_router(lookup_router, prefix="/api/v1")
     app.include_router(plugins_router, prefix="/api/v1")
     app.include_router(manufacturers_router, prefix="/api/v1")
+    app.include_router(images_router, prefix="/api/v1")
     app.include_router(search_router, prefix="/api/v1")
     app.include_router(meta_router, prefix="/api/v1")
 

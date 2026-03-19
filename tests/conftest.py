@@ -35,6 +35,7 @@ SEED_DATA = {
             "tags": ["synthesizer", "wavetable", "electronic"],
             "year": 2014,
             "os": ["windows", "macos"],
+            "image_url": "https://xferrecords.com/images/serum.png",
         },
         {
             "slug": "diva",

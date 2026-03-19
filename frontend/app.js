@@ -83,15 +83,33 @@
   }
   function showEmpty(el, msg) { el.innerHTML = `<div class="state-empty"><p>${escapeHtml(msg || 'Nothing found.')}</p></div>`; }
 
+  function generatePlaceholder(name, category) {
+    const colors = {
+      instrument: '#7c3aed', effect: '#3b82f6', utility: '#2dd4bf',
+      midi: '#a78bfa', container: '#f59e0b', 'note-effect': '#ec4899'
+    };
+    const color = colors[category] || '#6b7280';
+    const initials = (name || '').split(/[\s-]+/).slice(0, 2).map(function(w) { return w.charAt(0); }).join('').toUpperCase();
+    return '<div class="card-placeholder" style="background:' + color + '15;color:' + color + '"><span>' + initials + '</span></div>';
+  }
+
   // ---- SHARED RENDERERS ----
   function pluginCard(p) {
     const mfr = p.manufacturer || {};
+    const placeholder = generatePlaceholder(p.name, p.category);
+    const onerrorFallback = 'this.onerror=null;this.parentNode.innerHTML=decodeURIComponent(\'' + encodeURIComponent(placeholder) + '\')';
+    const imageHtml = p.image_url
+      ? `<div class="card-image"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="${escapeHtml(onerrorFallback)}"></div>`
+      : `<div class="card-image">${placeholder}</div>`;
     return `<a href="#/plugins/${escapeHtml(p.slug)}" class="plugin-card">
-      <div class="card-header"><span class="card-category">${escapeHtml(p.category)}</span>${formatPriceBadge(p.price_type)}</div>
-      <h3 class="card-title">${escapeHtml(p.name)}</h3>
-      <p class="card-mfr">${escapeHtml(mfr.name || '')}</p>
-      <p class="card-desc">${escapeHtml((p.description || '').slice(0, 120))}${(p.description || '').length > 120 ? '&hellip;' : ''}</p>
-      <div class="card-footer">${(p.formats || []).map(f => formatBadge(f, 'badge-sm')).join('')}</div>
+      ${imageHtml}
+      <div class="card-body">
+        <div class="card-header"><span class="card-category">${escapeHtml(p.category)}</span>${formatPriceBadge(p.price_type)}</div>
+        <h3 class="card-title">${escapeHtml(p.name)}</h3>
+        <p class="card-mfr">${escapeHtml(mfr.name || '')}</p>
+        <p class="card-desc">${escapeHtml((p.description || '').slice(0, 120))}${(p.description || '').length > 120 ? '&hellip;' : ''}</p>
+        <div class="card-footer">${(p.formats || []).map(f => formatBadge(f, 'badge-sm')).join('')}</div>
+      </div>
     </a>`;
   }
 
@@ -183,6 +201,7 @@
         if (!data.results || !data.results.length) { dropdown.classList.add('hidden'); return; }
         dropdown.innerHTML = data.results.map(r =>
           `<div class="suggest-item" data-slug="${escapeHtml(r.slug)}">
+            ${r.image_url ? `<img class="suggest-thumb" src="/api/v1/image-proxy?url=${encodeURIComponent(r.image_url)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
             <span class="suggest-name">${escapeHtml(r.name)}</span>
             <span class="suggest-meta">${escapeHtml(r.manufacturer_name)} &middot; ${escapeHtml(r.category)}</span>
           </div>`
@@ -341,8 +360,13 @@
       const dawList = (p.daws || []).map(d => escapeHtml(d)).join(', ');
       const aliases = (p.aliases || []).map(a => escapeHtml(a)).join(', ');
 
+      const heroHtml = p.image_url
+        ? `<div class="detail-hero"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}"></div>`
+        : '';
+
       let html = `
         <nav class="breadcrumb"><a href="#/">Plugins</a> <span>&rsaquo;</span> <span>${escapeHtml(p.name)}</span></nav>
+        ${heroHtml}
         <section class="detail-header">
           <h1>${escapeHtml(p.name)}</h1>
           <p class="detail-mfr">by <a href="#/manufacturers/${escapeHtml(mfr.slug)}">${escapeHtml(mfr.name)}</a></p>

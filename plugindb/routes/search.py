@@ -262,7 +262,7 @@ def suggest_plugins(
 
     try:
         rows = conn.execute(
-            """SELECT DISTINCT plugins.name, plugins.slug, plugins.category, m.name as manufacturer_name
+            """SELECT DISTINCT plugins.name, plugins.slug, plugins.category, plugins.image_url, m.name as manufacturer_name
                FROM plugins_fts
                JOIN plugins ON plugins.rowid = plugins_fts.rowid
                JOIN manufacturers m ON plugins.manufacturer_id = m.id
@@ -280,6 +280,7 @@ def suggest_plugins(
             slug=row["slug"],
             category=row["category"],
             manufacturer_name=row["manufacturer_name"],
+            image_url=row["image_url"],
         )
         for row in rows
     ]

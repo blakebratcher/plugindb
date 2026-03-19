@@ -33,6 +33,7 @@ class PluginResponse(BaseModel):
     tags: list[str] = Field(default_factory=list)
     description: str | None = None
     website: str | None = None
+    image_url: str | None = None
     is_free: bool = False
     price_type: str = "paid"
     year: int | None = None
@@ -178,6 +179,7 @@ class SuggestItemResponse(BaseModel):
     slug: str
     category: str
     manufacturer_name: str
+    image_url: str | None = None
 
 
 class SuggestResponse(BaseModel):

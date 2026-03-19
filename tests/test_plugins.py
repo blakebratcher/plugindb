@@ -300,7 +300,7 @@ class TestResponseFields:
         expected_keys = {
             "id", "slug", "name", "manufacturer", "category", "subcategory",
             "formats", "daws", "os", "aliases", "tags", "description",
-            "website", "is_free", "price_type", "year", "created_at", "updated_at",
+            "website", "image_url", "is_free", "price_type", "year", "created_at", "updated_at",
         }
         assert expected_keys.issubset(set(body.keys()))
 
@@ -701,4 +701,39 @@ class TestEdgeCases:
     def test_compare_with_non_integer_ids(self, client):
         """Non-integer IDs return 400."""
         resp = client.get("/api/v1/plugins/compare", params={"ids": "abc,def"})
+        assert resp.status_code == 400
+
+
+class TestImageUrl:
+    """Tests for image_url field."""
+
+    def test_plugin_with_image_url(self, client):
+        """Serum has image_url in test data."""
+        resp = client.get("/api/v1/plugins/by-slug/serum")
+        assert resp.status_code == 200
+        assert resp.json()["image_url"] == "https://xferrecords.com/images/serum.png"
+
+    def test_plugin_without_image_url(self, client):
+        """Diva has no image_url in test data."""
+        resp = client.get("/api/v1/plugins/by-slug/diva")
+        assert resp.status_code == 200
+        assert resp.json()["image_url"] is None
+
+    def test_image_url_in_list(self, client):
+        """Plugin list includes image_url field."""
+        resp = client.get("/api/v1/plugins")
+        assert resp.status_code == 200
+        plugin = resp.json()["data"][0]
+        assert "image_url" in plugin
+
+    def test_image_url_in_suggest(self, client):
+        """Suggest results include image_url."""
+        resp = client.get("/api/v1/suggest", params={"q": "Ser"})
+        assert resp.status_code == 200
+        if resp.json()["results"]:
+            assert "image_url" in resp.json()["results"][0]
+
+    def test_image_proxy_bad_url(self, client):
+        """Image proxy rejects non-HTTP URLs."""
+        resp = client.get("/api/v1/image-proxy", params={"url": "ftp://bad.com/img.png"})
         assert resp.status_code == 400

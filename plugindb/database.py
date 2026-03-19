@@ -9,7 +9,7 @@ DEFAULT_DB_PATH = Path(__file__).resolve().parent.parent / "data" / "plugindb.sq
 
 EXPECTED_PLUGIN_COLUMNS = {
     "id", "slug", "name", "manufacturer_id", "category", "subcategory",
-    "formats", "daws", "os", "description", "website", "is_free",
+    "formats", "daws", "os", "description", "website", "image_url", "is_free",
     "price_type", "tags", "year", "created_at", "updated_at",
 }
 
@@ -75,6 +75,7 @@ def create_schema(conn: sqlite3.Connection) -> None:
             os              TEXT    NOT NULL DEFAULT '[]',
             description     TEXT,
             website         TEXT,
+            image_url       TEXT,
             is_free         INTEGER NOT NULL DEFAULT 0,
             price_type      TEXT    NOT NULL DEFAULT 'paid',
             tags            TEXT    NOT NULL DEFAULT '[]',

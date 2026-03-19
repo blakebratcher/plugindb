@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+"""Scrape og:image/twitter:image from plugin product pages to populate image_url."""
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+import time
+import urllib.request
+from pathlib import Path
+
+
+def extract_og_image(html: str) -> str | None:
+    """Extract og:image or twitter:image from HTML using regex."""
+    # Try og:image first
+    match = re.search(r'<meta\s+(?:[^>]*?)property=["\']og:image["\']\s+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+    if not match:
+        match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+(?:[^>]*?)property=["\']og:image["\']', html, re.IGNORECASE)
+    if match:
+        return match.group(1)
+
+    # Fallback to twitter:image
+    match = re.search(r'<meta\s+(?:[^>]*?)(?:name|property)=["\']twitter:image["\']\s+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+    if not match:
+        match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+(?:[^>]*?)(?:name|property)=["\']twitter:image["\']', html, re.IGNORECASE)
+    if match:
+        return match.group(1)
+
+    return None
+
+
+def is_valid_image_url(url: str) -> bool:
+    """Check if URL looks like a valid image."""
+    if not url or not url.startswith(("http://", "https://")):
+        return False
+    # Skip tiny tracking pixels and generic social images
+    lower = url.lower()
+    if any(skip in lower for skip in ["1x1", "pixel", "spacer", "favicon", "logo-small"]):
+        return False
+    return True
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Scrape og:image from plugin URLs")
+    parser.add_argument("--limit", type=int, default=0, help="Max plugins to process (0=all)")
+    parser.add_argument("--delay", type=float, default=1.0, help="Delay between requests")
+    parser.add_argument("--dry-run", action="store_true", help="Don't write output")
+    parser.add_argument("--force", action="store_true", help="Re-scrape even if image_url exists")
+    args = parser.parse_args()
+
+    base = Path(__file__).resolve().parent.parent
+    seed_path = base / "data" / "seed.json"
+
+    with open(seed_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    plugins = data["plugins"]
+    found = 0
+    failed = 0
+    skipped = 0
+    already = 0
+
+    to_process = plugins[:args.limit] if args.limit > 0 else plugins
+
+    for i, plugin in enumerate(to_process):
+        name = plugin["name"]
+        url = plugin.get("url")
+
+        if not url:
+            skipped += 1
+            continue
+
+        if plugin.get("image_url") and not args.force:
+            already += 1
+            continue
+
+        print(f"  [{i+1}/{len(to_process)}] {name}...", end=" ", flush=True)
+
+        try:
+            time.sleep(args.delay)
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "PluginDB/1.4 (https://github.com/blakebratcher/plugindb)",
+                "Accept": "text/html",
+            })
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                html = resp.read(500_000).decode("utf-8", errors="replace")
+
+            img_url = extract_og_image(html)
+
+            if img_url and is_valid_image_url(img_url):
+                plugin["image_url"] = img_url
+                found += 1
+                print(f"FOUND")
+            else:
+                failed += 1
+                print(f"no og:image")
+
+        except Exception as e:
+            failed += 1
+            print(f"ERROR: {str(e)[:60]}")
+
+    print(f"\n=== Results ===")
+    print(f"  Found: {found}")
+    print(f"  Failed: {failed}")
+    print(f"  Skipped (no URL): {skipped}")
+    print(f"  Already had image: {already}")
+    print(f"  Total: {len(to_process)}")
+
+    if not args.dry_run and found > 0:
+        with open(seed_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"\n  Written to {seed_path}")
+    elif args.dry_run:
+        print(f"\n  (dry run — not written)")
+
+
+if __name__ == "__main__":
+    main()
