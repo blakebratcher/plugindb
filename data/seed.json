@@ -2,9 +2,29 @@
   "schema_version": "1.0",
   "manufacturers": [
     {
+      "slug": "acustica-audio",
+      "name": "Acustica Audio",
+      "website": "https://www.acustica-audio.com"
+    },
+    {
+      "slug": "aegean-music",
+      "name": "Aegean Music",
+      "website": "https://aegeanmusic.com"
+    },
+    {
       "slug": "air-music-technology",
       "name": "Air Music Technology",
       "website": "https://www.airmusictech.com"
+    },
+    {
+      "slug": "airwindows",
+      "name": "Airwindows",
+      "website": "https://www.airwindows.com"
+    },
+    {
+      "slug": "alex-hilton",
+      "name": "Alex Hilton (A1Audio)",
+      "website": "https://a1audio.alexhilton.net"
     },
     {
       "slug": "analog-obsession",
@@ -26,14 +46,39 @@
       "website": "https://www.audiodamage.com"
     },
     {
+      "slug": "audiority",
+      "name": "Audiority",
+      "website": "https://www.audiority.com"
+    },
+    {
       "slug": "baby-audio",
       "name": "Baby Audio",
       "website": "https://babyaud.io"
     },
     {
+      "slug": "bandlab",
+      "name": "BandLab (Cakewalk)",
+      "website": "https://www.bandlab.com"
+    },
+    {
+      "slug": "bertom-audio",
+      "name": "Bertom Audio",
+      "website": "https://www.bertomaudio.com"
+    },
+    {
       "slug": "bettermaker",
       "name": "Bettermaker",
       "website": "https://bettermaker.com"
+    },
+    {
+      "slug": "blue-cat-audio",
+      "name": "Blue Cat Audio",
+      "website": "https://www.bluecataudio.com"
+    },
+    {
+      "slug": "boz-digital-labs",
+      "name": "Boz Digital Labs",
+      "website": "https://www.bozdigitallabs.com"
     },
     {
       "slug": "cableguys",
@@ -49,6 +94,11 @@
       "slug": "cherry-audio",
       "name": "Cherry Audio",
       "website": "https://cherryaudio.com"
+    },
+    {
+      "slug": "chowdsp",
+      "name": "ChowDSP",
+      "website": "https://chowdsp.com"
     },
     {
       "slug": "cockos",
@@ -76,9 +126,19 @@
       "website": "https://deviousmachines.com"
     },
     {
+      "slug": "digital-suburban",
+      "name": "Digital Suburban",
+      "website": "https://asb2m10.github.io/dexed/"
+    },
+    {
       "slug": "discodsp",
       "name": "discoDSP",
       "website": "https://www.discodsp.com"
+    },
+    {
+      "slug": "distrho",
+      "name": "DISTRHO",
+      "website": "https://github.com/DISTRHO/Cardinal"
     },
     {
       "slug": "dmg-audio",
@@ -104,6 +164,11 @@
       "slug": "goodhertz",
       "name": "Goodhertz",
       "website": "https://goodhertz.com"
+    },
+    {
+      "slug": "harvest-plugins",
+      "name": "Harvest Plugins",
+      "website": "https://harvestplugins.com"
     },
     {
       "slug": "ifea",
@@ -146,7 +211,13 @@
     },
     {
       "slug": "lhi-audio",
-      "name": "LHI Audio"
+      "name": "LHI Audio",
+      "website": "https://lhiaudio.com"
+    },
+    {
+      "slug": "lkjb",
+      "name": "lkjb",
+      "website": "https://lkjbdsp.wordpress.com"
     },
     {
       "slug": "matt-tytel",
@@ -192,6 +263,11 @@
       "name": "Nicky Romero"
     },
     {
+      "slug": "nimble-tools",
+      "name": "Nimble Tools",
+      "website": "https://nimble.tools"
+    },
+    {
       "slug": "oeksound",
       "name": "oeksound",
       "website": "https://oeksound.com"
@@ -231,6 +307,11 @@
       "name": "QuantumSauce"
     },
     {
+      "slug": "reveal-sound",
+      "name": "Reveal Sound",
+      "website": "https://www.reveal-sound.com"
+    },
+    {
       "slug": "rob-papen",
       "name": "Rob Papen",
       "website": "https://www.robpapen.com"
@@ -254,6 +335,11 @@
       "slug": "softube",
       "name": "Softube",
       "website": "https://www.softube.com"
+    },
+    {
+      "slug": "sonic-anomaly",
+      "name": "Sonic Anomaly",
+      "website": "https://sonic.supermaailma.net"
     },
     {
       "slug": "sonic-charge",
@@ -281,9 +367,19 @@
       "website": "https://www.spitfireaudio.com"
     },
     {
+      "slug": "surge-synth-team",
+      "name": "Surge Synth Team",
+      "website": "https://surge-synthesizer.github.io"
+    },
+    {
       "slug": "surreal-machines",
       "name": "Surreal Machines",
       "website": "https://surrealmachines.com"
+    },
+    {
+      "slug": "synapse-audio",
+      "name": "Synapse Audio",
+      "website": "https://www.synapse-audio.com"
     },
     {
       "slug": "tal",
@@ -299,6 +395,11 @@
       "slug": "tone2",
       "name": "Tone2",
       "website": "https://tone2.com"
+    },
+    {
+      "slug": "tonelib",
+      "name": "ToneLib",
+      "website": "https://tonelib.net"
     },
     {
       "slug": "toontrack",
@@ -319,6 +420,11 @@
       "slug": "valhalla-dsp",
       "name": "Valhalla DSP",
       "website": "https://valhalladsp.com"
+    },
+    {
+      "slug": "variety-of-sound",
+      "name": "Variety Of Sound",
+      "website": "https://varietyofsound.wordpress.com"
     },
     {
       "slug": "voxengo",
@@ -349,6 +455,11 @@
       "slug": "youlean",
       "name": "Youlean",
       "website": "https://youlean.co"
+    },
+    {
+      "slug": "zynaddsubfx-team",
+      "name": "ZynAddSubFX",
+      "website": "https://zynaddsubfx.sourceforge.io"
     },
     {
       "slug": "zynaptiq",
@@ -561,7 +672,11 @@
         "Analog Lab V",
         "Analog Lab 5",
         "Arturia Analog Lab V",
-        "AnalogLab V"
+        "AnalogLab V",
+        "AnalogLab5",
+        "AnalogLabV",
+        "Analog_Lab_V",
+        "Arturia_Analog_Lab_V"
       ],
       "daws": [
         "Bitwig",
@@ -596,7 +711,10 @@
       "aliases": [
         "Comp FET-76",
         "Arturia Comp FET-76",
-        "FET-76"
+        "FET-76",
+        "CompFET76",
+        "Comp_FET-76",
+        "Arturia_Comp_FET-76"
       ],
       "daws": [
         "Bitwig",
@@ -632,7 +750,9 @@
         "Jupiter-8V",
         "Arturia Jupiter-8V",
         "Jupiter-8V4",
-        "Jup-8V"
+        "Jup-8V",
+        "Jupiter8V",
+        "Arturia_Jupiter-8V"
       ],
       "daws": [
         "Bitwig",
@@ -668,7 +788,11 @@
         "Mini V",
         "Arturia Mini V",
         "Mini V4",
-        "Minimoog V"
+        "Minimoog V",
+        "MiniV",
+        "MiniV4",
+        "Mini_V",
+        "Arturia_Mini_V"
       ],
       "daws": [
         "Bitwig",
@@ -705,7 +829,11 @@
         "Pigments 4",
         "Pigments",
         "Arturia Pigments",
-        "Arturia Pigments 4"
+        "Arturia Pigments 4",
+        "Pigments4",
+        "Pigments_4",
+        "Arturia_Pigments_4",
+        "Arturia_Pigments"
       ],
       "daws": [
         "Bitwig",
@@ -741,7 +869,9 @@
         "Prophet V",
         "Arturia Prophet V",
         "Prophet-V",
-        "Prophet-5 V"
+        "Prophet-5 V",
+        "ProphetV",
+        "Arturia_Prophet_V"
       ],
       "daws": [
         "Bitwig",
@@ -776,7 +906,10 @@
       "aliases": [
         "Rev PLATE-140",
         "Arturia Rev PLATE-140",
-        "PLATE-140"
+        "PLATE-140",
+        "RevPLATE140",
+        "Rev_PLATE-140",
+        "Arturia_Rev_PLATE-140"
       ],
       "daws": [
         "Bitwig",
@@ -902,7 +1035,10 @@
       ],
       "aliases": [
         "Comeback Kid",
-        "Baby Audio Comeback Kid"
+        "Baby Audio Comeback Kid",
+        "Comeback_Kid",
+        "ComebackKid",
+        "Baby_Audio_Comeback_Kid"
       ],
       "daws": [
         "Bitwig",
@@ -933,7 +1069,9 @@
       ],
       "aliases": [
         "Crystalline",
-        "Baby Audio Crystalline"
+        "Baby Audio Crystalline",
+        "Baby_Audio_Crystalline",
+        "Crystalline_x64"
       ],
       "daws": [
         "Bitwig",
@@ -967,7 +1105,10 @@
       "aliases": [
         "IHNY-2",
         "Baby Audio IHNY-2",
-        "I Heart NY"
+        "I Heart NY",
+        "IHNY2",
+        "IHNY_2",
+        "Baby_Audio_IHNY-2"
       ],
       "daws": [
         "Bitwig",
@@ -1001,7 +1142,10 @@
       ],
       "aliases": [
         "Parallel Aggressor",
-        "Baby Audio Parallel Aggressor"
+        "Baby Audio Parallel Aggressor",
+        "Parallel_Aggressor",
+        "ParallelAggressor",
+        "Baby_Audio_Parallel_Aggressor"
       ],
       "daws": [
         "Bitwig",
@@ -1033,7 +1177,10 @@
       ],
       "aliases": [
         "Smooth Operator",
-        "Baby Audio Smooth Operator"
+        "Baby Audio Smooth Operator",
+        "Smooth_Operator",
+        "SmoothOperator",
+        "Baby_Audio_Smooth_Operator"
       ],
       "daws": [
         "Bitwig",
@@ -1064,7 +1211,10 @@
       ],
       "aliases": [
         "Spaced Out",
-        "Baby Audio Spaced Out"
+        "Baby Audio Spaced Out",
+        "Spaced_Out",
+        "SpacedOut",
+        "Baby_Audio_Spaced_Out"
       ],
       "daws": [
         "Bitwig",
@@ -1095,7 +1245,10 @@
       ],
       "aliases": [
         "Super VHS",
-        "Baby Audio Super VHS"
+        "Baby Audio Super VHS",
+        "Super_VHS",
+        "SuperVHS",
+        "Baby_Audio_Super_VHS"
       ],
       "daws": [
         "Bitwig",
@@ -1126,7 +1279,9 @@
       ],
       "aliases": [
         "Bettermaker Bus Compressor DSP",
-        "Bettermaker Bus Compressor"
+        "Bettermaker Bus Compressor",
+        "Bettermaker_Bus_Compressor",
+        "BettermakerBusCompressor"
       ],
       "daws": [
         "Bitwig",
@@ -1158,7 +1313,9 @@
       "aliases": [
         "FilterShaper",
         "FilterShaper XL",
-        "Cableguys FilterShaper"
+        "Cableguys FilterShaper",
+        "FilterShaper_XL",
+        "Cableguys_FilterShaper"
       ],
       "daws": [
         "Bitwig",
@@ -1192,7 +1349,9 @@
       "aliases": [
         "PanShaper",
         "PanShaper 3",
-        "Cableguys PanShaper"
+        "Cableguys PanShaper",
+        "PanShaper_3",
+        "Cableguys_PanShaper"
       ],
       "daws": [
         "Bitwig",
@@ -1227,7 +1386,9 @@
         "ShaperBox 3",
         "ShaperBox3",
         "Cableguys ShaperBox 3",
-        "ShaperBox"
+        "ShaperBox",
+        "ShaperBox_3",
+        "Cableguys_ShaperBox_3"
       ],
       "daws": [
         "Bitwig",
@@ -1261,7 +1422,9 @@
       "aliases": [
         "TimeShaper",
         "TimeShaper 3",
-        "Cableguys TimeShaper"
+        "Cableguys TimeShaper",
+        "TimeShaper_3",
+        "Cableguys_TimeShaper"
       ],
       "daws": [
         "Bitwig",
@@ -1295,7 +1458,9 @@
       "aliases": [
         "VolumeShaper",
         "VolumeShaper 5",
-        "Cableguys VolumeShaper"
+        "Cableguys VolumeShaper",
+        "VolumeShaper_5",
+        "Cableguys_VolumeShaper"
       ],
       "daws": [
         "Bitwig",
@@ -1327,7 +1492,9 @@
       ],
       "aliases": [
         "CamelCrusher",
-        "Camel Crusher"
+        "Camel Crusher",
+        "CamelCrusher_x64",
+        "Camel_Crusher"
       ],
       "daws": [
         "Bitwig",
@@ -1359,7 +1526,8 @@
       ],
       "aliases": [
         "Dreamsynth",
-        "Cherry Audio Dreamsynth"
+        "Cherry Audio Dreamsynth",
+        "Cherry_Audio_Dreamsynth"
       ],
       "daws": [
         "Bitwig",
@@ -1427,7 +1595,9 @@
       "aliases": [
         "Voltage Modular",
         "Cherry Audio Voltage Modular",
-        "VoltageModular"
+        "VoltageModular",
+        "Voltage_Modular",
+        "Cherry_Audio_Voltage_Modular"
       ],
       "daws": [
         "Bitwig",
@@ -1488,7 +1658,9 @@
       ],
       "aliases": [
         "Origin",
-        "Cymatics Origin"
+        "Cymatics Origin",
+        "Cymatics_Origin",
+        "Origin_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1518,7 +1690,9 @@
       ],
       "aliases": [
         "Decimort 2",
-        "D16 Decimort"
+        "D16 Decimort",
+        "Decimort2",
+        "D16_Decimort_2"
       ],
       "daws": [
         "Bitwig",
@@ -1548,7 +1722,9 @@
       ],
       "aliases": [
         "Devastor 2",
-        "D16 Devastor"
+        "D16 Devastor",
+        "Devastor2",
+        "D16_Devastor_2"
       ],
       "daws": [
         "Bitwig",
@@ -1579,7 +1755,9 @@
       "aliases": [
         "Lush-2",
         "D16 Lush-2",
-        "Lush2"
+        "Lush2",
+        "D16_Lush-2",
+        "D16_Lush2"
       ],
       "daws": [
         "Bitwig",
@@ -1609,7 +1787,9 @@
       ],
       "aliases": [
         "Repeater",
-        "D16 Repeater"
+        "D16 Repeater",
+        "D16_Repeater",
+        "Repeater_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1639,7 +1819,9 @@
       ],
       "aliases": [
         "Perfect Room",
-        "denise Perfect Room"
+        "denise Perfect Room",
+        "denise_Perfect_Room",
+        "PerfectRoom"
       ],
       "daws": [
         "Bitwig",
@@ -1669,7 +1851,9 @@
       ],
       "aliases": [
         "Duck",
-        "Devious Machines Duck"
+        "Devious Machines Duck",
+        "Devious_Machines_Duck",
+        "Duck_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1699,7 +1883,10 @@
       ],
       "aliases": [
         "Infiltrator",
-        "Devious Machines Infiltrator"
+        "Devious Machines Infiltrator",
+        "Devious_Machines_Infiltrator",
+        "Infiltrator_x64",
+        "Infiltrator 2"
       ],
       "daws": [
         "Bitwig",
@@ -1730,7 +1917,9 @@
       "aliases": [
         "OB-Xd",
         "OBXd",
-        "discoDSP OB-Xd"
+        "discoDSP OB-Xd",
+        "OB-Xd_x64",
+        "discoDSP_OB-Xd"
       ],
       "daws": [
         "Bitwig",
@@ -1761,7 +1950,8 @@
       ],
       "aliases": [
         "Equilibrium",
-        "DMG Audio Equilibrium"
+        "DMG Audio Equilibrium",
+        "DMG_Audio_Equilibrium"
       ],
       "daws": [
         "Bitwig",
@@ -1794,7 +1984,9 @@
       ],
       "aliases": [
         "Blackhole",
-        "Eventide Blackhole"
+        "Eventide Blackhole",
+        "Eventide_Blackhole",
+        "Blackhole_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1829,7 +2021,9 @@
       "aliases": [
         "H3000 Factory",
         "Eventide H3000",
-        "H3000"
+        "H3000",
+        "H3000_Factory",
+        "Eventide_H3000"
       ],
       "daws": [
         "Bitwig",
@@ -1863,7 +2057,9 @@
       ],
       "aliases": [
         "MangledVerb",
-        "Eventide MangledVerb"
+        "Eventide MangledVerb",
+        "Eventide_MangledVerb",
+        "MangledVerb_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1897,7 +2093,9 @@
       ],
       "aliases": [
         "Physion",
-        "Eventide Physion"
+        "Eventide Physion",
+        "Eventide_Physion",
+        "Physion_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1931,7 +2129,9 @@
       ],
       "aliases": [
         "UltraTap",
-        "Eventide UltraTap"
+        "Eventide UltraTap",
+        "Eventide_UltraTap",
+        "UltraTap_x64"
       ],
       "daws": [
         "Bitwig",
@@ -1969,7 +2169,16 @@
         "FabFilter Pro-C 2",
         "Pro-C 2",
         "ProC2",
-        "FabfilterProC2"
+        "FabfilterProC2",
+        "Pro-C2",
+        "FabFilter_Pro-C_2",
+        "FabFilter Pro-C2",
+        "ProC 2",
+        "Pro C 2",
+        "FabFilter ProC2",
+        "FabFilter_ProC2",
+        "Pro-C",
+        "ProC"
       ],
       "daws": [
         "Bitwig",
@@ -2006,7 +2215,16 @@
         "FabFilter Pro-L 2",
         "Pro-L 2",
         "ProL2",
-        "FabfilterProL2"
+        "FabfilterProL2",
+        "Pro-L2",
+        "FabFilter_Pro-L_2",
+        "FabFilter Pro-L2",
+        "ProL 2",
+        "Pro L 2",
+        "FabFilter ProL2",
+        "FabFilter_ProL2",
+        "Pro-L",
+        "ProL"
       ],
       "daws": [
         "Bitwig",
@@ -2041,7 +2259,11 @@
         "FabFilter Pro-MB",
         "Pro-MB",
         "ProMB",
-        "FabfilterProMB"
+        "FabfilterProMB",
+        "Pro MB",
+        "FabFilter_Pro-MB",
+        "FabFilter Pro MB",
+        "FabFilter_ProMB"
       ],
       "daws": [
         "Bitwig",
@@ -2079,7 +2301,16 @@
         "Pro-Q 3",
         "FabFilter Pro-Q 3",
         "FabfilterProQ3",
-        "ProQ3"
+        "ProQ3",
+        "Pro-Q3",
+        "FabFilter_Pro-Q_3",
+        "FabFilter Pro-Q3",
+        "ProQ 3",
+        "Pro Q 3",
+        "FabFilter ProQ3",
+        "FabFilter_ProQ3",
+        "Pro-Q",
+        "ProQ"
       ],
       "daws": [
         "Bitwig",
@@ -2117,7 +2348,16 @@
         "FabFilter Pro-R 2",
         "Pro-R 2",
         "ProR2",
-        "FabfilterProR2"
+        "FabfilterProR2",
+        "Pro-R2",
+        "FabFilter_Pro-R_2",
+        "FabFilter Pro-R2",
+        "ProR 2",
+        "Pro R 2",
+        "FabFilter ProR2",
+        "FabFilter_ProR2",
+        "Pro-R",
+        "ProR"
       ],
       "daws": [
         "Bitwig",
@@ -2155,7 +2395,9 @@
         "FabFilter Saturn 2",
         "Saturn 2",
         "Saturn2",
-        "FabfilterSaturn2"
+        "FabfilterSaturn2",
+        "FabFilter_Saturn_2",
+        "FabFilter Saturn2"
       ],
       "daws": [
         "Bitwig",
@@ -2188,7 +2430,8 @@
       "aliases": [
         "FabFilter Simplon",
         "Simplon",
-        "FabfilterSimplon"
+        "FabfilterSimplon",
+        "FabFilter_Simplon"
       ],
       "daws": [
         "Bitwig",
@@ -2223,7 +2466,9 @@
         "FabFilter Timeless 3",
         "Timeless 3",
         "Timeless3",
-        "FabfilterTimeless3"
+        "FabfilterTimeless3",
+        "FabFilter_Timeless_3",
+        "FabFilter Timeless3"
       ],
       "daws": [
         "Bitwig",
@@ -2258,7 +2503,9 @@
         "FabFilter Twin 3",
         "Twin 3",
         "Twin3",
-        "FabfilterTwin3"
+        "FabfilterTwin3",
+        "FabFilter_Twin_3",
+        "FabFilter Twin3"
       ],
       "daws": [
         "Bitwig",
@@ -2293,7 +2540,9 @@
         "FabFilter Volcano 3",
         "Volcano 3",
         "Volcano3",
-        "FabfilterVolcano3"
+        "FabfilterVolcano3",
+        "FabFilter_Volcano_3",
+        "FabFilter Volcano3"
       ],
       "daws": [
         "Bitwig",
@@ -2317,30 +2566,35 @@
     {
       "slug": "harvest",
       "name": "Harvest",
-      "manufacturer_slug": "fabfilter",
-      "category": "effect",
-      "subcategory": "general",
+      "manufacturer_slug": "harvest-plugins",
+      "category": "midi",
+      "subcategory": "generator",
       "formats": [
-        "VST2"
+        "VST2",
+        "VST3",
+        "AU"
       ],
       "aliases": [
-        "Harvest"
+        "Harvest",
+        "HarvestPlugins",
+        "Harvest Plugins Harvest"
       ],
       "daws": [
         "Bitwig",
         "Ableton",
-        "Cubase",
-        "Studio One",
-        "Reaper",
+        "Logic",
         "FL Studio",
-        "Pro Tools"
+        "Reaper",
+        "Cubase",
+        "Studio One"
       ],
       "os": [
         "windows",
         "macos"
       ],
-      "description": "Discontinued granular synthesis instrument from FabFilter.",
-      "price_type": "paid"
+      "description": "MIDI sequence generator for creating melodies, chord progressions, and drum patterns with an interactive piano roll and live arpeggiator mode.",
+      "price_type": "paid",
+      "url": "https://harvestplugins.com/harvest/"
     },
     {
       "slug": "fracture",
@@ -2415,7 +2669,9 @@
       "aliases": [
         "CanOpener Studio",
         "CanOpener",
-        "Goodhertz CanOpener"
+        "Goodhertz CanOpener",
+        "CanOpener_Studio",
+        "Goodhertz_CanOpener"
       ],
       "daws": [
         "Bitwig",
@@ -2448,7 +2704,9 @@
       ],
       "aliases": [
         "Lossy",
-        "Goodhertz Lossy"
+        "Goodhertz Lossy",
+        "Goodhertz_Lossy",
+        "Lossy_x64"
       ],
       "daws": [
         "Bitwig",
@@ -2516,7 +2774,9 @@
       "aliases": [
         "Vulf Compressor",
         "Vulf Comp",
-        "Goodhertz Vulf Compressor"
+        "Goodhertz Vulf Compressor",
+        "VulfCompressor",
+        "Goodhertz_Vulf_Compressor"
       ],
       "daws": [
         "Bitwig",
@@ -2700,7 +2960,9 @@
       "aliases": [
         "Gatekeeper",
         "Infected Mushroom Gatekeeper",
-        "Polyverse Gatekeeper"
+        "Polyverse Gatekeeper",
+        "Polyverse_Gatekeeper",
+        "Gatekeeper_x64"
       ],
       "daws": [
         "Bitwig",
@@ -2735,7 +2997,9 @@
       "aliases": [
         "I Wish",
         "Infected Mushroom I Wish",
-        "Polyverse I Wish"
+        "Polyverse I Wish",
+        "Polyverse_I_Wish",
+        "IWish"
       ],
       "daws": [
         "Bitwig",
@@ -2770,7 +3034,9 @@
       "aliases": [
         "Manipulator",
         "Infected Mushroom Manipulator",
-        "Polyverse Manipulator"
+        "Polyverse Manipulator",
+        "Polyverse_Manipulator",
+        "Manipulator_x64"
       ],
       "daws": [
         "Bitwig",
@@ -2802,7 +3068,10 @@
       ],
       "aliases": [
         "Heat Up 3",
-        "Initial Audio Heat Up 3"
+        "Initial Audio Heat Up 3",
+        "HeatUp3",
+        "Heat_Up_3",
+        "Initial_Audio_Heat_Up_3"
       ],
       "daws": [
         "Bitwig",
@@ -2832,7 +3101,9 @@
       ],
       "aliases": [
         "Sektor",
-        "Initial Audio Sektor"
+        "Initial Audio Sektor",
+        "Initial_Audio_Sektor",
+        "Sektor_x64"
       ],
       "daws": [
         "Bitwig",
@@ -2894,7 +3165,9 @@
       "aliases": [
         "Nectar 4",
         "iZotope Nectar 4",
-        "iZotope Nectar 4 Suite"
+        "iZotope Nectar 4 Suite",
+        "Nectar4",
+        "iZotope_Nectar_4"
       ],
       "daws": [
         "Bitwig",
@@ -2927,7 +3200,9 @@
       "aliases": [
         "Neutron 4",
         "iZotope Neutron 4",
-        "Neutron4"
+        "Neutron4",
+        "iZotope_Neutron_4",
+        "Neutron 4 Advanced"
       ],
       "daws": [
         "Bitwig",
@@ -2962,7 +3237,10 @@
       "aliases": [
         "Ozone 11",
         "iZotope Ozone 11",
-        "iZotope Ozone 11 Suite"
+        "iZotope Ozone 11 Suite",
+        "Ozone11",
+        "iZotope_Ozone_11",
+        "Ozone 11 Advanced"
       ],
       "daws": [
         "Bitwig",
@@ -3119,7 +3397,9 @@
       "aliases": [
         "Ozone 9",
         "iZotope Ozone 9",
-        "Ozone9"
+        "Ozone9",
+        "iZotope_Ozone_9",
+        "Ozone 9 Advanced"
       ],
       "daws": [
         "Bitwig",
@@ -3183,7 +3463,9 @@
       "aliases": [
         "RX 11",
         "iZotope RX 11",
-        "RX11"
+        "RX11",
+        "iZotope_RX_11",
+        "RX 11 Advanced"
       ],
       "daws": [
         "Bitwig",
@@ -3215,7 +3497,9 @@
       ],
       "aliases": [
         "Trash 2",
-        "iZotope Trash 2"
+        "iZotope Trash 2",
+        "Trash2",
+        "iZotope_Trash_2"
       ],
       "daws": [
         "Bitwig",
@@ -3248,7 +3532,8 @@
       ],
       "aliases": [
         "Vinyl",
-        "iZotope Vinyl"
+        "iZotope Vinyl",
+        "iZotope_Vinyl"
       ],
       "daws": [
         "Bitwig",
@@ -3282,7 +3567,9 @@
       "aliases": [
         "Disperser",
         "Kilohearts Disperser",
-        "kHs Disperser"
+        "kHs Disperser",
+        "Kilohearts_Disperser",
+        "Disperser_x64"
       ],
       "daws": [
         "Bitwig",
@@ -3315,7 +3602,9 @@
       "aliases": [
         "EffectRack",
         "Kilohearts EffectRack",
-        "kHs EffectRack"
+        "kHs EffectRack",
+        "Kilohearts_EffectRack",
+        "Effect_Rack"
       ],
       "daws": [
         "Bitwig",
@@ -3447,7 +3736,10 @@
       ],
       "aliases": [
         "Multipass",
-        "Kilohearts Multipass"
+        "Kilohearts Multipass",
+        "Kilohearts_Multipass",
+        "kHs Multipass",
+        "Multipass_x64"
       ],
       "daws": [
         "Bitwig",
@@ -3481,7 +3773,11 @@
       "aliases": [
         "Phase Plant",
         "Kilohearts Phase Plant",
-        "PhasePlant"
+        "PhasePlant",
+        "PhasePlant_x64",
+        "Phase_Plant",
+        "Kilohearts_Phase_Plant",
+        "kHs Phase Plant"
       ],
       "daws": [
         "Bitwig",
@@ -3515,7 +3811,11 @@
       ],
       "aliases": [
         "Snap Heap",
-        "Kilohearts Snap Heap"
+        "Kilohearts Snap Heap",
+        "SnapHeap",
+        "Snap_Heap",
+        "Kilohearts_Snap_Heap",
+        "kHs Snap Heap"
       ],
       "daws": [
         "Bitwig",
@@ -3546,7 +3846,9 @@
       ],
       "aliases": [
         "DC1A",
-        "Klanghelm DC1A"
+        "Klanghelm DC1A",
+        "Klanghelm_DC1A",
+        "DC1A_x64"
       ],
       "daws": [
         "Bitwig",
@@ -3578,7 +3880,9 @@
       "aliases": [
         "MJUC",
         "Klanghelm MJUC",
-        "MJUC jr"
+        "MJUC jr",
+        "Klanghelm_MJUC",
+        "MJUC_x64"
       ],
       "daws": [
         "Bitwig",
@@ -3609,7 +3913,10 @@
       ],
       "aliases": [
         "SynthMaster 2",
-        "KV331 SynthMaster"
+        "KV331 SynthMaster",
+        "SynthMaster2",
+        "SynthMaster",
+        "KV331_SynthMaster"
       ],
       "daws": [
         "Bitwig",
@@ -3642,7 +3949,9 @@
       "aliases": [
         "Sylenth1",
         "Sylenth",
-        "LennarDigital Sylenth1"
+        "LennarDigital Sylenth1",
+        "Sylenth1_x64",
+        "LennarDigital_Sylenth1"
       ],
       "daws": [
         "Bitwig",
@@ -3666,15 +3975,18 @@
       "slug": "st1b",
       "name": "st1b",
       "manufacturer_slug": "lhi-audio",
-      "category": "utility",
+      "category": "effect",
       "subcategory": "general",
       "formats": [
-        "VST3",
         "VST2",
+        "VST3",
+        "AU",
         "CLAP"
       ],
       "aliases": [
-        "st1b"
+        "st1b",
+        "LHI Audio st1b",
+        "LHI_st1b"
       ],
       "daws": [
         "Bitwig",
@@ -3688,23 +4000,27 @@
         "windows",
         "macos"
       ],
-      "description": "Utility plugin for stereo monitoring and channel balance analysis.",
+      "description": "Single-band transient shaper with boost/cut up to 45dB and signal splitting into transient and body components.",
       "price_type": "paid",
-      "url": "https://lhiaudio.com/st1b/"
+      "url": "https://lhiaudio.com",
+      "year": 2021
     },
     {
       "slug": "st4b",
       "name": "st4b",
       "manufacturer_slug": "lhi-audio",
-      "category": "utility",
+      "category": "effect",
       "subcategory": "general",
       "formats": [
-        "VST3",
         "VST2",
+        "VST3",
+        "AU",
         "CLAP"
       ],
       "aliases": [
-        "st4b"
+        "st4b",
+        "LHI Audio st4b",
+        "LHI_st4b"
       ],
       "daws": [
         "Bitwig",
@@ -3718,9 +4034,10 @@
         "windows",
         "macos"
       ],
-      "description": "Utility plugin for multi-channel audio monitoring and signal routing.",
+      "description": "Multi-band transient shaper with proprietary detection algorithm, 45dB boost/cut range, and 2-sample latency.",
       "price_type": "paid",
-      "url": "https://lhiaudio.com/st4b/"
+      "url": "https://lhiaudio.com/st4b/",
+      "year": 2022
     },
     {
       "slug": "helm",
@@ -3733,7 +4050,9 @@
       ],
       "aliases": [
         "Helm",
-        "Matt Tytel Helm"
+        "Matt Tytel Helm",
+        "Helm_x64",
+        "Matt_Tytel_Helm"
       ],
       "daws": [
         "Bitwig",
@@ -3770,7 +4089,9 @@
         "Vital",
         "Vital Audio",
         "Matt Tytel Vital",
-        "Vitalium"
+        "Vitalium",
+        "Vital_x64",
+        "VitalSynth"
       ],
       "daws": [
         "Bitwig",
@@ -3804,7 +4125,9 @@
       "aliases": [
         "MAutoPitch",
         "Melda MAutoPitch",
-        "MeldaProduction MAutoPitch"
+        "MeldaProduction MAutoPitch",
+        "MAutoPitch_x64",
+        "Melda_MAutoPitch"
       ],
       "daws": [
         "Bitwig",
@@ -3941,7 +4264,9 @@
       ],
       "aliases": [
         "Current",
-        "Minimal Audio Current"
+        "Minimal Audio Current",
+        "Minimal_Audio_Current",
+        "Current_x64"
       ],
       "daws": [
         "Bitwig",
@@ -3971,7 +4296,10 @@
       ],
       "aliases": [
         "Rift",
-        "Minimal Audio Rift"
+        "Minimal Audio Rift",
+        "Minimal_Audio_Rift",
+        "Rift_x64",
+        "Rift 2"
       ],
       "daws": [
         "Bitwig",
@@ -4068,7 +4396,10 @@
       "aliases": [
         "Absynth 5",
         "NI Absynth 5",
-        "Absynth"
+        "Absynth",
+        "Absynth5",
+        "NI_Absynth_5",
+        "Native_Instruments_Absynth_5"
       ],
       "daws": [
         "Bitwig",
@@ -4103,7 +4434,10 @@
       "aliases": [
         "Battery 4",
         "NI Battery 4",
-        "Battery"
+        "Battery",
+        "Battery4",
+        "NI_Battery_4",
+        "Native_Instruments_Battery_4"
       ],
       "daws": [
         "Bitwig",
@@ -4136,7 +4470,10 @@
       "aliases": [
         "FM8",
         "NI FM8",
-        "Native Instruments FM8"
+        "Native Instruments FM8",
+        "FM8_x64",
+        "NI_FM8",
+        "Native_Instruments_FM8"
       ],
       "daws": [
         "Bitwig",
@@ -4170,7 +4507,10 @@
         "Guitar Rig 7",
         "NI Guitar Rig 7",
         "Guitar Rig",
-        "GuitarRig7"
+        "GuitarRig7",
+        "Guitar_Rig_7",
+        "NI_Guitar_Rig_7",
+        "GuitarRig"
       ],
       "daws": [
         "Bitwig",
@@ -4203,7 +4543,9 @@
       "aliases": [
         "Kontakt",
         "Kontakt (Legacy)",
-        "NI Kontakt"
+        "NI Kontakt",
+        "Native_Instruments_Kontakt",
+        "NI_Kontakt"
       ],
       "daws": [
         "Bitwig",
@@ -4236,7 +4578,9 @@
       "aliases": [
         "Kontakt 7",
         "NI Kontakt 7",
-        "Kontakt7"
+        "Kontakt7",
+        "Native_Instruments_Kontakt_7",
+        "NI_Kontakt_7"
       ],
       "daws": [
         "Bitwig",
@@ -4302,7 +4646,9 @@
       "aliases": [
         "Kontakt 8",
         "NI Kontakt 8",
-        "Kontakt8"
+        "Kontakt8",
+        "Native_Instruments_Kontakt_8",
+        "NI_Kontakt_8"
       ],
       "daws": [
         "Bitwig",
@@ -4334,7 +4680,12 @@
       "aliases": [
         "Massive",
         "NI Massive",
-        "Native Instruments Massive"
+        "Native Instruments Massive",
+        "Massive_x64",
+        "Native_Instruments_Massive",
+        "Valhalla_Supermassive",
+        "VhallaSupermassive",
+        "Supermassive"
       ],
       "daws": [
         "Bitwig",
@@ -4370,7 +4721,11 @@
         "Massive X",
         "MassiveX",
         "NI Massive X",
-        "Native Instruments Massive X"
+        "Native Instruments Massive X",
+        "Massive X_x64",
+        "MassiveX_x64",
+        "Massive_X",
+        "Native_Instruments_Massive_X"
       ],
       "daws": [
         "Bitwig",
@@ -4403,7 +4758,8 @@
       "aliases": [
         "Monark",
         "NI Monark",
-        "Native Instruments Monark"
+        "Native Instruments Monark",
+        "NI_Monark"
       ],
       "daws": [
         "Bitwig",
@@ -4437,7 +4793,10 @@
         "Reaktor 6",
         "NI Reaktor 6",
         "Reaktor",
-        "Native Instruments Reaktor 6"
+        "Native Instruments Reaktor 6",
+        "Reaktor6",
+        "NI_Reaktor_6",
+        "Native_Instruments_Reaktor_6"
       ],
       "daws": [
         "Bitwig",
@@ -4470,7 +4829,9 @@
       "aliases": [
         "Super 8",
         "NI Super 8",
-        "Native Instruments Super 8"
+        "Native Instruments Super 8",
+        "Super8",
+        "NI_Super_8"
       ],
       "daws": [
         "Bitwig",
@@ -4536,7 +4897,9 @@
       ],
       "aliases": [
         "Faturator",
-        "Nembrini Audio Faturator"
+        "Nembrini Audio Faturator",
+        "Nembrini_Faturator",
+        "Faturator_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4567,7 +4930,9 @@
       ],
       "aliases": [
         "Archetype Gojira",
-        "Neural DSP Archetype Gojira"
+        "Neural DSP Archetype Gojira",
+        "Neural_DSP_Archetype_Gojira",
+        "ArchetypeGojira"
       ],
       "daws": [
         "Bitwig",
@@ -4599,7 +4964,9 @@
       "aliases": [
         "Elevate",
         "Newfangled Audio Elevate",
-        "Eventide Elevate"
+        "Eventide Elevate",
+        "Newfangled_Audio_Elevate",
+        "Elevate_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4630,7 +4997,9 @@
       "aliases": [
         "Saturate",
         "Newfangled Audio Saturate",
-        "Eventide Saturate"
+        "Eventide Saturate",
+        "Newfangled_Audio_Saturate",
+        "Saturate_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4661,7 +5030,10 @@
       "aliases": [
         "Kickstart 2",
         "Kickstart",
-        "Nicky Romero Kickstart"
+        "Nicky Romero Kickstart",
+        "Kickstart2",
+        "Kickstart_2",
+        "Nicky_Romero_Kickstart"
       ],
       "daws": [
         "Bitwig",
@@ -4694,7 +5066,8 @@
         "soothe2",
         "Soothe 2",
         "soothe2_x64",
-        "oeksound soothe2"
+        "oeksound soothe2",
+        "oeksound_soothe2"
       ],
       "daws": [
         "Bitwig",
@@ -4726,7 +5099,9 @@
       ],
       "aliases": [
         "spiff",
-        "oeksound spiff"
+        "oeksound spiff",
+        "oeksound_spiff",
+        "spiff_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4821,7 +5196,9 @@
       ],
       "aliases": [
         "Movement",
-        "Output Movement"
+        "Output Movement",
+        "Output_Movement",
+        "Movement_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4853,7 +5230,9 @@
       ],
       "aliases": [
         "Portal",
-        "Output Portal"
+        "Output Portal",
+        "Output_Portal",
+        "Portal_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4919,7 +5298,9 @@
       ],
       "aliases": [
         "Thermal",
-        "Output Thermal"
+        "Output Thermal",
+        "Output_Thermal",
+        "Thermal_x64"
       ],
       "daws": [
         "Bitwig",
@@ -4983,7 +5364,8 @@
       "aliases": [
         "chipcrusher2",
         "Chipcrusher 2",
-        "chipcrusher2_x64"
+        "chipcrusher2_x64",
+        "Plogue_chipcrusher2"
       ],
       "daws": [
         "Bitwig",
@@ -5047,7 +5429,8 @@
         "CLAP"
       ],
       "aliases": [
-        "plugdata"
+        "plugdata",
+        "plugdata_x64"
       ],
       "daws": [
         "Bitwig",
@@ -5113,7 +5496,9 @@
       "aliases": [
         "bx_console",
         "Brainworx bx_console",
-        "Plugin Alliance bx_console"
+        "Plugin Alliance bx_console",
+        "bx_console_x64",
+        "Brainworx_bx_console"
       ],
       "daws": [
         "Bitwig",
@@ -5148,7 +5533,9 @@
       "aliases": [
         "bx_digital V3",
         "Brainworx bx_digital V3",
-        "bx_digital"
+        "bx_digital",
+        "bx_digitalV3",
+        "Brainworx_bx_digital_V3"
       ],
       "daws": [
         "Bitwig",
@@ -5182,7 +5569,10 @@
       ],
       "aliases": [
         "SPL De-Esser",
-        "Plugin Alliance SPL De-Esser"
+        "Plugin Alliance SPL De-Esser",
+        "SPL_De-Esser",
+        "SPL_DeEsser",
+        "Plugin_Alliance_SPL_De-Esser"
       ],
       "daws": [
         "Bitwig",
@@ -5216,7 +5606,9 @@
       ],
       "aliases": [
         "SPL Iron",
-        "Plugin Alliance SPL Iron"
+        "Plugin Alliance SPL Iron",
+        "SPL_Iron",
+        "Plugin_Alliance_SPL_Iron"
       ],
       "daws": [
         "Bitwig",
@@ -5249,7 +5641,9 @@
       "aliases": [
         "Scaler 2",
         "Plugin Boutique Scaler 2",
-        "Scaler2"
+        "Scaler2",
+        "Scaler_2",
+        "Plugin_Boutique_Scaler_2"
       ],
       "daws": [
         "Bitwig",
@@ -5279,7 +5673,9 @@
       ],
       "aliases": [
         "Comet",
-        "Polyverse Comet"
+        "Polyverse Comet",
+        "Polyverse_Comet",
+        "Comet_x64"
       ],
       "daws": [
         "Bitwig",
@@ -5310,7 +5706,9 @@
       "aliases": [
         "Wider",
         "Polyverse Wider",
-        "Infected Mushroom Wider"
+        "Infected Mushroom Wider",
+        "Polyverse_Wider",
+        "Wider_x64"
       ],
       "daws": [
         "Bitwig",
@@ -5341,7 +5739,9 @@
       "aliases": [
         "MelodySauce2",
         "MelodySauce 2",
-        "Melody Sauce 2"
+        "Melody Sauce 2",
+        "MelodySauce_2",
+        "QuantumSauce_MelodySauce2"
       ],
       "daws": [
         "Bitwig",
@@ -5371,7 +5771,9 @@
       ],
       "aliases": [
         "Blade 2",
-        "Rob Papen Blade 2"
+        "Rob Papen Blade 2",
+        "Blade2",
+        "Rob_Papen_Blade_2"
       ],
       "daws": [
         "Bitwig",
@@ -5401,7 +5803,9 @@
       ],
       "aliases": [
         "Predator 3",
-        "Rob Papen Predator 3"
+        "Rob Papen Predator 3",
+        "Predator3",
+        "Rob_Papen_Predator_3"
       ],
       "daws": [
         "Bitwig",
@@ -5431,7 +5835,9 @@
       ],
       "aliases": [
         "Transient Shaper",
-        "Schaack Audio Transient Shaper"
+        "Schaack Audio Transient Shaper",
+        "Schaack_Transient_Shaper",
+        "TransientShaper"
       ],
       "daws": [
         "Bitwig",
@@ -5453,15 +5859,18 @@
     {
       "slug": "argentcompressor",
       "name": "ArgentCompressor",
-      "manufacturer_slug": "sir-audio-tools",
+      "manufacturer_slug": "nimble-tools",
       "category": "effect",
       "subcategory": "compressor",
       "formats": [
-        "VST3"
+        "VST3",
+        "AU"
       ],
       "aliases": [
         "ArgentCompressor",
-        "SIR Audio ArgentCompressor"
+        "Argent Compressor",
+        "Nimble Argent",
+        "Nimble_Argent_Compressor"
       ],
       "daws": [
         "Bitwig",
@@ -5475,9 +5884,9 @@
         "windows",
         "macos"
       ],
-      "description": "Clean, transparent compressor with adjustable character from gentle to aggressive.",
-      "price_type": "paid",
-      "url": "https://www.siraudiotools.com/",
+      "description": "Extreme upward compressor designed for loud, aggressive dynamics processing with adjustable character.",
+      "price_type": "free",
+      "url": "https://nimble.tools/argent/",
       "year": 2022
     },
     {
@@ -5525,7 +5934,10 @@
       "aliases": [
         "FG-X 2",
         "Slate Digital FG-X 2",
-        "FGX2"
+        "FGX2",
+        "FG-X_2",
+        "FGX 2",
+        "Slate_Digital_FG-X_2"
       ],
       "daws": [
         "Bitwig",
@@ -5560,7 +5972,9 @@
       "aliases": [
         "Virtual Mix Rack",
         "VMR",
-        "Slate Digital Virtual Mix Rack"
+        "Slate Digital Virtual Mix Rack",
+        "Virtual_Mix_Rack",
+        "Slate_Digital_VMR"
       ],
       "daws": [
         "Bitwig",
@@ -5595,7 +6009,9 @@
       "aliases": [
         "Virtual Tape Machines",
         "VTM",
-        "Slate Digital Virtual Tape Machines"
+        "Slate Digital Virtual Tape Machines",
+        "Virtual_Tape_Machines",
+        "Slate_Digital_VTM"
       ],
       "daws": [
         "Bitwig",
@@ -5629,7 +6045,9 @@
       ],
       "aliases": [
         "Console 1",
-        "Softube Console 1"
+        "Softube Console 1",
+        "Softube_Console_1",
+        "Console1"
       ],
       "daws": [
         "Bitwig",
@@ -5663,7 +6081,10 @@
       ],
       "aliases": [
         "Saturation Knob",
-        "Softube Saturation Knob"
+        "Softube Saturation Knob",
+        "Saturation_Knob",
+        "SaturationKnob",
+        "Softube_Saturation_Knob"
       ],
       "daws": [
         "Bitwig",
@@ -5696,7 +6117,9 @@
       ],
       "aliases": [
         "Bitspeek",
-        "Sonic Charge Bitspeek"
+        "Sonic Charge Bitspeek",
+        "Sonic_Charge_Bitspeek",
+        "Bitspeek_x64"
       ],
       "daws": [
         "Bitwig",
@@ -5729,7 +6152,9 @@
       "aliases": [
         "Synplant",
         "Synplant 2",
-        "Sonic Charge Synplant"
+        "Sonic Charge Synplant",
+        "Synplant2",
+        "Sonic_Charge_Synplant"
       ],
       "daws": [
         "Bitwig",
@@ -5762,7 +6187,9 @@
       ],
       "aliases": [
         "Oxford Dynamics",
-        "Sonnox Oxford Dynamics"
+        "Sonnox Oxford Dynamics",
+        "Sonnox_Oxford_Dynamics",
+        "Oxford_Dynamics"
       ],
       "daws": [
         "Bitwig",
@@ -5796,7 +6223,9 @@
       ],
       "aliases": [
         "Oxford EQ",
-        "Sonnox Oxford EQ"
+        "Sonnox Oxford EQ",
+        "Sonnox_Oxford_EQ",
+        "Oxford_EQ"
       ],
       "daws": [
         "Bitwig",
@@ -5830,7 +6259,9 @@
       ],
       "aliases": [
         "Oxford Limiter",
-        "Sonnox Oxford Limiter"
+        "Sonnox Oxford Limiter",
+        "Sonnox_Oxford_Limiter",
+        "Oxford_Limiter"
       ],
       "daws": [
         "Bitwig",
@@ -5862,7 +6293,9 @@
       ],
       "aliases": [
         "Crystallizer",
-        "Soundtoys Crystallizer"
+        "Soundtoys Crystallizer",
+        "Soundtoys_Crystallizer",
+        "Crystallizer_x64"
       ],
       "daws": [
         "Bitwig",
@@ -5896,7 +6329,9 @@
       ],
       "aliases": [
         "Decapitator",
-        "Soundtoys Decapitator"
+        "Soundtoys Decapitator",
+        "Soundtoys_Decapitator",
+        "Decapitator_x64"
       ],
       "daws": [
         "Bitwig",
@@ -5930,7 +6365,10 @@
       "aliases": [
         "Devil-Loc",
         "Devil-Loc Deluxe",
-        "Soundtoys Devil-Loc"
+        "Soundtoys Devil-Loc",
+        "Soundtoys_Devil-Loc",
+        "DevilLoc",
+        "Devil-Loc_Deluxe"
       ],
       "daws": [
         "Bitwig",
@@ -5966,7 +6404,10 @@
       "aliases": [
         "EchoBoy",
         "Soundtoys EchoBoy",
-        "EchoBoy Jr"
+        "EchoBoy Jr",
+        "Soundtoys_EchoBoy",
+        "EchoBoy_x64",
+        "EchoBoy Jr."
       ],
       "daws": [
         "Bitwig",
@@ -6001,7 +6442,9 @@
         "FilterFreak",
         "Soundtoys FilterFreak",
         "FilterFreak 1",
-        "FilterFreak 2"
+        "FilterFreak 2",
+        "Soundtoys_FilterFreak",
+        "FilterFreak_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6036,7 +6479,9 @@
       "aliases": [
         "Little AlterBoy",
         "LittleAlterBoy",
-        "Soundtoys Little AlterBoy"
+        "Soundtoys Little AlterBoy",
+        "Soundtoys_Little_AlterBoy",
+        "Little_AlterBoy"
       ],
       "daws": [
         "Bitwig",
@@ -6070,7 +6515,9 @@
       ],
       "aliases": [
         "PanMan",
-        "Soundtoys PanMan"
+        "Soundtoys PanMan",
+        "Soundtoys_PanMan",
+        "PanMan_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6104,7 +6551,9 @@
       ],
       "aliases": [
         "PrimalTap",
-        "Soundtoys PrimalTap"
+        "Soundtoys PrimalTap",
+        "Soundtoys_PrimalTap",
+        "PrimalTap_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6136,7 +6585,9 @@
       ],
       "aliases": [
         "SoundToys Collection",
-        "Soundtoys 5"
+        "Soundtoys 5",
+        "Soundtoys_5",
+        "Soundtoys Effect Rack"
       ],
       "daws": [
         "Bitwig",
@@ -6169,7 +6620,9 @@
       ],
       "aliases": [
         "Tremolator",
-        "Soundtoys Tremolator"
+        "Soundtoys Tremolator",
+        "Soundtoys_Tremolator",
+        "Tremolator_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6203,7 +6656,9 @@
       ],
       "aliases": [
         "Keyscape",
-        "Spectrasonics Keyscape"
+        "Spectrasonics Keyscape",
+        "Keyscape_x64",
+        "Spectrasonics_Keyscape"
       ],
       "daws": [
         "Bitwig",
@@ -6238,7 +6693,9 @@
       "aliases": [
         "Omnisphere",
         "Omnisphere 2",
-        "Spectrasonics Omnisphere"
+        "Spectrasonics Omnisphere",
+        "Omnisphere_x64",
+        "Spectrasonics_Omnisphere"
       ],
       "daws": [
         "Bitwig",
@@ -6272,7 +6729,9 @@
       ],
       "aliases": [
         "Trilian",
-        "Spectrasonics Trilian"
+        "Spectrasonics Trilian",
+        "Trilian_x64",
+        "Spectrasonics_Trilian"
       ],
       "daws": [
         "Bitwig",
@@ -6307,7 +6766,9 @@
       "aliases": [
         "BBC Symphony Orchestra",
         "Spitfire BBC Symphony Orchestra",
-        "BBCSO"
+        "BBCSO",
+        "BBC_Symphony_Orchestra",
+        "Spitfire_BBCSO"
       ],
       "daws": [
         "Bitwig",
@@ -6341,7 +6802,9 @@
       "aliases": [
         "LABS",
         "Spitfire LABS",
-        "Spitfire Audio LABS"
+        "Spitfire Audio LABS",
+        "Spitfire_LABS",
+        "LABS_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6406,7 +6869,9 @@
       ],
       "aliases": [
         "Modnetic",
-        "Surreal Machines Modnetic"
+        "Surreal Machines Modnetic",
+        "Surreal_Machines_Modnetic",
+        "Modnetic_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6439,7 +6904,9 @@
       "aliases": [
         "TAL-Chorus-LX",
         "TAL Chorus LX",
-        "TAL-Chorus-LX-V2"
+        "TAL-Chorus-LX-V2",
+        "TAL_Chorus_LX",
+        "TALChorusLX"
       ],
       "daws": [
         "Bitwig",
@@ -6474,7 +6941,10 @@
       "aliases": [
         "TAL-Dub",
         "TAL Dub",
-        "TAL-Dub-3"
+        "TAL-Dub-3",
+        "TAL_Dub",
+        "TALDub",
+        "TAL-Dub-3_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6508,7 +6978,9 @@
       ],
       "aliases": [
         "TAL-Reverb-4",
-        "TAL Reverb 4"
+        "TAL Reverb 4",
+        "TAL_Reverb_4",
+        "TALReverb4"
       ],
       "daws": [
         "Bitwig",
@@ -6544,7 +7016,10 @@
       "aliases": [
         "TAL-U-NO-LX",
         "TAL U-NO-LX",
-        "TAL-U-NO-LX-V2"
+        "TAL-U-NO-LX-V2",
+        "TAL_U_NO_LX",
+        "TALUNOLX",
+        "TAL-U-NO-LX V2"
       ],
       "daws": [
         "Bitwig",
@@ -6579,7 +7054,9 @@
       "aliases": [
         "TDR Kotelnikov",
         "Kotelnikov",
-        "Tokyo Dawn Kotelnikov"
+        "Tokyo Dawn Kotelnikov",
+        "TDR_Kotelnikov",
+        "TDRKotelnikov"
       ],
       "daws": [
         "Bitwig",
@@ -6614,7 +7091,9 @@
       "aliases": [
         "TDR Nova",
         "Nova",
-        "Tokyo Dawn Nova"
+        "Tokyo Dawn Nova",
+        "TDR_Nova",
+        "TDRNova"
       ],
       "daws": [
         "Bitwig",
@@ -6649,7 +7128,10 @@
       "aliases": [
         "TDR VOS SlickEQ",
         "SlickEQ",
-        "Tokyo Dawn SlickEQ"
+        "Tokyo Dawn SlickEQ",
+        "TDR_VOS_SlickEQ",
+        "TDRSlickEQ",
+        "VOS SlickEQ"
       ],
       "daws": [
         "Bitwig",
@@ -6681,7 +7163,9 @@
       ],
       "aliases": [
         "Icarus 2",
-        "Tone2 Icarus 2"
+        "Tone2 Icarus 2",
+        "Icarus2",
+        "Tone2_Icarus_2"
       ],
       "daws": [
         "Bitwig",
@@ -6711,7 +7195,10 @@
       ],
       "aliases": [
         "EZdrummer 3",
-        "Toontrack EZdrummer 3"
+        "Toontrack EZdrummer 3",
+        "EZdrummer3",
+        "EZDrummer_3",
+        "Toontrack_EZdrummer_3"
       ],
       "daws": [
         "Bitwig",
@@ -6742,7 +7229,10 @@
       "aliases": [
         "Superior Drummer 3",
         "SD3",
-        "Toontrack Superior Drummer 3"
+        "Toontrack Superior Drummer 3",
+        "SuperiorDrummer3",
+        "Superior_Drummer_3",
+        "Toontrack_SD3"
       ],
       "daws": [
         "Bitwig",
@@ -6774,7 +7264,13 @@
       ],
       "aliases": [
         "ACE",
-        "u-he ACE"
+        "u-he ACE",
+        "Valhalla_SpaceModulator",
+        "Valhalla_Space_Modulator",
+        "SpaceModulator",
+        "u-he_ACE",
+        "uhe ACE",
+        "ACE_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6811,7 +7307,11 @@
       ],
       "aliases": [
         "Diva",
-        "u-he Diva"
+        "u-he Diva",
+        "u-he_Diva",
+        "Diva_x64",
+        "uhe Diva",
+        "uheDiva"
       ],
       "daws": [
         "Bitwig",
@@ -6848,7 +7348,9 @@
         "Hive 2",
         "u-he Hive 2",
         "Hive2",
-        "Hive"
+        "Hive",
+        "u-he_Hive_2",
+        "uhe Hive 2"
       ],
       "daws": [
         "Bitwig",
@@ -6883,7 +7385,9 @@
       ],
       "aliases": [
         "Presswerk",
-        "u-he Presswerk"
+        "u-he Presswerk",
+        "u-he_Presswerk",
+        "uhe Presswerk"
       ],
       "daws": [
         "Bitwig",
@@ -6920,7 +7424,10 @@
         "Repro-1",
         "u-he Repro-1",
         "Repro1",
-        "Repro"
+        "Repro",
+        "u-he_Repro-1",
+        "uhe Repro-1",
+        "Repro-1_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6956,7 +7463,10 @@
       "aliases": [
         "Repro-5",
         "u-he Repro-5",
-        "Repro5"
+        "Repro5",
+        "u-he_Repro-5",
+        "uhe Repro-5",
+        "Repro-5_x64"
       ],
       "daws": [
         "Bitwig",
@@ -6991,7 +7501,10 @@
       ],
       "aliases": [
         "Satin",
-        "u-he Satin"
+        "u-he Satin",
+        "u-he_Satin",
+        "uhe Satin",
+        "Satin_x64"
       ],
       "daws": [
         "Bitwig",
@@ -7030,7 +7543,11 @@
         "Zebra 2",
         "u-he Zebra 2",
         "Zebra2",
-        "ZebraHZ"
+        "ZebraHZ",
+        "u-he_Zebra_2",
+        "Zebra_2",
+        "Zebra",
+        "uhe Zebra 2"
       ],
       "daws": [
         "Bitwig",
@@ -7063,7 +7580,10 @@
       ],
       "aliases": [
         "Sandman Pro",
-        "Unfiltered Audio Sandman Pro"
+        "Unfiltered Audio Sandman Pro",
+        "Sandman_Pro",
+        "SandmanPro",
+        "Unfiltered_Audio_Sandman_Pro"
       ],
       "daws": [
         "Bitwig",
@@ -7092,7 +7612,9 @@
         "VST3"
       ],
       "aliases": [
-        "Valhalla DSP Collection"
+        "Valhalla DSP Collection",
+        "Valhalla DSP Bundle",
+        "ValhallaDSP"
       ],
       "daws": [
         "Bitwig",
@@ -7122,7 +7644,9 @@
       ],
       "aliases": [
         "ValhallaDelay",
-        "Valhalla Delay"
+        "Valhalla Delay",
+        "Valhalla_Delay",
+        "VhallaDelay"
       ],
       "daws": [
         "Bitwig",
@@ -7153,7 +7677,10 @@
       "aliases": [
         "ValhallaFreqEcho",
         "Valhalla FreqEcho",
-        "Valhalla Freq Echo"
+        "Valhalla Freq Echo",
+        "Valhalla_FreqEcho",
+        "Valhalla_Freq_Echo",
+        "FreqEcho"
       ],
       "daws": [
         "Bitwig",
@@ -7183,7 +7710,9 @@
       ],
       "aliases": [
         "ValhallaPlate",
-        "Valhalla Plate"
+        "Valhalla Plate",
+        "Valhalla_Plate",
+        "VhallaPlate"
       ],
       "daws": [
         "Bitwig",
@@ -7213,7 +7742,9 @@
       ],
       "aliases": [
         "ValhallaRoom",
-        "Valhalla Room"
+        "Valhalla Room",
+        "Valhalla_Room",
+        "VhallaRoom"
       ],
       "daws": [
         "Bitwig",
@@ -7243,7 +7774,9 @@
       ],
       "aliases": [
         "ValhallaShimmer",
-        "Valhalla Shimmer"
+        "Valhalla Shimmer",
+        "Valhalla_Shimmer",
+        "VhallaShimmer"
       ],
       "daws": [
         "Bitwig",
@@ -7338,7 +7871,9 @@
       ],
       "aliases": [
         "ValhallaUberMod",
-        "Valhalla UberMod"
+        "Valhalla UberMod",
+        "Valhalla_UberMod",
+        "UberMod"
       ],
       "daws": [
         "Bitwig",
@@ -7372,7 +7907,10 @@
       "aliases": [
         "ValhallaVintageVerb",
         "Valhalla VintageVerb",
-        "Valhalla Vintage Verb"
+        "Valhalla Vintage Verb",
+        "Valhalla_VintageVerb",
+        "Valhalla_Vintage_Verb",
+        "VintageVerb"
       ],
       "daws": [
         "Bitwig",
@@ -7402,7 +7940,9 @@
       ],
       "aliases": [
         "Marvel GEQ",
-        "Voxengo Marvel GEQ"
+        "Voxengo Marvel GEQ",
+        "Voxengo_Marvel_GEQ",
+        "MarvelGEQ"
       ],
       "daws": [
         "Bitwig",
@@ -7433,7 +7973,9 @@
       ],
       "aliases": [
         "MSED",
-        "Voxengo MSED"
+        "Voxengo MSED",
+        "Voxengo_MSED",
+        "MSED_x64"
       ],
       "daws": [
         "Bitwig",
@@ -7465,7 +8007,9 @@
       ],
       "aliases": [
         "SPAN",
-        "Voxengo SPAN"
+        "Voxengo SPAN",
+        "Voxengo_SPAN",
+        "SPAN_x64"
       ],
       "daws": [
         "Bitwig",
@@ -7496,7 +8040,9 @@
       ],
       "aliases": [
         "SPAN Plus",
-        "Voxengo SPAN Plus"
+        "Voxengo SPAN Plus",
+        "Voxengo_SPAN_Plus",
+        "SPANPlus"
       ],
       "daws": [
         "Bitwig",
@@ -7529,7 +8075,9 @@
       ],
       "aliases": [
         "Abbey Road Plates",
-        "Waves Abbey Road Plates"
+        "Waves Abbey Road Plates",
+        "Waves_Abbey_Road_Plates",
+        "AbbeyRoadPlates"
       ],
       "daws": [
         "Bitwig",
@@ -7563,7 +8111,9 @@
       ],
       "aliases": [
         "CLA-2A",
-        "Waves CLA-2A"
+        "Waves CLA-2A",
+        "Waves_CLA-2A",
+        "CLA2A"
       ],
       "daws": [
         "Bitwig",
@@ -7597,7 +8147,9 @@
       ],
       "aliases": [
         "CLA-76",
-        "Waves CLA-76"
+        "Waves CLA-76",
+        "Waves_CLA-76",
+        "CLA76"
       ],
       "daws": [
         "Bitwig",
@@ -7632,7 +8184,10 @@
       "aliases": [
         "H-Delay",
         "Waves H-Delay",
-        "HDelay"
+        "HDelay",
+        "Waves_H-Delay",
+        "H-Delay_x64",
+        "H Delay"
       ],
       "daws": [
         "Bitwig",
@@ -7667,7 +8222,10 @@
       "aliases": [
         "J37 Tape",
         "J37",
-        "Waves J37"
+        "Waves J37",
+        "J37_Tape",
+        "Waves_J37",
+        "J37Tape"
       ],
       "daws": [
         "Bitwig",
@@ -7702,7 +8260,9 @@
       "aliases": [
         "L1 Ultramaximizer",
         "L1",
-        "Waves L1"
+        "Waves L1",
+        "L1_Ultramaximizer",
+        "Waves_L1"
       ],
       "daws": [
         "Bitwig",
@@ -7737,7 +8297,9 @@
       "aliases": [
         "L2 Ultramaximizer",
         "L2",
-        "Waves L2"
+        "Waves L2",
+        "L2_Ultramaximizer",
+        "Waves_L2"
       ],
       "daws": [
         "Bitwig",
@@ -7770,7 +8332,9 @@
       "aliases": [
         "Renaissance Bass",
         "RBass",
-        "Waves RBass"
+        "Waves RBass",
+        "Waves_RBass",
+        "Renaissance_Bass"
       ],
       "daws": [
         "Bitwig",
@@ -7802,7 +8366,10 @@
       "aliases": [
         "Renaissance Compressor",
         "RComp",
-        "Waves RComp"
+        "Waves RComp",
+        "Waves_RComp",
+        "RCompressor",
+        "Renaissance_Compressor"
       ],
       "daws": [
         "Bitwig",
@@ -7834,7 +8401,10 @@
       "aliases": [
         "Renaissance EQ",
         "REQ",
-        "Waves REQ"
+        "Waves REQ",
+        "Waves_REQ",
+        "Renaissance_EQ",
+        "REQ6"
       ],
       "daws": [
         "Bitwig",
@@ -7868,7 +8438,9 @@
       "aliases": [
         "RVox",
         "R-Vox",
-        "Waves RVox"
+        "Waves RVox",
+        "Waves_RVox",
+        "Renaissance_Vox"
       ],
       "daws": [
         "Bitwig",
@@ -7900,7 +8472,9 @@
       ],
       "aliases": [
         "Scheps Omni Channel",
-        "Waves Scheps Omni Channel"
+        "Waves Scheps Omni Channel",
+        "Waves_Scheps_Omni_Channel",
+        "SchepsOmniChannel"
       ],
       "daws": [
         "Bitwig",
@@ -7933,7 +8507,10 @@
       ],
       "aliases": [
         "SSL E-Channel",
-        "Waves SSL E-Channel"
+        "Waves SSL E-Channel",
+        "SSL_E-Channel",
+        "Waves_SSL_E-Channel",
+        "SSL EChannel"
       ],
       "daws": [
         "Bitwig",
@@ -7968,7 +8545,10 @@
       "aliases": [
         "SSL G-Master Buss Compressor",
         "SSL G-Master Buss",
-        "Waves SSL G-Master"
+        "Waves SSL G-Master",
+        "SSL_G-Master_Buss_Compressor",
+        "Waves_SSL_G-Master",
+        "SSL G-Comp"
       ],
       "daws": [
         "Bitwig",
@@ -8003,7 +8583,9 @@
       "aliases": [
         "Vitamin",
         "Waves Vitamin",
-        "Vitamin Sonic Enhancer"
+        "Vitamin Sonic Enhancer",
+        "Waves_Vitamin",
+        "Vitamin_Sonic_Enhancer"
       ],
       "daws": [
         "Bitwig",
@@ -8037,7 +8619,11 @@
       "aliases": [
         "WaveShell1-VST3 14.12_x64",
         "WaveShell",
-        "Waves WaveShell"
+        "Waves WaveShell",
+        "WaveShell1-VST3_14.0_x64",
+        "WaveShell1-VST3 14.0_x64",
+        "WaveShell_x64",
+        "WaveShell1-VST3"
       ],
       "daws": [
         "Bitwig",
@@ -8068,7 +8654,9 @@
       ],
       "aliases": [
         "Spectre",
-        "Wavesfactory Spectre"
+        "Wavesfactory Spectre",
+        "Wavesfactory_Spectre",
+        "Spectre_x64"
       ],
       "daws": [
         "Bitwig",
@@ -8099,7 +8687,10 @@
       ],
       "aliases": [
         "Trackspacer",
-        "Wavesfactory Trackspacer"
+        "Wavesfactory Trackspacer",
+        "Wavesfactory_Trackspacer",
+        "Trackspacer_x64",
+        "Trackspacer 2"
       ],
       "daws": [
         "Bitwig",
@@ -8132,7 +8723,9 @@
       "aliases": [
         "Cthulhu",
         "Xfer Cthulhu",
-        "Cthulhu_x64"
+        "Cthulhu_x64",
+        "Xfer Records Cthulhu",
+        "Xfer_Cthulhu"
       ],
       "daws": [
         "Bitwig",
@@ -8166,7 +8759,11 @@
       "aliases": [
         "LFOTool",
         "LFO Tool",
-        "Xfer LFOTool"
+        "Xfer LFOTool",
+        "LFOTool_x64",
+        "Xfer_LFOTool",
+        "Xfer Records LFOTool",
+        "LFO_Tool"
       ],
       "daws": [
         "Bitwig",
@@ -8200,7 +8797,10 @@
       ],
       "aliases": [
         "OTT",
-        "Xfer OTT"
+        "Xfer OTT",
+        "Xfer_OTT",
+        "OTT_x64",
+        "Xfer Records OTT"
       ],
       "daws": [
         "Bitwig",
@@ -8235,7 +8835,10 @@
       "aliases": [
         "Serum",
         "Xfer Serum",
-        "SerumFX"
+        "SerumFX",
+        "Serum_x64",
+        "Xfer_Serum",
+        "Xfer Records Serum"
       ],
       "daws": [
         "Bitwig",
@@ -8268,7 +8871,11 @@
       "aliases": [
         "Serum 2",
         "Serum2",
-        "Xfer Serum 2"
+        "Xfer Serum 2",
+        "Serum 2_x64",
+        "Serum_2",
+        "Xfer_Serum_2",
+        "Xfer Records Serum 2"
       ],
       "daws": [
         "Bitwig",
@@ -8300,7 +8907,10 @@
       "aliases": [
         "Addictive Drums 2",
         "AD2",
-        "XLN Audio Addictive Drums 2"
+        "XLN Audio Addictive Drums 2",
+        "AddictiveDrums2",
+        "Addictive_Drums_2",
+        "XLN_Audio_AD2"
       ],
       "daws": [
         "Bitwig",
@@ -8331,7 +8941,10 @@
       "aliases": [
         "RC-20 Retro Color",
         "RC-20",
-        "XLN Audio RC-20"
+        "XLN Audio RC-20",
+        "RC20",
+        "RC-20_Retro_Color",
+        "XLN_Audio_RC-20"
       ],
       "daws": [
         "Bitwig",
@@ -8362,7 +8975,9 @@
       ],
       "aliases": [
         "Youlean Loudness Meter 2",
-        "Youlean Loudness Meter"
+        "Youlean Loudness Meter",
+        "Youlean_Loudness_Meter_2",
+        "YouleanLoudnessMeter2"
       ],
       "daws": [
         "Bitwig",
@@ -8393,7 +9008,9 @@
       "aliases": [
         "PITCHMAP COLORS",
         "PITCHMAP COLORS VST3",
-        "Zynaptiq PITCHMAP"
+        "Zynaptiq PITCHMAP",
+        "Zynaptiq_PITCHMAP_COLORS",
+        "PITCHMAP"
       ],
       "daws": [
         "Bitwig",
@@ -8411,6 +9028,1749 @@
       "price_type": "paid",
       "year": 2020,
       "url": "https://zynaptiq.com/pitchmap/"
+    },
+    {
+      "slug": "rob-papen-blue-ii",
+      "name": "Blue II",
+      "manufacturer_slug": "rob-papen",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Cross-fusion synthesizer combining FM, subtractive, phase distortion, and waveshaping synthesis with extensive modulation.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Blue II",
+        "Rob Papen Blue II",
+        "Blue-II",
+        "RP-Blue II"
+      ],
+      "year": 2013,
+      "url": "https://www.robpapen.com/blue-ii.html"
+    },
+    {
+      "slug": "reveal-sound-spire",
+      "name": "Spire",
+      "manufacturer_slug": "reveal-sound",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Polyphonic software synthesizer combining powerful sound engine with flexible architecture and a wide variety of synthesis techniques.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Spire",
+        "Reveal Sound Spire",
+        "Spire VST"
+      ],
+      "year": 2014,
+      "url": "https://www.reveal-sound.com/plug-ins/spire"
+    },
+    {
+      "slug": "synapse-audio-dune-3",
+      "name": "Dune 3",
+      "manufacturer_slug": "synapse-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "VA/wavetable hybrid synthesizer with massive unison, dual filters, 8200+ presets, and GPU-accelerated oscillators.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "DUNE 3",
+        "Synapse Audio DUNE 3",
+        "Dune3"
+      ],
+      "year": 2018,
+      "url": "https://www.synapse-audio.com/dune3.html"
+    },
+    {
+      "slug": "tone2-gladiator-3",
+      "name": "Gladiator 3",
+      "manufacturer_slug": "tone2",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Harmonic content morphing synthesizer with 38 synthesis types, built-in effects, and a resynthesis engine.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Gladiator 3",
+        "Tone2 Gladiator 3",
+        "Gladiator3"
+      ],
+      "year": 2021,
+      "url": "https://www.tone2.com/gladiator3.html"
+    },
+    {
+      "slug": "cakewalk-z3ta-2",
+      "name": "Z3TA+ 2",
+      "manufacturer_slug": "bandlab",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Waveshaping synthesizer with 6 oscillators, advanced modulation matrix, and built-in arpeggiator and effects.",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Z3TA+ 2",
+        "z3ta+2",
+        "Cakewalk Z3TA+ 2",
+        "Z3TA 2"
+      ],
+      "year": 2013,
+      "url": "https://www.bandlab.com/products/cakewalk"
+    },
+    {
+      "slug": "surge-xt",
+      "name": "Surge XT",
+      "manufacturer_slug": "surge-synth-team",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Free open-source hybrid synthesizer with 3 oscillators, 2 filter stages, a modulation matrix, and over 2800 factory patches.",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP",
+        "LV2",
+        "Standalone"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Surge XT",
+        "SurgeXT",
+        "Surge Synth",
+        "Surge Synthesizer"
+      ],
+      "year": 2022,
+      "url": "https://surge-synthesizer.github.io/"
+    },
+    {
+      "slug": "cardinal",
+      "name": "Cardinal",
+      "manufacturer_slug": "distrho",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Free open-source virtual modular synthesizer, a self-contained plugin port of VCV Rack with over 1300 modules.",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP",
+        "LV2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Cardinal",
+        "DISTRHO Cardinal",
+        "Cardinal Synth",
+        "Cardinal FX",
+        "CardinalMini"
+      ],
+      "year": 2022,
+      "url": "https://github.com/DISTRHO/Cardinal"
+    },
+    {
+      "slug": "dexed",
+      "name": "Dexed",
+      "manufacturer_slug": "digital-suburban",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Free open-source FM synthesizer closely modeled on the Yamaha DX7, compatible with original DX7 SysEx patches.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "CLAP",
+        "LV2",
+        "Standalone"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Dexed",
+        "Dexed FM",
+        "Dexed DX7"
+      ],
+      "year": 2014,
+      "url": "https://asb2m10.github.io/dexed/"
+    },
+    {
+      "slug": "zynaddsubfx",
+      "name": "ZynAddSubFX",
+      "manufacturer_slug": "zynaddsubfx-team",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Free open-source software synthesizer with additive, subtractive, and pad synthesis engines plus extensive effects.",
+      "formats": [
+        "VST3",
+        "LV2",
+        "Standalone"
+      ],
+      "daws": [
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "ZynAddSubFX",
+        "Zyn",
+        "ZynAddSubFX VST"
+      ],
+      "year": 2002,
+      "url": "https://zynaddsubfx.sourceforge.io/"
+    },
+    {
+      "slug": "klanghelm-ivgi",
+      "name": "IVGI",
+      "manufacturer_slug": "klanghelm",
+      "category": "effect",
+      "subcategory": "saturation",
+      "description": "Free saturation plugin offering smooth analog-style tube/tape warmth with asymmetric distortion and a tilt EQ.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "IVGI",
+        "Klanghelm IVGI"
+      ],
+      "year": 2014,
+      "url": "https://klanghelm.com/contents/products/IVGI.php"
+    },
+    {
+      "slug": "airwindows-consolidated",
+      "name": "Airwindows Consolidated",
+      "manufacturer_slug": "airwindows",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Massive free collection of 300+ audio effects in a single plugin, covering EQ, compression, saturation, reverb, and experimental processing.",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Airwindows Consolidated",
+        "Airwindows",
+        "Airwindows Console",
+        "Chris Johnson Airwindows"
+      ],
+      "year": 2023,
+      "url": "https://www.airwindows.com/"
+    },
+    {
+      "slug": "blue-cat-free-pack",
+      "name": "Blue Cat Free Pack",
+      "manufacturer_slug": "blue-cat-audio",
+      "category": "utility",
+      "subcategory": "general",
+      "description": "Free bundle of audio analysis and processing plugins including a spectrum analyzer, gain suite, chorus, phaser, and frequency analyzer.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Blue Cat Free Pack",
+        "Blue Cat Audio Freeware Pack",
+        "Blue Cat FreqAnalyst"
+      ],
+      "year": 2007,
+      "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/"
+    },
+    {
+      "slug": "meldaproduction-mfreefxbundle",
+      "name": "MFreeFXBundle",
+      "manufacturer_slug": "meldaproduction",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Free bundle of 37 audio plugins covering EQ, dynamics, analysis, modulation, reverb, and utility processing.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "MFreeFXBundle",
+        "MeldaProduction Free FX Bundle",
+        "Melda Free Bundle",
+        "MFreeEffectsBundle"
+      ],
+      "year": 2010,
+      "url": "https://www.meldaproduction.com/MFreeFXBundle"
+    },
+    {
+      "slug": "bertom-denoiser",
+      "name": "Denoiser",
+      "manufacturer_slug": "bertom-audio",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Free noise reduction plugin with spectral processing for removing broadband noise, hiss, and hum from audio signals.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Bertom Denoiser",
+        "Denoiser Classic",
+        "Bertom Denoiser Classic"
+      ],
+      "year": 2020,
+      "url": "https://www.bertomaudio.com/denoiser.html"
+    },
+    {
+      "slug": "slate-digital-fresh-air",
+      "name": "Fresh Air",
+      "manufacturer_slug": "slate-digital",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Free high-frequency exciter and presence enhancer with two bands for adding clarity and air to vocals and instruments.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Fresh Air",
+        "Slate Digital Fresh Air",
+        "Slate Fresh Air"
+      ],
+      "year": 2021,
+      "url": "https://slatedigital.com/fresh-air/"
+    },
+    {
+      "slug": "analog-obsession-buster",
+      "name": "BUSTERse",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "description": "Free bus compressor modeled after classic SSL-style bus compressor topology with auto-release and sidechain HPF.",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "BUSTERse",
+        "Analog Obsession BUSTERse",
+        "BUSTER"
+      ],
+      "year": 2021,
+      "url": "https://www.patreon.com/analogobsession"
+    },
+    {
+      "slug": "analog-obsession-tube",
+      "name": "TuBe",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "saturation",
+      "description": "Free tube saturation plugin emulating 12AX7 tube warmth with drive control and mix blend.",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "TuBe",
+        "Analog Obsession TuBe"
+      ],
+      "year": 2020,
+      "url": "https://www.patreon.com/analogobsession"
+    },
+    {
+      "slug": "analog-obsession-britchannel",
+      "name": "BritChannel",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Free British-style console channel strip with 4-band EQ, HPF/LPF, compressor, and gate.",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "BritChannel",
+        "Analog Obsession BritChannel"
+      ],
+      "year": 2021,
+      "url": "https://www.patreon.com/analogobsession"
+    },
+    {
+      "slug": "analog-obsession-channev",
+      "name": "CHANnev",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Free Neve-style channel strip with 3-band inductor EQ, high-pass filter, and preamp drive.",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "CHANnev",
+        "Analog Obsession CHANnev"
+      ],
+      "year": 2021,
+      "url": "https://www.patreon.com/analogobsession"
+    },
+    {
+      "slug": "analog-obsession-distox",
+      "name": "disto-X",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "distortion",
+      "description": "Free multi-mode distortion plugin with 5 distortion types, tone control, and mix blend.",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "disto-X",
+        "Analog Obsession disto-X",
+        "distoX"
+      ],
+      "year": 2022,
+      "url": "https://www.patreon.com/analogobsession"
+    },
+    {
+      "slug": "izotope-music-production-suite",
+      "name": "Music Production Suite",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Comprehensive suite bundling Ozone, Neutron, Nectar, RX, and Insight for complete mixing, mastering, and repair workflows.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Music Production Suite",
+        "iZotope Music Production Suite",
+        "iZotope MPS"
+      ],
+      "year": 2017,
+      "url": "https://www.izotope.com/en/shop/music-production-suite.html"
+    },
+    {
+      "slug": "izotope-insight-2",
+      "name": "Insight 2",
+      "manufacturer_slug": "izotope",
+      "category": "utility",
+      "subcategory": "meter",
+      "description": "Professional metering and audio analysis suite with loudness, spectrum, stereo field, and intelligibility meters.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Insight 2",
+        "iZotope Insight 2",
+        "Insight2"
+      ],
+      "year": 2018,
+      "url": "https://www.izotope.com/en/products/insight.html"
+    },
+    {
+      "slug": "waves-horizon",
+      "name": "Waves Horizon",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Flagship Waves bundle containing 80+ plugins including compressors, EQs, reverbs, delays, and mastering tools.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Waves Horizon",
+        "Waves Horizon Bundle"
+      ],
+      "year": 2003,
+      "url": "https://www.waves.com/bundles/horizon"
+    },
+    {
+      "slug": "waves-api-2500",
+      "name": "API 2500",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "compressor",
+      "description": "Stereo bus compressor plugin modeled after the API 2500 hardware, known for punchy bus compression.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "API 2500",
+        "Waves API 2500",
+        "API2500"
+      ],
+      "year": 2007,
+      "url": "https://www.waves.com/plugins/api-2500"
+    },
+    {
+      "slug": "waves-api-550a",
+      "name": "API 550A",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Modeled 3-band EQ based on the classic API 550A hardware with proportional-Q behavior.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "API 550A",
+        "Waves API 550A",
+        "API550A"
+      ],
+      "year": 2008,
+      "url": "https://www.waves.com/plugins/api-550a"
+    },
+    {
+      "slug": "waves-cla-mixhub",
+      "name": "CLA MixHub",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Channel strip plugin modeled after the console used by Chris Lord-Alge, with EQ, compression, gating, and drive.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "CLA MixHub",
+        "Waves CLA MixHub",
+        "CLA-MixHub"
+      ],
+      "year": 2021,
+      "url": "https://www.waves.com/plugins/cla-mixhub"
+    },
+    {
+      "slug": "waves-puigtec-eqp1a",
+      "name": "PuigTec EQP1A",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Modeled passive EQ based on the Pultec EQP-1A hardware, tuned by producer Jack Joseph Puig.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "PuigTec EQP1A",
+        "Waves PuigTec EQP1A",
+        "PuigTec EQP-1A"
+      ],
+      "year": 2008,
+      "url": "https://www.waves.com/plugins/puigtec-eqp1a"
+    },
+    {
+      "slug": "plugin-alliance-mega-bundle",
+      "name": "Plugin Alliance Mega Bundle",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "All-inclusive subscription bundle containing 130+ plugins from Brainworx, SPL, Lindell, Unfiltered Audio, and more.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Plugin Alliance Mega Bundle",
+        "PA Mega Bundle"
+      ],
+      "year": 2018,
+      "url": "https://www.plugin-alliance.com/en/products/mega-bundle.html"
+    },
+    {
+      "slug": "bx-subsynth",
+      "name": "bx_subsynth",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Bass enhancement plugin that synthesizes sub-harmonics from the input signal to add weight and low-end power.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "bx_subsynth",
+        "Brainworx bx_subsynth",
+        "bx subsynth"
+      ],
+      "year": 2016,
+      "url": "https://www.plugin-alliance.com/en/products/bx_subsynth.html"
+    },
+    {
+      "slug": "bx-masterdesk",
+      "name": "bx_masterdesk",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "All-in-one mastering plugin with chain of tone shaping, stereo width, compression, limiting, and volume control.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "bx_masterdesk",
+        "Brainworx bx_masterdesk",
+        "bx masterdesk"
+      ],
+      "year": 2017,
+      "url": "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
+    },
+    {
+      "slug": "boz-digital-panipulator",
+      "name": "Panipulator",
+      "manufacturer_slug": "boz-digital-labs",
+      "category": "utility",
+      "subcategory": "general",
+      "description": "Free utility plugin for checking mono compatibility, swapping channels, adjusting stereo width, and inverting phase.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Panipulator",
+        "Boz Panipulator",
+        "Boz Digital Labs Panipulator"
+      ],
+      "year": 2017,
+      "url": "https://www.bozdigitallabs.com/product/panipulator/"
+    },
+    {
+      "slug": "audiority-limited-z",
+      "name": "Limited-Z",
+      "manufacturer_slug": "audiority",
+      "category": "effect",
+      "subcategory": "limiter",
+      "description": "Free brickwall limiter with true peak limiting, auto-release, and loudness metering for mastering and bus processing.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Limited-Z",
+        "LVC Audio Limited-Z",
+        "Audiority Limited-Z"
+      ],
+      "year": 2018,
+      "url": "https://www.audiority.com/shop/limited-z/"
+    },
+    {
+      "slug": "aegean-music-pitchproof",
+      "name": "Pitchproof",
+      "manufacturer_slug": "aegean-music",
+      "category": "effect",
+      "subcategory": "pitch",
+      "description": "Free pitch-shifting plugin that adds harmonies at fixed intervals to the input signal.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Pitchproof",
+        "Aegean Music Pitchproof"
+      ],
+      "year": 2016,
+      "url": "https://aegeanmusic.com/pitchproof-specs"
+    },
+    {
+      "slug": "variety-of-sound-epicverb",
+      "name": "epicVerb",
+      "manufacturer_slug": "variety-of-sound",
+      "category": "effect",
+      "subcategory": "reverb",
+      "description": "Free algorithmic reverb with 6 room types, modulation, damping, and pre-delay controls.",
+      "formats": [
+        "VST2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "epicVerb",
+        "Variety Of Sound epicVerb",
+        "VoS epicVerb"
+      ],
+      "year": 2011,
+      "url": "https://varietyofsound.wordpress.com/downloads/"
+    },
+    {
+      "slug": "variety-of-sound-ferrictds",
+      "name": "FerricTDS",
+      "manufacturer_slug": "variety-of-sound",
+      "category": "effect",
+      "subcategory": "saturation",
+      "description": "Free tape dynamics simulator that combines tape saturation with subtle compression characteristics.",
+      "formats": [
+        "VST2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "FerricTDS",
+        "Variety Of Sound FerricTDS",
+        "VoS FerricTDS"
+      ],
+      "year": 2012,
+      "url": "https://varietyofsound.wordpress.com/downloads/"
+    },
+    {
+      "slug": "chowdsp-chow-tape-model",
+      "name": "ChowTapeModel",
+      "manufacturer_slug": "chowdsp",
+      "category": "effect",
+      "subcategory": "saturation",
+      "description": "Free open-source physical model of a Sony TC-260 reel-to-reel tape machine with wow, flutter, and degradation.",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP",
+        "LV2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "ChowTapeModel",
+        "Chow Tape Model",
+        "CHOW Tape"
+      ],
+      "year": 2020,
+      "url": "https://chowdsp.com/products.html"
+    },
+    {
+      "slug": "chowdsp-chow-centaur",
+      "name": "ChowCentaur",
+      "manufacturer_slug": "chowdsp",
+      "category": "effect",
+      "subcategory": "distortion",
+      "description": "Free open-source overdrive plugin modeled after the Klon Centaur guitar pedal using neural network emulation.",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP",
+        "LV2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "ChowCentaur",
+        "Chow Centaur",
+        "ChowDSP Centaur"
+      ],
+      "year": 2020,
+      "url": "https://chowdsp.com/products.html"
+    },
+    {
+      "slug": "a1audio-a1stereocontrol",
+      "name": "A1StereoControl",
+      "manufacturer_slug": "alex-hilton",
+      "category": "utility",
+      "subcategory": "general",
+      "description": "Free stereo width and mid/side control plugin with correlation meter and safe bass mono switch.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "A1StereoControl",
+        "A1 Stereo Control",
+        "Alex Hilton A1StereoControl"
+      ],
+      "year": 2015,
+      "url": "https://a1audio.alexhilton.net/a1stereocontrol"
+    },
+    {
+      "slug": "a1audio-a1triggergate",
+      "name": "A1TriggerGate",
+      "manufacturer_slug": "alex-hilton",
+      "category": "effect",
+      "subcategory": "gate",
+      "description": "Free rhythmic trance gate sequencer with 16 steps, tempo sync, and adjustable gate shapes.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "A1TriggerGate",
+        "A1 Trigger Gate",
+        "Alex Hilton A1TriggerGate"
+      ],
+      "year": 2016,
+      "url": "https://a1audio.alexhilton.net/a1triggergate"
+    },
+    {
+      "slug": "lkjb-luftikus",
+      "name": "Luftikus",
+      "manufacturer_slug": "lkjb",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Free analog-modeled semi-parametric EQ inspired by the Maag EQ4, with a fixed high-frequency air band at 2.5/5/10/20/40 kHz.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Luftikus",
+        "lkjb Luftikus"
+      ],
+      "year": 2014,
+      "url": "https://lkjbdsp.wordpress.com/luftikus/"
+    },
+    {
+      "slug": "sonic-anomaly-transpire",
+      "name": "Transpire",
+      "manufacturer_slug": "sonic-anomaly",
+      "category": "effect",
+      "subcategory": "compressor",
+      "description": "Free transient shaper plugin with attack and sustain controls for punch and body adjustment.",
+      "formats": [
+        "VST2"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows"
+      ],
+      "price_type": "free",
+      "aliases": [
+        "Transpire",
+        "Sonic Anomaly Transpire"
+      ],
+      "year": 2015,
+      "url": "https://sonic.supermaailma.net/plugins"
+    },
+    {
+      "slug": "acustica-audio-aquamarine",
+      "name": "Aquamarine",
+      "manufacturer_slug": "acustica-audio",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Sampled channel strip based on a vintage Neve 1084 console with EQ, preamp, and compressor sections.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Aquamarine",
+        "Acustica Audio Aquamarine",
+        "Acustica Aquamarine"
+      ],
+      "year": 2020,
+      "url": "https://www.acustica-audio.com/shop/products/AQUAMARINE"
+    },
+    {
+      "slug": "tonelib-gfx",
+      "name": "ToneLib GFX",
+      "manufacturer_slug": "tonelib",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Guitar amp and effects modeling suite with 50+ amps, 70+ effects pedals, and cabinet simulation.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "Standalone"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "price_type": "freemium",
+      "aliases": [
+        "ToneLib GFX",
+        "ToneLib-GFX",
+        "Tonelib Guitar FX"
+      ],
+      "year": 2019,
+      "url": "https://tonelib.net/tl-gfx.html"
+    },
+    {
+      "slug": "native-instruments-form",
+      "name": "Form",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "description": "Sample-based synthesizer that turns any audio into a playable instrument using granular-style scanning and modulation.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "NI Form",
+        "Native Instruments Form",
+        "Komplete Form"
+      ],
+      "year": 2016,
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/form/"
+    },
+    {
+      "slug": "eventide-sp2016-reverb",
+      "name": "SP2016 Reverb",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "reverb",
+      "description": "Plugin recreation of the Eventide SP2016 hardware reverb with 6 classic algorithms including Room, Stereo Room, and High Density Plate.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "SP2016 Reverb",
+        "Eventide SP2016 Reverb",
+        "SP2016"
+      ],
+      "year": 2016,
+      "url": "https://www.eventideaudio.com/plug-ins/sp2016-reverb/"
+    },
+    {
+      "slug": "eventide-physion-2",
+      "name": "Physion 2",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "general",
+      "description": "Transient/tonal separation processor that splits audio into transient and body components for independent processing.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Physion 2",
+        "Eventide Physion 2",
+        "Physion2"
+      ],
+      "year": 2023,
+      "url": "https://www.eventideaudio.com/plug-ins/physion-2/"
+    },
+    {
+      "slug": "soundtoys-sie-q",
+      "name": "Sie-Q",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "eq",
+      "description": "Modeled parametric EQ based on the Siemens W295b, offering smooth musical curves with analog warmth.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Sie-Q",
+        "Soundtoys Sie-Q",
+        "SieQ"
+      ],
+      "year": 2019,
+      "url": "https://www.soundtoys.com/product/sie-q/"
+    },
+    {
+      "slug": "soundtoys-radiator",
+      "name": "Radiator",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "saturation",
+      "description": "Modeled tube saturation and tone shaper based on the Altec 1567A mixer, adding warmth and presence.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "Radiator",
+        "Soundtoys Radiator"
+      ],
+      "year": 2014,
+      "url": "https://www.soundtoys.com/product/radiator/"
+    },
+    {
+      "slug": "fabfilter-pro-ds",
+      "name": "FabFilter Pro-DS",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "de-esser",
+      "description": "Transparent de-esser with intelligent single-voice detection, wide-band and split-band modes, and real-time display.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "FabFilter Pro-DS",
+        "Pro-DS",
+        "ProDS"
+      ],
+      "year": 2014,
+      "url": "https://www.fabfilter.com/products/pro-ds-de-esser-plug-in"
+    },
+    {
+      "slug": "fabfilter-pro-g",
+      "name": "FabFilter Pro-G",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "gate",
+      "description": "Gate/expander plugin with lookahead, sidechain, and expert controls for precise gating and expansion.",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU",
+        "AAX"
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "price_type": "paid",
+      "aliases": [
+        "FabFilter Pro-G",
+        "Pro-G",
+        "ProG"
+      ],
+      "year": 2014,
+      "url": "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
     }
   ]
 }
