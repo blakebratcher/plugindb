@@ -20,7 +20,8 @@ COPY --from=seeder /app /app
 WORKDIR /app
 COPY frontend/ frontend/
 
-RUN useradd --create-home plugindb
+RUN useradd --create-home plugindb \
+    && chown -R plugindb:plugindb /app/data
 USER plugindb
 
 EXPOSE 8000
