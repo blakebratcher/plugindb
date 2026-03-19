@@ -89,3 +89,59 @@ class TestSearch:
         assert "aliases" in plugin
         assert "formats" in plugin
         assert plugin["manufacturer"]["name"] == "Xfer Records"
+
+
+class TestSearchFTS5SafetyNet:
+    """Queries containing FTS5 special operators must not crash the server."""
+
+    def test_fts5_operator_OR(self, client):
+        """FTS5 operator 'OR' as raw input returns 200 or 400, never 500."""
+        resp = client.get("/api/v1/search", params={"q": "OR"})
+        assert resp.status_code in (200, 400)
+
+    def test_fts5_operator_AND_NOT(self, client):
+        """FTS5 operator 'AND NOT' as raw input returns 200 or 400, never 500."""
+        resp = client.get("/api/v1/search", params={"q": "AND NOT"})
+        assert resp.status_code in (200, 400)
+
+    def test_fts5_operator_NEAR(self, client):
+        """FTS5 NEAR operator as raw input does not crash."""
+        resp = client.get("/api/v1/search", params={"q": "NEAR(a b)"})
+        assert resp.status_code in (200, 400)
+
+    def test_fts5_special_characters(self, client):
+        """FTS5 special characters like quotes and brackets are handled."""
+        resp = client.get("/api/v1/search", params={"q": '"test" {foo} [bar]'})
+        assert resp.status_code in (200, 400)
+
+    def test_fts5_asterisk_only(self, client):
+        """A query of just '*' does not crash."""
+        resp = client.get("/api/v1/search", params={"q": "**"})
+        assert resp.status_code in (200, 400)
+
+    def test_fts5_parentheses(self, client):
+        """Unbalanced parentheses do not crash the search."""
+        resp = client.get("/api/v1/search", params={"q": "synth(("})
+        assert resp.status_code in (200, 400)
+
+
+class TestSearchEmptyDatabase:
+    """Search against a database with no plugins should return empty, not crash."""
+
+    def test_search_empty_db(self):
+        """Searching an empty DB returns zero results, not an error."""
+        from fastapi.testclient import TestClient
+        from plugindb.database import create_schema, get_connection
+        from plugindb.main import create_app
+
+        conn = get_connection(":memory:")
+        create_schema(conn)
+        # No seed data — database is empty
+        app = create_app(db_connection=conn)
+        with TestClient(app) as tc:
+            resp = tc.get("/api/v1/search", params={"q": "anything"})
+            assert resp.status_code == 200
+            body = resp.json()
+            assert body["pagination"]["total"] == 0
+            assert body["data"] == []
+        conn.close()

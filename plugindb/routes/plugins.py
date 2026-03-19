@@ -57,8 +57,8 @@ def list_plugins(
         params.append(f"%{format}%")
 
     if daw is not None:
-        # DAW compatibility stored in formats or description — LIKE match
-        where_clauses.append("p.formats LIKE ?")
+        # DAW compatibility stored in the daws JSON column — LIKE match
+        where_clauses.append("p.daws LIKE ?")
         params.append(f"%{daw}%")
 
     if price_type is not None:

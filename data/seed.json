@@ -2766,7 +2766,8 @@
         "windows",
         "macos"
       ],
-      "description": "Discontinued granular synthesis instrument from FabFilter."
+      "description": "Discontinued granular synthesis instrument from FabFilter.",
+      "price_type": "paid"
     },
     {
       "slug": "fracture",
@@ -4053,7 +4054,8 @@
         "windows",
         "macos"
       ],
-      "description": "Utility plugin for stereo monitoring and channel balance analysis."
+      "description": "Utility plugin for stereo monitoring and channel balance analysis.",
+      "price_type": "paid"
     },
     {
       "slug": "st4b",
@@ -4081,7 +4083,8 @@
         "windows",
         "macos"
       ],
-      "description": "Utility plugin for multi-channel audio monitoring and signal routing."
+      "description": "Utility plugin for multi-channel audio monitoring and signal routing.",
+      "price_type": "paid"
     },
     {
       "slug": "helm",

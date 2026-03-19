@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from fastapi import APIRouter
+from fastapi.responses import JSONResponse
 
 from plugindb import __version__
 from plugindb.main import get_db
@@ -123,7 +124,10 @@ def health_check() -> HealthResponse:
         count = conn.execute("SELECT COUNT(*) FROM plugins").fetchone()[0]
         db_status = "connected"
     except Exception:
-        db_status = "error"
+        return JSONResponse(
+            status_code=503,
+            content={"status": "error", "version": __version__, "database": "error"},
+        )
 
     return HealthResponse(
         status="ok",

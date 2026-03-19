@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import re
 
 from fastapi import APIRouter, HTTPException, Query
 
@@ -15,6 +16,25 @@ from plugindb.models import (
 from plugindb.queries import build_plugin_response
 
 router = APIRouter(tags=["search"])
+
+
+# ---------------------------------------------------------------------------
+# FTS5 query sanitisation
+# ---------------------------------------------------------------------------
+
+def _sanitize_fts_query(q: str) -> str:
+    """Escape user input for safe FTS5 MATCH queries.
+
+    Removes FTS5 special operators and characters, then wraps the remaining
+    text in double-quotes so it is treated as a literal phrase.  A trailing
+    ``*`` is appended for prefix matching.
+    """
+    # Remove FTS5 special operators and characters
+    cleaned = re.sub(r'[*"{}()\[\]]', '', q.strip())
+    # Quote the entire string to prevent operator interpretation
+    if cleaned:
+        return f'"{cleaned}"' + '*'  # prefix match on quoted string
+    return '""'
 
 
 # ---------------------------------------------------------------------------
@@ -42,50 +62,59 @@ def search_plugins(
 
     conn = get_db()
 
-    # FTS5 prefix match: append * for prefix matching
-    fts_query = q.strip() + "*"
+    # Sanitise user input for FTS5
+    fts_query = _sanitize_fts_query(q)
 
     # Build the query — join FTS results back to the plugins table
-    if category:
-        # Count total matches with category filter
-        count_row = conn.execute(
-            """SELECT COUNT(*) FROM plugins_fts
-               JOIN plugins ON plugins.rowid = plugins_fts.rowid
-               WHERE plugins_fts MATCH ? AND plugins.category = ?""",
-            (fts_query, category),
-        ).fetchone()
-        total = count_row[0]
+    try:
+        if category:
+            # Count total matches with category filter
+            count_row = conn.execute(
+                """SELECT COUNT(*) FROM plugins_fts
+                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
+                   WHERE plugins_fts MATCH ? AND plugins.category = ?""",
+                (fts_query, category),
+            ).fetchone()
+            total = count_row[0]
 
-        # Fetch paginated results
-        offset = (page - 1) * per_page
-        rows = conn.execute(
-            """SELECT plugins.* FROM plugins_fts
-               JOIN plugins ON plugins.rowid = plugins_fts.rowid
-               WHERE plugins_fts MATCH ? AND plugins.category = ?
-               ORDER BY plugins_fts.rank
-               LIMIT ? OFFSET ?""",
-            (fts_query, category, per_page, offset),
-        ).fetchall()
-    else:
-        # Count total matches without category filter
-        count_row = conn.execute(
-            """SELECT COUNT(*) FROM plugins_fts
-               JOIN plugins ON plugins.rowid = plugins_fts.rowid
-               WHERE plugins_fts MATCH ?""",
-            (fts_query,),
-        ).fetchone()
-        total = count_row[0]
+            # Fetch paginated results
+            offset = (page - 1) * per_page
+            rows = conn.execute(
+                """SELECT plugins.* FROM plugins_fts
+                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
+                   WHERE plugins_fts MATCH ? AND plugins.category = ?
+                   ORDER BY plugins_fts.rank
+                   LIMIT ? OFFSET ?""",
+                (fts_query, category, per_page, offset),
+            ).fetchall()
+        else:
+            # Count total matches without category filter
+            count_row = conn.execute(
+                """SELECT COUNT(*) FROM plugins_fts
+                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
+                   WHERE plugins_fts MATCH ?""",
+                (fts_query,),
+            ).fetchone()
+            total = count_row[0]
 
-        # Fetch paginated results
-        offset = (page - 1) * per_page
-        rows = conn.execute(
-            """SELECT plugins.* FROM plugins_fts
-               JOIN plugins ON plugins.rowid = plugins_fts.rowid
-               WHERE plugins_fts MATCH ?
-               ORDER BY plugins_fts.rank
-               LIMIT ? OFFSET ?""",
-            (fts_query, per_page, offset),
-        ).fetchall()
+            # Fetch paginated results
+            offset = (page - 1) * per_page
+            rows = conn.execute(
+                """SELECT plugins.* FROM plugins_fts
+                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
+                   WHERE plugins_fts MATCH ?
+                   ORDER BY plugins_fts.rank
+                   LIMIT ? OFFSET ?""",
+                (fts_query, per_page, offset),
+            ).fetchall()
+    except Exception:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "error": "invalid_query",
+                "message": f"Search query '{q}' could not be processed",
+            },
+        )
 
     plugins = [build_plugin_response(row, conn) for row in rows]
     pages = math.ceil(total / per_page) if total > 0 else 0

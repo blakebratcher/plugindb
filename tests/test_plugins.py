@@ -91,6 +91,82 @@ class TestListPlugins:
         assert body["pagination"]["total"] == 3
 
 
+class TestDawFilter:
+    """DAW filter tests — the daw parameter should search the daws column."""
+
+    def test_filter_by_daw_bitwig(self, client):
+        """Filter ?daw=Bitwig returns plugins with Bitwig in their daws list."""
+        resp = client.get("/api/v1/plugins", params={"daw": "Bitwig"})
+        assert resp.status_code == 200
+        body = resp.json()
+        # Serum and Diva have Bitwig in daws; VintageVerb does not
+        assert body["pagination"]["total"] == 2
+        names = {p["name"] for p in body["data"]}
+        assert names == {"Serum", "Diva"}
+
+    def test_filter_by_daw_fl_studio(self, client):
+        """Filter ?daw=FL Studio returns plugins with FL Studio in daws."""
+        resp = client.get("/api/v1/plugins", params={"daw": "FL Studio"})
+        assert resp.status_code == 200
+        body = resp.json()
+        # Serum and VintageVerb have FL Studio
+        assert body["pagination"]["total"] == 2
+        names = {p["name"] for p in body["data"]}
+        assert names == {"Serum", "Valhalla VintageVerb"}
+
+    def test_filter_by_daw_no_match(self, client):
+        """Filter by a DAW that no plugin supports returns empty."""
+        resp = client.get("/api/v1/plugins", params={"daw": "Pro Tools"})
+        assert resp.status_code == 200
+        assert resp.json()["pagination"]["total"] == 0
+
+
+class TestCombinedFilters:
+    """Combined filter tests — multiple query parameters applied together."""
+
+    def test_category_and_manufacturer(self, client):
+        """category=instrument & manufacturer=xfer-records returns only Serum."""
+        resp = client.get(
+            "/api/v1/plugins",
+            params={"category": "instrument", "manufacturer": "xfer-records"},
+        )
+        assert resp.status_code == 200
+        body = resp.json()
+        assert body["pagination"]["total"] == 1
+        assert body["data"][0]["name"] == "Serum"
+
+    def test_category_and_format(self, client):
+        """category=instrument & format=VST2 returns only Diva."""
+        resp = client.get(
+            "/api/v1/plugins",
+            params={"category": "instrument", "format": "VST2"},
+        )
+        assert resp.status_code == 200
+        body = resp.json()
+        assert body["pagination"]["total"] == 1
+        assert body["data"][0]["name"] == "Diva"
+
+    def test_category_and_daw(self, client):
+        """category=effect & daw=FL Studio returns only VintageVerb."""
+        resp = client.get(
+            "/api/v1/plugins",
+            params={"category": "effect", "daw": "FL Studio"},
+        )
+        assert resp.status_code == 200
+        body = resp.json()
+        assert body["pagination"]["total"] == 1
+        assert body["data"][0]["name"] == "Valhalla VintageVerb"
+
+    def test_no_match_combined(self, client):
+        """Contradictory combined filters return empty results."""
+        resp = client.get(
+            "/api/v1/plugins",
+            params={"category": "effect", "manufacturer": "xfer-records"},
+        )
+        assert resp.status_code == 200
+        assert resp.json()["pagination"]["total"] == 0
+
+
 class TestGetPlugin:
     def test_get_by_id(self, client):
         """GET /plugins/{id} returns full plugin detail."""
