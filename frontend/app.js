@@ -364,9 +364,9 @@
         html += `<section class="detail-tags"><span class="meta-label">Tags</span><div class="tags-wrap">${formatTags(p.tags)}</div></section>`;
       }
 
-      if (p.website) {
-        html += `<section class="detail-links"><a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit website &rarr;</a></section>`;
-      }
+      html += '<section class="detail-links">';
+      if (p.website) html += `<a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit website &rarr;</a>`;
+      html += '<button class="btn btn-sm" id="btn-share">Copy link</button></section>';
 
       // Manufacturer plugins
       if (p.manufacturer_plugins && p.manufacturer_plugins.length) {
@@ -375,6 +375,21 @@
 
       html += '<section class="detail-section" id="similar-section"></section>';
       app.innerHTML = html;
+
+      // Share/copy link button
+      const shareBtn = document.getElementById('btn-share');
+      if (shareBtn) {
+        shareBtn.addEventListener('click', async function () {
+          const url = location.href;
+          if (navigator.share) {
+            try { await navigator.share({ title: p.name + ' - PluginDB', url }); } catch (_) {}
+          } else if (navigator.clipboard) {
+            await navigator.clipboard.writeText(url);
+            shareBtn.textContent = 'Copied!';
+            setTimeout(() => { shareBtn.textContent = 'Copy link'; }, 2000);
+          }
+        });
+      }
 
       // Fetch similar plugins asynchronously
       if (p.id) {

@@ -348,6 +348,66 @@ class TestEnrichedHealth:
         assert body["uptime_seconds"] >= 0
 
 
+class TestSearchAnalytics:
+    """GET /api/v1/search-analytics"""
+
+    def test_analytics_returns_structure(self, client):
+        # Trigger a search first to generate log data
+        client.get("/api/v1/search", params={"q": "reverb"})
+        resp = client.get("/api/v1/search-analytics")
+        assert resp.status_code == 200
+        body = resp.json()
+        assert "total_searches" in body
+        assert "top_queries" in body
+        assert "zero_result_queries" in body
+        assert body["total_searches"] >= 1
+
+    def test_analytics_logs_search(self, client):
+        """Search queries are logged and appear in analytics."""
+        client.get("/api/v1/search", params={"q": "test_unique_query_xyz"})
+        resp = client.get("/api/v1/search-analytics")
+        queries = [q["query"] for q in resp.json()["top_queries"]]
+        assert "test_unique_query_xyz" in queries
+
+    def test_analytics_tracks_zero_results(self, client):
+        """Zero-result searches are tracked separately."""
+        client.get("/api/v1/search", params={"q": "zznonexistent"})
+        resp = client.get("/api/v1/search-analytics")
+        zero_queries = [q["query"] for q in resp.json()["zero_result_queries"]]
+        assert "zznonexistent" in zero_queries
+
+
+class TestSecurityHeaders:
+    """Security headers on all responses."""
+
+    def test_nosniff(self, client):
+        resp = client.get("/api/v1/plugins")
+        assert resp.headers.get("x-content-type-options") == "nosniff"
+
+    def test_frame_deny(self, client):
+        resp = client.get("/api/v1/plugins")
+        assert resp.headers.get("x-frame-options") == "DENY"
+
+    def test_referrer_policy(self, client):
+        resp = client.get("/api/v1/plugins")
+        assert "strict-origin" in resp.headers.get("referrer-policy", "")
+
+
+class TestResponseCaching:
+    """Meta endpoint caching."""
+
+    def test_cached_stats_same_result(self, client):
+        """Two calls to /stats return identical results."""
+        r1 = client.get("/api/v1/stats").json()
+        r2 = client.get("/api/v1/stats").json()
+        assert r1 == r2
+
+    def test_cached_formats_same_result(self, client):
+        r1 = client.get("/api/v1/formats").json()
+        r2 = client.get("/api/v1/formats").json()
+        assert r1 == r2
+
+
 class TestVersionEndpoint:
     """GET /api/v1/version"""
 
