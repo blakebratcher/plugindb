@@ -32,10 +32,6 @@
       "website": "https://analogobsession.com"
     },
     {
-      "slug": "andrew-huang",
-      "name": "Andrew Huang"
-    },
-    {
       "slug": "arturia",
       "name": "Arturia",
       "website": "https://www.arturia.com"
@@ -172,7 +168,8 @@
     },
     {
       "slug": "ifea",
-      "name": "IFEA"
+      "name": "iFeature",
+      "website": "https://www.kvraudio.com/developer/ifeature"
     },
     {
       "slug": "infected-mushroom",
@@ -235,8 +232,9 @@
       "website": "https://www.minimal.audio"
     },
     {
-      "slug": "minimeters",
-      "name": "MiniMeters"
+      "slug": "direct-music",
+      "name": "Direct Music",
+      "website": "https://minimeters.app"
     },
     {
       "slug": "native-instruments",
@@ -627,35 +625,6 @@
       "price_type": "free",
       "url": "https://www.patreon.com/analogobsession",
       "year": 2020
-    },
-    {
-      "slug": "amelia",
-      "name": "Amelia",
-      "manufacturer_slug": "andrew-huang",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [
-        "VST3"
-      ],
-      "aliases": [
-        "Amelia",
-        "Andrew Huang Amelia"
-      ],
-      "daws": [
-        "Bitwig",
-        "Ableton",
-        "Cubase",
-        "Studio One",
-        "Reaper",
-        "FL Studio"
-      ],
-      "os": [
-        "windows",
-        "macos"
-      ],
-      "description": "Experimental synthesizer designed by Andrew Huang with unique sound design capabilities.",
-      "price_type": "paid",
-      "year": 2023
     },
     {
       "slug": "analog-lab-v",
@@ -4321,7 +4290,7 @@
     {
       "slug": "minimeters",
       "name": "MiniMeters",
-      "manufacturer_slug": "minimeters",
+      "manufacturer_slug": "direct-music",
       "category": "utility",
       "subcategory": "meter",
       "formats": [
@@ -4353,7 +4322,7 @@
     {
       "slug": "minimeters-loudness",
       "name": "MiniMeters - Loudness",
-      "manufacturer_slug": "minimeters",
+      "manufacturer_slug": "direct-music",
       "category": "utility",
       "subcategory": "meter",
       "formats": [
