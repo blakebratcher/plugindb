@@ -496,7 +496,15 @@
       "description": "Virtual analog synthesizer combining subtractive and wavetable synthesis with built-in effects.",
       "price_type": "paid",
       "url": "https://www.airmusictech.com/virtual-instruments/hybrid-3.html",
-      "year": 2014
+      "year": 2014,
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "subtractive",
+        "virtual-analog",
+        "pads",
+        "electronic"
+      ]
     },
     {
       "slug": "vacuum-pro",
@@ -528,7 +536,15 @@
       "description": "Polyphonic vacuum tube synthesizer emulating vintage tube-driven analog hardware.",
       "price_type": "paid",
       "url": "https://www.airmusictech.com/virtual-instruments/vacuum-pro.html",
-      "year": 2014
+      "year": 2014,
+      "tags": [
+        "synthesizer",
+        "tube",
+        "virtual-analog",
+        "vintage",
+        "warm",
+        "polyphonic"
+      ]
     },
     {
       "slug": "fetish",
@@ -560,7 +576,16 @@
       "description": "FET-style compressor plugin modeled after vintage solid-state hardware compressors.",
       "price_type": "free",
       "url": "https://www.patreon.com/analogobsession",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "fet",
+        "analog-modeling",
+        "free",
+        "punchy",
+        "drums",
+        "mixing"
+      ]
     },
     {
       "slug": "loaded",
@@ -592,7 +617,15 @@
       "description": "Channel EQ plugin inspired by classic analog console equalizers.",
       "price_type": "free",
       "url": "https://www.patreon.com/analogobsession",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "equalizer",
+        "analog-modeling",
+        "free",
+        "warm",
+        "mixing",
+        "console"
+      ]
     },
     {
       "slug": "rare",
@@ -624,7 +657,16 @@
       "description": "Vari-mu tube compressor emulation modeled after vintage broadcast limiters.",
       "price_type": "free",
       "url": "https://www.patreon.com/analogobsession",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "vari-mu",
+        "analog-modeling",
+        "free",
+        "warm",
+        "glue",
+        "mastering"
+      ]
     },
     {
       "slug": "analog-lab-v",
@@ -664,7 +706,16 @@
       "description": "Preset browser and performance instrument providing access to sounds from Arturia's V Collection.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://www.arturia.com/products/software-instruments/analog-lab/overview"
+      "url": "https://www.arturia.com/products/software-instruments/analog-lab/overview",
+      "tags": [
+        "rompler",
+        "preset-browser",
+        "analog-modeling",
+        "vintage",
+        "keys",
+        "pads",
+        "sound-design"
+      ]
     },
     {
       "slug": "arturia-comp-fet-76",
@@ -702,7 +753,16 @@
       "description": "FET compressor emulation modeled after the classic UREI 1176 hardware.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.arturia.com/products/software-effects/comp-fet-76/overview"
+      "url": "https://www.arturia.com/products/software-effects/comp-fet-76/overview",
+      "tags": [
+        "compressor",
+        "fet",
+        "analog-modeling",
+        "vintage",
+        "punchy",
+        "vocal",
+        "drums"
+      ]
     },
     {
       "slug": "arturia-jupiter-8v",
@@ -740,7 +800,16 @@
       "description": "Software emulation of the Roland Jupiter-8 analog polysynth with extended features.",
       "price_type": "paid",
       "year": 2006,
-      "url": "https://www.arturia.com/products/software-instruments/jup-8-v/overview"
+      "url": "https://www.arturia.com/products/software-instruments/jup-8-v/overview",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "roland",
+        "pads",
+        "warm",
+        "80s"
+      ]
     },
     {
       "slug": "arturia-mini-v",
@@ -780,7 +849,16 @@
       "description": "Software emulation of the Minimoog Model D monosynth with added polyphony and effects.",
       "price_type": "paid",
       "year": 2004,
-      "url": "https://www.arturia.com/products/software-instruments/mini-v/overview"
+      "url": "https://www.arturia.com/products/software-instruments/mini-v/overview",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "moog",
+        "monophonic",
+        "bass",
+        "lead"
+      ]
     },
     {
       "slug": "pigments-4",
@@ -821,7 +899,16 @@
       "description": "Polychrome software synthesizer with six synthesis engines (analog, wavetable, granular, sample, harmonic, modal) and 1700+ presets.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://www.arturia.com/products/software-instruments/pigments/overview"
+      "url": "https://www.arturia.com/products/software-instruments/pigments/overview",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "granular",
+        "sound-design",
+        "modulation",
+        "modern",
+        "electronic"
+      ]
     },
     {
       "slug": "arturia-prophet-v",
@@ -859,7 +946,16 @@
       "description": "Software emulation of the Sequential Prophet-5 analog polysynth with hybrid layering.",
       "price_type": "paid",
       "year": 2005,
-      "url": "https://www.arturia.com/products/software-instruments/prophet-v/overview"
+      "url": "https://www.arturia.com/products/software-instruments/prophet-v/overview",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "sequential",
+        "pads",
+        "warm",
+        "polysynth"
+      ]
     },
     {
       "slug": "arturia-rev-plate-140",
@@ -897,7 +993,16 @@
       "description": "Plate reverb emulation modeled after the EMT 140 hardware unit.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.arturia.com/products/software-effects/rev-plate-140/overview"
+      "url": "https://www.arturia.com/products/software-effects/rev-plate-140/overview",
+      "tags": [
+        "reverb",
+        "plate",
+        "analog-modeling",
+        "vintage",
+        "vocal",
+        "lush",
+        "mixing"
+      ]
     },
     {
       "slug": "dubstation-2",
@@ -928,7 +1033,15 @@
       "description": "Dub-style delay effect with tape emulation, spring reverb, and lo-fi character.",
       "price_type": "paid",
       "url": "https://www.audiodamage.com/pages/ad036-dubstation-2",
-      "year": 2018
+      "year": 2018,
+      "tags": [
+        "delay",
+        "dub",
+        "analog-modeling",
+        "tape",
+        "lo-fi",
+        "creative"
+      ]
     },
     {
       "slug": "quanta",
@@ -960,7 +1073,15 @@
       "description": "Granular synthesizer with a visual waveform display and real-time granular manipulation.",
       "price_type": "paid",
       "url": "https://www.audiodamage.com/pages/ad048-quanta",
-      "year": 2018
+      "year": 2018,
+      "tags": [
+        "synthesizer",
+        "granular",
+        "sound-design",
+        "ambient",
+        "experimental",
+        "texture"
+      ]
     },
     {
       "slug": "ratshack-reverb",
@@ -991,7 +1112,15 @@
       "description": "Lo-fi spring reverb emulation inspired by cheap consumer reverb hardware.",
       "price_type": "paid",
       "url": "https://www.audiodamage.com/pages/ad046-ratshack-reverb",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "reverb",
+        "lo-fi",
+        "vintage",
+        "spring",
+        "creative",
+        "character"
+      ]
     },
     {
       "slug": "baby-audio-comeback-kid",
@@ -1025,7 +1154,15 @@
       "description": "Delay plugin with tape saturation, built-in ducking, and a vintage character.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://babyaud.io/comeback-kid-plugin"
+      "url": "https://babyaud.io/comeback-kid-plugin",
+      "tags": [
+        "delay",
+        "modern",
+        "creative",
+        "clean",
+        "mixing",
+        "vocal"
+      ]
     },
     {
       "slug": "baby-audio-crystalline",
@@ -1058,7 +1195,15 @@
       "description": "Algorithmic reverb with a clean, modern sound and intuitive reflection shaping controls.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://babyaud.io/crystalline"
+      "url": "https://babyaud.io/crystalline",
+      "tags": [
+        "reverb",
+        "algorithmic",
+        "modern",
+        "clean",
+        "lush",
+        "shimmer"
+      ]
     },
     {
       "slug": "ihny-2",
@@ -1096,7 +1241,15 @@
       "description": "Parallel compressor combining gentle and aggressive compression in a simple two-knob interface.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://babyaud.io/ihny-plugin"
+      "url": "https://babyaud.io/ihny-plugin",
+      "tags": [
+        "compressor",
+        "parallel",
+        "punchy",
+        "mixing",
+        "drums",
+        "easy-to-use"
+      ]
     },
     {
       "slug": "parallel-aggressor",
@@ -1133,7 +1286,15 @@
       "description": "Dual-engine parallel processor combining compression and saturation for mix glue.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://babyaud.io/parallel-aggressor-plugin"
+      "url": "https://babyaud.io/parallel-aggressor-plugin",
+      "tags": [
+        "compressor",
+        "parallel",
+        "saturation",
+        "aggressive",
+        "mixing",
+        "drums"
+      ]
     },
     {
       "slug": "baby-audio-smooth-operator",
@@ -1167,7 +1328,15 @@
       "description": "Spectral dynamics processor that smooths and balances audio using per-frequency compression.",
       "price_type": "paid",
       "year": 2023,
-      "url": "https://babyaud.io/smooth-operator-plugin"
+      "url": "https://babyaud.io/smooth-operator-plugin",
+      "tags": [
+        "equalizer",
+        "spectral",
+        "dynamic-eq",
+        "resonance-suppression",
+        "mixing",
+        "vocal"
+      ]
     },
     {
       "slug": "baby-audio-spaced-out",
@@ -1201,7 +1370,15 @@
       "description": "Modulated delay and reverb effect designed for ambient and spatial textures.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://babyaud.io/spaced-out"
+      "url": "https://babyaud.io/spaced-out",
+      "tags": [
+        "delay",
+        "reverb",
+        "ambient",
+        "creative",
+        "modulation",
+        "psychedelic"
+      ]
     },
     {
       "slug": "baby-audio-super-vhs",
@@ -1235,7 +1412,16 @@
       "description": "Lo-fi effect emulating VHS tape degradation with wobble, noise, and saturation.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://babyaud.io/super-vhs-plugin"
+      "url": "https://babyaud.io/super-vhs-plugin",
+      "tags": [
+        "distortion",
+        "lo-fi",
+        "tape",
+        "vintage",
+        "vhs",
+        "creative",
+        "texture"
+      ]
     },
     {
       "slug": "bettermaker-bus-compressor-dsp",
@@ -1267,7 +1453,15 @@
       "description": "Bus compressor plugin modeled after the Bettermaker hardware mastering compressor.",
       "price_type": "paid",
       "url": "https://bettermaker.com/bus-compressor",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "compressor",
+        "bus-compressor",
+        "mastering",
+        "analog-modeling",
+        "glue",
+        "transparent"
+      ]
     },
     {
       "slug": "filtershaper",
@@ -1303,7 +1497,15 @@
       "description": "Multi-mode filter with drawable LFO curves for rhythmic and evolving filter effects.",
       "price_type": "paid",
       "year": 2009,
-      "url": "https://www.cableguys.com/filtershaper.html"
+      "url": "https://www.cableguys.com/filtershaper.html",
+      "tags": [
+        "filter",
+        "lfo",
+        "sidechain",
+        "creative",
+        "modulation",
+        "electronic"
+      ]
     },
     {
       "slug": "panshaper",
@@ -1339,7 +1541,15 @@
       "description": "Auto-panner with drawable LFO waveforms for precise stereo motion and tremolo effects.",
       "price_type": "paid",
       "url": "https://www.cableguys.com/panshaper.html",
-      "year": 2015
+      "year": 2015,
+      "tags": [
+        "panning",
+        "lfo",
+        "creative",
+        "modulation",
+        "stereo",
+        "electronic"
+      ]
     },
     {
       "slug": "shaperbox-3",
@@ -1376,7 +1586,16 @@
       "description": "Multi-effect suite combining volume, filter, pan, width, and time shapers with drawable LFOs.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://www.cableguys.com/shaperbox.html"
+      "url": "https://www.cableguys.com/shaperbox.html",
+      "tags": [
+        "multi-effect",
+        "lfo",
+        "sidechain",
+        "creative",
+        "modulation",
+        "electronic",
+        "time-based"
+      ]
     },
     {
       "slug": "timeshaper",
@@ -1412,7 +1631,15 @@
       "description": "Time-manipulation effect using drawable curves to create glitch, stutter, and tape-stop effects.",
       "price_type": "paid",
       "url": "https://www.cableguys.com/timeshaper.html",
-      "year": 2019
+      "year": 2019,
+      "tags": [
+        "time-based",
+        "glitch",
+        "stutter",
+        "creative",
+        "electronic",
+        "lfo"
+      ]
     },
     {
       "slug": "volumeshaper",
@@ -1448,7 +1675,15 @@
       "description": "Sidechain-style volume shaping with drawable LFO curves for ducking and tremolo effects.",
       "price_type": "paid",
       "year": 2010,
-      "url": "https://www.cableguys.com/volumeshaper.html"
+      "url": "https://www.cableguys.com/volumeshaper.html",
+      "tags": [
+        "sidechain",
+        "volume",
+        "lfo",
+        "ducking",
+        "electronic",
+        "mixing"
+      ]
     },
     {
       "slug": "camelcrusher",
@@ -1480,7 +1715,15 @@
       "description": "Free distortion plugin with two distortion modes, a compressor, and a low-pass filter.",
       "price_type": "free",
       "year": 2012,
-      "url": "https://www.audiopluginsforfree.com/camelcrusher/"
+      "url": "https://www.audiopluginsforfree.com/camelcrusher/",
+      "tags": [
+        "distortion",
+        "compressor",
+        "free",
+        "aggressive",
+        "coloring",
+        "mixing"
+      ]
     },
     {
       "slug": "dreamsynth",
@@ -1514,7 +1757,15 @@
       "description": "Polyphonic dreamlike synthesizer with wavetable and virtual analog oscillators.",
       "price_type": "paid",
       "url": "https://cherryaudio.com/products/dreamsynth",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "synthesizer",
+        "virtual-analog",
+        "retro",
+        "pads",
+        "warm",
+        "polyphonic"
+      ]
     },
     {
       "slug": "surrealistic-mg-1",
@@ -1548,7 +1799,15 @@
       "description": "Software recreation of the Moog Realistic MG-1 monophonic analog synthesizer.",
       "price_type": "paid",
       "url": "https://cherryaudio.com/products/surrealistic-mg-1",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "moog",
+        "retro",
+        "monophonic"
+      ]
     },
     {
       "slug": "voltage-modular",
@@ -1584,7 +1843,15 @@
       "description": "Virtual Eurorack modular synthesizer environment with patchable modules.",
       "price_type": "paid",
       "url": "https://cherryaudio.com/products/voltage-modular",
-      "year": 2018
+      "year": 2018,
+      "tags": [
+        "synthesizer",
+        "modular",
+        "virtual-analog",
+        "sound-design",
+        "experimental",
+        "patching"
+      ]
     },
     {
       "slug": "reastream-standalone",
@@ -1614,7 +1881,15 @@
       "description": "Network audio streaming utility for sending audio between DAWs over a LAN.",
       "price_type": "free",
       "url": "https://www.reaper.fm/reaplugs/",
-      "year": 2007
+      "year": 2007,
+      "tags": [
+        "routing",
+        "streaming",
+        "network",
+        "utility",
+        "free",
+        "collaboration"
+      ]
     },
     {
       "slug": "cymatics-origin",
@@ -1646,7 +1921,15 @@
       "description": "Wavetable synthesizer from Cymatics designed for modern electronic music production.",
       "price_type": "paid",
       "url": "https://cymatics.fm/products/origin-plugin",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "modern",
+        "electronic",
+        "presets",
+        "sound-design"
+      ]
     },
     {
       "slug": "decimort-2",
@@ -1678,7 +1961,15 @@
       "description": "High-quality bitcrusher and sample rate reducer emulating vintage digital samplers.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://d16group.com/decimort2/"
+      "url": "https://d16group.com/decimort2/",
+      "tags": [
+        "distortion",
+        "bitcrusher",
+        "lo-fi",
+        "sample-rate",
+        "vintage",
+        "creative"
+      ]
     },
     {
       "slug": "devastor-2",
@@ -1710,7 +2001,15 @@
       "description": "Multiband distortion processor with three independent saturation stages.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://d16group.com/devastor2/"
+      "url": "https://d16group.com/devastor2/",
+      "tags": [
+        "distortion",
+        "multiband",
+        "aggressive",
+        "creative",
+        "sound-design",
+        "electronic"
+      ]
     },
     {
       "slug": "lush-2",
@@ -1743,7 +2042,15 @@
       "description": "Stereo chorus and ensemble effect modeled after classic analog chorus hardware.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://d16group.com/lush2/"
+      "url": "https://d16group.com/lush2/",
+      "tags": [
+        "chorus",
+        "ensemble",
+        "lush",
+        "vintage",
+        "stereo",
+        "modulation"
+      ]
     },
     {
       "slug": "repeater",
@@ -1775,7 +2082,15 @@
       "description": "Delay effect with pitch shifting and reverse capabilities for creative echo effects.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://d16group.com/repeater/"
+      "url": "https://d16group.com/repeater/",
+      "tags": [
+        "delay",
+        "modern",
+        "creative",
+        "stereo",
+        "modulation",
+        "electronic"
+      ]
     },
     {
       "slug": "perfect-room",
@@ -1807,7 +2122,15 @@
       "description": "Algorithmic reverb focused on realistic room simulation with shape-based controls.",
       "price_type": "paid",
       "url": "https://www.denise.io/store/perfect-room",
-      "year": 2021
+      "year": 2021,
+      "tags": [
+        "reverb",
+        "room",
+        "natural",
+        "mixing",
+        "spatial",
+        "modern"
+      ]
     },
     {
       "slug": "duck",
@@ -1839,7 +2162,15 @@
       "description": "Volume ducking plugin that creates sidechain compression effects without a sidechain input.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://deviousmachines.com/duck/"
+      "url": "https://deviousmachines.com/duck/",
+      "tags": [
+        "sidechain",
+        "ducking",
+        "volume",
+        "mixing",
+        "electronic",
+        "utility"
+      ]
     },
     {
       "slug": "infiltrator",
@@ -1872,7 +2203,15 @@
       "description": "Multi-effect processor with 54 effect modules arranged in a serial/parallel chain.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://deviousmachines.com/infiltrator/"
+      "url": "https://deviousmachines.com/infiltrator/",
+      "tags": [
+        "multi-effect",
+        "creative",
+        "sound-design",
+        "modulation",
+        "aggressive",
+        "electronic"
+      ]
     },
     {
       "slug": "ob-xd",
@@ -1906,7 +2245,16 @@
       "description": "Free virtual analog synthesizer modeled after the Oberheim OB-X/OB-Xa hardware.",
       "price_type": "free",
       "year": 2015,
-      "url": "https://www.discodsp.com/obxd/"
+      "url": "https://www.discodsp.com/obxd/",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "free",
+        "vintage",
+        "oberheim",
+        "warm",
+        "pads"
+      ]
     },
     {
       "slug": "equilibrium",
@@ -1937,7 +2285,16 @@
       "description": "Parametric equalizer with up to 32 bands, dynamic EQ, and multiple filter types.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://dmgaudio.com/equilibrium"
+      "url": "https://dmgaudio.com/equilibrium",
+      "tags": [
+        "equalizer",
+        "parametric-eq",
+        "linear-phase",
+        "mastering",
+        "mixing",
+        "precise",
+        "transparent"
+      ]
     },
     {
       "slug": "blackhole",
@@ -1974,7 +2331,16 @@
       "description": "Massive reverb plugin based on the legendary Eventide hardware algorithm, capable of creating infinite, otherworldly spaces.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://www.eventideaudio.com/plug-ins/blackhole/"
+      "url": "https://www.eventideaudio.com/plug-ins/blackhole/",
+      "tags": [
+        "reverb",
+        "ambient",
+        "huge",
+        "shimmer",
+        "cinematic",
+        "sound-design",
+        "creative"
+      ]
     },
     {
       "slug": "h3000",
@@ -2011,7 +2377,15 @@
       "description": "Multi-effects processor based on the legendary Eventide H3000 hardware harmonizer.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://www.eventideaudio.com/plug-ins/h3000-factory/"
+      "url": "https://www.eventideaudio.com/plug-ins/h3000-factory/",
+      "tags": [
+        "multi-effect",
+        "pitch",
+        "delay",
+        "vintage",
+        "creative",
+        "harmonizer"
+      ]
     },
     {
       "slug": "mangledverb",
@@ -2047,7 +2421,15 @@
       "description": "Reverb fed into distortion, creating aggressive and textural reverb effects.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://www.eventideaudio.com/plug-ins/mangledverb/"
+      "url": "https://www.eventideaudio.com/plug-ins/mangledverb/",
+      "tags": [
+        "reverb",
+        "distortion",
+        "creative",
+        "experimental",
+        "aggressive",
+        "sound-design"
+      ]
     },
     {
       "slug": "physion",
@@ -2083,7 +2465,15 @@
       "description": "Transient shaping processor that splits audio into attack and sustain for independent processing.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.eventideaudio.com/plug-ins/physion/"
+      "url": "https://www.eventideaudio.com/plug-ins/physion/",
+      "tags": [
+        "transient",
+        "harmonic",
+        "creative",
+        "splitting",
+        "sound-design",
+        "mixing"
+      ]
     },
     {
       "slug": "ultratap",
@@ -2119,7 +2509,15 @@
       "description": "Multi-tap delay with up to 64 taps, rhythmic patterns, and modulation effects.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://www.eventideaudio.com/plug-ins/ultratap/"
+      "url": "https://www.eventideaudio.com/plug-ins/ultratap/",
+      "tags": [
+        "delay",
+        "multi-tap",
+        "rhythmic",
+        "creative",
+        "ambient",
+        "modulation"
+      ]
     },
     {
       "slug": "fabfilter-pro-c-2",
@@ -2165,7 +2563,16 @@
       "description": "Professional compressor with eight compression styles, precise metering, and an intuitive interface for mixing and mastering.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in",
+      "tags": [
+        "compressor",
+        "transparent",
+        "clean",
+        "versatile",
+        "mixing",
+        "mastering",
+        "sidechain"
+      ]
     },
     {
       "slug": "fabfilter-pro-l-2",
@@ -2212,7 +2619,15 @@
       "description": "True peak limiter with eight limiting algorithms, loudness metering, and up to 4x oversampling for transparent loudness maximization.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in",
+      "tags": [
+        "limiter",
+        "loudness",
+        "mastering",
+        "transparent",
+        "true-peak",
+        "metering"
+      ]
     },
     {
       "slug": "fabfilter-pro-mb",
@@ -2251,7 +2666,15 @@
       "description": "Multiband dynamics processor with up to 6 bands and intelligent crossover filtering.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in",
+      "tags": [
+        "multiband",
+        "compressor",
+        "dynamic",
+        "mixing",
+        "mastering",
+        "transparent"
+      ]
     },
     {
       "slug": "pro-q-3",
@@ -2298,7 +2721,16 @@
       "description": "Professional parametric EQ with up to 24 bands, dynamic EQ mode, linear phase processing, mid/side support, and spectrum analyzer.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in",
+      "tags": [
+        "equalizer",
+        "parametric-eq",
+        "dynamic-eq",
+        "linear-phase",
+        "mid-side",
+        "mixing",
+        "mastering"
+      ]
     },
     {
       "slug": "fabfilter-pro-r-2",
@@ -2345,7 +2777,16 @@
       "description": "Algorithmic reverb with intuitive decay rate EQ, space visualization, and natural-sounding room simulation.",
       "price_type": "paid",
       "year": 2023,
-      "url": "https://www.fabfilter.com/products/pro-r-2-reverb-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-r-2-reverb-plug-in",
+      "tags": [
+        "reverb",
+        "algorithmic",
+        "natural",
+        "lush",
+        "mixing",
+        "modern",
+        "clean"
+      ]
     },
     {
       "slug": "fabfilter-saturn-2",
@@ -2384,7 +2825,16 @@
       "description": "Multiband distortion and saturation plugin with modulation, offering subtle warmth to heavy destruction across customizable frequency bands.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
+      "url": "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in",
+      "tags": [
+        "saturation",
+        "distortion",
+        "multiband",
+        "warm",
+        "creative",
+        "harmonic",
+        "mixing"
+      ]
     },
     {
       "slug": "fabfilter-simplon",
@@ -2419,7 +2869,15 @@
       "description": "Dual-filter plugin with low-pass, high-pass, band-pass, and notch filter modes.",
       "price_type": "paid",
       "year": 2009,
-      "url": "https://www.fabfilter.com/products/simplon-basic-filter-plug-in"
+      "url": "https://www.fabfilter.com/products/simplon-basic-filter-plug-in",
+      "tags": [
+        "filter",
+        "resonant",
+        "clean",
+        "modulation",
+        "creative",
+        "simple"
+      ]
     },
     {
       "slug": "fabfilter-timeless-3",
@@ -2456,7 +2914,15 @@
       "description": "Tape-style delay with pitch shifting, diffusion, and modulation effects.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.fabfilter.com/products/timeless-3-delay-plug-in"
+      "url": "https://www.fabfilter.com/products/timeless-3-delay-plug-in",
+      "tags": [
+        "delay",
+        "tape",
+        "creative",
+        "modulation",
+        "vintage",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "fabfilter-twin-3",
@@ -2493,7 +2959,15 @@
       "description": "Synthesizer with three oscillators, multiple filter types, and extensive modulation routing.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.fabfilter.com/products/twin-3-synthesizer-plug-in"
+      "url": "https://www.fabfilter.com/products/twin-3-synthesizer-plug-in",
+      "tags": [
+        "synthesizer",
+        "subtractive",
+        "clean",
+        "modern",
+        "modulation",
+        "versatile"
+      ]
     },
     {
       "slug": "fabfilter-volcano-3",
@@ -2530,7 +3004,15 @@
       "description": "Four-band filter effect with modulation, sidechain, and multiple filter slopes.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.fabfilter.com/products/volcano-3-filter-plug-in"
+      "url": "https://www.fabfilter.com/products/volcano-3-filter-plug-in",
+      "tags": [
+        "filter",
+        "resonant",
+        "creative",
+        "modulation",
+        "analog-modeling",
+        "sound-design"
+      ]
     },
     {
       "slug": "harvest",
@@ -2563,7 +3045,15 @@
       ],
       "description": "MIDI sequence generator for creating melodies, chord progressions, and drum patterns with an interactive piano roll and live arpeggiator mode.",
       "price_type": "paid",
-      "url": "https://harvestplugins.com/harvest/"
+      "url": "https://harvestplugins.com/harvest/",
+      "tags": [
+        "midi",
+        "generator",
+        "arpeggiator",
+        "creative",
+        "sequencer",
+        "composition"
+      ]
     },
     {
       "slug": "fracture",
@@ -2593,7 +3083,16 @@
       "description": "Buffer effect processor for creating glitch, stutter, and granular audio mangling.",
       "price_type": "free",
       "url": "https://glitchmachines.com/products/fracture/",
-      "year": 2013
+      "year": 2013,
+      "tags": [
+        "glitch",
+        "buffer",
+        "stutter",
+        "free",
+        "creative",
+        "experimental",
+        "sound-design"
+      ]
     },
     {
       "slug": "hysteresis",
@@ -2623,7 +3122,15 @@
       "description": "Glitch delay plugin with modulated buffer effects for experimental sound design.",
       "price_type": "free",
       "url": "https://glitchmachines.com/products/hysteresis/",
-      "year": 2014
+      "year": 2014,
+      "tags": [
+        "delay",
+        "glitch",
+        "creative",
+        "experimental",
+        "sound-design",
+        "free"
+      ]
     },
     {
       "slug": "canopener",
@@ -2659,7 +3166,15 @@
       "description": "Crossfeed plugin that simulates speaker playback through headphones for natural imaging.",
       "price_type": "paid",
       "url": "https://goodhertz.com/canopener-studio/",
-      "year": 2015
+      "year": 2015,
+      "tags": [
+        "crossfeed",
+        "headphone",
+        "monitoring",
+        "mixing",
+        "stereo",
+        "utility"
+      ]
     },
     {
       "slug": "goodhertz-lossy",
@@ -2694,7 +3209,15 @@
       "description": "Codec emulation effect simulating MP3, GSM, and other lossy compression artifacts.",
       "price_type": "paid",
       "url": "https://goodhertz.com/lossy/",
-      "year": 2016
+      "year": 2016,
+      "tags": [
+        "distortion",
+        "lo-fi",
+        "codec",
+        "creative",
+        "artifacts",
+        "sound-design"
+      ]
     },
     {
       "slug": "goodhertz-trem-control",
@@ -2727,7 +3250,15 @@
       "description": "Tremolo effect with precise waveform shaping and stereo modulation options.",
       "price_type": "paid",
       "url": "https://goodhertz.com/trem-control/",
-      "year": 2015
+      "year": 2015,
+      "tags": [
+        "tremolo",
+        "modulation",
+        "vintage",
+        "creative",
+        "rhythmic",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "goodhertz-vulf-compressor",
@@ -2764,7 +3295,15 @@
       "description": "Character compressor with purposeful lo-fi compression artifacts, inspired by the Vulfpeck aesthetic of beautifully imperfect sound.",
       "price_type": "paid",
       "url": "https://goodhertz.com/vulf-comp/",
-      "year": 2016
+      "year": 2016,
+      "tags": [
+        "compressor",
+        "character",
+        "punchy",
+        "lo-fi",
+        "mixing",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "goodhertz-wow-control",
@@ -2797,7 +3336,15 @@
       "description": "Wow and flutter effect emulating tape machine speed irregularities.",
       "price_type": "paid",
       "url": "https://goodhertz.com/wow-control/",
-      "year": 2017
+      "year": 2017,
+      "tags": [
+        "wow-flutter",
+        "modulation",
+        "tape",
+        "lo-fi",
+        "vintage",
+        "creative"
+      ]
     },
     {
       "slug": "ifea-fusion",
@@ -2826,7 +3373,15 @@
       ],
       "description": "Experimental audio effect combining multiple processing algorithms in a visual interface.",
       "price_type": "paid",
-      "url": "https://ifeature.world/fusion"
+      "url": "https://ifeature.world/fusion",
+      "tags": [
+        "spectral",
+        "creative",
+        "experimental",
+        "sound-design",
+        "modern",
+        "texture"
+      ]
     },
     {
       "slug": "ifea-obra",
@@ -2855,7 +3410,15 @@
       ],
       "description": "Creative audio effect plugin with experimental sound transformation capabilities.",
       "price_type": "paid",
-      "url": "https://ifeature.world/obra"
+      "url": "https://ifeature.world/obra",
+      "tags": [
+        "spectral",
+        "creative",
+        "experimental",
+        "sound-design",
+        "modern",
+        "granular"
+      ]
     },
     {
       "slug": "ifea-spectral-compressor",
@@ -2884,7 +3447,15 @@
       ],
       "description": "Spectral compressor applying per-frequency dynamic compression across the spectrum.",
       "price_type": "paid",
-      "url": "https://ifeature.world/spectral-compressor"
+      "url": "https://ifeature.world/spectral-compressor",
+      "tags": [
+        "compressor",
+        "spectral",
+        "modern",
+        "transparent",
+        "creative",
+        "mixing"
+      ]
     },
     {
       "slug": "ifea-spectral-gate",
@@ -2913,7 +3484,15 @@
       ],
       "description": "Spectral noise gate operating on individual frequency bands for precise gating.",
       "price_type": "paid",
-      "url": "https://ifeature.world/spectral-gate"
+      "url": "https://ifeature.world/spectral-gate",
+      "tags": [
+        "gate",
+        "spectral",
+        "creative",
+        "modern",
+        "sound-design",
+        "experimental"
+      ]
     },
     {
       "slug": "gatekeeper",
@@ -2950,7 +3529,15 @@
       "description": "Volume gate sequencer with drawable envelopes for rhythmic gating and tremolo effects.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://polyversemusic.com/products/gatekeeper/"
+      "url": "https://polyversemusic.com/products/gatekeeper/",
+      "tags": [
+        "gate",
+        "volume",
+        "sidechain",
+        "creative",
+        "electronic",
+        "rhythmic"
+      ]
     },
     {
       "slug": "i-wish",
@@ -2987,7 +3574,15 @@
       "description": "Granular pitch-shifting effect that freezes and repitches audio in real time.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://polyversemusic.com/products/i-wish/"
+      "url": "https://polyversemusic.com/products/i-wish/",
+      "tags": [
+        "pitch",
+        "granular",
+        "creative",
+        "electronic",
+        "sound-design",
+        "experimental"
+      ]
     },
     {
       "slug": "manipulator",
@@ -3024,7 +3619,16 @@
       "description": "Real-time vocal transformation plugin with pitch shifting, harmonizing, and vocoding.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://polyversemusic.com/products/manipulator/"
+      "url": "https://polyversemusic.com/products/manipulator/",
+      "tags": [
+        "vocoder",
+        "pitch",
+        "vocal",
+        "creative",
+        "electronic",
+        "sound-design",
+        "formant"
+      ]
     },
     {
       "slug": "heat-up-3",
@@ -3057,7 +3661,15 @@
       "description": "Multi-format sample-based rompler covering keys, pads, basses, leads, and orchestral sounds.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://initialaudio.com/product/heat-up-3/"
+      "url": "https://initialaudio.com/product/heat-up-3/",
+      "tags": [
+        "rompler",
+        "hip-hop",
+        "trap",
+        "keys",
+        "bass",
+        "presets"
+      ]
     },
     {
       "slug": "sektor",
@@ -3089,7 +3701,15 @@
       "description": "Wavetable synthesizer with a visual interface and built-in effects for electronic music.",
       "price_type": "paid",
       "url": "https://initialaudio.com/product/sektor/",
-      "year": 2017
+      "year": 2017,
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "modern",
+        "electronic",
+        "presets",
+        "edm"
+      ]
     },
     {
       "slug": "izotope-rx-voice-de-noise",
@@ -3120,7 +3740,15 @@
       "description": "AI-powered noise reduction plugin for cleaning up vocal recordings in real time.",
       "price_type": "paid",
       "url": "https://www.izotope.com/en/products/rx.html",
-      "year": 2018
+      "year": 2018,
+      "tags": [
+        "noise-reduction",
+        "vocal",
+        "cleanup",
+        "restoration",
+        "dialogue",
+        "post-production"
+      ]
     },
     {
       "slug": "izotope-nectar-4",
@@ -3154,7 +3782,15 @@
       "description": "Vocal channel strip with AI-assisted processing, pitch correction, and harmonics.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.izotope.com/en/products/nectar.html"
+      "url": "https://www.izotope.com/en/products/nectar.html",
+      "tags": [
+        "vocal",
+        "channel-strip",
+        "pitch-correction",
+        "mixing",
+        "harmony",
+        "de-esser"
+      ]
     },
     {
       "slug": "izotope-neutron-4",
@@ -3190,7 +3826,15 @@
       "description": "AI-assisted mixing plugin with EQ, compression, gate, and transient shaping modules.",
       "price_type": "paid",
       "year": 2023,
-      "url": "https://www.izotope.com/en/products/neutron.html"
+      "url": "https://www.izotope.com/en/products/neutron.html",
+      "tags": [
+        "channel-strip",
+        "mixing",
+        "ai-assisted",
+        "eq",
+        "compressor",
+        "modern"
+      ]
     },
     {
       "slug": "ozone-11",
@@ -3227,7 +3871,16 @@
       "description": "AI-powered mastering suite with 17 processing modules including EQ, dynamics, exciter, imager, and intelligent assistants.",
       "price_type": "paid",
       "year": 2023,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "mastering",
+        "suite",
+        "ai-assisted",
+        "limiter",
+        "eq",
+        "modern",
+        "loudness"
+      ]
     },
     {
       "slug": "ozone-11-equalizer",
@@ -3258,7 +3911,15 @@
       "description": "Component EQ from Ozone 11 mastering suite with analog-modeled filter curves.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "equalizer",
+        "mastering",
+        "dynamic-eq",
+        "mid-side",
+        "modern",
+        "transparent"
+      ]
     },
     {
       "slug": "ozone-11-exciter",
@@ -3289,7 +3950,15 @@
       "description": "Component harmonic exciter from Ozone 11 with multiband saturation and warmth.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "saturation",
+        "exciter",
+        "harmonic",
+        "mastering",
+        "warm",
+        "brightness"
+      ]
     },
     {
       "slug": "ozone-11-imager",
@@ -3320,7 +3989,15 @@
       "description": "Component stereo imager from Ozone 11 for multiband stereo width adjustment.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "stereo",
+        "imaging",
+        "mastering",
+        "width",
+        "mid-side",
+        "spatial"
+      ]
     },
     {
       "slug": "ozone-11-master-rebalance",
@@ -3351,7 +4028,14 @@
       "description": "AI-powered stem rebalancing tool from Ozone 11 for adjusting vocals, bass, and drums in a mix.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "mastering",
+        "stem-separation",
+        "ai-assisted",
+        "rebalance",
+        "modern"
+      ]
     },
     {
       "slug": "izotope-ozone-9",
@@ -3387,7 +4071,15 @@
       "description": "Previous-generation mastering suite with EQ, dynamics, imager, and maximizer modules.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "mastering",
+        "suite",
+        "limiter",
+        "eq",
+        "modern",
+        "loudness"
+      ]
     },
     {
       "slug": "ozone-9-dynamics",
@@ -3417,7 +4109,14 @@
       "description": "Component dynamics processor from Ozone 9 with multiband compression.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.izotope.com/en/products/ozone.html"
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "tags": [
+        "compressor",
+        "mastering",
+        "multiband",
+        "transparent",
+        "dynamic"
+      ]
     },
     {
       "slug": "izotope-rx-11",
@@ -3453,7 +4152,15 @@
       "description": "Audio repair and restoration suite for noise reduction, de-click, de-hum, and spectral editing.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.izotope.com/en/products/rx.html"
+      "url": "https://www.izotope.com/en/products/rx.html",
+      "tags": [
+        "restoration",
+        "noise-reduction",
+        "cleanup",
+        "post-production",
+        "spectral",
+        "repair"
+      ]
     },
     {
       "slug": "trash-2",
@@ -3486,7 +4193,15 @@
       "description": "Multiband distortion and saturation processor with convolution and trash algorithms.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://www.izotope.com/en/products/trash.html"
+      "url": "https://www.izotope.com/en/products/trash.html",
+      "tags": [
+        "distortion",
+        "multiband",
+        "aggressive",
+        "creative",
+        "sound-design",
+        "heavy"
+      ]
     },
     {
       "slug": "izotope-vinyl",
@@ -3521,7 +4236,16 @@
       "description": "Free lo-fi effect emulating vinyl record noise, dust, warp, and mechanical wear.",
       "price_type": "free",
       "year": 2004,
-      "url": "https://www.izotope.com/en/products/vinyl.html"
+      "url": "https://www.izotope.com/en/products/vinyl.html",
+      "tags": [
+        "lo-fi",
+        "vinyl",
+        "free",
+        "vintage",
+        "noise",
+        "texture",
+        "creative"
+      ]
     },
     {
       "slug": "disperser",
@@ -3556,7 +4280,15 @@
       "description": "All-pass filter effect that smears transients and reshapes the phase of audio signals.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://kilohearts.com/products/disperser"
+      "url": "https://kilohearts.com/products/disperser",
+      "tags": [
+        "filter",
+        "phase",
+        "transient",
+        "sound-design",
+        "creative",
+        "electronic"
+      ]
     },
     {
       "slug": "effectrack",
@@ -3591,7 +4323,15 @@
       "description": "Modular effect hosting rack for combining Kilohearts snapin modules in series and parallel.",
       "price_type": "paid",
       "url": "https://kilohearts.com/products/effectrack",
-      "year": 2016
+      "year": 2016,
+      "tags": [
+        "multi-effect",
+        "modular",
+        "creative",
+        "sound-design",
+        "routing",
+        "electronic"
+      ]
     },
     {
       "slug": "khs-compactor",
@@ -3624,7 +4364,15 @@
       "description": "Simple compressor snapin module for the Kilohearts ecosystem.",
       "price_type": "paid",
       "url": "https://kilohearts.com/products/compactor",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "simple",
+        "mixing",
+        "lightweight",
+        "clean",
+        "utility"
+      ]
     },
     {
       "slug": "khs-one",
@@ -3658,7 +4406,15 @@
       "description": "Subtractive synthesizer with a clean interface and snapin effect hosting capability.",
       "price_type": "paid",
       "url": "https://kilohearts.com/products/khs_one",
-      "year": 2016
+      "year": 2016,
+      "tags": [
+        "synthesizer",
+        "subtractive",
+        "simple",
+        "lightweight",
+        "free",
+        "electronic"
+      ]
     },
     {
       "slug": "maim",
@@ -3691,7 +4447,15 @@
       "description": "Bitcrusher and sample rate reducer snapin for digital degradation effects.",
       "price_type": "paid",
       "url": "https://kilohearts.com/products/maim",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "distortion",
+        "bitcrusher",
+        "lo-fi",
+        "aggressive",
+        "creative",
+        "electronic"
+      ]
     },
     {
       "slug": "multipass",
@@ -3726,7 +4490,15 @@
       "description": "Multiband effect hosting rack that splits audio into bands for independent snapin processing.",
       "price_type": "paid",
       "url": "https://kilohearts.com/products/multipass",
-      "year": 2016
+      "year": 2016,
+      "tags": [
+        "multiband",
+        "creative",
+        "modular",
+        "sound-design",
+        "electronic",
+        "routing"
+      ]
     },
     {
       "slug": "phase-plant",
@@ -3765,7 +4537,16 @@
       "description": "Semi-modular synthesizer with analog, wavetable, sample, and noise generators routable through snapin-based effects lanes.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://kilohearts.com/products/phase_plant"
+      "url": "https://kilohearts.com/products/phase_plant",
+      "tags": [
+        "synthesizer",
+        "modular",
+        "wavetable",
+        "sound-design",
+        "granular",
+        "modern",
+        "electronic"
+      ]
     },
     {
       "slug": "snap-heap",
@@ -3802,7 +4583,15 @@
       "description": "Modular effects host with four parallel/serial lanes for creating custom effect chains using the Kilohearts snapin ecosystem.",
       "price_type": "paid",
       "url": "https://kilohearts.com/products/snap_heap",
-      "year": 2016
+      "year": 2016,
+      "tags": [
+        "multi-effect",
+        "modular",
+        "creative",
+        "sound-design",
+        "electronic",
+        "routing"
+      ]
     },
     {
       "slug": "dc1a",
@@ -3835,7 +4624,15 @@
       "description": "Simple two-knob compressor with gentle, musical compression character.",
       "price_type": "free",
       "year": 2013,
-      "url": "https://klanghelm.com/contents/products/DC1A.php"
+      "url": "https://klanghelm.com/contents/products/DC1A.php",
+      "tags": [
+        "compressor",
+        "simple",
+        "free",
+        "analog-modeling",
+        "warm",
+        "easy-to-use"
+      ]
     },
     {
       "slug": "mjuc",
@@ -3869,7 +4666,16 @@
       "description": "Variable-mu tube compressor with three distinct compression modes spanning different eras.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://klanghelm.com/contents/products/MJUC.php"
+      "url": "https://klanghelm.com/contents/products/MJUC.php",
+      "tags": [
+        "compressor",
+        "vari-mu",
+        "analog-modeling",
+        "warm",
+        "glue",
+        "vintage",
+        "mixing"
+      ]
     },
     {
       "slug": "synthmaster-2",
@@ -3902,7 +4708,15 @@
       "description": "Semi-modular software synthesizer with multiple synthesis methods and a large preset library.",
       "price_type": "paid",
       "year": 2011,
-      "url": "https://www.kv331audio.com/synthmaster.aspx"
+      "url": "https://www.kv331audio.com/synthmaster.aspx",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "semi-modular",
+        "versatile",
+        "sound-design",
+        "presets"
+      ]
     },
     {
       "slug": "sylenth1",
@@ -3938,7 +4752,16 @@
       "description": "Virtual analog synthesizer known for its warm, rich sound and CPU efficiency.",
       "price_type": "paid",
       "year": 2006,
-      "url": "https://www.lennardigital.com/sylenth1/"
+      "url": "https://www.lennardigital.com/sylenth1/",
+      "tags": [
+        "synthesizer",
+        "subtractive",
+        "virtual-analog",
+        "trance",
+        "edm",
+        "classic",
+        "lead"
+      ]
     },
     {
       "slug": "st1b",
@@ -3972,7 +4795,14 @@
       "description": "Single-band transient shaper with boost/cut up to 45dB and signal splitting into transient and body components.",
       "price_type": "paid",
       "url": "https://lhiaudio.com",
-      "year": 2021
+      "year": 2021,
+      "tags": [
+        "channel-strip",
+        "mixing",
+        "simple",
+        "utility",
+        "coloring"
+      ]
     },
     {
       "slug": "st4b",
@@ -4006,7 +4836,14 @@
       "description": "Multi-band transient shaper with proprietary detection algorithm, 45dB boost/cut range, and 2-sample latency.",
       "price_type": "paid",
       "url": "https://lhiaudio.com/st4b/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "channel-strip",
+        "mixing",
+        "console",
+        "utility",
+        "coloring"
+      ]
     },
     {
       "slug": "helm",
@@ -4039,7 +4876,15 @@
       "description": "Free open-source polyphonic synthesizer with a visual modulation interface.",
       "price_type": "free",
       "year": 2015,
-      "url": "https://tytel.org/helm/"
+      "url": "https://tytel.org/helm/",
+      "tags": [
+        "synthesizer",
+        "subtractive",
+        "free",
+        "open-source",
+        "polyphonic",
+        "electronic"
+      ]
     },
     {
       "slug": "vital",
@@ -4078,7 +4923,16 @@
       "description": "Open-source spectral warping wavetable synthesizer with visual modulation, text-to-wavetable, and drag-and-drop routing.",
       "price_type": "free",
       "year": 2020,
-      "url": "https://vital.audio/"
+      "url": "https://vital.audio/",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "free",
+        "modulation",
+        "sound-design",
+        "visual",
+        "modern"
+      ]
     },
     {
       "slug": "mautopitch",
@@ -4115,7 +4969,15 @@
       "description": "Free automatic pitch correction plugin for vocals and monophonic instruments.",
       "price_type": "free",
       "year": 2014,
-      "url": "https://www.meldaproduction.com/MAutoPitch"
+      "url": "https://www.meldaproduction.com/MAutoPitch",
+      "tags": [
+        "pitch-correction",
+        "vocal",
+        "free",
+        "auto-tune",
+        "simple",
+        "mixing"
+      ]
     },
     {
       "slug": "mcompressor",
@@ -4150,7 +5012,15 @@
       "description": "Full-featured dynamics compressor with advanced sidechain and detection options.",
       "price_type": "free",
       "url": "https://www.meldaproduction.com/MCompressor",
-      "year": 2010
+      "year": 2010,
+      "tags": [
+        "compressor",
+        "free",
+        "versatile",
+        "mixing",
+        "clean",
+        "utility"
+      ]
     },
     {
       "slug": "mfreeformequalizer",
@@ -4185,7 +5055,15 @@
       "description": "Free-draw parametric equalizer allowing arbitrary EQ curve shapes.",
       "price_type": "free",
       "url": "https://www.meldaproduction.com/MFreeformEqualizer",
-      "year": 2012
+      "year": 2012,
+      "tags": [
+        "equalizer",
+        "free",
+        "freeform",
+        "creative",
+        "mixing",
+        "visual"
+      ]
     },
     {
       "slug": "mmatcher",
@@ -4220,7 +5098,15 @@
       "description": "Audio matching utility that analyzes and matches loudness, spectrum, and stereo width between tracks.",
       "price_type": "free",
       "url": "https://www.meldaproduction.com/MMatcher",
-      "year": 2012
+      "year": 2012,
+      "tags": [
+        "analyzer",
+        "matching",
+        "utility",
+        "free",
+        "mixing",
+        "loudness"
+      ]
     },
     {
       "slug": "current",
@@ -4252,7 +5138,16 @@
       "description": "Hybrid synthesizer combining wavetable, sample, and granular engines with intelligent modulation.",
       "price_type": "paid",
       "year": 2023,
-      "url": "https://www.minimal.audio/products/current"
+      "url": "https://www.minimal.audio/products/current",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "modern",
+        "sound-design",
+        "ai-assisted",
+        "electronic",
+        "visual"
+      ]
     },
     {
       "slug": "rift",
@@ -4285,7 +5180,16 @@
       "description": "Distortion and filter plugin with feedback routing, sequencing, and modulation capabilities.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://www.minimal.audio/products/rift"
+      "url": "https://www.minimal.audio/products/rift",
+      "tags": [
+        "distortion",
+        "multiband",
+        "creative",
+        "sound-design",
+        "modulation",
+        "aggressive",
+        "modern"
+      ]
     },
     {
       "slug": "minimeters",
@@ -4317,7 +5221,15 @@
       "description": "Compact audio metering suite with level, spectrum, stereo, and loudness displays.",
       "price_type": "free",
       "url": "https://minimeters.app/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "meter",
+        "visualization",
+        "mixing",
+        "mastering",
+        "free",
+        "utility"
+      ]
     },
     {
       "slug": "minimeters-loudness",
@@ -4349,7 +5261,15 @@
       "description": "Dedicated loudness metering plugin showing LUFS, true peak, and loudness range.",
       "price_type": "free",
       "url": "https://minimeters.app/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "meter",
+        "loudness",
+        "lufs",
+        "mastering",
+        "free",
+        "utility"
+      ]
     },
     {
       "slug": "absynth-5",
@@ -4387,7 +5307,16 @@
       "description": "Semi-modular synthesizer specializing in evolving textures, pads, and atmospheric sounds.",
       "price_type": "paid",
       "year": 2010,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/absynth-5/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/absynth-5/",
+      "tags": [
+        "synthesizer",
+        "granular",
+        "sound-design",
+        "ambient",
+        "experimental",
+        "texture",
+        "cinematic"
+      ]
     },
     {
       "slug": "battery-4",
@@ -4425,7 +5354,15 @@
       "description": "Drum sampler with a cell-based interface for loading, editing, and layering drum kits.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://www.native-instruments.com/en/products/komplete/drums/battery-4/"
+      "url": "https://www.native-instruments.com/en/products/komplete/drums/battery-4/",
+      "tags": [
+        "drum-machine",
+        "sampler",
+        "drums",
+        "electronic",
+        "hip-hop",
+        "percussion"
+      ]
     },
     {
       "slug": "fm8",
@@ -4460,7 +5397,15 @@
       "description": "Eight-operator FM synthesizer with an advanced modulation matrix and arpeggiator.",
       "price_type": "paid",
       "year": 2007,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/fm8/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/fm8/",
+      "tags": [
+        "synthesizer",
+        "fm-synthesis",
+        "digital",
+        "sound-design",
+        "bass",
+        "bells"
+      ]
     },
     {
       "slug": "guitar-rig-7",
@@ -4498,7 +5443,15 @@
       "description": "Guitar and bass amp/effects simulation suite with signal chain routing.",
       "price_type": "paid",
       "year": 2023,
-      "url": "https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-7-pro/"
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-7-pro/",
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "cabinet",
+        "pedalboard",
+        "effects-chain",
+        "rock"
+      ]
     },
     {
       "slug": "kontakt",
@@ -4532,7 +5485,15 @@
       "description": "Industry-standard sample playback engine hosting thousands of third-party instrument libraries.",
       "price_type": "paid",
       "year": 2002,
-      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/"
+      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/",
+      "tags": [
+        "sampler",
+        "orchestral",
+        "cinematic",
+        "library",
+        "rompler",
+        "versatile"
+      ]
     },
     {
       "slug": "kontakt-7",
@@ -4568,7 +5529,15 @@
       "description": "Updated sampler platform with new HiDPI interface, effects, and Creator Tools integration.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/"
+      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/",
+      "tags": [
+        "sampler",
+        "orchestral",
+        "cinematic",
+        "library",
+        "rompler",
+        "versatile"
+      ]
     },
     {
       "slug": "kontakt-7-portable",
@@ -4599,7 +5568,15 @@
       "description": "Lightweight version of Kontakt 7 for playing NKS libraries without the full sampler.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/"
+      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/",
+      "tags": [
+        "sampler",
+        "orchestral",
+        "cinematic",
+        "library",
+        "rompler",
+        "portable"
+      ]
     },
     {
       "slug": "kontakt-8",
@@ -4635,7 +5612,15 @@
       "description": "Industry-standard sampler platform with 900+ instruments, scripting engine, and extensive third-party library support.",
       "price_type": "paid",
       "year": 2024,
-      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/"
+      "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/",
+      "tags": [
+        "sampler",
+        "orchestral",
+        "cinematic",
+        "library",
+        "rompler",
+        "modern"
+      ]
     },
     {
       "slug": "massive",
@@ -4672,7 +5657,16 @@
       "description": "Classic wavetable synthesizer widely used in electronic and bass music production.",
       "price_type": "paid",
       "year": 2007,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/massive/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/massive/",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "bass",
+        "dubstep",
+        "edm",
+        "aggressive",
+        "classic"
+      ]
     },
     {
       "slug": "massive-x",
@@ -4712,7 +5706,15 @@
       "description": "Next-generation wavetable synthesizer with innovative routing, dual filters, and performer/tracker modulation system.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/massive-x/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/massive-x/",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "modern",
+        "sound-design",
+        "bass",
+        "electronic"
+      ]
     },
     {
       "slug": "monark",
@@ -4747,7 +5749,15 @@
       "description": "Monophonic synthesizer modeled after the Moog Minimoog, available in Reaktor and Komplete.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/monark/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/monark/",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "moog",
+        "monophonic",
+        "bass",
+        "warm"
+      ]
     },
     {
       "slug": "reaktor-6",
@@ -4783,7 +5793,15 @@
       "description": "Visual modular synthesis environment for building custom instruments and effects from blocks.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/",
+      "tags": [
+        "synthesizer",
+        "modular",
+        "sound-design",
+        "experimental",
+        "ensemble",
+        "creative"
+      ]
     },
     {
       "slug": "super-8",
@@ -4819,7 +5837,15 @@
       "description": "Eight-voice virtual analog polysynth inspired by the Roland Jupiter-8.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/super-8/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/super-8/",
+      "tags": [
+        "synthesizer",
+        "virtual-analog",
+        "polyphonic",
+        "vintage",
+        "pads",
+        "warm"
+      ]
     },
     {
       "slug": "supercharger",
@@ -4851,7 +5877,15 @@
       "description": "Tube compressor with a one-knob interface delivering punchy, characterful compression.",
       "price_type": "free",
       "year": 2012,
-      "url": "https://www.native-instruments.com/en/products/komplete/effects/supercharger/"
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/supercharger/",
+      "tags": [
+        "compressor",
+        "tube",
+        "aggressive",
+        "character",
+        "punchy",
+        "free"
+      ]
     },
     {
       "slug": "faturator",
@@ -4886,7 +5920,15 @@
       "description": "Saturation and distortion effect originally by Softube, now by Nembrini Audio, for adding harmonic warmth.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://www.nembriniaudio.com/products/faturator-distortion-plugin"
+      "url": "https://www.nembriniaudio.com/products/faturator-distortion-plugin",
+      "tags": [
+        "saturation",
+        "distortion",
+        "aggressive",
+        "harmonic",
+        "mixing",
+        "warm"
+      ]
     },
     {
       "slug": "archetype-gojira",
@@ -4919,7 +5961,15 @@
       "description": "Guitar amp/effects suite modeled in collaboration with Gojira guitarist Joe Duplantier.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://neuraldsp.com/plugins/archetype-gojira"
+      "url": "https://neuraldsp.com/plugins/archetype-gojira",
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "metal",
+        "high-gain",
+        "cabinet",
+        "rock"
+      ]
     },
     {
       "slug": "elevate",
@@ -4952,7 +6002,15 @@
       "description": "Multiband limiter with adaptive algorithms and per-band transient emphasis for transparent mastering.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.eventideaudio.com/plug-ins/elevate-bundle/"
+      "url": "https://www.eventideaudio.com/plug-ins/elevate-bundle/",
+      "tags": [
+        "limiter",
+        "mastering",
+        "multiband",
+        "transparent",
+        "ai-assisted",
+        "loudness"
+      ]
     },
     {
       "slug": "saturate",
@@ -4985,7 +6043,15 @@
       "description": "Spectral clipper and saturation plugin with adaptive harmonic processing.",
       "price_type": "paid",
       "url": "https://www.eventideaudio.com/plug-ins/saturate/",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "saturation",
+        "harmonic",
+        "analog-modeling",
+        "warm",
+        "mixing",
+        "subtle"
+      ]
     },
     {
       "slug": "kickstart-2",
@@ -5019,7 +6085,15 @@
       "description": "One-knob sidechain volume ducking tool for creating pumping effects in dance music.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://www.kickstart-plugin.com/"
+      "url": "https://www.kickstart-plugin.com/",
+      "tags": [
+        "sidechain",
+        "ducking",
+        "volume",
+        "electronic",
+        "edm",
+        "mixing"
+      ]
     },
     {
       "slug": "soothe2",
@@ -5054,7 +6128,15 @@
       "description": "Dynamic resonance suppressor that identifies and reduces harsh frequencies in real time.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://oeksound.com/plugins/soothe2/"
+      "url": "https://oeksound.com/plugins/soothe2/",
+      "tags": [
+        "dynamic-eq",
+        "resonance-suppression",
+        "de-harshness",
+        "mixing",
+        "mastering",
+        "vocal"
+      ]
     },
     {
       "slug": "spiff",
@@ -5088,7 +6170,15 @@
       "description": "Adaptive transient processor that controls transient emphasis or suppression per frequency.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://oeksound.com/plugins/spiff/"
+      "url": "https://oeksound.com/plugins/spiff/",
+      "tags": [
+        "transient",
+        "transient-shaper",
+        "mixing",
+        "drums",
+        "de-harshness",
+        "dynamic"
+      ]
     },
     {
       "slug": "chroma",
@@ -5118,7 +6208,15 @@
       "description": "Audio effect combining distortion, filtering, and modulation for cinematic sound design.",
       "price_type": "paid",
       "url": "https://output.com/products/chroma",
-      "year": 2023
+      "year": 2023,
+      "tags": [
+        "multi-effect",
+        "creative",
+        "modulation",
+        "sound-design",
+        "cinematic",
+        "texture"
+      ]
     },
     {
       "slug": "output-exhale",
@@ -5151,7 +6249,15 @@
       "description": "Vocal-focused sample instrument built from manipulated human voice recordings.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://output.com/products/exhale"
+      "url": "https://output.com/products/exhale",
+      "tags": [
+        "sampler",
+        "vocal",
+        "cinematic",
+        "texture",
+        "ambient",
+        "sound-design"
+      ]
     },
     {
       "slug": "movement",
@@ -5184,7 +6290,15 @@
       "description": "Rhythm-based effect engine applying LFO-driven modulation to any audio signal.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://output.com/products/movement"
+      "url": "https://output.com/products/movement",
+      "tags": [
+        "modulation",
+        "rhythmic",
+        "creative",
+        "electronic",
+        "sound-design",
+        "lfo"
+      ]
     },
     {
       "slug": "output-portal",
@@ -5219,7 +6333,15 @@
       "description": "Granular synthesis effect that transforms audio through grain-based processing.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://output.com/products/portal"
+      "url": "https://output.com/products/portal",
+      "tags": [
+        "distortion",
+        "granular",
+        "creative",
+        "sound-design",
+        "experimental",
+        "texture"
+      ]
     },
     {
       "slug": "output-signal",
@@ -5252,7 +6374,15 @@
       "description": "Pulse-engine synthesizer combining analog-style synthesis with built-in rhythmic modulation.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://output.com/products/signal"
+      "url": "https://output.com/products/signal",
+      "tags": [
+        "synthesizer",
+        "cinematic",
+        "pulse",
+        "rhythmic",
+        "sound-design",
+        "modern"
+      ]
     },
     {
       "slug": "thermal",
@@ -5287,7 +6417,15 @@
       "description": "Multi-stage distortion processor with analog-modeled distortion algorithms and modulation.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://output.com/products/thermal"
+      "url": "https://output.com/products/thermal",
+      "tags": [
+        "distortion",
+        "multiband",
+        "aggressive",
+        "creative",
+        "modern",
+        "sound-design"
+      ]
     },
     {
       "slug": "transit-2",
@@ -5318,7 +6456,15 @@
       "description": "Transition and riser effects tool for creating builds, drops, and sweeps.",
       "price_type": "paid",
       "url": "https://output.com/products/transit",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "transition",
+        "riser",
+        "cinematic",
+        "impact",
+        "sound-design",
+        "creative"
+      ]
     },
     {
       "slug": "chipcrusher2",
@@ -5352,7 +6498,15 @@
       "description": "Chiptune-style bitcrusher emulating vintage gaming console and computer audio hardware.",
       "price_type": "paid",
       "url": "https://www.plogue.com/products/chipcrusher.html",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "distortion",
+        "bitcrusher",
+        "chiptune",
+        "lo-fi",
+        "retro",
+        "8-bit"
+      ]
     },
     {
       "slug": "chipsynth-sfc",
@@ -5385,7 +6539,15 @@
       "description": "Chip music synthesizer accurately emulating the Super Nintendo (SPC700) audio hardware.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://www.plogue.com/products/chipsynth-sfc.html"
+      "url": "https://www.plogue.com/products/chipsynth-sfc.html",
+      "tags": [
+        "synthesizer",
+        "chiptune",
+        "retro",
+        "8-bit",
+        "snes",
+        "vintage"
+      ]
     },
     {
       "slug": "plugdata",
@@ -5417,7 +6579,16 @@
       "description": "Visual patching environment based on Pure Data for building custom instruments in a DAW.",
       "price_type": "free",
       "url": "https://plugdata.org/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "synthesizer",
+        "modular",
+        "patching",
+        "free",
+        "open-source",
+        "pure-data",
+        "creative"
+      ]
     },
     {
       "slug": "plugdata-fx",
@@ -5449,7 +6620,16 @@
       "description": "Effect version of plugdata for building custom audio effects using Pure Data patching.",
       "price_type": "free",
       "url": "https://plugdata.org/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "multi-effect",
+        "modular",
+        "patching",
+        "free",
+        "open-source",
+        "pure-data",
+        "creative"
+      ]
     },
     {
       "slug": "bx-console",
@@ -5486,7 +6666,15 @@
       "description": "Channel strip plugin modeled after a classic large-format analog mixing console.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.plugin-alliance.com/en/products/bx_console_focusrite_sc.html"
+      "url": "https://www.plugin-alliance.com/en/products/bx_console_focusrite_sc.html",
+      "tags": [
+        "channel-strip",
+        "console",
+        "analog-modeling",
+        "mixing",
+        "warm",
+        "vintage"
+      ]
     },
     {
       "slug": "bx-digital-v3",
@@ -5523,7 +6711,15 @@
       "description": "Mid/side mastering equalizer with dynamic EQ, mono-maker, and stereo width control.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://www.plugin-alliance.com/en/products/bx_digital_v3.html"
+      "url": "https://www.plugin-alliance.com/en/products/bx_digital_v3.html",
+      "tags": [
+        "equalizer",
+        "mid-side",
+        "mastering",
+        "stereo",
+        "precise",
+        "modern"
+      ]
     },
     {
       "slug": "spl-de-esser",
@@ -5560,7 +6756,15 @@
       "description": "De-essing plugin modeled after the SPL hardware de-esser for sibilance control.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://www.plugin-alliance.com/en/products/spl_de-esser.html"
+      "url": "https://www.plugin-alliance.com/en/products/spl_de-esser.html",
+      "tags": [
+        "de-esser",
+        "vocal",
+        "sibilance",
+        "mixing",
+        "transparent",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "spl-iron",
@@ -5596,7 +6800,15 @@
       "description": "Mastering compressor modeled after the SPL Iron tube compressor hardware.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.plugin-alliance.com/en/products/spl_iron.html"
+      "url": "https://www.plugin-alliance.com/en/products/spl_iron.html",
+      "tags": [
+        "compressor",
+        "tube",
+        "mastering",
+        "analog-modeling",
+        "warm",
+        "glue"
+      ]
     },
     {
       "slug": "scaler-2",
@@ -5629,7 +6841,15 @@
       "description": "Music theory and chord progression tool that suggests chords, scales, and voicings via MIDI.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6439-Scaler-2"
+      "url": "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6439-Scaler-2",
+      "tags": [
+        "midi",
+        "chord",
+        "composition",
+        "theory",
+        "songwriting",
+        "creative"
+      ]
     },
     {
       "slug": "comet",
@@ -5661,7 +6881,15 @@
       "description": "Reverb plugin with shimmer, modulation, and infinite freeze for ambient sound design.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://polyversemusic.com/products/comet/"
+      "url": "https://polyversemusic.com/products/comet/",
+      "tags": [
+        "reverb",
+        "shimmer",
+        "ambient",
+        "lush",
+        "creative",
+        "modern"
+      ]
     },
     {
       "slug": "wider",
@@ -5694,7 +6922,15 @@
       "description": "Free stereo widening plugin using mid/side processing without phase issues in mono.",
       "price_type": "free",
       "year": 2016,
-      "url": "https://polyversemusic.com/products/wider/"
+      "url": "https://polyversemusic.com/products/wider/",
+      "tags": [
+        "stereo",
+        "width",
+        "free",
+        "utility",
+        "imaging",
+        "mixing"
+      ]
     },
     {
       "slug": "melodysauce2",
@@ -5727,7 +6963,15 @@
       "description": "AI-powered MIDI melody generator that creates melodies based on selected chords and styles.",
       "price_type": "paid",
       "url": "https://www.evabeat.com/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "midi",
+        "melody",
+        "generator",
+        "composition",
+        "songwriting",
+        "creative"
+      ]
     },
     {
       "slug": "blade-2",
@@ -5759,7 +7003,15 @@
       "description": "Additive synthesis-based synth with XY pad control and comprehensive modulation.",
       "price_type": "paid",
       "url": "https://www.robpapen.com/blade2.html",
-      "year": 2019
+      "year": 2019,
+      "tags": [
+        "synthesizer",
+        "additive",
+        "sound-design",
+        "modern",
+        "creative",
+        "electronic"
+      ]
     },
     {
       "slug": "predator-3",
@@ -5791,7 +7043,15 @@
       "description": "Virtual analog synth designed for leads, basses, and aggressive electronic sounds.",
       "price_type": "paid",
       "url": "https://www.robpapen.com/predator3.html",
-      "year": 2021
+      "year": 2021,
+      "tags": [
+        "synthesizer",
+        "subtractive",
+        "electronic",
+        "trance",
+        "edm",
+        "presets"
+      ]
     },
     {
       "slug": "transient-shaper",
@@ -5823,7 +7083,15 @@
       "description": "Transient designer for boosting or attenuating the attack and sustain of audio signals.",
       "price_type": "paid",
       "url": "https://www.schaack-audio.com/ts.html",
-      "year": 2010
+      "year": 2010,
+      "tags": [
+        "transient",
+        "transient-shaper",
+        "drums",
+        "mixing",
+        "punch",
+        "attack"
+      ]
     },
     {
       "slug": "argentcompressor",
@@ -5857,7 +7125,15 @@
       "description": "Extreme upward compressor designed for loud, aggressive dynamics processing with adjustable character.",
       "price_type": "free",
       "url": "https://nimble.tools/argent/",
-      "year": 2022
+      "year": 2022,
+      "tags": [
+        "compressor",
+        "clean",
+        "transparent",
+        "mixing",
+        "modern",
+        "versatile"
+      ]
     },
     {
       "slug": "standardclip",
@@ -5888,7 +7164,15 @@
       "description": "Soft/hard clipper and waveshaper for transparent loudness or aggressive distortion.",
       "price_type": "paid",
       "url": "https://www.siraudiotools.com/StandardCLIP.php",
-      "year": 2019
+      "year": 2019,
+      "tags": [
+        "clipper",
+        "distortion",
+        "mastering",
+        "loudness",
+        "saturation",
+        "clean"
+      ]
     },
     {
       "slug": "fg-x-2",
@@ -5926,7 +7210,15 @@
       "description": "Mastering processor combining compression, saturation, and limiting in one interface.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://slatedigital.com/fg-x-2/"
+      "url": "https://slatedigital.com/fg-x-2/",
+      "tags": [
+        "limiter",
+        "mastering",
+        "loudness",
+        "transparent",
+        "analog-modeling",
+        "final-stage"
+      ]
     },
     {
       "slug": "virtual-mix-rack",
@@ -5963,7 +7255,15 @@
       "description": "Modular channel strip hosting interchangeable EQ, compressor, and gate modules.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://slatedigital.com/virtual-mix-rack/"
+      "url": "https://slatedigital.com/virtual-mix-rack/",
+      "tags": [
+        "channel-strip",
+        "mixing",
+        "modular",
+        "console",
+        "analog-modeling",
+        "versatile"
+      ]
     },
     {
       "slug": "virtual-tape-machines",
@@ -6000,7 +7300,15 @@
       "description": "Tape machine emulation adding warmth, saturation, and compression from analog tape.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://slatedigital.com/virtual-tape-machines/"
+      "url": "https://slatedigital.com/virtual-tape-machines/",
+      "tags": [
+        "saturation",
+        "tape",
+        "analog-modeling",
+        "warm",
+        "vintage",
+        "mixing"
+      ]
     },
     {
       "slug": "console-1",
@@ -6036,7 +7344,15 @@
       "description": "Hardware-integrated channel strip providing EQ, compression, saturation, and gate per channel.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://www.softube.com/console-1"
+      "url": "https://www.softube.com/console-1",
+      "tags": [
+        "channel-strip",
+        "mixing",
+        "console",
+        "analog-modeling",
+        "hardware-integration",
+        "workflow"
+      ]
     },
     {
       "slug": "saturation-knob",
@@ -6073,7 +7389,15 @@
       "description": "Free single-knob saturation plugin with three saturation curve modes.",
       "price_type": "free",
       "year": 2012,
-      "url": "https://www.softube.com/saturation-knob"
+      "url": "https://www.softube.com/saturation-knob",
+      "tags": [
+        "saturation",
+        "free",
+        "simple",
+        "warm",
+        "harmonic",
+        "easy-to-use"
+      ]
     },
     {
       "slug": "bitspeek",
@@ -6106,7 +7430,15 @@
       "description": "Real-time speech synthesizer effect using LPC vocoding for robotic vocal transformation.",
       "price_type": "paid",
       "year": 2011,
-      "url": "https://soniccharge.com/bitspeek"
+      "url": "https://soniccharge.com/bitspeek",
+      "tags": [
+        "vocoder",
+        "speech",
+        "lo-fi",
+        "creative",
+        "retro",
+        "formant"
+      ]
     },
     {
       "slug": "synplant",
@@ -6142,7 +7474,15 @@
       "description": "Synthesizer with a genetic/evolutionary interface where sounds grow from seeds.",
       "price_type": "paid",
       "year": 2008,
-      "url": "https://soniccharge.com/synplant"
+      "url": "https://soniccharge.com/synplant",
+      "tags": [
+        "synthesizer",
+        "genetic",
+        "experimental",
+        "organic",
+        "sound-design",
+        "unique"
+      ]
     },
     {
       "slug": "oxford-dynamics",
@@ -6178,7 +7518,15 @@
       "description": "Professional dynamics processor with compressor, limiter, expander, and gate sections.",
       "price_type": "paid",
       "year": 2005,
-      "url": "https://www.sonnox.com/plugin/oxford-dynamics"
+      "url": "https://www.sonnox.com/plugin/oxford-dynamics",
+      "tags": [
+        "compressor",
+        "gate",
+        "limiter",
+        "mixing",
+        "precise",
+        "versatile"
+      ]
     },
     {
       "slug": "oxford-eq",
@@ -6214,7 +7562,15 @@
       "description": "Parametric EQ with five fully featured bands and additional high/low-pass filters.",
       "price_type": "paid",
       "year": 2005,
-      "url": "https://www.sonnox.com/plugin/oxford-eq"
+      "url": "https://www.sonnox.com/plugin/oxford-eq",
+      "tags": [
+        "equalizer",
+        "parametric-eq",
+        "mixing",
+        "precise",
+        "clean",
+        "transparent"
+      ]
     },
     {
       "slug": "oxford-limiter",
@@ -6250,7 +7606,15 @@
       "description": "Brickwall limiter with enhance section for transparent loudness maximizing.",
       "price_type": "paid",
       "year": 2007,
-      "url": "https://www.sonnox.com/plugin/oxford-limiter"
+      "url": "https://www.sonnox.com/plugin/oxford-limiter",
+      "tags": [
+        "limiter",
+        "mastering",
+        "loudness",
+        "transparent",
+        "precise",
+        "metering"
+      ]
     },
     {
       "slug": "crystallizer",
@@ -6283,7 +7647,16 @@
       "description": "Granular pitch-shifting reverse echo inspired by vintage Crystal Echoes hardware.",
       "price_type": "paid",
       "year": 2008,
-      "url": "https://www.soundtoys.com/product/crystallizer/"
+      "url": "https://www.soundtoys.com/product/crystallizer/",
+      "tags": [
+        "delay",
+        "granular",
+        "pitch",
+        "creative",
+        "shimmer",
+        "ambient",
+        "sound-design"
+      ]
     },
     {
       "slug": "decapitator",
@@ -6319,7 +7692,15 @@
       "description": "Analog saturation modeler with five hardware saturation styles and a Punish button for extreme harmonic distortion.",
       "price_type": "paid",
       "year": 2010,
-      "url": "https://www.soundtoys.com/product/decapitator/"
+      "url": "https://www.soundtoys.com/product/decapitator/",
+      "tags": [
+        "saturation",
+        "distortion",
+        "analog-modeling",
+        "warmth",
+        "harmonic",
+        "drive"
+      ]
     },
     {
       "slug": "devil-loc",
@@ -6357,7 +7738,15 @@
       "description": "Extreme compressor/distortion inspired by a cheap 1960s hardware leveler.",
       "price_type": "paid",
       "year": 2010,
-      "url": "https://www.soundtoys.com/product/devil-loc-deluxe/"
+      "url": "https://www.soundtoys.com/product/devil-loc-deluxe/",
+      "tags": [
+        "distortion",
+        "compressor",
+        "lo-fi",
+        "aggressive",
+        "crushing",
+        "drums"
+      ]
     },
     {
       "slug": "echoboy",
@@ -6395,7 +7784,15 @@
       "description": "Versatile delay plugin with 30+ echo styles emulating classic analog and digital hardware delay units.",
       "price_type": "paid",
       "year": 2007,
-      "url": "https://www.soundtoys.com/product/echoboy/"
+      "url": "https://www.soundtoys.com/product/echoboy/",
+      "tags": [
+        "delay",
+        "vintage",
+        "tape",
+        "analog-modeling",
+        "creative",
+        "versatile"
+      ]
     },
     {
       "slug": "filterfreak",
@@ -6433,7 +7830,15 @@
       "description": "Analog-modeled resonant filter with LFO and envelope following for rhythmic filtering.",
       "price_type": "paid",
       "year": 2005,
-      "url": "https://www.soundtoys.com/product/filterfreak/"
+      "url": "https://www.soundtoys.com/product/filterfreak/",
+      "tags": [
+        "filter",
+        "analog-modeling",
+        "resonant",
+        "creative",
+        "modulation",
+        "vintage"
+      ]
     },
     {
       "slug": "littlealterboy",
@@ -6470,7 +7875,15 @@
       "description": "Vocal pitch and formant shifter for real-time voice transformation effects.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://www.soundtoys.com/product/little-alterboy/"
+      "url": "https://www.soundtoys.com/product/little-alterboy/",
+      "tags": [
+        "pitch",
+        "vocal",
+        "formant",
+        "creative",
+        "character",
+        "sound-design"
+      ]
     },
     {
       "slug": "panman",
@@ -6506,7 +7919,15 @@
       "description": "Auto-panning and tremolo effect with multiple waveform shapes and sync options.",
       "price_type": "paid",
       "year": 2008,
-      "url": "https://www.soundtoys.com/product/panman/"
+      "url": "https://www.soundtoys.com/product/panman/",
+      "tags": [
+        "panning",
+        "auto-pan",
+        "modulation",
+        "creative",
+        "stereo",
+        "rhythmic"
+      ]
     },
     {
       "slug": "primaltap",
@@ -6542,7 +7963,15 @@
       "description": "Delay and looping effect inspired by the Lexicon Prime Time hardware.",
       "price_type": "paid",
       "year": 2015,
-      "url": "https://www.soundtoys.com/product/primaltap/"
+      "url": "https://www.soundtoys.com/product/primaltap/",
+      "tags": [
+        "delay",
+        "vintage",
+        "lo-fi",
+        "creative",
+        "tape",
+        "character"
+      ]
     },
     {
       "slug": "soundtoys-collection",
@@ -6575,7 +8004,15 @@
       "description": "Bundle containing all Soundtoys effect plugins in the Effect Rack hosting environment.",
       "price_type": "paid",
       "url": "https://www.soundtoys.com/product/soundtoys-5/",
-      "year": 2015
+      "year": 2015,
+      "tags": [
+        "bundle",
+        "analog-modeling",
+        "creative",
+        "mixing",
+        "vintage",
+        "sound-design"
+      ]
     },
     {
       "slug": "tremolator",
@@ -6611,7 +8048,15 @@
       "description": "Tremolo and auto-gate effect with tempo sync and envelope-following capabilities.",
       "price_type": "paid",
       "year": 2006,
-      "url": "https://www.soundtoys.com/product/tremolator/"
+      "url": "https://www.soundtoys.com/product/tremolator/",
+      "tags": [
+        "tremolo",
+        "modulation",
+        "rhythmic",
+        "vintage",
+        "creative",
+        "sidechain"
+      ]
     },
     {
       "slug": "keyscape",
@@ -6647,7 +8092,15 @@
       "description": "Premium keyboard instrument with deeply sampled acoustic and electric pianos and keys.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://www.spectrasonics.net/products/keyscape/"
+      "url": "https://www.spectrasonics.net/products/keyscape/",
+      "tags": [
+        "piano",
+        "keyboard",
+        "acoustic",
+        "electric-piano",
+        "vintage",
+        "cinematic"
+      ]
     },
     {
       "slug": "omnisphere",
@@ -6684,7 +8137,16 @@
       "description": "Flagship synthesizer combining sample-based synthesis, wavetables, and granular processing.",
       "price_type": "paid",
       "year": 2008,
-      "url": "https://www.spectrasonics.net/products/omnisphere/"
+      "url": "https://www.spectrasonics.net/products/omnisphere/",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "granular",
+        "cinematic",
+        "sound-design",
+        "pads",
+        "versatile"
+      ]
     },
     {
       "slug": "trilian",
@@ -6720,7 +8182,15 @@
       "description": "Bass instrument with acoustic, electric, and synth bass sounds and arpeggiator.",
       "price_type": "paid",
       "year": 2009,
-      "url": "https://www.spectrasonics.net/products/trilian/"
+      "url": "https://www.spectrasonics.net/products/trilian/",
+      "tags": [
+        "bass",
+        "acoustic-bass",
+        "electric-bass",
+        "cinematic",
+        "sampler",
+        "versatile"
+      ]
     },
     {
       "slug": "bbc-symphony-orchestra",
@@ -6756,7 +8226,15 @@
       "description": "Full symphonic orchestra sample library recorded at Maida Vale Studios.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.spitfireaudio.com/bbc-symphony-orchestra"
+      "url": "https://www.spitfireaudio.com/bbc-symphony-orchestra",
+      "tags": [
+        "orchestral",
+        "cinematic",
+        "strings",
+        "brass",
+        "woodwinds",
+        "free"
+      ]
     },
     {
       "slug": "spitfire-labs",
@@ -6792,7 +8270,15 @@
       "description": "Free collection of unique sample-based instruments from Spitfire Audio.",
       "price_type": "free",
       "year": 2018,
-      "url": "https://labs.spitfireaudio.com/"
+      "url": "https://labs.spitfireaudio.com/",
+      "tags": [
+        "rompler",
+        "free",
+        "cinematic",
+        "texture",
+        "ambient",
+        "creative"
+      ]
     },
     {
       "slug": "spitfire-originals",
@@ -6826,7 +8312,15 @@
       "description": "Curated single-instrument sample libraries at an accessible price point.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.spitfireaudio.com/originals"
+      "url": "https://www.spitfireaudio.com/originals",
+      "tags": [
+        "rompler",
+        "orchestral",
+        "cinematic",
+        "sampler",
+        "acoustic",
+        "vintage"
+      ]
     },
     {
       "slug": "modnetic",
@@ -6858,7 +8352,15 @@
       "description": "Tape delay emulation with modulation, saturation, and degradation inspired by vintage hardware.",
       "price_type": "paid",
       "url": "https://www.surrealmachines.com/modnetic/",
-      "year": 2020
+      "year": 2020,
+      "tags": [
+        "delay",
+        "tape",
+        "modulation",
+        "vintage",
+        "creative",
+        "warm"
+      ]
     },
     {
       "slug": "tal-chorus-lx",
@@ -6895,7 +8397,15 @@
       "description": "Free chorus effect modeled after the Roland Juno-60 built-in chorus circuit.",
       "price_type": "free",
       "year": 2011,
-      "url": "https://tal-software.com/products/tal-chorus-lx"
+      "url": "https://tal-software.com/products/tal-chorus-lx",
+      "tags": [
+        "chorus",
+        "juno",
+        "free",
+        "vintage",
+        "lush",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "tal-dub",
@@ -6933,7 +8443,15 @@
       "description": "Vintage-style delay with tape saturation and a lo-fi analog character.",
       "price_type": "free",
       "year": 2010,
-      "url": "https://tal-software.com/products/tal-dub"
+      "url": "https://tal-software.com/products/tal-dub",
+      "tags": [
+        "delay",
+        "dub",
+        "free",
+        "vintage",
+        "lo-fi",
+        "creative"
+      ]
     },
     {
       "slug": "tal-reverb-4",
@@ -6969,7 +8487,15 @@
       "description": "Plate reverb with a modulated, lush character for ambient and retro effects.",
       "price_type": "free",
       "year": 2010,
-      "url": "https://tal-software.com/products/tal-reverb-4"
+      "url": "https://tal-software.com/products/tal-reverb-4",
+      "tags": [
+        "reverb",
+        "plate",
+        "free",
+        "vintage",
+        "lush",
+        "simple"
+      ]
     },
     {
       "slug": "tal-u-no-lx",
@@ -7008,7 +8534,15 @@
       "description": "Detailed emulation of the Roland Juno-60 synthesizer with zero-delay feedback filters, chorus, and arpeggiator.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://tal-software.com/products/tal-u-no-lx"
+      "url": "https://tal-software.com/products/tal-u-no-lx",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "juno",
+        "vintage",
+        "warm",
+        "pads"
+      ]
     },
     {
       "slug": "tdr-kotelnikov",
@@ -7045,7 +8579,15 @@
       "description": "Wideband dynamics compressor with transparent to characterful compression modes.",
       "price_type": "freemium",
       "year": 2012,
-      "url": "https://www.tokyodawn.net/tdr-kotelnikov/"
+      "url": "https://www.tokyodawn.net/tdr-kotelnikov/",
+      "tags": [
+        "compressor",
+        "transparent",
+        "mastering",
+        "free",
+        "clean",
+        "precise"
+      ]
     },
     {
       "slug": "tdr-nova",
@@ -7082,7 +8624,15 @@
       "description": "Dynamic equalizer with up to four bands that combine EQ and compression.",
       "price_type": "freemium",
       "year": 2015,
-      "url": "https://www.tokyodawn.net/tdr-nova/"
+      "url": "https://www.tokyodawn.net/tdr-nova/",
+      "tags": [
+        "equalizer",
+        "dynamic-eq",
+        "free",
+        "mixing",
+        "transparent",
+        "versatile"
+      ]
     },
     {
       "slug": "tdr-vos-slickeq",
@@ -7120,7 +8670,15 @@
       "description": "Three-band mixing equalizer with analog-modeled saturation and output stage.",
       "price_type": "freemium",
       "year": 2014,
-      "url": "https://www.tokyodawn.net/tdr-vos-slickeq/"
+      "url": "https://www.tokyodawn.net/tdr-vos-slickeq/",
+      "tags": [
+        "equalizer",
+        "analog-modeling",
+        "free",
+        "warm",
+        "mixing",
+        "coloring"
+      ]
     },
     {
       "slug": "icarus-2",
@@ -7152,7 +8710,15 @@
       "description": "Wavetable synthesizer with 3D wavetable editing, resynthesis, and HyperSaw oscillators.",
       "price_type": "paid",
       "year": 2021,
-      "url": "https://tone2.com/icarus2.html"
+      "url": "https://tone2.com/icarus2.html",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "modern",
+        "3d-wavetable",
+        "sound-design",
+        "electronic"
+      ]
     },
     {
       "slug": "ezdrummer-3",
@@ -7185,7 +8751,15 @@
       "description": "Drum production tool with a large drum library, groove browser, and song arranger.",
       "price_type": "paid",
       "year": 2022,
-      "url": "https://www.toontrack.com/product/ezdrummer-3/"
+      "url": "https://www.toontrack.com/product/ezdrummer-3/",
+      "tags": [
+        "drum-machine",
+        "acoustic-drums",
+        "songwriting",
+        "realistic",
+        "easy-to-use",
+        "rock"
+      ]
     },
     {
       "slug": "superior-drummer-3",
@@ -7219,7 +8793,15 @@
       "description": "Premium drum sampler with deep editing, mixing, and e-drum triggering capabilities.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.toontrack.com/product/superior-drummer-3/"
+      "url": "https://www.toontrack.com/product/superior-drummer-3/",
+      "tags": [
+        "drum-machine",
+        "acoustic-drums",
+        "sampler",
+        "realistic",
+        "mixing",
+        "professional"
+      ]
     },
     {
       "slug": "ace",
@@ -7260,7 +8842,15 @@
       "description": "Semi-modular synthesizer with patchable signal routing and a classic analog sound.",
       "price_type": "paid",
       "year": 2010,
-      "url": "https://u-he.com/products/ace/"
+      "url": "https://u-he.com/products/ace/",
+      "tags": [
+        "synthesizer",
+        "semi-modular",
+        "analog-modeling",
+        "patching",
+        "sound-design",
+        "creative"
+      ]
     },
     {
       "slug": "diva",
@@ -7301,7 +8891,16 @@
       "description": "CPU-intensive virtual analog synthesizer meticulously modeling oscillators, filters, and envelopes from five decades of analog hardware.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://u-he.com/products/diva/"
+      "url": "https://u-he.com/products/diva/",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "warm",
+        "cpu-heavy",
+        "lush",
+        "classic"
+      ]
     },
     {
       "slug": "hive-2",
@@ -7340,7 +8939,15 @@
       "description": "Streamlined wavetable synthesizer optimized for low CPU usage and fast workflow.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://u-he.com/products/hive/"
+      "url": "https://u-he.com/products/hive/",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "lightweight",
+        "modern",
+        "versatile",
+        "electronic"
+      ]
     },
     {
       "slug": "presswerk",
@@ -7377,7 +8984,15 @@
       "description": "Full-featured dynamics compressor with sidechain, parallel compression, and vintage character.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://u-he.com/products/presswerk/"
+      "url": "https://u-he.com/products/presswerk/",
+      "tags": [
+        "compressor",
+        "analog-modeling",
+        "versatile",
+        "mixing",
+        "warm",
+        "precise"
+      ]
     },
     {
       "slug": "repro-1",
@@ -7417,7 +9032,15 @@
       "description": "Monophonic synthesizer faithfully modeling the Sequential Pro-One hardware.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://u-he.com/products/repro/"
+      "url": "https://u-he.com/products/repro/",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "sequential",
+        "monophonic",
+        "bass"
+      ]
     },
     {
       "slug": "repro-5",
@@ -7456,7 +9079,16 @@
       "description": "Polyphonic synthesizer faithfully modeling the Sequential Prophet-5 hardware.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://u-he.com/products/repro/"
+      "url": "https://u-he.com/products/repro/",
+      "tags": [
+        "synthesizer",
+        "analog-modeling",
+        "vintage",
+        "sequential",
+        "polyphonic",
+        "pads",
+        "warm"
+      ]
     },
     {
       "slug": "satin",
@@ -7494,7 +9126,16 @@
       "description": "Tape machine emulation with recording, delay, and flanger modes from reel-to-reel modeling.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://u-he.com/products/satin/"
+      "url": "https://u-he.com/products/satin/",
+      "tags": [
+        "saturation",
+        "tape",
+        "analog-modeling",
+        "warm",
+        "vintage",
+        "mixing",
+        "delay"
+      ]
     },
     {
       "slug": "zebra-2",
@@ -7537,7 +9178,15 @@
       "description": "Wireless modular synthesizer combining additive, subtractive, FM, and wavetable synthesis with flexible routing and low CPU usage.",
       "price_type": "paid",
       "year": 2006,
-      "url": "https://u-he.com/products/zebra-legacy/"
+      "url": "https://u-he.com/products/zebra-legacy/",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "modular",
+        "sound-design",
+        "cinematic",
+        "versatile"
+      ]
     },
     {
       "slug": "sandman-pro",
@@ -7570,7 +9219,15 @@
       "description": "Experimental delay with freeze, spectral shift, and granular buffer manipulation.",
       "price_type": "paid",
       "year": 2018,
-      "url": "https://www.unfilteredaudio.com/products/sandman-pro"
+      "url": "https://www.unfilteredaudio.com/products/sandman-pro",
+      "tags": [
+        "delay",
+        "creative",
+        "granular",
+        "experimental",
+        "sound-design",
+        "freeze"
+      ]
     },
     {
       "slug": "valhalla-dsp-collection",
@@ -7601,7 +9258,15 @@
       "description": "Bundle containing all Valhalla DSP reverb, delay, and modulation plugins.",
       "price_type": "paid",
       "url": "https://valhalladsp.com/plugins/",
-      "year": 2012
+      "year": 2012,
+      "tags": [
+        "reverb",
+        "delay",
+        "bundle",
+        "algorithmic",
+        "ambient",
+        "versatile"
+      ]
     },
     {
       "slug": "valhalladelay",
@@ -7633,7 +9298,15 @@
       "description": "Versatile delay with tape, BBD, digital, and pitch-shifting modes.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://valhalladsp.com/shop/delay/valhalladelay/"
+      "url": "https://valhalladsp.com/shop/delay/valhalladelay/",
+      "tags": [
+        "delay",
+        "tape",
+        "vintage",
+        "diffusion",
+        "ambient",
+        "versatile"
+      ]
     },
     {
       "slug": "valhallafreqecho",
@@ -7667,7 +9340,15 @@
       "description": "Free frequency shifter and analog echo plugin for metallic and otherworldly effects.",
       "price_type": "free",
       "year": 2012,
-      "url": "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
+      "url": "https://valhalladsp.com/shop/delay/valhalla-freq-echo/",
+      "tags": [
+        "delay",
+        "frequency-shifter",
+        "free",
+        "creative",
+        "ambient",
+        "experimental"
+      ]
     },
     {
       "slug": "valhallaplate",
@@ -7699,7 +9380,15 @@
       "description": "Plate reverb with lush, smooth character inspired by classic hardware plate reverbs.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://valhalladsp.com/shop/reverb/valhallaplate/"
+      "url": "https://valhalladsp.com/shop/reverb/valhallaplate/",
+      "tags": [
+        "reverb",
+        "plate",
+        "lush",
+        "mixing",
+        "vocal",
+        "dense"
+      ]
     },
     {
       "slug": "valhallaroom",
@@ -7731,7 +9420,15 @@
       "description": "Algorithmic room and hall reverb with natural-sounding early reflections.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://valhalladsp.com/shop/reverb/valhallaroom/"
+      "url": "https://valhalladsp.com/shop/reverb/valhallaroom/",
+      "tags": [
+        "reverb",
+        "room",
+        "natural",
+        "mixing",
+        "transparent",
+        "versatile"
+      ]
     },
     {
       "slug": "valhallashimmer",
@@ -7763,7 +9460,15 @@
       "description": "Pitch-shifting reverb creating ethereal, harmonically rich ambient textures.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://valhalladsp.com/shop/reverb/valhalla-shimmer/"
+      "url": "https://valhalladsp.com/shop/reverb/valhalla-shimmer/",
+      "tags": [
+        "reverb",
+        "shimmer",
+        "ambient",
+        "pitch",
+        "cinematic",
+        "ethereal"
+      ]
     },
     {
       "slug": "valhallaspacemodulator",
@@ -7794,7 +9499,15 @@
       "description": "Free flanging and modulation effect with eleven algorithms.",
       "price_type": "free",
       "year": 2016,
-      "url": "https://valhalladsp.com/shop/modulation/valhallaspacemodulatora/"
+      "url": "https://valhalladsp.com/shop/modulation/valhallaspacemodulatora/",
+      "tags": [
+        "modulation",
+        "flanger",
+        "chorus",
+        "free",
+        "creative",
+        "stereo"
+      ]
     },
     {
       "slug": "valhallasupermassive",
@@ -7828,7 +9541,16 @@
       "description": "Free reverb and delay plugin with massive lush spaces, designed for otherworldly ambient textures and feedback experiments.",
       "price_type": "free",
       "year": 2020,
-      "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
+      "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+      "tags": [
+        "reverb",
+        "delay",
+        "free",
+        "ambient",
+        "massive",
+        "creative",
+        "sound-design"
+      ]
     },
     {
       "slug": "valhallaubermod",
@@ -7860,7 +9582,15 @@
       "description": "Modulation multi-effect combining chorus, flanger, and ensemble effects.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://valhalladsp.com/shop/delay/valhallaubermod/"
+      "url": "https://valhalladsp.com/shop/delay/valhallaubermod/",
+      "tags": [
+        "modulation",
+        "delay",
+        "chorus",
+        "flanger",
+        "creative",
+        "versatile"
+      ]
     },
     {
       "slug": "valhallavintageverb",
@@ -7897,7 +9627,16 @@
       "description": "Algorithmic reverb with 22 vintage reverb modes and three era color options inspired by classic 1970s-1980s hardware units.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/"
+      "url": "https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/",
+      "tags": [
+        "reverb",
+        "vintage",
+        "algorithmic",
+        "ambient",
+        "80s",
+        "hall",
+        "plate"
+      ]
     },
     {
       "slug": "voxengo-marvel-geq",
@@ -7930,7 +9669,15 @@
       "description": "Free linear-phase 16-band graphic equalizer with spectrum analyzer.",
       "price_type": "free",
       "year": 2008,
-      "url": "https://www.voxengo.com/product/marvelgeq/"
+      "url": "https://www.voxengo.com/product/marvelgeq/",
+      "tags": [
+        "equalizer",
+        "graphic-eq",
+        "free",
+        "mixing",
+        "linear-phase",
+        "simple"
+      ]
     },
     {
       "slug": "voxengo-msed",
@@ -7963,7 +9710,15 @@
       "description": "Free mid/side encoding and decoding utility for stereo manipulation.",
       "price_type": "free",
       "year": 2011,
-      "url": "https://www.voxengo.com/product/msed/"
+      "url": "https://www.voxengo.com/product/msed/",
+      "tags": [
+        "mid-side",
+        "encoding",
+        "free",
+        "utility",
+        "mastering",
+        "stereo"
+      ]
     },
     {
       "slug": "span",
@@ -7997,7 +9752,15 @@
       "description": "Free real-time FFT spectrum analyzer with customizable display and metering.",
       "price_type": "free",
       "year": 2005,
-      "url": "https://www.voxengo.com/product/span/"
+      "url": "https://www.voxengo.com/product/span/",
+      "tags": [
+        "analyzer",
+        "spectrum",
+        "free",
+        "metering",
+        "mixing",
+        "mastering"
+      ]
     },
     {
       "slug": "span-plus",
@@ -8030,7 +9793,15 @@
       "description": "Enhanced spectrum analyzer with sidechain comparison, metering presets, and extended features.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://www.voxengo.com/product/spanplus/"
+      "url": "https://www.voxengo.com/product/spanplus/",
+      "tags": [
+        "analyzer",
+        "spectrum",
+        "metering",
+        "mixing",
+        "mastering",
+        "correlation"
+      ]
     },
     {
       "slug": "abbey-road-plates",
@@ -8066,7 +9837,15 @@
       "description": "Plate reverb emulation modeled from Abbey Road Studios' original EMT 140 hardware.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://www.waves.com/plugins/abbey-road-plates"
+      "url": "https://www.waves.com/plugins/abbey-road-plates",
+      "tags": [
+        "reverb",
+        "plate",
+        "vintage",
+        "abbey-road",
+        "lush",
+        "mixing"
+      ]
     },
     {
       "slug": "cla-2a",
@@ -8102,7 +9881,15 @@
       "description": "Optical compressor/limiter emulation modeled after the Teletronix LA-2A hardware.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://www.waves.com/plugins/cla-2a-compressor-limiter"
+      "url": "https://www.waves.com/plugins/cla-2a-compressor-limiter",
+      "tags": [
+        "compressor",
+        "opto",
+        "analog-modeling",
+        "vintage",
+        "vocal",
+        "smooth"
+      ]
     },
     {
       "slug": "cla-76",
@@ -8138,7 +9925,15 @@
       "description": "Emulation of the iconic 1176 FET compressor in both Blacky and Bluey revisions, known for ultra-fast attack times.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://www.waves.com/plugins/cla-76-compressor-limiter"
+      "url": "https://www.waves.com/plugins/cla-76-compressor-limiter",
+      "tags": [
+        "compressor",
+        "fet",
+        "analog-modeling",
+        "vintage",
+        "punchy",
+        "drums"
+      ]
     },
     {
       "slug": "h-delay",
@@ -8176,7 +9971,15 @@
       "description": "Hybrid delay combining analog, tape, and digital delay flavors with modulation.",
       "price_type": "paid",
       "year": 2006,
-      "url": "https://www.waves.com/plugins/h-delay-hybrid-delay"
+      "url": "https://www.waves.com/plugins/h-delay-hybrid-delay",
+      "tags": [
+        "delay",
+        "analog-modeling",
+        "vintage",
+        "tape",
+        "mixing",
+        "versatile"
+      ]
     },
     {
       "slug": "waves-j37",
@@ -8214,7 +10017,15 @@
       "description": "Tape saturation effect modeled after the Abbey Road Studios Studer J37 tape machine.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://www.waves.com/plugins/j37-tape"
+      "url": "https://www.waves.com/plugins/j37-tape",
+      "tags": [
+        "saturation",
+        "tape",
+        "analog-modeling",
+        "vintage",
+        "warm",
+        "abbey-road"
+      ]
     },
     {
       "slug": "waves-l1",
@@ -8251,7 +10062,14 @@
       "description": "Classic brickwall peak limiter and loudness maximizer for mastering.",
       "price_type": "paid",
       "year": 1997,
-      "url": "https://www.waves.com/plugins/l1-ultramaximizer"
+      "url": "https://www.waves.com/plugins/l1-ultramaximizer",
+      "tags": [
+        "limiter",
+        "mastering",
+        "loudness",
+        "classic",
+        "simple"
+      ]
     },
     {
       "slug": "waves-l2",
@@ -8288,7 +10106,14 @@
       "description": "Brickwall limiter with look-ahead and ARC auto-release for transparent limiting.",
       "price_type": "paid",
       "year": 2001,
-      "url": "https://www.waves.com/plugins/l2-ultramaximizer"
+      "url": "https://www.waves.com/plugins/l2-ultramaximizer",
+      "tags": [
+        "limiter",
+        "mastering",
+        "loudness",
+        "classic",
+        "dithering"
+      ]
     },
     {
       "slug": "waves-rbass",
@@ -8322,7 +10147,14 @@
       "description": "Bass enhancement processor using harmonic generation to extend low-frequency perception.",
       "price_type": "paid",
       "year": 2001,
-      "url": "https://www.waves.com/plugins/renaissance-bass"
+      "url": "https://www.waves.com/plugins/renaissance-bass",
+      "tags": [
+        "bass-enhancement",
+        "sub-bass",
+        "low-end",
+        "mixing",
+        "harmonic"
+      ]
     },
     {
       "slug": "waves-rcomp",
@@ -8357,7 +10189,15 @@
       "description": "Smooth compressor with program-dependent auto-release and warm analog character.",
       "price_type": "paid",
       "year": 2001,
-      "url": "https://www.waves.com/plugins/renaissance-compressor"
+      "url": "https://www.waves.com/plugins/renaissance-compressor",
+      "tags": [
+        "compressor",
+        "vintage",
+        "versatile",
+        "mixing",
+        "warm",
+        "classic"
+      ]
     },
     {
       "slug": "waves-req",
@@ -8392,7 +10232,15 @@
       "description": "Parametric and graphic equalizer with six bands and vintage analog tonality.",
       "price_type": "paid",
       "year": 2001,
-      "url": "https://www.waves.com/plugins/renaissance-equalizer"
+      "url": "https://www.waves.com/plugins/renaissance-equalizer",
+      "tags": [
+        "equalizer",
+        "vintage",
+        "warm",
+        "mixing",
+        "classic",
+        "simple"
+      ]
     },
     {
       "slug": "waves-rvox",
@@ -8429,7 +10277,15 @@
       "description": "One-knob vocal compressor designed for quick, effective vocal level control.",
       "price_type": "paid",
       "year": 2010,
-      "url": "https://www.waves.com/plugins/renaissance-vox"
+      "url": "https://www.waves.com/plugins/renaissance-vox",
+      "tags": [
+        "compressor",
+        "vocal",
+        "simple",
+        "mixing",
+        "easy-to-use",
+        "de-esser"
+      ]
     },
     {
       "slug": "waves-scheps-omni-channel",
@@ -8462,7 +10318,14 @@
       "description": "Channel strip designed by Andrew Scheps with compression, EQ, saturation, and de-essing.",
       "price_type": "paid",
       "url": "https://www.waves.com/plugins/scheps-omni-channel",
-      "year": 2017
+      "year": 2017,
+      "tags": [
+        "channel-strip",
+        "mixing",
+        "versatile",
+        "analog-modeling",
+        "all-in-one"
+      ]
     },
     {
       "slug": "ssl-e-channel",
@@ -8499,7 +10362,15 @@
       "description": "Channel strip modeled after the SSL 4000 E-Series console with EQ, dynamics, and filters.",
       "price_type": "paid",
       "year": 2005,
-      "url": "https://www.waves.com/plugins/ssl-e-channel"
+      "url": "https://www.waves.com/plugins/ssl-e-channel",
+      "tags": [
+        "channel-strip",
+        "console",
+        "ssl",
+        "mixing",
+        "eq",
+        "compressor"
+      ]
     },
     {
       "slug": "ssl-g-master-buss",
@@ -8537,7 +10408,15 @@
       "description": "Bus compressor modeled after the SSL 4000 G-Series master bus compressor.",
       "price_type": "paid",
       "year": 2006,
-      "url": "https://www.waves.com/plugins/ssl-g-master-buss-compressor"
+      "url": "https://www.waves.com/plugins/ssl-g-master-buss-compressor",
+      "tags": [
+        "compressor",
+        "bus-compressor",
+        "ssl",
+        "glue",
+        "mastering",
+        "mixing"
+      ]
     },
     {
       "slug": "waves-vitamin",
@@ -8574,7 +10453,15 @@
       "description": "Multiband harmonic enhancer that adds energy and presence to individual frequency ranges.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://www.waves.com/plugins/vitamin-sonic-enhancer"
+      "url": "https://www.waves.com/plugins/vitamin-sonic-enhancer",
+      "tags": [
+        "harmonic-enhancer",
+        "exciter",
+        "multiband",
+        "mixing",
+        "brightness",
+        "presence"
+      ]
     },
     {
       "slug": "waveshell",
@@ -8611,7 +10498,14 @@
       "description": "Waves plugin hosting shell that loads individual Waves plugins inside a DAW.",
       "price_type": "paid",
       "url": "https://www.waves.com/support/waveshell",
-      "year": 2000
+      "year": 2000,
+      "tags": [
+        "host",
+        "wrapper",
+        "utility",
+        "routing",
+        "plugin-management"
+      ]
     },
     {
       "slug": "spectre",
@@ -8644,7 +10538,15 @@
       "description": "Multiband harmonic enhancer that adds saturation and harmonics per frequency band.",
       "price_type": "paid",
       "year": 2019,
-      "url": "https://www.wavesfactory.com/audio-plugins/spectre/"
+      "url": "https://www.wavesfactory.com/audio-plugins/spectre/",
+      "tags": [
+        "saturation",
+        "harmonic",
+        "multiband",
+        "mixing",
+        "warm",
+        "coloring"
+      ]
     },
     {
       "slug": "trackspacer",
@@ -8678,7 +10580,15 @@
       "description": "Dynamic sidechain EQ that creates space for one track by ducking conflicting frequencies in another.",
       "price_type": "paid",
       "year": 2016,
-      "url": "https://www.wavesfactory.com/audio-plugins/trackspacer/"
+      "url": "https://www.wavesfactory.com/audio-plugins/trackspacer/",
+      "tags": [
+        "sidechain",
+        "spectral",
+        "dynamic-eq",
+        "mixing",
+        "separation",
+        "clarity"
+      ]
     },
     {
       "slug": "cthulhu",
@@ -8713,7 +10623,15 @@
       "description": "Chord and arpeggio MIDI effect that generates chords from single notes with pattern sequencing.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://xferrecords.com/products/cthulhu"
+      "url": "https://xferrecords.com/products/cthulhu",
+      "tags": [
+        "midi",
+        "chord",
+        "arpeggiator",
+        "creative",
+        "electronic",
+        "sequencer"
+      ]
     },
     {
       "slug": "lfotool",
@@ -8752,7 +10670,15 @@
       "description": "LFO-driven volume, filter, and pan modulation tool for sidechain-style effects and tremolo.",
       "price_type": "paid",
       "year": 2012,
-      "url": "https://xferrecords.com/products/lfotool"
+      "url": "https://xferrecords.com/products/lfotool",
+      "tags": [
+        "sidechain",
+        "lfo",
+        "volume",
+        "tremolo",
+        "electronic",
+        "mixing"
+      ]
     },
     {
       "slug": "ott",
@@ -8789,7 +10715,15 @@
       "description": "Free multiband upward/downward compressor based on the famous Ableton preset, widely used for aggressive dynamics in electronic music.",
       "price_type": "free",
       "year": 2014,
-      "url": "https://xferrecords.com/freeware"
+      "url": "https://xferrecords.com/freeware",
+      "tags": [
+        "compressor",
+        "multiband",
+        "upward-compression",
+        "edm",
+        "aggressive",
+        "free"
+      ]
     },
     {
       "slug": "serum",
@@ -8827,7 +10761,15 @@
       "description": "Advanced wavetable synthesizer with visual feedback, drag-and-drop modulation, built-in effects, and extensive sound design capabilities.",
       "price_type": "paid",
       "year": 2014,
-      "url": "https://xferrecords.com/products/serum"
+      "url": "https://xferrecords.com/products/serum",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "sound-design",
+        "bass",
+        "lead",
+        "electronic"
+      ]
     },
     {
       "slug": "serum-2",
@@ -8863,7 +10805,16 @@
       "description": "Next-generation wavetable synthesizer building on Serum with expanded synthesis and modulation.",
       "price_type": "paid",
       "year": 2025,
-      "url": "https://xferrecords.com/products/serum"
+      "url": "https://xferrecords.com/products/serum",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "sound-design",
+        "bass",
+        "modern",
+        "electronic",
+        "visual"
+      ]
     },
     {
       "slug": "addictive-drums-2",
@@ -8897,7 +10848,15 @@
       "description": "Drum production plugin with mix-ready kits, pattern browser, and tone shaping controls.",
       "price_type": "paid",
       "year": 2013,
-      "url": "https://www.xlnaudio.com/products/addictive-drums-2"
+      "url": "https://www.xlnaudio.com/products/addictive-drums-2",
+      "tags": [
+        "drum-machine",
+        "acoustic-drums",
+        "realistic",
+        "mixing",
+        "rock",
+        "pop"
+      ]
     },
     {
       "slug": "rc-20",
@@ -8931,7 +10890,16 @@
       "description": "Lo-fi and retro effects processor with noise, wobble, distortion, and space modules.",
       "price_type": "paid",
       "year": 2017,
-      "url": "https://www.xlnaudio.com/products/rc-20-retro-color"
+      "url": "https://www.xlnaudio.com/products/rc-20-retro-color",
+      "tags": [
+        "lo-fi",
+        "vintage",
+        "tape",
+        "vinyl",
+        "noise",
+        "creative",
+        "texture"
+      ]
     },
     {
       "slug": "youlean-loudness-meter-2",
@@ -8964,7 +10932,15 @@
       "description": "Loudness metering plugin supporting LUFS, true peak, and various broadcast standards.",
       "price_type": "freemium",
       "year": 2019,
-      "url": "https://youlean.co/youlean-loudness-meter/"
+      "url": "https://youlean.co/youlean-loudness-meter/",
+      "tags": [
+        "meter",
+        "loudness",
+        "lufs",
+        "mastering",
+        "free",
+        "metering"
+      ]
     },
     {
       "slug": "pitchmap-colors",
@@ -8997,7 +10973,15 @@
       "description": "Real-time polyphonic pitch remapping plugin for retuning or transposing audio material.",
       "price_type": "paid",
       "year": 2020,
-      "url": "https://zynaptiq.com/pitchmap/"
+      "url": "https://zynaptiq.com/pitchmap/",
+      "tags": [
+        "pitch",
+        "real-time",
+        "polyphonic",
+        "creative",
+        "tuning",
+        "sound-design"
+      ]
     },
     {
       "slug": "rob-papen-blue-ii",
@@ -9034,7 +11018,15 @@
         "RP-Blue II"
       ],
       "year": 2013,
-      "url": "https://www.robpapen.com/blue-ii.html"
+      "url": "https://www.robpapen.com/blue-ii.html",
+      "tags": [
+        "synthesizer",
+        "fm-synthesis",
+        "cross-modulation",
+        "sound-design",
+        "versatile",
+        "electronic"
+      ]
     },
     {
       "slug": "reveal-sound-spire",
@@ -9070,7 +11062,15 @@
         "Spire VST"
       ],
       "year": 2014,
-      "url": "https://www.reveal-sound.com/plug-ins/spire"
+      "url": "https://www.reveal-sound.com/plug-ins/spire",
+      "tags": [
+        "synthesizer",
+        "virtual-analog",
+        "trance",
+        "edm",
+        "lead",
+        "electronic"
+      ]
     },
     {
       "slug": "synapse-audio-dune-3",
@@ -9106,7 +11106,15 @@
         "Dune3"
       ],
       "year": 2018,
-      "url": "https://www.synapse-audio.com/dune3.html"
+      "url": "https://www.synapse-audio.com/dune3.html",
+      "tags": [
+        "synthesizer",
+        "virtual-analog",
+        "wavetable",
+        "modern",
+        "versatile",
+        "electronic"
+      ]
     },
     {
       "slug": "tone2-gladiator-3",
@@ -9140,7 +11148,15 @@
         "Gladiator3"
       ],
       "year": 2021,
-      "url": "https://www.tone2.com/gladiator3.html"
+      "url": "https://www.tone2.com/gladiator3.html",
+      "tags": [
+        "synthesizer",
+        "harmonic",
+        "additive",
+        "modern",
+        "sound-design",
+        "electronic"
+      ]
     },
     {
       "slug": "cakewalk-z3ta-2",
@@ -9172,7 +11188,15 @@
         "Z3TA 2"
       ],
       "year": 2013,
-      "url": "https://www.bandlab.com/products/cakewalk"
+      "url": "https://www.bandlab.com/products/cakewalk",
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "free",
+        "vintage",
+        "creative",
+        "electronic"
+      ]
     },
     {
       "slug": "surge-xt",
@@ -9210,7 +11234,16 @@
         "Surge Synthesizer"
       ],
       "year": 2022,
-      "url": "https://surge-synthesizer.github.io/"
+      "url": "https://surge-synthesizer.github.io/",
+      "tags": [
+        "synthesizer",
+        "hybrid",
+        "free",
+        "open-source",
+        "modulation",
+        "sound-design",
+        "versatile"
+      ]
     },
     {
       "slug": "cardinal",
@@ -9248,7 +11281,16 @@
         "CardinalMini"
       ],
       "year": 2022,
-      "url": "https://github.com/DISTRHO/Cardinal"
+      "url": "https://github.com/DISTRHO/Cardinal",
+      "tags": [
+        "synthesizer",
+        "modular",
+        "free",
+        "open-source",
+        "vcv-rack",
+        "patching",
+        "experimental"
+      ]
     },
     {
       "slug": "dexed",
@@ -9286,7 +11328,15 @@
         "Dexed DX7"
       ],
       "year": 2014,
-      "url": "https://asb2m10.github.io/dexed/"
+      "url": "https://asb2m10.github.io/dexed/",
+      "tags": [
+        "synthesizer",
+        "fm-synthesis",
+        "free",
+        "dx7",
+        "vintage",
+        "open-source"
+      ]
     },
     {
       "slug": "zynaddsubfx",
@@ -9318,7 +11368,15 @@
         "ZynAddSubFX VST"
       ],
       "year": 2002,
-      "url": "https://zynaddsubfx.sourceforge.io/"
+      "url": "https://zynaddsubfx.sourceforge.io/",
+      "tags": [
+        "synthesizer",
+        "additive",
+        "subtractive",
+        "free",
+        "open-source",
+        "sound-design"
+      ]
     },
     {
       "slug": "klanghelm-ivgi",
@@ -9353,7 +11411,15 @@
         "Klanghelm IVGI"
       ],
       "year": 2014,
-      "url": "https://klanghelm.com/contents/products/IVGI.php"
+      "url": "https://klanghelm.com/contents/products/IVGI.php",
+      "tags": [
+        "saturation",
+        "free",
+        "analog-modeling",
+        "warm",
+        "subtle",
+        "mixing"
+      ]
     },
     {
       "slug": "airwindows-consolidated",
@@ -9389,7 +11455,16 @@
         "Chris Johnson Airwindows"
       ],
       "year": 2023,
-      "url": "https://www.airwindows.com/"
+      "url": "https://www.airwindows.com/",
+      "tags": [
+        "multi-effect",
+        "free",
+        "open-source",
+        "analog-modeling",
+        "utility",
+        "mixing",
+        "lightweight"
+      ]
     },
     {
       "slug": "blue-cat-free-pack",
@@ -9425,7 +11500,15 @@
         "Blue Cat FreqAnalyst"
       ],
       "year": 2007,
-      "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/"
+      "url": "https://www.bluecataudio.com/Products/Bundle_FreewarePack/",
+      "tags": [
+        "utility",
+        "analyzer",
+        "free",
+        "metering",
+        "gain",
+        "bundle"
+      ]
     },
     {
       "slug": "meldaproduction-mfreefxbundle",
@@ -9462,7 +11545,15 @@
         "MFreeEffectsBundle"
       ],
       "year": 2010,
-      "url": "https://www.meldaproduction.com/MFreeFXBundle"
+      "url": "https://www.meldaproduction.com/MFreeFXBundle",
+      "tags": [
+        "multi-effect",
+        "free",
+        "utility",
+        "mixing",
+        "bundle",
+        "versatile"
+      ]
     },
     {
       "slug": "bertom-denoiser",
@@ -9496,7 +11587,15 @@
         "Bertom Denoiser Classic"
       ],
       "year": 2020,
-      "url": "https://www.bertomaudio.com/denoiser.html"
+      "url": "https://www.bertomaudio.com/denoiser.html",
+      "tags": [
+        "noise-reduction",
+        "free",
+        "cleanup",
+        "restoration",
+        "mixing",
+        "utility"
+      ]
     },
     {
       "slug": "slate-digital-fresh-air",
@@ -9532,7 +11631,16 @@
         "Slate Fresh Air"
       ],
       "year": 2021,
-      "url": "https://slatedigital.com/fresh-air/"
+      "url": "https://slatedigital.com/fresh-air/",
+      "tags": [
+        "equalizer",
+        "air",
+        "brightness",
+        "free",
+        "vocal",
+        "mixing",
+        "high-frequency"
+      ]
     },
     {
       "slug": "analog-obsession-buster",
@@ -9565,7 +11673,15 @@
         "BUSTER"
       ],
       "year": 2021,
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "tags": [
+        "compressor",
+        "bus-compressor",
+        "analog-modeling",
+        "free",
+        "glue",
+        "mixing"
+      ]
     },
     {
       "slug": "analog-obsession-tube",
@@ -9597,7 +11713,15 @@
         "Analog Obsession TuBe"
       ],
       "year": 2020,
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "tags": [
+        "saturation",
+        "tube",
+        "analog-modeling",
+        "free",
+        "warm",
+        "harmonic"
+      ]
     },
     {
       "slug": "analog-obsession-britchannel",
@@ -9629,7 +11753,15 @@
         "Analog Obsession BritChannel"
       ],
       "year": 2021,
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "tags": [
+        "equalizer",
+        "channel-strip",
+        "analog-modeling",
+        "free",
+        "british",
+        "console"
+      ]
     },
     {
       "slug": "analog-obsession-channev",
@@ -9661,7 +11793,15 @@
         "Analog Obsession CHANnev"
       ],
       "year": 2021,
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "tags": [
+        "equalizer",
+        "channel-strip",
+        "analog-modeling",
+        "free",
+        "neve",
+        "console"
+      ]
     },
     {
       "slug": "analog-obsession-distox",
@@ -9694,7 +11834,15 @@
         "distoX"
       ],
       "year": 2022,
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "tags": [
+        "distortion",
+        "analog-modeling",
+        "free",
+        "aggressive",
+        "harmonic",
+        "creative"
+      ]
     },
     {
       "slug": "izotope-music-production-suite",
@@ -9730,7 +11878,15 @@
         "iZotope MPS"
       ],
       "year": 2017,
-      "url": "https://www.izotope.com/en/shop/music-production-suite.html"
+      "url": "https://www.izotope.com/en/shop/music-production-suite.html",
+      "tags": [
+        "bundle",
+        "mixing",
+        "mastering",
+        "vocal",
+        "ai-assisted",
+        "suite"
+      ]
     },
     {
       "slug": "izotope-insight-2",
@@ -9766,7 +11922,15 @@
         "Insight2"
       ],
       "year": 2018,
-      "url": "https://www.izotope.com/en/products/insight.html"
+      "url": "https://www.izotope.com/en/products/insight.html",
+      "tags": [
+        "meter",
+        "loudness",
+        "lufs",
+        "mastering",
+        "visualization",
+        "metering"
+      ]
     },
     {
       "slug": "waves-horizon",
@@ -9801,7 +11965,15 @@
         "Waves Horizon Bundle"
       ],
       "year": 2003,
-      "url": "https://www.waves.com/bundles/horizon"
+      "url": "https://www.waves.com/bundles/horizon",
+      "tags": [
+        "bundle",
+        "mixing",
+        "mastering",
+        "channel-strip",
+        "versatile",
+        "classic"
+      ]
     },
     {
       "slug": "waves-api-2500",
@@ -9837,7 +12009,15 @@
         "API2500"
       ],
       "year": 2007,
-      "url": "https://www.waves.com/plugins/api-2500"
+      "url": "https://www.waves.com/plugins/api-2500",
+      "tags": [
+        "compressor",
+        "bus-compressor",
+        "analog-modeling",
+        "punchy",
+        "api",
+        "mixing"
+      ]
     },
     {
       "slug": "waves-api-550a",
@@ -9873,7 +12053,15 @@
         "API550A"
       ],
       "year": 2008,
-      "url": "https://www.waves.com/plugins/api-550a"
+      "url": "https://www.waves.com/plugins/api-550a",
+      "tags": [
+        "equalizer",
+        "analog-modeling",
+        "api",
+        "vintage",
+        "musical",
+        "mixing"
+      ]
     },
     {
       "slug": "waves-cla-mixhub",
@@ -9909,7 +12097,15 @@
         "CLA-MixHub"
       ],
       "year": 2021,
-      "url": "https://www.waves.com/plugins/cla-mixhub"
+      "url": "https://www.waves.com/plugins/cla-mixhub",
+      "tags": [
+        "channel-strip",
+        "console",
+        "mixing",
+        "analog-modeling",
+        "ssl",
+        "vintage"
+      ]
     },
     {
       "slug": "waves-puigtec-eqp1a",
@@ -9945,7 +12141,16 @@
         "PuigTec EQP-1A"
       ],
       "year": 2008,
-      "url": "https://www.waves.com/plugins/puigtec-eqp1a"
+      "url": "https://www.waves.com/plugins/puigtec-eqp1a",
+      "tags": [
+        "equalizer",
+        "tube",
+        "analog-modeling",
+        "vintage",
+        "pultec",
+        "warm",
+        "mastering"
+      ]
     },
     {
       "slug": "plugin-alliance-mega-bundle",
@@ -9980,7 +12185,15 @@
         "PA Mega Bundle"
       ],
       "year": 2018,
-      "url": "https://www.plugin-alliance.com/en/products/mega-bundle.html"
+      "url": "https://www.plugin-alliance.com/en/products/mega-bundle.html",
+      "tags": [
+        "bundle",
+        "mixing",
+        "mastering",
+        "channel-strip",
+        "versatile",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "bx-subsynth",
@@ -10016,7 +12229,15 @@
         "bx subsynth"
       ],
       "year": 2016,
-      "url": "https://www.plugin-alliance.com/en/products/bx_subsynth.html"
+      "url": "https://www.plugin-alliance.com/en/products/bx_subsynth.html",
+      "tags": [
+        "bass-enhancement",
+        "sub-bass",
+        "low-end",
+        "mixing",
+        "electronic",
+        "mastering"
+      ]
     },
     {
       "slug": "bx-masterdesk",
@@ -10052,7 +12273,15 @@
         "bx masterdesk"
       ],
       "year": 2017,
-      "url": "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
+      "url": "https://www.plugin-alliance.com/en/products/bx_masterdesk.html",
+      "tags": [
+        "mastering",
+        "channel-strip",
+        "analog-modeling",
+        "console",
+        "warm",
+        "all-in-one"
+      ]
     },
     {
       "slug": "boz-digital-panipulator",
@@ -10088,7 +12317,15 @@
         "Boz Digital Labs Panipulator"
       ],
       "year": 2017,
-      "url": "https://www.bozdigitallabs.com/product/panipulator/"
+      "url": "https://www.bozdigitallabs.com/product/panipulator/",
+      "tags": [
+        "panning",
+        "utility",
+        "free",
+        "stereo",
+        "mono-check",
+        "mixing"
+      ]
     },
     {
       "slug": "audiority-limited-z",
@@ -10122,7 +12359,15 @@
         "Audiority Limited-Z"
       ],
       "year": 2018,
-      "url": "https://www.audiority.com/shop/limited-z/"
+      "url": "https://www.audiority.com/shop/limited-z/",
+      "tags": [
+        "limiter",
+        "free",
+        "mastering",
+        "loudness",
+        "simple",
+        "utility"
+      ]
     },
     {
       "slug": "aegean-music-pitchproof",
@@ -10155,7 +12400,15 @@
         "Aegean Music Pitchproof"
       ],
       "year": 2016,
-      "url": "https://aegeanmusic.com/pitchproof-specs"
+      "url": "https://aegeanmusic.com/pitchproof-specs",
+      "tags": [
+        "pitch",
+        "harmonizer",
+        "free",
+        "octave",
+        "creative",
+        "simple"
+      ]
     },
     {
       "slug": "variety-of-sound-epicverb",
@@ -10185,7 +12438,15 @@
         "VoS epicVerb"
       ],
       "year": 2011,
-      "url": "https://varietyofsound.wordpress.com/downloads/"
+      "url": "https://varietyofsound.wordpress.com/downloads/",
+      "tags": [
+        "reverb",
+        "algorithmic",
+        "free",
+        "room",
+        "hall",
+        "versatile"
+      ]
     },
     {
       "slug": "variety-of-sound-ferrictds",
@@ -10215,7 +12476,15 @@
         "VoS FerricTDS"
       ],
       "year": 2012,
-      "url": "https://varietyofsound.wordpress.com/downloads/"
+      "url": "https://varietyofsound.wordpress.com/downloads/",
+      "tags": [
+        "saturation",
+        "tape",
+        "free",
+        "analog-modeling",
+        "warm",
+        "subtle"
+      ]
     },
     {
       "slug": "chowdsp-chow-tape-model",
@@ -10251,7 +12520,15 @@
         "CHOW Tape"
       ],
       "year": 2020,
-      "url": "https://chowdsp.com/products.html"
+      "url": "https://chowdsp.com/products.html",
+      "tags": [
+        "saturation",
+        "tape",
+        "free",
+        "open-source",
+        "analog-modeling",
+        "warm"
+      ]
     },
     {
       "slug": "chowdsp-chow-centaur",
@@ -10287,7 +12564,15 @@
         "ChowDSP Centaur"
       ],
       "year": 2020,
-      "url": "https://chowdsp.com/products.html"
+      "url": "https://chowdsp.com/products.html",
+      "tags": [
+        "distortion",
+        "overdrive",
+        "free",
+        "open-source",
+        "guitar",
+        "analog-modeling"
+      ]
     },
     {
       "slug": "a1audio-a1stereocontrol",
@@ -10321,7 +12606,15 @@
         "Alex Hilton A1StereoControl"
       ],
       "year": 2015,
-      "url": "https://a1audio.alexhilton.net/a1stereocontrol"
+      "url": "https://a1audio.alexhilton.net/a1stereocontrol",
+      "tags": [
+        "stereo",
+        "width",
+        "free",
+        "utility",
+        "imaging",
+        "mixing"
+      ]
     },
     {
       "slug": "a1audio-a1triggergate",
@@ -10355,7 +12648,15 @@
         "Alex Hilton A1TriggerGate"
       ],
       "year": 2016,
-      "url": "https://a1audio.alexhilton.net/a1triggergate"
+      "url": "https://a1audio.alexhilton.net/a1triggergate",
+      "tags": [
+        "gate",
+        "trance-gate",
+        "free",
+        "electronic",
+        "rhythmic",
+        "sidechain"
+      ]
     },
     {
       "slug": "lkjb-luftikus",
@@ -10388,7 +12689,15 @@
         "lkjb Luftikus"
       ],
       "year": 2014,
-      "url": "https://lkjbdsp.wordpress.com/luftikus/"
+      "url": "https://lkjbdsp.wordpress.com/luftikus/",
+      "tags": [
+        "equalizer",
+        "analog-modeling",
+        "free",
+        "air",
+        "warm",
+        "vintage"
+      ]
     },
     {
       "slug": "sonic-anomaly-transpire",
@@ -10417,7 +12726,15 @@
         "Sonic Anomaly Transpire"
       ],
       "year": 2015,
-      "url": "https://sonic.supermaailma.net/plugins"
+      "url": "https://sonic.supermaailma.net/plugins",
+      "tags": [
+        "compressor",
+        "transient-shaper",
+        "free",
+        "drums",
+        "punch",
+        "mixing"
+      ]
     },
     {
       "slug": "acustica-audio-aquamarine",
@@ -10453,7 +12770,15 @@
         "Acustica Aquamarine"
       ],
       "year": 2020,
-      "url": "https://www.acustica-audio.com/shop/products/AQUAMARINE"
+      "url": "https://www.acustica-audio.com/shop/products/AQUAMARINE",
+      "tags": [
+        "channel-strip",
+        "analog-modeling",
+        "warm",
+        "vintage",
+        "mixing",
+        "convolution"
+      ]
     },
     {
       "slug": "tonelib-gfx",
@@ -10489,7 +12814,15 @@
         "Tonelib Guitar FX"
       ],
       "year": 2019,
-      "url": "https://tonelib.net/tl-gfx.html"
+      "url": "https://tonelib.net/tl-gfx.html",
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "cabinet",
+        "pedalboard",
+        "effects-chain",
+        "free"
+      ]
     },
     {
       "slug": "native-instruments-form",
@@ -10525,7 +12858,15 @@
         "Komplete Form"
       ],
       "year": 2016,
-      "url": "https://www.native-instruments.com/en/products/komplete/synths/form/"
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/form/",
+      "tags": [
+        "synthesizer",
+        "sample-based",
+        "granular",
+        "sound-design",
+        "creative",
+        "texture"
+      ]
     },
     {
       "slug": "eventide-sp2016-reverb",
@@ -10561,7 +12902,16 @@
         "SP2016"
       ],
       "year": 2016,
-      "url": "https://www.eventideaudio.com/plug-ins/sp2016-reverb/"
+      "url": "https://www.eventideaudio.com/plug-ins/sp2016-reverb/",
+      "tags": [
+        "reverb",
+        "vintage",
+        "digital",
+        "classic",
+        "plate",
+        "room",
+        "mixing"
+      ]
     },
     {
       "slug": "eventide-physion-2",
@@ -10597,7 +12947,16 @@
         "Physion2"
       ],
       "year": 2023,
-      "url": "https://www.eventideaudio.com/plug-ins/physion-2/"
+      "url": "https://www.eventideaudio.com/plug-ins/physion-2/",
+      "tags": [
+        "transient",
+        "harmonic",
+        "creative",
+        "splitting",
+        "sound-design",
+        "mixing",
+        "spectral"
+      ]
     },
     {
       "slug": "soundtoys-sie-q",
@@ -10633,7 +12992,15 @@
         "SieQ"
       ],
       "year": 2019,
-      "url": "https://www.soundtoys.com/product/sie-q/"
+      "url": "https://www.soundtoys.com/product/sie-q/",
+      "tags": [
+        "equalizer",
+        "analog-modeling",
+        "vintage",
+        "warm",
+        "siemens",
+        "coloring"
+      ]
     },
     {
       "slug": "soundtoys-radiator",
@@ -10668,7 +13035,15 @@
         "Soundtoys Radiator"
       ],
       "year": 2014,
-      "url": "https://www.soundtoys.com/product/radiator/"
+      "url": "https://www.soundtoys.com/product/radiator/",
+      "tags": [
+        "saturation",
+        "tube",
+        "analog-modeling",
+        "warm",
+        "vintage",
+        "coloring"
+      ]
     },
     {
       "slug": "fabfilter-pro-ds",
@@ -10704,7 +13079,15 @@
         "ProDS"
       ],
       "year": 2014,
-      "url": "https://www.fabfilter.com/products/pro-ds-de-esser-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-ds-de-esser-plug-in",
+      "tags": [
+        "de-esser",
+        "transparent",
+        "vocal",
+        "mixing",
+        "sibilance",
+        "mastering"
+      ]
     },
     {
       "slug": "fabfilter-pro-g",
@@ -10740,7 +13123,15 @@
         "ProG"
       ],
       "year": 2014,
-      "url": "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
+      "url": "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in",
+      "tags": [
+        "gate",
+        "expander",
+        "transparent",
+        "mixing",
+        "clean",
+        "sidechain"
+      ]
     }
   ]
 }

@@ -39,7 +39,7 @@ PluginDB solves this by providing a single API that answers: "Given this filenam
 | ORM | None (raw `sqlite3`) | Stdlib only, no extra dependencies, full control |
 | Server | Uvicorn | ASGI server for FastAPI, production-grade |
 | Deploy | Railway or Render (free tier) | Zero-config deploy from GitHub, auto-deploy on push |
-| Repo | github.com/[user]/plugindb | Public repo, contributions via PRs |
+| Repo | [github.com/blakebratcher/plugindb](https://github.com/blakebratcher/plugindb) | Public repo, contributions via PRs |
 
 **Dependencies (minimal):**
 - `fastapi` — web framework
