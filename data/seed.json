@@ -1,0 +1,4418 @@
+{
+  "schema_version": "1.0",
+  "manufacturers": [
+    {
+      "slug": "ableton",
+      "name": "Ableton"
+    },
+    {
+      "slug": "air-music-technology",
+      "name": "Air Music Technology"
+    },
+    {
+      "slug": "analog-obsession",
+      "name": "Analog Obsession"
+    },
+    {
+      "slug": "andrew-huang",
+      "name": "Andrew Huang"
+    },
+    {
+      "slug": "arturia",
+      "name": "Arturia"
+    },
+    {
+      "slug": "audio-damage",
+      "name": "Audio Damage"
+    },
+    {
+      "slug": "baby-audio",
+      "name": "Baby Audio"
+    },
+    {
+      "slug": "bettermaker",
+      "name": "Bettermaker"
+    },
+    {
+      "slug": "bitwig",
+      "name": "Bitwig"
+    },
+    {
+      "slug": "cableguys",
+      "name": "Cableguys"
+    },
+    {
+      "slug": "camel-audio",
+      "name": "Camel Audio"
+    },
+    {
+      "slug": "cherry-audio",
+      "name": "Cherry Audio"
+    },
+    {
+      "slug": "cockos",
+      "name": "Cockos"
+    },
+    {
+      "slug": "cymatics",
+      "name": "Cymatics"
+    },
+    {
+      "slug": "d16-group",
+      "name": "D16 Group"
+    },
+    {
+      "slug": "denise-audio",
+      "name": "Denise Audio"
+    },
+    {
+      "slug": "devious-machines",
+      "name": "Devious Machines"
+    },
+    {
+      "slug": "discodsp",
+      "name": "discoDSP"
+    },
+    {
+      "slug": "dmg-audio",
+      "name": "DMG Audio"
+    },
+    {
+      "slug": "eventide",
+      "name": "Eventide"
+    },
+    {
+      "slug": "fabfilter",
+      "name": "FabFilter"
+    },
+    {
+      "slug": "glitchmachines",
+      "name": "Glitchmachines"
+    },
+    {
+      "slug": "goodhertz",
+      "name": "Goodhertz"
+    },
+    {
+      "slug": "ifea",
+      "name": "IFEA"
+    },
+    {
+      "slug": "infected-mushroom",
+      "name": "Infected Mushroom"
+    },
+    {
+      "slug": "initial-audio",
+      "name": "Initial Audio"
+    },
+    {
+      "slug": "izotope",
+      "name": "iZotope"
+    },
+    {
+      "slug": "kilohearts",
+      "name": "Kilohearts"
+    },
+    {
+      "slug": "klanghelm",
+      "name": "Klanghelm"
+    },
+    {
+      "slug": "kv331-audio",
+      "name": "KV331 Audio"
+    },
+    {
+      "slug": "lennardigital",
+      "name": "LennarDigital"
+    },
+    {
+      "slug": "lhi-audio",
+      "name": "LHI Audio"
+    },
+    {
+      "slug": "matt-tytel",
+      "name": "Matt Tytel"
+    },
+    {
+      "slug": "meldaproduction",
+      "name": "MeldaProduction"
+    },
+    {
+      "slug": "minimal-audio",
+      "name": "Minimal Audio"
+    },
+    {
+      "slug": "minimeters",
+      "name": "MiniMeters"
+    },
+    {
+      "slug": "native-instruments",
+      "name": "Native Instruments"
+    },
+    {
+      "slug": "nembrini-audio",
+      "name": "Nembrini Audio"
+    },
+    {
+      "slug": "neural-dsp",
+      "name": "Neural DSP"
+    },
+    {
+      "slug": "newfangled-audio",
+      "name": "Newfangled Audio"
+    },
+    {
+      "slug": "nicky-romero",
+      "name": "Nicky Romero"
+    },
+    {
+      "slug": "oeksound",
+      "name": "oeksound"
+    },
+    {
+      "slug": "output",
+      "name": "Output"
+    },
+    {
+      "slug": "plogue",
+      "name": "Plogue"
+    },
+    {
+      "slug": "plugdata",
+      "name": "plugdata"
+    },
+    {
+      "slug": "plugin-alliance",
+      "name": "Plugin Alliance"
+    },
+    {
+      "slug": "plugin-boutique",
+      "name": "Plugin Boutique"
+    },
+    {
+      "slug": "polyverse",
+      "name": "Polyverse"
+    },
+    {
+      "slug": "quantumsauce",
+      "name": "QuantumSauce"
+    },
+    {
+      "slug": "rob-papen",
+      "name": "Rob Papen"
+    },
+    {
+      "slug": "schaack-audio",
+      "name": "Schaack Audio"
+    },
+    {
+      "slug": "sir-audio-tools",
+      "name": "SIR Audio Tools"
+    },
+    {
+      "slug": "slate-digital",
+      "name": "Slate Digital"
+    },
+    {
+      "slug": "softube",
+      "name": "Softube"
+    },
+    {
+      "slug": "sonic-charge",
+      "name": "Sonic Charge"
+    },
+    {
+      "slug": "sonnox",
+      "name": "Sonnox"
+    },
+    {
+      "slug": "soundtoys",
+      "name": "Soundtoys"
+    },
+    {
+      "slug": "spectrasonics",
+      "name": "Spectrasonics"
+    },
+    {
+      "slug": "spitfire-audio",
+      "name": "Spitfire Audio"
+    },
+    {
+      "slug": "surreal-machines",
+      "name": "Surreal Machines"
+    },
+    {
+      "slug": "tal",
+      "name": "TAL"
+    },
+    {
+      "slug": "tokyo-dawn-records",
+      "name": "Tokyo Dawn Records"
+    },
+    {
+      "slug": "tone2",
+      "name": "Tone2"
+    },
+    {
+      "slug": "toontrack",
+      "name": "Toontrack"
+    },
+    {
+      "slug": "u-he",
+      "name": "u-he"
+    },
+    {
+      "slug": "unfiltered-audio",
+      "name": "Unfiltered Audio"
+    },
+    {
+      "slug": "valhalla-dsp",
+      "name": "Valhalla DSP"
+    },
+    {
+      "slug": "voxengo",
+      "name": "Voxengo"
+    },
+    {
+      "slug": "waves",
+      "name": "Waves"
+    },
+    {
+      "slug": "wavesfactory",
+      "name": "Wavesfactory"
+    },
+    {
+      "slug": "xfer-records",
+      "name": "Xfer Records"
+    },
+    {
+      "slug": "xln-audio",
+      "name": "XLN Audio"
+    },
+    {
+      "slug": "youlean",
+      "name": "Youlean"
+    },
+    {
+      "slug": "zynaptiq",
+      "name": "Zynaptiq"
+    }
+  ],
+  "plugins": [
+    {
+      "slug": "ableton-drift",
+      "name": "Drift",
+      "manufacturer_slug": "ableton",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Drift",
+        "Ableton Drift"
+      ]
+    },
+    {
+      "slug": "ableton-meld",
+      "name": "Meld",
+      "manufacturer_slug": "ableton",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Meld",
+        "Ableton Meld"
+      ]
+    },
+    {
+      "slug": "operator",
+      "name": "Operator",
+      "manufacturer_slug": "ableton",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "Ableton Live instrument"
+      ],
+      "aliases": [
+        "Operator"
+      ]
+    },
+    {
+      "slug": "wavetable",
+      "name": "Wavetable",
+      "manufacturer_slug": "ableton",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "Ableton Live instrument"
+      ],
+      "aliases": [
+        "Wavetable"
+      ]
+    },
+    {
+      "slug": "hybrid-3",
+      "name": "Hybrid 3",
+      "manufacturer_slug": "air-music-technology",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Hybrid 3",
+        "AIR Hybrid 3",
+        "Hybrid3"
+      ]
+    },
+    {
+      "slug": "vacuum-pro",
+      "name": "Vacuum Pro",
+      "manufacturer_slug": "air-music-technology",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Vacuum Pro",
+        "AIR Vacuum Pro",
+        "VacuumPro"
+      ]
+    },
+    {
+      "slug": "fetish",
+      "name": "FETISH",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FETISH",
+        "Analog Obsession FETISH"
+      ]
+    },
+    {
+      "slug": "loaded",
+      "name": "LOADED",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "LOADED",
+        "Analog Obsession LOADED"
+      ]
+    },
+    {
+      "slug": "rare",
+      "name": "RARE",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "RARE",
+        "Analog Obsession RARE"
+      ]
+    },
+    {
+      "slug": "amelia",
+      "name": "Amelia",
+      "manufacturer_slug": "andrew-huang",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Amelia",
+        "Andrew Huang Amelia"
+      ]
+    },
+    {
+      "slug": "analog-lab-v",
+      "name": "Analog Lab V",
+      "manufacturer_slug": "arturia",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Analog Lab V",
+        "Analog Lab 5",
+        "Arturia Analog Lab V",
+        "AnalogLab V"
+      ]
+    },
+    {
+      "slug": "arturia-comp-fet-76",
+      "name": "Comp FET-76",
+      "manufacturer_slug": "arturia",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Comp FET-76",
+        "Arturia Comp FET-76",
+        "FET-76"
+      ]
+    },
+    {
+      "slug": "arturia-jupiter-8v",
+      "name": "Jupiter-8V",
+      "manufacturer_slug": "arturia",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Jupiter-8V",
+        "Arturia Jupiter-8V",
+        "Jupiter-8V4",
+        "Jup-8V"
+      ]
+    },
+    {
+      "slug": "arturia-mini-v",
+      "name": "Mini V",
+      "manufacturer_slug": "arturia",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Mini V",
+        "Arturia Mini V",
+        "Mini V4",
+        "Minimoog V"
+      ]
+    },
+    {
+      "slug": "pigments-4",
+      "name": "Pigments 4",
+      "manufacturer_slug": "arturia",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Pigments 4",
+        "Pigments",
+        "Arturia Pigments",
+        "Arturia Pigments 4"
+      ]
+    },
+    {
+      "slug": "arturia-prophet-v",
+      "name": "Prophet V",
+      "manufacturer_slug": "arturia",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Prophet V",
+        "Arturia Prophet V",
+        "Prophet-V",
+        "Prophet-5 V"
+      ]
+    },
+    {
+      "slug": "arturia-rev-plate-140",
+      "name": "Rev PLATE-140",
+      "manufacturer_slug": "arturia",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Rev PLATE-140",
+        "Arturia Rev PLATE-140",
+        "PLATE-140"
+      ]
+    },
+    {
+      "slug": "dubstation-2",
+      "name": "DubStation 2",
+      "manufacturer_slug": "audio-damage",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "DubStation 2",
+        "Audio Damage DubStation"
+      ]
+    },
+    {
+      "slug": "quanta",
+      "name": "Quanta",
+      "manufacturer_slug": "audio-damage",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Quanta",
+        "Audio Damage Quanta",
+        "AD Quanta"
+      ]
+    },
+    {
+      "slug": "ratshack-reverb",
+      "name": "Ratshack Reverb",
+      "manufacturer_slug": "audio-damage",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Ratshack Reverb",
+        "Audio Damage Ratshack Reverb"
+      ]
+    },
+    {
+      "slug": "baby-audio-comeback-kid",
+      "name": "Comeback Kid",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Comeback Kid",
+        "Baby Audio Comeback Kid"
+      ]
+    },
+    {
+      "slug": "baby-audio-crystalline",
+      "name": "Crystalline",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Crystalline",
+        "Baby Audio Crystalline"
+      ]
+    },
+    {
+      "slug": "ihny-2",
+      "name": "IHNY-2",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "IHNY-2",
+        "Baby Audio IHNY-2",
+        "I Heart NY"
+      ]
+    },
+    {
+      "slug": "parallel-aggressor",
+      "name": "Parallel Aggressor",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Parallel Aggressor",
+        "Baby Audio Parallel Aggressor"
+      ]
+    },
+    {
+      "slug": "baby-audio-smooth-operator",
+      "name": "Smooth Operator",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Smooth Operator",
+        "Baby Audio Smooth Operator"
+      ]
+    },
+    {
+      "slug": "baby-audio-spaced-out",
+      "name": "Spaced Out",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Spaced Out",
+        "Baby Audio Spaced Out"
+      ]
+    },
+    {
+      "slug": "baby-audio-super-vhs",
+      "name": "Super VHS",
+      "manufacturer_slug": "baby-audio",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Super VHS",
+        "Baby Audio Super VHS"
+      ]
+    },
+    {
+      "slug": "bettermaker-bus-compressor-dsp",
+      "name": "Bettermaker Bus Compressor DSP",
+      "manufacturer_slug": "bettermaker",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Bettermaker Bus Compressor DSP",
+        "Bettermaker Bus Compressor"
+      ]
+    },
+    {
+      "slug": "bit-8",
+      "name": "Bit-8",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [],
+      "aliases": [
+        "Bit-8"
+      ]
+    },
+    {
+      "slug": "compressor",
+      "name": "Compressor",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [],
+      "aliases": [
+        "Compressor"
+      ]
+    },
+    {
+      "slug": "delay-4",
+      "name": "Delay-4",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [],
+      "aliases": [
+        "Delay-4"
+      ]
+    },
+    {
+      "slug": "drum-machine",
+      "name": "Drum Machine",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [],
+      "aliases": [
+        "Drum Machine"
+      ]
+    },
+    {
+      "slug": "dynamics",
+      "name": "Dynamics",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [],
+      "aliases": [
+        "Dynamics"
+      ]
+    },
+    {
+      "slug": "eq",
+      "name": "EQ+",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [],
+      "aliases": [
+        "EQ+",
+        "EQ-plus"
+      ]
+    },
+    {
+      "slug": "fx-grid",
+      "name": "FX Grid",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [],
+      "aliases": [
+        "FX Grid"
+      ]
+    },
+    {
+      "slug": "fx-layer",
+      "name": "FX Layer",
+      "manufacturer_slug": "bitwig",
+      "category": "container",
+      "subcategory": "general",
+      "formats": [],
+      "aliases": [
+        "FX Layer"
+      ]
+    },
+    {
+      "slug": "gate",
+      "name": "Gate",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "gate",
+      "formats": [],
+      "aliases": [
+        "Gate"
+      ]
+    },
+    {
+      "slug": "grid",
+      "name": "Grid",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [],
+      "aliases": [
+        "Grid"
+      ]
+    },
+    {
+      "slug": "instrument-layer",
+      "name": "Instrument Layer",
+      "manufacturer_slug": "bitwig",
+      "category": "container",
+      "subcategory": "general",
+      "formats": [],
+      "aliases": [
+        "Instrument Layer"
+      ]
+    },
+    {
+      "slug": "instrument-selector",
+      "name": "Instrument Selector",
+      "manufacturer_slug": "bitwig",
+      "category": "container",
+      "subcategory": "general",
+      "formats": [],
+      "aliases": [
+        "Instrument Selector"
+      ]
+    },
+    {
+      "slug": "limiter",
+      "name": "Limiter",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [],
+      "aliases": [
+        "Limiter"
+      ]
+    },
+    {
+      "slug": "multiband-fx-3",
+      "name": "Multiband FX-3",
+      "manufacturer_slug": "bitwig",
+      "category": "container",
+      "subcategory": "general",
+      "formats": [],
+      "aliases": [
+        "Multiband FX-3"
+      ]
+    },
+    {
+      "slug": "oscilloscope",
+      "name": "Oscilloscope",
+      "manufacturer_slug": "bitwig",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [],
+      "aliases": [
+        "Oscilloscope"
+      ]
+    },
+    {
+      "slug": "phase-4",
+      "name": "Phase-4",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [],
+      "aliases": [
+        "Phase-4"
+      ]
+    },
+    {
+      "slug": "poly-grid",
+      "name": "Poly Grid",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [],
+      "aliases": [
+        "Poly Grid"
+      ]
+    },
+    {
+      "slug": "polymer",
+      "name": "Polymer",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [],
+      "aliases": [
+        "Polymer"
+      ]
+    },
+    {
+      "slug": "polysynth",
+      "name": "Polysynth",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [],
+      "aliases": [
+        "Polysynth"
+      ]
+    },
+    {
+      "slug": "reverb",
+      "name": "Reverb",
+      "manufacturer_slug": "bitwig",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [],
+      "aliases": [
+        "Reverb"
+      ]
+    },
+    {
+      "slug": "sampler",
+      "name": "Sampler",
+      "manufacturer_slug": "bitwig",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [],
+      "aliases": [
+        "Sampler"
+      ]
+    },
+    {
+      "slug": "spectrum",
+      "name": "Spectrum",
+      "manufacturer_slug": "bitwig",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [],
+      "aliases": [
+        "Spectrum"
+      ]
+    },
+    {
+      "slug": "tool",
+      "name": "Tool",
+      "manufacturer_slug": "bitwig",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [],
+      "aliases": [
+        "Tool"
+      ]
+    },
+    {
+      "slug": "filtershaper",
+      "name": "FilterShaper",
+      "manufacturer_slug": "cableguys",
+      "category": "effect",
+      "subcategory": "filter",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FilterShaper",
+        "FilterShaper XL",
+        "Cableguys FilterShaper"
+      ]
+    },
+    {
+      "slug": "panshaper",
+      "name": "PanShaper",
+      "manufacturer_slug": "cableguys",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "PanShaper",
+        "PanShaper 3",
+        "Cableguys PanShaper"
+      ]
+    },
+    {
+      "slug": "shaperbox-3",
+      "name": "ShaperBox 3",
+      "manufacturer_slug": "cableguys",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "ShaperBox 3",
+        "ShaperBox3",
+        "Cableguys ShaperBox 3",
+        "ShaperBox"
+      ]
+    },
+    {
+      "slug": "timeshaper",
+      "name": "TimeShaper",
+      "manufacturer_slug": "cableguys",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "TimeShaper",
+        "TimeShaper 3",
+        "Cableguys TimeShaper"
+      ]
+    },
+    {
+      "slug": "volumeshaper",
+      "name": "VolumeShaper",
+      "manufacturer_slug": "cableguys",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "VolumeShaper",
+        "VolumeShaper 5",
+        "Cableguys VolumeShaper"
+      ]
+    },
+    {
+      "slug": "camelcrusher",
+      "name": "CamelCrusher",
+      "manufacturer_slug": "camel-audio",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "CamelCrusher",
+        "Camel Crusher"
+      ]
+    },
+    {
+      "slug": "dreamsynth",
+      "name": "Dreamsynth",
+      "manufacturer_slug": "cherry-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Dreamsynth",
+        "Cherry Audio Dreamsynth"
+      ]
+    },
+    {
+      "slug": "surrealistic-mg-1",
+      "name": "Surrealistic MG-1",
+      "manufacturer_slug": "cherry-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Surrealistic MG-1",
+        "Cherry Audio Surrealistic MG-1",
+        "MG-1"
+      ]
+    },
+    {
+      "slug": "voltage-modular",
+      "name": "Voltage Modular",
+      "manufacturer_slug": "cherry-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Voltage Modular",
+        "Cherry Audio Voltage Modular",
+        "VoltageModular"
+      ]
+    },
+    {
+      "slug": "reastream-standalone",
+      "name": "ReaStream",
+      "manufacturer_slug": "cockos",
+      "category": "utility",
+      "subcategory": "routing",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "reastream-standalone",
+        "ReaStream",
+        "Cockos ReaStream"
+      ]
+    },
+    {
+      "slug": "cymatics-origin",
+      "name": "Origin",
+      "manufacturer_slug": "cymatics",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Origin",
+        "Cymatics Origin"
+      ]
+    },
+    {
+      "slug": "decimort-2",
+      "name": "Decimort 2",
+      "manufacturer_slug": "d16-group",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Decimort 2",
+        "D16 Decimort"
+      ]
+    },
+    {
+      "slug": "devastor-2",
+      "name": "Devastor 2",
+      "manufacturer_slug": "d16-group",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Devastor 2",
+        "D16 Devastor"
+      ]
+    },
+    {
+      "slug": "lush-2",
+      "name": "Lush-2",
+      "manufacturer_slug": "d16-group",
+      "category": "effect",
+      "subcategory": "chorus",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Lush-2",
+        "D16 Lush-2",
+        "Lush2"
+      ]
+    },
+    {
+      "slug": "repeater",
+      "name": "Repeater",
+      "manufacturer_slug": "d16-group",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Repeater",
+        "D16 Repeater"
+      ]
+    },
+    {
+      "slug": "perfect-room",
+      "name": "Perfect Room",
+      "manufacturer_slug": "denise-audio",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Perfect Room",
+        "denise Perfect Room"
+      ]
+    },
+    {
+      "slug": "duck",
+      "name": "Duck",
+      "manufacturer_slug": "devious-machines",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Duck",
+        "Devious Machines Duck"
+      ]
+    },
+    {
+      "slug": "infiltrator",
+      "name": "Infiltrator",
+      "manufacturer_slug": "devious-machines",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Infiltrator",
+        "Devious Machines Infiltrator"
+      ]
+    },
+    {
+      "slug": "ob-xd",
+      "name": "OB-Xd",
+      "manufacturer_slug": "discodsp",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "OB-Xd",
+        "OBXd",
+        "discoDSP OB-Xd"
+      ]
+    },
+    {
+      "slug": "equilibrium",
+      "name": "Equilibrium",
+      "manufacturer_slug": "dmg-audio",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Equilibrium",
+        "DMG Audio Equilibrium"
+      ]
+    },
+    {
+      "slug": "blackhole",
+      "name": "Blackhole",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Blackhole",
+        "Eventide Blackhole"
+      ]
+    },
+    {
+      "slug": "h3000",
+      "name": "H3000 Factory",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "H3000 Factory",
+        "Eventide H3000",
+        "H3000"
+      ]
+    },
+    {
+      "slug": "mangledverb",
+      "name": "MangledVerb",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "MangledVerb",
+        "Eventide MangledVerb"
+      ]
+    },
+    {
+      "slug": "physion",
+      "name": "Physion",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Physion",
+        "Eventide Physion"
+      ]
+    },
+    {
+      "slug": "ultratap",
+      "name": "UltraTap",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "UltraTap",
+        "Eventide UltraTap"
+      ]
+    },
+    {
+      "slug": "fabfilter-pro-c-2",
+      "name": "FabFilter Pro-C 2",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "FabFilter Pro-C 2",
+        "Pro-C 2",
+        "ProC2",
+        "FabfilterProC2"
+      ]
+    },
+    {
+      "slug": "fabfilter-pro-l-2",
+      "name": "FabFilter Pro-L 2",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Pro-L 2",
+        "Pro-L 2",
+        "ProL2",
+        "FabfilterProL2"
+      ]
+    },
+    {
+      "slug": "fabfilter-pro-mb",
+      "name": "FabFilter Pro-MB",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "multiband",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Pro-MB",
+        "Pro-MB",
+        "ProMB",
+        "FabfilterProMB"
+      ]
+    },
+    {
+      "slug": "pro-q-3",
+      "name": "FabFilter Pro-Q 3",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Pro-Q 3",
+        "FabFilter Pro-Q 3",
+        "FabfilterProQ3",
+        "ProQ3"
+      ]
+    },
+    {
+      "slug": "fabfilter-pro-r-2",
+      "name": "FabFilter Pro-R 2",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Pro-R 2",
+        "Pro-R 2",
+        "ProR2",
+        "FabfilterProR2"
+      ]
+    },
+    {
+      "slug": "fabfilter-saturn-2",
+      "name": "FabFilter Saturn 2",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "FabFilter Saturn 2",
+        "Saturn 2",
+        "Saturn2",
+        "FabfilterSaturn2"
+      ]
+    },
+    {
+      "slug": "fabfilter-simplon",
+      "name": "FabFilter Simplon",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "filter",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Simplon",
+        "Simplon",
+        "FabfilterSimplon"
+      ]
+    },
+    {
+      "slug": "fabfilter-timeless-3",
+      "name": "FabFilter Timeless 3",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Timeless 3",
+        "Timeless 3",
+        "Timeless3",
+        "FabfilterTimeless3"
+      ]
+    },
+    {
+      "slug": "fabfilter-twin-3",
+      "name": "FabFilter Twin 3",
+      "manufacturer_slug": "fabfilter",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Twin 3",
+        "Twin 3",
+        "Twin3",
+        "FabfilterTwin3"
+      ]
+    },
+    {
+      "slug": "fabfilter-volcano-3",
+      "name": "FabFilter Volcano 3",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "filter",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FabFilter Volcano 3",
+        "Volcano 3",
+        "Volcano3",
+        "FabfilterVolcano3"
+      ]
+    },
+    {
+      "slug": "harvest",
+      "name": "Harvest",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "Harvest"
+      ]
+    },
+    {
+      "slug": "fracture",
+      "name": "Fracture",
+      "manufacturer_slug": "glitchmachines",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Fracture",
+        "Glitchmachines Fracture"
+      ]
+    },
+    {
+      "slug": "hysteresis",
+      "name": "Hysteresis",
+      "manufacturer_slug": "glitchmachines",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Hysteresis",
+        "Glitchmachines Hysteresis"
+      ]
+    },
+    {
+      "slug": "canopener",
+      "name": "CanOpener Studio",
+      "manufacturer_slug": "goodhertz",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "CanOpener Studio",
+        "CanOpener",
+        "Goodhertz CanOpener"
+      ]
+    },
+    {
+      "slug": "goodhertz-lossy",
+      "name": "Lossy",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Lossy",
+        "Goodhertz Lossy"
+      ]
+    },
+    {
+      "slug": "goodhertz-trem-control",
+      "name": "Trem Control",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Trem Control",
+        "Goodhertz Trem Control"
+      ]
+    },
+    {
+      "slug": "goodhertz-vulf-compressor",
+      "name": "Vulf Compressor",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Vulf Compressor",
+        "Vulf Comp",
+        "Goodhertz Vulf Compressor"
+      ]
+    },
+    {
+      "slug": "goodhertz-wow-control",
+      "name": "Wow Control",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Wow Control",
+        "Goodhertz Wow Control"
+      ]
+    },
+    {
+      "slug": "ifea-fusion",
+      "name": "IFEA - Fusion",
+      "manufacturer_slug": "ifea",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "IFEA - Fusion",
+        "IFEA Fusion"
+      ]
+    },
+    {
+      "slug": "ifea-obra",
+      "name": "IFEA - OBRA",
+      "manufacturer_slug": "ifea",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "IFEA - OBRA",
+        "IFEA OBRA"
+      ]
+    },
+    {
+      "slug": "ifea-spectral-compressor",
+      "name": "IFEA - Spectral Compressor",
+      "manufacturer_slug": "ifea",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "IFEA - Spectral Compressor",
+        "IFEA Spectral Compressor"
+      ]
+    },
+    {
+      "slug": "ifea-spectral-gate",
+      "name": "IFEA - Spectral Gate",
+      "manufacturer_slug": "ifea",
+      "category": "effect",
+      "subcategory": "gate",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "IFEA - Spectral Gate",
+        "IFEA Spectral Gate"
+      ]
+    },
+    {
+      "slug": "gatekeeper",
+      "name": "Gatekeeper",
+      "manufacturer_slug": "infected-mushroom",
+      "category": "effect",
+      "subcategory": "gate",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Gatekeeper",
+        "Infected Mushroom Gatekeeper",
+        "Polyverse Gatekeeper"
+      ]
+    },
+    {
+      "slug": "i-wish",
+      "name": "I Wish",
+      "manufacturer_slug": "infected-mushroom",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "I Wish",
+        "Infected Mushroom I Wish",
+        "Polyverse I Wish"
+      ]
+    },
+    {
+      "slug": "manipulator",
+      "name": "Manipulator",
+      "manufacturer_slug": "infected-mushroom",
+      "category": "effect",
+      "subcategory": "vocoder",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Manipulator",
+        "Infected Mushroom Manipulator",
+        "Polyverse Manipulator"
+      ]
+    },
+    {
+      "slug": "heat-up-3",
+      "name": "Heat Up 3",
+      "manufacturer_slug": "initial-audio",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Heat Up 3",
+        "Initial Audio Heat Up 3"
+      ]
+    },
+    {
+      "slug": "sektor",
+      "name": "Sektor",
+      "manufacturer_slug": "initial-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Sektor",
+        "Initial Audio Sektor"
+      ]
+    },
+    {
+      "slug": "izotope-rx-voice-de-noise",
+      "name": "iZotope RX Voice De-noise",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "iZotope RX Voice De-noise",
+        "RX Voice De-noise"
+      ]
+    },
+    {
+      "slug": "izotope-nectar-4",
+      "name": "Nectar 4",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Nectar 4",
+        "iZotope Nectar 4",
+        "iZotope Nectar 4 Suite"
+      ]
+    },
+    {
+      "slug": "izotope-neutron-4",
+      "name": "Neutron 4",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Neutron 4",
+        "iZotope Neutron 4",
+        "Neutron4"
+      ]
+    },
+    {
+      "slug": "ozone-11",
+      "name": "Ozone 11",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Ozone 11",
+        "iZotope Ozone 11",
+        "iZotope Ozone 11 Suite"
+      ]
+    },
+    {
+      "slug": "ozone-11-equalizer",
+      "name": "Ozone 11 Equalizer",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Ozone 11 Equalizer",
+        "iZotope Ozone 11 Equalizer"
+      ]
+    },
+    {
+      "slug": "ozone-11-exciter",
+      "name": "Ozone 11 Exciter",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Ozone 11 Exciter",
+        "iZotope Ozone 11 Exciter"
+      ]
+    },
+    {
+      "slug": "ozone-11-imager",
+      "name": "Ozone 11 Imager",
+      "manufacturer_slug": "izotope",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Ozone 11 Imager",
+        "iZotope Ozone 11 Imager"
+      ]
+    },
+    {
+      "slug": "ozone-11-master-rebalance",
+      "name": "Ozone 11 Master Rebalance",
+      "manufacturer_slug": "izotope",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Ozone 11 Master Rebalance",
+        "iZotope Ozone 11 Master Rebalance"
+      ]
+    },
+    {
+      "slug": "izotope-ozone-9",
+      "name": "Ozone 9",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Ozone 9",
+        "iZotope Ozone 9",
+        "Ozone9"
+      ]
+    },
+    {
+      "slug": "ozone-9-dynamics",
+      "name": "Ozone 9 Dynamics",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [],
+      "aliases": [
+        "Ozone 9 Dynamics",
+        "iZotope Ozone 9 Dynamics"
+      ]
+    },
+    {
+      "slug": "izotope-rx-11",
+      "name": "RX 11",
+      "manufacturer_slug": "izotope",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "RX 11",
+        "iZotope RX 11",
+        "RX11"
+      ]
+    },
+    {
+      "slug": "trash-2",
+      "name": "Trash 2",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Trash 2",
+        "iZotope Trash 2"
+      ]
+    },
+    {
+      "slug": "izotope-vinyl",
+      "name": "Vinyl",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Vinyl",
+        "iZotope Vinyl"
+      ]
+    },
+    {
+      "slug": "disperser",
+      "name": "Disperser",
+      "manufacturer_slug": "kilohearts",
+      "category": "effect",
+      "subcategory": "filter",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "Disperser",
+        "Kilohearts Disperser",
+        "kHs Disperser"
+      ]
+    },
+    {
+      "slug": "effectrack",
+      "name": "EffectRack",
+      "manufacturer_slug": "kilohearts",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "EffectRack",
+        "Kilohearts EffectRack",
+        "kHs EffectRack"
+      ]
+    },
+    {
+      "slug": "khs-compactor",
+      "name": "kHs Compactor",
+      "manufacturer_slug": "kilohearts",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "kHs Compactor",
+        "Kilohearts Compactor",
+        "Compactor"
+      ]
+    },
+    {
+      "slug": "khs-one",
+      "name": "kHs ONE",
+      "manufacturer_slug": "kilohearts",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP"
+      ],
+      "aliases": [
+        "kHs ONE",
+        "Kilohearts ONE"
+      ]
+    },
+    {
+      "slug": "maim",
+      "name": "Maim",
+      "manufacturer_slug": "kilohearts",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "Maim",
+        "kHs Maim",
+        "Kilohearts Maim"
+      ]
+    },
+    {
+      "slug": "multipass",
+      "name": "Multipass",
+      "manufacturer_slug": "kilohearts",
+      "category": "effect",
+      "subcategory": "multiband",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "Multipass",
+        "Kilohearts Multipass"
+      ]
+    },
+    {
+      "slug": "phase-plant",
+      "name": "Phase Plant",
+      "manufacturer_slug": "kilohearts",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP"
+      ],
+      "aliases": [
+        "Phase Plant",
+        "Kilohearts Phase Plant",
+        "PhasePlant"
+      ]
+    },
+    {
+      "slug": "snap-heap",
+      "name": "Snap Heap",
+      "manufacturer_slug": "kilohearts",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Snap Heap",
+        "Kilohearts Snap Heap"
+      ]
+    },
+    {
+      "slug": "dc1a",
+      "name": "DC1A",
+      "manufacturer_slug": "klanghelm",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "DC1A",
+        "Klanghelm DC1A"
+      ]
+    },
+    {
+      "slug": "mjuc",
+      "name": "MJUC",
+      "manufacturer_slug": "klanghelm",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "MJUC",
+        "Klanghelm MJUC",
+        "MJUC jr"
+      ]
+    },
+    {
+      "slug": "synthmaster-2",
+      "name": "SynthMaster 2",
+      "manufacturer_slug": "kv331-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "SynthMaster 2",
+        "KV331 SynthMaster"
+      ]
+    },
+    {
+      "slug": "sylenth1",
+      "name": "Sylenth1",
+      "manufacturer_slug": "lennardigital",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Sylenth1",
+        "Sylenth",
+        "LennarDigital Sylenth1"
+      ]
+    },
+    {
+      "slug": "st1b",
+      "name": "st1b",
+      "manufacturer_slug": "lhi-audio",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "CLAP"
+      ],
+      "aliases": [
+        "st1b"
+      ]
+    },
+    {
+      "slug": "st4b",
+      "name": "st4b",
+      "manufacturer_slug": "lhi-audio",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "CLAP"
+      ],
+      "aliases": [
+        "st4b"
+      ]
+    },
+    {
+      "slug": "helm",
+      "name": "Helm",
+      "manufacturer_slug": "matt-tytel",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Helm",
+        "Matt Tytel Helm"
+      ]
+    },
+    {
+      "slug": "vital",
+      "name": "Vital",
+      "manufacturer_slug": "matt-tytel",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "CLAP"
+      ],
+      "aliases": [
+        "Vital",
+        "Vital Audio",
+        "Matt Tytel Vital",
+        "Vitalium"
+      ]
+    },
+    {
+      "slug": "mautopitch",
+      "name": "MAutoPitch",
+      "manufacturer_slug": "meldaproduction",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "MAutoPitch",
+        "Melda MAutoPitch",
+        "MeldaProduction MAutoPitch"
+      ]
+    },
+    {
+      "slug": "mcompressor",
+      "name": "MCompressor",
+      "manufacturer_slug": "meldaproduction",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "MCompressor",
+        "Melda MCompressor",
+        "MeldaProduction MCompressor"
+      ]
+    },
+    {
+      "slug": "mfreeformequalizer",
+      "name": "MFreeformEqualizer",
+      "manufacturer_slug": "meldaproduction",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "MFreeformEqualizer",
+        "Melda MFreeformEqualizer",
+        "MeldaProduction MFreeformEqualizer"
+      ]
+    },
+    {
+      "slug": "mmatcher",
+      "name": "MMatcher",
+      "manufacturer_slug": "meldaproduction",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "MMatcher",
+        "Melda MMatcher",
+        "MeldaProduction MMatcher"
+      ]
+    },
+    {
+      "slug": "current",
+      "name": "Current",
+      "manufacturer_slug": "minimal-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Current",
+        "Minimal Audio Current"
+      ]
+    },
+    {
+      "slug": "rift",
+      "name": "Rift",
+      "manufacturer_slug": "minimal-audio",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Rift",
+        "Minimal Audio Rift"
+      ]
+    },
+    {
+      "slug": "minimeters",
+      "name": "MiniMeters",
+      "manufacturer_slug": "minimeters",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "MiniMeters",
+        "MiniMeters Suite"
+      ]
+    },
+    {
+      "slug": "minimeters-loudness",
+      "name": "MiniMeters - Loudness",
+      "manufacturer_slug": "minimeters",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "MiniMeters - Loudness",
+        "MiniMeters Loudness"
+      ]
+    },
+    {
+      "slug": "absynth-5",
+      "name": "Absynth 5",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Absynth 5",
+        "NI Absynth 5",
+        "Absynth"
+      ]
+    },
+    {
+      "slug": "battery-4",
+      "name": "Battery 4",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Battery 4",
+        "NI Battery 4",
+        "Battery"
+      ]
+    },
+    {
+      "slug": "fm8",
+      "name": "FM8",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "FM8",
+        "NI FM8",
+        "Native Instruments FM8"
+      ]
+    },
+    {
+      "slug": "guitar-rig-7",
+      "name": "Guitar Rig 7",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Guitar Rig 7",
+        "NI Guitar Rig 7",
+        "Guitar Rig",
+        "GuitarRig7"
+      ]
+    },
+    {
+      "slug": "kontakt",
+      "name": "Kontakt",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Kontakt",
+        "Kontakt (Legacy)",
+        "NI Kontakt"
+      ]
+    },
+    {
+      "slug": "kontakt-7",
+      "name": "Kontakt 7",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Kontakt 7",
+        "NI Kontakt 7",
+        "Kontakt7"
+      ]
+    },
+    {
+      "slug": "kontakt-7-portable",
+      "name": "Kontakt 7 Portable",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Kontakt 7 Portable",
+        "NI Kontakt 7 Portable"
+      ]
+    },
+    {
+      "slug": "kontakt-8",
+      "name": "Kontakt 8",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Kontakt 8",
+        "NI Kontakt 8",
+        "Kontakt8"
+      ]
+    },
+    {
+      "slug": "massive",
+      "name": "Massive",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "Massive",
+        "NI Massive",
+        "Native Instruments Massive"
+      ]
+    },
+    {
+      "slug": "massive-x",
+      "name": "Massive X",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Massive X",
+        "MassiveX",
+        "NI Massive X",
+        "Native Instruments Massive X"
+      ]
+    },
+    {
+      "slug": "monark",
+      "name": "Monark",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Monark",
+        "NI Monark",
+        "Native Instruments Monark"
+      ]
+    },
+    {
+      "slug": "reaktor-6",
+      "name": "Reaktor 6",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Reaktor 6",
+        "NI Reaktor 6",
+        "Reaktor",
+        "Native Instruments Reaktor 6"
+      ]
+    },
+    {
+      "slug": "super-8",
+      "name": "Super 8",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Super 8",
+        "NI Super 8",
+        "Native Instruments Super 8"
+      ]
+    },
+    {
+      "slug": "supercharger",
+      "name": "Supercharger",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Supercharger",
+        "NI Supercharger",
+        "Native Instruments Supercharger"
+      ]
+    },
+    {
+      "slug": "faturator",
+      "name": "Faturator",
+      "manufacturer_slug": "nembrini-audio",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Faturator",
+        "Nembrini Audio Faturator"
+      ]
+    },
+    {
+      "slug": "archetype-gojira",
+      "name": "Archetype Gojira",
+      "manufacturer_slug": "neural-dsp",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Archetype Gojira",
+        "Neural DSP Archetype Gojira"
+      ]
+    },
+    {
+      "slug": "elevate",
+      "name": "Elevate",
+      "manufacturer_slug": "newfangled-audio",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Elevate",
+        "Newfangled Audio Elevate",
+        "Eventide Elevate"
+      ]
+    },
+    {
+      "slug": "saturate",
+      "name": "Saturate",
+      "manufacturer_slug": "newfangled-audio",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Saturate",
+        "Newfangled Audio Saturate",
+        "Eventide Saturate"
+      ]
+    },
+    {
+      "slug": "kickstart-2",
+      "name": "Kickstart 2",
+      "manufacturer_slug": "nicky-romero",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Kickstart 2",
+        "Kickstart",
+        "Nicky Romero Kickstart"
+      ]
+    },
+    {
+      "slug": "soothe2",
+      "name": "soothe2",
+      "manufacturer_slug": "oeksound",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "soothe2",
+        "Soothe 2",
+        "soothe2_x64",
+        "oeksound soothe2"
+      ]
+    },
+    {
+      "slug": "spiff",
+      "name": "spiff",
+      "manufacturer_slug": "oeksound",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "spiff",
+        "oeksound spiff"
+      ]
+    },
+    {
+      "slug": "chroma",
+      "name": "Chroma",
+      "manufacturer_slug": "output",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Chroma",
+        "Output Chroma"
+      ]
+    },
+    {
+      "slug": "output-exhale",
+      "name": "Exhale",
+      "manufacturer_slug": "output",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Exhale",
+        "Output Exhale"
+      ]
+    },
+    {
+      "slug": "movement",
+      "name": "Movement",
+      "manufacturer_slug": "output",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Movement",
+        "Output Movement"
+      ]
+    },
+    {
+      "slug": "output-portal",
+      "name": "Portal",
+      "manufacturer_slug": "output",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Portal",
+        "Output Portal"
+      ]
+    },
+    {
+      "slug": "output-signal",
+      "name": "Signal",
+      "manufacturer_slug": "output",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Signal",
+        "Output Signal"
+      ]
+    },
+    {
+      "slug": "thermal",
+      "name": "Thermal",
+      "manufacturer_slug": "output",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Thermal",
+        "Output Thermal"
+      ]
+    },
+    {
+      "slug": "transit-2",
+      "name": "Transit 2",
+      "manufacturer_slug": "output",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Transit 2",
+        "Output Transit 2"
+      ]
+    },
+    {
+      "slug": "chipcrusher2",
+      "name": "chipcrusher2",
+      "manufacturer_slug": "plogue",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "chipcrusher2",
+        "Chipcrusher 2",
+        "chipcrusher2_x64"
+      ]
+    },
+    {
+      "slug": "chipsynth-sfc",
+      "name": "chipsynth SFC",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "chipsynth SFC",
+        "chipsynth SFC_x64",
+        "Plogue chipsynth SFC"
+      ]
+    },
+    {
+      "slug": "plugdata",
+      "name": "plugdata",
+      "manufacturer_slug": "plugdata",
+      "category": "instrument",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "plugdata"
+      ]
+    },
+    {
+      "slug": "plugdata-fx",
+      "name": "plugdata-fx",
+      "manufacturer_slug": "plugdata",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "CLAP"
+      ],
+      "aliases": [
+        "plugdata-fx",
+        "PlugData FX"
+      ]
+    },
+    {
+      "slug": "bx-console",
+      "name": "bx_console",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "bx_console",
+        "Brainworx bx_console",
+        "Plugin Alliance bx_console"
+      ]
+    },
+    {
+      "slug": "bx-digital-v3",
+      "name": "bx_digital V3",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "bx_digital V3",
+        "Brainworx bx_digital V3",
+        "bx_digital"
+      ]
+    },
+    {
+      "slug": "spl-de-esser",
+      "name": "SPL De-Esser",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "de-esser",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "SPL De-Esser",
+        "Plugin Alliance SPL De-Esser"
+      ]
+    },
+    {
+      "slug": "spl-iron",
+      "name": "SPL Iron",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "SPL Iron",
+        "Plugin Alliance SPL Iron"
+      ]
+    },
+    {
+      "slug": "scaler-2",
+      "name": "Scaler 2",
+      "manufacturer_slug": "plugin-boutique",
+      "category": "midi",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Scaler 2",
+        "Plugin Boutique Scaler 2",
+        "Scaler2"
+      ]
+    },
+    {
+      "slug": "comet",
+      "name": "Comet",
+      "manufacturer_slug": "polyverse",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Comet",
+        "Polyverse Comet"
+      ]
+    },
+    {
+      "slug": "wider",
+      "name": "Wider",
+      "manufacturer_slug": "polyverse",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Wider",
+        "Polyverse Wider",
+        "Infected Mushroom Wider"
+      ]
+    },
+    {
+      "slug": "melodysauce2",
+      "name": "MelodySauce2",
+      "manufacturer_slug": "quantumsauce",
+      "category": "midi",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "MelodySauce2",
+        "MelodySauce 2",
+        "Melody Sauce 2"
+      ]
+    },
+    {
+      "slug": "blade-2",
+      "name": "Blade 2",
+      "manufacturer_slug": "rob-papen",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Blade 2",
+        "Rob Papen Blade 2"
+      ]
+    },
+    {
+      "slug": "predator-3",
+      "name": "Predator 3",
+      "manufacturer_slug": "rob-papen",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Predator 3",
+        "Rob Papen Predator 3"
+      ]
+    },
+    {
+      "slug": "transient-shaper",
+      "name": "Transient Shaper",
+      "manufacturer_slug": "schaack-audio",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Transient Shaper",
+        "Schaack Audio Transient Shaper"
+      ]
+    },
+    {
+      "slug": "argentcompressor",
+      "name": "ArgentCompressor",
+      "manufacturer_slug": "sir-audio-tools",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ArgentCompressor",
+        "SIR Audio ArgentCompressor"
+      ]
+    },
+    {
+      "slug": "standardclip",
+      "name": "StandardCLIP",
+      "manufacturer_slug": "sir-audio-tools",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "StandardCLIP",
+        "SIR Audio StandardCLIP"
+      ]
+    },
+    {
+      "slug": "fg-x-2",
+      "name": "FG-X 2",
+      "manufacturer_slug": "slate-digital",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "FG-X 2",
+        "Slate Digital FG-X 2",
+        "FGX2"
+      ]
+    },
+    {
+      "slug": "virtual-mix-rack",
+      "name": "Virtual Mix Rack",
+      "manufacturer_slug": "slate-digital",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Virtual Mix Rack",
+        "VMR",
+        "Slate Digital Virtual Mix Rack"
+      ]
+    },
+    {
+      "slug": "virtual-tape-machines",
+      "name": "Virtual Tape Machines",
+      "manufacturer_slug": "slate-digital",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Virtual Tape Machines",
+        "VTM",
+        "Slate Digital Virtual Tape Machines"
+      ]
+    },
+    {
+      "slug": "console-1",
+      "name": "Console 1",
+      "manufacturer_slug": "softube",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Console 1",
+        "Softube Console 1"
+      ]
+    },
+    {
+      "slug": "saturation-knob",
+      "name": "Saturation Knob",
+      "manufacturer_slug": "softube",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Saturation Knob",
+        "Softube Saturation Knob"
+      ]
+    },
+    {
+      "slug": "bitspeek",
+      "name": "Bitspeek",
+      "manufacturer_slug": "sonic-charge",
+      "category": "effect",
+      "subcategory": "vocoder",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Bitspeek",
+        "Sonic Charge Bitspeek"
+      ]
+    },
+    {
+      "slug": "synplant",
+      "name": "Synplant",
+      "manufacturer_slug": "sonic-charge",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Synplant",
+        "Synplant 2",
+        "Sonic Charge Synplant"
+      ]
+    },
+    {
+      "slug": "oxford-dynamics",
+      "name": "Oxford Dynamics",
+      "manufacturer_slug": "sonnox",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Oxford Dynamics",
+        "Sonnox Oxford Dynamics"
+      ]
+    },
+    {
+      "slug": "oxford-eq",
+      "name": "Oxford EQ",
+      "manufacturer_slug": "sonnox",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Oxford EQ",
+        "Sonnox Oxford EQ"
+      ]
+    },
+    {
+      "slug": "oxford-limiter",
+      "name": "Oxford Limiter",
+      "manufacturer_slug": "sonnox",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Oxford Limiter",
+        "Sonnox Oxford Limiter"
+      ]
+    },
+    {
+      "slug": "crystallizer",
+      "name": "Crystallizer",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Crystallizer",
+        "Soundtoys Crystallizer"
+      ]
+    },
+    {
+      "slug": "decapitator",
+      "name": "Decapitator",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Decapitator",
+        "Soundtoys Decapitator"
+      ]
+    },
+    {
+      "slug": "devil-loc",
+      "name": "Devil-Loc Deluxe",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Devil-Loc",
+        "Devil-Loc Deluxe",
+        "Soundtoys Devil-Loc"
+      ]
+    },
+    {
+      "slug": "echoboy",
+      "name": "EchoBoy",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "EchoBoy",
+        "Soundtoys EchoBoy",
+        "EchoBoy Jr"
+      ]
+    },
+    {
+      "slug": "filterfreak",
+      "name": "FilterFreak",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "filter",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "FilterFreak",
+        "Soundtoys FilterFreak",
+        "FilterFreak 1",
+        "FilterFreak 2"
+      ]
+    },
+    {
+      "slug": "littlealterboy",
+      "name": "Little AlterBoy",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Little AlterBoy",
+        "LittleAlterBoy",
+        "Soundtoys Little AlterBoy"
+      ]
+    },
+    {
+      "slug": "panman",
+      "name": "PanMan",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "PanMan",
+        "Soundtoys PanMan"
+      ]
+    },
+    {
+      "slug": "primaltap",
+      "name": "PrimalTap",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "PrimalTap",
+        "Soundtoys PrimalTap"
+      ]
+    },
+    {
+      "slug": "soundtoys-collection",
+      "name": "SoundToys Collection",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "SoundToys Collection",
+        "Soundtoys 5"
+      ]
+    },
+    {
+      "slug": "tremolator",
+      "name": "Tremolator",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Tremolator",
+        "Soundtoys Tremolator"
+      ]
+    },
+    {
+      "slug": "keyscape",
+      "name": "Keyscape",
+      "manufacturer_slug": "spectrasonics",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Keyscape",
+        "Spectrasonics Keyscape"
+      ]
+    },
+    {
+      "slug": "omnisphere",
+      "name": "Omnisphere",
+      "manufacturer_slug": "spectrasonics",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Omnisphere",
+        "Omnisphere 2",
+        "Spectrasonics Omnisphere"
+      ]
+    },
+    {
+      "slug": "trilian",
+      "name": "Trilian",
+      "manufacturer_slug": "spectrasonics",
+      "category": "instrument",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Trilian",
+        "Spectrasonics Trilian"
+      ]
+    },
+    {
+      "slug": "bbc-symphony-orchestra",
+      "name": "BBC Symphony Orchestra",
+      "manufacturer_slug": "spitfire-audio",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "BBC Symphony Orchestra",
+        "Spitfire BBC Symphony Orchestra",
+        "BBCSO"
+      ]
+    },
+    {
+      "slug": "spitfire-labs",
+      "name": "LABS",
+      "manufacturer_slug": "spitfire-audio",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "LABS",
+        "Spitfire LABS",
+        "Spitfire Audio LABS"
+      ]
+    },
+    {
+      "slug": "spitfire-originals",
+      "name": "Originals",
+      "manufacturer_slug": "spitfire-audio",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Originals",
+        "Spitfire Originals",
+        "Spitfire Audio Originals"
+      ]
+    },
+    {
+      "slug": "modnetic",
+      "name": "Modnetic",
+      "manufacturer_slug": "surreal-machines",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Modnetic",
+        "Surreal Machines Modnetic"
+      ]
+    },
+    {
+      "slug": "tal-chorus-lx",
+      "name": "TAL-Chorus-LX",
+      "manufacturer_slug": "tal",
+      "category": "effect",
+      "subcategory": "chorus",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TAL-Chorus-LX",
+        "TAL Chorus LX",
+        "TAL-Chorus-LX-V2"
+      ]
+    },
+    {
+      "slug": "tal-dub",
+      "name": "TAL-Dub",
+      "manufacturer_slug": "tal",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TAL-Dub",
+        "TAL Dub",
+        "TAL-Dub-3"
+      ]
+    },
+    {
+      "slug": "tal-reverb-4",
+      "name": "TAL-Reverb-4",
+      "manufacturer_slug": "tal",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TAL-Reverb-4",
+        "TAL Reverb 4"
+      ]
+    },
+    {
+      "slug": "tal-u-no-lx",
+      "name": "TAL-U-NO-LX",
+      "manufacturer_slug": "tal",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TAL-U-NO-LX",
+        "TAL U-NO-LX",
+        "TAL-U-NO-LX-V2"
+      ]
+    },
+    {
+      "slug": "tdr-kotelnikov",
+      "name": "TDR Kotelnikov",
+      "manufacturer_slug": "tokyo-dawn-records",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TDR Kotelnikov",
+        "Kotelnikov",
+        "Tokyo Dawn Kotelnikov"
+      ]
+    },
+    {
+      "slug": "tdr-nova",
+      "name": "TDR Nova",
+      "manufacturer_slug": "tokyo-dawn-records",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TDR Nova",
+        "Nova",
+        "Tokyo Dawn Nova"
+      ]
+    },
+    {
+      "slug": "tdr-vos-slickeq",
+      "name": "TDR VOS SlickEQ",
+      "manufacturer_slug": "tokyo-dawn-records",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "TDR VOS SlickEQ",
+        "SlickEQ",
+        "Tokyo Dawn SlickEQ"
+      ]
+    },
+    {
+      "slug": "icarus-2",
+      "name": "Icarus 2",
+      "manufacturer_slug": "tone2",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Icarus 2",
+        "Tone2 Icarus 2"
+      ]
+    },
+    {
+      "slug": "ezdrummer-3",
+      "name": "EZdrummer 3",
+      "manufacturer_slug": "toontrack",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "EZdrummer 3",
+        "Toontrack EZdrummer 3"
+      ]
+    },
+    {
+      "slug": "superior-drummer-3",
+      "name": "Superior Drummer 3",
+      "manufacturer_slug": "toontrack",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Superior Drummer 3",
+        "SD3",
+        "Toontrack Superior Drummer 3"
+      ]
+    },
+    {
+      "slug": "ace",
+      "name": "ACE",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "ACE",
+        "u-he ACE"
+      ]
+    },
+    {
+      "slug": "diva",
+      "name": "Diva",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Diva",
+        "u-he Diva"
+      ]
+    },
+    {
+      "slug": "hive-2",
+      "name": "Hive 2",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Hive 2",
+        "u-he Hive 2",
+        "Hive2",
+        "Hive"
+      ]
+    },
+    {
+      "slug": "presswerk",
+      "name": "Presswerk",
+      "manufacturer_slug": "u-he",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Presswerk",
+        "u-he Presswerk"
+      ]
+    },
+    {
+      "slug": "repro-1",
+      "name": "Repro-1",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Repro-1",
+        "u-he Repro-1",
+        "Repro1",
+        "Repro"
+      ]
+    },
+    {
+      "slug": "repro-5",
+      "name": "Repro-5",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Repro-5",
+        "u-he Repro-5",
+        "Repro5"
+      ]
+    },
+    {
+      "slug": "satin",
+      "name": "Satin",
+      "manufacturer_slug": "u-he",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Satin",
+        "u-he Satin"
+      ]
+    },
+    {
+      "slug": "zebra-2",
+      "name": "Zebra 2",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Zebra 2",
+        "u-he Zebra 2",
+        "Zebra2",
+        "ZebraHZ"
+      ]
+    },
+    {
+      "slug": "sandman-pro",
+      "name": "Sandman Pro",
+      "manufacturer_slug": "unfiltered-audio",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Sandman Pro",
+        "Unfiltered Audio Sandman Pro"
+      ]
+    },
+    {
+      "slug": "valhalla-dsp-collection",
+      "name": "Valhalla DSP Collection",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Valhalla DSP Collection"
+      ]
+    },
+    {
+      "slug": "valhalladelay",
+      "name": "ValhallaDelay",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaDelay",
+        "Valhalla Delay"
+      ]
+    },
+    {
+      "slug": "valhallafreqecho",
+      "name": "ValhallaFreqEcho",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaFreqEcho",
+        "Valhalla FreqEcho",
+        "Valhalla Freq Echo"
+      ]
+    },
+    {
+      "slug": "valhallaplate",
+      "name": "ValhallaPlate",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaPlate",
+        "Valhalla Plate"
+      ]
+    },
+    {
+      "slug": "valhallaroom",
+      "name": "ValhallaRoom",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaRoom",
+        "Valhalla Room"
+      ]
+    },
+    {
+      "slug": "valhallashimmer",
+      "name": "ValhallaShimmer",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaShimmer",
+        "Valhalla Shimmer"
+      ]
+    },
+    {
+      "slug": "valhallaspacemodulator",
+      "name": "ValhallaSpaceModulator",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaSpaceModulator",
+        "Valhalla SpaceModulator",
+        "Valhalla Space Modulator"
+      ]
+    },
+    {
+      "slug": "valhallasupermassive",
+      "name": "ValhallaSupermassive",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "ValhallaSupermassive",
+        "Valhalla Supermassive"
+      ]
+    },
+    {
+      "slug": "valhallaubermod",
+      "name": "ValhallaUberMod",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaUberMod",
+        "Valhalla UberMod"
+      ]
+    },
+    {
+      "slug": "valhallavintageverb",
+      "name": "ValhallaVintageVerb",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "ValhallaVintageVerb",
+        "Valhalla VintageVerb",
+        "Valhalla Vintage Verb"
+      ]
+    },
+    {
+      "slug": "voxengo-marvel-geq",
+      "name": "Marvel GEQ",
+      "manufacturer_slug": "voxengo",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Marvel GEQ",
+        "Voxengo Marvel GEQ"
+      ]
+    },
+    {
+      "slug": "voxengo-msed",
+      "name": "MSED",
+      "manufacturer_slug": "voxengo",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "MSED",
+        "Voxengo MSED"
+      ]
+    },
+    {
+      "slug": "span",
+      "name": "SPAN",
+      "manufacturer_slug": "voxengo",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "SPAN",
+        "Voxengo SPAN"
+      ]
+    },
+    {
+      "slug": "span-plus",
+      "name": "SPAN Plus",
+      "manufacturer_slug": "voxengo",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "SPAN Plus",
+        "Voxengo SPAN Plus"
+      ]
+    },
+    {
+      "slug": "abbey-road-plates",
+      "name": "Abbey Road Plates",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Abbey Road Plates",
+        "Waves Abbey Road Plates"
+      ]
+    },
+    {
+      "slug": "cla-2a",
+      "name": "CLA-2A",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "CLA-2A",
+        "Waves CLA-2A"
+      ]
+    },
+    {
+      "slug": "cla-76",
+      "name": "CLA-76",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "CLA-76",
+        "Waves CLA-76"
+      ]
+    },
+    {
+      "slug": "h-delay",
+      "name": "H-Delay",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "H-Delay",
+        "Waves H-Delay",
+        "HDelay"
+      ]
+    },
+    {
+      "slug": "waves-j37",
+      "name": "J37 Tape",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "J37 Tape",
+        "J37",
+        "Waves J37"
+      ]
+    },
+    {
+      "slug": "waves-l1",
+      "name": "L1 Ultramaximizer",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "L1 Ultramaximizer",
+        "L1",
+        "Waves L1"
+      ]
+    },
+    {
+      "slug": "waves-l2",
+      "name": "L2 Ultramaximizer",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "L2 Ultramaximizer",
+        "L2",
+        "Waves L2"
+      ]
+    },
+    {
+      "slug": "waves-rbass",
+      "name": "Renaissance Bass",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Renaissance Bass",
+        "RBass",
+        "Waves RBass"
+      ]
+    },
+    {
+      "slug": "waves-rcomp",
+      "name": "Renaissance Compressor",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Renaissance Compressor",
+        "RComp",
+        "Waves RComp"
+      ]
+    },
+    {
+      "slug": "waves-req",
+      "name": "Renaissance EQ",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Renaissance EQ",
+        "REQ",
+        "Waves REQ"
+      ]
+    },
+    {
+      "slug": "waves-rvox",
+      "name": "RVox",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "RVox",
+        "R-Vox",
+        "Waves RVox"
+      ]
+    },
+    {
+      "slug": "waves-scheps-omni-channel",
+      "name": "Scheps Omni Channel",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Scheps Omni Channel",
+        "Waves Scheps Omni Channel"
+      ]
+    },
+    {
+      "slug": "ssl-e-channel",
+      "name": "SSL E-Channel",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "SSL E-Channel",
+        "Waves SSL E-Channel"
+      ]
+    },
+    {
+      "slug": "ssl-g-master-buss",
+      "name": "SSL G-Master Buss Compressor",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "SSL G-Master Buss Compressor",
+        "SSL G-Master Buss",
+        "Waves SSL G-Master"
+      ]
+    },
+    {
+      "slug": "waves-vitamin",
+      "name": "Vitamin",
+      "manufacturer_slug": "waves",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Vitamin",
+        "Waves Vitamin",
+        "Vitamin Sonic Enhancer"
+      ]
+    },
+    {
+      "slug": "waveshell",
+      "name": "WaveShell",
+      "manufacturer_slug": "waves",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "WaveShell1-VST3 14.12_x64",
+        "WaveShell",
+        "Waves WaveShell"
+      ]
+    },
+    {
+      "slug": "spectre",
+      "name": "Spectre",
+      "manufacturer_slug": "wavesfactory",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Spectre",
+        "Wavesfactory Spectre"
+      ]
+    },
+    {
+      "slug": "trackspacer",
+      "name": "Trackspacer",
+      "manufacturer_slug": "wavesfactory",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Trackspacer",
+        "Wavesfactory Trackspacer"
+      ]
+    },
+    {
+      "slug": "cthulhu",
+      "name": "Cthulhu",
+      "manufacturer_slug": "xfer-records",
+      "category": "midi",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Cthulhu",
+        "Xfer Cthulhu",
+        "Cthulhu_x64"
+      ]
+    },
+    {
+      "slug": "lfotool",
+      "name": "LFOTool",
+      "manufacturer_slug": "xfer-records",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "LFOTool",
+        "LFO Tool",
+        "Xfer LFOTool"
+      ]
+    },
+    {
+      "slug": "ott",
+      "name": "OTT",
+      "manufacturer_slug": "xfer-records",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "OTT",
+        "Xfer OTT"
+      ]
+    },
+    {
+      "slug": "serum",
+      "name": "Serum",
+      "manufacturer_slug": "xfer-records",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "VST2",
+        "AU"
+      ],
+      "aliases": [
+        "Serum",
+        "Xfer Serum",
+        "SerumFX"
+      ]
+    },
+    {
+      "slug": "serum-2",
+      "name": "Serum 2",
+      "manufacturer_slug": "xfer-records",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Serum 2",
+        "Serum2",
+        "Xfer Serum 2"
+      ]
+    },
+    {
+      "slug": "addictive-drums-2",
+      "name": "Addictive Drums 2",
+      "manufacturer_slug": "xln-audio",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Addictive Drums 2",
+        "AD2",
+        "XLN Audio Addictive Drums 2"
+      ]
+    },
+    {
+      "slug": "rc-20",
+      "name": "RC-20 Retro Color",
+      "manufacturer_slug": "xln-audio",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "RC-20 Retro Color",
+        "RC-20",
+        "XLN Audio RC-20"
+      ]
+    },
+    {
+      "slug": "youlean-loudness-meter-2",
+      "name": "Youlean Loudness Meter 2",
+      "manufacturer_slug": "youlean",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "VST2"
+      ],
+      "aliases": [
+        "Youlean Loudness Meter 2",
+        "Youlean Loudness Meter"
+      ]
+    },
+    {
+      "slug": "pitchmap-colors",
+      "name": "PITCHMAP COLORS",
+      "manufacturer_slug": "zynaptiq",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "PITCHMAP COLORS",
+        "PITCHMAP COLORS VST3",
+        "Zynaptiq PITCHMAP"
+      ]
+    }
+  ]
+}

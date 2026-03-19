@@ -1,0 +1,98 @@
+name: Validate seed.json
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Validate seed.json schema
+        run: |
+          python -c "
+          import json, sys
+          from pathlib import Path
+
+          seed_path = Path('data/seed.json')
+          if not seed_path.exists():
+              print('ERROR: data/seed.json not found')
+              sys.exit(1)
+
+          with open(seed_path) as f:
+              data = json.load(f)
+
+          errors = []
+
+          # Check top-level keys
+          if 'schema_version' not in data:
+              errors.append('Missing schema_version')
+          if 'manufacturers' not in data:
+              errors.append('Missing manufacturers list')
+          if 'plugins' not in data:
+              errors.append('Missing plugins list')
+
+          # Validate manufacturers
+          mfr_slugs = set()
+          for i, mfr in enumerate(data.get('manufacturers', [])):
+              if 'slug' not in mfr:
+                  errors.append(f'Manufacturer [{i}]: missing slug')
+              if 'name' not in mfr:
+                  errors.append(f'Manufacturer [{i}]: missing name')
+              if 'slug' in mfr:
+                  if mfr['slug'] in mfr_slugs:
+                      errors.append(f'Duplicate manufacturer slug: {mfr[\"slug\"]}')
+                  mfr_slugs.add(mfr['slug'])
+
+          # Validate plugins
+          VALID_CATEGORIES = {'instrument', 'effect', 'midi', 'utility', 'container', 'note-effect'}
+          plugin_slugs = set()
+          for i, plugin in enumerate(data.get('plugins', [])):
+              if 'slug' not in plugin:
+                  errors.append(f'Plugin [{i}]: missing slug')
+              if 'name' not in plugin:
+                  errors.append(f'Plugin [{i}]: missing name')
+              if 'manufacturer_slug' not in plugin:
+                  errors.append(f'Plugin [{i}]: missing manufacturer_slug')
+              elif plugin['manufacturer_slug'] not in mfr_slugs:
+                  errors.append(f'Plugin [{i}] ({plugin.get(\"name\", \"?\")}): unknown manufacturer_slug \"{plugin[\"manufacturer_slug\"]}\"')
+              if plugin.get('category') and plugin['category'] not in VALID_CATEGORIES:
+                  errors.append(f'Plugin [{i}] ({plugin.get(\"name\", \"?\")}): invalid category \"{plugin[\"category\"]}\"')
+              if 'slug' in plugin:
+                  if plugin['slug'] in plugin_slugs:
+                      errors.append(f'Duplicate plugin slug: {plugin[\"slug\"]}')
+                  plugin_slugs.add(plugin['slug'])
+
+          if errors:
+              print(f'VALIDATION FAILED ({len(errors)} errors):')
+              for e in errors:
+                  print(f'  - {e}')
+              sys.exit(1)
+          else:
+              print(f'seed.json is valid: {len(data[\"manufacturers\"])} manufacturers, {len(data[\"plugins\"])} plugins')
+          "
+
+      - name: Test seed import
+        run: |
+          python -c "
+          from plugindb.database import create_schema, get_connection
+          from plugindb.seed import load_seed, seed_database
+          conn = get_connection(':memory:')
+          create_schema(conn)
+          data = load_seed('data/seed.json')
+          counts = seed_database(conn, data)
+          print(f'Seed import OK: {counts[\"plugins\"]} plugins, {counts[\"manufacturers\"]} manufacturers, {counts[\"aliases\"]} aliases')
+          conn.close()
+          "
