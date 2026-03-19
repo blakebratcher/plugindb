@@ -7,6 +7,23 @@ from pathlib import Path
 
 DEFAULT_DB_PATH = Path(__file__).resolve().parent.parent / "data" / "plugindb.sqlite"
 
+EXPECTED_PLUGIN_COLUMNS = {
+    "id", "slug", "name", "manufacturer_id", "category", "subcategory",
+    "formats", "daws", "os", "description", "website", "is_free",
+    "price_type", "tags", "year", "created_at", "updated_at",
+}
+
+
+def check_schema(conn: sqlite3.Connection) -> bool:
+    """Check if the plugins table has the expected columns. Returns True if up to date."""
+    try:
+        cols = {row[1] for row in conn.execute("PRAGMA table_info(plugins)").fetchall()}
+    except Exception:
+        return False
+    if not cols:
+        return True  # Table doesn't exist yet — create_schema will handle it
+    return cols == EXPECTED_PLUGIN_COLUMNS
+
 
 def get_connection(db_path: Path | str = DEFAULT_DB_PATH) -> sqlite3.Connection:
     """Open a SQLite connection with WAL mode and foreign keys enabled.
@@ -57,6 +74,9 @@ def create_schema(conn: sqlite3.Connection) -> None:
             description     TEXT,
             website         TEXT,
             is_free         INTEGER NOT NULL DEFAULT 0,
+            price_type      TEXT    NOT NULL DEFAULT 'paid',
+            tags            TEXT    NOT NULL DEFAULT '[]',
+            year            INTEGER,
             created_at      TEXT    NOT NULL DEFAULT (datetime('now')),
             updated_at      TEXT    NOT NULL DEFAULT (datetime('now'))
         );
@@ -66,6 +86,10 @@ def create_schema(conn: sqlite3.Connection) -> None:
             ON plugins(category);
         CREATE INDEX IF NOT EXISTS idx_plugins_slug
             ON plugins(slug);
+        CREATE INDEX IF NOT EXISTS idx_plugins_year
+            ON plugins(year);
+        CREATE INDEX IF NOT EXISTS idx_plugins_price_type
+            ON plugins(price_type);
 
         -- Aliases (alternative names for lookup)
         CREATE TABLE IF NOT EXISTS aliases (
@@ -79,6 +103,12 @@ def create_schema(conn: sqlite3.Connection) -> None:
         CREATE INDEX IF NOT EXISTS idx_aliases_plugin_id
             ON aliases(plugin_id);
 
+        -- Metadata (key-value store for seed versioning)
+        CREATE TABLE IF NOT EXISTS metadata (
+            key   TEXT PRIMARY KEY,
+            value TEXT NOT NULL
+        );
+
         -- Full-text search
         CREATE VIRTUAL TABLE IF NOT EXISTS plugins_fts USING fts5(
             name,
@@ -87,6 +117,7 @@ def create_schema(conn: sqlite3.Connection) -> None:
             subcategory,
             description,
             aliases,
+            tags,
             content=''
         );
     """)

@@ -14,9 +14,10 @@ from plugindb.models import (
     BatchLookupMatch,
     BatchLookupRequest,
     BatchLookupResponse,
+    ErrorResponse,
     PluginResponse,
 )
-from plugindb.queries import build_plugin_response
+from plugindb.queries import build_plugin_response, build_plugin_responses
 
 router = APIRouter(tags=["lookup"])
 
@@ -53,7 +54,7 @@ def _lookup_alias(alias: str, conn: sqlite3.Connection) -> PluginResponse | None
     response_model=PluginResponse,
     responses={
         200: {"description": "Plugin found"},
-        404: {"description": "No plugin matching this alias"},
+        404: {"model": ErrorResponse, "description": "No plugin matching this alias"},
     },
 )
 def lookup_plugin(
@@ -74,15 +75,51 @@ def lookup_plugin(
 def batch_lookup(body: BatchLookupRequest) -> BatchLookupResponse:
     """Look up multiple plugins by name/alias in a single request.
 
-    Accepts up to 100 names and returns match results for each.
+    Accepts up to 200 names and returns match results for each.
+    Uses bulk queries for efficient alias resolution.
     """
     conn = get_db()
+
+    # 1. Collect all lowercased names
+    lower_names = [name.lower() for name in body.names]
+
+    # 2. Single query: resolve all aliases at once
+    placeholders = ",".join("?" for _ in lower_names)
+    alias_rows = conn.execute(
+        f"SELECT name_lower, plugin_id FROM aliases WHERE name_lower IN ({placeholders})",
+        lower_names,
+    ).fetchall()
+
+    # Build mapping: name_lower -> plugin_id (first match wins)
+    alias_to_plugin_id: dict[str, int] = {}
+    for row in alias_rows:
+        if row["name_lower"] not in alias_to_plugin_id:
+            alias_to_plugin_id[row["name_lower"]] = row["plugin_id"]
+
+    # 3. Get unique plugin_ids from matches
+    unique_plugin_ids = list(set(alias_to_plugin_id.values()))
+
+    # 4. Single query: fetch all matched plugins at once
+    plugin_map: dict[int, PluginResponse] = {}
+    if unique_plugin_ids:
+        pid_placeholders = ",".join("?" for _ in unique_plugin_ids)
+        plugin_rows = conn.execute(
+            f"SELECT * FROM plugins WHERE id IN ({pid_placeholders})",
+            unique_plugin_ids,
+        ).fetchall()
+
+        # 5. Batch-build all matched plugin responses
+        plugin_responses = build_plugin_responses(list(plugin_rows), conn)
+        plugin_map = {p.id: p for p in plugin_responses}
+
+    # 6. Map results back to original query names
     results: list[BatchLookupMatch] = []
     matched = 0
     unmatched = 0
 
     for name in body.names:
-        plugin = _lookup_alias(name, conn)
+        plugin_id = alias_to_plugin_id.get(name.lower())
+        plugin = plugin_map.get(plugin_id) if plugin_id is not None else None
         if plugin is not None:
             results.append(BatchLookupMatch(query=name, matched=True, plugin=plugin))
             matched += 1
@@ -90,4 +127,11 @@ def batch_lookup(body: BatchLookupRequest) -> BatchLookupResponse:
             results.append(BatchLookupMatch(query=name, matched=False, plugin=None))
             unmatched += 1
 
-    return BatchLookupResponse(results=results, matched=matched, unmatched=unmatched)
+    # Detect duplicates: queries that resolved to the same plugin
+    seen_ids: dict[int, list[str]] = {}
+    for r in results:
+        if r.matched and r.plugin is not None:
+            seen_ids.setdefault(r.plugin.id, []).append(r.query)
+    duplicates = [q for names in seen_ids.values() if len(names) > 1 for q in names]
+
+    return BatchLookupResponse(results=results, matched=matched, unmatched=unmatched, duplicates=duplicates)

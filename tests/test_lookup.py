@@ -66,3 +66,68 @@ class TestPostBatchLookup:
         """Batch with empty names list is rejected (422)."""
         resp = client.post("/api/v1/lookup", json={"names": []})
         assert resp.status_code == 422
+
+    def test_batch_max_200_accepted(self, client):
+        """Batch with exactly 200 names is accepted."""
+        names = ["Serum"] + [f"Unknown{i}" for i in range(199)]
+        resp = client.post("/api/v1/lookup", json={"names": names})
+        assert resp.status_code == 200
+        data = resp.json()
+        assert data["matched"] == 1
+        assert data["unmatched"] == 199
+
+    def test_batch_over_200_rejected(self, client):
+        """Batch with 201 names is rejected (422)."""
+        names = [f"Plugin{i}" for i in range(201)]
+        resp = client.post("/api/v1/lookup", json={"names": names})
+        assert resp.status_code == 422
+
+    def test_batch_response_includes_new_fields(self, client):
+        """Batch results include tags, year, and price_type."""
+        resp = client.post("/api/v1/lookup", json={"names": ["Serum"]})
+        assert resp.status_code == 200
+        plugin = resp.json()["results"][0]["plugin"]
+        assert "tags" in plugin
+        assert "year" in plugin
+        assert "price_type" in plugin
+
+    def test_batch_detects_duplicates(self, client):
+        """Multiple queries resolving to same plugin are reported as duplicates."""
+        resp = client.post("/api/v1/lookup", json={"names": ["Serum", "Xfer Serum"]})
+        assert resp.status_code == 200
+        body = resp.json()
+        assert body["matched"] == 2
+        assert "Serum" in body["duplicates"]
+        assert "Xfer Serum" in body["duplicates"]
+
+    def test_batch_no_duplicates(self, client):
+        """Distinct plugins have empty duplicates list."""
+        resp = client.post("/api/v1/lookup", json={"names": ["Serum", "Diva"]})
+        assert resp.status_code == 200
+        assert resp.json()["duplicates"] == []
+
+
+class TestBatchEdgeCases:
+    """Edge cases for batch lookup."""
+
+    def test_batch_single_name(self, client):
+        """Batch with single name works."""
+        resp = client.post("/api/v1/lookup", json={"names": ["Serum"]})
+        assert resp.status_code == 200
+        assert resp.json()["matched"] == 1
+
+    def test_batch_all_unknown(self, client):
+        """Batch with all unknown names returns 200 with 0 matched."""
+        resp = client.post("/api/v1/lookup", json={"names": ["x", "y", "z"]})
+        assert resp.status_code == 200
+        assert resp.json()["matched"] == 0
+        assert resp.json()["unmatched"] == 3
+
+
+class TestBatchUnicode:
+    """Unicode names in batch lookup."""
+
+    def test_batch_unicode_names(self, client):
+        resp = client.post("/api/v1/lookup", json={"names": ["Sérum", "Díva"]})
+        assert resp.status_code == 200
+        assert resp.json()["unmatched"] == 2

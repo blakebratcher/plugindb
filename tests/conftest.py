@@ -31,6 +31,10 @@ SEED_DATA = {
             "daws": ["Ableton Live", "Bitwig", "FL Studio"],
             "aliases": ["Serum", "Xfer Serum", "SerumFX"],
             "description": "Advanced wavetable synthesizer with visual feedback",
+            "price_type": "paid",
+            "tags": ["synthesizer", "wavetable", "electronic"],
+            "year": 2014,
+            "os": ["windows", "macos"],
         },
         {
             "slug": "diva",
@@ -42,6 +46,10 @@ SEED_DATA = {
             "daws": ["Ableton Live", "Bitwig", "Reaper"],
             "aliases": ["Diva", "u-he Diva"],
             "description": "Analogue modelling synthesizer with zero-delay feedback filters",
+            "price_type": "paid",
+            "tags": ["synthesizer", "analog-modeling", "vintage"],
+            "year": 2011,
+            "os": ["windows", "macos", "linux"],
         },
         {
             "slug": "valhalla-vintage-verb",
@@ -53,6 +61,10 @@ SEED_DATA = {
             "daws": ["Ableton Live", "FL Studio"],
             "aliases": ["VintageVerb", "Valhalla VintageVerb", "ValhallaVintageVerb"],
             "description": "Lush algorithmic reverb inspired by classic hardware",
+            "price_type": "free",
+            "tags": ["reverb", "vintage", "lush"],
+            "year": 2012,
+            "os": ["windows", "macos"],
         },
     ],
 }

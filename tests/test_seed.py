@@ -33,6 +33,10 @@ SAMPLE_SEED = {
             "subcategory": "synth",
             "formats": ["VST3", "AU", "AAX"],
             "aliases": ["Serum", "Xfer Serum", "SerumFX"],
+            "description": "Advanced wavetable synthesizer with visual feedback",
+            "tags": ["synthesizer", "wavetable", "electronic"],
+            "year": 2014,
+            "price_type": "paid",
         },
         {
             "slug": "diva",
@@ -42,6 +46,10 @@ SAMPLE_SEED = {
             "subcategory": "synth",
             "formats": ["VST3", "VST2", "AU"],
             "aliases": ["Diva", "u-he Diva"],
+            "description": "Analogue modelling synthesizer with zero-delay feedback filters",
+            "tags": ["synthesizer", "analog-modeling", "vintage"],
+            "year": 2011,
+            "price_type": "paid",
         },
         {
             "slug": "valhalla-vintage-verb",
@@ -51,6 +59,10 @@ SAMPLE_SEED = {
             "subcategory": "reverb",
             "formats": ["VST3", "AU", "AAX"],
             "aliases": ["VintageVerb", "Valhalla VintageVerb", "ValhallaVintageVerb"],
+            "description": "Lush algorithmic reverb inspired by classic hardware",
+            "tags": ["reverb", "vintage", "lush"],
+            "year": 2012,
+            "price_type": "free",
         },
     ],
 }
@@ -168,6 +180,38 @@ class TestSeed:
     def test_fts_populated(self, seeded_db):
         rows = seeded_db.execute(
             "SELECT * FROM plugins_fts WHERE plugins_fts MATCH 'Serum'"
+        ).fetchall()
+        assert len(rows) >= 1
+
+    def test_tags_stored_as_json(self, seeded_db):
+        """Tags column stores a valid JSON array that parses correctly."""
+        row = seeded_db.execute(
+            "SELECT tags FROM plugins WHERE slug = 'serum'"
+        ).fetchone()
+        tags = json.loads(row["tags"])
+        assert isinstance(tags, list)
+        assert "synthesizer" in tags
+        assert "wavetable" in tags
+        assert "electronic" in tags
+
+    def test_year_stored(self, seeded_db):
+        """Year column holds the correct integer value."""
+        row = seeded_db.execute(
+            "SELECT year FROM plugins WHERE slug = 'serum'"
+        ).fetchone()
+        assert row["year"] == 2014
+
+    def test_price_type_stored(self, seeded_db):
+        """Price type column has the correct value."""
+        row = seeded_db.execute(
+            "SELECT price_type FROM plugins WHERE slug = 'valhalla-vintage-verb'"
+        ).fetchone()
+        assert row["price_type"] == "free"
+
+    def test_tags_in_fts(self, seeded_db):
+        """FTS index includes tag text — MATCH on 'wavetable' returns results."""
+        rows = seeded_db.execute(
+            "SELECT * FROM plugins_fts WHERE plugins_fts MATCH 'wavetable'"
         ).fetchall()
         assert len(rows) >= 1
 
@@ -293,3 +337,69 @@ class TestValidation:
         data["plugins"][0]["aliases"] = []
         errors = validate_seed(data)
         assert any("aliases" in e.lower() for e in errors)
+
+    def test_validate_invalid_tags_not_list(self):
+        data = _make_seed_data()
+        data["plugins"][0]["tags"] = "not-a-list"
+        errors = validate_seed(data)
+        assert any("tags" in e.lower() for e in errors)
+
+    def test_validate_invalid_tag_item(self):
+        data = _make_seed_data()
+        data["plugins"][0]["tags"] = ["valid", 123]
+        errors = validate_seed(data)
+        assert any("tag" in e.lower() and "string" in e.lower() for e in errors)
+
+    def test_validate_invalid_year_out_of_range(self):
+        data = _make_seed_data()
+        data["plugins"][0]["year"] = 1800
+        errors = validate_seed(data)
+        assert any("year" in e.lower() for e in errors)
+
+    def test_validate_invalid_price_type(self):
+        data = _make_seed_data()
+        data["plugins"][0]["price_type"] = "premium"
+        errors = validate_seed(data)
+        assert any("price_type" in e.lower() for e in errors)
+
+    def test_validate_invalid_format(self):
+        data = _make_seed_data()
+        data["plugins"][0]["formats"] = ["VST3", "BadFormat"]
+        errors = validate_seed(data)
+        assert any("format" in e.lower() for e in errors)
+
+
+class TestAutoMigration:
+    """Schema change auto-detection."""
+
+    def test_check_schema_detects_stale(self):
+        """check_schema returns False when columns are missing."""
+        from plugindb.database import check_schema, get_connection
+        conn = get_connection(":memory:")
+        # Create an old-style table missing tags, year, price_type
+        conn.execute("""
+            CREATE TABLE plugins (
+                id INTEGER PRIMARY KEY,
+                slug TEXT NOT NULL,
+                name TEXT NOT NULL,
+                manufacturer_id INTEGER NOT NULL,
+                category TEXT NOT NULL DEFAULT 'effect',
+                subcategory TEXT,
+                formats TEXT NOT NULL DEFAULT '[]',
+                daws TEXT NOT NULL DEFAULT '[]',
+                os TEXT NOT NULL DEFAULT '[]',
+                description TEXT,
+                website TEXT,
+                is_free INTEGER NOT NULL DEFAULT 0,
+                created_at TEXT NOT NULL DEFAULT (datetime('now')),
+                updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+            )
+        """)
+        conn.commit()
+        assert check_schema(conn) is False
+        conn.close()
+
+    def test_check_schema_passes_current(self, seeded_db):
+        """check_schema returns True for the current schema."""
+        from plugindb.database import check_schema
+        assert check_schema(seeded_db) is True

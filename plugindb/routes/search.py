@@ -9,11 +9,13 @@ from fastapi import APIRouter, HTTPException, Query
 
 from plugindb.main import get_db
 from plugindb.models import (
+    ErrorResponse,
     PaginatedResponse,
     PluginListResponse,
-    PluginResponse,
+    SuggestItemResponse,
+    SuggestResponse,
 )
-from plugindb.queries import build_plugin_response
+from plugindb.queries import build_plugin_responses
 
 router = APIRouter(tags=["search"])
 
@@ -41,18 +43,30 @@ def _sanitize_fts_query(q: str) -> str:
 # Routes
 # ---------------------------------------------------------------------------
 
-@router.get("/search", response_model=PluginListResponse)
+@router.get("/search", response_model=PluginListResponse, responses={400: {"model": ErrorResponse}})
 def search_plugins(
     q: str = Query(..., description="Search query (minimum 2 characters)"),
     category: str | None = Query(None, description="Filter by category"),
+    subcategory: str | None = Query(None, description="Filter by subcategory"),
+    manufacturer: str | None = Query(None, description="Filter by manufacturer slug"),
+    tag: str | None = Query(None, description="Filter by tag"),
+    os: str | None = Query(None, description="Filter by OS (LIKE match on JSON)"),
+    year: int | None = Query(None, description="Filter by release year"),
+    year_min: int | None = Query(None, description="Minimum release year (inclusive)"),
+    year_max: int | None = Query(None, description="Maximum release year (inclusive)"),
+    price_type: str | None = Query(None, description="Filter by price type"),
+    format: str | None = Query(None, description="Filter by format (LIKE match on JSON)"),
+    daw: str | None = Query(None, description="Filter by DAW compatibility (LIKE match)"),
+    sort: str | None = Query(None, description="Sort: relevance (default), name, year, created_at"),
+    order: str | None = Query(None, description="Sort direction: asc, desc"),
     page: int = Query(1, ge=1, description="Page number"),
     per_page: int = Query(20, ge=1, le=100, description="Results per page"),
 ) -> PluginListResponse:
     """Full-text search across plugins using FTS5.
 
     Searches plugin names, manufacturer names, categories, subcategories,
-    descriptions, and aliases. Supports prefix matching. Results are ordered
-    by relevance (FTS5 rank).
+    descriptions, aliases, and tags. Supports prefix matching. Results are
+    ordered by relevance (FTS5 rank).
     """
     if len(q.strip()) < 2:
         raise HTTPException(
@@ -65,48 +79,73 @@ def search_plugins(
     # Sanitise user input for FTS5
     fts_query = _sanitize_fts_query(q)
 
-    # Build the query — join FTS results back to the plugins table
+    # Build dynamic WHERE clause
+    where_parts = ["plugins_fts MATCH ?"]
+    params: list[object] = [fts_query]
+
+    if category:
+        where_parts.append("plugins.category = ?")
+        params.append(category)
+    if subcategory:
+        where_parts.append("plugins.subcategory = ?")
+        params.append(subcategory)
+    if manufacturer:
+        where_parts.append("plugins.manufacturer_id = (SELECT id FROM manufacturers WHERE slug = ?)")
+        params.append(manufacturer)
+    if tag:
+        where_parts.append("plugins.tags LIKE ?")
+        params.append(f'%"{tag}"%')
+    if year is not None:
+        where_parts.append("plugins.year = ?")
+        params.append(year)
+    if year_min is not None:
+        where_parts.append("plugins.year >= ?")
+        params.append(year_min)
+    if year_max is not None:
+        where_parts.append("plugins.year <= ?")
+        params.append(year_max)
+    if price_type:
+        where_parts.append("plugins.price_type = ?")
+        params.append(price_type)
+    if format:
+        where_parts.append("plugins.formats LIKE ?")
+        params.append(f'%"{format}"%')
+    if daw:
+        where_parts.append("plugins.daws LIKE ?")
+        params.append(f'%"{daw}"%')
+    if os:
+        where_parts.append("plugins.os LIKE ?")
+        params.append(f'%"{os}"%')
+
+    where_sql = " AND ".join(where_parts)
+
+    # Sorting
+    sort_fields = {"name": "plugins.name", "year": "plugins.year", "created_at": "plugins.created_at"}
+    if sort and sort in sort_fields:
+        sort_col = sort_fields[sort]
+        sort_dir = "DESC" if order and order.lower() == "desc" else "ASC"
+        order_sql = f"ORDER BY {sort_col} {sort_dir}"
+    else:
+        order_sql = "ORDER BY plugins_fts.rank"
+
     try:
-        if category:
-            # Count total matches with category filter
-            count_row = conn.execute(
-                """SELECT COUNT(*) FROM plugins_fts
-                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
-                   WHERE plugins_fts MATCH ? AND plugins.category = ?""",
-                (fts_query, category),
-            ).fetchone()
-            total = count_row[0]
+        count_row = conn.execute(
+            f"""SELECT COUNT(*) FROM plugins_fts
+                JOIN plugins ON plugins.rowid = plugins_fts.rowid
+                WHERE {where_sql}""",
+            params,
+        ).fetchone()
+        total = count_row[0]
 
-            # Fetch paginated results
-            offset = (page - 1) * per_page
-            rows = conn.execute(
-                """SELECT plugins.* FROM plugins_fts
-                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
-                   WHERE plugins_fts MATCH ? AND plugins.category = ?
-                   ORDER BY plugins_fts.rank
-                   LIMIT ? OFFSET ?""",
-                (fts_query, category, per_page, offset),
-            ).fetchall()
-        else:
-            # Count total matches without category filter
-            count_row = conn.execute(
-                """SELECT COUNT(*) FROM plugins_fts
-                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
-                   WHERE plugins_fts MATCH ?""",
-                (fts_query,),
-            ).fetchone()
-            total = count_row[0]
-
-            # Fetch paginated results
-            offset = (page - 1) * per_page
-            rows = conn.execute(
-                """SELECT plugins.* FROM plugins_fts
-                   JOIN plugins ON plugins.rowid = plugins_fts.rowid
-                   WHERE plugins_fts MATCH ?
-                   ORDER BY plugins_fts.rank
-                   LIMIT ? OFFSET ?""",
-                (fts_query, per_page, offset),
-            ).fetchall()
+        offset = (page - 1) * per_page
+        rows = conn.execute(
+            f"""SELECT plugins.* FROM plugins_fts
+                JOIN plugins ON plugins.rowid = plugins_fts.rowid
+                WHERE {where_sql}
+                {order_sql}
+                LIMIT ? OFFSET ?""",
+            [*params, per_page, offset],
+        ).fetchall()
     except Exception:
         raise HTTPException(
             status_code=400,
@@ -116,7 +155,7 @@ def search_plugins(
             },
         )
 
-    plugins = [build_plugin_response(row, conn) for row in rows]
+    plugins = build_plugin_responses(rows, conn)
     pages = math.ceil(total / per_page) if total > 0 else 0
 
     return PluginListResponse(
@@ -128,4 +167,43 @@ def search_plugins(
             per_page=per_page,
             pages=pages,
         ),
+    )
+
+
+@router.get("/suggest", response_model=SuggestResponse)
+def suggest_plugins(
+    q: str = Query(..., min_length=1, description="Autocomplete query (min 1 char)"),
+) -> SuggestResponse:
+    """Lightweight autocomplete — returns up to 10 plugin names matching the query."""
+    conn = get_db()
+    fts_query = _sanitize_fts_query(q)
+
+    try:
+        rows = conn.execute(
+            """SELECT DISTINCT plugins.name, plugins.slug, plugins.category, m.name as manufacturer_name
+               FROM plugins_fts
+               JOIN plugins ON plugins.rowid = plugins_fts.rowid
+               JOIN manufacturers m ON plugins.manufacturer_id = m.id
+               WHERE plugins_fts MATCH ?
+               ORDER BY plugins_fts.rank
+               LIMIT 10""",
+            (fts_query,),
+        ).fetchall()
+    except Exception:
+        rows = []
+
+    results = [
+        SuggestItemResponse(
+            name=row["name"],
+            slug=row["slug"],
+            category=row["category"],
+            manufacturer_name=row["manufacturer_name"],
+        )
+        for row in rows
+    ]
+
+    return SuggestResponse(
+        suggestions=[r.name for r in results],
+        results=results,
+        query=q,
     )

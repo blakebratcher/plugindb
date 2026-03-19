@@ -8,7 +8,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
-from plugindb.database import DEFAULT_DB_PATH, create_schema, get_connection
+from plugindb.database import DEFAULT_DB_PATH, check_schema, create_schema, get_connection
 
 
 # ---------------------------------------------------------------------------
@@ -49,6 +49,7 @@ def load_seed(path: Path | str) -> dict:
 
 VALID_CATEGORIES = {"instrument", "effect", "midi", "utility", "container", "note-effect"}
 VALID_FORMATS = {"VST2", "VST3", "AU", "CLAP", "AAX", "LV2", "Standalone"}
+VALID_PRICE_TYPES = {"free", "paid", "subscription", "freemium", "included"}
 
 
 def transform_registry(registry_path: Path | str, output_path: Path | str) -> None:
@@ -218,6 +219,39 @@ def validate_seed(data: dict) -> list[str]:
                 else:
                     seen_aliases[alias_lower] = slug or label
 
+        # Tags validation (optional field)
+        tags = plugin.get("tags")
+        if tags is not None:
+            if not isinstance(tags, list):
+                errors.append(f"Plugin {label}: tags must be a list")
+            else:
+                for t in tags:
+                    if not isinstance(t, str):
+                        errors.append(f"Plugin {label}: tag items must be strings, got {type(t).__name__}")
+
+        # Year validation (optional field)
+        year = plugin.get("year")
+        if year is not None:
+            if not isinstance(year, int):
+                errors.append(f"Plugin {label}: year must be an integer")
+            elif year < 1970 or year > 2030:
+                errors.append(f"Plugin {label}: year {year} is out of range (1970-2030)")
+
+        # Price type validation (optional field)
+        price_type = plugin.get("price_type")
+        if price_type is not None and price_type not in VALID_PRICE_TYPES:
+            errors.append(
+                f"Plugin {label}: invalid price_type '{price_type}' "
+                f"(expected one of {sorted(VALID_PRICE_TYPES)})"
+            )
+
+        # Format validation (optional field)
+        formats = plugin.get("formats")
+        if isinstance(formats, list):
+            for fmt in formats:
+                if fmt not in VALID_FORMATS:
+                    errors.append(f"Plugin {label}: invalid format '{fmt}'")
+
     return errors
 
 
@@ -246,6 +280,7 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
             subcategory,
             description,
             aliases,
+            tags,
             content=''
         )
     """)
@@ -272,12 +307,16 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
         formats_json = json.dumps(plugin.get("formats", []))
         daws_json = json.dumps(plugin.get("daws", []))
         os_json = json.dumps(plugin.get("os", []))
+        tags_json = json.dumps(plugin.get("tags", []))
         is_free = 1 if plugin.get("price_type") == "free" else 0
+        price_type = plugin.get("price_type", "paid")
+        year = plugin.get("year")
         website = plugin.get("url")
         cur.execute(
             """INSERT INTO plugins
-               (slug, name, manufacturer_id, category, subcategory, formats, daws, os, description, website, is_free)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+               (slug, name, manufacturer_id, category, subcategory, formats, daws, os,
+                description, website, is_free, price_type, tags, year)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 plugin["slug"],
                 plugin["name"],
@@ -290,6 +329,9 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
                 plugin.get("description"),
                 website,
                 is_free,
+                price_type,
+                tags_json,
+                year,
             ),
         )
         plugin_id = cur.lastrowid
@@ -304,12 +346,13 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
 
         # FTS entry
         aliases_text = " | ".join(plugin.get("aliases", []))
+        tags_text = " ".join(plugin.get("tags", []))
         mfr_name = next(
             (m["name"] for m in data.get("manufacturers", []) if m["slug"] == mfr_slug),
             "",
         )
         cur.execute(
-            "INSERT INTO plugins_fts (rowid, name, manufacturer_name, category, subcategory, description, aliases) VALUES (?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO plugins_fts (rowid, name, manufacturer_name, category, subcategory, description, aliases, tags) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
             (
                 plugin_id,
                 plugin["name"],
@@ -318,9 +361,18 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
                 plugin.get("subcategory", ""),
                 plugin.get("description", ""),
                 aliases_text,
+                tags_text,
             ),
         )
         plugin_count += 1
+
+    # Store seed metadata
+    import hashlib
+    import datetime
+    seed_hash = hashlib.sha256(json.dumps(data, sort_keys=True).encode()).hexdigest()[:12]
+    cur.execute("DELETE FROM metadata")
+    cur.execute("INSERT INTO metadata (key, value) VALUES (?, ?)", ("seed_hash", seed_hash))
+    cur.execute("INSERT INTO metadata (key, value) VALUES (?, ?)", ("seed_timestamp", datetime.datetime.now(datetime.UTC).isoformat()))
 
     conn.commit()
     return {
@@ -365,6 +417,16 @@ def main() -> None:
             sys.exit(0)
 
     conn = get_connection(DEFAULT_DB_PATH)
+
+    # Auto-migrate: detect stale schema and drop/recreate
+    if not check_schema(conn):
+        print("Schema change detected — rebuilding database...")
+        conn.execute("DROP TABLE IF EXISTS plugins_fts")
+        conn.execute("DROP TABLE IF EXISTS aliases")
+        conn.execute("DROP TABLE IF EXISTS plugins")
+        conn.execute("DROP TABLE IF EXISTS manufacturers")
+        conn.commit()
+
     create_schema(conn)
     counts = seed_database(conn, data)
     conn.close()

@@ -1,6 +1,6 @@
 [project]
 name = "plugindb"
-version = "1.0.0"
+version = "1.4.0"
 description = "Open database of audio production plugins — the MusicBrainz for VSTs"
 requires-python = ">=3.12"
 dependencies = [

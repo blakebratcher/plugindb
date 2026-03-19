@@ -1,9 +1,23 @@
-FROM python:3.12-slim
+# Stage 1: Install dependencies
+FROM python:3.12-slim AS builder
+WORKDIR /build
+COPY pyproject.toml .
+COPY plugindb/ plugindb/
+RUN pip install --no-cache-dir --prefix=/install .
 
+# Stage 2: Seed the database
+FROM python:3.12-slim AS seeder
+COPY --from=builder /install /usr/local
 WORKDIR /app
-COPY . .
-RUN pip install --no-cache-dir .
+COPY plugindb/ plugindb/
+COPY data/seed.json data/seed.json
 RUN python -m plugindb.seed
+
+# Stage 3: Runtime
+FROM python:3.12-slim
+COPY --from=builder /install /usr/local
+COPY --from=seeder /app /app
+WORKDIR /app
 
 RUN useradd --create-home plugindb
 USER plugindb

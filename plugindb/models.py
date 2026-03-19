@@ -30,9 +30,12 @@ class PluginResponse(BaseModel):
     daws: list[str] = Field(default_factory=list)
     os: list[str] = Field(default_factory=list)
     aliases: list[str] = Field(default_factory=list)
+    tags: list[str] = Field(default_factory=list)
     description: str | None = None
     website: str | None = None
     is_free: bool = False
+    price_type: str = "paid"
+    year: int | None = None
     created_at: str
     updated_at: str
 
@@ -54,19 +57,27 @@ class PluginListResponse(BaseModel):
     data: list[PluginResponse]
     total: int = 0
     pagination: PaginatedResponse
+    related_tags: dict[str, int] | None = None
+
+
+class ManufacturerWithCountResponse(ManufacturerResponse):
+    """A manufacturer with its plugin count."""
+    plugin_count: int = 0
 
 
 class ManufacturerListResponse(BaseModel):
-    """Paginated list of manufacturers."""
-    data: list[ManufacturerResponse]
+    """Paginated list of manufacturers with plugin counts."""
+    data: list[ManufacturerWithCountResponse]
     pagination: PaginatedResponse
 
 
 class ManufacturerDetailResponse(BaseModel):
-    """A manufacturer with its plugin list."""
+    """A manufacturer with its paginated plugin list."""
     manufacturer: ManufacturerResponse
     plugins: list[PluginResponse]
     plugin_count: int
+    categories: dict[str, int] = Field(default_factory=dict)
+    pagination: PaginatedResponse | None = None
 
 
 # ---------------------------------------------------------------------------
@@ -78,8 +89,8 @@ class BatchLookupRequest(BaseModel):
     names: list[str] = Field(
         ...,
         min_length=1,
-        max_length=100,
-        description="Plugin names or aliases to look up (max 100)",
+        max_length=200,
+        description="Plugin names or aliases to look up (max 200)",
     )
 
 
@@ -95,6 +106,7 @@ class BatchLookupResponse(BaseModel):
     results: list[BatchLookupMatch]
     matched: int
     unmatched: int
+    duplicates: list[str] = Field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
@@ -108,6 +120,9 @@ class StatsResponse(BaseModel):
     total_aliases: int
     categories: dict[str, int] = Field(default_factory=dict)
     formats: dict[str, int] = Field(default_factory=dict)
+    os: dict[str, int] = Field(default_factory=dict)
+    tags: dict[str, int] = Field(default_factory=dict)
+    price_types: dict[str, int] = Field(default_factory=dict)
     top_manufacturers: list[dict] = Field(default_factory=list)
 
 
@@ -116,6 +131,10 @@ class HealthResponse(BaseModel):
     status: str = "ok"
     version: str
     database: str = "connected"
+    plugin_count: int | None = None
+    manufacturer_count: int | None = None
+    data_version: str | None = None
+    uptime_seconds: float | None = None
 
 
 class ErrorResponse(BaseModel):
@@ -128,3 +147,53 @@ class CategoriesResponse(BaseModel):
     """Available plugin categories and subcategories."""
     categories: list[str]
     subcategories: dict[str, list[str]] = Field(default_factory=dict)
+
+
+class TagsResponse(BaseModel):
+    """All distinct tags with usage counts."""
+    tags: dict[str, int] = Field(default_factory=dict)
+    total: int = 0
+
+
+class FormatsResponse(BaseModel):
+    """All plugin formats with usage counts."""
+    formats: dict[str, int] = Field(default_factory=dict)
+    total: int = 0
+
+
+class OSResponse(BaseModel):
+    """All operating systems with usage counts."""
+    os: dict[str, int] = Field(default_factory=dict)
+    total: int = 0
+
+
+class SubcategoriesResponse(BaseModel):
+    """Subcategories with actual plugin counts from the database."""
+    subcategories: dict[str, dict[str, int]] = Field(default_factory=dict)
+
+
+class SuggestItemResponse(BaseModel):
+    """A single autocomplete suggestion with context."""
+    name: str
+    slug: str
+    category: str
+    manufacturer_name: str
+
+
+class SuggestResponse(BaseModel):
+    """Autocomplete suggestions."""
+    suggestions: list[str] = Field(default_factory=list)
+    results: list[SuggestItemResponse] = Field(default_factory=list)
+    query: str
+
+
+class ComparisonResponse(BaseModel):
+    """Side-by-side plugin comparison."""
+    plugins: list[PluginResponse]
+    comparison: dict = Field(default_factory=dict)
+
+
+class YearsResponse(BaseModel):
+    """Plugin counts by release year."""
+    years: dict[int, int] = Field(default_factory=dict)
+    total: int = 0

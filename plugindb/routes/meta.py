@@ -1,13 +1,24 @@
-"""Meta routes — stats, categories, and health check."""
+"""Meta routes — stats, categories, tags, and health check."""
 
 from __future__ import annotations
 
-from fastapi import APIRouter
+import json
+
+from fastapi import APIRouter, Query
 from fastapi.responses import JSONResponse
 
 from plugindb import __version__
 from plugindb.main import get_db
-from plugindb.models import CategoriesResponse, HealthResponse, StatsResponse
+from plugindb.models import (
+    CategoriesResponse,
+    FormatsResponse,
+    HealthResponse,
+    OSResponse,
+    StatsResponse,
+    SubcategoriesResponse,
+    TagsResponse,
+    YearsResponse,
+)
 
 router = APIRouter(tags=["meta"])
 
@@ -68,14 +79,27 @@ def get_stats() -> StatsResponse:
     ).fetchall()
     categories = {row["category"]: row["cnt"] for row in cat_rows}
 
-    # Format breakdown (formats stored as JSON arrays — need to unpack)
-    all_plugins = conn.execute("SELECT formats FROM plugins").fetchall()
+    # Format, tag, and OS breakdown (stored as JSON arrays — need to unpack)
+    all_plugins = conn.execute("SELECT formats, tags, os FROM plugins").fetchall()
     format_counts: dict[str, int] = {}
-    import json
+    tag_counts: dict[str, int] = {}
+    os_counts: dict[str, int] = {}
     for row in all_plugins:
         if row["formats"]:
             for fmt in json.loads(row["formats"]):
                 format_counts[fmt] = format_counts.get(fmt, 0) + 1
+        if row["tags"]:
+            for t in json.loads(row["tags"]):
+                tag_counts[t] = tag_counts.get(t, 0) + 1
+        if row["os"]:
+            for o in json.loads(row["os"]):
+                os_counts[o] = os_counts.get(o, 0) + 1
+
+    # Price type breakdown
+    price_rows = conn.execute(
+        "SELECT price_type, COUNT(*) as cnt FROM plugins GROUP BY price_type ORDER BY cnt DESC"
+    ).fetchall()
+    price_types = {row["price_type"]: row["cnt"] for row in price_rows}
 
     # Top manufacturers
     top_rows = conn.execute(
@@ -97,6 +121,9 @@ def get_stats() -> StatsResponse:
         total_aliases=total_aliases,
         categories=categories,
         formats=format_counts,
+        os=os_counts,
+        tags=tag_counts,
+        price_types=price_types,
         top_manufacturers=top_manufacturers,
     )
 
@@ -114,14 +141,147 @@ def get_categories() -> CategoriesResponse:
     )
 
 
+@router.get("/formats", response_model=FormatsResponse)
+def get_formats() -> FormatsResponse:
+    """Return all plugin formats with usage counts, sorted by frequency."""
+    conn = get_db()
+    rows = conn.execute("SELECT formats FROM plugins").fetchall()
+    format_counts: dict[str, int] = {}
+    for row in rows:
+        if row["formats"]:
+            for fmt in json.loads(row["formats"]):
+                format_counts[fmt] = format_counts.get(fmt, 0) + 1
+    sorted_formats = dict(sorted(format_counts.items(), key=lambda x: (-x[1], x[0])))
+    return FormatsResponse(formats=sorted_formats, total=len(sorted_formats))
+
+
+@router.get("/os", response_model=OSResponse)
+def get_os() -> OSResponse:
+    """Return all operating systems with usage counts, sorted by frequency."""
+    conn = get_db()
+    rows = conn.execute("SELECT os FROM plugins").fetchall()
+    os_counts: dict[str, int] = {}
+    for row in rows:
+        if row["os"]:
+            for o in json.loads(row["os"]):
+                os_counts[o] = os_counts.get(o, 0) + 1
+    sorted_os = dict(sorted(os_counts.items(), key=lambda x: (-x[1], x[0])))
+    return OSResponse(os=sorted_os, total=len(sorted_os))
+
+
+@router.get("/subcategories", response_model=SubcategoriesResponse)
+def get_subcategories() -> SubcategoriesResponse:
+    """Return subcategories with actual plugin counts from the database."""
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT category, subcategory, COUNT(*) as cnt FROM plugins "
+        "GROUP BY category, subcategory ORDER BY category, cnt DESC"
+    ).fetchall()
+    result: dict[str, dict[str, int]] = {}
+    for row in rows:
+        cat = row["category"]
+        subcat = row["subcategory"] or "general"
+        if cat not in result:
+            result[cat] = {}
+        result[cat][subcat] = row["cnt"]
+    return SubcategoriesResponse(subcategories=result)
+
+
+@router.get("/tags", response_model=TagsResponse)
+def get_tags() -> TagsResponse:
+    """Return all distinct tags with usage counts, sorted by frequency."""
+    conn = get_db()
+    rows = conn.execute("SELECT tags FROM plugins").fetchall()
+    tag_counts: dict[str, int] = {}
+    for row in rows:
+        if row["tags"]:
+            for t in json.loads(row["tags"]):
+                tag_counts[t] = tag_counts.get(t, 0) + 1
+    sorted_tags = dict(sorted(tag_counts.items(), key=lambda x: (-x[1], x[0])))
+    return TagsResponse(tags=sorted_tags, total=len(sorted_tags))
+
+
+@router.get("/years", response_model=YearsResponse)
+def get_years() -> YearsResponse:
+    """Return plugin counts by release year, sorted chronologically."""
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT year, COUNT(*) as cnt FROM plugins WHERE year IS NOT NULL "
+        "GROUP BY year ORDER BY year ASC"
+    ).fetchall()
+    years = {row["year"]: row["cnt"] for row in rows}
+    return YearsResponse(years=years, total=len(years))
+
+
+@router.get("/export")
+def export_data(
+    format: str = Query("json", description="Export format: json or csv"),
+):
+    """Export the entire plugin catalog as JSON or CSV."""
+    from plugindb.queries import build_plugin_responses
+    conn = get_db()
+    rows = conn.execute("SELECT * FROM plugins ORDER BY name ASC").fetchall()
+    plugins = build_plugin_responses(list(rows), conn)
+
+    if format == "csv":
+        import csv
+        import io
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(["id", "slug", "name", "manufacturer", "category", "subcategory",
+                         "formats", "daws", "os", "tags", "description", "website",
+                         "is_free", "price_type", "year"])
+        for p in plugins:
+            writer.writerow([
+                p.id, p.slug, p.name, p.manufacturer.name, p.category, p.subcategory,
+                "|".join(p.formats), "|".join(p.daws), "|".join(p.os), "|".join(p.tags),
+                p.description, p.website, p.is_free, p.price_type, p.year,
+            ])
+        from starlette.responses import Response
+        return Response(
+            content=output.getvalue(),
+            media_type="text/csv",
+            headers={"Content-Disposition": "attachment; filename=plugindb-export.csv"},
+        )
+
+    # Default: JSON
+    return JSONResponse(
+        content=[p.model_dump() for p in plugins],
+        headers={"Content-Disposition": "attachment; filename=plugindb-export.json"},
+    )
+
+
+@router.get("/version")
+def get_version():
+    """Return API and data version info for lightweight polling."""
+    conn = get_db()
+    seed_hash = None
+    seed_timestamp = None
+    try:
+        for row in conn.execute("SELECT key, value FROM metadata").fetchall():
+            if row["key"] == "seed_hash":
+                seed_hash = row["value"]
+            elif row["key"] == "seed_timestamp":
+                seed_timestamp = row["value"]
+    except Exception:
+        pass
+    return {
+        "api_version": __version__,
+        "data_version": seed_hash,
+        "data_updated_at": seed_timestamp,
+    }
+
+
 @router.get("/health", response_model=HealthResponse)
 def health_check() -> HealthResponse:
     """Basic health check — confirms the API is running and the database
     is reachable.
     """
+    from plugindb.main import get_seed_etag, get_uptime
     conn = get_db()
     try:
-        count = conn.execute("SELECT COUNT(*) FROM plugins").fetchone()[0]
+        plugin_count = conn.execute("SELECT COUNT(*) FROM plugins").fetchone()[0]
+        mfr_count = conn.execute("SELECT COUNT(*) FROM manufacturers").fetchone()[0]
         db_status = "connected"
     except Exception:
         return JSONResponse(
@@ -133,4 +293,8 @@ def health_check() -> HealthResponse:
         status="ok",
         version=__version__,
         database=db_status,
+        plugin_count=plugin_count,
+        manufacturer_count=mfr_count,
+        data_version=get_seed_etag(),
+        uptime_seconds=round(get_uptime(), 1),
     )
