@@ -2,11 +2,6 @@
   "schema_version": "1.0",
   "manufacturers": [
     {
-      "slug": "ableton",
-      "name": "Ableton",
-      "website": "https://www.ableton.com"
-    },
-    {
       "slug": "air-music-technology",
       "name": "Air Music Technology",
       "website": "https://www.airmusictech.com"
@@ -39,11 +34,6 @@
       "slug": "bettermaker",
       "name": "Bettermaker",
       "website": "https://bettermaker.com"
-    },
-    {
-      "slug": "bitwig",
-      "name": "Bitwig",
-      "website": "https://www.bitwig.com"
     },
     {
       "slug": "cableguys",
@@ -368,108 +358,6 @@
   ],
   "plugins": [
     {
-      "slug": "ableton-drift",
-      "name": "Drift",
-      "manufacturer_slug": "ableton",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [
-        "VST3"
-      ],
-      "aliases": [
-        "Drift",
-        "Ableton Drift"
-      ],
-      "daws": [
-        "Bitwig",
-        "Ableton",
-        "Cubase",
-        "Studio One",
-        "Reaper",
-        "FL Studio"
-      ],
-      "os": [
-        "windows",
-        "macos"
-      ],
-      "description": "Subtractive/wavetable hybrid synthesizer with a streamlined interface, built for Ableton Live.",
-      "price_type": "included",
-      "year": 2022,
-      "url": "https://www.ableton.com/en/packs/drift/"
-    },
-    {
-      "slug": "ableton-meld",
-      "name": "Meld",
-      "manufacturer_slug": "ableton",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [
-        "VST3"
-      ],
-      "aliases": [
-        "Meld",
-        "Ableton Meld"
-      ],
-      "daws": [
-        "Bitwig",
-        "Ableton",
-        "Cubase",
-        "Studio One",
-        "Reaper",
-        "FL Studio"
-      ],
-      "os": [
-        "windows",
-        "macos"
-      ],
-      "description": "Two-oscillator synthesizer blending MPE support with a unique macro-driven interface for Ableton Live.",
-      "price_type": "included",
-      "year": 2022,
-      "url": "https://www.ableton.com/en/packs/meld/"
-    },
-    {
-      "slug": "operator",
-      "name": "Operator",
-      "manufacturer_slug": "ableton",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Operator"
-      ],
-      "daws": [
-        "Ableton"
-      ],
-      "os": [
-        "windows",
-        "macos"
-      ],
-      "description": "FM synthesis instrument in Ableton Live with four oscillators and a flexible routing matrix.",
-      "price_type": "included",
-      "url": "https://www.ableton.com/en/packs/operator/"
-    },
-    {
-      "slug": "wavetable",
-      "name": "Wavetable",
-      "manufacturer_slug": "ableton",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Wavetable"
-      ],
-      "daws": [
-        "Ableton"
-      ],
-      "os": [
-        "windows",
-        "macos"
-      ],
-      "description": "Ableton Live's wavetable synthesizer with dual oscillators, sub oscillator, and extensive modulation.",
-      "price_type": "included",
-      "url": "https://www.ableton.com/en/packs/wavetable/"
-    },
-    {
       "slug": "hybrid-3",
       "name": "Hybrid 3",
       "manufacturer_slug": "air-music-technology",
@@ -498,7 +386,8 @@
       ],
       "description": "Virtual analog synthesizer combining subtractive and wavetable synthesis with built-in effects.",
       "price_type": "paid",
-      "url": "https://www.airmusictech.com/virtual-instruments/hybrid-3.html"
+      "url": "https://www.airmusictech.com/virtual-instruments/hybrid-3.html",
+      "year": 2014
     },
     {
       "slug": "vacuum-pro",
@@ -529,7 +418,8 @@
       ],
       "description": "Polyphonic vacuum tube synthesizer emulating vintage tube-driven analog hardware.",
       "price_type": "paid",
-      "url": "https://www.airmusictech.com/virtual-instruments/vacuum-pro.html"
+      "url": "https://www.airmusictech.com/virtual-instruments/vacuum-pro.html",
+      "year": 2014
     },
     {
       "slug": "fetish",
@@ -560,7 +450,8 @@
       ],
       "description": "FET-style compressor plugin modeled after vintage solid-state hardware compressors.",
       "price_type": "free",
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "year": 2020
     },
     {
       "slug": "loaded",
@@ -591,7 +482,8 @@
       ],
       "description": "Channel EQ plugin inspired by classic analog console equalizers.",
       "price_type": "free",
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "year": 2020
     },
     {
       "slug": "rare",
@@ -622,7 +514,8 @@
       ],
       "description": "Vari-mu tube compressor emulation modeled after vintage broadcast limiters.",
       "price_type": "free",
-      "url": "https://www.patreon.com/analogobsession"
+      "url": "https://www.patreon.com/analogobsession",
+      "year": 2020
     },
     {
       "slug": "amelia",
@@ -650,7 +543,8 @@
         "macos"
       ],
       "description": "Experimental synthesizer designed by Andrew Huang with unique sound design capabilities.",
-      "price_type": "paid"
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "analog-lab-v",
@@ -931,7 +825,8 @@
       ],
       "description": "Dub-style delay effect with tape emulation, spring reverb, and lo-fi character.",
       "price_type": "paid",
-      "url": "https://www.audiodamage.com/pages/ad036-dubstation-2"
+      "url": "https://www.audiodamage.com/pages/ad036-dubstation-2",
+      "year": 2018
     },
     {
       "slug": "quanta",
@@ -962,7 +857,8 @@
       ],
       "description": "Granular synthesizer with a visual waveform display and real-time granular manipulation.",
       "price_type": "paid",
-      "url": "https://www.audiodamage.com/pages/ad048-quanta"
+      "url": "https://www.audiodamage.com/pages/ad048-quanta",
+      "year": 2018
     },
     {
       "slug": "ratshack-reverb",
@@ -992,7 +888,8 @@
       ],
       "description": "Lo-fi spring reverb emulation inspired by cheap consumer reverb hardware.",
       "price_type": "paid",
-      "url": "https://www.audiodamage.com/pages/ad046-ratshack-reverb"
+      "url": "https://www.audiodamage.com/pages/ad046-ratshack-reverb",
+      "year": 2020
     },
     {
       "slug": "baby-audio-comeback-kid",
@@ -1245,514 +1142,8 @@
       ],
       "description": "Bus compressor plugin modeled after the Bettermaker hardware mastering compressor.",
       "price_type": "paid",
-      "url": "https://bettermaker.com/bus-compressor"
-    },
-    {
-      "slug": "bit-8",
-      "name": "Bit-8",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "distortion",
-      "formats": [],
-      "aliases": [
-        "Bit-8"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in bitcrusher and sample rate reducer for lo-fi distortion effects.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "compressor",
-      "name": "Compressor",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "compressor",
-      "formats": [],
-      "aliases": [
-        "Compressor"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in dynamics compressor with sidechain input and visual gain reduction.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "delay-4",
-      "name": "Delay-4",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "delay",
-      "formats": [],
-      "aliases": [
-        "Delay-4"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in stereo delay with four tap modes, feedback, and modulation.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "drum-machine",
-      "name": "Drum Machine",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "drum-machine",
-      "formats": [],
-      "aliases": [
-        "Drum Machine"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in drum sampler with per-pad layering, effects, and modulation.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/drum-machine/"
-    },
-    {
-      "slug": "dynamics",
-      "name": "Dynamics",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "compressor",
-      "formats": [],
-      "aliases": [
-        "Dynamics"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's combined compressor and expander with sidechain support and visual feedback.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "eq",
-      "name": "EQ+",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "eq",
-      "formats": [],
-      "aliases": [
-        "EQ+",
-        "EQ-plus"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in parametric equalizer with up to 8 bands and spectrum analyzer.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/bitwig-eqs/"
-    },
-    {
-      "slug": "fx-grid",
-      "name": "FX Grid",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "general",
-      "formats": [],
-      "aliases": [
-        "FX Grid"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's modular patching environment for building custom audio effects from modules.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/the-grid/"
-    },
-    {
-      "slug": "fx-layer",
-      "name": "FX Layer",
-      "manufacturer_slug": "bitwig",
-      "category": "container",
-      "subcategory": "general",
-      "formats": [],
-      "aliases": [
-        "FX Layer"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig container device for running multiple effect chains in parallel.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "gate",
-      "name": "Gate",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "gate",
-      "formats": [],
-      "aliases": [
-        "Gate"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in noise gate with sidechain input and adjustable hysteresis.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "grid",
-      "name": "Grid",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Grid"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's modular patching environment for building custom instruments from modules.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/the-grid/"
-    },
-    {
-      "slug": "instrument-layer",
-      "name": "Instrument Layer",
-      "manufacturer_slug": "bitwig",
-      "category": "container",
-      "subcategory": "general",
-      "formats": [],
-      "aliases": [
-        "Instrument Layer"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig container device for layering multiple instruments with mix and pan control.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "instrument-selector",
-      "name": "Instrument Selector",
-      "manufacturer_slug": "bitwig",
-      "category": "container",
-      "subcategory": "general",
-      "formats": [],
-      "aliases": [
-        "Instrument Selector"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig container device for switching between multiple instruments via selection.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "limiter",
-      "name": "Limiter",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "limiter",
-      "formats": [],
-      "aliases": [
-        "Limiter"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in brickwall limiter for peak control and loudness maximizing.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "multiband-fx-3",
-      "name": "Multiband FX-3",
-      "manufacturer_slug": "bitwig",
-      "category": "container",
-      "subcategory": "general",
-      "formats": [],
-      "aliases": [
-        "Multiband FX-3"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig container that splits audio into three frequency bands for independent processing.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "oscilloscope",
-      "name": "Oscilloscope",
-      "manufacturer_slug": "bitwig",
-      "category": "utility",
-      "subcategory": "analyzer",
-      "formats": [],
-      "aliases": [
-        "Oscilloscope"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in waveform display for real-time audio signal visualization.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "phase-4",
-      "name": "Phase-4",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Phase-4"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's four-operator phase modulation synthesizer inspired by classic FM synthesis.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/phase-4/"
-    },
-    {
-      "slug": "poly-grid",
-      "name": "Poly Grid",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Poly Grid"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's polyphonic modular patching environment for building custom instruments.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/the-grid/"
-    },
-    {
-      "slug": "polymer",
-      "name": "Polymer",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Polymer"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's preset-based synthesizer combining multiple synthesis types with a macro interface.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/polymer/"
-    },
-    {
-      "slug": "polysynth",
-      "name": "Polysynth",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "synth",
-      "formats": [],
-      "aliases": [
-        "Polysynth"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's classic virtual analog polysynth with oscillators, filter, and envelope controls.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "reverb",
-      "name": "Reverb",
-      "manufacturer_slug": "bitwig",
-      "category": "effect",
-      "subcategory": "reverb",
-      "formats": [],
-      "aliases": [
-        "Reverb"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in algorithmic reverb with adjustable size, damping, and diffusion.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "sampler",
-      "name": "Sampler",
-      "manufacturer_slug": "bitwig",
-      "category": "instrument",
-      "subcategory": "sampler",
-      "formats": [],
-      "aliases": [
-        "Sampler"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in multi-sample instrument with zones, modulation, and round-robin support.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/sampler/"
-    },
-    {
-      "slug": "spectrum",
-      "name": "Spectrum",
-      "manufacturer_slug": "bitwig",
-      "category": "utility",
-      "subcategory": "analyzer",
-      "formats": [],
-      "aliases": [
-        "Spectrum"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's built-in FFT spectrum analyzer for frequency content visualization.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
-    },
-    {
-      "slug": "tool",
-      "name": "Tool",
-      "manufacturer_slug": "bitwig",
-      "category": "utility",
-      "subcategory": "general",
-      "formats": [],
-      "aliases": [
-        "Tool"
-      ],
-      "daws": [
-        "Bitwig"
-      ],
-      "os": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "description": "Bitwig's utility device for gain, pan, phase inversion, and DC offset correction.",
-      "price_type": "included",
-      "url": "https://www.bitwig.com/overview/"
+      "url": "https://bettermaker.com/bus-compressor",
+      "year": 2022
     },
     {
       "slug": "filtershaper",
@@ -1819,7 +1210,8 @@
       ],
       "description": "Auto-panner with drawable LFO waveforms for precise stereo motion and tremolo effects.",
       "price_type": "paid",
-      "url": "https://www.cableguys.com/panshaper.html"
+      "url": "https://www.cableguys.com/panshaper.html",
+      "year": 2015
     },
     {
       "slug": "shaperbox-3",
@@ -1887,7 +1279,8 @@
       ],
       "description": "Time-manipulation effect using drawable curves to create glitch, stutter, and tape-stop effects.",
       "price_type": "paid",
-      "url": "https://www.cableguys.com/timeshaper.html"
+      "url": "https://www.cableguys.com/timeshaper.html",
+      "year": 2019
     },
     {
       "slug": "volumeshaper",
@@ -1983,7 +1376,8 @@
       ],
       "description": "Polyphonic dreamlike synthesizer with wavetable and virtual analog oscillators.",
       "price_type": "paid",
-      "url": "https://cherryaudio.com/products/dreamsynth"
+      "url": "https://cherryaudio.com/products/dreamsynth",
+      "year": 2022
     },
     {
       "slug": "surrealistic-mg-1",
@@ -2016,7 +1410,8 @@
       ],
       "description": "Software recreation of the Moog Realistic MG-1 monophonic analog synthesizer.",
       "price_type": "paid",
-      "url": "https://cherryaudio.com/products/surrealistic-mg-1"
+      "url": "https://cherryaudio.com/products/surrealistic-mg-1",
+      "year": 2020
     },
     {
       "slug": "voltage-modular",
@@ -2049,7 +1444,8 @@
       ],
       "description": "Virtual Eurorack modular synthesizer environment with patchable modules.",
       "price_type": "paid",
-      "url": "https://cherryaudio.com/products/voltage-modular"
+      "url": "https://cherryaudio.com/products/voltage-modular",
+      "year": 2018
     },
     {
       "slug": "reastream-standalone",
@@ -2078,7 +1474,8 @@
       ],
       "description": "Network audio streaming utility for sending audio between DAWs over a LAN.",
       "price_type": "free",
-      "url": "https://www.reaper.fm/reaplugs/"
+      "url": "https://www.reaper.fm/reaplugs/",
+      "year": 2007
     },
     {
       "slug": "cymatics-origin",
@@ -2107,7 +1504,8 @@
       ],
       "description": "Wavetable synthesizer from Cymatics designed for modern electronic music production.",
       "price_type": "paid",
-      "url": "https://cymatics.fm/products/origin-plugin"
+      "url": "https://cymatics.fm/products/origin-plugin",
+      "year": 2022
     },
     {
       "slug": "decimort-2",
@@ -2257,7 +1655,8 @@
       ],
       "description": "Algorithmic reverb focused on realistic room simulation with shape-based controls.",
       "price_type": "paid",
-      "url": "https://www.denise.io/store/perfect-room"
+      "url": "https://www.denise.io/store/perfect-room",
+      "year": 2021
     },
     {
       "slug": "duck",
@@ -2970,7 +2369,8 @@
       ],
       "description": "Buffer effect processor for creating glitch, stutter, and granular audio mangling.",
       "price_type": "free",
-      "url": "https://glitchmachines.com/products/fracture/"
+      "url": "https://glitchmachines.com/products/fracture/",
+      "year": 2013
     },
     {
       "slug": "hysteresis",
@@ -2999,7 +2399,8 @@
       ],
       "description": "Glitch delay plugin with modulated buffer effects for experimental sound design.",
       "price_type": "free",
-      "url": "https://glitchmachines.com/products/hysteresis/"
+      "url": "https://glitchmachines.com/products/hysteresis/",
+      "year": 2014
     },
     {
       "slug": "canopener",
@@ -3032,7 +2433,8 @@
       ],
       "description": "Crossfeed plugin that simulates speaker playback through headphones for natural imaging.",
       "price_type": "paid",
-      "url": "https://goodhertz.com/canopener-studio/"
+      "url": "https://goodhertz.com/canopener-studio/",
+      "year": 2015
     },
     {
       "slug": "goodhertz-lossy",
@@ -3064,7 +2466,8 @@
       ],
       "description": "Codec emulation effect simulating MP3, GSM, and other lossy compression artifacts.",
       "price_type": "paid",
-      "url": "https://goodhertz.com/lossy/"
+      "url": "https://goodhertz.com/lossy/",
+      "year": 2016
     },
     {
       "slug": "goodhertz-trem-control",
@@ -3096,7 +2499,8 @@
       ],
       "description": "Tremolo effect with precise waveform shaping and stereo modulation options.",
       "price_type": "paid",
-      "url": "https://goodhertz.com/trem-control/"
+      "url": "https://goodhertz.com/trem-control/",
+      "year": 2015
     },
     {
       "slug": "goodhertz-vulf-compressor",
@@ -3130,7 +2534,8 @@
       ],
       "description": "Character compressor with purposeful lo-fi compression artifacts, inspired by the Vulfpeck aesthetic of beautifully imperfect sound.",
       "price_type": "paid",
-      "url": "https://goodhertz.com/vulf-comp/"
+      "url": "https://goodhertz.com/vulf-comp/",
+      "year": 2016
     },
     {
       "slug": "goodhertz-wow-control",
@@ -3162,7 +2567,8 @@
       ],
       "description": "Wow and flutter effect emulating tape machine speed irregularities.",
       "price_type": "paid",
-      "url": "https://goodhertz.com/wow-control/"
+      "url": "https://goodhertz.com/wow-control/",
+      "year": 2017
     },
     {
       "slug": "ifea-fusion",
@@ -3442,7 +2848,8 @@
       ],
       "description": "Wavetable synthesizer with a visual interface and built-in effects for electronic music.",
       "price_type": "paid",
-      "url": "https://initialaudio.com/product/sektor/"
+      "url": "https://initialaudio.com/product/sektor/",
+      "year": 2017
     },
     {
       "slug": "izotope-rx-voice-de-noise",
@@ -3472,7 +2879,8 @@
       ],
       "description": "AI-powered noise reduction plugin for cleaning up vocal recordings in real time.",
       "price_type": "paid",
-      "url": "https://www.izotope.com/en/products/rx.html"
+      "url": "https://www.izotope.com/en/products/rx.html",
+      "year": 2018
     },
     {
       "slug": "izotope-nectar-4",
@@ -3924,7 +3332,8 @@
       ],
       "description": "Modular effect hosting rack for combining Kilohearts snapin modules in series and parallel.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/effectrack"
+      "url": "https://kilohearts.com/products/effectrack",
+      "year": 2016
     },
     {
       "slug": "khs-compactor",
@@ -3956,7 +3365,8 @@
       ],
       "description": "Simple compressor snapin module for the Kilohearts ecosystem.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/compactor"
+      "url": "https://kilohearts.com/products/compactor",
+      "year": 2020
     },
     {
       "slug": "khs-one",
@@ -3989,7 +3399,8 @@
       ],
       "description": "Subtractive synthesizer with a clean interface and snapin effect hosting capability.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/khs_one"
+      "url": "https://kilohearts.com/products/khs_one",
+      "year": 2016
     },
     {
       "slug": "maim",
@@ -4021,7 +3432,8 @@
       ],
       "description": "Bitcrusher and sample rate reducer snapin for digital degradation effects.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/maim"
+      "url": "https://kilohearts.com/products/maim",
+      "year": 2020
     },
     {
       "slug": "multipass",
@@ -4052,7 +3464,8 @@
       ],
       "description": "Multiband effect hosting rack that splits audio into bands for independent snapin processing.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/multipass"
+      "url": "https://kilohearts.com/products/multipass",
+      "year": 2016
     },
     {
       "slug": "phase-plant",
@@ -4119,7 +3532,8 @@
       ],
       "description": "Modular effects host with four parallel/serial lanes for creating custom effect chains using the Kilohearts snapin ecosystem.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/snap_heap"
+      "url": "https://kilohearts.com/products/snap_heap",
+      "year": 2016
     },
     {
       "slug": "dc1a",
@@ -4443,7 +3857,8 @@
       ],
       "description": "Full-featured dynamics compressor with advanced sidechain and detection options.",
       "price_type": "free",
-      "url": "https://www.meldaproduction.com/MCompressor"
+      "url": "https://www.meldaproduction.com/MCompressor",
+      "year": 2010
     },
     {
       "slug": "mfreeformequalizer",
@@ -4477,7 +3892,8 @@
       ],
       "description": "Free-draw parametric equalizer allowing arbitrary EQ curve shapes.",
       "price_type": "free",
-      "url": "https://www.meldaproduction.com/MFreeformEqualizer"
+      "url": "https://www.meldaproduction.com/MFreeformEqualizer",
+      "year": 2012
     },
     {
       "slug": "mmatcher",
@@ -4511,7 +3927,8 @@
       ],
       "description": "Audio matching utility that analyzes and matches loudness, spectrum, and stereo width between tracks.",
       "price_type": "free",
-      "url": "https://www.meldaproduction.com/MMatcher"
+      "url": "https://www.meldaproduction.com/MMatcher",
+      "year": 2012
     },
     {
       "slug": "current",
@@ -4602,7 +4019,8 @@
       ],
       "description": "Compact audio metering suite with level, spectrum, stereo, and loudness displays.",
       "price_type": "free",
-      "url": "https://minimeters.app/"
+      "url": "https://minimeters.app/",
+      "year": 2022
     },
     {
       "slug": "minimeters-loudness",
@@ -4633,7 +4051,8 @@
       ],
       "description": "Dedicated loudness metering plugin showing LUFS, true peak, and loudness range.",
       "price_type": "free",
-      "url": "https://minimeters.app/"
+      "url": "https://minimeters.app/",
+      "year": 2022
     },
     {
       "slug": "absynth-5",
@@ -5227,7 +4646,8 @@
       ],
       "description": "Spectral clipper and saturation plugin with adaptive harmonic processing.",
       "price_type": "paid",
-      "url": "https://www.eventideaudio.com/plug-ins/saturate/"
+      "url": "https://www.eventideaudio.com/plug-ins/saturate/",
+      "year": 2020
     },
     {
       "slug": "kickstart-2",
@@ -5353,7 +4773,8 @@
       ],
       "description": "Audio effect combining distortion, filtering, and modulation for cinematic sound design.",
       "price_type": "paid",
-      "url": "https://output.com/products/chroma"
+      "url": "https://output.com/products/chroma",
+      "year": 2023
     },
     {
       "slug": "output-exhale",
@@ -5546,7 +4967,8 @@
       ],
       "description": "Transition and riser effects tool for creating builds, drops, and sweeps.",
       "price_type": "paid",
-      "url": "https://output.com/products/transit"
+      "url": "https://output.com/products/transit",
+      "year": 2022
     },
     {
       "slug": "chipcrusher2",
@@ -5578,7 +5000,8 @@
       ],
       "description": "Chiptune-style bitcrusher emulating vintage gaming console and computer audio hardware.",
       "price_type": "paid",
-      "url": "https://www.plogue.com/products/chipcrusher.html"
+      "url": "https://www.plogue.com/products/chipcrusher.html",
+      "year": 2022
     },
     {
       "slug": "chipsynth-sfc",
@@ -5641,7 +5064,8 @@
       ],
       "description": "Visual patching environment based on Pure Data for building custom instruments in a DAW.",
       "price_type": "free",
-      "url": "https://plugdata.org/"
+      "url": "https://plugdata.org/",
+      "year": 2022
     },
     {
       "slug": "plugdata-fx",
@@ -5672,7 +5096,8 @@
       ],
       "description": "Effect version of plugdata for building custom audio effects using Pure Data patching.",
       "price_type": "free",
-      "url": "https://plugdata.org/"
+      "url": "https://plugdata.org/",
+      "year": 2022
     },
     {
       "slug": "bx-console",
@@ -5961,7 +5386,8 @@
       ],
       "description": "Additive synthesis-based synth with XY pad control and comprehensive modulation.",
       "price_type": "paid",
-      "url": "https://www.robpapen.com/blade2.html"
+      "url": "https://www.robpapen.com/blade2.html",
+      "year": 2019
     },
     {
       "slug": "predator-3",
@@ -5990,7 +5416,8 @@
       ],
       "description": "Virtual analog synth designed for leads, basses, and aggressive electronic sounds.",
       "price_type": "paid",
-      "url": "https://www.robpapen.com/predator3.html"
+      "url": "https://www.robpapen.com/predator3.html",
+      "year": 2021
     },
     {
       "slug": "transient-shaper",
@@ -6019,7 +5446,8 @@
       ],
       "description": "Transient designer for boosting or attenuating the attack and sustain of audio signals.",
       "price_type": "paid",
-      "url": "https://www.schaack-audio.com/ts.html"
+      "url": "https://www.schaack-audio.com/ts.html",
+      "year": 2010
     },
     {
       "slug": "argentcompressor",
@@ -6048,7 +5476,8 @@
       ],
       "description": "Clean, transparent compressor with adjustable character from gentle to aggressive.",
       "price_type": "paid",
-      "url": "https://www.siraudiotools.com/"
+      "url": "https://www.siraudiotools.com/",
+      "year": 2022
     },
     {
       "slug": "standardclip",
@@ -6078,7 +5507,8 @@
       ],
       "description": "Soft/hard clipper and waveshaper for transparent loudness or aggressive distortion.",
       "price_type": "paid",
-      "url": "https://www.siraudiotools.com/StandardCLIP.php"
+      "url": "https://www.siraudiotools.com/StandardCLIP.php",
+      "year": 2019
     },
     {
       "slug": "fg-x-2",
@@ -6722,7 +6152,8 @@
       ],
       "description": "Bundle containing all Soundtoys effect plugins in the Effect Rack hosting environment.",
       "price_type": "paid",
-      "url": "https://www.soundtoys.com/product/soundtoys-5/"
+      "url": "https://www.soundtoys.com/product/soundtoys-5/",
+      "year": 2015
     },
     {
       "slug": "tremolator",
@@ -6990,7 +6421,8 @@
       ],
       "description": "Tape delay emulation with modulation, saturation, and degradation inspired by vintage hardware.",
       "price_type": "paid",
-      "url": "https://www.surrealmachines.com/modnetic/"
+      "url": "https://www.surrealmachines.com/modnetic/",
+      "year": 2020
     },
     {
       "slug": "tal-chorus-lx",
@@ -7675,7 +7107,8 @@
       ],
       "description": "Bundle containing all Valhalla DSP reverb, delay, and modulation plugins.",
       "price_type": "paid",
-      "url": "https://valhalladsp.com/plugins/"
+      "url": "https://valhalladsp.com/plugins/",
+      "year": 2012
     },
     {
       "slug": "valhalladelay",
@@ -8483,7 +7916,8 @@
       ],
       "description": "Channel strip designed by Andrew Scheps with compression, EQ, saturation, and de-essing.",
       "price_type": "paid",
-      "url": "https://www.waves.com/plugins/scheps-omni-channel"
+      "url": "https://www.waves.com/plugins/scheps-omni-channel",
+      "year": 2017
     },
     {
       "slug": "ssl-e-channel",
@@ -8619,7 +8053,8 @@
       ],
       "description": "Waves plugin hosting shell that loads individual Waves plugins inside a DAW.",
       "price_type": "paid",
-      "url": "https://www.waves.com/support/waveshell"
+      "url": "https://www.waves.com/support/waveshell",
+      "year": 2000
     },
     {
       "slug": "spectre",
