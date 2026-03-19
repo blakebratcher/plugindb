@@ -13,20 +13,50 @@ from pathlib import Path
 
 def extract_og_image(html: str) -> str | None:
     """Extract og:image or twitter:image from HTML using regex."""
-    # Try og:image first
-    match = re.search(r'<meta\s+(?:[^>]*?)property=["\']og:image["\']\s+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
-    if not match:
-        match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+(?:[^>]*?)property=["\']og:image["\']', html, re.IGNORECASE)
-    if match:
-        return match.group(1)
+    # Try og:image first (both attribute orders)
+    for pattern in [
+        r'<meta\s+(?:[^>]*?)property=["\']og:image(?::secure_url)?["\']\s+content=["\']([^"\']+)["\']',
+        r'<meta\s+content=["\']([^"\']+)["\']\s+(?:[^>]*?)property=["\']og:image(?::secure_url)?["\']',
+    ]:
+        match = re.search(pattern, html, re.IGNORECASE)
+        if match:
+            return match.group(1)
 
     # Fallback to twitter:image
-    match = re.search(r'<meta\s+(?:[^>]*?)(?:name|property)=["\']twitter:image["\']\s+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
-    if not match:
-        match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+(?:[^>]*?)(?:name|property)=["\']twitter:image["\']', html, re.IGNORECASE)
-    if match:
-        return match.group(1)
+    for pattern in [
+        r'<meta\s+(?:[^>]*?)(?:name|property)=["\']twitter:image(?::src)?["\']\s+content=["\']([^"\']+)["\']',
+        r'<meta\s+content=["\']([^"\']+)["\']\s+(?:[^>]*?)(?:name|property)=["\']twitter:image(?::src)?["\']',
+    ]:
+        match = re.search(pattern, html, re.IGNORECASE)
+        if match:
+            return match.group(1)
 
+    return None
+
+
+def extract_product_image(html: str, url: str) -> str | None:
+    """Deeper image extraction — look for hero/product images in HTML."""
+    # Look for large images with product-related classes or attributes
+    patterns = [
+        r'<img[^>]+(?:class|id)=["\'][^"\']*(?:hero|product|plugin|main-image|featured)[^"\']*["\'][^>]+src=["\']([^"\']+)["\']',
+        r'<img[^>]+src=["\']([^"\']+)["\'][^>]+(?:class|id)=["\'][^"\']*(?:hero|product|plugin|main-image|featured)[^"\']*["\']',
+        # srcset first value (often highest quality)
+        r'<img[^>]+srcset=["\']([^\s"\']+)',
+        # JSON-LD product image
+        r'"image"\s*:\s*["\']([^"\']+\.(?:jpg|jpeg|png|webp))["\']',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html, re.IGNORECASE)
+        if match:
+            img = match.group(1)
+            # Make relative URLs absolute
+            if img.startswith("//"):
+                img = "https:" + img
+            elif img.startswith("/"):
+                from urllib.parse import urlparse
+                parsed = urlparse(url)
+                img = f"{parsed.scheme}://{parsed.netloc}{img}"
+            return img
     return None
 
 
@@ -34,9 +64,8 @@ def is_valid_image_url(url: str) -> bool:
     """Check if URL looks like a valid image."""
     if not url or not url.startswith(("http://", "https://")):
         return False
-    # Skip tiny tracking pixels and generic social images
     lower = url.lower()
-    if any(skip in lower for skip in ["1x1", "pixel", "spacer", "favicon", "logo-small"]):
+    if any(skip in lower for skip in ["1x1", "pixel", "spacer", "favicon", "logo-small", "blank.", "empty."]):
         return False
     return True
 
@@ -88,13 +117,17 @@ def main():
 
             img_url = extract_og_image(html)
 
+            # Fallback: deeper extraction from page content
+            if not img_url or not is_valid_image_url(img_url):
+                img_url = extract_product_image(html, url)
+
             if img_url and is_valid_image_url(img_url):
                 plugin["image_url"] = img_url
                 found += 1
-                print(f"FOUND")
+                print(f"FOUND ({img_url[:60]})")
             else:
                 failed += 1
-                print(f"no og:image")
+                print(f"no image found")
 
         except Exception as e:
             failed += 1

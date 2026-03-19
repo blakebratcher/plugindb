@@ -718,7 +718,8 @@
         "keys",
         "pads",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1664226114/gear/share_images/Analog_Lab-product_shareImage.png"
     },
     {
       "slug": "arturia-comp-fet-76",
@@ -765,7 +766,8 @@
         "punchy",
         "vocal",
         "drums"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto/v1718987230/gear/carousel/FX%20Collection%205/FXC5-product_cover-noPlay_2x.png"
     },
     {
       "slug": "arturia-jupiter-8v",
@@ -861,7 +863,8 @@
         "monophonic",
         "bass",
         "lead"
-      ]
+      ],
+      "image_url": "https://www.arturia.com/images/products/mini-v/catalog-image.png"
     },
     {
       "slug": "pigments-4",
@@ -911,7 +914,8 @@
         "modulation",
         "modern",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1738860009/production/plugin_descriptions/screenshot/39137241.jpg"
     },
     {
       "slug": "arturia-prophet-v",
@@ -958,7 +962,8 @@
         "pads",
         "warm",
         "polysynth"
-      ]
+      ],
+      "image_url": "https://medias.arturia.net/images/products/prophet-5-v/catalog-image.png"
     },
     {
       "slug": "arturia-rev-plate-140",
@@ -1005,7 +1010,8 @@
         "vocal",
         "lush",
         "mixing"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto/v1718987230/gear/carousel/FX%20Collection%205/FXC5-product_cover-noPlay_2x.png"
     },
     {
       "slug": "dubstation-2",
@@ -1165,7 +1171,8 @@
         "clean",
         "mixing",
         "vocal"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1684870736/production/plugin_descriptions/screenshot/39136976.jpg"
     },
     {
       "slug": "baby-audio-crystalline",
@@ -1206,7 +1213,8 @@
         "clean",
         "lush",
         "shimmer"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0f7f60746a45ad7f329c_*crystalline.avif"
     },
     {
       "slug": "ihny-2",
@@ -1252,7 +1260,8 @@
         "mixing",
         "drums",
         "easy-to-use"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1666300305/gear/share_images/IHNY_2-product_shareImage.png"
     },
     {
       "slug": "parallel-aggressor",
@@ -1297,7 +1306,8 @@
         "aggressive",
         "mixing",
         "drums"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0e245abcd627ea5be384_*parallel%20aggressor.avif"
     },
     {
       "slug": "baby-audio-smooth-operator",
@@ -1339,7 +1349,8 @@
         "resonance-suppression",
         "mixing",
         "vocal"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689d0e9236d33a6bafed7afa_*%20smooth%20operator%20pro.avif"
     },
     {
       "slug": "baby-audio-spaced-out",
@@ -1381,7 +1392,8 @@
         "creative",
         "modulation",
         "psychedelic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1684870695/production/plugin_descriptions/screenshot/39136972.jpg"
     },
     {
       "slug": "baby-audio-super-vhs",
@@ -1424,7 +1436,8 @@
         "vhs",
         "creative",
         "texture"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1684870718/production/plugin_descriptions/screenshot/39136974.jpg"
     },
     {
       "slug": "bettermaker-bus-compressor-dsp",
@@ -1509,7 +1522,8 @@
         "creative",
         "modulation",
         "electronic"
-      ]
+      ],
+      "image_url": "https://www.cableguys.com/_ipx/q_90/img/cableguys/logo.svg"
     },
     {
       "slug": "panshaper",
@@ -1553,7 +1567,8 @@
         "modulation",
         "stereo",
         "electronic"
-      ]
+      ],
+      "image_url": "https://www.cableguys.com/_ipx/q_90/img/cableguys/logo.svg"
     },
     {
       "slug": "shaperbox-3",
@@ -1599,7 +1614,8 @@
         "modulation",
         "electronic",
         "time-based"
-      ]
+      ],
+      "image_url": "https://www.cableguys.com/_ipx/w_1200&f_png&q_90/img/products/shaperbox-3/other/shaperbox_3_top-graphic.png"
     },
     {
       "slug": "timeshaper",
@@ -1643,7 +1659,8 @@
         "creative",
         "electronic",
         "lfo"
-      ]
+      ],
+      "image_url": "https://www.cableguys.com/_ipx/q_90/img/cableguys/logo.svg"
     },
     {
       "slug": "volumeshaper",
@@ -1687,7 +1704,8 @@
         "ducking",
         "electronic",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.cableguys.com/_ipx/q_90/img/cableguys/logo.svg"
     },
     {
       "slug": "camelcrusher",
@@ -1976,7 +1994,8 @@
         "sample-rate",
         "vintage",
         "creative"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1520028137/gear/carousel/decimort/Decimort2_d_16_share_image.jpg"
     },
     {
       "slug": "devastor-2",
@@ -2016,7 +2035,8 @@
         "creative",
         "sound-design",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1521135035/gear/share_images/devastor2_D_16_share_image.jpg"
     },
     {
       "slug": "lush-2",
@@ -2588,7 +2608,8 @@
         "mixing",
         "mastering",
         "sidechain"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-c-3-intro.jpg?v=1768467508"
     },
     {
       "slug": "fabfilter-pro-l-2",
@@ -2643,7 +2664,8 @@
         "transparent",
         "true-peak",
         "metering"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-l-2-intro.jpg?v=1710150538"
     },
     {
       "slug": "fabfilter-pro-mb",
@@ -2690,7 +2712,8 @@
         "mixing",
         "mastering",
         "transparent"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-mb-intro.jpg?v=1710150538"
     },
     {
       "slug": "pro-q-3",
@@ -2746,7 +2769,8 @@
         "mid-side",
         "mixing",
         "mastering"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-q-4-intro.jpg?v=1733993612"
     },
     {
       "slug": "fabfilter-pro-r-2",
@@ -2802,7 +2826,8 @@
         "mixing",
         "modern",
         "clean"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-r-2-intro.jpg?v=1711362615"
     },
     {
       "slug": "fabfilter-saturn-2",
@@ -2850,7 +2875,8 @@
         "creative",
         "harmonic",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/saturn-2-intro.jpg?v=1710150538"
     },
     {
       "slug": "fabfilter-simplon",
@@ -2893,7 +2919,8 @@
         "modulation",
         "creative",
         "simple"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/simplon-intro.jpg?v=1747816388"
     },
     {
       "slug": "fabfilter-timeless-3",
@@ -2938,7 +2965,8 @@
         "modulation",
         "vintage",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/timeless-3-intro.jpg?v=1710150538"
     },
     {
       "slug": "fabfilter-twin-3",
@@ -2983,7 +3011,8 @@
         "modern",
         "modulation",
         "versatile"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/twin-3-intro.jpg?v=1710150538"
     },
     {
       "slug": "fabfilter-volcano-3",
@@ -3028,7 +3057,8 @@
         "modulation",
         "analog-modeling",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/volcano-3-intro.jpg?v=1710150538"
     },
     {
       "slug": "harvest",
@@ -3108,7 +3138,8 @@
         "creative",
         "experimental",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1422561089/production/plugin_descriptions/screenshot/2924.jpg"
     },
     {
       "slug": "hysteresis",
@@ -3772,7 +3803,8 @@
         "restoration",
         "dialogue",
         "post-production"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1726770639/production/plugin_descriptions/screenshot/39137217.jpg"
     },
     {
       "slug": "izotope-nectar-4",
@@ -3814,7 +3846,8 @@
         "mixing",
         "harmony",
         "de-esser"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1716427033/gear/share_images/iZotope_Nectar4STD-product_shareImage-IAM.png"
     },
     {
       "slug": "izotope-neutron-4",
@@ -3858,7 +3891,8 @@
         "eq",
         "compressor",
         "modern"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1658330935/gear/share_images/Neutron4-product_shareImage.png"
     },
     {
       "slug": "ozone-11",
@@ -3904,7 +3938,8 @@
         "eq",
         "modern",
         "loudness"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1713901327/gear/share_images/iZotope_Ozone11_Std-product_shareImage-1.png"
     },
     {
       "slug": "ozone-11-equalizer",
@@ -3943,7 +3978,8 @@
         "mid-side",
         "modern",
         "transparent"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1713901327/gear/share_images/iZotope_Ozone11_Std-product_shareImage-1.png"
     },
     {
       "slug": "ozone-11-exciter",
@@ -3982,7 +4018,8 @@
         "mastering",
         "warm",
         "brightness"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1713901327/gear/share_images/iZotope_Ozone11_Std-product_shareImage-1.png"
     },
     {
       "slug": "ozone-11-imager",
@@ -4021,7 +4058,8 @@
         "width",
         "mid-side",
         "spatial"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1713901327/gear/share_images/iZotope_Ozone11_Std-product_shareImage-1.png"
     },
     {
       "slug": "ozone-11-master-rebalance",
@@ -4059,7 +4097,8 @@
         "ai-assisted",
         "rebalance",
         "modern"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1713901327/gear/share_images/iZotope_Ozone11_Std-product_shareImage-1.png"
     },
     {
       "slug": "izotope-ozone-9",
@@ -4184,7 +4223,8 @@
         "post-production",
         "spectral",
         "repair"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto/v1/gear/carousel/rx11standard/pfokvs2g4wp4rbkif5lt"
     },
     {
       "slug": "trash-2",
@@ -4225,7 +4265,8 @@
         "creative",
         "sound-design",
         "heavy"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1392656668/production/plugin_descriptions/screenshot/365.jpg"
     },
     {
       "slug": "izotope-vinyl",
@@ -4269,7 +4310,8 @@
         "noise",
         "texture",
         "creative"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1399577253/production/plugin_descriptions/screenshot/1847.jpg"
     },
     {
       "slug": "disperser",
@@ -4747,7 +4789,8 @@
         "versatile",
         "sound-design",
         "presets"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1401434197/production/plugin_descriptions/screenshot/6743.jpg"
     },
     {
       "slug": "sylenth1",
@@ -4792,7 +4835,8 @@
         "edm",
         "classic",
         "lead"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1545405376/production/plugin_descriptions/screenshot/31.jpg"
     },
     {
       "slug": "st1b",
@@ -5357,7 +5401,8 @@
         "experimental",
         "texture",
         "cinematic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258138/production/plugin_descriptions/screenshot/114.jpg"
     },
     {
       "slug": "battery-4",
@@ -5403,7 +5448,8 @@
         "electronic",
         "hip-hop",
         "percussion"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258157/production/plugin_descriptions/screenshot/157.jpg"
     },
     {
       "slug": "fm8",
@@ -5446,7 +5492,8 @@
         "sound-design",
         "bass",
         "bells"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258145/production/plugin_descriptions/screenshot/130.jpg"
     },
     {
       "slug": "guitar-rig-7",
@@ -5492,7 +5539,8 @@
         "pedalboard",
         "effects-chain",
         "rock"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/Packshots2023/Guitar-Rig-7-product-finder-2.png"
     },
     {
       "slug": "kontakt",
@@ -5534,7 +5582,8 @@
         "library",
         "rompler",
         "versatile"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258098/production/plugin_descriptions/screenshot/33.jpg"
     },
     {
       "slug": "kontakt-7",
@@ -5578,7 +5627,8 @@
         "library",
         "rompler",
         "versatile"
-      ]
+      ],
+      "image_url": "https://blog.native-instruments.com/wp-content/uploads/dynamic/2022/10/why-upgrade-to-kontakt-7-hero-1200x0-c-default.jpg"
     },
     {
       "slug": "kontakt-7-portable",
@@ -5707,7 +5757,8 @@
         "edm",
         "aggressive",
         "classic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1734291779/gear/share_images/gesmusbdjdjujxwo0hzp.png"
     },
     {
       "slug": "massive-x",
@@ -5755,7 +5806,8 @@
         "sound-design",
         "bass",
         "electronic"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/Packshots2025/massive-x-product-finder-new.png"
     },
     {
       "slug": "monark",
@@ -5842,7 +5894,8 @@
         "experimental",
         "ensemble",
         "creative"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258132/production/plugin_descriptions/screenshot/112.jpg"
     },
     {
       "slug": "super-8",
@@ -5926,7 +5979,8 @@
         "character",
         "punchy",
         "free"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/supercharger-gt.png"
     },
     {
       "slug": "faturator",
@@ -6136,7 +6190,8 @@
         "electronic",
         "edm",
         "mixing"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1389736792/production/plugin_descriptions/screenshot/211.jpg"
     },
     {
       "slug": "soothe2",
@@ -6514,7 +6569,8 @@
         "impact",
         "sound-design",
         "creative"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto/v1732210747/gear/carousel/Transit%202/nqnc4jpjhsfhm4cotf9v.png"
     },
     {
       "slug": "chipcrusher2",
@@ -7070,7 +7126,8 @@
         "modern",
         "creative",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1397671317/production/plugin_descriptions/screenshot/524.jpg"
     },
     {
       "slug": "predator-3",
@@ -7110,7 +7167,8 @@
         "trance",
         "edm",
         "presets"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1389734303/production/plugin_descriptions/screenshot/218.jpg"
     },
     {
       "slug": "transient-shaper",
@@ -7150,7 +7208,8 @@
         "mixing",
         "punch",
         "attack"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1397587451/production/plugin_descriptions/screenshot/258.jpg"
     },
     {
       "slug": "argentcompressor",
@@ -7461,7 +7520,8 @@
         "warm",
         "harmonic",
         "easy-to-use"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1425338552/production/plugin_descriptions/screenshot/46347.jpg"
     },
     {
       "slug": "bitspeek",
@@ -8809,7 +8869,8 @@
         "3d-wavetable",
         "sound-design",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1470852520/production/plugin_descriptions/screenshot/6753562.jpg"
     },
     {
       "slug": "ezdrummer-3",
@@ -9533,7 +9594,8 @@
         "mixing",
         "transparent",
         "versatile"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1389728644/production/plugin_descriptions/screenshot/344.jpg"
     },
     {
       "slug": "valhallashimmer",
@@ -10002,7 +10064,8 @@
         "vintage",
         "vocal",
         "smooth"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1406147715/production/plugin_descriptions/screenshot/14745.jpg"
     },
     {
       "slug": "cla-76",
@@ -10046,7 +10109,8 @@
         "vintage",
         "punchy",
         "drums"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/cla-76-compressor-limiter.png"
     },
     {
       "slug": "h-delay",
@@ -10092,7 +10156,8 @@
         "tape",
         "mixing",
         "versatile"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1400198087/production/plugin_descriptions/screenshot/10715.jpg"
     },
     {
       "slug": "waves-j37",
@@ -10138,7 +10203,8 @@
         "vintage",
         "warm",
         "abbey-road"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/j37-tape.png"
     },
     {
       "slug": "waves-l1",
@@ -10182,7 +10248,8 @@
         "loudness",
         "classic",
         "simple"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1406152318/production/plugin_descriptions/screenshot/12135.jpg"
     },
     {
       "slug": "waves-l2",
@@ -10226,7 +10293,8 @@
         "loudness",
         "classic",
         "dithering"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/l2-ultramaximizer.png"
     },
     {
       "slug": "waves-rbass",
@@ -10267,7 +10335,8 @@
         "low-end",
         "mixing",
         "harmonic"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/renaissance-bass.png"
     },
     {
       "slug": "waves-rcomp",
@@ -10310,7 +10379,8 @@
         "mixing",
         "warm",
         "classic"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/renaissance-compressor.png"
     },
     {
       "slug": "waves-req",
@@ -10353,7 +10423,8 @@
         "mixing",
         "classic",
         "simple"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1392445511/production/plugin_descriptions/screenshot/357.jpg"
     },
     {
       "slug": "waves-rvox",
@@ -10398,7 +10469,8 @@
         "mixing",
         "easy-to-use",
         "de-esser"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1389728451/production/plugin_descriptions/screenshot/172.jpg"
     },
     {
       "slug": "waves-scheps-omni-channel",
@@ -10438,7 +10510,8 @@
         "versatile",
         "analog-modeling",
         "all-in-one"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/scheps-omni-channel.png"
     },
     {
       "slug": "ssl-e-channel",
@@ -10483,7 +10556,8 @@
         "mixing",
         "eq",
         "compressor"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1407251903/production/plugin_descriptions/screenshot/12148.jpg"
     },
     {
       "slug": "ssl-g-master-buss",
@@ -10529,7 +10603,8 @@
         "glue",
         "mastering",
         "mixing"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/ssl-g-master-buss-compressor.png"
     },
     {
       "slug": "waves-vitamin",
@@ -10574,7 +10649,8 @@
         "mixing",
         "brightness",
         "presence"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1421957879/production/plugin_descriptions/screenshot/16184.jpg"
     },
     {
       "slug": "waveshell",
@@ -10701,7 +10777,8 @@
         "mixing",
         "separation",
         "clarity"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1426529657/production/plugin_descriptions/screenshot/3463.jpg"
     },
     {
       "slug": "cthulhu",
@@ -10744,7 +10821,8 @@
         "creative",
         "electronic",
         "sequencer"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1392679458/production/plugin_descriptions/screenshot/918.jpg"
     },
     {
       "slug": "lfotool",
@@ -10791,7 +10869,8 @@
         "tremolo",
         "electronic",
         "mixing"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1389734036/production/plugin_descriptions/screenshot/265.jpg"
     },
     {
       "slug": "ott",
@@ -10836,7 +10915,8 @@
         "edm",
         "aggressive",
         "free"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1399333470/production/plugin_descriptions/screenshot/3845.jpg"
     },
     {
       "slug": "serum",
@@ -10882,7 +10962,8 @@
         "bass",
         "lead",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1739207685/gear/share_images/ztdcdfn0pbc8tqniv64c.png"
     },
     {
       "slug": "serum-2",
@@ -10927,7 +11008,8 @@
         "modern",
         "electronic",
         "visual"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1739207685/gear/share_images/ztdcdfn0pbc8tqniv64c.png"
     },
     {
       "slug": "addictive-drums-2",
@@ -10969,7 +11051,8 @@
         "mixing",
         "rock",
         "pop"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/v1747059249/gear/share_images/t17efkmtqgizlhi5yv3e.png"
     },
     {
       "slug": "rc-20",
@@ -11012,7 +11095,8 @@
         "noise",
         "creative",
         "texture"
-      ]
+      ],
+      "image_url": "https://assets.xlnaudio.com/products/fxfx0003/gui-1920w.png"
     },
     {
       "slug": "youlean-loudness-meter-2",
@@ -11184,7 +11268,8 @@
         "edm",
         "lead",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1406743763/production/plugin_descriptions/screenshot/965.jpg"
     },
     {
       "slug": "synapse-audio-dune-3",
@@ -11228,7 +11313,8 @@
         "modern",
         "versatile",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1397584060/production/plugin_descriptions/screenshot/695.jpg"
     },
     {
       "slug": "tone2-gladiator-3",
@@ -11311,7 +11397,8 @@
         "vintage",
         "creative",
         "electronic"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1392674753/production/plugin_descriptions/screenshot/785.jpg"
     },
     {
       "slug": "surge-xt",
@@ -11582,7 +11669,8 @@
         "utility",
         "mixing",
         "lightweight"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "blue-cat-free-pack",
@@ -12056,7 +12144,8 @@
         "mastering",
         "visualization",
         "metering"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1569594387/production/plugin_descriptions/screenshot/1403.jpg"
     },
     {
       "slug": "waves-horizon",
@@ -12143,7 +12232,8 @@
         "punchy",
         "api",
         "mixing"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/api-2500.png"
     },
     {
       "slug": "waves-api-550a",
@@ -12187,7 +12277,8 @@
         "vintage",
         "musical",
         "mixing"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1391809648/production/plugin_descriptions/screenshot/145.jpg"
     },
     {
       "slug": "waves-cla-mixhub",
@@ -12231,7 +12322,8 @@
         "analog-modeling",
         "ssl",
         "vintage"
-      ]
+      ],
+      "image_url": "https://media.wavescdn.com/images/products/plugins/600/cla-mixhub.png"
     },
     {
       "slug": "waves-puigtec-eqp1a",
@@ -12276,7 +12368,8 @@
         "pultec",
         "warm",
         "mastering"
-      ]
+      ],
+      "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1412275282/production/plugin_descriptions/screenshot/18515.jpg"
     },
     {
       "slug": "plugin-alliance-mega-bundle",
@@ -12453,7 +12546,8 @@
         "stereo",
         "mono-check",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.bozdigitallabs.com/wp-content/uploads/2024/09/Pan-Knob-2-Screenshot.jpg"
     },
     {
       "slug": "audiority-limited-z",
@@ -13223,7 +13317,8 @@
         "mixing",
         "sibilance",
         "mastering"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-ds-intro.jpg?v=1710150538"
     },
     {
       "slug": "fabfilter-pro-g",
@@ -13267,7 +13362,8 @@
         "mixing",
         "clean",
         "sidechain"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-g-intro.jpg?v=1710150538"
     }
   ]
 }
