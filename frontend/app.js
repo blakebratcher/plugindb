@@ -101,13 +101,16 @@
     const imageHtml = p.image_url
       ? `<div class="card-image"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="${escapeHtml(onerrorFallback)}"></div>`
       : `<div class="card-image">${placeholder}</div>`;
+    const tagPills = (p.tags || []).slice(0, 3).map(t =>
+      `<span class="card-tag">${escapeHtml(t)}</span>`
+    ).join('');
     return `<a href="#/plugins/${escapeHtml(p.slug)}" class="plugin-card">
       ${imageHtml}
       <div class="card-body">
-        <div class="card-header"><span class="card-category">${escapeHtml(p.category)}</span>${formatPriceBadge(p.price_type)}</div>
+        <div class="card-header"><span class="card-category">${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span>${formatPriceBadge(p.price_type)}</div>
         <h3 class="card-title">${escapeHtml(p.name)}</h3>
-        <p class="card-mfr">${escapeHtml(mfr.name || '')}</p>
-        <p class="card-desc">${escapeHtml((p.description || '').slice(0, 120))}${(p.description || '').length > 120 ? '&hellip;' : ''}</p>
+        <p class="card-mfr">${escapeHtml(mfr.name || '')}${p.year ? ' &middot; ' + escapeHtml(p.year) : ''}</p>
+        ${tagPills ? '<div class="card-tags">' + tagPills + '</div>' : ''}
         <div class="card-footer">${(p.formats || []).map(f => formatBadge(f, 'badge-sm')).join('')}</div>
       </div>
     </a>`;

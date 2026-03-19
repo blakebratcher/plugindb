@@ -187,7 +187,7 @@ button, input, select { font: inherit; color: inherit; }
 
 /* Plugin grid */
 .plugin-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;
 }
 
 /* Plugin card */
@@ -218,7 +218,12 @@ button, input, select { font: inherit; color: inherit; }
 .card-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
 .card-category { font-size: 11px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
 .card-title { font-size: 16px; font-weight: 600; margin-bottom: 2px; }
-.card-mfr { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
+.card-mfr { font-size: 13px; color: var(--text-secondary); margin-bottom: 6px; }
+.card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.card-tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 12px;
+  background: var(--bg-tertiary); color: var(--text-secondary);
+}
 .card-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 10px; line-height: 1.5; }
 .card-footer { display: flex; flex-wrap: wrap; gap: 6px; }
 
