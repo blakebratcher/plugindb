@@ -91,6 +91,13 @@ body:
       label: Website URL
       placeholder: "https://..."
 
+  - type: input
+    id: image_url
+    attributes:
+      label: Image URL
+      description: "URL to plugin GUI screenshot or marketing image (optional)"
+      placeholder: "https://..."
+
   - type: textarea
     id: description
     attributes:

@@ -32,6 +32,7 @@ PluginDB is an open database of audio production plugins. Contributions of any k
      "description": "Brief description of the plugin.",
      "price_type": "paid",
      "url": "https://...",
+     "image_url": "https://example.com/plugin-screenshot.png",
      "year": 2024,
      "tags": ["synthesizer", "wavetable"]
    }
