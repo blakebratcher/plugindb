@@ -90,6 +90,13 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
             _db_connection = get_connection(DEFAULT_DB_PATH)
             create_schema(_db_connection)
         _seed_etag = _compute_seed_etag(_db_connection)
+        # Warm up caches — reduces cold-start latency
+        try:
+            _db_connection.execute("SELECT COUNT(*) FROM plugins").fetchone()
+            _db_connection.execute("SELECT rowid FROM plugins_fts LIMIT 1").fetchone()
+            logger.info("Database warm-up complete: %s plugins", _db_connection.execute("SELECT COUNT(*) FROM plugins").fetchone()[0])
+        except Exception as e:
+            logger.warning("Database warm-up failed: %s", e)
         yield
         if db_connection is None and _db_connection is not None:
             _db_connection.close()
@@ -146,6 +153,9 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
         response = await call_next(request)
         elapsed_ms = round((time.perf_counter() - start) * 1000, 2)
         response.headers["X-Processing-Time-Ms"] = str(elapsed_ms)
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["X-Frame-Options"] = "DENY"
+        response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
 
         # Add ETag + Cache-Control to successful GET responses
         if _seed_etag and request.method == "GET":

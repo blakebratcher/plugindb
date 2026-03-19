@@ -122,7 +122,7 @@ button, input, select { font: inherit; color: inherit; }
   display: flex; align-items: center; gap: 12px;
   padding: 10px 16px; cursor: pointer; transition: background var(--transition);
 }
-.suggest-item:hover { background: var(--bg-tertiary); }
+.suggest-item:hover, .suggest-item-active { background: var(--bg-tertiary); }
 .suggest-name { font-weight: 600; flex-shrink: 0; }
 .suggest-meta {
   color: var(--text-secondary); font-size: 13px; flex: 1; min-width: 0;
@@ -254,6 +254,15 @@ button, input, select { font: inherit; color: inherit; }
   border-radius: 50%; animation: spin 0.7s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* Skeleton loading */
+.skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.skeleton-card {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px; height: 180px;
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+@keyframes skeleton-pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 0.3; } }
 
 /* Breadcrumb */
 .breadcrumb {

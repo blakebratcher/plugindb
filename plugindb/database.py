@@ -38,6 +38,8 @@ def get_connection(db_path: Path | str = DEFAULT_DB_PATH) -> sqlite3.Connection:
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
+    conn.execute("PRAGMA cache_size=-64000")  # 64MB cache
+    conn.execute("PRAGMA mmap_size=268435456")  # 256MB memory-mapped I/O
     return conn
 
 
@@ -107,6 +109,15 @@ def create_schema(conn: sqlite3.Connection) -> None:
         CREATE TABLE IF NOT EXISTS metadata (
             key   TEXT PRIMARY KEY,
             value TEXT NOT NULL
+        );
+
+        -- Search analytics
+        CREATE TABLE IF NOT EXISTS search_log (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            query       TEXT NOT NULL,
+            results_count INTEGER NOT NULL DEFAULT 0,
+            filters     TEXT,
+            created_at  TEXT NOT NULL DEFAULT (datetime('now'))
         );
 
         -- Full-text search

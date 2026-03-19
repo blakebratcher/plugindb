@@ -2,8 +2,13 @@
 
 from __future__ import annotations
 
+import json as _json
+import logging
 import math
 import re
+import sqlite3
+
+_logger = logging.getLogger("plugindb")
 
 from fastapi import APIRouter, HTTPException, Query
 
@@ -146,6 +151,68 @@ def search_plugins(
                 LIMIT ? OFFSET ?""",
             [*params, per_page, offset],
         ).fetchall()
+    except sqlite3.OperationalError as fts_err:
+        _logger.warning("FTS query failed, falling back to LIKE search: %s", fts_err)
+        try:
+            like_pattern = f"%{q.strip()}%"
+            like_where = ["(plugins.name LIKE ? OR plugins.description LIKE ?)"]
+            like_params: list[object] = [like_pattern, like_pattern]
+
+            if category:
+                like_where.append("plugins.category = ?")
+                like_params.append(category)
+            if subcategory:
+                like_where.append("plugins.subcategory = ?")
+                like_params.append(subcategory)
+            if manufacturer:
+                like_where.append("plugins.manufacturer_id = (SELECT id FROM manufacturers WHERE slug = ?)")
+                like_params.append(manufacturer)
+            if tag:
+                like_where.append("plugins.tags LIKE ?")
+                like_params.append(f'%"{tag}"%')
+            if year is not None:
+                like_where.append("plugins.year = ?")
+                like_params.append(year)
+            if year_min is not None:
+                like_where.append("plugins.year >= ?")
+                like_params.append(year_min)
+            if year_max is not None:
+                like_where.append("plugins.year <= ?")
+                like_params.append(year_max)
+            if price_type:
+                like_where.append("plugins.price_type = ?")
+                like_params.append(price_type)
+            if format:
+                like_where.append("plugins.formats LIKE ?")
+                like_params.append(f'%"{format}"%')
+            if daw:
+                like_where.append("plugins.daws LIKE ?")
+                like_params.append(f'%"{daw}"%')
+            if os:
+                like_where.append("plugins.os LIKE ?")
+                like_params.append(f'%"{os}"%')
+
+            like_where_sql = " AND ".join(like_where)
+            offset = (page - 1) * per_page
+
+            count_row = conn.execute(
+                f"SELECT COUNT(*) FROM plugins WHERE {like_where_sql}",
+                like_params,
+            ).fetchone()
+            total = count_row[0]
+
+            rows = conn.execute(
+                f"SELECT * FROM plugins WHERE {like_where_sql} ORDER BY name ASC LIMIT ? OFFSET ?",
+                [*like_params, per_page, offset],
+            ).fetchall()
+        except Exception:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "error": "invalid_query",
+                    "message": f"Search query '{q}' could not be processed",
+                },
+            )
     except Exception:
         raise HTTPException(
             status_code=400,
@@ -157,6 +224,21 @@ def search_plugins(
 
     plugins = build_plugin_responses(rows, conn)
     pages = math.ceil(total / per_page) if total > 0 else 0
+
+    # Log search query for analytics (non-blocking)
+    try:
+        filters = {k: v for k, v in {
+            "category": category, "subcategory": subcategory, "manufacturer": manufacturer,
+            "tag": tag, "os": os, "format": format, "daw": daw,
+            "price_type": price_type, "year": year, "sort": sort,
+        }.items() if v}
+        conn.execute(
+            "INSERT INTO search_log (query, results_count, filters) VALUES (?, ?, ?)",
+            (q, total, _json.dumps(filters) if filters else None),
+        )
+        conn.commit()
+    except Exception:
+        pass  # Never let analytics break search
 
     return PluginListResponse(
         data=plugins,

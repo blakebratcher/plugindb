@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import functools
 import json
+from typing import Any
 
 from fastapi import APIRouter, Query
 from fastapi.responses import JSONResponse
@@ -21,6 +23,20 @@ from plugindb.models import (
 )
 
 router = APIRouter(tags=["meta"])
+
+_cache: dict[str, Any] = {}
+
+
+def cached(key):
+    """Simple process-lifetime cache decorator for read-only endpoints."""
+    def decorator(fn):
+        @functools.wraps(fn)
+        def wrapper(*args, **kwargs):
+            if key not in _cache:
+                _cache[key] = fn(*args, **kwargs)
+            return _cache[key]
+        return wrapper
+    return decorator
 
 
 # ---------------------------------------------------------------------------
@@ -60,6 +76,7 @@ TAXONOMY: dict[str, list[str]] = {
 # ---------------------------------------------------------------------------
 
 @router.get("/stats", response_model=StatsResponse)
+@cached("stats")
 def get_stats() -> StatsResponse:
     """Return database-wide statistics.
 
@@ -129,6 +146,7 @@ def get_stats() -> StatsResponse:
 
 
 @router.get("/categories", response_model=CategoriesResponse)
+@cached("categories")
 def get_categories() -> CategoriesResponse:
     """Return the canonical category/subcategory taxonomy.
 
@@ -142,6 +160,7 @@ def get_categories() -> CategoriesResponse:
 
 
 @router.get("/formats", response_model=FormatsResponse)
+@cached("formats")
 def get_formats() -> FormatsResponse:
     """Return all plugin formats with usage counts, sorted by frequency."""
     conn = get_db()
@@ -156,6 +175,7 @@ def get_formats() -> FormatsResponse:
 
 
 @router.get("/os", response_model=OSResponse)
+@cached("os")
 def get_os() -> OSResponse:
     """Return all operating systems with usage counts, sorted by frequency."""
     conn = get_db()
@@ -170,6 +190,7 @@ def get_os() -> OSResponse:
 
 
 @router.get("/subcategories", response_model=SubcategoriesResponse)
+@cached("subcategories")
 def get_subcategories() -> SubcategoriesResponse:
     """Return subcategories with actual plugin counts from the database."""
     conn = get_db()
@@ -188,6 +209,7 @@ def get_subcategories() -> SubcategoriesResponse:
 
 
 @router.get("/tags", response_model=TagsResponse)
+@cached("tags")
 def get_tags() -> TagsResponse:
     """Return all distinct tags with usage counts, sorted by frequency."""
     conn = get_db()
@@ -202,6 +224,7 @@ def get_tags() -> TagsResponse:
 
 
 @router.get("/years", response_model=YearsResponse)
+@cached("years")
 def get_years() -> YearsResponse:
     """Return plugin counts by release year, sorted chronologically."""
     conn = get_db()
@@ -249,6 +272,29 @@ def export_data(
         content=[p.model_dump() for p in plugins],
         headers={"Content-Disposition": "attachment; filename=plugindb-export.json"},
     )
+
+
+@router.get("/search-analytics")
+def get_search_analytics():
+    """Return search analytics: top queries, zero-result queries, volume."""
+    conn = get_db()
+    try:
+        top = conn.execute(
+            "SELECT query, COUNT(*) as count, AVG(results_count) as avg_results "
+            "FROM search_log GROUP BY query ORDER BY count DESC LIMIT 50"
+        ).fetchall()
+        zero = conn.execute(
+            "SELECT query, COUNT(*) as count FROM search_log "
+            "WHERE results_count = 0 GROUP BY query ORDER BY count DESC LIMIT 50"
+        ).fetchall()
+        total = conn.execute("SELECT COUNT(*) FROM search_log").fetchone()[0]
+        return {
+            "total_searches": total,
+            "top_queries": [{"query": r["query"], "count": r["count"], "avg_results": round(r["avg_results"], 1)} for r in top],
+            "zero_result_queries": [{"query": r["query"], "count": r["count"]} for r in zero],
+        }
+    except Exception:
+        return {"total_searches": 0, "top_queries": [], "zero_result_queries": []}
 
 
 @router.get("/version")

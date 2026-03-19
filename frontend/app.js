@@ -74,6 +74,9 @@
 
   // ---- STATE HELPERS ----
   function showLoading(el) { el.innerHTML = '<div class="loading-spinner" aria-label="Loading"></div>'; }
+  function showSkeletonGrid(el, count) {
+    el.innerHTML = '<div class="skeleton-grid">' + '<div class="skeleton-card"></div>'.repeat(count || 6) + '</div>';
+  }
   function showError(el, msg) {
     el.innerHTML = `<div class="state-error"><p>${escapeHtml(msg)}</p><button class="btn btn-retry">Retry</button></div>`;
     el.querySelector('.btn-retry').addEventListener('click', () => router());
@@ -117,6 +120,7 @@
 
   // == HOME / BROWSE ==
   Views.home = async function (params) {
+    document.title = 'PluginDB - Discover Audio Plugins';
     const app = document.getElementById('app');
     const q = params.get('q') || '';
     const category = params.get('category') || '';
@@ -188,15 +192,37 @@
     }, CONFIG.DEBOUNCE_MS);
 
     searchInput.addEventListener('input', doSuggest);
+    let suggestIdx = -1;
     searchInput.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') { e.preventDefault(); dropdown.classList.add('hidden'); applyFilters(); }
+      const items = dropdown.querySelectorAll('.suggest-item');
+      if (e.key === 'ArrowDown' && items.length) {
+        e.preventDefault();
+        suggestIdx = Math.min(suggestIdx + 1, items.length - 1);
+        items.forEach((it, i) => it.classList.toggle('suggest-item-active', i === suggestIdx));
+      } else if (e.key === 'ArrowUp' && items.length) {
+        e.preventDefault();
+        suggestIdx = Math.max(suggestIdx - 1, 0);
+        items.forEach((it, i) => it.classList.toggle('suggest-item-active', i === suggestIdx));
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (suggestIdx >= 0 && items[suggestIdx]) {
+          location.hash = '#/plugins/' + items[suggestIdx].dataset.slug;
+        } else {
+          dropdown.classList.add('hidden');
+          applyFilters();
+        }
+        suggestIdx = -1;
+      } else if (e.key === 'Escape') {
+        dropdown.classList.add('hidden');
+        suggestIdx = -1;
+      }
     });
     dropdown.addEventListener('click', function (e) {
       const item = e.target.closest('.suggest-item');
       if (item) { location.hash = '#/plugins/' + item.dataset.slug; }
     });
     document.addEventListener('click', function handler(e) {
-      if (!e.target.closest('.search-wrap')) dropdown.classList.add('hidden');
+      if (!e.target.closest('.search-wrap')) { dropdown.classList.add('hidden'); suggestIdx = -1; }
     });
 
     // Random
@@ -305,9 +331,11 @@
   Views.pluginDetail = async function (slug) {
     const app = document.getElementById('app');
     showLoading(app);
+    document.title = 'Loading... - PluginDB';
     try {
       const p = await API.get(`/plugins/by-slug/${encodeURIComponent(slug)}`, { include: 'manufacturer_plugins' });
       const mfr = p.manufacturer || {};
+      document.title = `${p.name} by ${mfr.name} - PluginDB`;
       const fmtBadges = (p.formats || []).map(f => formatBadge(f, 'badge-format')).join('');
       const osBadges = (p.os || []).map(o => formatBadge(o, 'badge-os')).join('');
       const dawList = (p.daws || []).map(d => escapeHtml(d)).join(', ');
@@ -362,6 +390,7 @@
 
   // == MANUFACTURER LIST ==
   Views.manufacturers = async function (params) {
+    document.title = 'Manufacturers - PluginDB';
     const app = document.getElementById('app');
     const search = params.get('search') || '';
     const sort = params.get('sort') || 'name';
@@ -424,6 +453,7 @@
     try {
       const data = await API.get(`/manufacturers/${encodeURIComponent(slug)}`, { page, per_page: CONFIG.ITEMS_PER_PAGE });
       const m = data.manufacturer;
+      document.title = `${m.name} - PluginDB`;
       const catBadges = Object.entries(data.categories || {}).map(([c, n]) => formatBadge(`${c} (${n})`, 'badge-outline')).join('');
 
       let html = `
@@ -478,6 +508,15 @@
     updateNav('home');
     return Views.home(params);
   }
+
+  // Global keyboard shortcut: / focuses search
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault();
+      const si = document.getElementById('search-input') || document.getElementById('mfr-search');
+      if (si) si.focus();
+    }
+  });
 
   window.addEventListener('hashchange', router);
   router();
