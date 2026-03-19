@@ -5357,7 +5357,8 @@
       ],
       "description": "AI-powered MIDI melody generator that creates melodies based on selected chords and styles.",
       "price_type": "paid",
-      "url": "https://www.evabeat.com/"
+      "url": "https://www.evabeat.com/",
+      "year": 2022
     },
     {
       "slug": "blade-2",
