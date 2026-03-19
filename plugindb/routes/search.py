@@ -2,69 +2,19 @@
 
 from __future__ import annotations
 
-import json
 import math
-import sqlite3
 
 from fastapi import APIRouter, HTTPException, Query
 
 from plugindb.main import get_db
 from plugindb.models import (
-    ManufacturerResponse,
     PaginatedResponse,
     PluginListResponse,
     PluginResponse,
 )
+from plugindb.queries import build_plugin_response
 
 router = APIRouter(tags=["search"])
-
-
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-def _build_plugin_response(row: sqlite3.Row, conn: sqlite3.Connection) -> PluginResponse:
-    """Construct a full PluginResponse from a plugins DB row."""
-    plugin_id: int = row["id"]
-
-    # Manufacturer
-    mfr_row = conn.execute(
-        "SELECT id, slug, name, website, created_at FROM manufacturers WHERE id = ?",
-        (row["manufacturer_id"],),
-    ).fetchone()
-    manufacturer = ManufacturerResponse(
-        id=mfr_row["id"],
-        slug=mfr_row["slug"],
-        name=mfr_row["name"],
-        website=mfr_row["website"],
-        created_at=mfr_row["created_at"],
-    )
-
-    # Aliases
-    alias_rows = conn.execute(
-        "SELECT name FROM aliases WHERE plugin_id = ? ORDER BY name",
-        (plugin_id,),
-    ).fetchall()
-    aliases = [a["name"] for a in alias_rows]
-
-    # Formats (stored as JSON array)
-    formats = json.loads(row["formats"]) if row["formats"] else []
-
-    return PluginResponse(
-        id=row["id"],
-        slug=row["slug"],
-        name=row["name"],
-        manufacturer=manufacturer,
-        category=row["category"],
-        subcategory=row["subcategory"],
-        formats=formats,
-        aliases=aliases,
-        description=row["description"],
-        website=row["website"],
-        is_free=bool(row["is_free"]),
-        created_at=row["created_at"],
-        updated_at=row["updated_at"],
-    )
 
 
 # ---------------------------------------------------------------------------
@@ -137,7 +87,7 @@ def search_plugins(
             (fts_query, per_page, offset),
         ).fetchall()
 
-    plugins = [_build_plugin_response(row, conn) for row in rows]
+    plugins = [build_plugin_response(row, conn) for row in rows]
     pages = math.ceil(total / per_page) if total > 0 else 0
 
     return PluginListResponse(

@@ -47,7 +47,7 @@ def load_seed(path: Path | str) -> dict:
         return json.load(f)
 
 
-VALID_CATEGORIES = {"instrument", "effect", "midi", "utility", "container"}
+VALID_CATEGORIES = {"instrument", "effect", "midi", "utility", "container", "note-effect"}
 VALID_FORMATS = {"VST2", "VST3", "AU", "CLAP", "AAX", "LV2", "Standalone"}
 
 
@@ -117,6 +117,111 @@ def transform_registry(registry_path: Path | str, output_path: Path | str) -> No
 
 
 # ---------------------------------------------------------------------------
+# Validation
+# ---------------------------------------------------------------------------
+
+_KEBAB_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+
+
+def validate_seed(data: dict) -> list[str]:
+    """Validate seed data and return a list of error strings (empty = valid).
+
+    Checks performed:
+        - schema_version is "1.0"
+        - Every plugin has required fields: slug, name, manufacturer_slug,
+          category, aliases
+        - Every plugin slug is unique
+        - Every plugin slug is kebab-case (lowercase letters, digits, hyphens)
+        - Every alias is unique across all plugins (case-insensitive)
+        - Every manufacturer_slug references an existing manufacturer
+        - Every category is valid
+        - No empty name, manufacturer_slug, or aliases arrays
+    """
+    errors: list[str] = []
+
+    # Schema version
+    if data.get("schema_version") != "1.0":
+        errors.append(
+            f"schema_version must be \"1.0\", got \"{data.get('schema_version')}\""
+        )
+
+    # Build manufacturer slug set
+    mfr_slugs = {m["slug"] for m in data.get("manufacturers", []) if "slug" in m}
+
+    # Plugin-level checks
+    seen_slugs: set[str] = set()
+    seen_aliases: dict[str, str] = {}  # alias_lower -> plugin slug that owns it
+    required_fields = ("slug", "name", "manufacturer_slug", "category", "aliases")
+
+    for i, plugin in enumerate(data.get("plugins", [])):
+        label = plugin.get("name") or plugin.get("slug") or f"[{i}]"
+
+        # Required fields
+        for field in required_fields:
+            if field not in plugin:
+                errors.append(f"Plugin {label}: missing required field '{field}'")
+
+        # Empty-value checks
+        name = plugin.get("name")
+        if name is not None and not name.strip():
+            errors.append(f"Plugin [{i}]: name is empty")
+
+        mfr_slug = plugin.get("manufacturer_slug")
+        if mfr_slug is not None and not mfr_slug.strip():
+            errors.append(f"Plugin {label}: manufacturer_slug is empty")
+
+        aliases = plugin.get("aliases")
+        if aliases is not None and not isinstance(aliases, list):
+            errors.append(f"Plugin {label}: aliases must be a list")
+        elif aliases is not None and len(aliases) == 0:
+            errors.append(f"Plugin {label}: aliases array is empty")
+
+        # Slug uniqueness
+        slug = plugin.get("slug")
+        if slug is not None:
+            if slug in seen_slugs:
+                errors.append(f"Duplicate plugin slug: '{slug}'")
+            seen_slugs.add(slug)
+
+            # Kebab-case check
+            if slug and not _KEBAB_RE.match(slug):
+                errors.append(
+                    f"Plugin {label}: slug '{slug}' is not kebab-case "
+                    "(must be lowercase letters, digits, and hyphens only)"
+                )
+
+        # Manufacturer reference
+        if mfr_slug and mfr_slug.strip() and mfr_slug not in mfr_slugs:
+            errors.append(
+                f"Plugin {label}: manufacturer_slug '{mfr_slug}' "
+                "does not reference an existing manufacturer"
+            )
+
+        # Category validity
+        category = plugin.get("category")
+        if category is not None and category not in VALID_CATEGORIES:
+            errors.append(
+                f"Plugin {label}: invalid category '{category}' "
+                f"(expected one of {sorted(VALID_CATEGORIES)})"
+            )
+
+        # Alias uniqueness (case-insensitive, across all plugins)
+        if isinstance(aliases, list):
+            for alias in aliases:
+                alias_lower = alias.lower()
+                if alias_lower in seen_aliases:
+                    owner = seen_aliases[alias_lower]
+                    errors.append(
+                        f"Duplicate alias '{alias}' in plugin '{slug}' "
+                        f"(already defined in '{owner}')"
+                    )
+                else:
+                    seen_aliases[alias_lower] = slug or label
+
+    return errors
+
+
+# ---------------------------------------------------------------------------
 # Seed database
 # ---------------------------------------------------------------------------
 
@@ -165,10 +270,12 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
             continue
 
         formats_json = json.dumps(plugin.get("formats", []))
+        daws_json = json.dumps(plugin.get("daws", []))
+        os_json = json.dumps(plugin.get("os", []))
         cur.execute(
             """INSERT INTO plugins
-               (slug, name, manufacturer_id, category, subcategory, formats, description)
-               VALUES (?, ?, ?, ?, ?, ?, ?)""",
+               (slug, name, manufacturer_id, category, subcategory, formats, daws, os, description)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 plugin["slug"],
                 plugin["name"],
@@ -176,6 +283,8 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
                 plugin.get("category", "effect"),
                 plugin.get("subcategory"),
                 formats_json,
+                daws_json,
+                os_json,
                 plugin.get("description"),
             ),
         )
@@ -222,7 +331,14 @@ def seed_database(conn: sqlite3.Connection, data: dict) -> dict[str, int]:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    """CLI: seed the database from data/seed.json."""
+    """CLI: seed the database from data/seed.json.
+
+    Usage:
+        python -m plugindb.seed              # Seed the database
+        python -m plugindb.seed --validate   # Validate only (no seeding)
+    """
+    validate_only = "--validate" in sys.argv
+
     seed_path = Path(__file__).resolve().parent.parent / "data" / "seed.json"
     if not seed_path.exists():
         print(f"Error: seed file not found at {seed_path}")
@@ -230,6 +346,20 @@ def main() -> None:
         sys.exit(1)
 
     data = load_seed(seed_path)
+
+    if validate_only:
+        errors = validate_seed(data)
+        if errors:
+            print(f"VALIDATION FAILED ({len(errors)} errors):")
+            for e in errors:
+                print(f"  - {e}")
+            sys.exit(1)
+        else:
+            mfr_count = len(data.get("manufacturers", []))
+            plugin_count = len(data.get("plugins", []))
+            print(f"seed.json is valid: {mfr_count} manufacturers, {plugin_count} plugins")
+            sys.exit(0)
+
     conn = get_connection(DEFAULT_DB_PATH)
     create_schema(conn)
     counts = seed_database(conn, data)

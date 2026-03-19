@@ -52,6 +52,8 @@ def create_schema(conn: sqlite3.Connection) -> None:
             category        TEXT    NOT NULL DEFAULT 'effect',
             subcategory     TEXT,
             formats         TEXT    NOT NULL DEFAULT '[]',
+            daws            TEXT    NOT NULL DEFAULT '[]',
+            os              TEXT    NOT NULL DEFAULT '[]',
             description     TEXT,
             website         TEXT,
             is_free         INTEGER NOT NULL DEFAULT 0,

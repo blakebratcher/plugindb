@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import json
 import sqlite3
 from pathlib import Path
@@ -9,7 +10,7 @@ from pathlib import Path
 import pytest
 
 from plugindb.database import create_schema, get_connection
-from plugindb.seed import load_seed, seed_database, slugify
+from plugindb.seed import load_seed, seed_database, slugify, validate_seed
 
 
 # ---------------------------------------------------------------------------
@@ -218,3 +219,77 @@ class TestSlugify:
 
     def test_empty_string(self):
         assert slugify("") == ""
+
+
+# ---------------------------------------------------------------------------
+# Validation helpers
+# ---------------------------------------------------------------------------
+
+
+def _make_seed_data() -> dict:
+    """Return a deep copy of the sample seed data for mutation in tests."""
+    return copy.deepcopy(SAMPLE_SEED)
+
+
+# ---------------------------------------------------------------------------
+# Validation tests
+# ---------------------------------------------------------------------------
+
+class TestValidation:
+    def test_validate_valid_data(self):
+        errors = validate_seed(_make_seed_data())
+        assert errors == []
+
+    def test_validate_missing_required_field(self):
+        data = _make_seed_data()
+        del data["plugins"][0]["name"]
+        errors = validate_seed(data)
+        assert any("name" in e for e in errors)
+
+    def test_validate_duplicate_id(self):
+        data = _make_seed_data()
+        data["plugins"].append(data["plugins"][0].copy())
+        errors = validate_seed(data)
+        assert any("duplicate" in e.lower() for e in errors)
+
+    def test_validate_invalid_category(self):
+        data = _make_seed_data()
+        data["plugins"][0]["category"] = "invalid"
+        errors = validate_seed(data)
+        assert any("category" in e for e in errors)
+
+    def test_validate_alias_conflict(self):
+        data = _make_seed_data()
+        data["plugins"][1]["aliases"].append(data["plugins"][0]["aliases"][0])
+        errors = validate_seed(data)
+        assert any("alias" in e.lower() for e in errors)
+
+    def test_validate_bad_schema_version(self):
+        data = _make_seed_data()
+        data["schema_version"] = "2.0"
+        errors = validate_seed(data)
+        assert any("schema_version" in e for e in errors)
+
+    def test_validate_non_kebab_slug(self):
+        data = _make_seed_data()
+        data["plugins"][0]["slug"] = "Not_Kebab Case!"
+        errors = validate_seed(data)
+        assert any("kebab" in e.lower() for e in errors)
+
+    def test_validate_unknown_manufacturer(self):
+        data = _make_seed_data()
+        data["plugins"][0]["manufacturer_slug"] = "nonexistent-mfr"
+        errors = validate_seed(data)
+        assert any("manufacturer" in e.lower() for e in errors)
+
+    def test_validate_empty_name(self):
+        data = _make_seed_data()
+        data["plugins"][0]["name"] = ""
+        errors = validate_seed(data)
+        assert any("empty" in e.lower() for e in errors)
+
+    def test_validate_empty_aliases(self):
+        data = _make_seed_data()
+        data["plugins"][0]["aliases"] = []
+        errors = validate_seed(data)
+        assert any("aliases" in e.lower() for e in errors)

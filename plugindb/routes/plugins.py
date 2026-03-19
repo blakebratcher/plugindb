@@ -12,7 +12,7 @@ from plugindb.models import (
     PluginListResponse,
     PluginResponse,
 )
-from plugindb.routes.lookup import _build_plugin_response
+from plugindb.queries import build_plugin_response
 
 router = APIRouter(tags=["plugins"])
 
@@ -91,7 +91,7 @@ def list_plugins(
     """
     rows = conn.execute(query_sql, [*params, per_page, offset]).fetchall()
 
-    data = [_build_plugin_response(row, conn) for row in rows]
+    data = [build_plugin_response(row, conn) for row in rows]
 
     return PluginListResponse(
         data=data,
@@ -112,4 +112,4 @@ def get_plugin(plugin_id: int) -> PluginResponse:
     row = conn.execute("SELECT * FROM plugins WHERE id = ?", (plugin_id,)).fetchone()
     if row is None:
         raise HTTPException(status_code=404, detail=f"Plugin with id {plugin_id} not found")
-    return _build_plugin_response(row, conn)
+    return build_plugin_response(row, conn)

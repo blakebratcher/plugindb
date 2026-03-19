@@ -27,6 +27,8 @@ class PluginResponse(BaseModel):
     category: str
     subcategory: str | None = None
     formats: list[str] = Field(default_factory=list)
+    daws: list[str] = Field(default_factory=list)
+    os: list[str] = Field(default_factory=list)
     aliases: list[str] = Field(default_factory=list)
     description: str | None = None
     website: str | None = None

@@ -5,7 +5,6 @@ Provides instant case-insensitive alias resolution for plugin names.
 
 from __future__ import annotations
 
-import json
 import sqlite3
 
 from fastapi import APIRouter, HTTPException, Query
@@ -15,9 +14,9 @@ from plugindb.models import (
     BatchLookupMatch,
     BatchLookupRequest,
     BatchLookupResponse,
-    ManufacturerResponse,
     PluginResponse,
 )
+from plugindb.queries import build_plugin_response
 
 router = APIRouter(tags=["lookup"])
 
@@ -25,54 +24,6 @@ router = APIRouter(tags=["lookup"])
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def _build_plugin_response(row: sqlite3.Row, conn: sqlite3.Connection) -> PluginResponse:
-    """Construct a full PluginResponse from a plugins DB row.
-
-    Joins the manufacturer record and loads all aliases for the plugin.
-    Parses the JSON-encoded ``formats`` column.
-    """
-    plugin_id: int = row["id"]
-
-    # Manufacturer
-    mfr_row = conn.execute(
-        "SELECT id, slug, name, website, created_at FROM manufacturers WHERE id = ?",
-        (row["manufacturer_id"],),
-    ).fetchone()
-    manufacturer = ManufacturerResponse(
-        id=mfr_row["id"],
-        slug=mfr_row["slug"],
-        name=mfr_row["name"],
-        website=mfr_row["website"],
-        created_at=mfr_row["created_at"],
-    )
-
-    # Aliases
-    alias_rows = conn.execute(
-        "SELECT name FROM aliases WHERE plugin_id = ? ORDER BY name",
-        (plugin_id,),
-    ).fetchall()
-    aliases = [a["name"] for a in alias_rows]
-
-    # Formats (stored as JSON array)
-    formats = json.loads(row["formats"]) if row["formats"] else []
-
-    return PluginResponse(
-        id=row["id"],
-        slug=row["slug"],
-        name=row["name"],
-        manufacturer=manufacturer,
-        category=row["category"],
-        subcategory=row["subcategory"],
-        formats=formats,
-        aliases=aliases,
-        description=row["description"],
-        website=row["website"],
-        is_free=bool(row["is_free"]),
-        created_at=row["created_at"],
-        updated_at=row["updated_at"],
-    )
-
 
 def _lookup_alias(alias: str, conn: sqlite3.Connection) -> PluginResponse | None:
     """Look up a single alias (case-insensitive). Returns None if not found."""
@@ -90,14 +41,21 @@ def _lookup_alias(alias: str, conn: sqlite3.Connection) -> PluginResponse | None
     if plugin_row is None:
         return None
 
-    return _build_plugin_response(plugin_row, conn)
+    return build_plugin_response(plugin_row, conn)
 
 
 # ---------------------------------------------------------------------------
 # Routes
 # ---------------------------------------------------------------------------
 
-@router.get("/lookup", response_model=PluginResponse)
+@router.get(
+    "/lookup",
+    response_model=PluginResponse,
+    responses={
+        200: {"description": "Plugin found"},
+        404: {"description": "No plugin matching this alias"},
+    },
+)
 def lookup_plugin(
     alias: str = Query(..., description="Plugin name or alias to look up"),
 ) -> PluginResponse:

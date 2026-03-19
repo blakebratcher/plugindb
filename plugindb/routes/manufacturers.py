@@ -14,7 +14,7 @@ from plugindb.models import (
     PaginatedResponse,
     PluginResponse,
 )
-from plugindb.routes.lookup import _build_plugin_response
+from plugindb.queries import build_plugin_response
 
 router = APIRouter(tags=["manufacturers"])
 
@@ -94,7 +94,7 @@ def get_manufacturer(slug: str) -> ManufacturerDetailResponse:
     ).fetchall()
 
     plugins: list[PluginResponse] = [
-        _build_plugin_response(row, conn) for row in plugin_rows
+        build_plugin_response(row, conn) for row in plugin_rows
     ]
 
     return ManufacturerDetailResponse(

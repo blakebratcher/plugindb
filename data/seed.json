@@ -311,7 +311,22 @@
       "aliases": [
         "Drift",
         "Ableton Drift"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Subtractive/wavetable hybrid synthesizer with a streamlined interface, built for Ableton Live.",
+      "price_type": "included",
+      "year": 2022
     },
     {
       "slug": "ableton-meld",
@@ -325,7 +340,22 @@
       "aliases": [
         "Meld",
         "Ableton Meld"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Two-oscillator synthesizer blending MPE support with a unique macro-driven interface for Ableton Live.",
+      "price_type": "included",
+      "year": 2022
     },
     {
       "slug": "operator",
@@ -333,12 +363,19 @@
       "manufacturer_slug": "ableton",
       "category": "instrument",
       "subcategory": "synth",
-      "formats": [
-        "Ableton Live instrument"
-      ],
+      "formats": [],
       "aliases": [
         "Operator"
-      ]
+      ],
+      "daws": [
+        "Ableton"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "FM synthesis instrument in Ableton Live with four oscillators and a flexible routing matrix.",
+      "price_type": "included"
     },
     {
       "slug": "wavetable",
@@ -346,12 +383,19 @@
       "manufacturer_slug": "ableton",
       "category": "instrument",
       "subcategory": "synth",
-      "formats": [
-        "Ableton Live instrument"
-      ],
+      "formats": [],
       "aliases": [
         "Wavetable"
-      ]
+      ],
+      "daws": [
+        "Ableton"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Ableton Live's wavetable synthesizer with dual oscillators, sub oscillator, and extensive modulation.",
+      "price_type": "included"
     },
     {
       "slug": "hybrid-3",
@@ -367,7 +411,21 @@
         "Hybrid 3",
         "AIR Hybrid 3",
         "Hybrid3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Virtual analog synthesizer combining subtractive and wavetable synthesis with built-in effects.",
+      "price_type": "paid"
     },
     {
       "slug": "vacuum-pro",
@@ -383,7 +441,21 @@
         "Vacuum Pro",
         "AIR Vacuum Pro",
         "VacuumPro"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Polyphonic vacuum tube synthesizer emulating vintage tube-driven analog hardware.",
+      "price_type": "paid"
     },
     {
       "slug": "fetish",
@@ -398,7 +470,22 @@
       "aliases": [
         "FETISH",
         "Analog Obsession FETISH"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "FET-style compressor plugin modeled after vintage solid-state hardware compressors.",
+      "price_type": "free"
     },
     {
       "slug": "loaded",
@@ -413,7 +500,22 @@
       "aliases": [
         "LOADED",
         "Analog Obsession LOADED"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Channel EQ plugin inspired by classic analog console equalizers.",
+      "price_type": "free"
     },
     {
       "slug": "rare",
@@ -428,7 +530,22 @@
       "aliases": [
         "RARE",
         "Analog Obsession RARE"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vari-mu tube compressor emulation modeled after vintage broadcast limiters.",
+      "price_type": "free"
     },
     {
       "slug": "amelia",
@@ -442,7 +559,21 @@
       "aliases": [
         "Amelia",
         "Andrew Huang Amelia"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Experimental synthesizer designed by Andrew Huang with unique sound design capabilities.",
+      "price_type": "paid"
     },
     {
       "slug": "analog-lab-v",
@@ -460,7 +591,24 @@
         "Analog Lab 5",
         "Arturia Analog Lab V",
         "AnalogLab V"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Preset browser and performance instrument providing access to sounds from Arturia's V Collection.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "arturia-comp-fet-76",
@@ -477,7 +625,24 @@
         "Comp FET-76",
         "Arturia Comp FET-76",
         "FET-76"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "FET compressor emulation modeled after the classic UREI 1176 hardware.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "arturia-jupiter-8v",
@@ -495,7 +660,24 @@
         "Arturia Jupiter-8V",
         "Jupiter-8V4",
         "Jup-8V"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software emulation of the Roland Jupiter-8 analog polysynth with extended features.",
+      "price_type": "paid",
+      "year": 2006
     },
     {
       "slug": "arturia-mini-v",
@@ -513,7 +695,24 @@
         "Arturia Mini V",
         "Mini V4",
         "Minimoog V"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software emulation of the Minimoog Model D monosynth with added polyphony and effects.",
+      "price_type": "paid",
+      "year": 2004
     },
     {
       "slug": "pigments-4",
@@ -531,7 +730,24 @@
         "Pigments",
         "Arturia Pigments",
         "Arturia Pigments 4"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Polychrome software synthesizer with wavetable, virtual analog, granular, and harmonic engines.",
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "arturia-prophet-v",
@@ -549,7 +765,24 @@
         "Arturia Prophet V",
         "Prophet-V",
         "Prophet-5 V"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software emulation of the Sequential Prophet-5 analog polysynth with hybrid layering.",
+      "price_type": "paid",
+      "year": 2005
     },
     {
       "slug": "arturia-rev-plate-140",
@@ -566,7 +799,24 @@
         "Rev PLATE-140",
         "Arturia Rev PLATE-140",
         "PLATE-140"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Plate reverb emulation modeled after the EMT 140 hardware unit.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "dubstation-2",
@@ -580,7 +830,22 @@
       "aliases": [
         "DubStation 2",
         "Audio Damage DubStation"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Dub-style delay effect with tape emulation, spring reverb, and lo-fi character.",
+      "price_type": "paid"
     },
     {
       "slug": "quanta",
@@ -595,7 +860,22 @@
         "Quanta",
         "Audio Damage Quanta",
         "AD Quanta"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Granular synthesizer with a visual waveform display and real-time granular manipulation.",
+      "price_type": "paid"
     },
     {
       "slug": "ratshack-reverb",
@@ -609,7 +889,22 @@
       "aliases": [
         "Ratshack Reverb",
         "Audio Damage Ratshack Reverb"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Lo-fi spring reverb emulation inspired by cheap consumer reverb hardware.",
+      "price_type": "paid"
     },
     {
       "slug": "baby-audio-comeback-kid",
@@ -623,7 +918,23 @@
       "aliases": [
         "Comeback Kid",
         "Baby Audio Comeback Kid"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Delay plugin with tape saturation, built-in ducking, and a vintage character.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "baby-audio-crystalline",
@@ -637,7 +948,23 @@
       "aliases": [
         "Crystalline",
         "Baby Audio Crystalline"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Algorithmic reverb with a clean, modern sound and intuitive reflection shaping controls.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "ihny-2",
@@ -654,7 +981,24 @@
         "IHNY-2",
         "Baby Audio IHNY-2",
         "I Heart NY"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parallel compressor combining gentle and aggressive compression in a simple two-knob interface.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "parallel-aggressor",
@@ -670,7 +1014,24 @@
       "aliases": [
         "Parallel Aggressor",
         "Baby Audio Parallel Aggressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dual-engine parallel processor combining compression and saturation for mix glue.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "baby-audio-smooth-operator",
@@ -684,7 +1045,23 @@
       "aliases": [
         "Smooth Operator",
         "Baby Audio Smooth Operator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spectral dynamics processor that smooths and balances audio using per-frequency compression.",
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "baby-audio-spaced-out",
@@ -698,7 +1075,23 @@
       "aliases": [
         "Spaced Out",
         "Baby Audio Spaced Out"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Modulated delay and reverb effect designed for ambient and spatial textures.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "baby-audio-super-vhs",
@@ -712,7 +1105,23 @@
       "aliases": [
         "Super VHS",
         "Baby Audio Super VHS"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Lo-fi effect emulating VHS tape degradation with wobble, noise, and saturation.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "bettermaker-bus-compressor-dsp",
@@ -726,7 +1135,21 @@
       "aliases": [
         "Bettermaker Bus Compressor DSP",
         "Bettermaker Bus Compressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Bus compressor plugin modeled after the Bettermaker hardware mastering compressor.",
+      "price_type": "paid"
     },
     {
       "slug": "bit-8",
@@ -737,7 +1160,17 @@
       "formats": [],
       "aliases": [
         "Bit-8"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in bitcrusher and sample rate reducer for lo-fi distortion effects.",
+      "price_type": "included"
     },
     {
       "slug": "compressor",
@@ -748,7 +1181,17 @@
       "formats": [],
       "aliases": [
         "Compressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in dynamics compressor with sidechain input and visual gain reduction.",
+      "price_type": "included"
     },
     {
       "slug": "delay-4",
@@ -759,7 +1202,17 @@
       "formats": [],
       "aliases": [
         "Delay-4"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in stereo delay with four tap modes, feedback, and modulation.",
+      "price_type": "included"
     },
     {
       "slug": "drum-machine",
@@ -770,7 +1223,17 @@
       "formats": [],
       "aliases": [
         "Drum Machine"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in drum sampler with per-pad layering, effects, and modulation.",
+      "price_type": "included"
     },
     {
       "slug": "dynamics",
@@ -781,7 +1244,17 @@
       "formats": [],
       "aliases": [
         "Dynamics"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's combined compressor and expander with sidechain support and visual feedback.",
+      "price_type": "included"
     },
     {
       "slug": "eq",
@@ -793,7 +1266,17 @@
       "aliases": [
         "EQ+",
         "EQ-plus"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in parametric equalizer with up to 8 bands and spectrum analyzer.",
+      "price_type": "included"
     },
     {
       "slug": "fx-grid",
@@ -804,7 +1287,17 @@
       "formats": [],
       "aliases": [
         "FX Grid"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's modular patching environment for building custom audio effects from modules.",
+      "price_type": "included"
     },
     {
       "slug": "fx-layer",
@@ -815,7 +1308,17 @@
       "formats": [],
       "aliases": [
         "FX Layer"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig container device for running multiple effect chains in parallel.",
+      "price_type": "included"
     },
     {
       "slug": "gate",
@@ -826,7 +1329,17 @@
       "formats": [],
       "aliases": [
         "Gate"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in noise gate with sidechain input and adjustable hysteresis.",
+      "price_type": "included"
     },
     {
       "slug": "grid",
@@ -837,7 +1350,17 @@
       "formats": [],
       "aliases": [
         "Grid"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's modular patching environment for building custom instruments from modules.",
+      "price_type": "included"
     },
     {
       "slug": "instrument-layer",
@@ -848,7 +1371,17 @@
       "formats": [],
       "aliases": [
         "Instrument Layer"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig container device for layering multiple instruments with mix and pan control.",
+      "price_type": "included"
     },
     {
       "slug": "instrument-selector",
@@ -859,7 +1392,17 @@
       "formats": [],
       "aliases": [
         "Instrument Selector"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig container device for switching between multiple instruments via selection.",
+      "price_type": "included"
     },
     {
       "slug": "limiter",
@@ -870,7 +1413,17 @@
       "formats": [],
       "aliases": [
         "Limiter"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in brickwall limiter for peak control and loudness maximizing.",
+      "price_type": "included"
     },
     {
       "slug": "multiband-fx-3",
@@ -881,7 +1434,17 @@
       "formats": [],
       "aliases": [
         "Multiband FX-3"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig container that splits audio into three frequency bands for independent processing.",
+      "price_type": "included"
     },
     {
       "slug": "oscilloscope",
@@ -892,7 +1455,17 @@
       "formats": [],
       "aliases": [
         "Oscilloscope"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in waveform display for real-time audio signal visualization.",
+      "price_type": "included"
     },
     {
       "slug": "phase-4",
@@ -903,7 +1476,17 @@
       "formats": [],
       "aliases": [
         "Phase-4"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's four-operator phase modulation synthesizer inspired by classic FM synthesis.",
+      "price_type": "included"
     },
     {
       "slug": "poly-grid",
@@ -914,7 +1497,17 @@
       "formats": [],
       "aliases": [
         "Poly Grid"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's polyphonic modular patching environment for building custom instruments.",
+      "price_type": "included"
     },
     {
       "slug": "polymer",
@@ -925,7 +1518,17 @@
       "formats": [],
       "aliases": [
         "Polymer"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's preset-based synthesizer combining multiple synthesis types with a macro interface.",
+      "price_type": "included"
     },
     {
       "slug": "polysynth",
@@ -936,7 +1539,17 @@
       "formats": [],
       "aliases": [
         "Polysynth"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's classic virtual analog polysynth with oscillators, filter, and envelope controls.",
+      "price_type": "included"
     },
     {
       "slug": "reverb",
@@ -947,7 +1560,17 @@
       "formats": [],
       "aliases": [
         "Reverb"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in algorithmic reverb with adjustable size, damping, and diffusion.",
+      "price_type": "included"
     },
     {
       "slug": "sampler",
@@ -958,7 +1581,17 @@
       "formats": [],
       "aliases": [
         "Sampler"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in multi-sample instrument with zones, modulation, and round-robin support.",
+      "price_type": "included"
     },
     {
       "slug": "spectrum",
@@ -969,7 +1602,17 @@
       "formats": [],
       "aliases": [
         "Spectrum"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's built-in FFT spectrum analyzer for frequency content visualization.",
+      "price_type": "included"
     },
     {
       "slug": "tool",
@@ -980,7 +1623,17 @@
       "formats": [],
       "aliases": [
         "Tool"
-      ]
+      ],
+      "daws": [
+        "Bitwig"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitwig's utility device for gain, pan, phase inversion, and DC offset correction.",
+      "price_type": "included"
     },
     {
       "slug": "filtershaper",
@@ -996,7 +1649,24 @@
         "FilterShaper",
         "FilterShaper XL",
         "Cableguys FilterShaper"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-mode filter with drawable LFO curves for rhythmic and evolving filter effects.",
+      "price_type": "paid",
+      "year": 2009
     },
     {
       "slug": "panshaper",
@@ -1012,7 +1682,23 @@
         "PanShaper",
         "PanShaper 3",
         "Cableguys PanShaper"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Auto-panner with drawable LFO waveforms for precise stereo motion and tremolo effects.",
+      "price_type": "paid"
     },
     {
       "slug": "shaperbox-3",
@@ -1029,7 +1715,24 @@
         "ShaperBox3",
         "Cableguys ShaperBox 3",
         "ShaperBox"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-effect suite combining volume, filter, pan, width, and time shapers with drawable LFOs.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "timeshaper",
@@ -1045,7 +1748,23 @@
         "TimeShaper",
         "TimeShaper 3",
         "Cableguys TimeShaper"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Time-manipulation effect using drawable curves to create glitch, stutter, and tape-stop effects.",
+      "price_type": "paid"
     },
     {
       "slug": "volumeshaper",
@@ -1061,7 +1780,24 @@
         "VolumeShaper",
         "VolumeShaper 5",
         "Cableguys VolumeShaper"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Sidechain-style volume shaping with drawable LFO curves for ducking and tremolo effects.",
+      "price_type": "paid",
+      "year": 2010
     },
     {
       "slug": "camelcrusher",
@@ -1075,7 +1811,22 @@
       "aliases": [
         "CamelCrusher",
         "Camel Crusher"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free distortion plugin with two distortion modes, a compressor, and a low-pass filter.",
+      "price_type": "free",
+      "year": 2012
     },
     {
       "slug": "dreamsynth",
@@ -1091,7 +1842,22 @@
       "aliases": [
         "Dreamsynth",
         "Cherry Audio Dreamsynth"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Polyphonic dreamlike synthesizer with wavetable and virtual analog oscillators.",
+      "price_type": "paid"
     },
     {
       "slug": "surrealistic-mg-1",
@@ -1108,7 +1874,22 @@
         "Surrealistic MG-1",
         "Cherry Audio Surrealistic MG-1",
         "MG-1"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the Moog Realistic MG-1 monophonic analog synthesizer.",
+      "price_type": "paid"
     },
     {
       "slug": "voltage-modular",
@@ -1125,7 +1906,22 @@
         "Voltage Modular",
         "Cherry Audio Voltage Modular",
         "VoltageModular"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Virtual Eurorack modular synthesizer environment with patchable modules.",
+      "price_type": "paid"
     },
     {
       "slug": "reastream-standalone",
@@ -1140,7 +1936,20 @@
         "reastream-standalone",
         "ReaStream",
         "Cockos ReaStream"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows"
+      ],
+      "description": "Network audio streaming utility for sending audio between DAWs over a LAN.",
+      "price_type": "free"
     },
     {
       "slug": "cymatics-origin",
@@ -1154,7 +1963,21 @@
       "aliases": [
         "Origin",
         "Cymatics Origin"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Wavetable synthesizer from Cymatics designed for modern electronic music production.",
+      "price_type": "paid"
     },
     {
       "slug": "decimort-2",
@@ -1168,7 +1991,22 @@
       "aliases": [
         "Decimort 2",
         "D16 Decimort"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "High-quality bitcrusher and sample rate reducer emulating vintage digital samplers.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "devastor-2",
@@ -1182,7 +2020,22 @@
       "aliases": [
         "Devastor 2",
         "D16 Devastor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband distortion processor with three independent saturation stages.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "lush-2",
@@ -1197,7 +2050,22 @@
         "Lush-2",
         "D16 Lush-2",
         "Lush2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Stereo chorus and ensemble effect modeled after classic analog chorus hardware.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "repeater",
@@ -1211,7 +2079,22 @@
       "aliases": [
         "Repeater",
         "D16 Repeater"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Delay effect with pitch shifting and reverse capabilities for creative echo effects.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "perfect-room",
@@ -1225,7 +2108,21 @@
       "aliases": [
         "Perfect Room",
         "denise Perfect Room"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Algorithmic reverb focused on realistic room simulation with shape-based controls.",
+      "price_type": "paid"
     },
     {
       "slug": "duck",
@@ -1239,7 +2136,22 @@
       "aliases": [
         "Duck",
         "Devious Machines Duck"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Volume ducking plugin that creates sidechain compression effects without a sidechain input.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "infiltrator",
@@ -1253,7 +2165,22 @@
       "aliases": [
         "Infiltrator",
         "Devious Machines Infiltrator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-effect processor with 54 effect modules arranged in a serial/parallel chain.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "ob-xd",
@@ -1268,7 +2195,23 @@
         "OB-Xd",
         "OBXd",
         "discoDSP OB-Xd"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free virtual analog synthesizer modeled after the Oberheim OB-X/OB-Xa hardware.",
+      "price_type": "free",
+      "year": 2015
     },
     {
       "slug": "equilibrium",
@@ -1282,7 +2225,22 @@
       "aliases": [
         "Equilibrium",
         "DMG Audio Equilibrium"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parametric equalizer with up to 32 bands, dynamic EQ, and multiple filter types.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "blackhole",
@@ -1298,7 +2256,24 @@
       "aliases": [
         "Blackhole",
         "Eventide Blackhole"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Massive reverb inspired by the Eventide Space pedal, creating infinite ambient washes.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "h3000",
@@ -1315,7 +2290,24 @@
         "H3000 Factory",
         "Eventide H3000",
         "H3000"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-effects processor based on the legendary Eventide H3000 hardware harmonizer.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "mangledverb",
@@ -1331,7 +2323,24 @@
       "aliases": [
         "MangledVerb",
         "Eventide MangledVerb"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Reverb fed into distortion, creating aggressive and textural reverb effects.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "physion",
@@ -1347,7 +2356,24 @@
       "aliases": [
         "Physion",
         "Eventide Physion"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Transient shaping processor that splits audio into attack and sustain for independent processing.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "ultratap",
@@ -1363,7 +2389,24 @@
       "aliases": [
         "UltraTap",
         "Eventide UltraTap"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-tap delay with up to 64 taps, rhythmic patterns, and modulation effects.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "fabfilter-pro-c-2",
@@ -1379,7 +2422,23 @@
         "Pro-C 2",
         "ProC2",
         "FabfilterProC2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Professional compressor with multiple compression styles, sidechain, and visual metering.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "fabfilter-pro-l-2",
@@ -1396,7 +2455,24 @@
         "Pro-L 2",
         "ProL2",
         "FabfilterProL2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "True-peak brickwall limiter with multiple limiting algorithms and loudness metering.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "fabfilter-pro-mb",
@@ -1413,7 +2489,24 @@
         "Pro-MB",
         "ProMB",
         "FabfilterProMB"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband dynamics processor with up to 6 bands and intelligent crossover filtering.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "pro-q-3",
@@ -1429,7 +2522,23 @@
         "FabFilter Pro-Q 3",
         "FabfilterProQ3",
         "ProQ3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parametric equalizer with up to 24 bands, dynamic EQ, linear phase, and mid/side support.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "fabfilter-pro-r-2",
@@ -1446,7 +2555,24 @@
         "Pro-R 2",
         "ProR2",
         "FabfilterProR2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Algorithmic reverb with natural decay modeling and an intuitive visual interface.",
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "fabfilter-saturn-2",
@@ -1462,7 +2588,23 @@
         "Saturn 2",
         "Saturn2",
         "FabfilterSaturn2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband saturation and distortion processor with modulation and multiple distortion styles.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "fabfilter-simplon",
@@ -1478,7 +2620,24 @@
         "FabFilter Simplon",
         "Simplon",
         "FabfilterSimplon"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dual-filter plugin with low-pass, high-pass, band-pass, and notch filter modes.",
+      "price_type": "paid",
+      "year": 2009
     },
     {
       "slug": "fabfilter-timeless-3",
@@ -1495,7 +2654,24 @@
         "Timeless 3",
         "Timeless3",
         "FabfilterTimeless3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tape-style delay with pitch shifting, diffusion, and modulation effects.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "fabfilter-twin-3",
@@ -1512,7 +2688,24 @@
         "Twin 3",
         "Twin3",
         "FabfilterTwin3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Synthesizer with three oscillators, multiple filter types, and extensive modulation routing.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "fabfilter-volcano-3",
@@ -1529,7 +2722,24 @@
         "Volcano 3",
         "Volcano3",
         "FabfilterVolcano3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Four-band filter effect with modulation, sidechain, and multiple filter slopes.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "harvest",
@@ -1542,7 +2752,21 @@
       ],
       "aliases": [
         "Harvest"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Discontinued granular synthesis instrument from FabFilter."
     },
     {
       "slug": "fracture",
@@ -1556,7 +2780,21 @@
       "aliases": [
         "Fracture",
         "Glitchmachines Fracture"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Buffer effect processor for creating glitch, stutter, and granular audio mangling.",
+      "price_type": "free"
     },
     {
       "slug": "hysteresis",
@@ -1570,7 +2808,21 @@
       "aliases": [
         "Hysteresis",
         "Glitchmachines Hysteresis"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Glitch delay plugin with modulated buffer effects for experimental sound design.",
+      "price_type": "free"
     },
     {
       "slug": "canopener",
@@ -1586,7 +2838,23 @@
         "CanOpener Studio",
         "CanOpener",
         "Goodhertz CanOpener"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Crossfeed plugin that simulates speaker playback through headphones for natural imaging.",
+      "price_type": "paid"
     },
     {
       "slug": "goodhertz-lossy",
@@ -1601,7 +2869,23 @@
       "aliases": [
         "Lossy",
         "Goodhertz Lossy"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Codec emulation effect simulating MP3, GSM, and other lossy compression artifacts.",
+      "price_type": "paid"
     },
     {
       "slug": "goodhertz-trem-control",
@@ -1616,7 +2900,23 @@
       "aliases": [
         "Trem Control",
         "Goodhertz Trem Control"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tremolo effect with precise waveform shaping and stereo modulation options.",
+      "price_type": "paid"
     },
     {
       "slug": "goodhertz-vulf-compressor",
@@ -1632,7 +2932,23 @@
         "Vulf Compressor",
         "Vulf Comp",
         "Goodhertz Vulf Compressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Characterful compressor with analog-inspired warmth and simple one-knob control.",
+      "price_type": "paid"
     },
     {
       "slug": "goodhertz-wow-control",
@@ -1647,7 +2963,23 @@
       "aliases": [
         "Wow Control",
         "Goodhertz Wow Control"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Wow and flutter effect emulating tape machine speed irregularities.",
+      "price_type": "paid"
     },
     {
       "slug": "ifea-fusion",
@@ -1661,7 +2993,21 @@
       "aliases": [
         "IFEA - Fusion",
         "IFEA Fusion"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Experimental audio effect combining multiple processing algorithms in a visual interface.",
+      "price_type": "paid"
     },
     {
       "slug": "ifea-obra",
@@ -1675,7 +3021,21 @@
       "aliases": [
         "IFEA - OBRA",
         "IFEA OBRA"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Creative audio effect plugin with experimental sound transformation capabilities.",
+      "price_type": "paid"
     },
     {
       "slug": "ifea-spectral-compressor",
@@ -1689,7 +3049,21 @@
       "aliases": [
         "IFEA - Spectral Compressor",
         "IFEA Spectral Compressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spectral compressor applying per-frequency dynamic compression across the spectrum.",
+      "price_type": "paid"
     },
     {
       "slug": "ifea-spectral-gate",
@@ -1703,7 +3077,21 @@
       "aliases": [
         "IFEA - Spectral Gate",
         "IFEA Spectral Gate"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spectral noise gate operating on individual frequency bands for precise gating.",
+      "price_type": "paid"
     },
     {
       "slug": "gatekeeper",
@@ -1720,7 +3108,24 @@
         "Gatekeeper",
         "Infected Mushroom Gatekeeper",
         "Polyverse Gatekeeper"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Volume gate sequencer with drawable envelopes for rhythmic gating and tremolo effects.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "i-wish",
@@ -1737,7 +3142,24 @@
         "I Wish",
         "Infected Mushroom I Wish",
         "Polyverse I Wish"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Granular pitch-shifting effect that freezes and repitches audio in real time.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "manipulator",
@@ -1754,7 +3176,24 @@
         "Manipulator",
         "Infected Mushroom Manipulator",
         "Polyverse Manipulator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Real-time vocal transformation plugin with pitch shifting, harmonizing, and vocoding.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "heat-up-3",
@@ -1768,7 +3207,22 @@
       "aliases": [
         "Heat Up 3",
         "Initial Audio Heat Up 3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-format sample-based rompler covering keys, pads, basses, leads, and orchestral sounds.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "sektor",
@@ -1782,7 +3236,21 @@
       "aliases": [
         "Sektor",
         "Initial Audio Sektor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Wavetable synthesizer with a visual interface and built-in effects for electronic music.",
+      "price_type": "paid"
     },
     {
       "slug": "izotope-rx-voice-de-noise",
@@ -1796,7 +3264,22 @@
       "aliases": [
         "iZotope RX Voice De-noise",
         "RX Voice De-noise"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-powered noise reduction plugin for cleaning up vocal recordings in real time.",
+      "price_type": "paid"
     },
     {
       "slug": "izotope-nectar-4",
@@ -1811,7 +3294,23 @@
         "Nectar 4",
         "iZotope Nectar 4",
         "iZotope Nectar 4 Suite"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vocal channel strip with AI-assisted processing, pitch correction, and harmonics.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "izotope-neutron-4",
@@ -1827,7 +3326,24 @@
         "Neutron 4",
         "iZotope Neutron 4",
         "Neutron4"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-assisted mixing plugin with EQ, compression, gate, and transient shaping modules.",
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "ozone-11",
@@ -1842,7 +3358,23 @@
         "Ozone 11",
         "iZotope Ozone 11",
         "iZotope Ozone 11 Suite"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-powered mastering suite with EQ, dynamics, imager, limiter, and reference matching.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "ozone-11-equalizer",
@@ -1856,7 +3388,23 @@
       "aliases": [
         "Ozone 11 Equalizer",
         "iZotope Ozone 11 Equalizer"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Component EQ from Ozone 11 mastering suite with analog-modeled filter curves.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "ozone-11-exciter",
@@ -1870,7 +3418,23 @@
       "aliases": [
         "Ozone 11 Exciter",
         "iZotope Ozone 11 Exciter"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Component harmonic exciter from Ozone 11 with multiband saturation and warmth.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "ozone-11-imager",
@@ -1884,7 +3448,23 @@
       "aliases": [
         "Ozone 11 Imager",
         "iZotope Ozone 11 Imager"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Component stereo imager from Ozone 11 for multiband stereo width adjustment.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "ozone-11-master-rebalance",
@@ -1898,7 +3478,23 @@
       "aliases": [
         "Ozone 11 Master Rebalance",
         "iZotope Ozone 11 Master Rebalance"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-powered stem rebalancing tool from Ozone 11 for adjusting vocals, bass, and drums in a mix.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "izotope-ozone-9",
@@ -1914,7 +3510,24 @@
         "Ozone 9",
         "iZotope Ozone 9",
         "Ozone9"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Previous-generation mastering suite with EQ, dynamics, imager, and maximizer modules.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "ozone-9-dynamics",
@@ -1926,7 +3539,24 @@
       "aliases": [
         "Ozone 9 Dynamics",
         "iZotope Ozone 9 Dynamics"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Component dynamics processor from Ozone 9 with multiband compression.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "izotope-rx-11",
@@ -1942,7 +3572,24 @@
         "RX 11",
         "iZotope RX 11",
         "RX11"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Audio repair and restoration suite for noise reduction, de-click, de-hum, and spectral editing.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "trash-2",
@@ -1956,7 +3603,23 @@
       "aliases": [
         "Trash 2",
         "iZotope Trash 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband distortion and saturation processor with convolution and trash algorithms.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "izotope-vinyl",
@@ -1972,7 +3635,24 @@
       "aliases": [
         "Vinyl",
         "iZotope Vinyl"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free lo-fi effect emulating vinyl record noise, dust, warp, and mechanical wear.",
+      "price_type": "free",
+      "year": 2004
     },
     {
       "slug": "disperser",
@@ -1988,7 +3668,23 @@
         "Disperser",
         "Kilohearts Disperser",
         "kHs Disperser"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "All-pass filter effect that smears transients and reshapes the phase of audio signals.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "effectrack",
@@ -2004,7 +3700,22 @@
         "EffectRack",
         "Kilohearts EffectRack",
         "kHs EffectRack"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Modular effect hosting rack for combining Kilohearts snapin modules in series and parallel.",
+      "price_type": "paid"
     },
     {
       "slug": "khs-compactor",
@@ -2020,7 +3731,22 @@
         "kHs Compactor",
         "Kilohearts Compactor",
         "Compactor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Simple compressor snapin module for the Kilohearts ecosystem.",
+      "price_type": "paid"
     },
     {
       "slug": "khs-one",
@@ -2036,7 +3762,23 @@
       "aliases": [
         "kHs ONE",
         "Kilohearts ONE"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Subtractive synthesizer with a clean interface and snapin effect hosting capability.",
+      "price_type": "paid"
     },
     {
       "slug": "maim",
@@ -2052,7 +3794,22 @@
         "Maim",
         "kHs Maim",
         "Kilohearts Maim"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Bitcrusher and sample rate reducer snapin for digital degradation effects.",
+      "price_type": "paid"
     },
     {
       "slug": "multipass",
@@ -2067,7 +3824,22 @@
       "aliases": [
         "Multipass",
         "Kilohearts Multipass"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Multiband effect hosting rack that splits audio into bands for independent snapin processing.",
+      "price_type": "paid"
     },
     {
       "slug": "phase-plant",
@@ -2084,7 +3856,24 @@
         "Phase Plant",
         "Kilohearts Phase Plant",
         "PhasePlant"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Semi-modular synthesizer with analog, wavetable, sample, and granular generators plus snapin effects.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "snap-heap",
@@ -2098,7 +3887,22 @@
       "aliases": [
         "Snap Heap",
         "Kilohearts Snap Heap"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Modular multi-effect host with three parallel lanes for stacking Kilohearts snapin modules.",
+      "price_type": "paid"
     },
     {
       "slug": "dc1a",
@@ -2112,7 +3916,23 @@
       "aliases": [
         "DC1A",
         "Klanghelm DC1A"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Simple two-knob compressor with gentle, musical compression character.",
+      "price_type": "free",
+      "year": 2013
     },
     {
       "slug": "mjuc",
@@ -2127,7 +3947,23 @@
         "MJUC",
         "Klanghelm MJUC",
         "MJUC jr"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Variable-mu tube compressor with three distinct compression modes spanning different eras.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "synthmaster-2",
@@ -2141,7 +3977,22 @@
       "aliases": [
         "SynthMaster 2",
         "KV331 SynthMaster"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Semi-modular software synthesizer with multiple synthesis methods and a large preset library.",
+      "price_type": "paid",
+      "year": 2011
     },
     {
       "slug": "sylenth1",
@@ -2158,7 +4009,23 @@
         "Sylenth1",
         "Sylenth",
         "LennarDigital Sylenth1"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Virtual analog synthesizer known for its warm, rich sound and CPU efficiency.",
+      "price_type": "paid",
+      "year": 2006
     },
     {
       "slug": "st1b",
@@ -2173,7 +4040,20 @@
       ],
       "aliases": [
         "st1b"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Utility plugin for stereo monitoring and channel balance analysis."
     },
     {
       "slug": "st4b",
@@ -2188,7 +4068,20 @@
       ],
       "aliases": [
         "st4b"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Utility plugin for multi-channel audio monitoring and signal routing."
     },
     {
       "slug": "helm",
@@ -2202,7 +4095,23 @@
       "aliases": [
         "Helm",
         "Matt Tytel Helm"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free open-source polyphonic synthesizer with a visual modulation interface.",
+      "price_type": "free",
+      "year": 2015
     },
     {
       "slug": "vital",
@@ -2220,7 +4129,23 @@
         "Vital Audio",
         "Matt Tytel Vital",
         "Vitalium"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Spectral warping wavetable synthesizer with visual modulation, text-to-wavetable, and built-in effects.",
+      "price_type": "free",
+      "year": 2020
     },
     {
       "slug": "mautopitch",
@@ -2237,7 +4162,24 @@
         "MAutoPitch",
         "Melda MAutoPitch",
         "MeldaProduction MAutoPitch"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free automatic pitch correction plugin for vocals and monophonic instruments.",
+      "price_type": "free",
+      "year": 2014
     },
     {
       "slug": "mcompressor",
@@ -2254,7 +4196,23 @@
         "MCompressor",
         "Melda MCompressor",
         "MeldaProduction MCompressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Full-featured dynamics compressor with advanced sidechain and detection options.",
+      "price_type": "free"
     },
     {
       "slug": "mfreeformequalizer",
@@ -2271,7 +4229,23 @@
         "MFreeformEqualizer",
         "Melda MFreeformEqualizer",
         "MeldaProduction MFreeformEqualizer"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free-draw parametric equalizer allowing arbitrary EQ curve shapes.",
+      "price_type": "free"
     },
     {
       "slug": "mmatcher",
@@ -2288,7 +4262,23 @@
         "MMatcher",
         "Melda MMatcher",
         "MeldaProduction MMatcher"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Audio matching utility that analyzes and matches loudness, spectrum, and stereo width between tracks.",
+      "price_type": "free"
     },
     {
       "slug": "current",
@@ -2302,7 +4292,22 @@
       "aliases": [
         "Current",
         "Minimal Audio Current"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hybrid synthesizer combining wavetable, sample, and granular engines with intelligent modulation.",
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "rift",
@@ -2316,7 +4321,22 @@
       "aliases": [
         "Rift",
         "Minimal Audio Rift"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Distortion and filter plugin with feedback routing, sequencing, and modulation capabilities.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "minimeters",
@@ -2331,7 +4351,22 @@
       "aliases": [
         "MiniMeters",
         "MiniMeters Suite"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Compact audio metering suite with level, spectrum, stereo, and loudness displays.",
+      "price_type": "free"
     },
     {
       "slug": "minimeters-loudness",
@@ -2346,7 +4381,22 @@
       "aliases": [
         "MiniMeters - Loudness",
         "MiniMeters Loudness"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Dedicated loudness metering plugin showing LUFS, true peak, and loudness range.",
+      "price_type": "free"
     },
     {
       "slug": "absynth-5",
@@ -2363,7 +4413,24 @@
         "Absynth 5",
         "NI Absynth 5",
         "Absynth"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Semi-modular synthesizer specializing in evolving textures, pads, and atmospheric sounds.",
+      "price_type": "paid",
+      "year": 2010
     },
     {
       "slug": "battery-4",
@@ -2380,7 +4447,24 @@
         "Battery 4",
         "NI Battery 4",
         "Battery"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Drum sampler with a cell-based interface for loading, editing, and layering drum kits.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "fm8",
@@ -2395,7 +4479,23 @@
         "FM8",
         "NI FM8",
         "Native Instruments FM8"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Eight-operator FM synthesizer with an advanced modulation matrix and arpeggiator.",
+      "price_type": "paid",
+      "year": 2007
     },
     {
       "slug": "guitar-rig-7",
@@ -2412,7 +4512,24 @@
         "NI Guitar Rig 7",
         "Guitar Rig",
         "GuitarRig7"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Guitar and bass amp/effects simulation suite with signal chain routing.",
+      "price_type": "paid",
+      "year": 2023
     },
     {
       "slug": "kontakt",
@@ -2427,7 +4544,23 @@
         "Kontakt",
         "Kontakt (Legacy)",
         "NI Kontakt"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Industry-standard sample playback engine hosting thousands of third-party instrument libraries.",
+      "price_type": "paid",
+      "year": 2002
     },
     {
       "slug": "kontakt-7",
@@ -2443,7 +4576,24 @@
         "Kontakt 7",
         "NI Kontakt 7",
         "Kontakt7"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Updated sampler platform with new HiDPI interface, effects, and Creator Tools integration.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "kontakt-7-portable",
@@ -2457,7 +4607,23 @@
       "aliases": [
         "Kontakt 7 Portable",
         "NI Kontakt 7 Portable"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Lightweight version of Kontakt 7 for playing NKS libraries without the full sampler.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "kontakt-8",
@@ -2472,7 +4638,23 @@
         "Kontakt 8",
         "NI Kontakt 8",
         "Kontakt8"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Latest version of the Kontakt sampler with improved browser, effects, and performance.",
+      "price_type": "paid",
+      "year": 2024
     },
     {
       "slug": "massive",
@@ -2487,7 +4669,23 @@
         "Massive",
         "NI Massive",
         "Native Instruments Massive"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classic wavetable synthesizer widely used in electronic and bass music production.",
+      "price_type": "paid",
+      "year": 2007
     },
     {
       "slug": "massive-x",
@@ -2503,7 +4701,23 @@
         "MassiveX",
         "NI Massive X",
         "Native Instruments Massive X"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Next-generation wavetable synthesizer with dual sequential wavetable oscillators and routing flexibility.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "monark",
@@ -2519,7 +4733,24 @@
         "Monark",
         "NI Monark",
         "Native Instruments Monark"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Monophonic synthesizer modeled after the Moog Minimoog, available in Reaktor and Komplete.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "reaktor-6",
@@ -2535,7 +4766,23 @@
         "NI Reaktor 6",
         "Reaktor",
         "Native Instruments Reaktor 6"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Visual modular synthesis environment for building custom instruments and effects from blocks.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "super-8",
@@ -2551,7 +4798,24 @@
         "Super 8",
         "NI Super 8",
         "Native Instruments Super 8"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Eight-voice virtual analog polysynth inspired by the Roland Jupiter-8.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "supercharger",
@@ -2566,7 +4830,23 @@
         "Supercharger",
         "NI Supercharger",
         "Native Instruments Supercharger"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube compressor with a one-knob interface delivering punchy, characterful compression.",
+      "price_type": "free",
+      "year": 2012
     },
     {
       "slug": "faturator",
@@ -2582,7 +4862,23 @@
       "aliases": [
         "Faturator",
         "Nembrini Audio Faturator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Saturation and distortion effect originally by Softube, now by Nembrini Audio, for adding harmonic warmth.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "archetype-gojira",
@@ -2596,7 +4892,23 @@
       "aliases": [
         "Archetype Gojira",
         "Neural DSP Archetype Gojira"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Guitar amp/effects suite modeled in collaboration with Gojira guitarist Joe Duplantier.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "elevate",
@@ -2611,7 +4923,22 @@
         "Elevate",
         "Newfangled Audio Elevate",
         "Eventide Elevate"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband limiter with adaptive algorithms and per-band transient emphasis for transparent mastering.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "saturate",
@@ -2626,7 +4953,21 @@
         "Saturate",
         "Newfangled Audio Saturate",
         "Eventide Saturate"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spectral clipper and saturation plugin with adaptive harmonic processing.",
+      "price_type": "paid"
     },
     {
       "slug": "kickstart-2",
@@ -2641,7 +4982,22 @@
         "Kickstart 2",
         "Kickstart",
         "Nicky Romero Kickstart"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "One-knob sidechain volume ducking tool for creating pumping effects in dance music.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "soothe2",
@@ -2658,7 +5014,23 @@
         "Soothe 2",
         "soothe2_x64",
         "oeksound soothe2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamic resonance suppressor that identifies and reduces harsh frequencies in real time.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "spiff",
@@ -2673,7 +5045,23 @@
       "aliases": [
         "spiff",
         "oeksound spiff"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Adaptive transient processor that controls transient emphasis or suppression per frequency.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "chroma",
@@ -2687,7 +5075,21 @@
       "aliases": [
         "Chroma",
         "Output Chroma"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Audio effect combining distortion, filtering, and modulation for cinematic sound design.",
+      "price_type": "paid"
     },
     {
       "slug": "output-exhale",
@@ -2703,7 +5105,23 @@
       "aliases": [
         "Exhale",
         "Output Exhale"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vocal-focused sample instrument built from manipulated human voice recordings.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "movement",
@@ -2718,7 +5136,22 @@
       "aliases": [
         "Movement",
         "Output Movement"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Rhythm-based effect engine applying LFO-driven modulation to any audio signal.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "output-portal",
@@ -2734,7 +5167,23 @@
       "aliases": [
         "Portal",
         "Output Portal"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Granular synthesis effect that transforms audio through grain-based processing.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "output-signal",
@@ -2750,7 +5199,23 @@
       "aliases": [
         "Signal",
         "Output Signal"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Pulse-engine synthesizer combining analog-style synthesis with built-in rhythmic modulation.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "thermal",
@@ -2766,7 +5231,23 @@
       "aliases": [
         "Thermal",
         "Output Thermal"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-stage distortion processor with analog-modeled distortion algorithms and modulation.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "transit-2",
@@ -2781,7 +5262,21 @@
       "aliases": [
         "Transit 2",
         "Output Transit 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Transition and riser effects tool for creating builds, drops, and sweeps.",
+      "price_type": "paid"
     },
     {
       "slug": "chipcrusher2",
@@ -2797,7 +5292,22 @@
         "chipcrusher2",
         "Chipcrusher 2",
         "chipcrusher2_x64"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Chiptune-style bitcrusher emulating vintage gaming console and computer audio hardware.",
+      "price_type": "paid"
     },
     {
       "slug": "chipsynth-sfc",
@@ -2813,7 +5323,23 @@
         "chipsynth SFC",
         "chipsynth SFC_x64",
         "Plogue chipsynth SFC"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Chip music synthesizer accurately emulating the Super Nintendo (SPC700) audio hardware.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "plugdata",
@@ -2827,7 +5353,22 @@
       ],
       "aliases": [
         "plugdata"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Visual patching environment based on Pure Data for building custom instruments in a DAW.",
+      "price_type": "free"
     },
     {
       "slug": "plugdata-fx",
@@ -2842,7 +5383,22 @@
       "aliases": [
         "plugdata-fx",
         "PlugData FX"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Effect version of plugdata for building custom audio effects using Pure Data patching.",
+      "price_type": "free"
     },
     {
       "slug": "bx-console",
@@ -2859,7 +5415,24 @@
         "bx_console",
         "Brainworx bx_console",
         "Plugin Alliance bx_console"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Channel strip plugin modeled after a classic large-format analog mixing console.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "bx-digital-v3",
@@ -2876,7 +5449,24 @@
         "bx_digital V3",
         "Brainworx bx_digital V3",
         "bx_digital"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mid/side mastering equalizer with dynamic EQ, mono-maker, and stereo width control.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "spl-de-esser",
@@ -2892,7 +5482,24 @@
       "aliases": [
         "SPL De-Esser",
         "Plugin Alliance SPL De-Esser"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "De-essing plugin modeled after the SPL hardware de-esser for sibilance control.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "spl-iron",
@@ -2908,7 +5515,24 @@
       "aliases": [
         "SPL Iron",
         "Plugin Alliance SPL Iron"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering compressor modeled after the SPL Iron tube compressor hardware.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "scaler-2",
@@ -2923,7 +5547,22 @@
         "Scaler 2",
         "Plugin Boutique Scaler 2",
         "Scaler2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Music theory and chord progression tool that suggests chords, scales, and voicings via MIDI.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "comet",
@@ -2937,7 +5576,22 @@
       "aliases": [
         "Comet",
         "Polyverse Comet"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Reverb plugin with shimmer, modulation, and infinite freeze for ambient sound design.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "wider",
@@ -2952,7 +5606,22 @@
         "Wider",
         "Polyverse Wider",
         "Infected Mushroom Wider"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free stereo widening plugin using mid/side processing without phase issues in mono.",
+      "price_type": "free",
+      "year": 2016
     },
     {
       "slug": "melodysauce2",
@@ -2967,7 +5636,21 @@
         "MelodySauce2",
         "MelodySauce 2",
         "Melody Sauce 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-powered MIDI melody generator that creates melodies based on selected chords and styles.",
+      "price_type": "paid"
     },
     {
       "slug": "blade-2",
@@ -2981,7 +5664,21 @@
       "aliases": [
         "Blade 2",
         "Rob Papen Blade 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Additive synthesis-based synth with XY pad control and comprehensive modulation.",
+      "price_type": "paid"
     },
     {
       "slug": "predator-3",
@@ -2995,7 +5692,21 @@
       "aliases": [
         "Predator 3",
         "Rob Papen Predator 3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Virtual analog synth designed for leads, basses, and aggressive electronic sounds.",
+      "price_type": "paid"
     },
     {
       "slug": "transient-shaper",
@@ -3009,7 +5720,21 @@
       "aliases": [
         "Transient Shaper",
         "Schaack Audio Transient Shaper"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Transient designer for boosting or attenuating the attack and sustain of audio signals.",
+      "price_type": "paid"
     },
     {
       "slug": "argentcompressor",
@@ -3023,7 +5748,21 @@
       "aliases": [
         "ArgentCompressor",
         "SIR Audio ArgentCompressor"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Clean, transparent compressor with adjustable character from gentle to aggressive.",
+      "price_type": "paid"
     },
     {
       "slug": "standardclip",
@@ -3038,7 +5777,21 @@
       "aliases": [
         "StandardCLIP",
         "SIR Audio StandardCLIP"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Soft/hard clipper and waveshaper for transparent loudness or aggressive distortion.",
+      "price_type": "paid"
     },
     {
       "slug": "fg-x-2",
@@ -3055,7 +5808,24 @@
         "FG-X 2",
         "Slate Digital FG-X 2",
         "FGX2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering processor combining compression, saturation, and limiting in one interface.",
+      "price_type": "paid",
+      "year": 2020
     },
     {
       "slug": "virtual-mix-rack",
@@ -3072,7 +5842,24 @@
         "Virtual Mix Rack",
         "VMR",
         "Slate Digital Virtual Mix Rack"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Modular channel strip hosting interchangeable EQ, compressor, and gate modules.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "virtual-tape-machines",
@@ -3089,7 +5876,24 @@
         "Virtual Tape Machines",
         "VTM",
         "Slate Digital Virtual Tape Machines"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tape machine emulation adding warmth, saturation, and compression from analog tape.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "console-1",
@@ -3105,7 +5909,24 @@
       "aliases": [
         "Console 1",
         "Softube Console 1"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hardware-integrated channel strip providing EQ, compression, saturation, and gate per channel.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "saturation-knob",
@@ -3121,7 +5942,24 @@
       "aliases": [
         "Saturation Knob",
         "Softube Saturation Knob"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free single-knob saturation plugin with three saturation curve modes.",
+      "price_type": "free",
+      "year": 2012
     },
     {
       "slug": "bitspeek",
@@ -3136,7 +5974,22 @@
       "aliases": [
         "Bitspeek",
         "Sonic Charge Bitspeek"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Real-time speech synthesizer effect using LPC vocoding for robotic vocal transformation.",
+      "price_type": "paid",
+      "year": 2011
     },
     {
       "slug": "synplant",
@@ -3153,7 +6006,23 @@
         "Synplant",
         "Synplant 2",
         "Sonic Charge Synplant"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Synthesizer with a genetic/evolutionary interface where sounds grow from seeds.",
+      "price_type": "paid",
+      "year": 2008
     },
     {
       "slug": "oxford-dynamics",
@@ -3169,7 +6038,24 @@
       "aliases": [
         "Oxford Dynamics",
         "Sonnox Oxford Dynamics"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Professional dynamics processor with compressor, limiter, expander, and gate sections.",
+      "price_type": "paid",
+      "year": 2005
     },
     {
       "slug": "oxford-eq",
@@ -3185,7 +6071,24 @@
       "aliases": [
         "Oxford EQ",
         "Sonnox Oxford EQ"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parametric EQ with five fully featured bands and additional high/low-pass filters.",
+      "price_type": "paid",
+      "year": 2005
     },
     {
       "slug": "oxford-limiter",
@@ -3201,7 +6104,24 @@
       "aliases": [
         "Oxford Limiter",
         "Sonnox Oxford Limiter"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Brickwall limiter with enhance section for transparent loudness maximizing.",
+      "price_type": "paid",
+      "year": 2007
     },
     {
       "slug": "crystallizer",
@@ -3215,7 +6135,23 @@
       "aliases": [
         "Crystallizer",
         "Soundtoys Crystallizer"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Granular pitch-shifting reverse echo inspired by vintage Crystal Echoes hardware.",
+      "price_type": "paid",
+      "year": 2008
     },
     {
       "slug": "decapitator",
@@ -3230,7 +6166,23 @@
       "aliases": [
         "Decapitator",
         "Soundtoys Decapitator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Analog saturation modeler with five saturation styles from subtle warmth to heavy distortion.",
+      "price_type": "paid",
+      "year": 2010
     },
     {
       "slug": "devil-loc",
@@ -3247,7 +6199,24 @@
         "Devil-Loc",
         "Devil-Loc Deluxe",
         "Soundtoys Devil-Loc"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Extreme compressor/distortion inspired by a cheap 1960s hardware leveler.",
+      "price_type": "paid",
+      "year": 2010
     },
     {
       "slug": "echoboy",
@@ -3263,7 +6232,23 @@
         "EchoBoy",
         "Soundtoys EchoBoy",
         "EchoBoy Jr"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vintage-style delay with 30+ echo styles emulating classic tape, analog, and digital delays.",
+      "price_type": "paid",
+      "year": 2005
     },
     {
       "slug": "filterfreak",
@@ -3281,7 +6266,24 @@
         "Soundtoys FilterFreak",
         "FilterFreak 1",
         "FilterFreak 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Analog-modeled resonant filter with LFO and envelope following for rhythmic filtering.",
+      "price_type": "paid",
+      "year": 2005
     },
     {
       "slug": "littlealterboy",
@@ -3298,7 +6300,24 @@
         "Little AlterBoy",
         "LittleAlterBoy",
         "Soundtoys Little AlterBoy"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vocal pitch and formant shifter for real-time voice transformation effects.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "panman",
@@ -3314,7 +6333,24 @@
       "aliases": [
         "PanMan",
         "Soundtoys PanMan"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Auto-panning and tremolo effect with multiple waveform shapes and sync options.",
+      "price_type": "paid",
+      "year": 2008
     },
     {
       "slug": "primaltap",
@@ -3330,7 +6366,24 @@
       "aliases": [
         "PrimalTap",
         "Soundtoys PrimalTap"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Delay and looping effect inspired by the Lexicon Prime Time hardware.",
+      "price_type": "paid",
+      "year": 2015
     },
     {
       "slug": "soundtoys-collection",
@@ -3344,7 +6397,22 @@
       "aliases": [
         "SoundToys Collection",
         "Soundtoys 5"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Bundle containing all Soundtoys effect plugins in the Effect Rack hosting environment.",
+      "price_type": "paid"
     },
     {
       "slug": "tremolator",
@@ -3360,7 +6428,24 @@
       "aliases": [
         "Tremolator",
         "Soundtoys Tremolator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tremolo and auto-gate effect with tempo sync and envelope-following capabilities.",
+      "price_type": "paid",
+      "year": 2006
     },
     {
       "slug": "keyscape",
@@ -3376,7 +6461,24 @@
       "aliases": [
         "Keyscape",
         "Spectrasonics Keyscape"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Premium keyboard instrument with deeply sampled acoustic and electric pianos and keys.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "omnisphere",
@@ -3393,7 +6495,24 @@
         "Omnisphere",
         "Omnisphere 2",
         "Spectrasonics Omnisphere"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Flagship synthesizer combining sample-based synthesis, wavetables, and granular processing.",
+      "price_type": "paid",
+      "year": 2008
     },
     {
       "slug": "trilian",
@@ -3409,7 +6528,24 @@
       "aliases": [
         "Trilian",
         "Spectrasonics Trilian"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Bass instrument with acoustic, electric, and synth bass sounds and arpeggiator.",
+      "price_type": "paid",
+      "year": 2009
     },
     {
       "slug": "bbc-symphony-orchestra",
@@ -3426,7 +6562,23 @@
         "BBC Symphony Orchestra",
         "Spitfire BBC Symphony Orchestra",
         "BBCSO"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Full symphonic orchestra sample library recorded at Maida Vale Studios.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "spitfire-labs",
@@ -3443,7 +6595,23 @@
         "LABS",
         "Spitfire LABS",
         "Spitfire Audio LABS"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free collection of unique sample-based instruments from Spitfire Audio.",
+      "price_type": "free",
+      "year": 2018
     },
     {
       "slug": "spitfire-originals",
@@ -3460,7 +6628,23 @@
         "Originals",
         "Spitfire Originals",
         "Spitfire Audio Originals"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Curated single-instrument sample libraries at an accessible price point.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "modnetic",
@@ -3474,7 +6658,21 @@
       "aliases": [
         "Modnetic",
         "Surreal Machines Modnetic"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tape delay emulation with modulation, saturation, and degradation inspired by vintage hardware.",
+      "price_type": "paid"
     },
     {
       "slug": "tal-chorus-lx",
@@ -3491,7 +6689,24 @@
         "TAL-Chorus-LX",
         "TAL Chorus LX",
         "TAL-Chorus-LX-V2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free chorus effect modeled after the Roland Juno-60 built-in chorus circuit.",
+      "price_type": "free",
+      "year": 2011
     },
     {
       "slug": "tal-dub",
@@ -3508,7 +6723,24 @@
         "TAL-Dub",
         "TAL Dub",
         "TAL-Dub-3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Vintage-style delay with tape saturation and a lo-fi analog character.",
+      "price_type": "free",
+      "year": 2010
     },
     {
       "slug": "tal-reverb-4",
@@ -3524,7 +6756,24 @@
       "aliases": [
         "TAL-Reverb-4",
         "TAL Reverb 4"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Plate reverb with a modulated, lush character for ambient and retro effects.",
+      "price_type": "free",
+      "year": 2010
     },
     {
       "slug": "tal-u-no-lx",
@@ -3541,7 +6790,24 @@
         "TAL-U-NO-LX",
         "TAL U-NO-LX",
         "TAL-U-NO-LX-V2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Software emulation of the Roland Juno-60 analog synthesizer.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "tdr-kotelnikov",
@@ -3558,7 +6824,24 @@
         "TDR Kotelnikov",
         "Kotelnikov",
         "Tokyo Dawn Kotelnikov"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Wideband dynamics compressor with transparent to characterful compression modes.",
+      "price_type": "freemium",
+      "year": 2012
     },
     {
       "slug": "tdr-nova",
@@ -3575,7 +6858,24 @@
         "TDR Nova",
         "Nova",
         "Tokyo Dawn Nova"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Dynamic equalizer with up to four bands that combine EQ and compression.",
+      "price_type": "freemium",
+      "year": 2015
     },
     {
       "slug": "tdr-vos-slickeq",
@@ -3592,7 +6892,24 @@
         "TDR VOS SlickEQ",
         "SlickEQ",
         "Tokyo Dawn SlickEQ"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Three-band mixing equalizer with analog-modeled saturation and output stage.",
+      "price_type": "freemium",
+      "year": 2014
     },
     {
       "slug": "icarus-2",
@@ -3606,7 +6923,22 @@
       "aliases": [
         "Icarus 2",
         "Tone2 Icarus 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Wavetable synthesizer with 3D wavetable editing, resynthesis, and HyperSaw oscillators.",
+      "price_type": "paid",
+      "year": 2021
     },
     {
       "slug": "ezdrummer-3",
@@ -3620,7 +6952,22 @@
       "aliases": [
         "EZdrummer 3",
         "Toontrack EZdrummer 3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Drum production tool with a large drum library, groove browser, and song arranger.",
+      "price_type": "paid",
+      "year": 2022
     },
     {
       "slug": "superior-drummer-3",
@@ -3635,7 +6982,22 @@
         "Superior Drummer 3",
         "SD3",
         "Toontrack Superior Drummer 3"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Premium drum sampler with deep editing, mixing, and e-drum triggering capabilities.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "ace",
@@ -3651,7 +7013,25 @@
       "aliases": [
         "ACE",
         "u-he ACE"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Semi-modular synthesizer with patchable signal routing and a classic analog sound.",
+      "price_type": "paid",
+      "year": 2010
     },
     {
       "slug": "diva",
@@ -3667,7 +7047,25 @@
       "aliases": [
         "Diva",
         "u-he Diva"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Virtual analog synthesizer with component-modeled oscillators and zero-delay feedback filters.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "hive-2",
@@ -3685,7 +7083,25 @@
         "u-he Hive 2",
         "Hive2",
         "Hive"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Streamlined wavetable synthesizer optimized for low CPU usage and fast workflow.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "presswerk",
@@ -3701,7 +7117,25 @@
       "aliases": [
         "Presswerk",
         "u-he Presswerk"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Full-featured dynamics compressor with sidechain, parallel compression, and vintage character.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "repro-1",
@@ -3719,7 +7153,25 @@
         "u-he Repro-1",
         "Repro1",
         "Repro"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Monophonic synthesizer faithfully modeling the Sequential Pro-One hardware.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "repro-5",
@@ -3736,7 +7188,25 @@
         "Repro-5",
         "u-he Repro-5",
         "Repro5"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Polyphonic synthesizer faithfully modeling the Sequential Prophet-5 hardware.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "satin",
@@ -3752,7 +7222,25 @@
       "aliases": [
         "Satin",
         "u-he Satin"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Tape machine emulation with recording, delay, and flanger modes from reel-to-reel modeling.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "zebra-2",
@@ -3770,7 +7258,25 @@
         "u-he Zebra 2",
         "Zebra2",
         "ZebraHZ"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Modular synthesizer combining subtractive, additive, wavetable, and FM synthesis methods.",
+      "price_type": "paid",
+      "year": 2006
     },
     {
       "slug": "sandman-pro",
@@ -3784,7 +7290,22 @@
       "aliases": [
         "Sandman Pro",
         "Unfiltered Audio Sandman Pro"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Experimental delay with freeze, spectral shift, and granular buffer manipulation.",
+      "price_type": "paid",
+      "year": 2018
     },
     {
       "slug": "valhalla-dsp-collection",
@@ -3797,7 +7318,21 @@
       ],
       "aliases": [
         "Valhalla DSP Collection"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Bundle containing all Valhalla DSP reverb, delay, and modulation plugins.",
+      "price_type": "paid"
     },
     {
       "slug": "valhalladelay",
@@ -3811,7 +7346,22 @@
       "aliases": [
         "ValhallaDelay",
         "Valhalla Delay"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Versatile delay with tape, BBD, digital, and pitch-shifting modes.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "valhallafreqecho",
@@ -3826,7 +7376,22 @@
         "ValhallaFreqEcho",
         "Valhalla FreqEcho",
         "Valhalla Freq Echo"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free frequency shifter and analog echo plugin for metallic and otherworldly effects.",
+      "price_type": "free",
+      "year": 2012
     },
     {
       "slug": "valhallaplate",
@@ -3840,7 +7405,22 @@
       "aliases": [
         "ValhallaPlate",
         "Valhalla Plate"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Plate reverb with lush, smooth character inspired by classic hardware plate reverbs.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "valhallaroom",
@@ -3854,7 +7434,22 @@
       "aliases": [
         "ValhallaRoom",
         "Valhalla Room"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Algorithmic room and hall reverb with natural-sounding early reflections.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "valhallashimmer",
@@ -3868,7 +7463,22 @@
       "aliases": [
         "ValhallaShimmer",
         "Valhalla Shimmer"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Pitch-shifting reverb creating ethereal, harmonically rich ambient textures.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "valhallaspacemodulator",
@@ -3883,7 +7493,22 @@
         "ValhallaSpaceModulator",
         "Valhalla SpaceModulator",
         "Valhalla Space Modulator"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free flanging and modulation effect with eleven algorithms.",
+      "price_type": "free",
+      "year": 2016
     },
     {
       "slug": "valhallasupermassive",
@@ -3899,7 +7524,23 @@
       "aliases": [
         "ValhallaSupermassive",
         "Valhalla Supermassive"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free massive reverb and delay plugin with feedback-driven washes and long tails.",
+      "price_type": "free",
+      "year": 2020
     },
     {
       "slug": "valhallaubermod",
@@ -3913,7 +7554,22 @@
       "aliases": [
         "ValhallaUberMod",
         "Valhalla UberMod"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Modulation multi-effect combining chorus, flanger, and ensemble effects.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "valhallavintageverb",
@@ -3928,7 +7584,22 @@
         "ValhallaVintageVerb",
         "Valhalla VintageVerb",
         "Valhalla Vintage Verb"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Algorithmic reverb with vintage character inspired by hardware reverbs from the 1970s-1980s.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "voxengo-marvel-geq",
@@ -3942,7 +7613,23 @@
       "aliases": [
         "Marvel GEQ",
         "Voxengo Marvel GEQ"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free linear-phase 16-band graphic equalizer with spectrum analyzer.",
+      "price_type": "free",
+      "year": 2008
     },
     {
       "slug": "voxengo-msed",
@@ -3956,7 +7643,23 @@
       "aliases": [
         "MSED",
         "Voxengo MSED"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free mid/side encoding and decoding utility for stereo manipulation.",
+      "price_type": "free",
+      "year": 2011
     },
     {
       "slug": "span",
@@ -3971,7 +7674,23 @@
       "aliases": [
         "SPAN",
         "Voxengo SPAN"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Free real-time FFT spectrum analyzer with customizable display and metering.",
+      "price_type": "free",
+      "year": 2005
     },
     {
       "slug": "span-plus",
@@ -3985,7 +7704,23 @@
       "aliases": [
         "SPAN Plus",
         "Voxengo SPAN Plus"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Enhanced spectrum analyzer with sidechain comparison, metering presets, and extended features.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "abbey-road-plates",
@@ -4001,7 +7736,24 @@
       "aliases": [
         "Abbey Road Plates",
         "Waves Abbey Road Plates"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Plate reverb emulation modeled from Abbey Road Studios' original EMT 140 hardware.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "cla-2a",
@@ -4017,7 +7769,24 @@
       "aliases": [
         "CLA-2A",
         "Waves CLA-2A"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Optical compressor/limiter emulation modeled after the Teletronix LA-2A hardware.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "cla-76",
@@ -4033,7 +7802,24 @@
       "aliases": [
         "CLA-76",
         "Waves CLA-76"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "FET compressor emulation modeled after the UREI 1176 with Blacky and Bluey editions.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "h-delay",
@@ -4050,7 +7836,24 @@
         "H-Delay",
         "Waves H-Delay",
         "HDelay"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hybrid delay combining analog, tape, and digital delay flavors with modulation.",
+      "price_type": "paid",
+      "year": 2006
     },
     {
       "slug": "waves-j37",
@@ -4067,7 +7870,24 @@
         "J37 Tape",
         "J37",
         "Waves J37"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tape saturation effect modeled after the Abbey Road Studios Studer J37 tape machine.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "waves-l1",
@@ -4084,7 +7904,24 @@
         "L1 Ultramaximizer",
         "L1",
         "Waves L1"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classic brickwall peak limiter and loudness maximizer for mastering.",
+      "price_type": "paid",
+      "year": 1997
     },
     {
       "slug": "waves-l2",
@@ -4101,7 +7938,24 @@
         "L2 Ultramaximizer",
         "L2",
         "Waves L2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Brickwall limiter with look-ahead and ARC auto-release for transparent limiting.",
+      "price_type": "paid",
+      "year": 2001
     },
     {
       "slug": "waves-rbass",
@@ -4116,7 +7970,23 @@
         "Renaissance Bass",
         "RBass",
         "Waves RBass"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Bass enhancement processor using harmonic generation to extend low-frequency perception.",
+      "price_type": "paid",
+      "year": 2001
     },
     {
       "slug": "waves-rcomp",
@@ -4131,7 +8001,23 @@
         "Renaissance Compressor",
         "RComp",
         "Waves RComp"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Smooth compressor with program-dependent auto-release and warm analog character.",
+      "price_type": "paid",
+      "year": 2001
     },
     {
       "slug": "waves-req",
@@ -4146,7 +8032,23 @@
         "Renaissance EQ",
         "REQ",
         "Waves REQ"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parametric and graphic equalizer with six bands and vintage analog tonality.",
+      "price_type": "paid",
+      "year": 2001
     },
     {
       "slug": "waves-rvox",
@@ -4163,7 +8065,24 @@
         "RVox",
         "R-Vox",
         "Waves RVox"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "One-knob vocal compressor designed for quick, effective vocal level control.",
+      "price_type": "paid",
+      "year": 2010
     },
     {
       "slug": "waves-scheps-omni-channel",
@@ -4177,7 +8096,22 @@
       "aliases": [
         "Scheps Omni Channel",
         "Waves Scheps Omni Channel"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Channel strip designed by Andrew Scheps with compression, EQ, saturation, and de-essing.",
+      "price_type": "paid"
     },
     {
       "slug": "ssl-e-channel",
@@ -4193,7 +8127,24 @@
       "aliases": [
         "SSL E-Channel",
         "Waves SSL E-Channel"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Channel strip modeled after the SSL 4000 E-Series console with EQ, dynamics, and filters.",
+      "price_type": "paid",
+      "year": 2005
     },
     {
       "slug": "ssl-g-master-buss",
@@ -4210,7 +8161,24 @@
         "SSL G-Master Buss Compressor",
         "SSL G-Master Buss",
         "Waves SSL G-Master"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Bus compressor modeled after the SSL 4000 G-Series master bus compressor.",
+      "price_type": "paid",
+      "year": 2006
     },
     {
       "slug": "waves-vitamin",
@@ -4227,7 +8195,24 @@
         "Vitamin",
         "Waves Vitamin",
         "Vitamin Sonic Enhancer"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband harmonic enhancer that adds energy and presence to individual frequency ranges.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "waveshell",
@@ -4243,7 +8228,22 @@
         "WaveShell1-VST3 14.12_x64",
         "WaveShell",
         "Waves WaveShell"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Waves plugin hosting shell that loads individual Waves plugins inside a DAW.",
+      "price_type": "paid"
     },
     {
       "slug": "spectre",
@@ -4257,7 +8257,23 @@
       "aliases": [
         "Spectre",
         "Wavesfactory Spectre"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband harmonic enhancer that adds saturation and harmonics per frequency band.",
+      "price_type": "paid",
+      "year": 2019
     },
     {
       "slug": "trackspacer",
@@ -4271,7 +8287,23 @@
       "aliases": [
         "Trackspacer",
         "Wavesfactory Trackspacer"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamic sidechain EQ that creates space for one track by ducking conflicting frequencies in another.",
+      "price_type": "paid",
+      "year": 2016
     },
     {
       "slug": "cthulhu",
@@ -4287,7 +8319,23 @@
         "Cthulhu",
         "Xfer Cthulhu",
         "Cthulhu_x64"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Chord and arpeggio MIDI effect that generates chords from single notes with pattern sequencing.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "lfotool",
@@ -4304,7 +8352,24 @@
         "LFOTool",
         "LFO Tool",
         "Xfer LFOTool"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "LFO-driven volume, filter, and pan modulation tool for sidechain-style effects and tremolo.",
+      "price_type": "paid",
+      "year": 2012
     },
     {
       "slug": "ott",
@@ -4320,7 +8385,24 @@
       "aliases": [
         "OTT",
         "Xfer OTT"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multiband upward/downward compressor recreating the popular Ableton preset for aggressive dynamics.",
+      "price_type": "free",
+      "year": 2014
     },
     {
       "slug": "serum",
@@ -4337,7 +8419,24 @@
         "Serum",
         "Xfer Serum",
         "SerumFX"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Advanced wavetable synthesizer with visual feedback, drag-and-drop modulation, and built-in effects.",
+      "price_type": "paid",
+      "year": 2014
     },
     {
       "slug": "serum-2",
@@ -4352,7 +8451,23 @@
         "Serum 2",
         "Serum2",
         "Xfer Serum 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Next-generation wavetable synthesizer building on Serum with expanded synthesis and modulation.",
+      "price_type": "paid",
+      "year": 2025
     },
     {
       "slug": "addictive-drums-2",
@@ -4367,7 +8482,22 @@
         "Addictive Drums 2",
         "AD2",
         "XLN Audio Addictive Drums 2"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Drum production plugin with mix-ready kits, pattern browser, and tone shaping controls.",
+      "price_type": "paid",
+      "year": 2013
     },
     {
       "slug": "rc-20",
@@ -4382,7 +8512,22 @@
         "RC-20 Retro Color",
         "RC-20",
         "XLN Audio RC-20"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Lo-fi and retro effects processor with noise, wobble, distortion, and space modules.",
+      "price_type": "paid",
+      "year": 2017
     },
     {
       "slug": "youlean-loudness-meter-2",
@@ -4397,7 +8542,22 @@
       "aliases": [
         "Youlean Loudness Meter 2",
         "Youlean Loudness Meter"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Loudness metering plugin supporting LUFS, true peak, and various broadcast standards.",
+      "price_type": "freemium",
+      "year": 2019
     },
     {
       "slug": "pitchmap-colors",
@@ -4412,7 +8572,22 @@
         "PITCHMAP COLORS",
         "PITCHMAP COLORS VST3",
         "Zynaptiq PITCHMAP"
-      ]
+      ],
+      "daws": [
+        "Bitwig",
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Real-time polyphonic pitch remapping plugin for retuning or transposing audio material.",
+      "price_type": "paid",
+      "year": 2020
     }
   ]
 }
