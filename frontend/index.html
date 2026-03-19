@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PluginDB - Open Audio Plugin Database</title>
+  <meta name="description" content="The open database for audio production plugins. Search, browse, and discover VSTs, Audio Units, and CLAP plugins.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <a href="#app" class="skip-link">Skip to content</a>
+
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="#/" class="logo" aria-label="PluginDB Home">
+        <svg class="logo-icon" width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="currentColor"/><path d="M6 20 L10 12 L14 18 L18 8 L22 16 L26 10" fill="none" stroke="#0d1117" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        PluginDB
+      </a>
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="#/" class="nav-link" data-route="home">Plugins</a>
+        <a href="#/manufacturers" class="nav-link" data-route="manufacturers">Manufacturers</a>
+        <a href="/docs" class="nav-link nav-link-external" target="_blank">API</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" role="main">
+    <div class="loading-spinner" aria-label="Loading"></div>
+  </main>
+
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <p>PluginDB &middot; <a href="https://github.com/blakebratcher/plugindb" target="_blank" rel="noopener">GitHub</a> &middot; Code: MIT &middot; Data: CC0</p>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-PluginDB is an open database and REST API for audio production plugins (VSTs, Audio Units, CLAP). Python/FastAPI backend with SQLite (in-process, no external DB server). The canonical data source is `data/seed.json` — the SQLite DB is derived from it at startup. Read-only API; all data changes go through GitHub PRs to seed.json.
+PluginDB is an open database and REST API for audio production plugins (VSTs, Audio Units, CLAP) with a web frontend. Python/FastAPI backend with SQLite (in-process, no external DB server). Vanilla HTML/CSS/JS frontend served by FastAPI. The canonical data source is `data/seed.json` — the SQLite DB is derived from it at startup. Read-only API; all data changes go through GitHub PRs to seed.json.
 
 ## Commands
 
@@ -61,6 +61,26 @@ After modifying `data/seed.json`, re-run `python -m plugindb.seed`. Schema chang
 
 Swagger at `/docs`, ReDoc at `/redoc`.
 
+## Frontend
+
+Vanilla SPA in `frontend/` (index.html, style.css, app.js, favicon.svg). No build tools, no npm.
+
+- Hash-based router (`#/path`) — no server-side routing needed
+- Content negotiation on `/` — HTML for browsers (`Accept: text/html`), JSON for API clients
+- `StaticFiles` mounted last in FastAPI (catch-all, `html=True`)
+- Debounced typeahead using `/suggest` endpoint
+- Filter state encoded in URL hash for bookmarkability
+- Dark theme via CSS custom properties (audio production aesthetic)
+- Responsive (mobile-friendly at 768px and 480px breakpoints)
+- All user data escaped via `escapeHtml()` to prevent XSS
+
+## Community
+
+- GitHub Issue templates: plugin submission (structured form), data correction
+- PR template with validation checklist
+- CONTRIBUTING.md with data format docs and valid field values
+- CI runs full test suite + seed stats summary on data PRs
+
 ## Testing
 
 In-memory SQLite via `create_app(db_connection=...)`. Fixtures: `seed_data` (3 mfrs, 3 plugins with tags/year/price_type/os), `seeded_db`, `client`.
@@ -81,7 +101,7 @@ In-memory SQLite via `create_app(db_connection=...)`. Fixtures: `seed_data` (3 m
 
 ## Docker
 
-Multi-stage (builder → seeder → runtime) from `python:3.12-slim`. `.dockerignore` excludes tests/docs. Healthcheck every 30s.
+Multi-stage (builder → seeder → runtime) from `python:3.12-slim`. Frontend files copied in runtime stage. `.dockerignore` excludes tests/docs. Healthcheck every 30s.
 
 ## CI
 

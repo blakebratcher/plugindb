@@ -35,3 +35,23 @@ jobs:
           print(f'Seed import OK: {counts[\"plugins\"]} plugins, {counts[\"manufacturers\"]} manufacturers, {counts[\"aliases\"]} aliases')
           conn.close()
           "
+
+      - name: Run full test suite
+        run: python -m pytest tests/ -v --tb=short
+
+      - name: Report seed stats
+        run: |
+          python -c "
+          import json
+          data = json.load(open('data/seed.json'))
+          p = len(data.get('plugins', []))
+          m = len(data.get('manufacturers', []))
+          cats = {}
+          for pl in data['plugins']:
+              c = pl.get('category', 'unknown')
+              cats[c] = cats.get(c, 0) + 1
+          print('## Seed Summary')
+          print(f'- **{p}** plugins from **{m}** manufacturers')
+          for c, n in sorted(cats.items()):
+              print(f'  - {c}: {n}')
+          " >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,26 @@
+name: Data Correction
+description: Report an error in existing plugin data
+title: "[Fix] "
+labels: ["data-correction"]
+body:
+  - type: input
+    id: plugin_name
+    attributes:
+      label: Plugin Name
+      description: Which plugin has incorrect data?
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_is_wrong
+    attributes:
+      label: What is incorrect?
+      description: Describe what data is wrong and what it should be
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to official page or other evidence

@@ -18,6 +18,7 @@ FROM python:3.12-slim
 COPY --from=builder /install /usr/local
 COPY --from=seeder /app /app
 WORKDIR /app
+COPY frontend/ frontend/
 
 RUN useradd --create-home plugindb
 USER plugindb

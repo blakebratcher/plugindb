@@ -1,0 +1,114 @@
+name: Submit a Plugin
+description: Add a new audio plugin to the PluginDB database
+title: "[Plugin] "
+labels: ["plugin-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to PluginDB! Fill out the details below to submit a new plugin.
+
+  - type: input
+    id: plugin_name
+    attributes:
+      label: Plugin Name
+      placeholder: "e.g., Serum"
+    validations:
+      required: true
+
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: "e.g., Xfer Records"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - instrument
+        - effect
+        - midi
+        - utility
+        - container
+        - note-effect
+    validations:
+      required: true
+
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory
+      description: "e.g., synth, reverb, compressor, eq, delay, sampler, analyzer"
+      placeholder: "e.g., synth"
+
+  - type: checkboxes
+    id: formats
+    attributes:
+      label: Formats
+      options:
+        - label: VST2
+        - label: VST3
+        - label: AU
+        - label: AAX
+        - label: CLAP
+        - label: LV2
+        - label: Standalone
+
+  - type: checkboxes
+    id: os
+    attributes:
+      label: Operating Systems
+      options:
+        - label: Windows
+        - label: macOS
+        - label: Linux
+
+  - type: dropdown
+    id: price_type
+    attributes:
+      label: Price Type
+      options:
+        - free
+        - paid
+        - freemium
+        - subscription
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Release Year
+      placeholder: "e.g., 2020"
+
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+      placeholder: "https://..."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what the plugin does (1-2 sentences)
+
+  - type: input
+    id: aliases
+    attributes:
+      label: Aliases
+      description: "Common names, comma-separated (include the official name)"
+      placeholder: "Serum, Xfer Serum, SerumFX"
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: "Descriptive tags, comma-separated (lowercase, hyphenated)"
+      placeholder: "synthesizer, wavetable, electronic"

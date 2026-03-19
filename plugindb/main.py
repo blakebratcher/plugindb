@@ -7,11 +7,13 @@ import logging
 import sqlite3
 import time
 from contextlib import asynccontextmanager
+from pathlib import Path
 from typing import AsyncIterator
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 from slowapi.util import get_remote_address
@@ -172,9 +174,14 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
         from plugindb.routes.meta import health_check
         return health_check()
 
-    # API root — service info and version
+    # API root — content-negotiated: HTML for browsers, JSON for API clients
+    frontend_dir = Path(__file__).resolve().parent.parent / "frontend"
+
     @app.get("/")
-    def root():
+    def root(request: Request):
+        accept = request.headers.get("accept", "")
+        if "text/html" in accept and frontend_dir.is_dir():
+            return FileResponse(frontend_dir / "index.html")
         return {
             "name": "PluginDB",
             "version": __version__,
@@ -191,5 +198,9 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
             status_code=500,
             content={"error": "internal_server_error", "detail": "An unexpected error occurred"},
         )
+
+    # Mount static frontend files (must be last — catch-all)
+    if frontend_dir.is_dir():
+        app.mount("/", StaticFiles(directory=str(frontend_dir), html=True), name="frontend")
 
     return app

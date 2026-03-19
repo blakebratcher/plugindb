@@ -1,46 +1,58 @@
 # PluginDB
 
-An open database and REST API for audio production plugins. Think MusicBrainz, but for VSTs, Audio Units, and CLAP plugins. PluginDB provides instant alias-based lookup, full-text search, and a structured taxonomy of instruments, effects, containers, and utilities used in modern music production.
+The open database for audio production plugins. Search, browse, and discover VSTs, Audio Units, and CLAP plugins through a clean web interface or a powerful REST API.
+
+> Think MusicBrainz, but for audio plugins. 294 plugins from 93 manufacturers — and growing.
 
 ## Quickstart
 
 ```bash
-# Install
 pip install -e ".[dev]"
-
-# Seed the database from data/seed.json
 python -m plugindb.seed
-
-# Run the server
 uvicorn plugindb.main:create_app --factory --host 0.0.0.0 --port 8000
 ```
+
+Open http://localhost:8000 for the web UI, or http://localhost:8000/docs for the API explorer.
+
+## Features
+
+- **Instant lookup** — resolve any plugin name or alias in milliseconds
+- **Full-text search** — FTS5-powered search across names, descriptions, tags, and aliases
+- **Rich filtering** — category, subcategory, format, OS, DAW, tags, price type, year ranges
+- **Similar plugins** — discover alternatives based on tag overlap
+- **Autocomplete** — typeahead suggestions with manufacturer context
+- **Batch lookup** — resolve up to 200 plugin names in a single request
+- **Bulk export** — download the entire catalog as JSON or CSV
+- **Plugin comparison** — compare 2-5 plugins side by side
+- **HTTP caching** — ETag + Cache-Control for efficient client caching
+- **Zero dependencies frontend** — vanilla HTML/CSS/JS, no build tools
 
 ## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `GET` | `/health` | Health check |
+| `GET` | `/health` | Health check (enriched with counts and uptime) |
 | `GET` | `/api/v1/lookup?alias=X` | Resolve a plugin by name or alias |
 | `POST` | `/api/v1/lookup` | Batch resolve up to 200 names |
-| `GET` | `/api/v1/search?q=X` | Full-text search (min 2 chars) |
-| `GET` | `/api/v1/suggest?q=X` | Autocomplete suggestions (up to 10 names) |
-| `GET` | `/api/v1/plugins` | List all plugins (paginated, filterable, sortable) |
+| `GET` | `/api/v1/search?q=X` | Full-text search with filters and sorting |
+| `GET` | `/api/v1/suggest?q=X` | Autocomplete suggestions |
+| `GET` | `/api/v1/plugins` | Browse plugins (filterable, sortable, paginated) |
+| `GET` | `/api/v1/plugins/compare?ids=1,2` | Compare 2-5 plugins side by side |
 | `GET` | `/api/v1/plugins/random` | Get a random plugin |
 | `GET` | `/api/v1/plugins/by-slug/{slug}` | Get a plugin by slug |
-| `GET` | `/api/v1/plugins/{id}` | Get a single plugin by ID |
-| `GET` | `/api/v1/plugins/{id}/similar` | Find similar plugins by tag overlap |
-| `GET` | `/api/v1/manufacturers` | List manufacturers (paginated, searchable, sortable) |
-| `GET` | `/api/v1/manufacturers/{slug}` | Get a manufacturer + paginated plugins |
+| `GET` | `/api/v1/plugins/{id}` | Get a plugin by ID |
+| `GET` | `/api/v1/plugins/{id}/similar` | Find similar plugins |
+| `GET` | `/api/v1/manufacturers` | Browse manufacturers (with plugin counts) |
+| `GET` | `/api/v1/manufacturers/{slug}` | Manufacturer detail with plugins |
 | `GET` | `/api/v1/stats` | Database statistics |
-| `GET` | `/api/v1/categories` | Plugin category taxonomy |
-| `GET` | `/api/v1/subcategories` | Subcategories with actual plugin counts |
-| `GET` | `/api/v1/tags` | All tags with usage counts |
-| `GET` | `/api/v1/formats` | All formats with usage counts |
-| `GET` | `/api/v1/os` | All operating systems with usage counts |
-| `GET` | `/api/v1/years` | Plugin counts by release year |
+| `GET` | `/api/v1/categories` | Category taxonomy |
+| `GET` | `/api/v1/subcategories` | Subcategories with plugin counts |
+| `GET` | `/api/v1/tags` | All tags with counts |
+| `GET` | `/api/v1/formats` | All formats with counts |
+| `GET` | `/api/v1/os` | OS platforms with counts |
+| `GET` | `/api/v1/years` | Plugin counts by year |
 | `GET` | `/api/v1/version` | Data and API version info |
 | `GET` | `/api/v1/export` | Bulk export (JSON or CSV) |
-| `GET` | `/api/v1/plugins/compare?ids=1,2` | Compare 2-5 plugins side by side |
 
 ### Examples
 
@@ -48,53 +60,36 @@ uvicorn plugindb.main:create_app --factory --host 0.0.0.0 --port 8000
 # Look up a plugin by alias
 curl "http://localhost:8000/api/v1/lookup?alias=OTT"
 
-# Full-text search with category filter
-curl "http://localhost:8000/api/v1/search?q=reverb&category=effect"
+# Full-text search
+curl "http://localhost:8000/api/v1/search?q=reverb&category=effect&sort=year&order=desc"
 
 # Batch lookup
 curl -X POST "http://localhost:8000/api/v1/lookup" \
   -H "Content-Type: application/json" \
   -d '{"names": ["Serum", "Diva", "OTT"]}'
 
-# List plugins filtered by format
-curl "http://localhost:8000/api/v1/plugins?format=VST3&per_page=10"
-
-# Filter by tag and year
-curl "http://localhost:8000/api/v1/plugins?tag=synthesizer&year=2014"
-
-# Filter by price type
-curl "http://localhost:8000/api/v1/plugins?price_type=free"
-
-# Sort by year, descending
-curl "http://localhost:8000/api/v1/plugins?sort=year&order=desc"
-
-# Year range filter
-curl "http://localhost:8000/api/v1/plugins?year_min=2020&year_max=2025"
+# Filter by tag, year range, and OS
+curl "http://localhost:8000/api/v1/plugins?tag=synthesizer&year_min=2020&os=linux"
 
 # Multi-tag filter (AND logic)
 curl "http://localhost:8000/api/v1/plugins?tags=synthesizer,analog-modeling"
 
-# Get a random plugin
-curl "http://localhost:8000/api/v1/plugins/random"
+# Compare plugins
+curl "http://localhost:8000/api/v1/plugins/compare?ids=1,2,3"
 
-# Autocomplete suggestions
-curl "http://localhost:8000/api/v1/suggest?q=Ser"
-
-# Filter by subcategory and OS
-curl "http://localhost:8000/api/v1/plugins?subcategory=synth&os=linux"
-
-# Find similar plugins
+# Similar plugins
 curl "http://localhost:8000/api/v1/plugins/1/similar"
 
-# Search manufacturers (with sorting by plugin count)
-curl "http://localhost:8000/api/v1/manufacturers?search=fab&sort=plugin_count&order=desc"
+# Autocomplete
+curl "http://localhost:8000/api/v1/suggest?q=Ser"
 
-# Database stats
-curl "http://localhost:8000/api/v1/stats"
-
-# Health check
-curl "http://localhost:8000/health"
+# Bulk export as CSV
+curl "http://localhost:8000/api/v1/export?format=csv" -o plugins.csv
 ```
+
+## Frontend
+
+The web frontend is a lightweight single-page application using vanilla HTML, CSS, and JavaScript — no frameworks, no build steps. It lives in `frontend/` and is served directly by FastAPI.
 
 ## Running Tests
 
@@ -105,14 +100,19 @@ python -m pytest tests/ -v
 
 ## Contributing
 
-Plugin data lives in `data/seed.json`. To add or correct entries:
+Plugin data lives in `data/seed.json`. See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions on:
+- Submitting new plugins (via GitHub Issue form or PR)
+- Reporting data corrections
+- Contributing code
 
-1. Fork the repository
-2. Edit `data/seed.json` following the existing schema
-3. Run `python -m pytest tests/ -v` to verify
-4. Open a pull request
+PRs that touch `data/seed.json` are automatically validated by CI.
 
-PRs that touch `data/seed.json` are automatically validated against the schema.
+## Docker
+
+```bash
+docker build -t plugindb .
+docker run -p 8000:8000 plugindb
+```
 
 ## License
 
