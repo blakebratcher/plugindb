@@ -1,8 +1,19 @@
 # PluginDB
 
+[![Tests](https://github.com/blakebratcher/plugindb/actions/workflows/test.yml/badge.svg)](https://github.com/blakebratcher/plugindb/actions/workflows/test.yml)
+[![Docker](https://github.com/blakebratcher/plugindb/actions/workflows/deploy.yml/badge.svg)](https://github.com/blakebratcher/plugindb/actions/workflows/deploy.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Data: CC0](https://img.shields.io/badge/data-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 The open database for audio production plugins. Search, browse, and discover VSTs, Audio Units, and CLAP plugins through a clean web interface or a powerful REST API.
 
 > Think MusicBrainz, but for audio plugins. 294 plugins from 93 manufacturers — and growing.
+
+### Deploy Your Own
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/blakebratcher/plugindb) [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/blakebratcher/plugindb)
+
+Or pull the Docker image: `docker pull ghcr.io/blakebratcher/plugindb:latest`
 
 ## Quickstart
 
