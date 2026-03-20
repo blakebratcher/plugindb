@@ -499,20 +499,10 @@
           </div>
         </div>`;
 
-      // Cycle 12: Tabs
+      // Inline sections (LaunchBox-style: no tabs, all content visible)
       const hasTags = (p.tags || []).length > 0;
       const hasDesc = !!p.description;
       const hasMfrPlugins = p.manufacturer_plugins && p.manufacturer_plugins.length > 0;
-
-      const tabs = [{ id: 'details', label: 'Details' }];
-      if (hasDesc) tabs.push({ id: 'overview', label: 'Overview' });
-      if (hasTags) tabs.push({ id: 'tags', label: 'Tags' });
-      tabs.push({ id: 'similar', label: 'Similar' });
-      if (hasMfrPlugins) tabs.push({ id: 'more', label: 'More from ' + escapeHtml(mfr.name) });
-
-      const tabsHtml = `<div class="pd-tabs">${tabs.map((t, i) =>
-        `<button class="pd-tab${i === 0 ? ' active' : ''}" data-tab="${t.id}">${t.label}</button>`
-      ).join('')}</div>`;
 
       // Cycle 11: Info table with icons
       const infoRows = [
@@ -529,51 +519,44 @@
         return `<div class="pd-info-row">${icon ? `<span class="pd-info-icon">${icon}</span>` : ''}<span class="pd-info-label">${label}</span><span class="pd-info-value">${value}</span></div>`;
       }).join('');
 
-      // Tab panels
-      const detailsPanel = `<div class="pd-tab-panel active" data-panel="details">
+      // Inline sections
+      const detailsSection = `<section class="pd-section">
+        <h2 class="pd-section-title">Details</h2>
         <div class="pd-info-table">${infoRows}</div>
-      </div>`;
+      </section>`;
 
-      const overviewPanel = hasDesc ? `<div class="pd-tab-panel" data-panel="overview">
+      const overviewSection = hasDesc ? `<section class="pd-section">
+        <h2 class="pd-section-title">Overview</h2>
         <p class="pd-description">${escapeHtml(p.description)}</p>
-      </div>` : '';
+      </section>` : '';
 
-      const tagsPanel = hasTags ? `<div class="pd-tab-panel" data-panel="tags">
+      const tagsSection = hasTags ? `<section class="pd-section">
+        <h2 class="pd-section-title">Tags</h2>
         <div class="pd-tags">${formatTags(p.tags)}</div>
-      </div>` : '';
+      </section>` : '';
 
-      const similarPanel = `<div class="pd-tab-panel" data-panel="similar" id="similar-panel">
+      const similarSection = `<section class="pd-section" id="similar-section">
+        <h2 class="pd-section-title">Similar Plugins</h2>
         <div class="loading-spinner" aria-label="Loading similar"></div>
-      </div>`;
+      </section>`;
 
-      const morePanel = hasMfrPlugins ? `<div class="pd-tab-panel" data-panel="more">
+      const moreSection = hasMfrPlugins ? `<section class="pd-section">
+        <h2 class="pd-section-title">More from ${escapeHtml(mfr.name)}</h2>
         ${pluginGrid(p.manufacturer_plugins)}
-      </div>` : '';
+      </section>` : '';
 
       let html = `
         <nav class="breadcrumb"><a href="#/"><svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M8 1l7 6h-2v7H3V7H1l7-6zm1 12V9H7v4h2z"/></svg></a> <span class="bc-sep">&rsaquo;</span> <a href="#/">Plugins</a> <span class="bc-sep">&rsaquo;</span> <span class="bc-current">${escapeHtml(p.name)}</span></nav>
         ${heroHtml}
         ${titleHtml}
-        ${tabsHtml}
-        ${detailsPanel}
-        ${overviewPanel}
-        ${tagsPanel}
-        ${similarPanel}
-        ${morePanel}`;
+        ${detailsSection}
+        ${overviewSection}
+        ${tagsSection}
+        ${similarSection}
+        ${moreSection}`;
 
       app.innerHTML = html;
       wireImageLoading(app);
-
-      // Wire tabs
-      app.querySelectorAll('.pd-tab').forEach(function(tab) {
-        tab.addEventListener('click', function() {
-          app.querySelectorAll('.pd-tab').forEach(t => t.classList.remove('active'));
-          app.querySelectorAll('.pd-tab-panel').forEach(p => p.classList.remove('active'));
-          this.classList.add('active');
-          const panel = app.querySelector('[data-panel="' + this.dataset.tab + '"]');
-          if (panel) panel.classList.add('active');
-        });
-      });
 
       // Share button
       const shareBtn = document.getElementById('btn-share');
@@ -594,16 +577,16 @@
       if (p.id) {
         try {
           const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 8 });
-          const panel = document.getElementById('similar-panel');
-          if (sim.data && sim.data.length && panel) {
-            panel.innerHTML = pluginCarousel(sim.data);
-            wireImageLoading(panel);
-          } else if (panel) {
-            panel.innerHTML = '<p style="color:var(--text-muted);font-size:13px">No similar plugins found.</p>';
+          const section = document.getElementById('similar-section');
+          if (sim.data && sim.data.length && section) {
+            section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2>' + pluginCarousel(sim.data);
+            wireImageLoading(section);
+          } else if (section) {
+            section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:13px">No similar plugins found.</p>';
           }
         } catch (_) {
-          var panel = document.getElementById('similar-panel');
-          if (panel) panel.innerHTML = '<p style="color:var(--text-muted);font-size:13px">Could not load similar plugins.</p>';
+          var section = document.getElementById('similar-section');
+          if (section) section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:13px">Could not load similar plugins.</p>';
         }
       }
     } catch (err) { showError(app, err.message); }
