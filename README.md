@@ -7,7 +7,7 @@
 
 The open database for audio production plugins. Search, browse, and discover VSTs, Audio Units, and CLAP plugins through a clean web interface or a powerful REST API.
 
-> Think MusicBrainz, but for audio plugins. 294 plugins from 93 manufacturers — and growing.
+> Think MusicBrainz, but for audio plugins. 1,000+ plugins from 220+ manufacturers — and growing.
 
 ### Deploy Your Own
 
