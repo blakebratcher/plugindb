@@ -258,7 +258,8 @@
     },
     {
       "slug": "nicky-romero",
-      "name": "Nicky Romero"
+      "name": "Nicky Romero",
+      "website": "https://www.nickyromero.com"
     },
     {
       "slug": "nimble-tools",
@@ -302,7 +303,8 @@
     },
     {
       "slug": "quantumsauce",
-      "name": "QuantumSauce"
+      "name": "QuantumSauce",
+      "website": "https://quantumsauce.com"
     },
     {
       "slug": "reveal-sound",
@@ -3092,6 +3094,7 @@
       ],
       "description": "MIDI sequence generator for creating melodies, chord progressions, and drum patterns with an interactive piano roll and live arpeggiator mode.",
       "price_type": "paid",
+      "year": 2021,
       "url": "https://harvestplugins.com/harvest/",
       "tags": [
         "midi",
@@ -3425,6 +3428,7 @@
       ],
       "description": "Experimental audio effect combining multiple processing algorithms in a visual interface.",
       "price_type": "paid",
+      "year": 2024,
       "url": "https://ifeature.world/fusion",
       "tags": [
         "spectral",
@@ -3462,6 +3466,7 @@
       ],
       "description": "Creative audio effect plugin with experimental sound transformation capabilities.",
       "price_type": "paid",
+      "year": 2024,
       "url": "https://ifeature.world/obra",
       "tags": [
         "spectral",
@@ -3500,6 +3505,7 @@
       ],
       "description": "Spectral compressor applying per-frequency dynamic compression across the spectrum.",
       "price_type": "paid",
+      "year": 2024,
       "url": "https://ifeature.world/spectral-compressor",
       "tags": [
         "compressor",
@@ -3537,6 +3543,7 @@
       ],
       "description": "Spectral noise gate operating on individual frequency bands for precise gating.",
       "price_type": "paid",
+      "year": 2024,
       "url": "https://ifeature.world/spectral-gate",
       "tags": [
         "gate",
@@ -4153,7 +4160,7 @@
       "manufacturer_slug": "izotope",
       "category": "effect",
       "subcategory": "compressor",
-      "formats": [],
+      "formats": ["VST2", "VST3", "AU", "AAX"],
       "aliases": [
         "Ozone 9 Dynamics",
         "iZotope Ozone 9 Dynamics"
