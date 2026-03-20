@@ -14053,7 +14053,8 @@
         "free",
         "virtual-analog",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/synth1-113.webp"
     },
     {
       "slug": "bazille",
@@ -14094,7 +14095,8 @@
         "digital",
         "fm",
         "experimental"
-      ]
+      ],
+      "image_url": "https://u-he.com/products/bazille/assets/images/uhe-bazille-splash-photo-studio-setup-1100x350.jpg"
     },
     {
       "slug": "ana-2",
@@ -14174,7 +14176,8 @@
         "multi-synthesis",
         "versatile",
         "electronic"
-      ]
+      ],
+      "image_url": "https://www.tone2.com/favImage.png"
     },
     {
       "slug": "icarus",
@@ -14213,7 +14216,8 @@
         "wavetable",
         "3d-wavetable",
         "modern"
-      ]
+      ],
+      "image_url": "https://www.tone2.com/favImage.png"
     },
     {
       "slug": "tal-noisemaker",
@@ -14253,7 +14257,8 @@
         "free",
         "virtual-analog",
         "versatile"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-noisemaker-new.jpg"
     },
     {
       "slug": "odin-2",
@@ -14295,7 +14300,8 @@
         "open-source",
         "semi-modular",
         "versatile"
-      ]
+      ],
+      "image_url": "http://thewavewarden.com/cdn/shop/files/tww_store_social_banner.png?v=1748080235"
     },
     {
       "slug": "podolski",
@@ -14337,7 +14343,8 @@
         "virtual-analog",
         "simple",
         "warm"
-      ]
+      ],
+      "image_url": "https://u-he.com/products/podolski/assets/images/uhe-podolski-splash-photo-studio-setup-1100x350.jpg"
     },
     {
       "slug": "triple-cheese",
@@ -14379,7 +14386,8 @@
         "creative",
         "unusual",
         "experimental"
-      ]
+      ],
+      "image_url": "https://u-he.com/products/triplecheese/assets/images/uhe-triplecheese-splash-photo-studio-setup-1100x350.jpg"
     },
     {
       "slug": "tyrell-n6",
@@ -14419,7 +14427,8 @@
         "free",
         "virtual-analog",
         "subtractive"
-      ]
+      ],
+      "image_url": "https://u-he.com/products/tyrelln6/assets/images/uhe-tyrelln6-splash-photo-studio-setup-1100x350.jpg"
     },
     {
       "slug": "ca2600",
@@ -14461,7 +14470,8 @@
         "arp-2600",
         "analog-modeling",
         "semi-modular"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9jYTI2MDAuanBn/ca2600.jpg?p=seo_pro_og&s=58428f49a0377459276840651a07c0b0"
     },
     {
       "slug": "memorymode",
@@ -14503,7 +14513,8 @@
         "memorymoog",
         "analog-modeling",
         "polyphonic"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9tZW1vcnltb2RlLnBuZw/memorymode.png?p=seo_pro_og&s=fc8566fa942abcc69541f5e571552184"
     },
     {
       "slug": "monique",
@@ -14544,7 +14555,8 @@
         "monophonic",
         "bass",
         "lead"
-      ]
+      ],
+      "image_url": "https://repository-images.githubusercontent.com/437089104/b401e0f2-a6e4-4ddf-adf6-58cf65f6d22a"
     },
     {
       "slug": "ample-guitar",
@@ -14665,7 +14677,8 @@
         "free",
         "open-format",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.decentsamples.com/wp-content/uploads/2020/06/Decent-Sampler-Cover-Idea-2.jpg"
     },
     {
       "slug": "sampletank-4",
@@ -14747,7 +14760,8 @@
         "synthesizer",
         "hybrid",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://cdn.uvi.net/UVIFC_Falcon/medias/conversions/1761051815_Falcon-26_cover-responsive-webp-retina.webp"
     },
     {
       "slug": "grace",
@@ -14826,7 +14840,8 @@
         "free",
         "sfz-player",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.plogue.com/images/Sforzando_interface_1.png"
     },
     {
       "slug": "pro-q-4",
@@ -14868,7 +14883,8 @@
         "mastering",
         "dynamic-eq",
         "precise"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-q-4-intro.jpg?v=1733993612"
     },
     {
       "slug": "nova-ge",
@@ -14909,7 +14925,8 @@
         "mixing",
         "mastering",
         "precise"
-      ]
+      ],
+      "image_url": "https://www.tokyodawn.net/wp-content/uploads/2018/11/Seite-1-2.png"
     },
     {
       "slug": "kirchhoff-eq",
@@ -15073,7 +15090,8 @@
         "parametric",
         "mixing",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MEqualizer00.v1.jpg"
     },
     {
       "slug": "kotelnikov-ge",
@@ -15114,7 +15132,8 @@
         "transparent",
         "precise",
         "bus-compressor"
-      ]
+      ],
+      "image_url": "https://www.tokyodawn.net/wp-content/uploads/2018/06/KotelnikovGEMain2.png"
     },
     {
       "slug": "molotok",
@@ -15155,7 +15174,8 @@
         "character",
         "drums",
         "aggressive"
-      ]
+      ],
+      "image_url": "https://www.tokyodawn.net/wp-content/uploads/2020/10/TDR-Molotok-1.png"
     },
     {
       "slug": "mjuc-jr",
@@ -15195,7 +15215,8 @@
         "variable-mu",
         "vintage",
         "warm"
-      ]
+      ],
+      "image_url": "https://klanghelm.com/assets/img/KlanghelmLogoBlack.png"
     },
     {
       "slug": "rough-rider-3",
@@ -15482,7 +15503,8 @@
         "convolution",
         "realistic",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MConvolutionEZ00.v1.jpg"
     },
     {
       "slug": "freeclip",
@@ -15523,7 +15545,8 @@
         "saturation",
         "mastering",
         "loudness"
-      ]
+      ],
+      "image_url": "https://www.vennaudio.com/wp-content/uploads/2019/01/Freeclip-250x300.png"
     },
     {
       "slug": "invisible-limiter-g2",
@@ -15604,7 +15627,8 @@
         "mastering",
         "multiband",
         "versatile"
-      ]
+      ],
+      "image_url": "https://vladgsound.wordpress.com/wp-content/uploads/2012/06/limiter6-en.jpg?w=300"
     },
     {
       "slug": "phasemistress",
@@ -15645,7 +15669,8 @@
         "analog",
         "vintage",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Soundtoys_PREVIEW-IMAGE.png"
     },
     {
       "slug": "mflanger",
@@ -15686,7 +15711,8 @@
         "modulation",
         "creative",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MFlanger00.v1.jpg"
     },
     {
       "slug": "chorus-ce-2w",
@@ -15850,7 +15876,8 @@
         "mastering",
         "analysis",
         "comparison"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/products/REFERENCE2.jpg?v=1670490569&width=2048"
     },
     {
       "slug": "levels",
@@ -15891,7 +15918,8 @@
         "mastering",
         "lufs",
         "analysis"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/products/LEVELS.jpg?v=1670490431&width=2048"
     },
     {
       "slug": "expose-2",
@@ -15932,7 +15960,8 @@
         "mastering",
         "quality-control",
         "metering"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/products/EXPOSE2.jpg?v=1670490393&width=2048"
     },
     {
       "slug": "bx-meter",
@@ -15973,7 +16002,8 @@
         "loudness",
         "lufs",
         "mixing"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-300042.png?v=1756967167"
     },
     {
       "slug": "correlometer",
@@ -16014,7 +16044,8 @@
         "correlation",
         "phase",
         "stereo"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/57/5722u86ih.jpg"
     },
     {
       "slug": "dpmeter5",
@@ -16096,7 +16127,8 @@
         "testing",
         "plugin-analysis",
         "frequency-response"
-      ]
+      ],
+      "image_url": "https://ddmf.eu/assets/images/Plugindoctor.jpg"
     },
     {
       "slug": "panagement",
@@ -16220,7 +16252,8 @@
         "spectrum",
         "mixing",
         "dual-channel"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MAnalyzer00.v1.jpg"
     },
     {
       "slug": "torpedo-wall-of-sound",
@@ -16344,7 +16377,8 @@
         "mixing",
         "mastering",
         "precise"
-      ]
+      ],
+      "image_url": "https://dmgaudio.com/images/products/compassion.png"
     },
     {
       "slug": "equick",
@@ -16385,7 +16419,8 @@
         "fast",
         "mixing",
         "lightweight"
-      ]
+      ],
+      "image_url": "https://dmgaudio.com/images/products/equick.png"
     },
     {
       "slug": "little-plate",
@@ -16426,7 +16461,8 @@
         "vintage",
         "simple",
         "warm"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Soundtoys_PREVIEW-IMAGE.png"
     },
     {
       "slug": "vu-meter",
@@ -16466,7 +16502,8 @@
         "vu",
         "vintage",
         "mixing"
-      ]
+      ],
+      "image_url": "https://klanghelm.com/assets/img/KlanghelmLogoBlack.png"
     },
     {
       "slug": "gclip",
@@ -16636,7 +16673,8 @@
         "abbey-road",
         "classic",
         "spatial"
-      ]
+      ],
+      "image_url": "http://www.uaudio.com/cdn/shop/files/capitol_chambers_gallery_1.png?crop=center&height=480&v=1742502468&width=480"
     },
     {
       "slug": "ua-pure-plate-reverb",
@@ -16678,7 +16716,8 @@
         "lush",
         "vintage",
         "mixing"
-      ]
+      ],
+      "image_url": "http://www.uaudio.com/cdn/shop/files/pure_plate_reverb_gallery_1.png?crop=center&height=480&v=1742502469&width=480"
     },
     {
       "slug": "ua-galaxy-tape-echo",
@@ -18903,7 +18942,8 @@
         "analog",
         "mixing",
         "mastering"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-300365_671a1cf2-d3e3-4a18-a54a-0fe613fbd987.png?v=1745586733"
     },
     {
       "slug": "bx-refinement",
@@ -18945,7 +18985,8 @@
         "mixing",
         "mastering",
         "smooth"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-301160.png?v=1753799899"
     },
     {
       "slug": "bx-ssl-4000-g",
@@ -18988,7 +19029,8 @@
         "compressor",
         "analog",
         "mixing"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-300374_b2b44f03-8e78-4736-a7b6-ef8820665d5b.png?v=1745586738"
     },
     {
       "slug": "lindell-audio-50-series",
@@ -19030,7 +19072,8 @@
         "vintage",
         "channel-strip",
         "mixing"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-300543_18e03db2-391e-4555-ba69-376b1cc1842a.png?v=1745586695"
     },
     {
       "slug": "elysia-alpha-compressor",
@@ -19072,7 +19115,8 @@
         "analog",
         "transparent",
         "professional"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-301253.png?v=1757584233"
     },
     {
       "slug": "slate-digital-vmr",
@@ -19114,7 +19158,8 @@
         "compressor",
         "mixing",
         "analog"
-      ]
+      ],
+      "image_url": "https://slatedigital.com/wp-content/uploads/2024/12/Menu-Featured-Image-1.png"
     },
     {
       "slug": "slate-digital-infinity-eq",
@@ -19156,7 +19201,8 @@
         "zero-latency",
         "mixing",
         "professional"
-      ]
+      ],
+      "image_url": "https://slatedigital.com/wp-content/uploads/2025/07/Infinity-EQ-2-1.png"
     },
     {
       "slug": "slate-digital-eiosis-air-eq",
@@ -19199,7 +19245,8 @@
         "musical",
         "mixing",
         "mastering"
-      ]
+      ],
+      "image_url": "https://slatedigital.com/wp-content/uploads/2026/02/Infinity-Horizon.jpg"
     },
     {
       "slug": "cherry-audio-elka-x",
@@ -19243,7 +19290,8 @@
         "polysynth",
         "pads",
         "retro"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9lbGthLXgtbmF2LWltZy5qcGc/elka-x-nav-img.jpg?p=seo_pro_og&s=4646b05225ecf8f351d30d533519a67d"
     },
     {
       "slug": "cherry-audio-dco-106",
@@ -19288,7 +19336,8 @@
         "chorus",
         "pads",
         "80s"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9kY28tMTA2LmpwZw/dco-106.jpg?p=seo_pro_og&s=36afbcdd879e760fdd009acc39b3baf4"
     },
     {
       "slug": "cherry-audio-ps-20",
@@ -19332,7 +19381,8 @@
         "vintage",
         "aggressive",
         "filter"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9wcy0yMC1uYXYtaW1hZ2UuanBn/ps-20-nav-image.jpg?p=seo_pro_og&s=33b0e1decce45e204b43325cff71448c"
     },
     {
       "slug": "cherry-audio-mercury-6",
@@ -19376,7 +19426,8 @@
         "vintage",
         "roland",
         "classic"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9tZXJjdXJ5LTYtaW1nLW5hdi5qcGc/mercury-6-img-nav.jpg?p=seo_pro_og&s=fa55e294549fb998a5806893288ef88a"
     },
     {
       "slug": "cherry-audio-eight-voice",
@@ -19419,7 +19470,8 @@
         "vintage",
         "polyphonic",
         "warm"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9laWdodC12b2ljZS5qcGc/eight-voice.jpg?p=seo_pro_og&s=99d710a2eaec16f4b117d96a254ce374"
     },
     {
       "slug": "cherry-audio-sines",
@@ -19462,7 +19514,8 @@
         "digital",
         "dx7",
         "modern"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9zaW5lcy1pbWctbmF2LmpwZw/sines-img-nav.jpg?p=seo_pro_og&s=bc870ddceaca1f21ac9465dec7522173"
     },
     {
       "slug": "voxengo-elephant",
@@ -19504,7 +19557,8 @@
         "true-peak",
         "transparent",
         "brickwall"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/20/20iradsxt.jpg"
     },
     {
       "slug": "voxengo-warmifier",
@@ -19545,7 +19599,8 @@
         "free",
         "analog",
         "subtle"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/52/527pgq7hr.jpg"
     },
     {
       "slug": "voxengo-boogex",
@@ -19586,7 +19641,8 @@
         "free",
         "cab-sim",
         "convolution"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/19/19pwk1xga.jpg"
     },
     {
       "slug": "voxengo-overtone-geq",
@@ -19627,7 +19683,8 @@
         "hall",
         "room",
         "plate"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/25/25k3bgcn7.jpg"
     },
     {
       "slug": "voxengo-sound-delay",
@@ -19668,7 +19725,8 @@
         "free",
         "simple",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/72/72yeqlv73.jpg"
     },
     {
       "slug": "voxengo-correlometer",
@@ -19708,7 +19766,8 @@
         "stereo",
         "free",
         "analysis"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/52/52oi3rg9f.jpg"
     },
     {
       "slug": "voxengo-tube-amp",
@@ -19749,7 +19808,8 @@
         "free",
         "analog",
         "harmonic"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/62/62nvo5hje.jpg"
     },
     {
       "slug": "tal-mod",
@@ -19791,7 +19851,8 @@
         "arp-2600",
         "patching",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-mod-new-2.jpg"
     },
     {
       "slug": "tal-sampler",
@@ -19832,7 +19893,8 @@
         "analog",
         "creative",
         "retro"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-sampler-1.jpg"
     },
     {
       "slug": "tal-bassline-101",
@@ -19875,7 +19937,8 @@
         "vintage",
         "sequencer",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-bassline-101_01.jpg"
     },
     {
       "slug": "tal-drum",
@@ -19916,7 +19979,8 @@
         "percussion",
         "electronic",
         "vintage"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-drum-230-03.jpg"
     },
     {
       "slug": "tal-filter-2",
@@ -19957,7 +20021,8 @@
         "free",
         "rhythmic",
         "sidechain"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-filter-2-new.jpg"
     },
     {
       "slug": "tal-reverb-2",
@@ -19998,7 +20063,8 @@
         "modulated",
         "dense",
         "lush"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/tal-reverb-2.png"
     },
     {
       "slug": "tal-vocoder-2",
@@ -20039,7 +20105,8 @@
         "vintage",
         "synthesizer",
         "creative"
-      ]
+      ],
+      "image_url": "https://tal-software.com/images/products/vocoder-3.jpg"
     },
     {
       "slug": "blue-cat-patchwork",
@@ -20082,7 +20149,8 @@
         "utility",
         "parallel",
         "plugin-management"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_PatchWork/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-mb-7-mixer",
@@ -20124,7 +20192,8 @@
         "routing",
         "creative",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_MB7Mixer/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-oscilloscope-multi",
@@ -20165,7 +20234,8 @@
         "visualization",
         "metering",
         "real-time"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_OscilloscopeMulti/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-late-replies",
@@ -20207,7 +20277,8 @@
         "routing",
         "modulation",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_LateReplies/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-free-amp",
@@ -20249,7 +20320,8 @@
         "distortion",
         "cab-sim",
         "overdrive"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_FreeAmp/Screenshots/main.png"
     },
     {
       "slug": "acon-digital-deverberate",
@@ -20291,7 +20363,8 @@
         "spectral",
         "post-production",
         "repair"
-      ]
+      ],
+      "image_url": "https://cms.acondigital.com/uploads/thumbnail_deverberate_reverb_removal_plugin_background_image_v3_08c8a2db44.jpg"
     },
     {
       "slug": "acon-digital-equalize",
@@ -20333,7 +20406,8 @@
         "analyzer",
         "mixing",
         "mastering"
-      ]
+      ],
+      "image_url": "https://cms.acondigital.com/uploads/equialize_wave_f0b6e7d5fe.svg"
     },
     {
       "slug": "acon-digital-multiply",
@@ -20376,7 +20450,8 @@
         "doubling",
         "stereo",
         "width"
-      ]
+      ],
+      "image_url": "https://cms.acondigital.com/uploads/Multiply_wave_a9543e76b7.svg"
     },
     {
       "slug": "sonnox-oxford-inflator",
@@ -20418,7 +20493,8 @@
         "mastering",
         "warm",
         "harmonic"
-      ]
+      ],
+      "image_url": "https://cdn11.bigcommerce.com/s-8pfrvbtcba/products/121/images/602/sonnox-oxford-inflator__76519.1729093523.386.513.png?c=1"
     },
     {
       "slug": "sonnox-oxford-reverb",
@@ -20460,7 +20536,8 @@
         "room",
         "natural",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn11.bigcommerce.com/s-8pfrvbtcba/products/113/images/600/sonnox-oxford-reverb__08599.1729093518.386.513.png?c=1"
     },
     {
       "slug": "sonnox-oxford-supresser",
@@ -20503,7 +20580,8 @@
         "vocal",
         "transparent",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn11.bigcommerce.com/s-8pfrvbtcba/products/125/images/464/Sonnox_Oxford_SuprEsser_Product_Image__11821.1726068957.386.513.png?c=1"
     },
     {
       "slug": "harrison-ava-mastering-eq",
@@ -20545,7 +20623,8 @@
         "console",
         "professional",
         "precise"
-      ]
+      ],
+      "image_url": "https://harrisonaudio.com/assets/uploads/social/harrison-standard.jpg"
     },
     {
       "slug": "harrison-ava-de-esser",
@@ -20587,7 +20666,8 @@
         "transparent",
         "mixing",
         "precision"
-      ]
+      ],
+      "image_url": "https://harrisonaudio.com/assets/uploads/social/harrison-standard.jpg"
     },
     {
       "slug": "harrison-ava-multiband-compressor",
@@ -20629,7 +20709,8 @@
         "dynamics",
         "professional",
         "mixing"
-      ]
+      ],
+      "image_url": "https://harrisonaudio.com/assets/uploads/social/harrison-standard.jpg"
     },
     {
       "slug": "psp-vintage-warmer-2",
@@ -20672,7 +20753,8 @@
         "limiter",
         "analog",
         "mastering"
-      ]
+      ],
+      "image_url": "https://www.pspaudioware.com/assets/PSP_VW_KVR.jpg"
     },
     {
       "slug": "psp-infinistrip",
@@ -20715,7 +20797,8 @@
         "eq",
         "compressor",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.pspaudioware.com/assets/products/PSP_InfiniStrip.jpg"
     },
     {
       "slug": "psp-2445",
@@ -20800,7 +20883,8 @@
         "shimmer",
         "textural",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2017/01/GrainSpace.webp"
     },
     {
       "slug": "audiority-polaris",
@@ -20843,7 +20927,8 @@
         "creative",
         "modulation",
         "retro"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris.jpg"
     },
     {
       "slug": "audiority-tube-modulator",
@@ -20885,7 +20970,8 @@
         "vintage",
         "modulation",
         "optical"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/02/Tube-Modulator.jpg"
     },
     {
       "slug": "bra-vpre-73",
@@ -20928,7 +21014,8 @@
         "analog",
         "vintage",
         "warm"
-      ]
+      ],
+      "image_url": "https://blackroosteraudio.com//files/content/products/vpre-73/BlackRoosterAudio_VPRE-73_Box_Medium.png"
     },
     {
       "slug": "bra-ro-gold",
@@ -20970,7 +21057,8 @@
         "warm",
         "smooth",
         "analog"
-      ]
+      ],
+      "image_url": "https://blackroosteraudio.com//files/content/products/ro-gold/BlackRoosterAudio_RO-GOLD_Box_Medium.png"
     },
     {
       "slug": "bra-magnetite",
@@ -21012,7 +21100,8 @@
         "warm",
         "vintage",
         "mixing"
-      ]
+      ],
+      "image_url": "https://blackroosteraudio.com//files/content/products/magnetite/BlackRoosterAudio_Magnetite_Box_Medium.png"
     },
     {
       "slug": "full-bucket-fury-800",
@@ -21259,7 +21348,8 @@
         "modular",
         "modulation",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://hy-plugins.com/wp-content/uploads/delay4_resize-min-820x656.png"
     },
     {
       "slug": "hy-plugins-hy-filter4",
@@ -21300,7 +21390,8 @@
         "lfo",
         "sequencer",
         "creative"
-      ]
+      ],
+      "image_url": "https://hy-plugins.com/wp-content/uploads/filter4_resize-min-820x656.png"
     },
     {
       "slug": "hy-plugins-hy-rpg2",
@@ -21422,7 +21513,8 @@
         "free",
         "sound-design",
         "modern"
-      ]
+      ],
+      "image_url": "https://socalabs.com/wp-content/uploads/2023/08/Pasted.png"
     },
     {
       "slug": "socalabs-additive",
@@ -21504,7 +21596,8 @@
         "drawbar",
         "vintage",
         "keyboard"
-      ]
+      ],
+      "image_url": "https://socalabs.com/wp-content/uploads/2022/06/Pasted-19.png"
     },
     {
       "slug": "klevgrand-degrader",
@@ -21546,7 +21639,8 @@
         "wow-flutter",
         "vintage",
         "saturation"
-      ]
+      ],
+      "image_url": "https://cdn.klevgrand.com/assets/ui_images/dawcassette2x.jpg"
     },
     {
       "slug": "klevgrand-brusfri",
@@ -21587,7 +21681,8 @@
         "restoration",
         "spectral",
         "post-production"
-      ]
+      ],
+      "image_url": "https://cdn.klevgrand.com/assets/ui_images/ui_brusfri_2x.jpeg"
     },
     {
       "slug": "klevgrand-haaze",
@@ -21629,7 +21724,8 @@
         "haas",
         "imaging",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn.klevgrand.com/assets/ui_images/ui_haaze2@2x.jpg"
     },
     {
       "slug": "audiothing-fog-convolver",
@@ -21670,7 +21766,8 @@
         "creative",
         "impulse-response",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2022/07/fog-convolver-2-plugin.png"
     },
     {
       "slug": "audiothing-speakers",
@@ -21712,7 +21809,8 @@
         "creative",
         "vintage",
         "character"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2020/05/speakers-plugin.png"
     },
     {
       "slug": "audiothing-noises",
@@ -21754,7 +21852,8 @@
         "ambient",
         "texture",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2022/02/noises-plugin.png"
     },
     {
       "slug": "audiothing-outer-space",
@@ -21796,7 +21895,8 @@
         "vintage",
         "spring",
         "dub"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2023/12/outer-space-2-plugin.png"
     },
     {
       "slug": "sinevibes-dispersion",
@@ -21910,7 +22010,8 @@
         "sample-based",
         "sound-design",
         "unique"
-      ]
+      ],
+      "image_url": "https://deviousmachines.com/wp-content/uploads/2019/03/Texture1.jpg"
     },
     {
       "slug": "polyverse-supermodal",
@@ -22039,7 +22140,8 @@
         "modern",
         "creative",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.minimal.audio/assets/v2/plugins/morph_eq/morph_eq-911f8e9a3e793df80e81cc78b0a5c0a57d123a7c6e221e5b27c39599bf317d80.webp"
     },
     {
       "slug": "heavyocity-mosaic-keys",
@@ -22207,7 +22309,8 @@
         "creative",
         "electronic",
         "hip-hop"
-      ]
+      ],
+      "image_url": "https://storyblok-assets.output.com/1200x675/e4f02d48fa/seo_arcade_1200x675.jpg"
     },
     {
       "slug": "output-rev",
@@ -22249,7 +22352,8 @@
         "textural",
         "sound-design",
         "unique"
-      ]
+      ],
+      "image_url": "https://storyblok-assets.output.com/1440x785/b0dc66171b/rev.png"
     },
     {
       "slug": "output-substance",
@@ -22291,7 +22395,8 @@
         "sub-bass",
         "electronic",
         "cinematic"
-      ]
+      ],
+      "image_url": "https://storyblok-assets.output.com/1440x1236/46e037f30f/substance.png"
     },
     {
       "slug": "ujam-beatmaker-dope",
@@ -22333,7 +22438,8 @@
         "beats",
         "percussion",
         "electronic"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/_processed_/6/b/csm_bm-bundle-packaging_5912a7c5e2.jpg"
     },
     {
       "slug": "ujam-beatmaker-hustle",
@@ -22375,7 +22481,8 @@
         "beats",
         "percussion",
         "groove"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/_processed_/f/5/csm_BM3_HUSTLE_Square_6580b3ef71.jpg"
     },
     {
       "slug": "ujam-virtual-guitarist-iron",
@@ -22501,7 +22608,8 @@
         "warm",
         "character",
         "mixing"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-iron-oxide-5",
@@ -22586,7 +22694,8 @@
         "dynamic",
         "character",
         "mixing"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-derez-2",
@@ -22628,7 +22737,8 @@
         "retro",
         "digital",
         "creative"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-nc-17",
@@ -22670,7 +22780,8 @@
         "aggressive",
         "clipper",
         "creative"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-wider",
@@ -22711,7 +22822,8 @@
         "mono-compatible",
         "spatial",
         "imaging"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "tdr-limiter-6-ge",
@@ -22753,7 +22865,8 @@
         "compressor",
         "true-peak",
         "professional"
-      ]
+      ],
+      "image_url": "https://www.tokyodawn.net/wp-content/uploads/2018/11/Seite-1.png"
     },
     {
       "slug": "dead-duck-free-effects",
@@ -23105,7 +23218,8 @@
         "cab-sim",
         "pedalboard",
         "effects-chain"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/6AC3F8B29099E04A4BF15AAF63455563C9B5BA34C3D693C0CD5A5EC312C823C9/43d4c152deca4e589fa043eba8ee9d7a/svg/media/6ab346652d8c4904b9c9e61a8ab42d34/softube-logo-tagline-rgb.svg"
     },
     {
       "slug": "soundtoys-microshift",
@@ -23147,7 +23261,8 @@
         "doubling",
         "mixing",
         "vocal"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Soundtoys_PREVIEW-IMAGE.png"
     },
     {
       "slug": "eventide-instant-phaser",
@@ -23189,7 +23304,8 @@
         "analog",
         "classic",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Instant-Phaser.png"
     },
     {
       "slug": "eventide-instant-flanger",
@@ -23231,7 +23347,8 @@
         "analog",
         "metallic",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Instant-Flanger.png"
     },
     {
       "slug": "eventide-tverb",
@@ -23274,7 +23391,8 @@
         "creative",
         "vocal",
         "character"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Tverb.png"
     },
     {
       "slug": "eventide-micropitch",
@@ -23316,7 +23434,8 @@
         "h3000",
         "detune",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-MicroPitch.png"
     },
     {
       "slug": "goodhertz-panpot",
@@ -23358,7 +23477,8 @@
         "binaural",
         "spatial",
         "mixing"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_panpot__og_landscape.png"
     },
     {
       "slug": "goodhertz-midside",
@@ -23400,7 +23520,8 @@
         "encoding",
         "mastering",
         "mixing"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_midside__og_landscape.png"
     },
     {
       "slug": "goodhertz-tone-control",
@@ -23484,7 +23605,8 @@
         "ai-assisted",
         "mastering",
         "intelligent"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/products/BASSROOM.jpg?v=1670490366&width=2048"
     },
     {
       "slug": "sugar-bytes-looperator",
@@ -23612,7 +23734,8 @@
         "pads",
         "roland",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.roland.com/assets/images/products/main/rc_juno-106_main.jpg"
     },
     {
       "slug": "roland-cloud-jupiter-8",
@@ -23656,7 +23779,8 @@
         "roland",
         "classic",
         "lead"
-      ]
+      ],
+      "image_url": "https://static.roland.com/assets/images/products/main/rc_jupiter-8_main.jpg"
     },
     {
       "slug": "roland-cloud-sh-101",
@@ -23700,7 +23824,8 @@
         "lead",
         "roland",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.roland.com/assets/images/products/main/rc_sh-101_grey_main.jpg"
     },
     {
       "slug": "roland-tr-808",
@@ -23744,7 +23869,8 @@
         "vintage",
         "roland",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.roland.com/assets/images/products/main/rc_tr-808_main.jpg"
     },
     {
       "slug": "roland-tr-909",
@@ -23787,7 +23913,8 @@
         "electronic",
         "roland",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.roland.com/assets/images/products/main/rc_tr-909_main.jpg"
     },
     {
       "slug": "ssl-native-channel-strip-2",
@@ -24278,7 +24405,8 @@
         "punch",
         "attack",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.flux.audio/wp-content/uploads/2018/02/bittersweet-2.png"
     },
     {
       "slug": "vladg-sound-molot-ge",
@@ -24319,7 +24447,8 @@
         "parallel",
         "mixing",
         "punchy"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/blavatar/2bc5cc8d758ba85f64087c2a69c7d08a4bf0b038f9a9a90210bae6aa6b27627e?s=200&#038;ts=1774042332"
     },
     {
       "slug": "aom-invisible-limiter",
@@ -24403,7 +24532,8 @@
         "simple",
         "classic",
         "lightweight"
-      ]
+      ],
+      "image_url": "https://a.fsdn.com/con/app/nel_img/20493"
     },
     {
       "slug": "mda-jx10",
@@ -24445,7 +24575,8 @@
         "polyphonic",
         "classic",
         "lightweight"
-      ]
+      ],
+      "image_url": "https://a.fsdn.com/con/app/nel_img/20550"
     },
     {
       "slug": "scaler-3",
@@ -24487,7 +24618,8 @@
         "composition",
         "songwriting",
         "generator"
-      ]
+      ],
+      "image_url": "https://banners.pluginboutique.com/b8qvbof564iica2ve90v4fihef7w"
     },
     {
       "slug": "riffer-3",
@@ -24570,7 +24702,8 @@
         "sidechain",
         "network",
         "workflow"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_Connector/Screenshots/main.png"
     },
     {
       "slug": "ddmf-metaplugin",
@@ -24612,7 +24745,8 @@
         "utility",
         "parallel",
         "workflow"
-      ]
+      ],
+      "image_url": "https://ddmf.eu/assets/images/Metaplugin.jpg"
     },
     {
       "slug": "pianoteq-8",
@@ -24866,7 +25000,8 @@
         "free",
         "stereo",
         "rhythmic"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MAutopan00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mbitfun",
@@ -24908,7 +25043,8 @@
         "lo-fi",
         "glitch",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MBitFun00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mchorus",
@@ -24992,7 +25128,8 @@
         "vintage",
         "creative",
         "psychedelic"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MPhaser00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mvibrato",
@@ -25034,7 +25171,8 @@
         "pitch",
         "tremolo",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MVibrato00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mringmodulator",
@@ -25076,7 +25214,8 @@
         "metallic",
         "experimental",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MRingModulator00.v1.jpg"
     },
     {
       "slug": "khs-gate",
@@ -25118,7 +25257,8 @@
         "noise",
         "clean",
         "utility"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/gate/thumb_400.png"
     },
     {
       "slug": "khs-chorus",
@@ -25160,7 +25300,8 @@
         "width",
         "modulation",
         "clean"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/chorus/thumb_400.png"
     },
     {
       "slug": "khs-flanger",
@@ -25202,7 +25343,8 @@
         "metallic",
         "creative",
         "clean"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/flanger/thumb_400.png"
     },
     {
       "slug": "khs-phaser",
@@ -25244,7 +25386,8 @@
         "vintage",
         "creative",
         "clean"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/phaser/thumb_400.png"
     },
     {
       "slug": "khs-haas",
@@ -25286,7 +25429,8 @@
         "haas",
         "spatial",
         "imaging"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/haas/thumb_400.png"
     },
     {
       "slug": "khs-trance-gate",
@@ -25328,7 +25472,8 @@
         "rhythmic",
         "sidechain",
         "edm"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/trance_gate/thumb_400.png"
     },
     {
       "slug": "analog-obsession-tuba",
@@ -25496,7 +25641,8 @@
         "chorus",
         "vibrato",
         "vintage"
-      ]
+      ],
+      "image_url": "https://u-he.com/products/colourcopy/assets/images/uhe-colourcopy-splash-photo-studio-setup-1100x350.jpg"
     },
     {
       "slug": "cableguys-pancake-2",
@@ -25538,7 +25684,8 @@
         "lfo",
         "rhythmic",
         "stereo"
-      ]
+      ],
+      "image_url": "https://www.cableguys.com/_ipx/q_90/img/cableguys/logo.svg"
     },
     {
       "slug": "positive-grid-bias-fx-2",
@@ -25581,7 +25728,8 @@
         "pedalboard",
         "cab-sim",
         "versatile"
-      ]
+      ],
+      "image_url": "http://www.positivegrid.com/cdn/shop/files/1.jpg?v=1684748008&width=1200"
     },
     {
       "slug": "overloud-th-u",
@@ -25624,7 +25772,8 @@
         "effects-chain",
         "versatile",
         "pedalboard"
-      ]
+      ],
+      "image_url": "https://www.overloud.com/sites/almateq/files/styles/large/public/2025-02/thuv2%20cover%20web.png?itok=XrHRTJ-8"
     },
     {
       "slug": "d16-drumazon",
@@ -25666,7 +25815,8 @@
         "techno",
         "house",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/drumazon2/bg2.jpg"
     },
     {
       "slug": "d16-nepheton",
@@ -25708,7 +25858,8 @@
         "hip-hop",
         "trap",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/nepheton2/bg2.jpg"
     },
     {
       "slug": "d16-phoscyon",
@@ -25752,7 +25903,8 @@
         "electronic",
         "analog-modeling",
         "resonant"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/phoscyon/bg2.jpg"
     },
     {
       "slug": "d16-syntorus-2",
@@ -25794,7 +25946,8 @@
         "juno",
         "lush",
         "vintage"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/syntorus2/3d.png"
     },
     {
       "slug": "variety-of-sound-nasty-vcs",
@@ -25834,7 +25987,8 @@
         "eq",
         "saturation",
         "vintage"
-      ]
+      ],
+      "image_url": "https://varietyofsound.wordpress.com/wp-content/uploads/2023/12/epicclouds.png"
     },
     {
       "slug": "variety-of-sound-thrillseeker-la",
@@ -25873,7 +26027,8 @@
         "vintage",
         "smooth",
         "leveling"
-      ]
+      ],
+      "image_url": "https://varietyofsound.wordpress.com/wp-content/uploads/2023/12/epicclouds.png"
     },
     {
       "slug": "sonic-anomaly-lostinverb",
@@ -25954,7 +26109,8 @@
         "precise",
         "professional",
         "clean"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-g-intro.jpg?v=1710150538"
     },
     {
       "slug": "waves-deesser",
@@ -26330,7 +26486,8 @@
         "spectral",
         "mixing",
         "modern"
-      ]
+      ],
+      "image_url": "https://oeksound.com/_astro/bloom.BzP8_dCw.png"
     },
     {
       "slug": "ample-bass-p-lite",
@@ -26414,7 +26571,8 @@
         "metal",
         "realistic",
         "sample-based"
-      ]
+      ],
+      "image_url": "https://cdn.threebodytech.com/statics/images/qt/company_logo.jpg"
     },
     {
       "slug": "ghost-note-audio-hysteresis",
@@ -26796,7 +26954,8 @@
         "realistic",
         "classical",
         "grand"
-      ]
+      ],
+      "image_url": "https://www.soundsonline.com/images/ew_logo@2x.png"
     },
     {
       "slug": "ujam-virtual-drummer-solid",
@@ -27172,7 +27331,8 @@
         "vintage",
         "polyphonic",
         "warm"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9tZW1vcnltb2RlLnBuZw/memorymode.png?p=seo_pro_og&s=fc8566fa942abcc69541f5e571552184"
     },
     {
       "slug": "cherry-audio-harmonia",
@@ -27215,7 +27375,8 @@
         "drawbar",
         "keyboard",
         "unique"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9oYXJtb25pYS1pbWctbmF2LmpwZw/harmonia-img-nav.jpg?p=seo_pro_og&s=609a1412aa85a8c05a98597ae1dd7cb7"
     },
     {
       "slug": "sonnox-oxford-envolution",
@@ -27257,7 +27418,8 @@
         "drums",
         "mixing",
         "precise"
-      ]
+      ],
+      "image_url": "https://cdn11.bigcommerce.com/s-8pfrvbtcba/products/119/images/658/Envolution_PDP_GUI__30431.1752224082.386.513.png?c=1"
     },
     {
       "slug": "waves-renaissance-channel",
@@ -27509,7 +27671,8 @@
         "intelligent",
         "mixing",
         "modern"
-      ]
+      ],
+      "image_url": "https://www.sonible.com/wp-content/uploads/2025/12/smartReverb2_productpage_share.jpg"
     },
     {
       "slug": "sonible-smart-eq-4",
@@ -27551,7 +27714,8 @@
         "spectral",
         "mixing",
         "modern"
-      ]
+      ],
+      "image_url": "https://www.sonible.com/wp-content/uploads/2023/12/share_smEQ4.jpg"
     },
     {
       "slug": "sonible-smart-gate",
@@ -27593,7 +27757,8 @@
         "noise",
         "separation",
         "modern"
-      ]
+      ],
+      "image_url": "https://www.sonible.com/wp-content/uploads/2023/07/Tutorial-2_share_smgate.jpg"
     },
     {
       "slug": "sonible-smart-deess",
@@ -27635,7 +27800,8 @@
         "vocal",
         "intelligent",
         "modern"
-      ]
+      ],
+      "image_url": "https://www.sonible.com/wp-content/uploads/2023/10/share_smDeess.jpg"
     },
     {
       "slug": "liquidsonics-seventh-heaven",
@@ -27970,7 +28136,8 @@
         "loudness",
         "utility",
         "gentle"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/69/69dleht6o.jpg"
     },
     {
       "slug": "voxengo-latency-delay",
@@ -28011,7 +28178,8 @@
         "alignment",
         "free",
         "precision"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/96/96eseud79.jpg"
     },
     {
       "slug": "blue-cat-gain-suite-3",
@@ -28052,7 +28220,8 @@
         "routing",
         "free",
         "midi"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_GainSuite/Screenshots/main.png"
     },
     {
       "slug": "meldaproduction-mtesttone",
@@ -28136,7 +28305,8 @@
         "free",
         "guitar",
         "tuning"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MTuner00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mrecorder",
@@ -28178,7 +28348,8 @@
         "wav",
         "capture",
         "workflow"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MRecorder00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mchannelmatrix",
@@ -28220,7 +28391,8 @@
         "matrix",
         "channel",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MChannelMatrix00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mnotepad",
@@ -28262,7 +28434,8 @@
         "free",
         "organization",
         "session"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MNotepad00.v1.jpg"
     },
     {
       "slug": "hy-plugins-hy-chord",
@@ -28385,7 +28558,8 @@
         "pattern",
         "sequencer",
         "creative"
-      ]
+      ],
+      "image_url": "https://lostin70s.com/img/newlogo.png"
     },
     {
       "slug": "ua-fairchild-670",
@@ -28427,7 +28601,8 @@
         "vintage",
         "legendary",
         "mastering"
-      ]
+      ],
+      "image_url": "http://www.uaudio.com/cdn/shop/files/fairchild_tube_limiter_collection_gallery_1.png?crop=center&height=480&v=1742248524&width=480"
     },
     {
       "slug": "ua-manley-voxbox",
@@ -28469,7 +28644,8 @@
         "preamp",
         "compressor",
         "de-esser"
-      ]
+      ],
+      "image_url": "http://www.uaudio.com/cdn/shop/files/manley_voxbox_gallery_1.png?crop=center&height=480&v=1742502468&width=480"
     },
     {
       "slug": "ua-teletronix-la2a",
@@ -28683,7 +28859,8 @@
         "spring",
         "hall",
         "plate"
-      ]
+      ],
+      "image_url": "https://www.kuassa.com/wp-content/uploads/2019/12/RV3604-product-render.jpg"
     },
     {
       "slug": "kuassa-efektor-ch3604",
@@ -28725,7 +28902,8 @@
         "vintage",
         "modulation",
         "stereo"
-      ]
+      ],
+      "image_url": "https://www.kuassa.com/wp-content/uploads/2017/12/CH3604-600x600EDITED.jpg"
     },
     {
       "slug": "kuassa-efektor-fl3604",
@@ -29306,7 +29484,8 @@
         "mixing",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-galactic",
@@ -29347,7 +29526,8 @@
         "huge",
         "atmospheric",
         "pads"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-desk4",
@@ -29388,7 +29568,8 @@
         "analog-modeling",
         "warm",
         "mixing"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-purest-drive",
@@ -29429,7 +29610,8 @@
         "clean",
         "subtle",
         "warm"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-tape",
@@ -29470,7 +29652,8 @@
         "analog-modeling",
         "warm",
         "vintage"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-purest-air",
@@ -29511,7 +29694,8 @@
         "brightness",
         "high-frequency",
         "clean"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-monitoring",
@@ -29550,7 +29734,8 @@
         "free",
         "mono-check",
         "metering"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-channel9",
@@ -29590,7 +29775,8 @@
         "free",
         "saturation",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-biquad-triple",
@@ -29630,7 +29816,8 @@
         "free",
         "parametric",
         "musical"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-clay-tubes",
@@ -29671,7 +29858,8 @@
         "warm",
         "analog-modeling",
         "organic"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-dyno",
@@ -29710,7 +29898,8 @@
         "free",
         "gentle",
         "simple"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-loud",
@@ -29748,7 +29937,8 @@
         "free",
         "aggressive",
         "loud"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-mackity",
@@ -29788,7 +29978,8 @@
         "free",
         "analog-modeling",
         "mixing"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-righteous4",
@@ -29828,7 +30019,8 @@
         "free",
         "loudness",
         "final-stage"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-pop",
@@ -29867,7 +30059,8 @@
         "free",
         "drums",
         "transient"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-chorus-ensemble",
@@ -29908,7 +30101,8 @@
         "lush",
         "modulation",
         "vintage"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-verbity",
@@ -29948,7 +30142,8 @@
         "free",
         "algorithmic",
         "smooth"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "airwindows-acceleration2",
@@ -29988,7 +30183,8 @@
         "free",
         "smooth",
         "transient"
-      ]
+      ],
+      "image_url": "https://secure.gravatar.com/avatar/3a90200dc12f060e8233ece531cc18771b7d768e66d90733f5502495af826f9b?s=100&#038;d=blank&#038;r=x"
     },
     {
       "slug": "analog-obsession-predd",
@@ -30027,7 +30223,8 @@
         "free",
         "warm",
         "mastering"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-brite",
@@ -30066,7 +30263,8 @@
         "free",
         "console",
         "bright"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-konsol",
@@ -30105,7 +30303,8 @@
         "free",
         "glue",
         "mixing"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-ribbe",
@@ -30144,7 +30343,8 @@
         "free",
         "ssl",
         "glue"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-drivex",
@@ -30183,7 +30383,8 @@
         "free",
         "harmonic",
         "presence"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-room041",
@@ -30222,7 +30423,8 @@
         "free",
         "natural",
         "acoustic"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-premax",
@@ -30261,7 +30463,8 @@
         "free",
         "analog-modeling",
         "loudness"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-opto-la",
@@ -30301,7 +30504,8 @@
         "free",
         "smooth",
         "vocal"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-tuba-mk2",
@@ -30340,7 +30544,8 @@
         "analog-modeling",
         "free",
         "warm"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-deelay",
@@ -30379,7 +30584,8 @@
         "free",
         "warm",
         "echo"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "auto-tune-pro",
@@ -30419,7 +30625,8 @@
         "auto-tune",
         "real-time",
         "professional"
-      ]
+      ],
+      "image_url": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg"
     },
     {
       "slug": "auto-tune-access",
@@ -30458,7 +30665,8 @@
         "auto-tune",
         "easy-to-use",
         "simple"
-      ]
+      ],
+      "image_url": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg"
     },
     {
       "slug": "auto-tune-efx-plus",
@@ -30497,7 +30705,8 @@
         "creative",
         "harmony",
         "effects-chain"
-      ]
+      ],
+      "image_url": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg"
     },
     {
       "slug": "antares-harmony-engine",
@@ -30536,7 +30745,8 @@
         "harmonizer",
         "pitch",
         "real-time"
-      ]
+      ],
+      "image_url": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg"
     },
     {
       "slug": "antares-throat",
@@ -30574,7 +30784,8 @@
         "formant",
         "physical-modeling",
         "creative"
-      ]
+      ],
+      "image_url": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg"
     },
     {
       "slug": "celemony-melodyne-5",
@@ -30616,7 +30827,8 @@
         "polyphonic",
         "professional",
         "precise"
-      ]
+      ],
+      "image_url": "https://assets.celemony.com/code/M5-Blobs-FB"
     },
     {
       "slug": "synchro-arts-vocalign",
@@ -30655,7 +30867,8 @@
         "doubling",
         "professional",
         "real-time"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/65d51e7b54a239fbf125ec65/66607562b5d60ad3740c011b_VocAlign6_UI.webp"
     },
     {
       "slug": "synchro-arts-revoice-pro",
@@ -30693,7 +30906,8 @@
         "alignment",
         "doubling",
         "professional"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/65d51e7b54a239fbf125ec65/660c49e94d3825ca83916bae_revoice-pro-5-main.webp"
     },
     {
       "slug": "synchro-arts-repitch",
@@ -30730,7 +30944,8 @@
         "vocal",
         "precise",
         "visual"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/65d51e7b54a239fbf125ec65/690cb2614e6172f8298e1043_SA%20RePitch%20Elements.png"
     },
     {
       "slug": "positive-grid-bias-amp-2",
@@ -30769,7 +30984,8 @@
         "amp",
         "cabinet",
         "tone-shaping"
-      ]
+      ],
+      "image_url": "http://www.positivegrid.com/cdn/shop/products/biasamp2-shopify-01.png?v=1664261713&width=1200"
     },
     {
       "slug": "positive-grid-spark",
@@ -30807,7 +31023,8 @@
         "amp",
         "ai-assisted",
         "multi-effect"
-      ]
+      ],
+      "image_url": "http://www.positivegrid.com/cdn/shop/products/spark-shopify-hero.png?v=1664261701&width=1200"
     },
     {
       "slug": "line-6-helix-native",
@@ -30847,7 +31064,8 @@
         "multi-effect",
         "cab-sim",
         "pedalboard"
-      ]
+      ],
+      "image_url": "https://line6.com/data/6/0a020a4191e85d4b0d3e91e88/image/jpeg/file.jpeg"
     },
     {
       "slug": "line-6-pod-farm",
@@ -30887,7 +31105,8 @@
         "multi-effect",
         "classic",
         "presets"
-      ]
+      ],
+      "image_url": "https://line6.com/data/6/0a020a4191e85d4b0d3e91e88/image/jpeg/file.jpeg"
     },
     {
       "slug": "stl-tones-tonehub",
@@ -31439,7 +31658,8 @@
         "reverb",
         "spring",
         "vintage"
-      ]
+      ],
+      "image_url": "http://www.nembriniaudio.com/cdn/shop/files/Logo.png?v=1613510951"
     },
     {
       "slug": "nembrini-na-plexi",
@@ -31479,7 +31699,8 @@
         "british",
         "rock",
         "vintage"
-      ]
+      ],
+      "image_url": "http://www.nembriniaudio.com/cdn/shop/files/Logo.png?v=1613510951"
     },
     {
       "slug": "kuassa-amplifikation-one",
@@ -31517,7 +31738,8 @@
         "amp",
         "multi-effect",
         "cab-sim"
-      ]
+      ],
+      "image_url": "https://www.kuassa.com/wp-content/uploads/2013/10/AMPLIFIKATION-ONE-600x600.jpg"
     },
     {
       "slug": "eventide-quadravox",
@@ -31556,7 +31778,8 @@
         "harmony",
         "vocal",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Quadravox.png"
     },
     {
       "slug": "eventide-octavox",
@@ -31595,7 +31818,8 @@
         "harmony",
         "creative",
         "octave"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Octavox.png"
     },
     {
       "slug": "eventide-fission",
@@ -31673,7 +31897,8 @@
         "spectral",
         "mixing",
         "surgical"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-SplitEQ.png"
     },
     {
       "slug": "eventide-undulator",
@@ -31712,7 +31937,8 @@
         "vibrato",
         "ring-modulator",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Undulator.png"
     },
     {
       "slug": "eventide-rotary-mod",
@@ -31751,7 +31977,8 @@
         "rotation",
         "organ",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Rotary-Mod.png"
     },
     {
       "slug": "eventide-blackhole-immersive",
@@ -31789,7 +32016,8 @@
         "huge",
         "spatial",
         "immersive"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Blackhole.png"
     },
     {
       "slug": "eventide-crushstation",
@@ -31828,7 +32056,8 @@
         "saturation",
         "guitar",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-CrushStation.png"
     },
     {
       "slug": "bx-xl-v2",
@@ -32103,7 +32332,8 @@
         "chamber",
         "legendary",
         "professional"
-      ]
+      ],
+      "image_url": "https://adn.harmanpro.com/product_attachments/product_attachments/979_1728944514/reverbbundle_x_large.webp"
     },
     {
       "slug": "lexicon-lxp-native-reverb",
@@ -32141,7 +32371,8 @@
         "room",
         "classic",
         "vintage"
-      ]
+      ],
+      "image_url": "https://adn.harmanpro.com/assets/lexicon/logo-ee1cce9d933bbdc988926f71eb104b00d0872c96b8d972d8703f31e8100e8056.png"
     },
     {
       "slug": "zynaptiq-unfilter",
@@ -32694,7 +32925,8 @@
         "wurlitzer",
         "physical-modeling",
         "keys"
-      ]
+      ],
+      "image_url": "https://static.www.applied-acoustics.com/images/home-social-media-twitter-2x.png?r=0"
     },
     {
       "slug": "aas-strum-gs2",
@@ -32734,7 +32966,8 @@
         "strumming",
         "physical-modeling",
         "keys"
-      ]
+      ],
+      "image_url": "https://static.www.applied-acoustics.com/images/home-social-media-twitter-2x.png?r=0"
     },
     {
       "slug": "aas-chromaphone-3",
@@ -32774,7 +33007,8 @@
         "drums",
         "bells",
         "metallic"
-      ]
+      ],
+      "image_url": "https://static.www.applied-acoustics.com/images/home-social-media-twitter-2x.png?r=0"
     },
     {
       "slug": "aas-ultra-analog-va3",
@@ -32814,7 +33048,8 @@
         "subtractive",
         "warm",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.www.applied-acoustics.com/images/home-social-media-twitter-2x.png?r=0"
     },
     {
       "slug": "cherry-audio-surrealistic-mg2",
@@ -32934,7 +33169,8 @@
         "virtual-analog",
         "pads",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9kcmVhbXN5bnRoLWltZy1uYXYuanBn/dreamsynth-img-nav.jpg?p=seo_pro_og&s=e5a570ad56767f117269a6fc468f7fc8"
     },
     {
       "slug": "ik-multimedia-hammond-b3x",
@@ -33051,7 +33287,8 @@
         "free",
         "drawbar",
         "vintage"
-      ]
+      ],
+      "image_url": "https://socalabs.com/wp-content/uploads/2022/06/sid-300x99.png"
     },
     {
       "slug": "full-bucket-scanned-synth",
@@ -33169,7 +33406,8 @@
         "lead",
         "monophonic",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.uvi.net/UVIFC_Falcon/medias/conversions/1761051815_Falcon-26_cover-responsive-webp-retina.webp"
     },
     {
       "slug": "uvi-string-machines",
@@ -33249,7 +33487,8 @@
         "vintage",
         "80s",
         "fm"
-      ]
+      ],
+      "image_url": "https://cdn.uvi.net/UVIFC_Falcon/medias/conversions/1761051815_Falcon-26_cover-responsive-webp-retina.webp"
     },
     {
       "slug": "cherry-audio-chroma",
@@ -33288,7 +33527,8 @@
         "analog",
         "vintage",
         "80s"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9jaHJvbWEtaW1nLW5hdi5qcGc/chroma-img-nav.jpg?p=seo_pro_og&s=68d08b7691b9fb1a925933c7e4550779"
     },
     {
       "slug": "geonkick-drum-synth",
@@ -33325,7 +33565,8 @@
         "free",
         "open-source",
         "percussion"
-      ]
+      ],
+      "image_url": "https://quamplex.com/logo.png"
     },
     {
       "slug": "sonic-academy-ana-3",
@@ -33365,7 +33606,8 @@
         "subtractive",
         "edm",
         "modern"
-      ]
+      ],
+      "image_url": "https://images.sonicacademy.com/images/medium/382_ANA_2_square_with_GUI.jpg?1748358150"
     },
     {
       "slug": "izotope-ozone-imager-v2",
@@ -33443,7 +33685,8 @@
         "free",
         "mono-compatible",
         "imaging"
-      ]
+      ],
+      "image_url": "https://polyversemusic.com/wp-content/uploads/2023/03/Wider-v2-Polyverse-SEO-Image-Banner.jpg"
     },
     {
       "slug": "klevgrand-daw-lp",
@@ -33482,7 +33725,8 @@
         "noise",
         "character",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.klevgrand.com/assets/ui_images/dawlp_hires_plug.jpeg"
     },
     {
       "slug": "venomode-complexer",
@@ -33520,7 +33764,8 @@
         "multiband",
         "imaging",
         "mixing"
-      ]
+      ],
+      "image_url": "https://venomode.com/images/Complexer2/Complexer2GUI25.png"
     },
     {
       "slug": "goodhertz-canopener-studio",
@@ -33557,7 +33802,8 @@
         "stereo",
         "monitoring",
         "mixing"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_canopener-studio__og_landscape.png"
     },
     {
       "slug": "sonimus-satson-cs",
@@ -33596,7 +33842,8 @@
         "free",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://mltybuluqqy2.i.optimole.com/w:1080/h:1080/q:mauto/f:best/https://sonimus.com/files/2023/11/Satson-NEW-BLACK.png"
     },
     {
       "slug": "sonimus-burnley-73",
@@ -33635,7 +33882,8 @@
         "analog-modeling",
         "warm",
         "vintage"
-      ]
+      ],
+      "image_url": "https://mltybuluqqy2.i.optimole.com/w:1080/h:1080/q:mauto/f:best/https://sonimus.com/files/2023/11/Burnley-75-NEW-BLACK.png"
     },
     {
       "slug": "dotec-audio-deesser",
@@ -33867,7 +34115,8 @@
         "creative",
         "glitch",
         "texture"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/689b6072d2a28fc665dab130_atoms_gui_dark_menu.avif"
     },
     {
       "slug": "glitchmachines-fracture-xt",
@@ -33944,7 +34193,8 @@
         "ambient",
         "creative",
         "sound-design"
-      ]
+      ],
+      "image_url": "http://www.unfilteredaudio.com/cdn/shop/products/SandmanPro_grande.png?v=1505707289"
     },
     {
       "slug": "unfiltered-audio-dent-2",
@@ -33982,7 +34232,8 @@
         "waveshaping",
         "creative",
         "experimental"
-      ]
+      ],
+      "image_url": "http://www.unfilteredaudio.com/cdn/shop/products/dent2_grande.png?v=1505705646"
     },
     {
       "slug": "unfiltered-audio-indent-2",
@@ -34056,7 +34307,8 @@
         "creative",
         "modular",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://storyblok-assets.output.com/1200x675/8b33926841/seo_fx-thermal_1200x675.jpg"
     },
     {
       "slug": "sugar-bytes-effectrix-2",
@@ -34172,7 +34424,8 @@
         "creative",
         "retro",
         "noise"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2019/12/vinyl-strip-plugin.jpg"
     },
     {
       "slug": "audiothing-type-a",
@@ -34210,7 +34463,8 @@
         "warm",
         "vintage",
         "saturation"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2019/01/type-a-plugin.png"
     },
     {
       "slug": "audiothing-things-motor",
@@ -34248,7 +34502,8 @@
         "experimental",
         "mechanical",
         "texture"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2021/03/things-motor-plugin.png"
     },
     {
       "slug": "mastering-the-mix-limiter",
@@ -34288,7 +34543,8 @@
         "lufs",
         "intelligent",
         "final-stage"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/files/LIMITER_Smart_mastering_plugin.jpg?v=1713529670&width=2048"
     },
     {
       "slug": "mastering-the-mix-bassroom",
@@ -34326,7 +34582,8 @@
         "low-end",
         "bass",
         "intelligent"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/products/BASSROOM.jpg?v=1670490366&width=2048"
     },
     {
       "slug": "mastering-the-mix-expose",
@@ -34366,7 +34623,8 @@
         "loudness",
         "metering",
         "streaming"
-      ]
+      ],
+      "image_url": "http://www.masteringthemix.com/cdn/shop/products/EXPOSE2.jpg?v=1670490393&width=2048"
     },
     {
       "slug": "dmg-audio-limitless",
@@ -34406,7 +34664,8 @@
         "true-peak",
         "loudness",
         "professional"
-      ]
+      ],
+      "image_url": "https://dmgaudio.com/images/products/limitless.png"
     },
     {
       "slug": "dmg-audio-compassion-ge",
@@ -34445,7 +34704,8 @@
         "versatile",
         "professional",
         "transparent"
-      ]
+      ],
+      "image_url": "https://dmgaudio.com/images/products/compassion.png"
     },
     {
       "slug": "sonnox-pro-codec",
@@ -34558,7 +34818,8 @@
         "loudness",
         "true-peak",
         "linear-phase"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/45/45juh8gnj.jpg"
     },
     {
       "slug": "harrison-ava-mastering-limiter",
@@ -34597,7 +34858,8 @@
         "transparent",
         "true-peak",
         "loudness"
-      ]
+      ],
+      "image_url": "https://harrisonaudio.com/assets/uploads/social/harrison-standard.jpg"
     },
     {
       "slug": "voxengo-oldskoolverb",
@@ -34635,7 +34897,8 @@
         "hall",
         "room",
         "plate"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/55/55evitubz.jpg"
     },
     {
       "slug": "voxengo-tempo-delay",
@@ -34671,7 +34934,8 @@
         "free",
         "stereo",
         "tempo-synced"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/59/59rf1fp0i.jpg"
     },
     {
       "slug": "voxengo-deft-compressor",
@@ -34709,7 +34973,8 @@
         "sidechain",
         "parallel",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/20/20brlghlw.jpg"
     },
     {
       "slug": "voxengo-primeeq",
@@ -34747,7 +35012,8 @@
         "mid-side",
         "dynamic-eq",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/69/69c757m2x.jpg"
     },
     {
       "slug": "voxengo-stereo-touch",
@@ -34785,7 +35051,8 @@
         "free",
         "imaging",
         "spatial"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/32/32gbd5ubg.jpg"
     },
     {
       "slug": "voxengo-bms",
@@ -34822,7 +35089,8 @@
         "metering",
         "free",
         "visual"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/67/67lsu9nkg.jpg"
     },
     {
       "slug": "blue-cat-axiom",
@@ -34860,7 +35128,8 @@
         "multi-effect",
         "host",
         "pedalboard"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_Axiom/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-destructor",
@@ -34898,7 +35167,8 @@
         "waveshaping",
         "guitar",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_Destructor/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-freeware-pack",
@@ -34935,7 +35205,8 @@
         "utility",
         "free",
         "bundle"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Bundle_FreewarePack/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-dynamics",
@@ -34973,7 +35244,8 @@
         "limiter",
         "dynamics",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_Dynamics/Screenshots/main.png"
     },
     {
       "slug": "blue-cat-re-guitar",
@@ -35010,7 +35282,8 @@
         "modeling",
         "tone-shaping",
         "pickup"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_ReGuitar/Screenshots/main.png"
     },
     {
       "slug": "dragonfly-hall-reverb",
@@ -35162,7 +35435,8 @@
         "free",
         "open-source",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.zamaudio.com/wp-content/uploads/2014/04/zamsynth.png"
     },
     {
       "slug": "zam-audio-zameq2",
@@ -35197,7 +35471,8 @@
         "parametric-eq",
         "free",
         "open-source"
-      ]
+      ],
+      "image_url": "https://www.zamaudio.com/wp-content/uploads/2014/04/zamsynth.png"
     },
     {
       "slug": "tdr-molotok",
@@ -35234,7 +35509,8 @@
         "character",
         "musical",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://www.tokyodawn.net/wp-content/uploads/2020/10/TDR-Molotok-1.png"
     },
     {
       "slug": "mda-epiano",
@@ -35766,7 +36042,8 @@
         "sequencer",
         "step-sequencer",
         "pattern"
-      ]
+      ],
+      "image_url": "https://venomode.com/images/Phrasebox2/phrasebox_2_gui.png"
     },
     {
       "slug": "w-a-production-instascale",
@@ -35950,7 +36227,8 @@
         "utility",
         "free",
         "performance"
-      ]
+      ],
+      "image_url": "https://assets.unplug.red/objects/c3.gif"
     },
     {
       "slug": "blue-cat-mb-5-dynamix",
@@ -35988,7 +36266,8 @@
         "container",
         "host",
         "routing"
-      ]
+      ],
+      "image_url": "https://www.bluecataudio.com/Vault/Products/Product_MB5Dynamix/Screenshots/main.png"
     },
     {
       "slug": "ddmf-metaplugin-4",
@@ -36027,7 +36306,8 @@
         "wrapper",
         "mid-side",
         "parallel"
-      ]
+      ],
+      "image_url": "https://ddmf.eu/assets/images/Metaplugin.jpg"
     },
     {
       "slug": "kushview-element",
@@ -36067,7 +36347,8 @@
         "modular",
         "free",
         "open-source"
-      ]
+      ],
+      "image_url": "https://s3.amazonaws.com/assets.kushview.net/wp-content/uploads/2025/06/02134648/icon-768x768.png"
     },
     {
       "slug": "kilohearts-multipass-2",
@@ -36105,7 +36386,8 @@
         "host",
         "modular",
         "creative"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/multipass/social.png"
     },
     {
       "slug": "kilohearts-snap-heap-2",
@@ -36144,7 +36426,8 @@
         "free",
         "parallel",
         "routing"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/snap_heap/social.png"
     },
     {
       "slug": "waves-nx",
@@ -36912,7 +37195,8 @@
         "analog-modeling",
         "warm",
         "coloring"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/5E4A6B0122C749555286038E1DD6FB2D257F95A689B670FDC35A7A5A644246DC/31793eea62b045eaae60bda52b0fc22d/jpg/media/eb86a148da44417da03d407aeed561c1/harmonics-product-thumbnail-dark-1200x1200.jpg"
     },
     {
       "slug": "softube-fix-flanger-doubler",
@@ -37029,7 +37313,8 @@
         "warm",
         "vintage",
         "mastering"
-      ]
+      ],
+      "image_url": "https://slatedigital.com/wp-content/uploads/2024/09/Virtual-Tape-Machines.png"
     },
     {
       "slug": "slate-digital-virtual-console-collection",
@@ -37069,7 +37354,8 @@
         "ssl",
         "neve",
         "mixing"
-      ]
+      ],
+      "image_url": "https://slatedigital.com/wp-content/uploads/2025/07/Virtual-Console-Collection.png"
     },
     {
       "slug": "slate-digital-fg-bomber",
@@ -37107,7 +37393,8 @@
         "saturation",
         "low-end",
         "tone-shaping"
-      ]
+      ],
+      "image_url": "https://slatedigital.com/wp-content/uploads/2025/07/FG-Bomber.png"
     },
     {
       "slug": "ssl-native-vocalstrip-2",
@@ -37146,7 +37433,8 @@
         "de-esser",
         "compressor",
         "eq"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/prestashop-vocalstrip-2.jpg"
     },
     {
       "slug": "ssl-flexverb",
@@ -37185,7 +37473,8 @@
         "chamber",
         "room",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/FlexVerb.jpg"
     },
     {
       "slug": "ua-neve-preamp",
@@ -37222,7 +37511,8 @@
         "analog-modeling",
         "warm",
         "saturation"
-      ]
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0558/1724/0665/files/universal-audio-logo.png?v=1753287431"
     },
     {
       "slug": "ua-precision-limiter",
@@ -37259,7 +37549,8 @@
         "transparent",
         "precision",
         "final-stage"
-      ]
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0558/1724/0665/files/universal-audio-logo.png?v=1753287431"
     },
     {
       "slug": "rob-papen-subboombass-2",
@@ -37412,7 +37703,8 @@
         "wave-folding",
         "clipper",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0552/0923/0485/files/freequel_5eab10a1-50c9-401e-80a9-f7b26bb50d55.png?v=1720481442"
     },
     {
       "slug": "noise-engineering-sinc-vereor",
@@ -37451,7 +37743,8 @@
         "fm",
         "aggressive",
         "modular"
-      ]
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0552/0923/0485/files/freequel_5eab10a1-50c9-401e-80a9-f7b26bb50d55.png?v=1720481442"
     },
     {
       "slug": "minimal-audio-rift-2",
@@ -37490,7 +37783,8 @@
         "modulation",
         "creative",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://www.minimal.audio/assets/v2/plugins/rift/rift-5be525fe656ec52fba508f987ca5c1377727e9a9702c6eed952fb9b29eb6ad82.webp"
     },
     {
       "slug": "minimal-audio-cluster-delay",
@@ -37607,7 +37901,8 @@
         "lfo",
         "sidechain",
         "creative"
-      ]
+      ],
+      "image_url": "https://storyblok-assets.output.com/1200x675/fd8f8b696c/seo_fx-movement_1200x675.jpg"
     },
     {
       "slug": "tone2-icarus-3",
@@ -37798,7 +38093,8 @@
         "free",
         "vintage",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://www.cakewalk.com/_nuxt/og-image.DP9nbs6Q.jpg"
     },
     {
       "slug": "cakewalk-compressor",
@@ -37830,7 +38126,8 @@
         "free",
         "versatile",
         "sidechain"
-      ]
+      ],
+      "image_url": "https://www.cakewalk.com/_nuxt/og-image.DP9nbs6Q.jpg"
     },
     {
       "slug": "cakewalk-eq",
@@ -37863,7 +38160,8 @@
         "parametric-eq",
         "free",
         "visual"
-      ]
+      ],
+      "image_url": "https://www.cakewalk.com/_nuxt/og-image.DP9nbs6Q.jpg"
     },
     {
       "slug": "melda-production-mconvolution",
@@ -37899,7 +38197,8 @@
         "convolution",
         "impulse-response",
         "free"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MConvolutionEZ00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mrotary",
@@ -37937,7 +38236,8 @@
         "rotation",
         "free",
         "organ"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MRotary00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mloudnessanalyzer",
@@ -37976,7 +38276,8 @@
         "true-peak",
         "free",
         "mastering"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MLoudnessAnalyzer00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mwobbler",
@@ -38015,7 +38316,8 @@
         "free",
         "dubstep",
         "bass"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MWobbler00.v1.jpg"
     },
     {
       "slug": "meldaproduction-mcomb",
@@ -38054,7 +38356,8 @@
         "free",
         "metallic",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.meldaproduction.com//webtemp/imagecache/screenshots/MComb00.v1.jpg"
     },
     {
       "slug": "psp-audioware-pianoverb",
@@ -38130,7 +38433,8 @@
         "simple",
         "character",
         "easy-to-use"
-      ]
+      ],
+      "image_url": "https://klanghelm.com/assets/img/KlanghelmLogoBlack.png"
     },
     {
       "slug": "klanghelm-mjuc-ge",
@@ -38168,7 +38472,8 @@
         "tube",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://klanghelm.com/assets/img/KlanghelmLogoBlack.png"
     },
     {
       "slug": "spl-transient-designer-plus",
@@ -38245,7 +38550,8 @@
         "clarity",
         "mastering",
         "harmonic-enhancer"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "newfangled-audio-invigorate",
@@ -38283,7 +38589,8 @@
         "intelligent",
         "adaptive",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Invigorate.png"
     },
     {
       "slug": "newfangled-audio-pendulate",
@@ -38321,7 +38628,8 @@
         "experimental",
         "monophonic",
         "chaotic"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Pendulate.png"
     },
     {
       "slug": "newfangled-audio-generate",
@@ -38359,7 +38667,8 @@
         "polyphonic",
         "experimental",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Generate.png"
     },
     {
       "slug": "liquidsonics-cinematic-rooms",
@@ -38625,7 +38934,8 @@
         "coloring",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://tone-empire.com/wp-content/uploads/2023/05/19.png"
     },
     {
       "slug": "acustica-audio-ivory3",
@@ -38663,7 +38973,8 @@
         "compressor",
         "analog-modeling",
         "mastering"
-      ]
+      ],
+      "image_url": "https://www.acustica-audio.com/acustica-share.jpg"
     },
     {
       "slug": "acustica-audio-sand3",
@@ -38701,7 +39012,8 @@
         "ssl",
         "compressor",
         "console"
-      ]
+      ],
+      "image_url": "https://www.acustica-audio.com/acustica-share.jpg"
     },
     {
       "slug": "d16-sigmund",
@@ -38741,7 +39053,8 @@
         "analog-modeling",
         "stereo",
         "modulated"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/sigmund2/bg2.jpg"
     },
     {
       "slug": "d16-tekturon",
@@ -38781,7 +39094,8 @@
         "step-sequencer",
         "pattern",
         "rhythmic"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/tekturon/bg2.jpg"
     },
     {
       "slug": "d16-frontier",
@@ -38820,7 +39134,8 @@
         "brickwall",
         "mastering",
         "transparent"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/frontier/bg2.jpg"
     },
     {
       "slug": "d16-godfazer",
@@ -38860,7 +39175,8 @@
         "flanger",
         "chorus",
         "versatile"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/godfazer/bg2.jpg"
     },
     {
       "slug": "hy-plugins-hy-gain",
@@ -38897,7 +39213,8 @@
         "distortion",
         "free",
         "utility"
-      ]
+      ],
+      "image_url": "https://hy-plugins.com/wp-content/uploads/filter4_resize-min-550x440.png"
     },
     {
       "slug": "hy-plugins-hy-lofi2",
@@ -38935,7 +39252,8 @@
         "free",
         "retro",
         "creative"
-      ]
+      ],
+      "image_url": "https://hy-plugins.com/wp-content/uploads/filter4_resize-min-550x440.png"
     },
     {
       "slug": "oeksound-spiff",
@@ -38972,7 +39290,8 @@
         "adaptive",
         "spectral",
         "mixing"
-      ]
+      ],
+      "image_url": "https://oeksound.com/_astro/spiff-product-page.DfE_45zd.png"
     },
     {
       "slug": "sinevibes-blend",
@@ -39076,7 +39395,8 @@
         "guitar",
         "cab-sim",
         "ai-assisted"
-      ]
+      ],
+      "image_url": "https://cdn.klevgrand.com/assets/ui_images/ui_reamp@2x.jpg"
     },
     {
       "slug": "elysia-karacter",
@@ -39114,7 +39434,8 @@
         "mid-side",
         "parallel",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://www.elysia.com/wp-content/uploads/2023/10/elysia-karacter.webp"
     },
     {
       "slug": "elysia-niveau-filter",
@@ -39190,7 +39511,8 @@
         "dynamic",
         "drums",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.elysia.com/wp-content/uploads/2023/10/elysia-nvelope.webp"
     },
     {
       "slug": "devious-machines-pitch-monster",
@@ -39228,7 +39550,8 @@
         "formant",
         "vocal",
         "creative"
-      ]
+      ],
+      "image_url": "https://deviousmachines.com/wp-content/uploads/2026/03/Duck2NewsItemv2-1024x576.jpg"
     },
     {
       "slug": "devious-machines-boom",
@@ -39265,7 +39588,8 @@
         "sub-bass",
         "low-end",
         "drums"
-      ]
+      ],
+      "image_url": "https://deviousmachines.com/wp-content/uploads/2024/07/boom-16-9-1024x576.jpg"
     },
     {
       "slug": "sonible-entropy-eq-plus",
@@ -39304,7 +39628,8 @@
         "intelligent",
         "separation",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.sonible.com/wp-content/uploads/2018/01/entropy_Social_Share.jpg"
     },
     {
       "slug": "sonible-smart-limit",
@@ -39343,7 +39668,8 @@
         "mastering",
         "intelligent",
         "transparent"
-      ]
+      ],
+      "image_url": "https://www.sonible.com/wp-content/uploads/2021/12/fb-share_teaser-page.png"
     },
     {
       "slug": "sonible-free-entropy",
@@ -39419,7 +39745,8 @@
         "drums",
         "guitar",
         "dynamics"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2014/11/Pyros.jpg"
     },
     {
       "slug": "audiority-echoes",
@@ -39456,7 +39783,8 @@
         "analog",
         "digital",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2017/11/Echoes-T7E-mkII.webp"
     },
     {
       "slug": "audiority-space-station-um282",
@@ -39494,7 +39822,8 @@
         "vintage",
         "digital",
         "retro"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2022/01/Space-Station-UM-282.jpg"
     },
     {
       "slug": "caelum-audio-flux-mini-2",
@@ -39608,7 +39937,8 @@
         "sample-based",
         "tape",
         "vintage"
-      ]
+      ],
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYTXMoYvrolagsgmzLVfidFGGzZy3kCzq92HCUZZbv5cNoQd7aSGRX3CrY-5jlmdlQkTrOgNnlW6cwafPg8yoM8_-yA3lFfwIVuQdUfoTljwUk0XzzwNuVAFCLGblFierZyRjBKAT7LNM/s460/SampleScience_Footer.jpg"
     },
     {
       "slug": "sample-science-vintage-strings",
@@ -39644,7 +39974,8 @@
         "free",
         "ensemble",
         "analog"
-      ]
+      ],
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYTXMoYvrolagsgmzLVfidFGGzZy3kCzq92HCUZZbv5cNoQd7aSGRX3CrY-5jlmdlQkTrOgNnlW6cwafPg8yoM8_-yA3lFfwIVuQdUfoTljwUk0XzzwNuVAFCLGblFierZyRjBKAT7LNM/s460/SampleScience_Footer.jpg"
     },
     {
       "slug": "sample-science-tape-drums",
@@ -39681,7 +40012,8 @@
         "tape",
         "free",
         "sample-based"
-      ]
+      ],
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYTXMoYvrolagsgmzLVfidFGGzZy3kCzq92HCUZZbv5cNoQd7aSGRX3CrY-5jlmdlQkTrOgNnlW6cwafPg8yoM8_-yA3lFfwIVuQdUfoTljwUk0XzzwNuVAFCLGblFierZyRjBKAT7LNM/s460/SampleScience_Footer.jpg"
     },
     {
       "slug": "surge-synth-team-stochas",
@@ -39724,7 +40056,8 @@
         "generative",
         "free",
         "open-source"
-      ]
+      ],
+      "image_url": "https://stochas.org//assets/img/posts/stochas_thumb.jpg,"
     },
     {
       "slug": "surge-synth-team-shortcircuit",
@@ -39766,7 +40099,8 @@
         "open-source",
         "creative",
         "multi-timbral"
-      ]
+      ],
+      "image_url": "https://opengraph.githubassets.com/a80d3c93a9a14faa3b9e8cfb7a3211f7ed0919b5175c8135337dcc7669246e5a/surge-synthesizer/shortcircuit-xt"
     },
     {
       "slug": "surge-synth-team-monique",
@@ -39808,7 +40142,8 @@
         "bass",
         "free",
         "open-source"
-      ]
+      ],
+      "image_url": "https://surge-synthesizer.github.io/images/og_image.png"
     },
     {
       "slug": "chowdsp-chow-phaser",
@@ -40010,7 +40345,8 @@
         "free",
         "parallel",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.audiothing.net/wp-content/uploads/2017/01/filterjam-plugin.png"
     },
     {
       "slug": "khs-tape-stop",
@@ -40047,7 +40383,8 @@
         "free",
         "creative",
         "transition"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/tape_stop/thumb_400.png"
     },
     {
       "slug": "khs-bitcrush",
@@ -40084,7 +40421,8 @@
         "free",
         "8-bit",
         "retro"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/bitcrush/screenshot.jpg"
     },
     {
       "slug": "khs-reverser",
@@ -40120,7 +40458,8 @@
         "creative",
         "free",
         "experimental"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/reverser/thumb_400.png"
     },
     {
       "slug": "khs-gain",
@@ -40156,7 +40495,8 @@
         "utility",
         "free",
         "simple"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/gain/thumb_400.png"
     },
     {
       "slug": "khs-frequency-shifter",
@@ -40192,7 +40532,8 @@
         "pitch",
         "free",
         "creative"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/frequency_shifter/thumb_400.png"
     },
     {
       "slug": "khs-pitch-shifter",
@@ -40228,7 +40569,8 @@
         "granular",
         "free",
         "formant"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/pitch_shifter/thumb_400.png"
     },
     {
       "slug": "khs-ring-mod",
@@ -40264,7 +40606,8 @@
         "modulation",
         "free",
         "metallic"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/ring_mod/thumb_400.png"
     },
     {
       "slug": "khs-comb-filter",
@@ -40301,7 +40644,8 @@
         "resonant",
         "free",
         "metallic"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/comb_filter/thumb_400.png"
     },
     {
       "slug": "khs-limiter",
@@ -40337,7 +40681,8 @@
         "brickwall",
         "free",
         "utility"
-      ]
+      ],
+      "image_url": "https://kilohearts.com/resources/media_dynamic/offers/limiter/thumb_400.png"
     },
     {
       "slug": "waves-oneknob-driver",
@@ -40636,7 +40981,8 @@
         "impulse-response",
         "professional",
         "film"
-      ]
+      ],
+      "image_url": "https://www.audioease.com/altiverb/TODO"
     },
     {
       "slug": "audio-ease-speakerphone",
@@ -40782,7 +41128,8 @@
         "vu",
         "free",
         "utility"
-      ]
+      ],
+      "image_url": "https://www.hornetplugins.com/wp-content/uploads/edd/2019/10/IMG_3039.jpg"
     },
     {
       "slug": "arturia-matrix-12-v",
@@ -41670,7 +42017,8 @@
         "free",
         "brightness",
         "high-frequency"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-tuba-mk3",
@@ -41708,7 +42056,8 @@
         "saturation",
         "free",
         "warm"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-bus-hammer",
@@ -41745,7 +42094,8 @@
         "free",
         "glue",
         "mixing"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-rhenium",
@@ -41782,7 +42132,8 @@
         "mastering",
         "free",
         "final-stage"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-flamey",
@@ -41819,7 +42170,8 @@
         "modulation",
         "free",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "analog-obsession-delaytoy",
@@ -41856,7 +42208,8 @@
         "creative",
         "free",
         "modulated"
-      ]
+      ],
+      "image_url": "https://c7.patreon.com/https%3A%2F%2Fwww.patreon.com%2F%2Fcard-teaser-image%2Fcreator%2F4012139%3Fc=6867835552814880613/selector/%23creator-teaser%2C.png"
     },
     {
       "slug": "goodhertz-faraday-limiter",
@@ -41968,7 +42321,8 @@
         "algorithmic",
         "professional",
         "mixing"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/pro-r-2-intro.jpg?v=1711362615"
     },
     {
       "slug": "fabfilter-micro",
@@ -42004,7 +42358,8 @@
         "filter",
         "simple",
         "modulation"
-      ]
+      ],
+      "image_url": "https://cdn-b.fabfilter.com/img/products/micro-intro.jpg?v=1747816388"
     },
     {
       "slug": "soundtoys-little-plate",
@@ -42041,7 +42396,8 @@
         "plate",
         "lush",
         "vintage"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Soundtoys_PREVIEW-IMAGE.png"
     },
     {
       "slug": "soundtoys-little-alterboy",
@@ -42079,7 +42435,8 @@
         "formant",
         "creative",
         "drive"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Soundtoys_PREVIEW-IMAGE.png"
     },
     {
       "slug": "soundtoys-primal-tap",
@@ -42116,7 +42473,8 @@
         "vintage",
         "creative",
         "classic"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/PrimalTap_FB_1200x628.png"
     },
     {
       "slug": "soundtoys-filterfreak-2",
@@ -42154,7 +42512,8 @@
         "analog-modeling",
         "rhythmic",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/FilterFreakFB_1200x628.png"
     },
     {
       "slug": "soundtoys-crystallizer-v5",
@@ -42192,7 +42551,8 @@
         "pitch",
         "creative",
         "h3000"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Crystallizer_FB_1200x628.png"
     },
     {
       "slug": "soundtoys-tremolator-v5",
@@ -42230,7 +42590,8 @@
         "rhythmic",
         "modulation",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Tremolator_FB_1200x628.png"
     },
     {
       "slug": "soundtoys-panman-v5",
@@ -42267,7 +42628,8 @@
         "auto-pan",
         "rhythmic",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/PanMan_FB_1200x628.png"
     },
     {
       "slug": "soundtoys-sie-q-v5",
@@ -42305,7 +42667,8 @@
         "siemens",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://www.soundtoys.com/wp-content/uploads/Sie-Q-FB_1200x628.png"
     },
     {
       "slug": "variety-of-sound-density-mk4",
@@ -42340,7 +42703,8 @@
         "free",
         "analog-modeling",
         "glue"
-      ]
+      ],
+      "image_url": "https://0.gravatar.com/avatar/cb3ed94d38ca72f8141f4aa1b37f4899dabd746b975664dd018b0c18e3cc8635?s=48&#038;d=identicon&#038;r=G"
     },
     {
       "slug": "variety-of-sound-presto",
@@ -42374,7 +42738,8 @@
         "free",
         "musical",
         "simple"
-      ]
+      ],
+      "image_url": "https://0.gravatar.com/avatar/cb3ed94d38ca72f8141f4aa1b37f4899dabd746b975664dd018b0c18e3cc8635?s=48&#038;d=identicon&#038;r=G"
     },
     {
       "slug": "variety-of-sound-baxter-eq",
@@ -42409,7 +42774,8 @@
         "free",
         "gentle",
         "mastering"
-      ]
+      ],
+      "image_url": "https://1.gravatar.com/avatar/1f11f9c2af0e039f97aed4bdf94f3c508b2b5e019f4ee2b47f5aa3d498b02757?s=48&#038;d=identicon&#038;r=G"
     }
   ]
 }
