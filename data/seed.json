@@ -2,14 +2,29 @@
   "schema_version": "1.0",
   "manufacturers": [
     {
+      "slug": "2getheraudio",
+      "name": "2getheraudio",
+      "website": "https://www.2getheraudio.com"
+    },
+    {
       "slug": "aas",
       "name": "Applied Acoustics Systems",
       "website": "https://www.applied-acoustics.com"
     },
     {
+      "slug": "access-music",
+      "name": "Access Music",
+      "website": "https://www.access-music.de"
+    },
+    {
       "slug": "accusonus",
       "name": "Accusonus",
       "website": "https://accusonus.com"
+    },
+    {
+      "slug": "acme-audio",
+      "name": "Acme Audio (Plugin Alliance)",
+      "website": "https://www.plugin-alliance.com"
     },
     {
       "slug": "acmt",
@@ -135,6 +150,16 @@
       "website": "https://www.audioease.com"
     },
     {
+      "slug": "audiogridder",
+      "name": "AudioGridder",
+      "website": "https://audiogridder.com"
+    },
+    {
+      "slug": "audiogridder-dev",
+      "name": "AudioGridder",
+      "website": "https://audiogridder.com"
+    },
+    {
       "slug": "audiomodern",
       "name": "Audiomodern",
       "website": "https://audiomodern.com"
@@ -173,6 +198,11 @@
       "slug": "bettermaker",
       "name": "Bettermaker",
       "website": "https://bettermaker.com"
+    },
+    {
+      "slug": "black-box-analog",
+      "name": "Black Box Analog Design (Plugin Alliance)",
+      "website": "https://www.plugin-alliance.com"
     },
     {
       "slug": "black-rooster-audio",
@@ -230,6 +260,11 @@
       "website": "https://www.camelaudio.com"
     },
     {
+      "slug": "captain-plugins",
+      "name": "Captain Plugins (Mixed In Key)",
+      "website": "https://mixedinkey.com"
+    },
+    {
       "slug": "cardinal-audio",
       "name": "Cardinal Audio",
       "website": "https://cardinal.kx.studio"
@@ -238,6 +273,11 @@
       "slug": "celemony",
       "name": "Celemony",
       "website": "https://www.celemony.com"
+    },
+    {
+      "slug": "chandler-limited",
+      "name": "Chandler Limited (Softube)",
+      "website": "https://www.softube.com"
     },
     {
       "slug": "cherry-audio",
@@ -265,6 +305,11 @@
       "website": "https://www.cockos.com"
     },
     {
+      "slug": "crave-dsp",
+      "name": "Crave DSP",
+      "website": "https://www.cravedsp.com"
+    },
+    {
       "slug": "credland-audio",
       "name": "Credland Audio",
       "website": "https://www.credlandaudio.com"
@@ -280,6 +325,11 @@
       "website": "https://cymatics.fm"
     },
     {
+      "slug": "cytomic",
+      "name": "Cytomic",
+      "website": "https://cytomic.com"
+    },
+    {
       "slug": "d16-group",
       "name": "D16 Group",
       "website": "https://d16group.com"
@@ -288,6 +338,21 @@
       "slug": "dada-life",
       "name": "Dada Life",
       "website": "https://www.dadalifetools.com"
+    },
+    {
+      "slug": "dada-life-audio",
+      "name": "Dada Life",
+      "website": "https://www.dadalife.com"
+    },
+    {
+      "slug": "dangerous-music",
+      "name": "Dangerous Music (Plugin Alliance)",
+      "website": "https://www.plugin-alliance.com"
+    },
+    {
+      "slug": "dblue",
+      "name": "dblue",
+      "website": "https://illformed.com"
     },
     {
       "slug": "ddmf",
@@ -349,6 +414,11 @@
       "website": "https://michaelwillis.github.io/dragonfly-reverb"
     },
     {
+      "slug": "dseq",
+      "name": "Techivation",
+      "website": "https://techivation.com"
+    },
+    {
       "slug": "east-west",
       "name": "East West",
       "website": "https://www.soundsonline.com"
@@ -384,9 +454,19 @@
       "website": "https://www.flux.audio"
     },
     {
+      "slug": "fortin-amplification",
+      "name": "Fortin Amplification (Neural DSP)",
+      "website": "https://www.neuraldsp.com"
+    },
+    {
       "slug": "full-bucket-music",
       "name": "Full Bucket Music",
       "website": "https://www.fullbucket.de"
+    },
+    {
+      "slug": "future-audio-workshop",
+      "name": "Future Audio Workshop",
+      "website": "https://www.futureaudioworkshop.com"
     },
     {
       "slug": "geonkick",
@@ -456,6 +536,16 @@
       "website": "https://www.ikmultimedia.com"
     },
     {
+      "slug": "image-line",
+      "name": "Image-Line",
+      "website": "https://www.image-line.com"
+    },
+    {
+      "slug": "ina-grm",
+      "name": "INA GRM",
+      "website": "https://inagrm.com"
+    },
+    {
       "slug": "infected-mushroom",
       "name": "Infected Mushroom",
       "website": "https://polyversemusic.com"
@@ -469,6 +559,21 @@
       "slug": "izotope",
       "name": "iZotope",
       "website": "https://www.izotope.com"
+    },
+    {
+      "slug": "jst",
+      "name": "Joey Sturgis Tones",
+      "website": "https://joeysturgistones.com"
+    },
+    {
+      "slug": "kazrog",
+      "name": "Kazrog",
+      "website": "https://kazrog.com"
+    },
+    {
+      "slug": "kick-2",
+      "name": "Sonic Academy",
+      "website": "https://www.sonicacademy.com"
     },
     {
       "slug": "kilohearts",
@@ -491,6 +596,11 @@
       "website": "https://www.kuassa.com"
     },
     {
+      "slug": "kussa",
+      "name": "Kussa",
+      "website": "https://www.kuassa.com"
+    },
+    {
       "slug": "kv331-audio",
       "name": "KV331 Audio",
       "website": "https://kv331audio.com"
@@ -499,6 +609,11 @@
       "slug": "kvr-audio",
       "name": "KVR Audio",
       "website": "https://www.kvraudio.com"
+    },
+    {
+      "slug": "leapwing-audio",
+      "name": "Leapwing Audio",
+      "website": "https://www.leapwingaudio.com"
     },
     {
       "slug": "lennardigital",
@@ -551,6 +666,26 @@
       "website": "https://lsp-plug.in"
     },
     {
+      "slug": "maat-digital",
+      "name": "MAAT Digital",
+      "website": "https://www.maat.digital"
+    },
+    {
+      "slug": "madrona-labs",
+      "name": "Madrona Labs",
+      "website": "https://madronalabs.com"
+    },
+    {
+      "slug": "manda-audio",
+      "name": "Manda Audio",
+      "website": "https://www.powerdrumkit.com"
+    },
+    {
+      "slug": "martinic",
+      "name": "Martinic",
+      "website": "https://www.martinic.com"
+    },
+    {
       "slug": "mastering-the-mix",
       "name": "Mastering The Mix"
     },
@@ -585,9 +720,19 @@
       "website": "https://mhorse.eu"
     },
     {
+      "slug": "millennia-ua",
+      "name": "Millennia (Universal Audio)",
+      "website": "https://www.uaudio.com"
+    },
+    {
       "slug": "minimal-audio",
       "name": "Minimal Audio",
       "website": "https://www.minimal.audio"
+    },
+    {
+      "slug": "mixed-in-key",
+      "name": "Mixed In Key",
+      "website": "https://mixedinkey.com"
     },
     {
       "slug": "mod-audio",
@@ -645,6 +790,11 @@
       "website": "https://www.ntonyx.com"
     },
     {
+      "slug": "nugen-audio",
+      "name": "NUGEN Audio",
+      "website": "https://nugenaudio.com"
+    },
+    {
       "slug": "odin-synth",
       "name": "Odin Synth",
       "website": "https://thewavewarden.com"
@@ -662,6 +812,11 @@
     {
       "slug": "one-small-clue",
       "name": "One Small Clue"
+    },
+    {
+      "slug": "oto-machines",
+      "name": "OTO Machines",
+      "website": "https://www.otomachines.com"
     },
     {
       "slug": "output",
@@ -699,6 +854,11 @@
       "website": "https://www.plugin-alliance.com"
     },
     {
+      "slug": "plugin-alliance-brand",
+      "name": "Plugin Alliance",
+      "website": "https://www.plugin-alliance.com"
+    },
+    {
       "slug": "plugin-boutique",
       "name": "Plugin Boutique",
       "website": "https://www.pluginboutique.com"
@@ -719,9 +879,19 @@
       "website": "https://www.presonus.com"
     },
     {
+      "slug": "pro-audio-dsp",
+      "name": "Pro Audio DSP",
+      "website": "https://www.proadio-dsp.com"
+    },
+    {
       "slug": "psp-audioware",
       "name": "PSP Audioware",
       "website": "https://www.pspaudioware.com"
+    },
+    {
+      "slug": "pulsar-audio",
+      "name": "Pulsar Audio",
+      "website": "https://pulsar.audio"
     },
     {
       "slug": "puremagnetik",
@@ -732,6 +902,11 @@
       "slug": "quantumsauce",
       "name": "QuantumSauce",
       "website": "https://quantumsauce.com"
+    },
+    {
+      "slug": "refx",
+      "name": "reFX",
+      "website": "https://refx.com"
     },
     {
       "slug": "reveal-sound",
@@ -763,6 +938,11 @@
       "website": "https://www.schaack-audio.com"
     },
     {
+      "slug": "shadow-hills",
+      "name": "Shadow Hills (Plugin Alliance)",
+      "website": "https://www.plugin-alliance.com"
+    },
+    {
       "slug": "sinevibes",
       "name": "Sinevibes",
       "website": "https://www.sinevibes.com"
@@ -788,12 +968,27 @@
       "website": "https://www.softube.com"
     },
     {
+      "slug": "sonalksis",
+      "name": "Sonalksis",
+      "website": "https://www.sonalksis.com"
+    },
+    {
+      "slug": "sonarworks",
+      "name": "Sonarworks",
+      "website": "https://www.sonarworks.com"
+    },
+    {
       "slug": "sonible",
       "name": "sonible",
       "website": "https://www.sonible.com"
     },
     {
       "slug": "sonic-academy",
+      "name": "Sonic Academy",
+      "website": "https://www.sonicacademy.com"
+    },
+    {
+      "slug": "sonic-academy-brand",
       "name": "Sonic Academy",
       "website": "https://www.sonicacademy.com"
     },
@@ -816,6 +1011,21 @@
       "slug": "sonnox",
       "name": "Sonnox",
       "website": "https://www.sonnox.com"
+    },
+    {
+      "slug": "sonoris",
+      "name": "Sonoris Audio Engineering",
+      "website": "https://www.sonorissoftware.com"
+    },
+    {
+      "slug": "soundspot",
+      "name": "SoundSpot",
+      "website": "https://www.soundspot.audio"
+    },
+    {
+      "slug": "soundtheory",
+      "name": "Soundtheory",
+      "website": "https://www.soundtheory.com"
     },
     {
       "slug": "soundtoys",
@@ -850,6 +1060,16 @@
       "slug": "stl-tones",
       "name": "STL Tones",
       "website": "https://www.stltones.com"
+    },
+    {
+      "slug": "stl-tones-brand",
+      "name": "STL Tones",
+      "website": "https://www.stltones.com"
+    },
+    {
+      "slug": "sublab",
+      "name": "Future Audio Workshop",
+      "website": "https://www.futureaudioworkshop.com"
     },
     {
       "slug": "sugar-bytes",
@@ -905,6 +1125,11 @@
       "website": "https://www.tokyodawn.net"
     },
     {
+      "slug": "techivation",
+      "name": "Techivation",
+      "website": "https://techivation.com"
+    },
+    {
       "slug": "the-wave-warden",
       "name": "The Wave Warden"
     },
@@ -952,6 +1177,11 @@
       "website": "https://www.toontrack.com"
     },
     {
+      "slug": "tse-audio",
+      "name": "TSE Audio",
+      "website": "https://www.tseaudio.com"
+    },
+    {
       "slug": "two-notes",
       "name": "Two Notes"
     },
@@ -969,6 +1199,11 @@
       "slug": "unfiltered-audio",
       "name": "Unfiltered Audio",
       "website": "https://www.unfilteredaudio.com"
+    },
+    {
+      "slug": "unison-audio",
+      "name": "Unison Audio",
+      "website": "https://unison.audio"
     },
     {
       "slug": "universal-audio",
@@ -1001,6 +1236,11 @@
       "website": "https://varietyofsound.wordpress.com"
     },
     {
+      "slug": "vengeance-sound",
+      "name": "Vengeance Sound",
+      "website": "https://www.vengeance-sound.com"
+    },
+    {
       "slug": "venn-audio",
       "name": "Venn Audio",
       "website": "https://www.vennaudio.com"
@@ -1009,6 +1249,11 @@
       "slug": "venomode",
       "name": "Venomode",
       "website": "https://venomode.com"
+    },
+    {
+      "slug": "vertigo-sound",
+      "name": "Vertigo Sound",
+      "website": "https://www.vertigosound.com"
     },
     {
       "slug": "vital-audio",
@@ -1053,6 +1298,11 @@
       "slug": "wavesfactory",
       "name": "Wavesfactory",
       "website": "https://www.wavesfactory.com"
+    },
+    {
+      "slug": "weiss-engineering",
+      "name": "Weiss Engineering (Softube)",
+      "website": "https://www.softube.com"
     },
     {
       "slug": "wildergarden-audio",
@@ -1119,7 +1369,10 @@
       "aliases": [
         "Hybrid 3",
         "AIR Hybrid 3",
-        "Hybrid3"
+        "Hybrid3",
+        "Hybrid_",
+        "Air64",
+        "Xpand!2_"
       ],
       "daws": [
         "Bitwig",
@@ -1873,7 +2126,8 @@
         "I Heart NY",
         "IHNY2",
         "IHNY_2",
-        "Baby_Audio_IHNY-2"
+        "Baby_Audio_IHNY-2",
+        "IHeartNY"
       ],
       "daws": [
         "Bitwig",
@@ -2135,7 +2389,8 @@
         "FilterShaper XL",
         "Cableguys FilterShaper",
         "FilterShaper_XL",
-        "Cableguys_FilterShaper"
+        "Cableguys_FilterShaper",
+        "Filterstep_64"
       ],
       "daws": [
         "Bitwig",
@@ -2226,7 +2481,8 @@
         "Cableguys ShaperBox 3",
         "ShaperBox",
         "ShaperBox_3",
-        "Cableguys_ShaperBox_3"
+        "Cableguys_ShaperBox_3",
+        "ShaperBox 2"
       ],
       "daws": [
         "Bitwig",
@@ -2489,7 +2745,8 @@
         "Cherry Audio Voltage Modular",
         "VoltageModular",
         "Voltage_Modular",
-        "Cherry_Audio_Voltage_Modular"
+        "Cherry_Audio_Voltage_Modular",
+        "Voltage Modular FX"
       ],
       "daws": [
         "Bitwig",
@@ -2773,7 +3030,8 @@
         "Perfect Room",
         "denise Perfect Room",
         "denise_Perfect_Room",
-        "PerfectRoom"
+        "PerfectRoom",
+        "DenisePerfectRoom"
       ],
       "daws": [
         "Bitwig",
@@ -3031,7 +3289,8 @@
         "Eventide H3000",
         "H3000",
         "H3000_Factory",
-        "Eventide_H3000"
+        "Eventide_H3000",
+        "H3000 Band Delays"
       ],
       "daws": [
         "Bitwig",
@@ -3222,7 +3481,8 @@
         "FabFilter ProC2",
         "FabFilter_ProC2",
         "Pro-C",
-        "ProC"
+        "ProC",
+        "FabFilter Pro-C 2 (Mono)"
       ],
       "daws": [
         "Bitwig",
@@ -3278,7 +3538,9 @@
         "FabFilter ProL2",
         "FabFilter_ProL2",
         "Pro-L",
-        "ProL"
+        "ProL",
+        "FabFilter Pro-L",
+        "FabFilter Pro-L (Mono)"
       ],
       "daws": [
         "Bitwig",
@@ -3326,7 +3588,8 @@
         "Pro MB",
         "FabFilter_Pro-MB",
         "FabFilter Pro MB",
-        "FabFilter_ProMB"
+        "FabFilter_ProMB",
+        "FabFilter Pro-MB (Mono)"
       ],
       "daws": [
         "Bitwig",
@@ -3382,7 +3645,11 @@
         "FabFilter ProQ3",
         "FabFilter_ProQ3",
         "Pro-Q",
-        "ProQ"
+        "ProQ",
+        "FabFilter Pro-Q",
+        "FabFilter Pro-Q (Mono)",
+        "FabFilter Pro-Q 2",
+        "FabFilter Pro-Q 2 (Mono)"
       ],
       "daws": [
         "Bitwig",
@@ -3439,7 +3706,8 @@
         "FabFilter ProR2",
         "FabFilter_ProR2",
         "Pro-R",
-        "ProR"
+        "ProR",
+        "FabFilter Pro-R (Mono)"
       ],
       "daws": [
         "Bitwig",
@@ -3489,7 +3757,9 @@
         "Saturn2",
         "FabfilterSaturn2",
         "FabFilter_Saturn_2",
-        "FabFilter Saturn2"
+        "FabFilter Saturn2",
+        "FabFilter Saturn",
+        "FabFilter Saturn (Mono)"
       ],
       "daws": [
         "Bitwig",
@@ -3579,7 +3849,9 @@
         "Timeless3",
         "FabfilterTimeless3",
         "FabFilter_Timeless_3",
-        "FabFilter Timeless3"
+        "FabFilter Timeless3",
+        "FabFilter Timeless 2",
+        "FabFilter Timeless 2 (SC)"
       ],
       "daws": [
         "Bitwig",
@@ -3625,7 +3897,8 @@
         "Twin3",
         "FabfilterTwin3",
         "FabFilter_Twin_3",
-        "FabFilter Twin3"
+        "FabFilter Twin3",
+        "FabFilter Twin 2"
       ],
       "daws": [
         "Bitwig",
@@ -3671,7 +3944,11 @@
         "Volcano3",
         "FabfilterVolcano3",
         "FabFilter_Volcano_3",
-        "FabFilter Volcano3"
+        "FabFilter Volcano3",
+        "FabFilter Volcano 2",
+        "FabFilter Volcano 2 (Mono SC)",
+        "FabFilter Volcano 2 (Mono)",
+        "FabFilter Volcano 2 (SC)"
       ],
       "daws": [
         "Bitwig",
@@ -3837,7 +4114,8 @@
         "CanOpener",
         "Goodhertz CanOpener",
         "CanOpener_Studio",
-        "Goodhertz_CanOpener"
+        "Goodhertz_CanOpener",
+        "Ghz CanOpener Studio 3"
       ],
       "daws": [
         "Bitwig",
@@ -3881,7 +4159,8 @@
         "Lossy",
         "Goodhertz Lossy",
         "Goodhertz_Lossy",
-        "Lossy_x64"
+        "Lossy_x64",
+        "Ghz Lossy 3"
       ],
       "daws": [
         "Bitwig",
@@ -3923,7 +4202,8 @@
       ],
       "aliases": [
         "Trem Control",
-        "Goodhertz Trem Control"
+        "Goodhertz Trem Control",
+        "Ghz Trem Control 3"
       ],
       "daws": [
         "Bitwig",
@@ -4010,7 +4290,8 @@
       ],
       "aliases": [
         "Wow Control",
-        "Goodhertz Wow Control"
+        "Goodhertz Wow Control",
+        "Ghz Wow Control 3"
       ],
       "daws": [
         "Bitwig",
@@ -4468,7 +4749,9 @@
         "iZotope Nectar 4",
         "iZotope Nectar 4 Suite",
         "Nectar4",
-        "iZotope_Nectar_4"
+        "iZotope_Nectar_4",
+        "Nectar 3 Elements",
+        "iZNectar3Elements"
       ],
       "daws": [
         "Bitwig",
@@ -4512,7 +4795,23 @@
         "iZotope Neutron 4",
         "Neutron4",
         "iZotope_Neutron_4",
-        "Neutron 4 Advanced"
+        "Neutron 4 Advanced",
+        "Neutron 3",
+        "Neutron 3 Compressor",
+        "Neutron 3 Equalizer",
+        "Neutron 3 Exciter",
+        "Neutron 3 Gate",
+        "Neutron 3 Sculptor",
+        "Neutron 3 Transient Shaper",
+        "Neutron 3 Visual Mixer",
+        "iZNeutron3",
+        "iZNeutron3Compressor",
+        "iZNeutron3Equalizer",
+        "iZNeutron3Exciter",
+        "iZNeutron3Gate",
+        "iZNeutron3Sculptor",
+        "iZNeutron3TransientShaper",
+        "iZNeutron3VisualMixer"
       ],
       "daws": [
         "Bitwig",
@@ -4763,7 +5062,82 @@
         "iZotope Ozone 9",
         "Ozone9",
         "iZotope_Ozone_9",
-        "Ozone 9 Advanced"
+        "Ozone 9 Advanced",
+        "Ozone 8",
+        "Ozone 8 Dynamic EQ",
+        "Ozone 8 Dynamics",
+        "Ozone 8 Equalizer",
+        "Ozone 8 Exciter",
+        "Ozone 8 Imager",
+        "Ozone 8 Maximizer",
+        "Ozone 8 Spectral Shaper",
+        "Ozone 8 Vintage Compressor",
+        "Ozone 8 Vintage EQ",
+        "Ozone 8 Vintage Limiter",
+        "Ozone 8 Vintage Tape",
+        "Ozone 9 Dynamic EQ",
+        "Ozone 9 Equalizer",
+        "Ozone 9 Exciter",
+        "Ozone 9 Imager",
+        "Ozone 9 Low End Focus",
+        "Ozone 9 Master Rebalance",
+        "Ozone 9 Match EQ",
+        "Ozone 9 Maximizer",
+        "Ozone 9 Spectral Shaper",
+        "Ozone 9 Vintage Compressor",
+        "Ozone 9 Vintage EQ",
+        "Ozone 9 Vintage Limiter",
+        "Ozone 9 Vintage Tape",
+        "iZOzone4",
+        "iZOzone7",
+        "iZOzone7DynEq",
+        "iZOzone7Dynamics",
+        "iZOzone7Equalizer",
+        "iZOzone7Exciter",
+        "iZOzone7Imager",
+        "iZOzone7Maximizer",
+        "iZOzone7VintageCompressor",
+        "iZOzone7VintageEQ",
+        "iZOzone7VintageLimiter",
+        "iZOzone7VintageTape",
+        "iZOzone8",
+        "iZOzone8DynEq",
+        "iZOzone8Dynamics",
+        "iZOzone8Equalizer",
+        "iZOzone8Exciter",
+        "iZOzone8Imager",
+        "iZOzone8Maximizer",
+        "iZOzone8SpectralShaper",
+        "iZOzone8VintageCompressor",
+        "iZOzone8VintageEQ",
+        "iZOzone8VintageLimiter",
+        "iZOzone8VintageTape",
+        "iZOzone9",
+        "iZOzone9DynamicEQ",
+        "iZOzone9Equalizer",
+        "iZOzone9Exciter",
+        "iZOzone9Imager",
+        "iZOzone9LowEndFocus",
+        "iZOzone9MasterRebalance",
+        "iZOzone9MatchEQ",
+        "iZOzone9Maximizer",
+        "iZOzone9SpectralShaper",
+        "iZOzone9VintageCompressor",
+        "iZOzone9VintageEQ",
+        "iZOzone9VintageLimiter",
+        "iZOzone9VintageTape",
+        "iZotope Ozone 4",
+        "iZotope Ozone 7",
+        "iZotope Ozone 7 Dynamic EQ",
+        "iZotope Ozone 7 Dynamics",
+        "iZotope Ozone 7 Equalizer",
+        "iZotope Ozone 7 Exciter",
+        "iZotope Ozone 7 Imager",
+        "iZotope Ozone 7 Maximizer",
+        "iZotope Ozone 7 Vintage Compressor",
+        "iZotope Ozone 7 Vintage EQ",
+        "iZotope Ozone 7 Vintage Limiter",
+        "iZotope Ozone 7 Vintage Tape"
       ],
       "daws": [
         "Bitwig",
@@ -4806,7 +5180,8 @@
       ],
       "aliases": [
         "Ozone 9 Dynamics",
-        "iZotope Ozone 9 Dynamics"
+        "iZotope Ozone 9 Dynamics",
+        "iZOzone9Dynamics"
       ],
       "daws": [
         "Bitwig",
@@ -4892,7 +5267,8 @@
         "Trash 2",
         "iZotope Trash 2",
         "Trash2",
-        "iZotope_Trash_2"
+        "iZotope_Trash_2",
+        "iZTrash2"
       ],
       "daws": [
         "Bitwig",
@@ -5025,7 +5401,30 @@
         "Kilohearts EffectRack",
         "kHs EffectRack",
         "Kilohearts_EffectRack",
-        "Effect_Rack"
+        "Effect_Rack",
+        "kHs 3-Band EQ",
+        "kHs Channel Mixer",
+        "kHs Clipper",
+        "kHs Convolver",
+        "kHs Delay",
+        "kHs Distortion",
+        "kHs Dual Delay",
+        "kHs Dynamics",
+        "kHs Ensemble",
+        "kHs Filter",
+        "kHs Filter Table",
+        "kHs Formant Filter",
+        "kHs Group",
+        "kHs Host Proxy",
+        "kHs Ladder Filter",
+        "kHs Nonlinear Filter",
+        "kHs Phase Distortion",
+        "kHs Resonator",
+        "kHs Reverb",
+        "kHs Shaper",
+        "kHs Shaper Table",
+        "kHs Stereo",
+        "kHs Transient Shaper"
       ],
       "daws": [
         "Bitwig",
@@ -5066,7 +5465,8 @@
       "aliases": [
         "kHs Compactor",
         "Kilohearts Compactor",
-        "Compactor"
+        "Compactor",
+        "kHs Compressor"
       ],
       "daws": [
         "Bitwig",
@@ -5418,7 +5818,8 @@
         "KV331 SynthMaster",
         "SynthMaster2",
         "SynthMaster",
-        "KV331_SynthMaster"
+        "KV331_SynthMaster",
+        "SynthMasterPlayer"
       ],
       "daws": [
         "Bitwig",
@@ -5462,7 +5863,8 @@
         "Sylenth",
         "LennarDigital Sylenth1",
         "Sylenth1_x64",
-        "LennarDigital_Sylenth1"
+        "LennarDigital_Sylenth1",
+        "Sylenth1 - VTX"
       ],
       "daws": [
         "Bitwig",
@@ -5726,7 +6128,8 @@
       "aliases": [
         "MCompressor",
         "Melda MCompressor",
-        "MeldaProduction MCompressor"
+        "MeldaProduction MCompressor",
+        "MModernCompressor"
       ],
       "daws": [
         "Bitwig",
@@ -5770,7 +6173,8 @@
       "aliases": [
         "MFreeformEqualizer",
         "Melda MFreeformEqualizer",
-        "MeldaProduction MFreeformEqualizer"
+        "MeldaProduction MFreeformEqualizer",
+        "MFreeformAnalogEq"
       ],
       "daws": [
         "Bitwig",
@@ -5900,7 +6304,8 @@
         "Minimal Audio Rift",
         "Minimal_Audio_Rift",
         "Rift_x64",
-        "Rift 2"
+        "Rift 2",
+        "Rift Filter Lite"
       ],
       "daws": [
         "Bitwig",
@@ -6211,7 +6616,10 @@
         "Kontakt (Legacy)",
         "NI Kontakt",
         "Native_Instruments_Kontakt",
-        "NI_Kontakt"
+        "NI_Kontakt",
+        "Kontakt 5",
+        "Kontakt 5 16out",
+        "Kontakt 5 8out"
       ],
       "daws": [
         "Bitwig",
@@ -6523,7 +6931,8 @@
         "Native Instruments Reaktor 6",
         "Reaktor6",
         "NI_Reaktor_6",
-        "Native_Instruments_Reaktor_6"
+        "Native_Instruments_Reaktor_6",
+        "Reaktor 6 FX"
       ],
       "daws": [
         "Bitwig",
@@ -6735,7 +7144,8 @@
         "Newfangled Audio Elevate",
         "Eventide Elevate",
         "Newfangled_Audio_Elevate",
-        "Elevate_x64"
+        "Elevate_x64",
+        "Newfangled Elevate"
       ],
       "daws": [
         "Bitwig",
@@ -6777,7 +7187,8 @@
         "Newfangled Audio Saturate",
         "Eventide Saturate",
         "Newfangled_Audio_Saturate",
-        "Saturate_x64"
+        "Saturate_x64",
+        "Newfangled Saturate"
       ],
       "daws": [
         "Bitwig",
@@ -6820,7 +7231,8 @@
         "Nicky Romero Kickstart",
         "Kickstart2",
         "Kickstart_2",
-        "Nicky_Romero_Kickstart"
+        "Nicky_Romero_Kickstart",
+        "Kickstart-"
       ],
       "daws": [
         "Bitwig",
@@ -6863,7 +7275,9 @@
         "Soothe 2",
         "soothe2_x64",
         "oeksound soothe2",
-        "oeksound_soothe2"
+        "oeksound_soothe2",
+        "soothe2_",
+        "soothe64"
       ],
       "daws": [
         "Bitwig",
@@ -6906,7 +7320,8 @@
         "spiff",
         "oeksound spiff",
         "oeksound_spiff",
-        "spiff_x64"
+        "spiff_x64",
+        "spiff_"
       ],
       "daws": [
         "Bitwig",
@@ -7411,7 +7826,9 @@
         "Brainworx bx_console",
         "Plugin Alliance bx_console",
         "bx_console_x64",
-        "Brainworx_bx_console"
+        "Brainworx_bx_console",
+        "bx_shredspread",
+        "bx_stereomaker"
       ],
       "daws": [
         "Bitwig",
@@ -7457,7 +7874,9 @@
         "Brainworx bx_digital V3",
         "bx_digital",
         "bx_digitalV3",
-        "Brainworx_bx_digital_V3"
+        "Brainworx_bx_digital_V3",
+        "bx_digital V2",
+        "bx_digital V2 Mono"
       ],
       "daws": [
         "Bitwig",
@@ -7592,7 +8011,10 @@
         "Plugin Boutique Scaler 2",
         "Scaler2",
         "Scaler_2",
-        "Plugin_Boutique_Scaler_2"
+        "Plugin_Boutique_Scaler_2",
+        "Scaler_",
+        "ScalerAudio2",
+        "ChordPotion_"
       ],
       "daws": [
         "Bitwig",
@@ -8281,7 +8703,8 @@
         "Oxford Dynamics",
         "Sonnox Oxford Dynamics",
         "Sonnox_Oxford_Dynamics",
-        "Oxford_Dynamics"
+        "Oxford_Dynamics",
+        "Oxford Dynamics Native"
       ],
       "daws": [
         "Bitwig",
@@ -8326,7 +8749,8 @@
         "Oxford EQ",
         "Sonnox Oxford EQ",
         "Sonnox_Oxford_EQ",
-        "Oxford_EQ"
+        "Oxford_EQ",
+        "Oxford EQ Native"
       ],
       "daws": [
         "Bitwig",
@@ -8371,7 +8795,8 @@
         "Oxford Limiter",
         "Sonnox Oxford Limiter",
         "Sonnox_Oxford_Limiter",
-        "Oxford_Limiter"
+        "Oxford_Limiter",
+        "Oxford Limiter Native"
       ],
       "daws": [
         "Bitwig",
@@ -9005,7 +9430,8 @@
         "Spitfire BBC Symphony Orchestra",
         "BBCSO",
         "BBC_Symphony_Orchestra",
-        "Spitfire_BBCSO"
+        "Spitfire_BBCSO",
+        "Abbey Road One"
       ],
       "daws": [
         "Bitwig",
@@ -9050,7 +9476,9 @@
         "Spitfire LABS",
         "Spitfire Audio LABS",
         "Spitfire_LABS",
-        "LABS_x64"
+        "LABS_x64",
+        "Eric Whitacre Choir",
+        "Eric Whitacre Choir Evo Grid"
       ],
       "daws": [
         "Bitwig",
@@ -9093,7 +9521,9 @@
       "aliases": [
         "Originals",
         "Spitfire Originals",
-        "Spitfire Audio Originals"
+        "Spitfire Audio Originals",
+        "Originals - Cimbalom",
+        "Originals - Firewood Piano"
       ],
       "daws": [
         "Bitwig",
@@ -9178,7 +9608,8 @@
         "TAL Chorus LX",
         "TAL-Chorus-LX-V2",
         "TAL_Chorus_LX",
-        "TALChorusLX"
+        "TALChorusLX",
+        "TAL-Chorus-LX-64"
       ],
       "daws": [
         "Bitwig",
@@ -9364,7 +9795,8 @@
         "Kotelnikov",
         "Tokyo Dawn Kotelnikov",
         "TDR_Kotelnikov",
-        "TDRKotelnikov"
+        "TDRKotelnikov",
+        "TDR Ultrasonic Filter"
       ],
       "daws": [
         "Bitwig",
@@ -9457,7 +9889,8 @@
         "Tokyo Dawn SlickEQ",
         "TDR_VOS_SlickEQ",
         "TDRSlickEQ",
-        "VOS SlickEQ"
+        "VOS SlickEQ",
+        "TDR VOS SlickEQ GE"
       ],
       "daws": [
         "Bitwig",
@@ -9542,7 +9975,8 @@
         "Toontrack EZdrummer 3",
         "EZdrummer3",
         "EZDrummer_3",
-        "Toontrack_EZdrummer_3"
+        "Toontrack_EZdrummer_3",
+        "EZbass"
       ],
       "daws": [
         "Bitwig",
@@ -9682,7 +10116,8 @@
         "u-he_Diva",
         "Diva_x64",
         "uhe Diva",
-        "uheDiva"
+        "uheDiva",
+        "Diva(x64)"
       ],
       "daws": [
         "Bitwig",
@@ -10020,7 +10455,16 @@
         "Unfiltered Audio Sandman Pro",
         "Sandman_Pro",
         "SandmanPro",
-        "Unfiltered_Audio_Sandman_Pro"
+        "Unfiltered_Audio_Sandman_Pro",
+        "Unfiltered Audio Byome",
+        "Unfiltered Audio Fault",
+        "Unfiltered Audio G8",
+        "Unfiltered Audio Instant Delay",
+        "Unfiltered Audio LION",
+        "Unfiltered Audio Sandman",
+        "Unfiltered Audio SpecOps",
+        "Unfiltered Audio Triad",
+        "Unfiltered Audio Zip"
       ],
       "daws": [
         "Bitwig",
@@ -10225,7 +10669,8 @@
         "ValhallaRoom",
         "Valhalla Room",
         "Valhalla_Room",
-        "VhallaRoom"
+        "VhallaRoom",
+        "ValhallaRoom_"
       ],
       "daws": [
         "Bitwig",
@@ -10266,7 +10711,8 @@
         "ValhallaShimmer",
         "Valhalla Shimmer",
         "Valhalla_Shimmer",
-        "VhallaShimmer"
+        "VhallaShimmer",
+        "ValhallaShimmer_"
       ],
       "daws": [
         "Bitwig",
@@ -10347,7 +10793,8 @@
       ],
       "aliases": [
         "ValhallaSupermassive",
-        "Valhalla Supermassive"
+        "Valhalla Supermassive",
+        "ValhallaSupermassive_"
       ],
       "daws": [
         "Bitwig",
@@ -10390,7 +10837,8 @@
         "ValhallaUberMod",
         "Valhalla UberMod",
         "Valhalla_UberMod",
-        "UberMod"
+        "UberMod",
+        "ValhallaUberMod_"
       ],
       "daws": [
         "Bitwig",
@@ -10436,7 +10884,8 @@
         "Valhalla Vintage Verb",
         "Valhalla_VintageVerb",
         "Valhalla_Vintage_Verb",
-        "VintageVerb"
+        "VintageVerb",
+        "ValhallaVintageVerb_"
       ],
       "daws": [
         "Bitwig",
@@ -10478,7 +10927,8 @@
         "Marvel GEQ",
         "Voxengo Marvel GEQ",
         "Voxengo_Marvel_GEQ",
-        "MarvelGEQ"
+        "MarvelGEQ",
+        "Overtone GEQ"
       ],
       "daws": [
         "Bitwig",
@@ -11325,7 +11775,8 @@
         "WaveShell1-VST3_14.0_x64",
         "WaveShell1-VST3 14.0_x64",
         "WaveShell_x64",
-        "WaveShell1-VST3"
+        "WaveShell1-VST3",
+        "WaveShell1-VST 9.92_"
       ],
       "daws": [
         "Bitwig",
@@ -11407,7 +11858,8 @@
         "Wavesfactory Trackspacer",
         "Wavesfactory_Trackspacer",
         "Trackspacer_x64",
-        "Trackspacer 2"
+        "Trackspacer 2",
+        "Trackspacer25"
       ],
       "daws": [
         "Bitwig",
@@ -11451,7 +11903,8 @@
         "Xfer Cthulhu",
         "Cthulhu_x64",
         "Xfer Records Cthulhu",
-        "Xfer_Cthulhu"
+        "Xfer_Cthulhu",
+        "Cthulhu_"
       ],
       "daws": [
         "Bitwig",
@@ -11498,7 +11951,8 @@
         "LFOTool_x64",
         "Xfer_LFOTool",
         "Xfer Records LFOTool",
-        "LFO_Tool"
+        "LFO_Tool",
+        "LFOTool_"
       ],
       "daws": [
         "Bitwig",
@@ -11544,7 +11998,8 @@
         "Xfer OTT",
         "Xfer_OTT",
         "OTT_x64",
-        "Xfer Records OTT"
+        "Xfer Records OTT",
+        "OTT_"
       ],
       "daws": [
         "Bitwig",
@@ -11591,7 +12046,9 @@
         "SerumFX",
         "Serum_x64",
         "Xfer_Serum",
-        "Xfer Records Serum"
+        "Xfer Records Serum",
+        "SerumFX_",
+        "Serum_"
       ],
       "daws": [
         "Bitwig",
@@ -11810,7 +12267,8 @@
         "PITCHMAP COLORS VST3",
         "Zynaptiq PITCHMAP",
         "Zynaptiq_PITCHMAP_COLORS",
-        "PITCHMAP"
+        "PITCHMAP",
+        "PITCHMAP VST"
       ],
       "daws": [
         "Bitwig",
@@ -11914,7 +12372,8 @@
       "aliases": [
         "Spire",
         "Reveal Sound Spire",
-        "Spire VST"
+        "Spire VST",
+        "Spire-1.5"
       ],
       "year": 2014,
       "url": "https://www.reveal-sound.com/plug-ins/spire",
@@ -12090,7 +12549,8 @@
         "Surge XT",
         "SurgeXT",
         "Surge Synth",
-        "Surge Synthesizer"
+        "Surge Synthesizer",
+        "Surge64"
       ],
       "year": 2022,
       "url": "https://surge-synthesizer.github.io/",
@@ -12314,7 +12774,83 @@
         "Airwindows Consolidated",
         "Airwindows",
         "Airwindows Console",
-        "Chris Johnson Airwindows"
+        "Chris Johnson Airwindows",
+        "700W64",
+        "Acceleration64",
+        "AtmosphereBuss64",
+        "AtmosphereChannel64",
+        "BassDrive64",
+        "BassKit64",
+        "Baxandall64",
+        "Bite64",
+        "BlockParty64",
+        "BrightAmbience264",
+        "ButterComp64",
+        "Capacitor264",
+        "Chorus64",
+        "Cojones64",
+        "Compresaturator64",
+        "Crystal64",
+        "DeBess64",
+        "DeEss64",
+        "DeHiss64",
+        "Deckwrecka64",
+        "Density64",
+        "Disto_64",
+        "DrumSlam64",
+        "Dyno64",
+        "Elation64",
+        "Energy64",
+        "Ensemble64",
+        "EveryTrim64",
+        "Facet64",
+        "FathomFive64",
+        "Floor64",
+        "Focus64",
+        "Fracture64",
+        "Galactic64",
+        "GlitchShifter64",
+        "Gringer64",
+        "GuitarConditioner64",
+        "HighImpact64",
+        "Hombre64",
+        "Infinity264",
+        "Interstage64",
+        "Logical464",
+        "Mackity64",
+        "Melt64",
+        "Mojo64",
+        "MV64",
+        "NC-1764",
+        "NotJustAnotherDither64",
+        "Obelisk64",
+        "OneCornerClip64",
+        "Pafnuty64",
+        "PhaseNudge64",
+        "PocketVerbs64",
+        "PodcastDeluxe64",
+        "Pop64",
+        "Pressure464",
+        "PurestAir64",
+        "PurestDrive64",
+        "PurestEcho64",
+        "Pyewacket64",
+        "Recurve64",
+        "Remap64",
+        "Righteous464",
+        "SoftGate64",
+        "Srsly264",
+        "StarChild64",
+        "Thunder64",
+        "ToVinyl464",
+        "TremoSquare64",
+        "Tremolo64",
+        "TripleSpread64",
+        "TubeSaturator2_64",
+        "Verbity64",
+        "Vibrato64",
+        "uLawDecode64",
+        "uLawEncode64"
       ],
       "year": 2023,
       "url": "https://www.airwindows.com/",
@@ -12406,7 +12942,98 @@
         "MFreeFXBundle",
         "MeldaProduction Free FX Bundle",
         "Melda Free Bundle",
-        "MFreeEffectsBundle"
+        "MFreeEffectsBundle",
+        "MAutoAlign",
+        "MAutoDynamicEq",
+        "MAutoEqualizer",
+        "MAutoEqualizerLP",
+        "MAutoStereoFix",
+        "MAutoVolume",
+        "MB3X",
+        "MBandPass",
+        "MBassador",
+        "MCCGenerator",
+        "MCabinet",
+        "MCabinetMB",
+        "MCharacter",
+        "MCharmVerb",
+        "MCompare",
+        "MConvolutionMB",
+        "MDelayMB",
+        "MDistortionMB",
+        "MDoubleTracker",
+        "MDoubleTrackerMB",
+        "MDrumEnhancer",
+        "MDrumLeveler",
+        "MDrumReplacer",
+        "MDynamicEq",
+        "MDynamics",
+        "MDynamicsMB",
+        "MDynamicsMBLarge",
+        "MFilter",
+        "MFreeformPhase",
+        "MFreqShifter",
+        "MFreqShifterMB",
+        "MGranularMB",
+        "MGuitarArchitect",
+        "MHarmonizerMB",
+        "MLimiterMB",
+        "MLimiterX",
+        "MMetronome",
+        "MMorph",
+        "MMorphB",
+        "MMultiAnalyzer",
+        "MNoiseGenerator",
+        "MOscillator",
+        "MOscilloscope",
+        "MPhatik",
+        "MPolySaturator",
+        "MRatio",
+        "MRatioMB",
+        "MReverb",
+        "MReverbMB",
+        "MRhythmizer",
+        "MRhythmizerMB",
+        "MSaturator",
+        "MSaturatorMB",
+        "MSpectralDelay",
+        "MSpectralDynamics",
+        "MSpectralDynamicsMini",
+        "MSpectralPan",
+        "MStereoExpander",
+        "MStereoGenerator",
+        "MStereoProcessor",
+        "MStereoScope",
+        "MStereoSpread",
+        "MSuperLooper",
+        "MSuperLooper16in16out",
+        "MSuperLooper16out",
+        "MTransformer",
+        "MTransient",
+        "MTransientMB",
+        "MTremolo",
+        "MTremoloMB",
+        "MTurboAmp",
+        "MTurboComp",
+        "MTurboCompMB",
+        "MTurboDelay",
+        "MTurboDelayMB",
+        "MTurboEQ",
+        "MTurboFilter",
+        "MTurboReverb",
+        "MTurboReverbMB",
+        "MUltraMaximizer",
+        "MUnison",
+        "MUtility",
+        "MVocoder",
+        "MWaveFolder",
+        "MWaveFolderMB",
+        "MWaveShaper",
+        "MWaveShaperMB",
+        "MXXX",
+        "MXXX1",
+        "MXXX6in6out",
+        "MXXX6out"
       ],
       "year": 2010,
       "url": "https://www.meldaproduction.com/MFreeFXBundle",
@@ -12577,7 +13204,8 @@
       "price_type": "free",
       "aliases": [
         "TuBe",
-        "Analog Obsession TuBe"
+        "Analog Obsession TuBe",
+        "Tube64"
       ],
       "year": 2020,
       "url": "https://www.patreon.com/analogobsession",
@@ -12746,7 +13374,13 @@
       "aliases": [
         "Music Production Suite",
         "iZotope Music Production Suite",
-        "iZotope MPS"
+        "iZotope MPS",
+        "iZAlloy2",
+        "iZIris2",
+        "iZMobiusFilter",
+        "iZotope Alloy 2",
+        "iZotope Iris 2",
+        "iZotope Mobius Filter"
       ],
       "year": 2017,
       "url": "https://www.izotope.com/en/shop/music-production-suite.html",
@@ -12790,7 +13424,10 @@
       "aliases": [
         "Insight 2",
         "iZotope Insight 2",
-        "Insight2"
+        "Insight2",
+        "iZInsight",
+        "iZInsight2",
+        "iZMeterTap"
       ],
       "year": 2018,
       "url": "https://www.izotope.com/en/products/insight.html",
@@ -12834,7 +13471,10 @@
       "price_type": "paid",
       "aliases": [
         "Waves Horizon",
-        "Waves Horizon Bundle"
+        "Waves Horizon Bundle",
+        "AlSchmitt",
+        "Noveltech Character",
+        "Noveltech Vocal Enhancer"
       ],
       "year": 2003,
       "url": "https://www.waves.com/bundles/horizon",
@@ -13058,7 +13698,9 @@
       "price_type": "paid",
       "aliases": [
         "Plugin Alliance Mega Bundle",
-        "PA Mega Bundle"
+        "PA Mega Bundle",
+        "Maag EQ2",
+        "Maag EQ4"
       ],
       "year": 2018,
       "url": "https://www.plugin-alliance.com/en/products/mega-bundle.html",
@@ -13102,7 +13744,8 @@
       "aliases": [
         "bx_subsynth",
         "Brainworx bx_subsynth",
-        "bx subsynth"
+        "bx subsynth",
+        "bx_subfilter"
       ],
       "year": 2016,
       "url": "https://www.plugin-alliance.com/en/products/bx_subsynth.html",
@@ -13276,7 +13919,8 @@
       "price_type": "free",
       "aliases": [
         "Pitchproof",
-        "Aegean Music Pitchproof"
+        "Aegean Music Pitchproof",
+        "pitchproof-"
       ],
       "year": 2016,
       "url": "https://aegeanmusic.com/pitchproof-specs",
@@ -13963,7 +14607,8 @@
       "aliases": [
         "FabFilter Pro-DS",
         "Pro-DS",
-        "ProDS"
+        "ProDS",
+        "FabFilter Pro-DS (Mono)"
       ],
       "year": 2014,
       "url": "https://www.fabfilter.com/products/pro-ds-de-esser-plug-in",
@@ -14008,7 +14653,8 @@
       "aliases": [
         "FabFilter Pro-G",
         "Pro-G",
-        "ProG"
+        "ProG",
+        "FabFilter Pro-G (Mono)"
       ],
       "year": 2014,
       "url": "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in",
@@ -14576,7 +15222,13 @@
       ],
       "aliases": [
         "Ample Guitar",
-        "Ample Sound Ample Guitar"
+        "Ample Sound Ample Guitar",
+        "Ample Bass Y",
+        "Ample Guitar Twelve",
+        "Ample Guitar VC",
+        "Ample Metal Eclipse",
+        "Ample Metal Hellrazer",
+        "Ample Metal R"
       ],
       "daws": [
         "Ableton",
@@ -14820,7 +15472,8 @@
       ],
       "aliases": [
         "Sforzando",
-        "Plogue Sforzando"
+        "Plogue Sforzando",
+        "sforzando VST_"
       ],
       "daws": [
         "Ableton",
@@ -14947,7 +15600,8 @@
       ],
       "aliases": [
         "Kirchhoff EQ",
-        "Three-Body Technology Kirchhoff EQ"
+        "Three-Body Technology Kirchhoff EQ",
+        "KirchhoffEQ(64)"
       ],
       "daws": [
         "Ableton",
@@ -15069,7 +15723,8 @@
       ],
       "aliases": [
         "MEqualizer",
-        "Melda Production MEqualizer"
+        "Melda Production MEqualizer",
+        "MEqualizerLP"
       ],
       "daws": [
         "Ableton",
@@ -15566,7 +16221,8 @@
       ],
       "aliases": [
         "Invisible Limiter G2",
-        "AOM Invisible Limiter G2"
+        "AOM Invisible Limiter G2",
+        "Invisible_Limiter_G2"
       ],
       "daws": [
         "Ableton",
@@ -15690,7 +16346,8 @@
       ],
       "aliases": [
         "MFlanger",
-        "Melda Production MFlanger"
+        "Melda Production MFlanger",
+        "MFlangerMB"
       ],
       "daws": [
         "Ableton",
@@ -16315,7 +16972,9 @@
       ],
       "aliases": [
         "SSL Native Bus Compressor 2",
-        "SSL SSL Native Bus Compressor 2"
+        "SSL SSL Native Bus Compressor 2",
+        "SSL Native Bus Compressor v6",
+        "SSL Fusion Vintage Drive"
       ],
       "daws": [
         "Ableton",
@@ -16563,7 +17222,9 @@
       "aliases": [
         "Neve 1073",
         "UA Neve 1073",
-        "Neve 1073 Preamp"
+        "Neve 1073 Preamp",
+        "Millennia NSEQ-2",
+        "Millennia TCL-2"
       ],
       "daws": [
         "Ableton",
@@ -17336,7 +17997,8 @@
       "aliases": [
         "VocalSynth 2",
         "iZotope VocalSynth",
-        "VocalSynth"
+        "VocalSynth",
+        "iZVocalSynth2"
       ],
       "daws": [
         "Ableton",
@@ -17378,7 +18040,8 @@
       ],
       "aliases": [
         "Stutter Edit 2",
-        "iZotope Stutter Edit"
+        "iZotope Stutter Edit",
+        "iZStutterEdit"
       ],
       "daws": [
         "Ableton",
@@ -18748,7 +19411,51 @@
       "aliases": [
         "T-RackS 5",
         "IK T-RackS",
-        "T-RackS"
+        "T-RackS",
+        "TR5 Black 76",
+        "TR5 Brickwall Limiter",
+        "TR5 British Channel",
+        "TR5 Bus Compressor",
+        "TR5 CSR Hall",
+        "TR5 CSR Inverse",
+        "TR5 CSR Plate",
+        "TR5 CSR Room",
+        "TR5 Classic Clipper",
+        "TR5 Classic Comp",
+        "TR5 Classic EQ",
+        "TR5 Classic Multi Band Limiter",
+        "TR5 De Esser",
+        "TR5 Dyna-Mu",
+        "TR5 EQ-73",
+        "TR5 EQ-81",
+        "TR5 EQ-PA",
+        "TR5 EQ-PB",
+        "TR5 EQ-PG",
+        "TR5 EQP-1A",
+        "TR5 EQual",
+        "TR5 Leslie",
+        "TR5 Linear Phase EQ",
+        "TR5 Master EQ-432",
+        "TR5 Master Match",
+        "TR5 Metering",
+        "TR5 Mic Room",
+        "TR5 One",
+        "TR5 Opto Comp",
+        "TR5 Precision Comp-Limiter",
+        "TR5 Quad Compressor",
+        "TR5 Quad Image",
+        "TR5 Quad Limiter",
+        "TR5 Saturator X",
+        "TR5 Stealth Limiter",
+        "TR5 Suite",
+        "TR5 Tape Echo",
+        "TR5 Tape Machine 24",
+        "TR5 Tape Machine 440",
+        "TR5 Tape Machine 80",
+        "TR5 Tape Machine 99",
+        "TR5 VC-670",
+        "TR5 White 2A",
+        "TR5 White Channel"
       ],
       "daws": [
         "Ableton",
@@ -19006,7 +19713,8 @@
       ],
       "aliases": [
         "bx_console SSL 4000 G",
-        "Brainworx SSL 4000 G"
+        "Brainworx SSL 4000 G",
+        "bx_console SSL 4000 E"
       ],
       "daws": [
         "Ableton",
@@ -19050,7 +19758,16 @@
       ],
       "aliases": [
         "Lindell 50 Series",
-        "Lindell Audio 50"
+        "Lindell Audio 50",
+        "Lindell 254E",
+        "Lindell 354E",
+        "Lindell 6X-500",
+        "Lindell 7X-500",
+        "Lindell 80 Bus",
+        "Lindell 80 Channel",
+        "Lindell ChannelX",
+        "Lindell PEX-500",
+        "Lindell TE-100"
       ],
       "daws": [
         "Ableton",
@@ -19093,7 +19810,9 @@
       ],
       "aliases": [
         "elysia alpha compressor",
-        "Alpha Compressor"
+        "Alpha Compressor",
+        "elysia alpha master",
+        "elysia alpha mix"
       ],
       "daws": [
         "Ableton",
@@ -20471,7 +21190,8 @@
       ],
       "aliases": [
         "Oxford Inflator",
-        "Sonnox Inflator"
+        "Sonnox Inflator",
+        "Oxford Inflator Native"
       ],
       "daws": [
         "Ableton",
@@ -20514,7 +21234,8 @@
       ],
       "aliases": [
         "Oxford Reverb",
-        "Sonnox Reverb"
+        "Sonnox Reverb",
+        "Oxford Reverb Native"
       ],
       "daws": [
         "Ableton",
@@ -20558,7 +21279,9 @@
       "aliases": [
         "Oxford SuprEsser",
         "Sonnox SuprEsser",
-        "Sonnox De-Esser"
+        "Sonnox De-Esser",
+        "Oxford SuprEsser HR",
+        "Oxford SuprEsser LL"
       ],
       "daws": [
         "Ableton",
@@ -20731,7 +21454,9 @@
       "aliases": [
         "VintageWarmer2",
         "PSP VintageWarmer",
-        "VintageWarmer"
+        "VintageWarmer",
+        "PSP MicroWarmer",
+        "PSP Twin-L"
       ],
       "daws": [
         "Ableton",
@@ -20991,7 +21716,18 @@
       ],
       "aliases": [
         "VPreamp-73",
-        "Black Rooster VPreamp 73"
+        "Black Rooster VPreamp 73",
+        "VPRE-73",
+        "VPRE-376",
+        "VPROM",
+        "VLA-2A",
+        "VLA-3A",
+        "VCL-25A",
+        "VCL-373",
+        "VCL-4",
+        "VHL-3C",
+        "VEQ-1P",
+        "VEQ-5"
       ],
       "daws": [
         "Ableton",
@@ -23412,7 +24148,10 @@
       ],
       "aliases": [
         "MicroPitch",
-        "Eventide MicroPitch"
+        "Eventide MicroPitch",
+        "UltraChannel",
+        "UltraReverb",
+        "UltraVox"
       ],
       "daws": [
         "Ableton",
@@ -23455,7 +24194,8 @@
       ],
       "aliases": [
         "Panpot",
-        "Goodhertz Panpot"
+        "Goodhertz Panpot",
+        "Ghz Panpot 3"
       ],
       "daws": [
         "Ableton",
@@ -23498,7 +24238,9 @@
       ],
       "aliases": [
         "Midside",
-        "Goodhertz Midside"
+        "Goodhertz Midside",
+        "Ghz Midside 3",
+        "Ghz Midside Matrix 3"
       ],
       "daws": [
         "Ableton",
@@ -23541,7 +24283,8 @@
       ],
       "aliases": [
         "Tone Control",
-        "Goodhertz Tone Control"
+        "Goodhertz Tone Control",
+        "Ghz Tone Control 3"
       ],
       "daws": [
         "Ableton",
@@ -23711,7 +24454,8 @@
       "aliases": [
         "Roland Cloud JUNO-106",
         "JUNO-106 Plugin",
-        "Roland JUNO-106"
+        "Roland JUNO-106",
+        "JUNO-106(VST2 64bit)"
       ],
       "daws": [
         "Ableton",
@@ -23846,7 +24590,8 @@
       "aliases": [
         "Roland TR-808",
         "TR-808 Plugin",
-        "808 Plugin"
+        "808 Plugin",
+        "TR-808(VST2 64bit)"
       ],
       "daws": [
         "Ableton",
@@ -23890,7 +24635,8 @@
       ],
       "aliases": [
         "Roland TR-909",
-        "TR-909 Plugin"
+        "TR-909 Plugin",
+        "TR-909(VST2 64bit)"
       ],
       "daws": [
         "Ableton",
@@ -23934,7 +24680,8 @@
       ],
       "aliases": [
         "SSL Native Channel Strip 2",
-        "SSL Channel Strip 2"
+        "SSL Channel Strip 2",
+        "SSL Native Channelstrip v6"
       ],
       "daws": [
         "Ableton",
@@ -24018,7 +24765,8 @@
       ],
       "aliases": [
         "SSL X-Comp",
-        "SSL Native X-Comp"
+        "SSL Native X-Comp",
+        "SSL Native X-Comp v6"
       ],
       "daws": [
         "Ableton",
@@ -24060,7 +24808,8 @@
       ],
       "aliases": [
         "SSL Drumstrip",
-        "SSL Native Drumstrip"
+        "SSL Native Drumstrip",
+        "SSL Native Drumstrip v6"
       ],
       "daws": [
         "Ableton",
@@ -24340,7 +25089,24 @@
       ],
       "aliases": [
         "Flux Stereo Tool",
-        "Stereo Tool V3"
+        "Stereo Tool V3",
+        "StereoToolV3",
+        "HEarV3",
+        "SpatV3",
+        "EpureV3",
+        "SoleraV3",
+        "SyrahV3",
+        "VerbSessionV3",
+        "VerbV3",
+        "PureCompV3",
+        "PureDCompV3",
+        "PureDExpV3",
+        "PureExpV3",
+        "PureLimiterV3",
+        "ElixirV3",
+        "TraxCsV3",
+        "TraxSfV3",
+        "TraxV3"
       ],
       "daws": [
         "Ableton",
@@ -24383,7 +25149,8 @@
       ],
       "aliases": [
         "Flux BitterSweet",
-        "BitterSweet V3"
+        "BitterSweet V3",
+        "BitterSweetV3"
       ],
       "daws": [
         "Ableton",
@@ -24468,7 +25235,8 @@
       ],
       "aliases": [
         "Invisible Limiter",
-        "AOM Invisible Limiter"
+        "AOM Invisible Limiter",
+        "Invisible_Limiter"
       ],
       "daws": [
         "Ableton",
@@ -24978,7 +25746,8 @@
       ],
       "aliases": [
         "MAutopan",
-        "Melda MAutopan"
+        "Melda MAutopan",
+        "MAutopanMB"
       ],
       "daws": [
         "Ableton",
@@ -25021,7 +25790,8 @@
       ],
       "aliases": [
         "MBitFun",
-        "Melda MBitFun"
+        "Melda MBitFun",
+        "MBitFunMB"
       ],
       "daws": [
         "Ableton",
@@ -25064,7 +25834,8 @@
       ],
       "aliases": [
         "MChorus",
-        "Melda MChorus"
+        "Melda MChorus",
+        "MChorusMB"
       ],
       "daws": [
         "Ableton",
@@ -25106,7 +25877,8 @@
       ],
       "aliases": [
         "MPhaser",
-        "Melda MPhaser"
+        "Melda MPhaser",
+        "MPhaserMB"
       ],
       "daws": [
         "Ableton",
@@ -25149,7 +25921,8 @@
       ],
       "aliases": [
         "MVibrato",
-        "Melda MVibrato"
+        "Melda MVibrato",
+        "MVibratoMB"
       ],
       "daws": [
         "Ableton",
@@ -25192,7 +25965,8 @@
       ],
       "aliases": [
         "MRingModulator",
-        "Melda MRingModulator"
+        "Melda MRingModulator",
+        "MRingModulatorMB"
       ],
       "daws": [
         "Ableton",
@@ -25965,7 +26739,8 @@
       ],
       "aliases": [
         "NastyVCS",
-        "Variety of Sound NastyVCS"
+        "Variety of Sound NastyVCS",
+        "NastyDLAmkII"
       ],
       "daws": [
         "Ableton",
@@ -26006,7 +26781,10 @@
       ],
       "aliases": [
         "ThrillseekerLA",
-        "Variety of Sound ThrillseekerLA"
+        "Variety of Sound ThrillseekerLA",
+        "ThrillseekerVBL",
+        "ThrillseekerXTC black",
+        "ThrillseekerXTC blue"
       ],
       "daws": [
         "Ableton",
@@ -26298,7 +27076,8 @@
       ],
       "aliases": [
         "Vocal Doubler",
-        "iZotope Vocal Doubler"
+        "iZotope Vocal Doubler",
+        "iZVocalDoubler"
       ],
       "daws": [
         "Ableton",
@@ -26549,7 +27328,9 @@
       ],
       "aliases": [
         "Heavier7Strings",
-        "Three Body Tech Heavier7Strings"
+        "Three Body Tech Heavier7Strings",
+        "Heavier7Strings(64)",
+        "HeavierFX(64)"
       ],
       "daws": [
         "Ableton",
@@ -27396,7 +28177,8 @@
       ],
       "aliases": [
         "Oxford Envolution",
-        "Sonnox Envolution"
+        "Sonnox Envolution",
+        "Oxford TransMod Native"
       ],
       "daws": [
         "Ableton",
@@ -28114,7 +28896,8 @@
       ],
       "aliases": [
         "PolySquasher",
-        "Voxengo PolySquasher"
+        "Voxengo PolySquasher",
+        "Polysquasher 3"
       ],
       "daws": [
         "Ableton",
@@ -30686,7 +31469,8 @@
       ],
       "aliases": [
         "Auto-Tune EFX+",
-        "Antares EFX+"
+        "Antares EFX+",
+        "Auto-Tune EFX"
       ],
       "daws": [
         "Ableton",
@@ -31044,7 +31828,8 @@
       ],
       "aliases": [
         "Helix Native",
-        "Line 6 Helix Native"
+        "Line 6 Helix Native",
+        "Helix Native (x64)"
       ],
       "daws": [
         "Ableton",
@@ -32235,7 +33020,8 @@
       ],
       "aliases": [
         "bx_hybrid V2",
-        "Brainworx bx_hybrid"
+        "Brainworx bx_hybrid",
+        "bx_hybrid V2 mix"
       ],
       "daws": [
         "Ableton",
@@ -32430,7 +33216,8 @@
       ],
       "aliases": [
         "Adaptiverb",
-        "Zynaptiq Adaptiverb"
+        "Zynaptiq Adaptiverb",
+        "ADAPTIVERB VST"
       ],
       "daws": [
         "Ableton",
@@ -32544,7 +33331,8 @@
       ],
       "aliases": [
         "ERA De-Esser",
-        "Accusonus ERA De-Esser"
+        "Accusonus ERA De-Esser",
+        "ERA_DeEsser"
       ],
       "daws": [
         "Ableton",
@@ -32583,7 +33371,9 @@
       ],
       "aliases": [
         "ERA Noise Remover",
-        "Accusonus ERA Noise Remover"
+        "Accusonus ERA Noise Remover",
+        "ERA-D",
+        "ERA_NoiseRemover"
       ],
       "daws": [
         "Ableton",
@@ -32622,7 +33412,8 @@
       ],
       "aliases": [
         "ERA Reverb Remover",
-        "Accusonus ERA Reverb Remover"
+        "Accusonus ERA Reverb Remover",
+        "ERA_ReverbRemover"
       ],
       "daws": [
         "Ableton",
@@ -34878,7 +35669,8 @@
         "AAX"
       ],
       "aliases": [
-        "OldSkoolVerb (voxengo)"
+        "OldSkoolVerb (voxengo)",
+        "OldSkoolVerb Plus"
       ],
       "daws": [
         "Ableton",
@@ -35071,7 +35863,8 @@
         "AAX"
       ],
       "aliases": [
-        "Voxengo BMS"
+        "Voxengo BMS",
+        "BMS"
       ],
       "daws": [
         "Ableton",
@@ -36172,7 +36965,9 @@
       ],
       "aliases": [
         "MIDI Madness 3",
-        "Puremagnetik MIDI Madness"
+        "Puremagnetik MIDI Madness",
+        "Puremagnetik Fragment",
+        "Puremagnetik Parallax"
       ],
       "daws": [
         "Ableton",
@@ -36866,7 +37661,9 @@
       ],
       "aliases": [
         "Tonal Balance Control",
-        "iZotope Tonal Balance"
+        "iZotope Tonal Balance",
+        "Tonal Balance Control 2",
+        "iZTonalBalanceControl2"
       ],
       "daws": [
         "Ableton",
@@ -36904,7 +37701,8 @@
         "AAX"
       ],
       "aliases": [
-        "iZotope Relay"
+        "iZotope Relay",
+        "iZRelay"
       ],
       "daws": [
         "Ableton",
@@ -37216,7 +38014,10 @@
       ],
       "aliases": [
         "Fix Flanger and Doubler",
-        "Softube Fix Flanger"
+        "Softube Fix Flanger",
+        "Fix Doubler",
+        "Fix Flanger",
+        "Fix Phaser"
       ],
       "daws": [
         "Ableton",
@@ -37453,7 +38254,8 @@
         "AAX"
       ],
       "aliases": [
-        "SSL FlexVerb"
+        "SSL FlexVerb",
+        "SSL Native FlexVerb"
       ],
       "daws": [
         "Ableton",
@@ -37531,7 +38333,9 @@
         "AAX"
       ],
       "aliases": [
-        "UA Precision Limiter"
+        "UA Precision Limiter",
+        "Precision Time Align",
+        "Precision Time Delay"
       ],
       "daws": [
         "Ableton",
@@ -38218,7 +39022,8 @@
       ],
       "aliases": [
         "MRotary",
-        "Melda MRotary"
+        "Melda MRotary",
+        "MVintageRotary"
       ],
       "daws": [
         "Ableton",
@@ -38297,7 +39102,8 @@
       ],
       "aliases": [
         "MWobbler",
-        "Melda MWobbler"
+        "Melda MWobbler",
+        "MWobblerMB"
       ],
       "daws": [
         "Ableton",
@@ -38337,7 +39143,8 @@
       ],
       "aliases": [
         "MComb",
-        "Melda MComb"
+        "Melda MComb",
+        "MCombMB"
       ],
       "daws": [
         "Ableton",
@@ -38492,7 +39299,8 @@
         "AAX"
       ],
       "aliases": [
-        "SPL Transient Designer Plus"
+        "SPL Transient Designer Plus",
+        "SPL Transient Designer"
       ],
       "daws": [
         "Ableton",
@@ -38764,7 +39572,8 @@
       ],
       "aliases": [
         "Gem Comp LA",
-        "Overloud Gem Comp LA"
+        "Overloud Gem Comp LA",
+        "Gem Comp670-64"
       ],
       "daws": [
         "Ableton",
@@ -38802,7 +39611,12 @@
       ],
       "aliases": [
         "Gem EQ495",
-        "Overloud Gem EQ495"
+        "Overloud Gem EQ495",
+        "Gem Dopamine-64",
+        "Gem EQ84-64",
+        "Gem Mod-64",
+        "Gem Modula-64",
+        "Gem Voice-64"
       ],
       "daws": [
         "Ableton",
@@ -39415,7 +40229,14 @@
         "AAX"
       ],
       "aliases": [
-        "elysia karacter"
+        "elysia karacter",
+        "elysia karacter master",
+        "elysia karacter mix",
+        "elysia mpressor",
+        "elysia mpressor sc",
+        "elysia museq master",
+        "elysia museq mix",
+        "elysia phils cascade"
       ],
       "daws": [
         "Ableton",
@@ -39532,7 +40353,8 @@
       ],
       "aliases": [
         "Pitch Monster",
-        "Devious Machines Pitch Monster"
+        "Devious Machines Pitch Monster",
+        "PitchMonster"
       ],
       "daws": [
         "Ableton",
@@ -39649,7 +40471,8 @@
       ],
       "aliases": [
         "smart:limit",
-        "sonible smart limit"
+        "sonible smart limit",
+        "smartlimit"
       ],
       "daws": [
         "Ableton",
@@ -40365,7 +41188,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Tape Stop"
+        "Kilohearts Tape Stop",
+        "kHs Tape Stop"
       ],
       "daws": [
         "Ableton",
@@ -40403,7 +41227,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Bitcrush"
+        "Kilohearts Bitcrush",
+        "kHs Bitcrush"
       ],
       "daws": [
         "Ableton",
@@ -40441,7 +41266,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Reverser"
+        "Kilohearts Reverser",
+        "kHs Reverser"
       ],
       "daws": [
         "Ableton",
@@ -40478,7 +41304,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Gain"
+        "Kilohearts Gain",
+        "kHs Gain"
       ],
       "daws": [
         "Ableton",
@@ -40515,7 +41342,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Frequency Shifter"
+        "Kilohearts Frequency Shifter",
+        "kHs Frequency Shifter"
       ],
       "daws": [
         "Ableton",
@@ -40552,7 +41380,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Pitch Shifter"
+        "Kilohearts Pitch Shifter",
+        "kHs Pitch Shifter"
       ],
       "daws": [
         "Ableton",
@@ -40589,7 +41418,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Ring Mod"
+        "Kilohearts Ring Mod",
+        "kHs Ring Mod"
       ],
       "daws": [
         "Ableton",
@@ -40626,7 +41456,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Comb Filter"
+        "Kilohearts Comb Filter",
+        "kHs Comb Filter"
       ],
       "daws": [
         "Ableton",
@@ -40664,7 +41495,8 @@
         "AAX"
       ],
       "aliases": [
-        "Kilohearts Limiter"
+        "Kilohearts Limiter",
+        "kHs Limiter"
       ],
       "daws": [
         "Ableton",
@@ -40888,7 +41720,8 @@
       ],
       "aliases": [
         "Waves Clarity Vx",
-        "Clarity Vx"
+        "Clarity Vx",
+        "NoiseReducer"
       ],
       "daws": [
         "Ableton",
@@ -42229,7 +43062,8 @@
       ],
       "aliases": [
         "Faraday Limiter",
-        "Goodhertz Faraday Limiter"
+        "Goodhertz Faraday Limiter",
+        "Ghz Faraday Limiter 3"
       ],
       "daws": [
         "Ableton",
@@ -42266,7 +43100,8 @@
       ],
       "aliases": [
         "Vulf Compressor 3",
-        "Goodhertz Vulf 3"
+        "Goodhertz Vulf 3",
+        "Ghz Vulf Compressor 3"
       ],
       "daws": [
         "Ableton",
@@ -42341,7 +43176,8 @@
         "AAX"
       ],
       "aliases": [
-        "FabFilter Micro"
+        "FabFilter Micro",
+        "FabFilter Micro (Mono)"
       ],
       "daws": [
         "Ableton",
@@ -42687,7 +43523,8 @@
       ],
       "aliases": [
         "Density MK4",
-        "Variety of Sound Density MK4"
+        "Variety of Sound Density MK4",
+        "DensitymkIII"
       ],
       "daws": [
         "Ableton",
@@ -42758,7 +43595,8 @@
       ],
       "aliases": [
         "BaxterEQ",
-        "Variety of Sound BaxterEQ"
+        "Variety of Sound BaxterEQ",
+        "BootEQmkII"
       ],
       "daws": [
         "Ableton",
@@ -42781,6 +43619,5009 @@
         "mastering"
       ],
       "image_url": "https://1.gravatar.com/avatar/1f11f9c2af0e039f97aed4bdf94f3c508b2b5e019f4ee2b47f5aa3d498b02757?s=48&#038;d=identicon&#038;r=G"
+    },
+    {
+      "slug": "zynaptiq-intensity",
+      "name": "INTENSITY",
+      "manufacturer_slug": "zynaptiq",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "INTENSITY",
+        "Zynaptiq INTENSITY",
+        "INTENSITY VST"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Perceptual loudness enhancement processor.",
+      "price_type": "paid",
+      "url": "https://www.zynaptiq.com/intensity/",
+      "year": 2016,
+      "tags": [
+        "loudness",
+        "mastering",
+        "dynamics"
+      ]
+    },
+    {
+      "slug": "zynaptiq-wormhole",
+      "name": "WORMHOLE",
+      "manufacturer_slug": "zynaptiq",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "WORMHOLE",
+        "Zynaptiq WORMHOLE",
+        "WORMHOLE VST"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Alien-quality pitch/frequency shifting and reverb effects processor.",
+      "price_type": "paid",
+      "url": "https://www.zynaptiq.com/wormhole/",
+      "year": 2017,
+      "tags": [
+        "pitch",
+        "creative",
+        "reverb"
+      ]
+    },
+    {
+      "slug": "zynaptiq-unveil",
+      "name": "UNVEIL",
+      "manufacturer_slug": "zynaptiq",
+      "category": "effect",
+      "subcategory": "restoration",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "UNVEIL",
+        "Zynaptiq UNVEIL",
+        "UNVEIL VST",
+        "UNVEIL 8ch VST"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Real-time de-reverberation and signal focusing plugin.",
+      "price_type": "paid",
+      "url": "https://www.zynaptiq.com/unveil/",
+      "year": 2012,
+      "tags": [
+        "restoration",
+        "de-reverb",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "madrona-labs-aalto",
+      "name": "Aalto",
+      "manufacturer_slug": "madrona-labs",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Aalto",
+        "Madrona Labs Aalto",
+        "Aalto_"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Semi-modular software synthesizer with patchable signal flow.",
+      "price_type": "paid",
+      "url": "https://madronalabs.com/products/aalto",
+      "year": 2012,
+      "tags": [
+        "synth",
+        "modular",
+        "semi-modular"
+      ]
+    },
+    {
+      "slug": "dada-life-sausage-fattener",
+      "name": "Sausage Fattener",
+      "manufacturer_slug": "dada-life-audio",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Sausage Fattener",
+        "Dada Life Sausage Fattener"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Simple one-knob saturation and loudness fattening plugin.",
+      "price_type": "paid",
+      "url": "https://www.dadalife.com/sausage-fattener/",
+      "year": 2011,
+      "tags": [
+        "saturation",
+        "loudness",
+        "edm"
+      ]
+    },
+    {
+      "slug": "dada-life-endless-smile",
+      "name": "Endless Smile",
+      "manufacturer_slug": "dada-life-audio",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Endless Smile",
+        "Dada Life Endless Smile",
+        "Endless Smile 64"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "One-knob riser/build-up/drop effect for electronic music.",
+      "price_type": "paid",
+      "url": "https://www.dadalife.com/endless-smile/",
+      "year": 2015,
+      "tags": [
+        "creative",
+        "edm",
+        "transition"
+      ]
+    },
+    {
+      "slug": "grm-tools",
+      "name": "GRM Tools",
+      "manufacturer_slug": "ina-grm",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "GRM Tools",
+        "INA GRM Tools",
+        "GRM BandPass",
+        "GRM BandPass Stereo",
+        "GRM CombFilter",
+        "GRM CombFilter Stereo",
+        "GRM Contrast",
+        "GRM Contrast Stereo",
+        "GRM Delays",
+        "GRM Delays Stereo",
+        "GRM Doppler",
+        "GRM Doppler Stereo",
+        "GRM Equalize",
+        "GRM Equalize Stereo",
+        "GRM Evolution",
+        "GRM Freeze",
+        "GRM Freeze Stereo",
+        "GRM FreqShift",
+        "GRM FreqShift Stereo",
+        "GRM FreqWarp",
+        "GRM FreqWarp Stereo",
+        "GRM Fusion",
+        "GRM Grinder",
+        "GRM PitchAccum",
+        "GRM PitchAccum Stereo",
+        "GRM Reson",
+        "GRM Reson Stereo",
+        "GRM Shuffling",
+        "GRM Shuffling Stereo",
+        "GRM SpaceFilter",
+        "GRM SpaceGrain",
+        "GRM Spaces",
+        "GRM Spaces3D"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Legendary experimental sound processing tools from the French electroacoustic research institute.",
+      "price_type": "paid",
+      "url": "https://inagrm.com/en/store",
+      "year": 2000,
+      "tags": [
+        "creative",
+        "experimental",
+        "granular",
+        "spectral"
+      ]
+    },
+    {
+      "slug": "soundtheory-gullfoss",
+      "name": "Gullfoss",
+      "manufacturer_slug": "soundtheory",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Gullfoss",
+        "Soundtheory Gullfoss",
+        "Gullfoss Live",
+        "Gullfoss Master"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Intelligent automatic EQ that uses computational auditory perception.",
+      "price_type": "paid",
+      "url": "https://www.soundtheory.com/home",
+      "year": 2018,
+      "tags": [
+        "eq",
+        "intelligent",
+        "mastering",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "pulsar-1178",
+      "name": "Pulsar 1178",
+      "manufacturer_slug": "pulsar-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Pulsar 1178"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of the classic 1178 dual-channel FET compressor.",
+      "price_type": "paid",
+      "url": "https://pulsar.audio/1178/",
+      "year": 2021,
+      "tags": [
+        "compressor",
+        "analog-modeling",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "pulsar-mu",
+      "name": "Pulsar Mu",
+      "manufacturer_slug": "pulsar-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Pulsar Mu"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of the Manley Variable-Mu tube compressor.",
+      "price_type": "paid",
+      "url": "https://pulsar.audio/mu/",
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "analog-modeling",
+        "tube"
+      ]
+    },
+    {
+      "slug": "pulsar-echorec",
+      "name": "Pulsar Echorec",
+      "manufacturer_slug": "pulsar-audio",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Pulsar Echorec"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of the Binson Echorec magnetic drum delay.",
+      "price_type": "paid",
+      "url": "https://pulsar.audio/echorec/",
+      "year": 2021,
+      "tags": [
+        "delay",
+        "analog-modeling",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "pulsar-smasher",
+      "name": "Pulsar Smasher",
+      "manufacturer_slug": "pulsar-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Pulsar Smasher"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free compressor plugin inspired by classic hardware.",
+      "price_type": "free",
+      "url": "https://pulsar.audio/smasher/",
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "free",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "cytomic-the-glue",
+      "name": "The Glue",
+      "manufacturer_slug": "cytomic",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "The Glue",
+        "Cytomic The Glue",
+        "The Glue 64"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Analog-modeled bus compressor based on the classic SSL design.",
+      "price_type": "paid",
+      "url": "https://cytomic.com/theglue",
+      "year": 2012,
+      "tags": [
+        "compressor",
+        "bus",
+        "analog-modeling",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "cytomic-the-scream",
+      "name": "The Scream",
+      "manufacturer_slug": "cytomic",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "The Scream",
+        "Cytomic The Scream",
+        "The Scream 64"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube Screamer-style analog distortion pedal emulation.",
+      "price_type": "paid",
+      "url": "https://cytomic.com/thescream",
+      "year": 2023,
+      "tags": [
+        "distortion",
+        "guitar",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "spl-attacker",
+      "name": "SPL Attacker",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "transient",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL Attacker"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Transient enhancer for adding punch and attack to audio signals.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/attacker/",
+      "year": 2015,
+      "tags": [
+        "transient",
+        "dynamics",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "spl-passeq",
+      "name": "SPL Passeq",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL Passeq",
+        "SPL Passeq Single"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Passive mastering equalizer with 72 filter curves.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/passeq/",
+      "year": 2014,
+      "tags": [
+        "eq",
+        "passive",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "spl-de-verb",
+      "name": "SPL De-Verb",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "restoration",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL De-Verb",
+        "SPL Mo-Verb"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "De-reverberation and ambience reduction plugin.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/de-verb/",
+      "year": 2016,
+      "tags": [
+        "restoration",
+        "de-reverb",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "spl-twin-tube",
+      "name": "SPL TwinTube",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL TwinTube"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dual-tube harmonics processor for adding warmth.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/twintube/",
+      "year": 2014,
+      "tags": [
+        "saturation",
+        "tube",
+        "warmth"
+      ]
+    },
+    {
+      "slug": "spl-vitalizer-mk2t",
+      "name": "SPL Vitalizer MK2-T",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "enhancer",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL Vitalizer MK2-T"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Psychoacoustic sound enhancement processor.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/vitalizer-mk2-t/",
+      "year": 2014,
+      "tags": [
+        "enhancer",
+        "harmonic",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "spl-drumxchanger",
+      "name": "SPL DrumXchanger",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "transient",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL DrumXchanger"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Drum replacement and enhancement plugin.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/drumxchanger/",
+      "year": 2015,
+      "tags": [
+        "drums",
+        "replacement",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "spl-bass-ranger",
+      "name": "SPL Ranger",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL Bass Ranger",
+        "SPL Free Ranger",
+        "SPL Full Ranger",
+        "SPL Vox Ranger"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parallel filter-based frequency enhancer for bass, full-range, and vocals.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/",
+      "year": 2016,
+      "tags": [
+        "eq",
+        "enhancer",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "spl-de-esser-dual-band",
+      "name": "SPL De-Esser Dual-Band",
+      "manufacturer_slug": "spl",
+      "category": "effect",
+      "subcategory": "de-esser",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SPL De-Esser Dual-Band"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Precision dual-band de-esser for vocal processing.",
+      "price_type": "paid",
+      "url": "https://spl.audio/en/spl-plugin/de-esser-dual-band/",
+      "year": 2016,
+      "tags": [
+        "de-esser",
+        "vocals",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "archetype-abasi",
+      "name": "Archetype: Abasi",
+      "manufacturer_slug": "neural-dsp",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Archetype Abasi",
+        "Neural DSP Abasi"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tosin Abasi signature guitar amp and effects suite.",
+      "price_type": "paid",
+      "url": "https://www.neuraldsp.com/plugins/archetype-abasi",
+      "year": 2019,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "neural"
+      ]
+    },
+    {
+      "slug": "darkglass-ultra",
+      "name": "Darkglass Ultra",
+      "manufacturer_slug": "neural-dsp",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Darkglass Ultra",
+        "Neural DSP Darkglass"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Darkglass Electronics bass amp and cab simulation suite.",
+      "price_type": "paid",
+      "url": "https://www.neuraldsp.com/plugins/darkglass-ultra",
+      "year": 2020,
+      "tags": [
+        "amp-sim",
+        "bass",
+        "neural"
+      ]
+    },
+    {
+      "slug": "fortin-cali-suite",
+      "name": "Fortin Cali Suite",
+      "manufacturer_slug": "neural-dsp",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Fortin Cali Suite",
+        "Neural DSP Fortin Cali"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Fortin Cali high-gain guitar amp simulation.",
+      "price_type": "paid",
+      "url": "https://www.neuraldsp.com/plugins/fortin-cali-suite",
+      "year": 2019,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "high-gain"
+      ]
+    },
+    {
+      "slug": "fortin-nts-suite",
+      "name": "Fortin NTS Suite",
+      "manufacturer_slug": "neural-dsp",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Fortin NTS Suite",
+        "Neural DSP Fortin NTS"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Fortin NTS modern high-gain guitar amp simulation.",
+      "price_type": "paid",
+      "url": "https://www.neuraldsp.com/plugins/fortin-nts-suite",
+      "year": 2018,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "high-gain"
+      ]
+    },
+    {
+      "slug": "fortin-nameless-suite",
+      "name": "Fortin Nameless Suite",
+      "manufacturer_slug": "neural-dsp",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Fortin Nameless Suite",
+        "Fortin Nameless Suite (x64)",
+        "Neural DSP Fortin Nameless"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Fortin Nameless guitar amp simulation suite.",
+      "price_type": "paid",
+      "url": "https://www.neuraldsp.com/plugins/fortin-nameless-suite",
+      "year": 2018,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "high-gain"
+      ]
+    },
+    {
+      "slug": "sonalksis-plugin-suite",
+      "name": "Sonalksis Plugin Suite",
+      "manufacturer_slug": "sonalksis",
+      "category": "effect",
+      "subcategory": "channel-strip",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Sonalksis",
+        "Sonalksis CQ1 Mono",
+        "Sonalksis CQ1 Stereo",
+        "Sonalksis Creative Filter Mono",
+        "Sonalksis Creative Filter Stereo",
+        "Sonalksis DQ1 Mono",
+        "Sonalksis DQ1 Stereo",
+        "Sonalksis Digital Grimebox Mono",
+        "Sonalksis Digital Grimebox Stereo",
+        "Sonalksis FreeG Mono",
+        "Sonalksis FreeG Stereo",
+        "Sonalksis MaxLimit",
+        "Sonalksis MaxLimit Mono",
+        "Sonalksis MultiLimit",
+        "Sonalksis SV-315Mk2 Mono Compressor",
+        "Sonalksis SV-315Mk2 Mono Compressor SC",
+        "Sonalksis SV-315Mk2 Stereo Compressor",
+        "Sonalksis SV-315Mk2 Stereo Compressor SC",
+        "Sonalksis SV-517Mk2 Mono EQ",
+        "Sonalksis SV-517Mk2 Stereo EQ",
+        "Sonalksis SV-719 Mono Gate",
+        "Sonalksis SV-719 Mono Gate SC",
+        "Sonalksis SV-719 Stereo Gate",
+        "Sonalksis SV-719 Stereo Gate SC",
+        "Sonalksis StereoTools",
+        "Sonalksis Uber Compressor Mono",
+        "Sonalksis Uber Compressor Stereo",
+        "Sonalksis Ultimate-D"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Suite of precision mixing tools including compressors, EQs, gates, and limiters.",
+      "price_type": "paid",
+      "url": "https://www.sonalksis.com",
+      "year": 2007,
+      "tags": [
+        "mixing",
+        "compressor",
+        "eq",
+        "gate",
+        "limiter"
+      ]
+    },
+    {
+      "slug": "techivation-dseq",
+      "name": "DSEQ",
+      "manufacturer_slug": "techivation",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "DSEQ",
+        "Techivation DSEQ",
+        "DSEQMono"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamic spectral equalizer for transparent resonance suppression.",
+      "price_type": "paid",
+      "url": "https://techivation.com/dseq/",
+      "year": 2020,
+      "tags": [
+        "eq",
+        "dynamic",
+        "spectral",
+        "de-esser"
+      ]
+    },
+    {
+      "slug": "jst-clip",
+      "name": "JST Clip",
+      "manufacturer_slug": "jst",
+      "category": "effect",
+      "subcategory": "clipper",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "JST Clip"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hard clipping distortion and loudness tool.",
+      "price_type": "paid",
+      "url": "https://joeysturgistones.com/products/jst-clip",
+      "year": 2020,
+      "tags": [
+        "clipper",
+        "distortion",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "weiss-compressor-limiter",
+      "name": "Weiss Compressor/Limiter",
+      "manufacturer_slug": "weiss-engineering",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Weiss Compressor Limiter",
+        "Weiss Compressor/Limiter"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of the legendary Weiss DS1-MK3 compressor/limiter for mastering.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/weiss",
+      "year": 2019,
+      "tags": [
+        "compressor",
+        "limiter",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "weiss-ds1-mk3",
+      "name": "Weiss DS1-MK3",
+      "manufacturer_slug": "weiss-engineering",
+      "category": "effect",
+      "subcategory": "de-esser",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Weiss DS1-MK3",
+        "Weiss Deess"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering-grade de-esser based on Weiss DS1-MK3.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/weiss",
+      "year": 2019,
+      "tags": [
+        "de-esser",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "weiss-eq1",
+      "name": "Weiss EQ1",
+      "manufacturer_slug": "weiss-engineering",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Weiss EQ1"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Linear phase mastering equalizer based on Weiss EQ1.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/weiss",
+      "year": 2019,
+      "tags": [
+        "eq",
+        "mastering",
+        "linear-phase"
+      ]
+    },
+    {
+      "slug": "weiss-mm1-maximizer",
+      "name": "Weiss MM-1 Mastering Maximizer",
+      "manufacturer_slug": "weiss-engineering",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Weiss MM-1 Mastering Maximizer"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering maximizer/limiter based on Weiss engineering.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/weiss",
+      "year": 2019,
+      "tags": [
+        "limiter",
+        "mastering",
+        "maximizer"
+      ]
+    },
+    {
+      "slug": "chandler-curve-bender",
+      "name": "Chandler Limited Curve Bender",
+      "manufacturer_slug": "chandler-limited",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Chandler Limited Curve Bender"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering EQ emulation of the Chandler Limited Curve Bender.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/chandler-limited-curve-bender",
+      "year": 2015,
+      "tags": [
+        "eq",
+        "mastering",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "chandler-germanium-comp",
+      "name": "Chandler Limited Germanium Compressor",
+      "manufacturer_slug": "chandler-limited",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Chandler Limited Germanium Comp"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Germanium transistor compressor emulation.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/chandler-limited-germanium-compressor",
+      "year": 2015,
+      "tags": [
+        "compressor",
+        "analog-modeling",
+        "germanium"
+      ]
+    },
+    {
+      "slug": "chandler-zener-limiter",
+      "name": "Chandler Limited Zener Limiter",
+      "manufacturer_slug": "chandler-limited",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Chandler Limited Zener Limiter",
+        "Chandler Limited Zener-Bender",
+        "Chandler GAV19T"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Zener diode limiter with musical coloration.",
+      "price_type": "paid",
+      "url": "https://www.softube.com/chandler-limited-zener-limiter",
+      "year": 2015,
+      "tags": [
+        "limiter",
+        "analog-modeling",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "shadow-hills-mastering-compressor",
+      "name": "Shadow Hills Mastering Compressor",
+      "manufacturer_slug": "shadow-hills",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Shadow Hills Mastering Compressor",
+        "Shadow Hills Class A Mastering Comp"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dual-stage mastering compressor emulation with optical and discrete stages.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com/en/products/shadow-hills-mastering-compressor.html",
+      "year": 2017,
+      "tags": [
+        "compressor",
+        "mastering",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "black-box-hg-2",
+      "name": "Black Box Analog Design HG-2",
+      "manufacturer_slug": "black-box-analog",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Black Box Analog Design HG-2"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube saturation and harmonics generator.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com/en/products/black-box-analog-design-hg-2.html",
+      "year": 2017,
+      "tags": [
+        "saturation",
+        "tube",
+        "harmonics"
+      ]
+    },
+    {
+      "slug": "acme-opticom-xla3",
+      "name": "Acme Opticom XLA-3",
+      "manufacturer_slug": "acme-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Acme Opticom XLA-3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Optical leveling amplifier emulation.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com/en/products/acme-opticom-xla-3.html",
+      "year": 2018,
+      "tags": [
+        "compressor",
+        "optical",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "vertigo-vsc-2",
+      "name": "Vertigo VSC-2",
+      "manufacturer_slug": "vertigo-sound",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Vertigo VSC-2"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Quad discrete VCA compressor emulation.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com/en/products/vertigo-vsc-2.html",
+      "year": 2017,
+      "tags": [
+        "compressor",
+        "vca",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "vertigo-vsm-3",
+      "name": "Vertigo VSM-3",
+      "manufacturer_slug": "vertigo-sound",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Vertigo VSM-3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Harmonic distortion and saturation processor.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com/en/products/vertigo-vsm-3.html",
+      "year": 2018,
+      "tags": [
+        "saturation",
+        "harmonics",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "nugen-mastercheck",
+      "name": "NUGEN MasterCheck",
+      "manufacturer_slug": "nugen-audio",
+      "category": "utility",
+      "subcategory": "metering",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "NUGEN MasterCheck",
+        "NUGEN Send"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Loudness metering and streaming platform compliance checking tool.",
+      "price_type": "paid",
+      "url": "https://nugenaudio.com/mastercheck/",
+      "year": 2016,
+      "tags": [
+        "metering",
+        "loudness",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "captain-plugins",
+      "name": "Captain Plugins",
+      "manufacturer_slug": "captain-plugins",
+      "category": "midi",
+      "subcategory": "composition",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Captain Plugins",
+        "Captain Beat",
+        "Captain Beat Epic",
+        "Captain Chords",
+        "Captain Chords Epic",
+        "Captain Deep",
+        "Captain Deep Epic",
+        "Captain Melody",
+        "Captain Melody Epic",
+        "Captain Play",
+        "Captain Play Epic"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-powered music composition plugin suite for chords, melodies, basslines, and beats.",
+      "price_type": "paid",
+      "url": "https://mixedinkey.com/captain-plugins/",
+      "year": 2017,
+      "tags": [
+        "composition",
+        "midi",
+        "ai",
+        "chords"
+      ]
+    },
+    {
+      "slug": "sonarworks-reference",
+      "name": "SoundID Reference",
+      "manufacturer_slug": "sonarworks",
+      "category": "utility",
+      "subcategory": "calibration",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SoundID Reference",
+        "SoundID Reference VST Plugin",
+        "Sonarworks Reference"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Speaker and headphone calibration plugin for accurate monitoring.",
+      "price_type": "paid",
+      "url": "https://www.sonarworks.com",
+      "year": 2020,
+      "tags": [
+        "calibration",
+        "monitoring",
+        "reference"
+      ]
+    },
+    {
+      "slug": "maat-theeq",
+      "name": "MAAT thEQ",
+      "manufacturer_slug": "maat-digital",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MAAT thEQblue",
+        "MAAT thEQorange",
+        "MAAT thEQred",
+        "MAAT RSPhaseShifter"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Linear-phase mastering equalizer suite with multiple color variants.",
+      "price_type": "paid",
+      "url": "https://www.maat.digital/theq/",
+      "year": 2018,
+      "tags": [
+        "eq",
+        "mastering",
+        "linear-phase"
+      ]
+    },
+    {
+      "slug": "lexicon-pcm-native-plugins",
+      "name": "Lexicon PCM Native Plugins",
+      "manufacturer_slug": "lexicon",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Lexicon PCM Native Plugins",
+        "LexChamber",
+        "LexConcertHall",
+        "LexHall",
+        "LexPlate",
+        "LexRandomHall",
+        "LexRoom",
+        "LexVintagePlate"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Individual algorithmic reverb plugins from the Lexicon PCM Native bundle.",
+      "price_type": "paid",
+      "url": "https://lexiconpro.com",
+      "year": 2010,
+      "tags": [
+        "reverb",
+        "algorithmic",
+        "classic"
+      ]
+    },
+    {
+      "slug": "eventide-h910",
+      "name": "H910 Harmonizer",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "H910 Harmonizer",
+        "H910 Dual Harmonizer",
+        "Eventide H910"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of the legendary first digital effects processor.",
+      "price_type": "paid",
+      "url": "https://www.eventideaudio.com/plug-ins/h910/",
+      "year": 2017,
+      "tags": [
+        "pitch",
+        "harmonizer",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "eventide-h949",
+      "name": "H949 Harmonizer",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "H949 Harmonizer",
+        "H949 Dual Harmonizer",
+        "Eventide H949"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of Eventide's second-generation Harmonizer.",
+      "price_type": "paid",
+      "url": "https://www.eventideaudio.com/plug-ins/h949/",
+      "year": 2018,
+      "tags": [
+        "pitch",
+        "harmonizer",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "eventide-omnipressor",
+      "name": "Omnipressor",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Omnipressor",
+        "Eventide Omnipressor"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamic modifier combining compression, expansion, gating, and limiting.",
+      "price_type": "paid",
+      "url": "https://www.eventideaudio.com/plug-ins/omnipressor/",
+      "year": 2020,
+      "tags": [
+        "dynamics",
+        "compressor",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "bettermaker-eq232d",
+      "name": "Bettermaker EQ232D",
+      "manufacturer_slug": "bettermaker",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Bettermaker EQ232D"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Pultec-style mastering equalizer with digital recall.",
+      "price_type": "paid",
+      "url": "https://bettermaker.com/eq232d-plugin",
+      "year": 2019,
+      "tags": [
+        "eq",
+        "pultec",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "roland-cloud-d-50",
+      "name": "Roland D-50",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Roland D-50",
+        "D-50(VST2 64bit)",
+        "D-50"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the classic Roland D-50 Linear Synthesizer.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2017,
+      "tags": [
+        "synth",
+        "vintage",
+        "digital",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-cloud-jv-1080",
+      "name": "Roland JV-1080",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Roland JV-1080",
+        "JV-1080(VST2 64bit)",
+        "JV-1080",
+        "XV-5080",
+        "XV-5080(VST2 64bit)"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the Roland JV-1080 synthesizer module.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2020,
+      "tags": [
+        "synth",
+        "vintage",
+        "rompler",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-cloud-jx-3p",
+      "name": "Roland JX-3P",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Roland JX-3P",
+        "JX-3P(VST2 64bit)",
+        "JX-3P"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the Roland JX-3P analog synthesizer.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2018,
+      "tags": [
+        "synth",
+        "vintage",
+        "analog",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-cloud-tb-303",
+      "name": "Roland TB-303",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Roland TB-303",
+        "TB-303(VST2 64bit)",
+        "TB-303"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the legendary Roland TB-303 Bass Line synthesizer.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2018,
+      "tags": [
+        "synth",
+        "bass",
+        "acid",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-cloud-system-8",
+      "name": "Roland SYSTEM-8",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Roland SYSTEM-8",
+        "SYSTEM-8(VST2 64bit)",
+        "SYSTEM-1(VST2 64bit)",
+        "SYSTEM-100(VST2 64bit)",
+        "SYSTEM-1",
+        "SYSTEM-100"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Plug-Out software synthesizer with ACB technology.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2017,
+      "tags": [
+        "synth",
+        "analog-modeling",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-cloud-promars",
+      "name": "Roland PROMARS",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Roland PROMARS",
+        "PROMARS(VST2 64bit)",
+        "PROMARS"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the Roland PROMARS (MRS-2) synthesizer.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2017,
+      "tags": [
+        "synth",
+        "vintage",
+        "analog",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-srx-dance-trax",
+      "name": "Roland SRX DANCE TRAX",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "SRX DANCE TRAX(VST2 64bit)",
+        "SRX KEYBOARDS(VST2 64bit)",
+        "SRX ORCHESTRA(VST2 64bit)",
+        "SRX WORLD(VST2 64bit)"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Roland SRX expansion board sound collections recreated as software.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2019,
+      "tags": [
+        "rompler",
+        "sound-design",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-sound-canvas-va",
+      "name": "SOUND Canvas VA",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "SOUND Canvas VA"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the iconic Roland Sound Canvas SC-55/88.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/products/rc_sound-canvas-va/",
+      "year": 2017,
+      "tags": [
+        "rompler",
+        "general-midi",
+        "vintage",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-cloud-ob-e",
+      "name": "Roland OB-E",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "OB-E"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the Oberheim Eight Voice synthesizer by Roland.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2023,
+      "tags": [
+        "synth",
+        "vintage",
+        "analog-modeling",
+        "roland"
+      ]
+    },
+    {
+      "slug": "roland-wavestation",
+      "name": "WAVESTATION",
+      "manufacturer_slug": "roland",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "WAVESTATION"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software recreation of the Korg Wavestation wave sequencing synth.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/us/categories/roland-cloud/",
+      "year": 2017,
+      "tags": [
+        "synth",
+        "wave-sequencing",
+        "digital"
+      ]
+    },
+    {
+      "slug": "goodhertz-good-dither",
+      "name": "Good Dither",
+      "manufacturer_slug": "goodhertz",
+      "category": "utility",
+      "subcategory": "dither",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Good Dither",
+        "Goodhertz Good Dither",
+        "Ghz Good Dither 3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "High-quality dither plugin for bit-depth reduction.",
+      "price_type": "paid",
+      "url": "https://goodhertz.com/good-dither/",
+      "year": 2020,
+      "tags": [
+        "dither",
+        "mastering",
+        "utility"
+      ]
+    },
+    {
+      "slug": "goodhertz-lohi",
+      "name": "Lohi",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "filter",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Lohi",
+        "Goodhertz Lohi",
+        "Ghz Lohi 3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Smooth analog-style low-pass and high-pass filter.",
+      "price_type": "paid",
+      "url": "https://goodhertz.com/lohi/",
+      "year": 2020,
+      "tags": [
+        "filter",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "goodhertz-megaverb",
+      "name": "Megaverb",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Megaverb",
+        "Goodhertz Megaverb",
+        "Ghz Megaverb 3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Lo-fi reverb with classic digital reverb character.",
+      "price_type": "paid",
+      "url": "https://goodhertz.com/megaverb/",
+      "year": 2020,
+      "tags": [
+        "reverb",
+        "lo-fi",
+        "creative"
+      ]
+    },
+    {
+      "slug": "goodhertz-tiltshift",
+      "name": "Tiltshift",
+      "manufacturer_slug": "goodhertz",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Tiltshift",
+        "Goodhertz Tiltshift",
+        "Ghz Tiltshift 3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Simple tilt EQ for quick tonal adjustments.",
+      "price_type": "paid",
+      "url": "https://goodhertz.com/tiltshift/",
+      "year": 2020,
+      "tags": [
+        "eq",
+        "tilt",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "newfangled-equivocate",
+      "name": "EQuivocate",
+      "manufacturer_slug": "newfangled-audio",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "EQuivocate",
+        "Newfangled EQuivocate"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Auditory graphic EQ based on critical band analysis.",
+      "price_type": "paid",
+      "url": "https://www.eventideaudio.com/plug-ins/equivocate/",
+      "year": 2019,
+      "tags": [
+        "eq",
+        "graphic",
+        "perceptual"
+      ]
+    },
+    {
+      "slug": "newfangled-punctuate",
+      "name": "Punctuate",
+      "manufacturer_slug": "newfangled-audio",
+      "category": "effect",
+      "subcategory": "transient",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Punctuate",
+        "Newfangled Punctuate"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "26-band transient shaper with perceptual frequency analysis.",
+      "price_type": "paid",
+      "url": "https://www.eventideaudio.com/plug-ins/punctuate/",
+      "year": 2019,
+      "tags": [
+        "transient",
+        "multiband",
+        "dynamics"
+      ]
+    },
+    {
+      "slug": "sonic-academy-kick-2",
+      "name": "Kick 2",
+      "manufacturer_slug": "sonic-academy",
+      "category": "instrument",
+      "subcategory": "drum-synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Kick 2",
+        "Sonic Academy Kick 2"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Professional kick drum synthesizer with waveform editing.",
+      "price_type": "paid",
+      "url": "https://www.sonicacademy.com/products/kick-2",
+      "year": 2016,
+      "tags": [
+        "drums",
+        "kick",
+        "synth",
+        "edm"
+      ]
+    },
+    {
+      "slug": "faw-sublab",
+      "name": "SubLab",
+      "manufacturer_slug": "future-audio-workshop",
+      "category": "instrument",
+      "subcategory": "bass-synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SubLab",
+        "SubLabXL",
+        "Future Audio Workshop SubLab"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "808-inspired bass synthesizer for modern music production.",
+      "price_type": "paid",
+      "url": "https://www.futureaudioworkshop.com/sublab",
+      "year": 2019,
+      "tags": [
+        "bass",
+        "808",
+        "synth",
+        "trap"
+      ]
+    },
+    {
+      "slug": "crave-dsp-crave-eq",
+      "name": "Crave EQ",
+      "manufacturer_slug": "crave-dsp",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Carve EQ",
+        "Crave EQ"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Musical spectrum-matching equalizer.",
+      "price_type": "paid",
+      "url": "https://www.cravedsp.com",
+      "year": 2022,
+      "tags": [
+        "eq",
+        "spectrum-matching"
+      ]
+    },
+    {
+      "slug": "bx-bluechorus2",
+      "name": "bx_bluechorus2",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "chorus",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_bluechorus2",
+        "Brainworx bx_bluechorus2"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classic chorus effect plugin.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2018,
+      "tags": [
+        "chorus",
+        "modulation"
+      ]
+    },
+    {
+      "slug": "bx-boom",
+      "name": "bx_boom!",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_boom",
+        "Brainworx bx_boom"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Drum enhancement and resonance control plugin.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2019,
+      "tags": [
+        "dynamics",
+        "drums",
+        "enhancement"
+      ]
+    },
+    {
+      "slug": "bx-control-v2",
+      "name": "bx_control V2",
+      "manufacturer_slug": "brainworx",
+      "category": "utility",
+      "subcategory": "monitoring",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_control V2",
+        "Brainworx bx_control"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Monitoring and master bus control plugin.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2017,
+      "tags": [
+        "monitoring",
+        "utility",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "bx-distorange",
+      "name": "bx_distorange",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_distorange",
+        "Brainworx bx_distorange"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Orange amp-inspired distortion plugin.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2019,
+      "tags": [
+        "distortion",
+        "amp-sim",
+        "guitar"
+      ]
+    },
+    {
+      "slug": "bx-dyneq-v2",
+      "name": "bx_dynEQ V2",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_dynEQ V2",
+        "bx_dynEQ V2 Mono",
+        "Brainworx bx_dynEQ"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamic equalizer with M/S processing.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2015,
+      "tags": [
+        "eq",
+        "dynamic",
+        "mid-side"
+      ]
+    },
+    {
+      "slug": "bx-limiter-plugin",
+      "name": "bx_limiter",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_limiter",
+        "Brainworx bx_limiter"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering limiter with True Peak limiting.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2017,
+      "tags": [
+        "limiter",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "bx-metal2",
+      "name": "bx_metal2",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_metal2",
+        "Brainworx bx_metal2"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Metal guitar amp simulation.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2018,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "metal"
+      ]
+    },
+    {
+      "slug": "bx-oberhausen",
+      "name": "bx_oberhausen",
+      "manufacturer_slug": "brainworx",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_oberhausen",
+        "Brainworx bx_oberhausen"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Analog-modeled synth inspired by classic Oberheim.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2019,
+      "tags": [
+        "synth",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "bx-rockrack-v3",
+      "name": "bx_rockrack V3",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_rockrack",
+        "bx_rockrack V3",
+        "bx_rockrack V3 Player",
+        "Brainworx bx_rockrack"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Guitar amp simulation rack with multiple amp models.",
+      "price_type": "paid",
+      "url": "https://www.brainworx.audio",
+      "year": 2018,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "rack"
+      ]
+    },
+    {
+      "slug": "analog-obsession-amethyst",
+      "name": "AMETHYST",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "channel-strip",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "AMETHYST3",
+        "AMETHYST3COMP",
+        "AMETHYST3COMPZL",
+        "AMETHYST3EQ",
+        "AMETHYST3EQZL",
+        "AMETHYST3PRE",
+        "AMETHYST3PREZL",
+        "AMETHYST3ZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Channel strip with preamp, EQ, and compressor sections.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "channel-strip",
+        "free",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "analog-obsession-arctic",
+      "name": "ARCTIC",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "ARCTIC",
+        "ARCTICFLAT",
+        "ARCTICFLATZL",
+        "ARCTICZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Clean and transparent EQ plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "eq",
+        "free",
+        "clean"
+      ]
+    },
+    {
+      "slug": "analog-obsession-ceil",
+      "name": "CEIL",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "CEIL",
+        "CEILZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Peak limiter plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "limiter",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-celestial",
+      "name": "CELESTIAL",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "CELESTIALMB",
+        "CELESTIALMBZL",
+        "CELESTIALME",
+        "CELESTIALMEZL",
+        "CELESTIALMX",
+        "CELESTIALMXZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Reverb plugin with multiple algorithms.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "reverb",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-cerise",
+      "name": "CERISE",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "CERISE",
+        "CERISEZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Compressor plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "compressor",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-coffeepun",
+      "name": "COFFEEPUN",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "COFFEEPUN",
+        "COFFEEPUNZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Saturation and warming plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "saturation",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-diamond",
+      "name": "DIAMOND",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "DIAMONDDYN-F",
+        "DIAMONDDYN-FT",
+        "DIAMONDDYN-FTZL",
+        "DIAMONDDYN-FZL",
+        "DIAMONDLP-3X",
+        "DIAMONDLP-3XT",
+        "DIAMONDLP-3XTZL",
+        "DIAMONDLP-3XZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamics and leveling processor.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "dynamics",
+        "free",
+        "compressor"
+      ]
+    },
+    {
+      "slug": "analog-obsession-el-rey",
+      "name": "EL REY",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "EL REY",
+        "EL REYZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube compressor emulation.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "compressor",
+        "tube",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-firetheclip",
+      "name": "FIRETHECLIP",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "clipper",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FIRETHECLIP",
+        "FIRETHECLIPT",
+        "FIRETHECLIPTZL",
+        "FIRETHECLIPZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hard clipper and saturation plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "clipper",
+        "saturation",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-firethepump",
+      "name": "FIRETHEPUMP",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FIRETHEPUMP",
+        "FIRETHEPUMPZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Pumping compressor effect.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "compressor",
+        "pumping",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-frost",
+      "name": "FROST",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FROST",
+        "FROSTZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Clean equalizer plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "eq",
+        "free",
+        "clean"
+      ]
+    },
+    {
+      "slug": "analog-obsession-gainstation",
+      "name": "GAINSTATION",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "preamp",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "GAINSTATIONT",
+        "GAINSTATIONTZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Gain staging and preamp coloring plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "preamp",
+        "gain-staging",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-halo",
+      "name": "HALO",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "HALO",
+        "HALO FX"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Reverb plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "reverb",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-holycomp",
+      "name": "HOLYCOMP",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "HOLYCOMP"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Compressor plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "compressor",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-britpressor",
+      "name": "BRITPRESSOR",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "BRITPRESSOR"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "British-style compressor emulation.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "compressor",
+        "british",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-brutus",
+      "name": "BRUTUS",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "BRUTUS"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Aggressive saturation plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "saturation",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-combox",
+      "name": "COMBOX",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "COMBOX"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Compressor plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "compressor",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-fiver",
+      "name": "FIVER",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "FIVER"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Five-band EQ plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "eq",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-lift",
+      "name": "LIFT",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "LIFT2",
+        "LIFT2-MAST",
+        "LIFT2-MASTT",
+        "LIFT2-MASTTZL",
+        "LIFT2-MASTZL",
+        "LIFT2T",
+        "LIFT2TZL",
+        "LIFT2ZL",
+        "LIFT3",
+        "LIFT3-MAST",
+        "LIFT3-MASTZL",
+        "LIFT3ZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Limiter/maximizer plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "limiter",
+        "mastering",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-luxe",
+      "name": "LUXE",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "enhancer",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "LUXE"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Harmonic enhancement and exciter plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "enhancer",
+        "exciter",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-mndala",
+      "name": "MNDALA",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "MNDALA"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Reverb plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "reverb",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-mishby",
+      "name": "MISHBY",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "lo-fi",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "MISHBY"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Lo-fi tape and degradation effect.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "lo-fi",
+        "tape",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-random",
+      "name": "RANDOM",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "RANDOM"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Random modulation effect.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "creative",
+        "modulation",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-reddi",
+      "name": "REDDI",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "preamp",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "REDDI"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube DI box emulation.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "preamp",
+        "tube",
+        "di",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-rekt",
+      "name": "REKT",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "REKT"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Distortion and saturation effect.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "distortion",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-silika",
+      "name": "SILIKA",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "SILIKA"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "EQ plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "eq",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-tan",
+      "name": "TAN",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "TAN",
+        "TANZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Saturation and warming plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "saturation",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-taupe",
+      "name": "TAUPE",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "channel-strip",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "TAUPE",
+        "TAUPECOMP",
+        "TAUPECOMPT",
+        "TAUPECOMPTZL",
+        "TAUPECOMPZL",
+        "TAUPEEQ",
+        "TAUPEEQT",
+        "TAUPEEQTZL",
+        "TAUPEEQZL",
+        "TAUPET",
+        "TAUPETAPE",
+        "TAUPETAPET",
+        "TAUPETAPETZL",
+        "TAUPETAPEZL",
+        "TAUPETZL",
+        "TAUPEZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Channel strip with EQ, compressor, and tape saturation.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "channel-strip",
+        "free",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "analog-obsession-tubelm",
+      "name": "TUBELM",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "TUBELM"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube limiter emulation.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "limiter",
+        "tube",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-violet",
+      "name": "VIOLET",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "VIOLET",
+        "VIOLETZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "EQ plugin.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "eq",
+        "free"
+      ]
+    },
+    {
+      "slug": "analog-obsession-n4-surrey",
+      "name": "N4 SURREY",
+      "manufacturer_slug": "analog-obsession",
+      "category": "effect",
+      "subcategory": "channel-strip",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "N4",
+        "N4SURREY-AMPT",
+        "N4SURREY-AMPTZL",
+        "N4SURREY-CABT",
+        "N4SURREY-CABTZL",
+        "N4SURREY-LET",
+        "N4SURREY-LETZL",
+        "N4SURREY-SPACET",
+        "N4SURREY-SPACETZL",
+        "N4SURREYT",
+        "N4SURREYTZL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Neve-inspired channel strip with amp, cab, and space modules.",
+      "price_type": "free",
+      "url": "https://analogobsession.com",
+      "year": 2023,
+      "tags": [
+        "channel-strip",
+        "neve",
+        "free"
+      ]
+    },
+    {
+      "slug": "refx-nexus",
+      "name": "Nexus",
+      "manufacturer_slug": "refx",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Nexus",
+        "reFX Nexus",
+        "Nexus3.4.4",
+        "Nexus 3"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Premier ROM synthesizer with massive sound library for dance and pop production.",
+      "price_type": "paid",
+      "url": "https://refx.com/nexus/",
+      "year": 2007,
+      "tags": [
+        "rompler",
+        "synth",
+        "edm",
+        "presets"
+      ]
+    },
+    {
+      "slug": "xfer-nerve",
+      "name": "Nerve",
+      "manufacturer_slug": "xfer-records",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Nerve",
+        "Xfer Nerve"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Intelligent drum machine with groove analysis.",
+      "price_type": "paid",
+      "url": "https://xferrecords.com/products/nerve",
+      "year": 2012,
+      "tags": [
+        "drums",
+        "drum-machine",
+        "groove"
+      ]
+    },
+    {
+      "slug": "808-studio",
+      "name": "808 Studio",
+      "manufacturer_slug": "initial-audio",
+      "category": "instrument",
+      "subcategory": "bass-synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "808Studio",
+        "808 Studio",
+        "Initial Audio 808 Studio"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "808 bass and sub-bass synthesizer.",
+      "price_type": "paid",
+      "url": "https://initialaudio.com/product/808-studio/",
+      "year": 2018,
+      "tags": [
+        "bass",
+        "808",
+        "synth",
+        "trap"
+      ]
+    },
+    {
+      "slug": "voxengo-glisseq",
+      "name": "GlissEQ",
+      "manufacturer_slug": "voxengo",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "GlissEQ",
+        "Voxengo GlissEQ"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dynamic parametric equalizer with real-time frequency response curve.",
+      "price_type": "paid",
+      "url": "https://www.voxengo.com/product/glisseq/",
+      "year": 2005,
+      "tags": [
+        "eq",
+        "dynamic"
+      ]
+    },
+    {
+      "slug": "voxengo-curveeq",
+      "name": "CurveEQ",
+      "manufacturer_slug": "voxengo",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "CurveEQ",
+        "Voxengo CurveEQ"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spline-based equalizer with spectrum matching capability.",
+      "price_type": "paid",
+      "url": "https://www.voxengo.com/product/curveeq/",
+      "year": 2003,
+      "tags": [
+        "eq",
+        "spectrum-matching"
+      ]
+    },
+    {
+      "slug": "voxengo-soniformer",
+      "name": "Soniformer",
+      "manufacturer_slug": "voxengo",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Soniformer",
+        "Voxengo Soniformer"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spectral dynamics processor and multiband compressor.",
+      "price_type": "paid",
+      "url": "https://www.voxengo.com/product/soniformer/",
+      "year": 2005,
+      "tags": [
+        "dynamics",
+        "spectral",
+        "multiband"
+      ]
+    },
+    {
+      "slug": "voxengo-harmonieq",
+      "name": "HarmoniEQ",
+      "manufacturer_slug": "voxengo",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "HarmoniEQ",
+        "Voxengo HarmoniEQ"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parametric EQ with harmonic enhancement.",
+      "price_type": "paid",
+      "url": "https://www.voxengo.com/product/harmonieq/",
+      "year": 2010,
+      "tags": [
+        "eq",
+        "harmonic"
+      ]
+    },
+    {
+      "slug": "voxengo-voxformer",
+      "name": "Voxformer",
+      "manufacturer_slug": "voxengo",
+      "category": "effect",
+      "subcategory": "channel-strip",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Voxformer",
+        "Voxengo Voxformer"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vocal channel strip with compressor, EQ, and de-esser.",
+      "price_type": "paid",
+      "url": "https://www.voxengo.com/product/voxformer/",
+      "year": 2006,
+      "tags": [
+        "vocals",
+        "channel-strip"
+      ]
+    },
+    {
+      "slug": "voxengo-recorder",
+      "name": "Voxengo Recorder",
+      "manufacturer_slug": "voxengo",
+      "category": "utility",
+      "subcategory": "recording",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "VoxengoRecorder",
+        "Voxengo Recorder"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Simple audio recording plugin for capturing plugin output.",
+      "price_type": "free",
+      "url": "https://www.voxengo.com/product/recorder/",
+      "year": 2010,
+      "tags": [
+        "recording",
+        "utility",
+        "free"
+      ]
+    },
+    {
+      "slug": "denise-audio-noize-2",
+      "name": "Noize 2",
+      "manufacturer_slug": "denise-audio",
+      "category": "effect",
+      "subcategory": "noise",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "DeniseNoize2",
+        "Denise Noize 2"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Noise and texture layering plugin.",
+      "price_type": "paid",
+      "url": "https://www.denise.io/store/noize-2",
+      "year": 2021,
+      "tags": [
+        "noise",
+        "texture",
+        "creative"
+      ]
+    },
+    {
+      "slug": "ssl-native-x-phase",
+      "name": "SSL Native X-Phase",
+      "manufacturer_slug": "ssl",
+      "category": "effect",
+      "subcategory": "phase",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SSL Native X-Phase v6",
+        "SSL X-Phase"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Phase alignment tool for multi-mic recordings.",
+      "price_type": "paid",
+      "url": "https://www.solidstatelogic.com/products/x-phase",
+      "year": 2019,
+      "tags": [
+        "phase",
+        "alignment",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "ssl-native-x-saturator",
+      "name": "SSL Native X-Saturator",
+      "manufacturer_slug": "ssl",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SSL Native X-Saturator v6",
+        "SSL X-Saturator"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Saturation plugin with SSL console character.",
+      "price_type": "paid",
+      "url": "https://www.solidstatelogic.com/products/x-saturator",
+      "year": 2019,
+      "tags": [
+        "saturation",
+        "console",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "ssl-native-x-valvecomp",
+      "name": "SSL Native X-ValveComp",
+      "manufacturer_slug": "ssl",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SSL Native X-ValveComp v6",
+        "SSL X-ValveComp"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Valve compressor plugin with rich harmonic warmth.",
+      "price_type": "paid",
+      "url": "https://www.solidstatelogic.com/products/x-valvecomp",
+      "year": 2019,
+      "tags": [
+        "compressor",
+        "tube",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "accusonus-era-plosive-remover",
+      "name": "ERA Plosive Remover",
+      "manufacturer_slug": "accusonus",
+      "category": "effect",
+      "subcategory": "restoration",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "ERA_PlosiveRemover",
+        "ERA Plosive Remover",
+        "Accusonus ERA Plosive Remover"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "One-knob plosive removal for voice recordings.",
+      "price_type": "paid",
+      "url": "https://accusonus.com",
+      "year": 2019,
+      "tags": [
+        "restoration",
+        "vocals",
+        "plosive"
+      ]
+    },
+    {
+      "slug": "accusonus-era-voice-leveler",
+      "name": "ERA Voice Leveler",
+      "manufacturer_slug": "accusonus",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "ERA_VoiceLeveler",
+        "ERA Voice Leveler",
+        "Accusonus ERA Voice Leveler"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Automatic voice level normalization plugin.",
+      "price_type": "paid",
+      "url": "https://accusonus.com",
+      "year": 2019,
+      "tags": [
+        "dynamics",
+        "vocals",
+        "leveling"
+      ]
+    },
+    {
+      "slug": "vps-avenger",
+      "name": "VPS Avenger",
+      "manufacturer_slug": "vengeance-sound",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "VPS Avenger",
+        "VPS Avenger_",
+        "Vengeance Avenger"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Comprehensive wavetable synthesizer with massive sound library.",
+      "price_type": "paid",
+      "url": "https://www.vengeance-sound.com/plugins.php",
+      "year": 2016,
+      "tags": [
+        "synth",
+        "wavetable",
+        "edm"
+      ]
+    },
+    {
+      "slug": "dblue-glitch",
+      "name": "dblue Glitch",
+      "manufacturer_slug": "dblue",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "dblue_Glitch_v1_3",
+        "dblue Glitch",
+        "Glitch"
+      ],
+      "daws": [],
+      "os": [
+        "windows"
+      ],
+      "description": "Buffer-based beat-slicing glitch effect.",
+      "price_type": "free",
+      "url": "https://illformed.com",
+      "year": 2008,
+      "tags": [
+        "glitch",
+        "creative",
+        "free"
+      ]
+    },
+    {
+      "slug": "dblue-tapestop",
+      "name": "dblue TapeStop",
+      "manufacturer_slug": "dblue",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "dblue_TapeStop",
+        "dblue TapeStop"
+      ],
+      "daws": [],
+      "os": [
+        "windows"
+      ],
+      "description": "Tape stop and speed-up simulation effect.",
+      "price_type": "free",
+      "url": "https://illformed.com",
+      "year": 2008,
+      "tags": [
+        "tape",
+        "creative",
+        "free"
+      ]
+    },
+    {
+      "slug": "access-virus-ti",
+      "name": "Virus TI",
+      "manufacturer_slug": "access-music",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "Virus TI",
+        "Virus TI Snow",
+        "Access Virus TI"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Total Integration software for the Access Virus TI hardware synthesizer.",
+      "price_type": "included",
+      "url": "https://www.access-music.de",
+      "year": 2005,
+      "tags": [
+        "synth",
+        "hardware",
+        "trance"
+      ]
+    },
+    {
+      "slug": "audiogridder",
+      "name": "AudioGridder",
+      "manufacturer_slug": "audiogridder-dev",
+      "category": "utility",
+      "subcategory": "networking",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "AudioGridder",
+        "AudioGridderInst",
+        "AudioGridderMidi"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Network-based plugin bridge for offloading DSP to remote machines.",
+      "price_type": "free",
+      "url": "https://audiogridder.com",
+      "year": 2020,
+      "tags": [
+        "networking",
+        "utility",
+        "free"
+      ]
+    },
+    {
+      "slug": "fl-studio-vsti",
+      "name": "FL Studio VSTi",
+      "manufacturer_slug": "image-line",
+      "category": "instrument",
+      "subcategory": "host",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "FL Studio VSTi",
+        "FL Studio VSTi (Multi)",
+        "Sytrus_"
+      ],
+      "daws": [],
+      "os": [
+        "windows"
+      ],
+      "description": "FL Studio as a VSTi plugin for loading within other DAWs.",
+      "price_type": "paid",
+      "url": "https://www.image-line.com",
+      "year": 2003,
+      "tags": [
+        "host",
+        "daw"
+      ]
+    },
+    {
+      "slug": "xln-audio-xo",
+      "name": "XO",
+      "manufacturer_slug": "xln-audio",
+      "category": "instrument",
+      "subcategory": "drum-sampler",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "XO",
+        "XLN Audio XO"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "AI-powered drum sample browser and sequencer.",
+      "price_type": "paid",
+      "url": "https://www.xlnaudio.com/products/xo",
+      "year": 2019,
+      "tags": [
+        "drums",
+        "sampler",
+        "ai"
+      ]
+    },
+    {
+      "slug": "tse-x50",
+      "name": "TSE X50",
+      "manufacturer_slug": "tse-audio",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "TSE X50",
+        "TSE R47",
+        "TSE_808_2.0_"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free guitar amp simulation including the X50 and R47 models.",
+      "price_type": "free",
+      "url": "https://www.tseaudio.com",
+      "year": 2015,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "free"
+      ]
+    },
+    {
+      "slug": "liquidsonics-phoenixverb",
+      "name": "PhoenixVerb",
+      "manufacturer_slug": "liquidsonics",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "PhoenixVerb",
+        "LiquidSonics PhoenixVerb"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Algorithmic reverb with natural decay characteristics.",
+      "price_type": "paid",
+      "url": "https://www.liquidsonics.com/software/phoenixverb/",
+      "year": 2014,
+      "tags": [
+        "reverb",
+        "algorithmic"
+      ]
+    },
+    {
+      "slug": "dangerous-bax-eq",
+      "name": "Dangerous BAX EQ",
+      "manufacturer_slug": "dangerous-music",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Dangerous BAX EQ Master",
+        "Dangerous BAX EQ Mix"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Plugin emulation of the Dangerous Music BAX EQ hardware mastering equalizer.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2017,
+      "tags": [
+        "eq",
+        "mastering",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "eventide-tc2290",
+      "name": "TC2290-DT",
+      "manufacturer_slug": "eventide",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "TC2290",
+        "Eventide TC2290",
+        "TC2290-DT"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "TC Electronic 2290 dynamic delay emulation.",
+      "price_type": "paid",
+      "url": "https://www.eventideaudio.com",
+      "year": 2022,
+      "tags": [
+        "delay",
+        "dynamic",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "camel-audio-camelphat",
+      "name": "CamelPhat",
+      "manufacturer_slug": "camel-audio",
+      "category": "effect",
+      "subcategory": "distortion",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "CamelPhat3",
+        "CamelPhat",
+        "Camel Audio CamelPhat"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-effect processor with distortion, filters, and compression.",
+      "price_type": "paid",
+      "url": "https://www.apple.com",
+      "year": 2010,
+      "tags": [
+        "distortion",
+        "multi-effect",
+        "creative"
+      ]
+    },
+    {
+      "slug": "engl-amp-sim",
+      "name": "ENGL Amp Sim",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "ENGL E646 VS",
+        "ENGL E765 RT",
+        "Brainworx ENGL"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "ENGL guitar amplifier emulations by Brainworx.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2018,
+      "tags": [
+        "amp-sim",
+        "guitar"
+      ]
+    },
+    {
+      "slug": "oto-biscuit",
+      "name": "OTO Biscuit 8-bit Effects",
+      "manufacturer_slug": "oto-machines",
+      "category": "effect",
+      "subcategory": "lo-fi",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "OTO Biscuit 8-bit Effects",
+        "OTO Biscuit"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "8-bit effects processor emulation.",
+      "price_type": "paid",
+      "url": "https://www.otomachines.com",
+      "year": 2019,
+      "tags": [
+        "lo-fi",
+        "bitcrusher",
+        "creative"
+      ]
+    },
+    {
+      "slug": "stl-tonality",
+      "name": "STL Tonality",
+      "manufacturer_slug": "stl-tones",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "STL Tonality - Howard Benson",
+        "STL Tonality"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Signature guitar amp simulation.",
+      "price_type": "paid",
+      "url": "https://www.stltones.com",
+      "year": 2020,
+      "tags": [
+        "amp-sim",
+        "guitar"
+      ]
+    },
+    {
+      "slug": "svt-suite",
+      "name": "Ampeg SVT Suite",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SVT Suite (x64)",
+        "Ampeg SVT Suite",
+        "SVT Suite"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Ampeg bass amp and cab simulation suite.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2019,
+      "tags": [
+        "amp-sim",
+        "bass",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "pg-8x",
+      "name": "PG-8X",
+      "manufacturer_slug": "full-bucket-music",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "PG-8X"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free virtual analog synth inspired by the Roland JX-8P.",
+      "price_type": "free",
+      "url": "https://sites.google.com/site/instruments101/pg-8x",
+      "year": 2012,
+      "tags": [
+        "synth",
+        "analog-modeling",
+        "free",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "mt-power-drum-kit",
+      "name": "MT-PowerDrumKit",
+      "manufacturer_slug": "manda-audio",
+      "category": "instrument",
+      "subcategory": "drums",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MT-PowerDrumKit"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free acoustic drum sampler with groove library.",
+      "price_type": "free",
+      "url": "https://www.powerdrumkit.com",
+      "year": 2013,
+      "tags": [
+        "drums",
+        "sampler",
+        "free",
+        "acoustic"
+      ]
+    },
+    {
+      "slug": "diezel-herbert",
+      "name": "Diezel Herbert",
+      "manufacturer_slug": "brainworx",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Diezel Herbert",
+        "Brainworx Diezel Herbert"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Diezel Herbert guitar amplifier emulation.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2019,
+      "tags": [
+        "amp-sim",
+        "guitar",
+        "high-gain"
+      ]
+    },
+    {
+      "slug": "kush-ubk-1",
+      "name": "Kush UBK-1",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Kush UBK-1"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Analog-modeled VCA bus compressor with saturation.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2016,
+      "tags": [
+        "compressor",
+        "bus",
+        "saturation"
+      ]
+    },
+    {
+      "slug": "kazrog-kclip",
+      "name": "KClip",
+      "manufacturer_slug": "kazrog",
+      "category": "effect",
+      "subcategory": "clipper",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "KClip",
+        "Kazrog KClip"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hard/soft clipper and peak limiter.",
+      "price_type": "paid",
+      "url": "https://kazrog.com",
+      "year": 2017,
+      "tags": [
+        "clipper",
+        "limiter",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "kazrog-true-iron",
+      "name": "True Iron",
+      "manufacturer_slug": "kazrog",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "True Iron",
+        "Kazrog True Iron"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Transformer saturation emulation.",
+      "price_type": "paid",
+      "url": "https://kazrog.com",
+      "year": 2016,
+      "tags": [
+        "saturation",
+        "transformer",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "vengeance-vclip",
+      "name": "V-Clip",
+      "manufacturer_slug": "vengeance-sound",
+      "category": "effect",
+      "subcategory": "clipper",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "V-Clip",
+        "Vengeance V-Clip"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Clipping distortion and limiter plugin.",
+      "price_type": "free",
+      "url": "https://www.vengeance-sound.com",
+      "year": 2018,
+      "tags": [
+        "clipper",
+        "free"
+      ]
+    },
+    {
+      "slug": "martinic-ax73",
+      "name": "Martinic AX73",
+      "manufacturer_slug": "martinic",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Martinic AX73"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emulation of the Akai AX73 analog synthesizer.",
+      "price_type": "paid",
+      "url": "https://www.martinic.com/en/products/ax73",
+      "year": 2020,
+      "tags": [
+        "synth",
+        "analog-modeling",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "uvi-workstation",
+      "name": "UVI Workstation",
+      "manufacturer_slug": "uvi",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "UVIWorkstationVST",
+        "UVI Workstation"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free sample player and host for UVI sound libraries.",
+      "price_type": "free",
+      "url": "https://www.uvi.net/uvi-workstation.html",
+      "year": 2010,
+      "tags": [
+        "sampler",
+        "player",
+        "free"
+      ]
+    },
+    {
+      "slug": "output-crtiv",
+      "name": "CRTIV",
+      "manufacturer_slug": "output",
+      "category": "effect",
+      "subcategory": "creative",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "CRTIV Chorus",
+        "CRTIV Reverb 2",
+        "CRTIV Tape Bus"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Creative effects suite with chorus, reverb, and tape bus.",
+      "price_type": "paid",
+      "url": "https://output.com",
+      "year": 2023,
+      "tags": [
+        "creative",
+        "chorus",
+        "reverb",
+        "tape"
+      ]
+    },
+    {
+      "slug": "magic-death-eye",
+      "name": "MagicDeathEye",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MagicDeathEye"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Optical compressor with unique tube character.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "optical",
+        "tube"
+      ]
+    },
+    {
+      "slug": "d16-punchbox",
+      "name": "PunchBox",
+      "manufacturer_slug": "d16-group",
+      "category": "instrument",
+      "subcategory": "drum-synth",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "PunchBox",
+        "D16 PunchBox"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Kick drum synthesizer with layering and synthesis engines.",
+      "price_type": "paid",
+      "url": "https://d16.pl/punchbox",
+      "year": 2019,
+      "tags": [
+        "drums",
+        "kick",
+        "synth"
+      ]
+    },
+    {
+      "slug": "ds10-drum-shaper",
+      "name": "DS-10 Drum Shaper",
+      "manufacturer_slug": "xln-audio",
+      "category": "effect",
+      "subcategory": "transient",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "DS-10 Drum Shaper",
+        "XLN Audio DS-10"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Drum transient shaper with per-drum intelligent processing.",
+      "price_type": "paid",
+      "url": "https://www.xlnaudio.com",
+      "year": 2019,
+      "tags": [
+        "transient",
+        "drums",
+        "shaper"
+      ]
+    },
+    {
+      "slug": "ppmulator",
+      "name": "PPMulator",
+      "manufacturer_slug": "plugin-alliance",
+      "category": "utility",
+      "subcategory": "metering",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "PPMulator3",
+        "PPMulator"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Broadcast-standard PPM metering plugin.",
+      "price_type": "paid",
+      "url": "https://www.plugin-alliance.com",
+      "year": 2015,
+      "tags": [
+        "metering",
+        "broadcast"
+      ]
+    },
+    {
+      "slug": "sonoris-mastering-compressor",
+      "name": "Sonoris Mastering Compressor",
+      "manufacturer_slug": "sonoris",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Sonoris_Mastering_Compressor",
+        "Sonoris Mastering Compressor"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Transparent mastering compressor.",
+      "price_type": "paid",
+      "url": "https://www.sonorissoftware.com",
+      "year": 2015,
+      "tags": [
+        "compressor",
+        "mastering",
+        "transparent"
+      ]
+    },
+    {
+      "slug": "audiority-rx950",
+      "name": "RX950",
+      "manufacturer_slug": "audiority",
+      "category": "effect",
+      "subcategory": "lo-fi",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "RX950",
+        "Audiority RX950"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "12-bit sampler AD/DA emulation for lo-fi character.",
+      "price_type": "paid",
+      "url": "https://www.audiority.com/shop/rx950/",
+      "year": 2018,
+      "tags": [
+        "lo-fi",
+        "sampler",
+        "vintage"
+      ]
+    },
+    {
+      "slug": "sq8l",
+      "name": "SQ8L",
+      "manufacturer_slug": "full-bucket-music",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "SQ8L"
+      ],
+      "daws": [],
+      "os": [
+        "windows"
+      ],
+      "description": "Free emulation of the Ensoniq SQ-80 synthesizer.",
+      "price_type": "free",
+      "url": "https://www.buchty.net/ensoniq/",
+      "year": 2007,
+      "tags": [
+        "synth",
+        "vintage",
+        "free"
+      ]
+    },
+    {
+      "slug": "kuassa-amplifikation-vermilion",
+      "name": "Amplifikation Vermilion",
+      "manufacturer_slug": "kuassa",
+      "category": "effect",
+      "subcategory": "amp-sim",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "AmplifikationVermilion",
+        "Kuassa Amplifikation Vermilion"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Boutique guitar amp simulation.",
+      "price_type": "paid",
+      "url": "https://www.kuassa.com",
+      "year": 2018,
+      "tags": [
+        "amp-sim",
+        "guitar"
+      ]
+    },
+    {
+      "slug": "unison-midi-wizard",
+      "name": "MIDI Wizard",
+      "manufacturer_slug": "unison-audio",
+      "category": "midi",
+      "subcategory": "composition",
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Unison MIDI Wizard"
+      ],
+      "daws": [],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "MIDI chord and progression composition assistant.",
+      "price_type": "paid",
+      "url": "https://unison.audio/midi-wizard",
+      "year": 2021,
+      "tags": [
+        "midi",
+        "chords",
+        "composition"
+      ]
     }
   ]
 }
