@@ -1,4 +1,5 @@
-/* PluginDB — Single-page frontend (vanilla JS, hash-based routing) */
+/* PluginDB — Single-page frontend (vanilla JS, hash-based routing)
+   LaunchBox-inspired: 20-cycle progressive refinement */
 (function () {
   'use strict';
 
@@ -61,22 +62,37 @@
       disabled ? `<span class="page-link disabled">${label}</span>`
                : `<a href="${baseHash}${sep}page=${p}" class="page-link">${label}</a>`;
     let html = '<nav class="pagination" aria-label="Pagination">';
-    html += link(pg.page - 1, '&laquo; Prev', pg.page <= 1);
+    html += link(pg.page - 1, '&laquo;', pg.page <= 1);
     const start = Math.max(1, pg.page - 2);
     const end = Math.min(pg.pages, pg.page + 2);
     if (start > 1) { html += link(1, '1'); if (start > 2) html += '<span class="page-ellipsis">&hellip;</span>'; }
     for (let i = start; i <= end; i++) html += `<a href="${baseHash}${sep}page=${i}" class="page-link${i === pg.page ? ' active' : ''}">${i}</a>`;
     if (end < pg.pages) { if (end < pg.pages - 1) html += '<span class="page-ellipsis">&hellip;</span>'; html += link(pg.pages, pg.pages); }
-    html += link(pg.page + 1, 'Next &raquo;', pg.page >= pg.pages);
+    html += link(pg.page + 1, '&raquo;', pg.page >= pg.pages);
     html += '</nav>';
     return html;
   }
 
+  // ---- STATE ----
+  let viewMode = localStorage.getItem('plugindb_view') || 'grid';
+
   // ---- STATE HELPERS ----
   function showLoading(el) { el.innerHTML = '<div class="loading-spinner" aria-label="Loading"></div>'; }
+
+  // Cycle 16: Better skeleton loaders
   function showSkeletonGrid(el, count) {
-    el.innerHTML = '<div class="skeleton-grid">' + '<div class="skeleton-card"></div>'.repeat(count || 6) + '</div>';
+    const n = count || 6;
+    const card = `<div class="skeleton-card">
+      <div class="skeleton-card-image"></div>
+      <div class="skeleton-card-body">
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+      </div>
+    </div>`;
+    el.innerHTML = '<div class="skeleton-grid">' + card.repeat(n) + '</div>';
   }
+
   function showError(el, msg) {
     el.innerHTML = `<div class="state-error"><p>${escapeHtml(msg)}</p><button class="btn btn-retry">Retry</button></div>`;
     el.querySelector('.btn-retry').addEventListener('click', () => router());
@@ -91,6 +107,15 @@
     const color = colors[category] || '#6b7280';
     const initials = (name || '').split(/[\s-]+/).slice(0, 2).map(function(w) { return w.charAt(0); }).join('').toUpperCase();
     return '<div class="card-placeholder" style="background:' + color + '15;color:' + color + '"><span>' + initials + '</span></div>';
+  }
+
+  // Cycle 20: Lazy image loading with fade-in
+  function onImgLoad(e) { e.target.classList.add('loaded'); }
+  function wireImageLoading(root) {
+    root.querySelectorAll('.card-image img, .pd-hero img').forEach(function(img) {
+      if (img.complete) img.classList.add('loaded');
+      else img.addEventListener('load', onImgLoad);
+    });
   }
 
   // ---- SHARED RENDERERS ----
@@ -116,11 +141,28 @@
     </a>`;
   }
 
-  function pluginGrid(plugins) {
-    return `<div class="plugin-grid">${plugins.map(pluginCard).join('')}</div>`;
+  function pluginGrid(plugins, extraClass) {
+    const cls = 'plugin-grid' + (extraClass ? ' ' + extraClass : '') + (viewMode === 'list' ? ' list-view' : '');
+    return `<div class="${cls}">${plugins.map(pluginCard).join('')}</div>`;
   }
 
-  // Build a baseHash for pagination that strips the page param from current params
+  // Cycle 13: Carousel for similar/related
+  function pluginCarousel(plugins) {
+    return `<div class="pd-carousel">${plugins.map(pluginCard).join('')}</div>`;
+  }
+
+  // Cycle 3: View toggle HTML
+  function viewToggleHtml() {
+    return `<div class="view-toggle">
+      <button class="view-btn${viewMode === 'grid' ? ' active' : ''}" data-view="grid" title="Grid view" aria-label="Grid view">
+        <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+      </button>
+      <button class="view-btn${viewMode === 'list' ? ' active' : ''}" data-view="list" title="List view" aria-label="List view">
+        <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="14" height="3" rx="1"/><rect x="1" y="6" width="14" height="3" rx="1"/><rect x="1" y="11" width="14" height="3" rx="1"/></svg>
+      </button>
+    </div>`;
+  }
+
   function baseHashWithout(params, key) {
     const copy = new URLSearchParams(params);
     copy.delete(key);
@@ -132,9 +174,23 @@
   let _categories = null;
   let _formats = null;
   let _osList = null;
+  let _stats = null;
   async function getCategories() { if (!_categories) _categories = await API.get('/categories'); return _categories; }
   async function getFormats() { if (!_formats) _formats = await API.get('/formats'); return _formats; }
   async function getOS() { if (!_osList) _osList = await API.get('/os'); return _osList; }
+  async function getStats() { if (!_stats) _stats = await API.get('/stats'); return _stats; }
+
+  // ---- CYCLE 11: Info row icons ----
+  const INFO_ICONS = {
+    Category:   '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M1 3.5A1.5 1.5 0 012.5 2h3.879a1.5 1.5 0 011.06.44l1.122 1.12A1.5 1.5 0 009.62 4H13.5A1.5 1.5 0 0115 5.5v7a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 011 12.5v-9z"/></svg>',
+    Formats:    '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M4 1h8a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2zm0 1.5a.5.5 0 00-.5.5v10a.5.5 0 00.5.5h8a.5.5 0 00.5-.5V3a.5.5 0 00-.5-.5H4z"/></svg>',
+    'Operating Systems': '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M2 3a1 1 0 011-1h10a1 1 0 011 1v8a1 1 0 01-1 1H3a1 1 0 01-1-1V3zm1 1v6h10V4H3zm0 9v1h10v-1H3z"/></svg>',
+    Price:      '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="8" y="11" text-anchor="middle" font-size="9" fill="currentColor">$</text></svg>',
+    'Release Year': '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M4.5 1a.5.5 0 01.5.5V2h6v-.5a.5.5 0 011 0V2h1.5A1.5 1.5 0 0115 3.5v10a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 011 13.5v-10A1.5 1.5 0 012.5 2H4v-.5a.5.5 0 01.5-.5zM2.5 6v7.5h11V6h-11z"/></svg>',
+    Developer:  '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 8a3 3 0 100-6 3 3 0 000 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3z"/></svg>',
+    'DAW Compatibility': '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M6 1v3H1V1h5zm9 0v3h-5V1h5zM6 6v3H1V6h5zm9 0v3h-5V6h5zM6 11v3H1v-3h5zm9 0v3h-5v-3h5z"/></svg>',
+    'Alternate Names': '<svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M2 2v12h12V2H2zm1 1h4v4H3V3zm0 5h4v4H3V8zm5-5h4v4H8V3zm0 5h4v4H8V8z"/></svg>'
+  };
 
   // ---- VIEWS ----
   const Views = {};
@@ -158,26 +214,44 @@
     const hasFilters = category || subcategory || format || os || priceType || tag || yearMin || yearMax;
 
     // Fetch meta in parallel
-    const [catData, fmtData, osData] = await Promise.all([getCategories(), getFormats(), getOS()]);
+    const [catData, fmtData, osData, statsData] = await Promise.all([getCategories(), getFormats(), getOS(), getStats()]);
     const subcats = (category && catData.subcategories[category]) || [];
 
-    // Build sort value string
     const sortVal = sort ? `${sort}_${order || 'asc'}` : '';
+
+    // Cycle 7: Category pills
+    const catPillsHtml = catData.categories.map(c => {
+      const count = statsData.categories ? (statsData.categories[c] || 0) : '';
+      const active = c === category ? ' active' : '';
+      return `<button class="cat-pill${active}" data-cat="${escapeHtml(c)}">${escapeHtml(c)}${count ? ` <span class="cat-pill-count">${count}</span>` : ''}</button>`;
+    }).join('');
 
     // Render shell
     app.innerHTML = `
       <section class="hero">
         <h1>Discover Audio Plugins</h1>
-        <p class="hero-sub">294 plugins from 93 manufacturers &mdash; search, browse, and compare</p>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="hero-stat-num">${statsData.plugin_count || 294}</span><span class="hero-stat-label">Plugins</span></div>
+          <div class="hero-stat"><span class="hero-stat-num">${statsData.manufacturer_count || 93}</span><span class="hero-stat-label">Manufacturers</span></div>
+          <div class="hero-stat"><span class="hero-stat-num">${Object.keys(statsData.categories || {}).length || 6}</span><span class="hero-stat-label">Categories</span></div>
+        </div>
         <div class="search-wrap">
-          <input id="search-input" type="search" class="search-input" placeholder="Search plugins\u2026" value="${escapeHtml(q)}" autocomplete="off" aria-label="Search plugins">
-          <div id="suggest-dropdown" class="suggest-dropdown hidden"></div>
+          <div class="search-input-wrap">
+            <svg class="search-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85-.017.016zm-5.242.156a5 5 0 110-10 5 5 0 010 10z"/></svg>
+            <input id="search-input" type="search" class="search-input" placeholder="Search plugins\u2026" value="${escapeHtml(q)}" autocomplete="off" aria-label="Search plugins">
+            <button id="search-clear" class="search-clear${q ? ' visible' : ''}" aria-label="Clear search" type="button">&times;</button>
+            <span class="search-shortcut">/</span>
+            <div id="suggest-dropdown" class="suggest-dropdown hidden"></div>
+          </div>
           <button id="btn-random" class="btn btn-accent" title="Random plugin">Discover</button>
         </div>
       </section>
       <section class="browse-section">
-        <div class="filter-bar">
-          <select id="f-category" aria-label="Category"><option value="">All categories</option>${catData.categories.map(c => `<option value="${escapeHtml(c)}"${c === category ? ' selected' : ''}>${escapeHtml(c)}</option>`).join('')}</select>
+        <div class="category-pills">
+          <button class="cat-pill${!category ? ' active' : ''}" data-cat="">All</button>
+          ${catPillsHtml}
+        </div>
+        <div class="filter-bar" id="filter-bar">
           <select id="f-subcategory" aria-label="Subcategory"><option value="">All subcategories</option>${subcats.map(s => `<option value="${escapeHtml(s)}"${s === subcategory ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('')}</select>
           <select id="f-format" aria-label="Format"><option value="">All formats</option>${Object.keys(fmtData.formats).map(f => `<option value="${escapeHtml(f)}"${f === format ? ' selected' : ''}>${escapeHtml(f)}</option>`).join('')}</select>
           <select id="f-os" aria-label="OS"><option value="">All OS</option>${Object.keys(osData.os).map(o => `<option value="${escapeHtml(o)}"${o === os ? ' selected' : ''}>${escapeHtml(o)}</option>`).join('')}</select>
@@ -188,6 +262,7 @@
         </div>
         <div id="active-filters"></div>
         <div id="related-tags"></div>
+        <div id="results-toolbar"></div>
         <div id="results-area"><div class="loading-spinner" aria-label="Loading"></div></div>
         <div id="pagination-area"></div>
       </section>`;
@@ -214,7 +289,18 @@
       } catch (_) { dropdown.classList.add('hidden'); }
     }, CONFIG.DEBOUNCE_MS);
 
-    searchInput.addEventListener('input', doSuggest);
+    searchInput.addEventListener('input', function() {
+      var cb = document.getElementById('search-clear');
+      if (cb) cb.classList.toggle('visible', searchInput.value.length > 0);
+      doSuggest();
+    });
+    document.getElementById('search-clear').addEventListener('click', function() {
+      searchInput.value = '';
+      this.classList.remove('visible');
+      dropdown.classList.add('hidden');
+      if (params.get('q')) { params.delete('q'); params.delete('page'); location.hash = '#/?' + params.toString(); }
+      searchInput.focus();
+    });
     let suggestIdx = -1;
     searchInput.addEventListener('keydown', function (e) {
       const items = dropdown.querySelectorAll('.suggest-item');
@@ -244,9 +330,24 @@
       const item = e.target.closest('.suggest-item');
       if (item) { location.hash = '#/plugins/' + item.dataset.slug; }
     });
+
     // Random
     document.getElementById('btn-random').addEventListener('click', async function () {
       try { const p = await API.get('/plugins/random'); location.hash = '#/plugins/' + p.slug; } catch (_) {}
+    });
+
+    // Cycle 7: Category pill clicks
+    document.querySelectorAll('.cat-pill').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        const cat = this.dataset.cat;
+        const p = new URLSearchParams(params);
+        p.delete('page');
+        p.delete('subcategory');
+        if (cat) p.set('category', cat);
+        else p.delete('category');
+        const qs = p.toString();
+        location.hash = qs ? '#/?' + qs : '#/';
+      });
     });
 
     // Filters
@@ -254,7 +355,8 @@
       const p = new URLSearchParams();
       const qv = searchInput.value.trim();
       if (qv) p.set('q', qv);
-      const cv = document.getElementById('f-category').value; if (cv) p.set('category', cv);
+      // Keep current category from pills
+      if (category) p.set('category', category);
       const sv = document.getElementById('f-subcategory').value; if (sv) p.set('subcategory', sv);
       const fv = document.getElementById('f-format').value; if (fv) p.set('format', fv);
       const ov = document.getElementById('f-os').value; if (ov) p.set('os', ov);
@@ -267,17 +369,11 @@
       location.hash = qs ? '#/?' + qs : '#/';
     }
 
-    ['f-category', 'f-subcategory', 'f-format', 'f-os', 'f-price', 'f-sort'].forEach(id => {
+    ['f-subcategory', 'f-format', 'f-os', 'f-price', 'f-sort'].forEach(id => {
       document.getElementById(id).addEventListener('change', applyFilters);
     });
 
-    // Update subcategory options when category changes
-    document.getElementById('f-category').addEventListener('change', function () {
-      const sel = this.value;
-      const subSel = document.getElementById('f-subcategory');
-      const subs = (sel && catData.subcategories[sel]) || [];
-      subSel.innerHTML = '<option value="">All subcategories</option>' + subs.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
-    });
+    // Update subcategory options when category changes (via pills now)
 
     ['f-year-min', 'f-year-max'].forEach(id => {
       document.getElementById(id).addEventListener('change', applyFilters);
@@ -287,7 +383,6 @@
     const af = document.getElementById('active-filters');
     const pills = [];
     if (tag) pills.push({ label: 'tag: ' + tag, key: 'tag' });
-    if (category) pills.push({ label: category, key: 'category' });
     if (subcategory) pills.push({ label: subcategory, key: 'subcategory' });
     if (format) pills.push({ label: format, key: 'format' });
     if (os) pills.push({ label: os, key: 'os' });
@@ -308,6 +403,7 @@
     // Fetch results
     const resultsArea = document.getElementById('results-area');
     const paginationArea = document.getElementById('pagination-area');
+    const toolbarArea = document.getElementById('results-toolbar');
     try {
       const apiParams = { page, per_page: CONFIG.ITEMS_PER_PAGE };
       if (category) apiParams.category = category;
@@ -329,16 +425,36 @@
         data = await API.get('/plugins', apiParams);
       }
 
-      if (!data.data || !data.data.length) { showEmpty(resultsArea, 'No plugins found. Try adjusting your filters.'); }
-      else {
-        resultsArea.innerHTML = `<p class="results-count">${data.total} plugin${data.total !== 1 ? 's' : ''} found</p>` + pluginGrid(data.data);
+      if (!data.data || !data.data.length) {
+        toolbarArea.innerHTML = '';
+        showEmpty(resultsArea, 'No plugins found. Try adjusting your filters.');
+      } else {
+        // Cycle 3: Toolbar with count + view toggle
+        toolbarArea.innerHTML = `<div class="results-toolbar">
+          <span class="results-count">${data.total} plugin${data.total !== 1 ? 's' : ''}</span>
+          <div class="toolbar-right">${viewToggleHtml()}</div>
+        </div>`;
+
+        // Wire view toggle
+        toolbarArea.querySelectorAll('.view-btn').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            viewMode = this.dataset.view;
+            localStorage.setItem('plugindb_view', viewMode);
+            toolbarArea.querySelectorAll('.view-btn').forEach(b => b.classList.toggle('active', b.dataset.view === viewMode));
+            const grid = resultsArea.querySelector('.plugin-grid');
+            if (grid) grid.classList.toggle('list-view', viewMode === 'list');
+          });
+        });
+
+        resultsArea.innerHTML = pluginGrid(data.data);
+        wireImageLoading(resultsArea);
         paginationArea.innerHTML = renderPagination(data.pagination, baseHashWithout(params, 'page'));
       }
 
       // Related tags
       if (data.related_tags && Object.keys(data.related_tags).length) {
         const rt = document.getElementById('related-tags');
-        rt.innerHTML = '<div class="related-tags"><span class="related-label">Related tags:</span> ' +
+        rt.innerHTML = '<div class="related-tags"><span class="related-label">Related:</span> ' +
           Object.entries(data.related_tags).slice(0, 8).map(([t]) =>
             `<a href="#/?tag=${encodeURIComponent(t)}" class="tag-pill tag-pill-sm">${escapeHtml(t)}</a>`
           ).join('') + '</div>';
@@ -379,7 +495,22 @@
           </div>
         </div>`;
 
-      // Info table — LaunchBox-style label:value rows
+      // Cycle 12: Tabs
+      const hasTags = (p.tags || []).length > 0;
+      const hasDesc = !!p.description;
+      const hasMfrPlugins = p.manufacturer_plugins && p.manufacturer_plugins.length > 0;
+
+      const tabs = [{ id: 'details', label: 'Details' }];
+      if (hasDesc) tabs.push({ id: 'overview', label: 'Overview' });
+      if (hasTags) tabs.push({ id: 'tags', label: 'Tags' });
+      tabs.push({ id: 'similar', label: 'Similar' });
+      if (hasMfrPlugins) tabs.push({ id: 'more', label: 'More from ' + escapeHtml(mfr.name) });
+
+      const tabsHtml = `<div class="pd-tabs">${tabs.map((t, i) =>
+        `<button class="pd-tab${i === 0 ? ' active' : ''}" data-tab="${t.id}">${t.label}</button>`
+      ).join('')}</div>`;
+
+      // Cycle 11: Info table with icons
       const infoRows = [
         ['Category', escapeHtml(p.category) + (p.subcategory ? ' / ' + escapeHtml(p.subcategory) : '')],
         ['Formats', (p.formats || []).map(f => formatBadge(f, 'badge-format')).join(' ')],
@@ -387,38 +518,58 @@
         ['Price', formatPriceBadge(p.price_type)],
         ['Release Year', p.year ? escapeHtml(p.year) : null],
         ['Developer', `<a href="#/manufacturers/${escapeHtml(mfr.slug)}">${escapeHtml(mfr.name)}</a>`],
-        ['DAW Compatibility', (p.daws || []).join(', ')],
-        ['Alternate Names', (p.aliases || []).map(a => escapeHtml(a)).join(', ')],
-      ].filter(r => r[1]).map(([label, value]) =>
-        `<div class="pd-info-row"><span class="pd-info-label">${label}</span><span class="pd-info-value">${value}</span></div>`
-      ).join('');
+        ['DAW Compatibility', (p.daws || []).length ? (p.daws || []).join(', ') : null],
+        ['Alternate Names', (p.aliases || []).length ? (p.aliases || []).map(a => escapeHtml(a)).join(', ') : null],
+      ].filter(r => r[1]).map(([label, value]) => {
+        const icon = INFO_ICONS[label] || '';
+        return `<div class="pd-info-row">${icon ? `<span class="pd-info-icon">${icon}</span>` : ''}<span class="pd-info-label">${label}</span><span class="pd-info-value">${value}</span></div>`;
+      }).join('');
 
-      // Overview
-      const overviewHtml = p.description
-        ? `<section class="pd-section"><h2 class="pd-section-title">Overview</h2><p class="pd-description">${escapeHtml(p.description)}</p></section>`
-        : '';
+      // Tab panels
+      const detailsPanel = `<div class="pd-tab-panel active" data-panel="details">
+        <div class="pd-info-table">${infoRows}</div>
+      </div>`;
 
-      // Tags
-      const tagsHtml = (p.tags || []).length
-        ? `<section class="pd-section"><h2 class="pd-section-title">Genre &amp; Tags</h2><div class="pd-tags">${formatTags(p.tags)}</div></section>`
-        : '';
+      const overviewPanel = hasDesc ? `<div class="pd-tab-panel" data-panel="overview">
+        <p class="pd-description">${escapeHtml(p.description)}</p>
+      </div>` : '';
 
-      // Manufacturer plugins
-      const mfrPluginsHtml = (p.manufacturer_plugins && p.manufacturer_plugins.length)
-        ? `<section class="pd-section"><h2 class="pd-section-title">More from ${escapeHtml(mfr.name)}</h2>${pluginGrid(p.manufacturer_plugins)}</section>`
-        : '';
+      const tagsPanel = hasTags ? `<div class="pd-tab-panel" data-panel="tags">
+        <div class="pd-tags">${formatTags(p.tags)}</div>
+      </div>` : '';
+
+      const similarPanel = `<div class="pd-tab-panel" data-panel="similar" id="similar-panel">
+        <div class="loading-spinner" aria-label="Loading similar"></div>
+      </div>`;
+
+      const morePanel = hasMfrPlugins ? `<div class="pd-tab-panel" data-panel="more">
+        ${pluginGrid(p.manufacturer_plugins)}
+      </div>` : '';
 
       let html = `
         <nav class="breadcrumb"><a href="#/">Plugins</a> <span>&rsaquo;</span> <span>${escapeHtml(p.name)}</span></nav>
         ${heroHtml}
         ${titleHtml}
-        <section class="pd-section"><h2 class="pd-section-title">Details</h2><div class="pd-info-table">${infoRows}</div></section>
-        ${overviewHtml}
-        ${tagsHtml}
-        <section class="pd-section" id="similar-section"></section>
-        ${mfrPluginsHtml}`;
+        ${tabsHtml}
+        ${detailsPanel}
+        ${overviewPanel}
+        ${tagsPanel}
+        ${similarPanel}
+        ${morePanel}`;
 
       app.innerHTML = html;
+      wireImageLoading(app);
+
+      // Wire tabs
+      app.querySelectorAll('.pd-tab').forEach(function(tab) {
+        tab.addEventListener('click', function() {
+          app.querySelectorAll('.pd-tab').forEach(t => t.classList.remove('active'));
+          app.querySelectorAll('.pd-tab-panel').forEach(p => p.classList.remove('active'));
+          this.classList.add('active');
+          const panel = app.querySelector('[data-panel="' + this.dataset.tab + '"]');
+          if (panel) panel.classList.add('active');
+        });
+      });
 
       // Share button
       const shareBtn = document.getElementById('btn-share');
@@ -435,14 +586,21 @@
         });
       }
 
-      // Similar plugins (async)
+      // Cycle 13: Similar plugins (async, carousel)
       if (p.id) {
         try {
-          const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 6 });
-          if (sim.data && sim.data.length) {
-            document.getElementById('similar-section').innerHTML = `<h2 class="pd-section-title">Similar Plugins</h2>${pluginGrid(sim.data)}`;
+          const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 8 });
+          const panel = document.getElementById('similar-panel');
+          if (sim.data && sim.data.length && panel) {
+            panel.innerHTML = pluginCarousel(sim.data);
+            wireImageLoading(panel);
+          } else if (panel) {
+            panel.innerHTML = '<p style="color:var(--text-muted);font-size:13px">No similar plugins found.</p>';
           }
-        } catch (_) {}
+        } catch (_) {
+          var panel = document.getElementById('similar-panel');
+          if (panel) panel.innerHTML = '<p style="color:var(--text-muted);font-size:13px">Could not load similar plugins.</p>';
+        }
       }
     } catch (err) { showError(app, err.message); }
   };
@@ -460,7 +618,10 @@
       <section class="page-header"><h1>Manufacturers</h1></section>
       <section class="browse-section">
         <div class="filter-bar">
-          <input id="mfr-search" type="search" class="search-input" placeholder="Search manufacturers\u2026" value="${escapeHtml(search)}" aria-label="Search manufacturers">
+          <div class="search-input-wrap" style="flex:1">
+            <svg class="search-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85-.017.016zm-5.242.156a5 5 0 110-10 5 5 0 010 10z"/></svg>
+            <input id="mfr-search" type="search" class="search-input" placeholder="Search manufacturers\u2026" value="${escapeHtml(search)}" aria-label="Search manufacturers">
+          </div>
           <button id="mfr-sort" class="btn btn-sm">${sort === 'plugin_count' ? 'Most plugins' : 'A-Z'}</button>
         </div>
         <div id="results-area"><div class="loading-spinner" aria-label="Loading"></div></div>
@@ -493,13 +654,20 @@
     try {
       const data = await API.get('/manufacturers', { search: search || undefined, sort, order, page, per_page: CONFIG.ITEMS_PER_PAGE });
       if (!data.data || !data.data.length) { showEmpty(resultsArea, 'No manufacturers found.'); return; }
-      resultsArea.innerHTML = '<div class="mfr-grid">' + data.data.map(m =>
-        `<a href="#/manufacturers/${escapeHtml(m.slug)}" class="mfr-card">
-          <h3>${escapeHtml(m.name)}</h3>
-          <p>${m.plugin_count} plugin${m.plugin_count !== 1 ? 's' : ''}</p>
-          ${m.website ? `<span class="mfr-website">${escapeHtml(m.website.replace(/^https?:\/\//, ''))}</span>` : ''}
-        </a>`
-      ).join('') + '</div>';
+      // Cycle 14: Richer manufacturer cards
+      resultsArea.innerHTML = '<div class="mfr-grid">' + data.data.map(m => {
+        const initials = (m.name || '').split(/[\s-]+/).slice(0, 2).map(w => w.charAt(0)).join('').toUpperCase();
+        return `<a href="#/manufacturers/${escapeHtml(m.slug)}" class="mfr-card">
+          <div class="mfr-card-top">
+            <div class="mfr-card-icon">${escapeHtml(initials)}</div>
+            <div>
+              <h3>${escapeHtml(m.name)}</h3>
+              <span class="mfr-card-count">${m.plugin_count} plugin${m.plugin_count !== 1 ? 's' : ''}</span>
+            </div>
+          </div>
+          ${m.website ? `<div class="mfr-card-bottom"><span class="mfr-website">${escapeHtml(m.website.replace(/^https?:\/\//, ''))}</span></div>` : ''}
+        </a>`;
+      }).join('') + '</div>';
       paginationArea.innerHTML = renderPagination(data.pagination, buildHash({}));
     } catch (err) { showError(resultsArea, err.message); }
   };
@@ -515,24 +683,30 @@
       document.title = `${m.name} - PluginDB`;
       const catBadges = Object.entries(data.categories || {}).map(([c, n]) => formatBadge(`${c} (${n})`, 'badge-outline')).join('');
 
+      // Cycle 15: Stats header for manufacturer detail
+      const catCount = Object.keys(data.categories || {}).length;
       let html = `
         <nav class="breadcrumb"><a href="#/manufacturers">Manufacturers</a> <span>&rsaquo;</span> <span>${escapeHtml(m.name)}</span></nav>
         <div class="pd-title-bar">
           <h1 class="pd-name">${escapeHtml(m.name)}</h1>
           <div class="pd-title-meta">
-            <span>${data.plugin_count} plugin${data.plugin_count !== 1 ? 's' : ''}</span>
             ${m.website ? `<a href="${escapeHtml(m.website)}" class="pd-mfr-link" target="_blank" rel="noopener">${escapeHtml(m.website.replace(/^https?:\/\//, ''))}</a>` : ''}
           </div>
-          ${catBadges ? `<div class="cat-badges" style="margin-top:12px">${catBadges}</div>` : ''}
-        </div>`;
+        </div>
+        <div class="mfr-detail-stats">
+          <div class="mfr-stat-card"><div class="mfr-stat-num">${data.plugin_count}</div><div class="mfr-stat-label">Plugins</div></div>
+          <div class="mfr-stat-card"><div class="mfr-stat-num">${catCount}</div><div class="mfr-stat-label">Categories</div></div>
+        </div>
+        ${catBadges ? `<div class="cat-badges" style="margin-bottom:24px">${catBadges}</div>` : ''}`;
 
       if (data.plugins && data.plugins.length) {
         const bh = '#/manufacturers/' + encodeURIComponent(slug);
         html += `<section class="pd-section"><h2 class="pd-section-title">Plugins</h2>${pluginGrid(data.plugins)}${renderPagination(data.pagination, bh)}</section>`;
       } else {
-        html += '<section class="pd-section"><p>No plugins listed yet.</p></section>';
+        html += '<section class="pd-section"><p style="color:var(--text-muted)">No plugins listed yet.</p></section>';
       }
       app.innerHTML = html;
+      wireImageLoading(app);
     } catch (err) { showError(app, err.message); }
   };
 
@@ -555,21 +729,33 @@
     const { path, params } = parseHash();
     window.scrollTo(0, 0);
 
-    // #/plugins/:slug
     const pluginMatch = path.match(/^\/plugins\/(.+)$/);
     if (pluginMatch) { updateNav('home'); return Views.pluginDetail(decodeURIComponent(pluginMatch[1])); }
 
-    // #/manufacturers/:slug
     const mfrMatch = path.match(/^\/manufacturers\/(.+)$/);
     if (mfrMatch) { updateNav('manufacturers'); return Views.manufacturerDetail(decodeURIComponent(mfrMatch[1]), params); }
 
-    // #/manufacturers
     if (path === '/manufacturers') { updateNav('manufacturers'); return Views.manufacturers(params); }
 
-    // default: home
     updateNav('home');
     return Views.home(params);
   }
+
+  // ---- CYCLE 1: Header scroll shadow ----
+  let lastScrollY = 0;
+  window.addEventListener('scroll', function() {
+    const header = document.getElementById('site-header');
+    if (window.scrollY > 10) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+    lastScrollY = window.scrollY;
+
+    // Cycle 18: Scroll to top visibility
+    const scrollBtn = document.getElementById('scroll-top');
+    if (scrollBtn) {
+      if (window.scrollY > 400) scrollBtn.classList.add('visible');
+      else scrollBtn.classList.remove('visible');
+    }
+  }, { passive: true });
 
   // Global keyboard shortcut: / focuses search
   document.addEventListener('keydown', function (e) {
@@ -580,13 +766,22 @@
     }
   });
 
-  // Close suggest dropdown when clicking outside (registered once globally)
+  // Close suggest dropdown when clicking outside
   document.addEventListener('click', function (e) {
-    if (!e.target.closest('.search-wrap')) {
+    if (!e.target.closest('.search-wrap') && !e.target.closest('.search-input-wrap')) {
       var dd = document.getElementById('suggest-dropdown');
       if (dd) dd.classList.add('hidden');
     }
   });
+
+  // Cycle 18: Create scroll-to-top button
+  var scrollTopBtn = document.createElement('button');
+  scrollTopBtn.id = 'scroll-top';
+  scrollTopBtn.className = 'scroll-top';
+  scrollTopBtn.setAttribute('aria-label', 'Scroll to top');
+  scrollTopBtn.innerHTML = '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 3l5 5h-3v4H6V8H3l5-5z"/></svg>';
+  scrollTopBtn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  document.body.appendChild(scrollTopBtn);
 
   window.addEventListener('hashchange', router);
   router();
