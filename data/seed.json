@@ -1055,6 +1055,11 @@
       "website": "https://www.wavesfactory.com"
     },
     {
+      "slug": "wildergarden-audio",
+      "name": "Wildergarden Audio",
+      "website": "https://wildergardenaudio.com"
+    },
+    {
       "slug": "wusik",
       "name": "Wusik",
       "website": "https://www.wusik.com"
@@ -5135,7 +5140,7 @@
     {
       "slug": "maim",
       "name": "Maim",
-      "manufacturer_slug": "kilohearts",
+      "manufacturer_slug": "wildergarden-audio",
       "category": "effect",
       "subcategory": "distortion",
       "formats": [
@@ -5143,9 +5148,9 @@
         "CLAP"
       ],
       "aliases": [
-        "Maim",
-        "kHs Maim",
-        "Kilohearts Maim"
+        "MAIM",
+        "Wildergarden MAIM",
+        "Wildergarden Audio MAIM"
       ],
       "daws": [
         "Bitwig",
@@ -5160,9 +5165,9 @@
         "macos",
         "linux"
       ],
-      "description": "Bitcrusher and sample rate reducer snapin for digital degradation effects.",
+      "description": "Aggressive audio degradation plugin for creative destruction and lo-fi effects.",
       "price_type": "paid",
-      "url": "https://kilohearts.com/products/maim",
+      "url": "https://wildergardenaudio.com/maim/",
       "year": 2020,
       "tags": [
         "distortion",
