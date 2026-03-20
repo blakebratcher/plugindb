@@ -299,17 +299,123 @@ button, input, select { font: inherit; color: inherit; }
 .breadcrumb a:hover { color: var(--text-primary); }
 .breadcrumb span { color: var(--border); }
 
-/* Detail hero */
-.detail-hero {
-  width: 100%; max-height: 400px; overflow: hidden;
-  border-radius: var(--radius); margin-bottom: 24px;
+/* ==============================
+   Plugin Detail — LaunchBox style
+   ============================== */
+
+/* Hero image */
+.pd-hero {
+  position: relative; width: 100%; max-height: 350px; overflow: hidden;
+  border-radius: var(--radius); margin-bottom: 0;
   background: var(--bg-tertiary);
 }
-.detail-hero img {
-  width: 100%; max-height: 400px; object-fit: contain; display: block;
+.pd-hero img {
+  width: 100%; height: 350px; object-fit: cover; display: block;
+}
+.pd-hero--empty { height: 180px; }
+.pd-hero-placeholder {
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+}
+.pd-hero-placeholder .card-placeholder {
+  width: 100%; height: 100%; font-size: 72px; border-radius: 0;
+}
+.pd-hero-overlay {
+  position: absolute; bottom: 0; left: 0; right: 0; height: 50%;
+  background: linear-gradient(to top, var(--bg-primary) 0%, transparent 100%);
+  pointer-events: none;
 }
 
-/* Detail header */
+/* Title bar below hero */
+.pd-title-bar {
+  margin-bottom: 28px; padding-top: 4px;
+}
+.pd-title-content { max-width: 100%; }
+.pd-name {
+  font-size: 32px; font-weight: 800; margin-bottom: 8px;
+  letter-spacing: -0.01em; line-height: 1.2;
+}
+.pd-title-meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.pd-mfr-link {
+  font-size: 16px; font-weight: 600; color: var(--accent);
+  transition: color var(--transition);
+}
+.pd-mfr-link:hover { color: var(--accent-hover); }
+.pd-year {
+  font-size: 14px; color: var(--text-secondary);
+  padding: 2px 10px; background: var(--bg-tertiary); border-radius: var(--radius-sm);
+}
+
+/* Two-column layout */
+.pd-layout {
+  display: grid; grid-template-columns: 1fr 340px; gap: 32px;
+  align-items: start;
+}
+
+/* Main column */
+.pd-main { min-width: 0; }
+
+/* Section header — LaunchBox uppercase style */
+.pd-section-title {
+  font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-secondary);
+  margin-bottom: 14px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.pd-section { margin-bottom: 32px; }
+
+/* About / description */
+.pd-description {
+  color: var(--text-secondary); line-height: 1.8; font-size: 15px;
+}
+
+/* Tags */
+.pd-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* Sidebar */
+.pd-sidebar { display: flex; flex-direction: column; gap: 16px; }
+.pd-sidebar-card {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+}
+.pd-sidebar-card .pd-section-title {
+  margin-bottom: 16px;
+}
+
+/* Detail list in sidebar */
+.pd-detail-list { display: flex; flex-direction: column; gap: 14px; }
+.pd-detail-row { display: flex; flex-direction: column; gap: 4px; }
+.pd-detail-label {
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--text-secondary);
+}
+.pd-detail-value { font-size: 14px; }
+.pd-detail-badges { display: flex; flex-wrap: wrap; gap: 4px; }
+.pd-detail-daws {
+  font-size: 14px; list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.pd-detail-daws li { color: var(--text-primary); }
+
+/* Alias list */
+.pd-alias-list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 4px;
+}
+.pd-alias-list li {
+  font-size: 14px; color: var(--text-secondary);
+  padding: 4px 0; border-bottom: 1px solid var(--border);
+}
+.pd-alias-list li:last-child { border-bottom: none; }
+
+/* Sidebar action buttons */
+.pd-sidebar-actions {
+  display: flex; flex-direction: column; gap: 8px;
+}
+.pd-btn-full { width: 100%; text-align: center; }
+
+/* Legacy detail-header (manufacturer detail still uses it) */
 .detail-header { margin-bottom: 32px; }
 .detail-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
 .detail-mfr { font-size: 15px; color: var(--text-secondary); margin-bottom: 12px; }
@@ -317,8 +423,7 @@ button, input, select { font: inherit; color: inherit; }
 .detail-mfr a:hover { color: var(--accent-hover); }
 .detail-desc { color: var(--text-secondary); line-height: 1.7; margin-top: 12px; }
 
-/* Detail meta */
-.detail-meta { margin-bottom: 32px; }
+/* Legacy meta-grid (manufacturer detail still uses it) */
 .meta-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 16px 32px;
   padding: 20px; background: var(--bg-secondary);
@@ -330,12 +435,7 @@ button, input, select { font: inherit; color: inherit; }
   letter-spacing: 0.06em; color: var(--text-secondary);
 }
 
-/* Detail tags */
-.detail-tags { margin-bottom: 24px; }
-.tags-wrap { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-
-/* Detail links & sections */
-.detail-links { margin-bottom: 32px; }
+/* Legacy detail-section (kept for manufacturer detail) */
 .detail-section { margin-top: 40px; }
 .detail-section h2 { font-size: 20px; font-weight: 600; margin-bottom: 16px; }
 
@@ -390,6 +490,10 @@ button, input, select { font: inherit; color: inherit; }
   .filter-bar { flex-direction: column; align-items: stretch; }
   .filter-bar select { width: 100%; }
   .detail-header h1 { font-size: 22px; }
+  .pd-layout { grid-template-columns: 1fr; gap: 24px; }
+  .pd-name { font-size: 24px; }
+  .pd-hero img { height: 220px; }
+  .pd-sidebar { order: -1; }
 }
 
 @media (max-width: 480px) {

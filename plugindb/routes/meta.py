@@ -27,6 +27,11 @@ router = APIRouter(tags=["meta"])
 _cache: dict[str, Any] = {}
 
 
+def clear_cache():
+    """Clear the meta endpoint cache. Called on app startup."""
+    _cache.clear()
+
+
 def cached(key):
     """Simple process-lifetime cache decorator for read-only endpoints."""
     def decorator(fn):

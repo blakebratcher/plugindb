@@ -90,6 +90,9 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
             _db_connection = get_connection(DEFAULT_DB_PATH)
             create_schema(_db_connection)
         _seed_etag = _compute_seed_etag(_db_connection)
+        # Clear stale meta caches from previous runs
+        from plugindb.routes.meta import clear_cache
+        clear_cache()
         # Warm up caches — reduces cold-start latency
         try:
             _db_connection.execute("SELECT COUNT(*) FROM plugins").fetchone()

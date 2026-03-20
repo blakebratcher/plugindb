@@ -14,7 +14,7 @@ def main():
         data = json.load(f)
 
     plugins_with_urls = [(p["slug"], p["url"]) for p in data["plugins"] if p.get("url")]
-    mfr_with_urls = [(m["slug"], m["url"]) for m in data["manufacturers"] if m.get("url")]
+    mfr_with_urls = [(m["slug"], m["website"]) for m in data["manufacturers"] if m.get("website")]
 
     all_urls = [(f"plugin:{id}", url) for id, url in plugins_with_urls] + \
                [(f"mfr:{id}", url) for id, url in mfr_with_urls]

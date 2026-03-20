@@ -243,10 +243,6 @@
       const item = e.target.closest('.suggest-item');
       if (item) { location.hash = '#/plugins/' + item.dataset.slug; }
     });
-    document.addEventListener('click', function handler(e) {
-      if (!e.target.closest('.search-wrap')) { dropdown.classList.add('hidden'); suggestIdx = -1; }
-    });
-
     // Random
     document.getElementById('btn-random').addEventListener('click', async function () {
       try { const p = await API.get('/plugins/random'); location.hash = '#/plugins/' + p.slug; } catch (_) {}
@@ -360,47 +356,56 @@
       document.title = `${p.name} by ${mfr.name} - PluginDB`;
       const fmtBadges = (p.formats || []).map(f => formatBadge(f, 'badge-format')).join('');
       const osBadges = (p.os || []).map(o => formatBadge(o, 'badge-os')).join('');
-      const dawList = (p.daws || []).map(d => escapeHtml(d)).join(', ');
-      const aliases = (p.aliases || []).map(a => escapeHtml(a)).join(', ');
+      const dawList = (p.daws || []).map(d => `<li>${escapeHtml(d)}</li>`).join('');
+      const aliases = (p.aliases || []);
+
+      const placeholder = generatePlaceholder(p.name, p.category);
+      const onerrorFallback = 'this.onerror=null;this.parentNode.innerHTML=decodeURIComponent(\'' + encodeURIComponent(placeholder) + '\')';
 
       const heroHtml = p.image_url
-        ? `<div class="detail-hero"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}"></div>`
-        : '';
+        ? `<div class="pd-hero"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" onerror="${escapeHtml(onerrorFallback)}"><div class="pd-hero-overlay"></div></div>`
+        : `<div class="pd-hero pd-hero--empty"><div class="pd-hero-placeholder">${placeholder}</div><div class="pd-hero-overlay"></div></div>`;
 
       let html = `
         <nav class="breadcrumb"><a href="#/">Plugins</a> <span>&rsaquo;</span> <span>${escapeHtml(p.name)}</span></nav>
         ${heroHtml}
-        <section class="detail-header">
-          <h1>${escapeHtml(p.name)}</h1>
-          <p class="detail-mfr">by <a href="#/manufacturers/${escapeHtml(mfr.slug)}">${escapeHtml(mfr.name)}</a></p>
-          ${p.description ? `<p class="detail-desc">${escapeHtml(p.description)}</p>` : ''}
-        </section>
-        <section class="detail-meta">
-          <div class="meta-grid">
-            <div class="meta-item"><span class="meta-label">Category</span><span>${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span></div>
-            ${(p.formats || []).length ? `<div class="meta-item"><span class="meta-label">Formats</span><span>${fmtBadges}</span></div>` : ''}
-            ${(p.os || []).length ? `<div class="meta-item"><span class="meta-label">OS</span><span>${osBadges}</span></div>` : ''}
-            ${dawList ? `<div class="meta-item"><span class="meta-label">DAWs</span><span>${dawList}</span></div>` : ''}
-            <div class="meta-item"><span class="meta-label">Price</span><span>${formatPriceBadge(p.price_type)}</span></div>
-            ${p.year ? `<div class="meta-item"><span class="meta-label">Year</span><span>${escapeHtml(p.year)}</span></div>` : ''}
-            ${aliases ? `<div class="meta-item"><span class="meta-label">Also known as</span><span>${aliases}</span></div>` : ''}
+        <div class="pd-title-bar">
+          <div class="pd-title-content">
+            <h1 class="pd-name">${escapeHtml(p.name)}</h1>
+            <div class="pd-title-meta">
+              <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="pd-mfr-link">${escapeHtml(mfr.name)}</a>
+              ${p.year ? `<span class="pd-year">${escapeHtml(p.year)}</span>` : ''}
+              ${formatPriceBadge(p.price_type)}
+            </div>
           </div>
-        </section>`;
+        </div>
+        <div class="pd-layout">
+          <div class="pd-main">
+            ${p.description ? `<section class="pd-section"><h2 class="pd-section-title">About</h2><p class="pd-description">${escapeHtml(p.description)}</p></section>` : ''}
+            ${(p.tags || []).length ? `<section class="pd-section"><h2 class="pd-section-title">Tags</h2><div class="pd-tags">${formatTags(p.tags)}</div></section>` : ''}
+            <section class="pd-section" id="similar-section"></section>
+            ${p.manufacturer_plugins && p.manufacturer_plugins.length ? `<section class="pd-section"><h2 class="pd-section-title">More from ${escapeHtml(mfr.name)}</h2>${pluginGrid(p.manufacturer_plugins)}</section>` : ''}
+          </div>
+          <aside class="pd-sidebar">
+            <div class="pd-sidebar-card">
+              <h2 class="pd-section-title">Details</h2>
+              <div class="pd-detail-list">
+                <div class="pd-detail-row"><span class="pd-detail-label">Category</span><span class="pd-detail-value">${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span></div>
+                ${(p.formats || []).length ? `<div class="pd-detail-row"><span class="pd-detail-label">Formats</span><span class="pd-detail-value pd-detail-badges">${fmtBadges}</span></div>` : ''}
+                ${(p.os || []).length ? `<div class="pd-detail-row"><span class="pd-detail-label">Operating Systems</span><span class="pd-detail-value pd-detail-badges">${osBadges}</span></div>` : ''}
+                ${dawList ? `<div class="pd-detail-row"><span class="pd-detail-label">DAW Compatibility</span><ul class="pd-detail-daws">${dawList}</ul></div>` : ''}
+                <div class="pd-detail-row"><span class="pd-detail-label">Price Type</span><span class="pd-detail-value">${formatPriceBadge(p.price_type)}</span></div>
+                ${p.year ? `<div class="pd-detail-row"><span class="pd-detail-label">Release Year</span><span class="pd-detail-value">${escapeHtml(p.year)}</span></div>` : ''}
+              </div>
+            </div>
+            ${aliases.length ? `<div class="pd-sidebar-card"><h2 class="pd-section-title">Also Known As</h2><ul class="pd-alias-list">${aliases.map(a => `<li>${escapeHtml(a)}</li>`).join('')}</ul></div>` : ''}
+            <div class="pd-sidebar-actions">
+              ${p.website ? `<a href="${escapeHtml(p.website)}" class="btn btn-primary pd-btn-full" target="_blank" rel="noopener">Visit Website &rarr;</a>` : ''}
+              <button class="btn btn-sm pd-btn-full" id="btn-share">Copy Link</button>
+            </div>
+          </aside>
+        </div>`;
 
-      if ((p.tags || []).length) {
-        html += `<section class="detail-tags"><span class="meta-label">Tags</span><div class="tags-wrap">${formatTags(p.tags)}</div></section>`;
-      }
-
-      html += '<section class="detail-links">';
-      if (p.website) html += `<a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit website &rarr;</a>`;
-      html += '<button class="btn btn-sm" id="btn-share">Copy link</button></section>';
-
-      // Manufacturer plugins
-      if (p.manufacturer_plugins && p.manufacturer_plugins.length) {
-        html += `<section class="detail-section"><h2>More from ${escapeHtml(mfr.name)}</h2>${pluginGrid(p.manufacturer_plugins)}</section>`;
-      }
-
-      html += '<section class="detail-section" id="similar-section"></section>';
       app.innerHTML = html;
 
       // Share/copy link button
@@ -413,7 +418,7 @@
           } else if (navigator.clipboard) {
             await navigator.clipboard.writeText(url);
             shareBtn.textContent = 'Copied!';
-            setTimeout(() => { shareBtn.textContent = 'Copy link'; }, 2000);
+            setTimeout(() => { shareBtn.textContent = 'Copy Link'; }, 2000);
           }
         });
       }
@@ -423,7 +428,7 @@
         try {
           const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 6 });
           if (sim.data && sim.data.length) {
-            document.getElementById('similar-section').innerHTML = `<h2>Similar Plugins</h2>${pluginGrid(sim.data)}`;
+            document.getElementById('similar-section').innerHTML = `<h2 class="pd-section-title">Similar Plugins</h2>${pluginGrid(sim.data)}`;
           }
         } catch (_) { /* non-critical */ }
       }
@@ -557,6 +562,14 @@
       e.preventDefault();
       const si = document.getElementById('search-input') || document.getElementById('mfr-search');
       if (si) si.focus();
+    }
+  });
+
+  // Close suggest dropdown when clicking outside (registered once globally)
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.search-wrap')) {
+      var dd = document.getElementById('suggest-dropdown');
+      if (dd) dd.classList.add('hidden');
     }
   });
 

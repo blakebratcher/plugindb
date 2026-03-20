@@ -10,9 +10,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 
-VALID_FORMATS = {"VST2", "VST3", "CLAP", "AU", "AAX", "LV2", "Standalone"}
-VALID_PRICE_TYPES = {"free", "paid", "subscription", "freemium", "included"}
-VALID_CATEGORIES = {"instrument", "effect", "container", "note-effect", "utility", "midi"}
+from plugindb.seed import VALID_CATEGORIES, VALID_FORMATS, VALID_PRICE_TYPES
 
 KVR_SEARCH_URL = "https://www.kvraudio.com/plugins/the-newest-plugins"
 

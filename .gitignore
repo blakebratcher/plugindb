@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 .pytest_cache/
 data/plugindb.sqlite
+data/plugindb.sqlite-shm
+data/plugindb.sqlite-wal
 *.egg-info/
 dist/
 .venv/

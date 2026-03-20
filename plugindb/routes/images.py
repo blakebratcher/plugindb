@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import ipaddress
 import logging
+import socket
 import urllib.request
 from functools import lru_cache
 from urllib.parse import urlparse
@@ -14,8 +16,24 @@ logger = logging.getLogger("plugindb")
 
 router = APIRouter(tags=["images"])
 
-# Bounded cache: 200 images max (~40MB assuming ~200KB avg)
-@lru_cache(maxsize=200)
+# Max 500KB per cached image, 100 images max (~50MB ceiling)
+_MAX_IMAGE_BYTES = 500_000
+
+
+def _is_safe_url(url: str) -> bool:
+    """Block SSRF: reject private IPs, loopback, link-local, cloud metadata."""
+    parsed = urlparse(url)
+    if not parsed.hostname:
+        return False
+    try:
+        ip = ipaddress.ip_address(socket.gethostbyname(parsed.hostname))
+        return ip.is_global
+    except (socket.gaierror, ValueError):
+        # Can't resolve — allow (might be a CDN hostname)
+        return True
+
+
+@lru_cache(maxsize=100)
 def _fetch_image(url: str) -> tuple[bytes, str]:
     """Fetch an image and return (bytes, content_type)."""
     req = urllib.request.Request(url, headers={
@@ -24,7 +42,9 @@ def _fetch_image(url: str) -> tuple[bytes, str]:
     })
     with urllib.request.urlopen(req, timeout=8) as resp:
         content_type = resp.headers.get("Content-Type", "image/jpeg")
-        data = resp.read(2 * 1024 * 1024)  # Max 2MB
+        if "image" not in content_type and "octet-stream" not in content_type:
+            raise ValueError(f"Not an image: {content_type}")
+        data = resp.read(_MAX_IMAGE_BYTES)
     return data, content_type
 
 
@@ -36,6 +56,9 @@ def proxy_image(
     parsed = urlparse(url)
     if parsed.scheme not in ("http", "https"):
         raise HTTPException(status_code=400, detail="URL must use http or https")
+
+    if not _is_safe_url(url):
+        raise HTTPException(status_code=403, detail="URL not allowed")
 
     try:
         data, content_type = _fetch_image(url)
