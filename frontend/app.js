@@ -136,6 +136,7 @@
         <h3 class="card-title">${escapeHtml(p.name)}</h3>
         <p class="card-mfr">${escapeHtml(mfr.name || '')}${p.year ? ' &middot; ' + escapeHtml(p.year) : ''}</p>
         ${tagPills ? '<div class="card-tags">' + tagPills + '</div>' : ''}
+        ${p.description ? '<p class="card-desc">' + escapeHtml(p.description) + '</p>' : ''}
         <div class="card-footer">${(p.formats || []).map(f => formatBadge(f, 'badge-sm')).join('')}</div>
       </div>
     </a>`;
