@@ -2,6 +2,11 @@
   "schema_version": "1.0",
   "manufacturers": [
     {
+      "slug": "acon-digital",
+      "name": "Acon Digital",
+      "website": "https://acondigital.com"
+    },
+    {
       "slug": "acustica-audio",
       "name": "Acustica Audio",
       "website": "https://www.acustica-audio.com"
@@ -32,9 +37,19 @@
       "website": "https://analogobsession.com"
     },
     {
+      "slug": "artistry-audio",
+      "name": "Artistry Audio",
+      "website": "https://artistryaudio.com"
+    },
+    {
       "slug": "arturia",
       "name": "Arturia",
       "website": "https://www.arturia.com"
+    },
+    {
+      "slug": "auburn-sounds",
+      "name": "Auburn Sounds",
+      "website": "https://www.auburnsounds.com"
     },
     {
       "slug": "audio-damage",
@@ -45,6 +60,11 @@
       "slug": "audiority",
       "name": "Audiority",
       "website": "https://www.audiority.com"
+    },
+    {
+      "slug": "audiothing",
+      "name": "AudioThing",
+      "website": "https://www.audiothing.net"
     },
     {
       "slug": "baby-audio",
@@ -67,6 +87,11 @@
       "website": "https://bettermaker.com"
     },
     {
+      "slug": "black-rooster-audio",
+      "name": "Black Rooster Audio",
+      "website": "https://blackroosteraudio.com"
+    },
+    {
       "slug": "blue-cat-audio",
       "name": "Blue Cat Audio",
       "website": "https://www.bluecataudio.com"
@@ -77,9 +102,19 @@
       "website": "https://www.bozdigitallabs.com"
     },
     {
+      "slug": "brainworx",
+      "name": "Brainworx",
+      "website": "https://www.brainworx.audio"
+    },
+    {
       "slug": "cableguys",
       "name": "Cableguys",
       "website": "https://www.cableguys.com"
+    },
+    {
+      "slug": "cakewalk",
+      "name": "Cakewalk",
+      "website": "https://www.cakewalk.com"
     },
     {
       "slug": "camel-audio",
@@ -112,6 +147,16 @@
       "website": "https://d16group.com"
     },
     {
+      "slug": "dada-life",
+      "name": "Dada Life",
+      "website": "https://www.dadalifetools.com"
+    },
+    {
+      "slug": "ddmf",
+      "name": "DDMF",
+      "website": "https://ddmf.eu"
+    },
+    {
       "slug": "denise-audio",
       "name": "Denise Audio",
       "website": "https://www.denise.io"
@@ -125,6 +170,11 @@
       "slug": "digital-suburban",
       "name": "Digital Suburban",
       "website": "https://asb2m10.github.io/dexed/"
+    },
+    {
+      "slug": "direct-music",
+      "name": "Direct Music",
+      "website": "https://minimeters.app"
     },
     {
       "slug": "discodsp",
@@ -142,6 +192,11 @@
       "website": "https://dmgaudio.com"
     },
     {
+      "slug": "east-west",
+      "name": "East West",
+      "website": "https://www.soundsonline.com"
+    },
+    {
       "slug": "eventide",
       "name": "Eventide",
       "website": "https://www.eventideaudio.com"
@@ -150,6 +205,11 @@
       "slug": "fabfilter",
       "name": "FabFilter",
       "website": "https://www.fabfilter.com"
+    },
+    {
+      "slug": "full-bucket-music",
+      "name": "Full Bucket Music",
+      "website": "https://www.fullbucket.de"
     },
     {
       "slug": "glitchmachines",
@@ -162,14 +222,34 @@
       "website": "https://goodhertz.com"
     },
     {
+      "slug": "harrison",
+      "name": "Harrison",
+      "website": "https://harrisonconsoles.com"
+    },
+    {
       "slug": "harvest-plugins",
       "name": "Harvest Plugins",
       "website": "https://harvestplugins.com"
     },
     {
+      "slug": "heavyocity",
+      "name": "Heavyocity",
+      "website": "https://heavyocity.com"
+    },
+    {
+      "slug": "hy-plugins",
+      "name": "HY-Plugins",
+      "website": "https://hy-plugins.com"
+    },
+    {
       "slug": "ifea",
       "name": "iFeature",
       "website": "https://www.kvraudio.com/developer/ifeature"
+    },
+    {
+      "slug": "ik-multimedia",
+      "name": "IK Multimedia",
+      "website": "https://www.ikmultimedia.com"
     },
     {
       "slug": "infected-mushroom",
@@ -197,6 +277,11 @@
       "website": "https://klanghelm.com"
     },
     {
+      "slug": "klevgrand",
+      "name": "Klevgrand",
+      "website": "https://klevgrand.com"
+    },
+    {
       "slug": "kv331-audio",
       "name": "KV331 Audio",
       "website": "https://kv331audio.com"
@@ -222,6 +307,11 @@
       "website": "https://vital.audio"
     },
     {
+      "slug": "melda-production",
+      "name": "Melda Production",
+      "website": "https://www.meldaproduction.com"
+    },
+    {
       "slug": "meldaproduction",
       "name": "MeldaProduction",
       "website": "https://www.meldaproduction.com"
@@ -230,11 +320,6 @@
       "slug": "minimal-audio",
       "name": "Minimal Audio",
       "website": "https://www.minimal.audio"
-    },
-    {
-      "slug": "direct-music",
-      "name": "Direct Music",
-      "website": "https://minimeters.app"
     },
     {
       "slug": "native-instruments",
@@ -277,6 +362,11 @@
       "website": "https://output.com"
     },
     {
+      "slug": "oversampled",
+      "name": "Oversampled",
+      "website": "https://oversampled.com"
+    },
+    {
       "slug": "plogue",
       "name": "Plogue",
       "website": "https://www.plogue.com"
@@ -302,6 +392,11 @@
       "website": "https://polyversemusic.com"
     },
     {
+      "slug": "psp-audioware",
+      "name": "PSP Audioware",
+      "website": "https://www.pspaudioware.com"
+    },
+    {
       "slug": "quantumsauce",
       "name": "QuantumSauce",
       "website": "https://quantumsauce.com"
@@ -317,9 +412,19 @@
       "website": "https://www.robpapen.com"
     },
     {
+      "slug": "sample-logic",
+      "name": "Sample Logic",
+      "website": "https://www.samplelogic.com"
+    },
+    {
       "slug": "schaack-audio",
       "name": "Schaack Audio",
       "website": "https://www.schaack-audio.com"
+    },
+    {
+      "slug": "sinevibes",
+      "name": "Sinevibes",
+      "website": "https://www.sinevibes.com"
     },
     {
       "slug": "sir-audio-tools",
@@ -330,6 +435,11 @@
       "slug": "slate-digital",
       "name": "Slate Digital",
       "website": "https://slatedigital.com"
+    },
+    {
+      "slug": "socalabs",
+      "name": "SocaLabs",
+      "website": "https://socalabs.com"
     },
     {
       "slug": "softube",
@@ -387,6 +497,16 @@
       "website": "https://tal-software.com"
     },
     {
+      "slug": "tal-software",
+      "name": "TAL Software",
+      "website": "https://tal-software.com"
+    },
+    {
+      "slug": "tdr",
+      "name": "TDR",
+      "website": "https://www.tokyodawn.net"
+    },
+    {
       "slug": "tokyo-dawn-records",
       "name": "Tokyo Dawn Records",
       "website": "https://www.tokyodawn.net"
@@ -412,9 +532,24 @@
       "website": "https://u-he.com"
     },
     {
+      "slug": "ujam",
+      "name": "Ujam",
+      "website": "https://www.ujam.com"
+    },
+    {
       "slug": "unfiltered-audio",
       "name": "Unfiltered Audio",
       "website": "https://www.unfilteredaudio.com"
+    },
+    {
+      "slug": "universal-audio",
+      "name": "Universal Audio",
+      "website": "https://www.uaudio.com"
+    },
+    {
+      "slug": "uvi",
+      "name": "UVI",
+      "website": "https://www.uvi.net"
     },
     {
       "slug": "valhalla-dsp",
@@ -425,6 +560,11 @@
       "slug": "variety-of-sound",
       "name": "Variety Of Sound",
       "website": "https://varietyofsound.wordpress.com"
+    },
+    {
+      "slug": "venn-audio",
+      "name": "Venn Audio",
+      "website": "https://www.vennaudio.com"
     },
     {
       "slug": "voxengo",
@@ -465,6 +605,74 @@
       "slug": "zynaptiq",
       "name": "Zynaptiq",
       "website": "https://www.zynaptiq.com"
+    },
+    {
+      "slug": "ichiro-toda",
+      "name": "Ichiro Toda"
+    },
+    {
+      "slug": "the-wave-warden",
+      "name": "The Wave Warden"
+    },
+    {
+      "slug": "thomas-neuhaus",
+      "name": "Thomas Neuhaus"
+    },
+    {
+      "slug": "ample-sound",
+      "name": "Ample Sound"
+    },
+    {
+      "slug": "decent-samples",
+      "name": "Decent Samples"
+    },
+    {
+      "slug": "one-small-clue",
+      "name": "One Small Clue"
+    },
+    {
+      "slug": "three-body-technology",
+      "name": "Three-Body Technology"
+    },
+    {
+      "slug": "ghost-note-audio",
+      "name": "Ghost Note Audio"
+    },
+    {
+      "slug": "aom",
+      "name": "AOM"
+    },
+    {
+      "slug": "vladg-sound",
+      "name": "Vladg Sound"
+    },
+    {
+      "slug": "roland",
+      "name": "Roland"
+    },
+    {
+      "slug": "sugar-bytes",
+      "name": "Sugar Bytes"
+    },
+    {
+      "slug": "mastering-the-mix",
+      "name": "Mastering The Mix"
+    },
+    {
+      "slug": "tbproaudio",
+      "name": "TBProAudio"
+    },
+    {
+      "slug": "two-notes",
+      "name": "Two Notes"
+    },
+    {
+      "slug": "ssl",
+      "name": "SSL"
+    },
+    {
+      "slug": "gvst",
+      "name": "GVST"
     }
   ],
   "plugins": [
@@ -4160,7 +4368,12 @@
       "manufacturer_slug": "izotope",
       "category": "effect",
       "subcategory": "compressor",
-      "formats": ["VST2", "VST3", "AU", "AAX"],
+      "formats": [
+        "VST2",
+        "VST3",
+        "AU",
+        "AAX"
+      ],
       "aliases": [
         "Ozone 9 Dynamics",
         "iZotope Ozone 9 Dynamics"
@@ -13378,6 +13591,2496 @@
         "sidechain"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/pro-g-intro.jpg?v=1710150538"
+    },
+    {
+      "slug": "synth1",
+      "name": "Synth1",
+      "manufacturer_slug": "ichiro-toda",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST2"
+      ],
+      "aliases": [
+        "Synth1",
+        "Ichiro Toda Synth1"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "One of the most downloaded free VST synthesizers ever made.",
+      "price_type": "free",
+      "url": "https://www.kvraudio.com/product/synth1-by-ichiro-toda",
+      "year": 2004,
+      "tags": [
+        "synthesizer",
+        "free",
+        "virtual-analog",
+        "classic"
+      ]
+    },
+    {
+      "slug": "bazille",
+      "name": "Bazille",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Bazille",
+        "u-he Bazille"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Digital modular synthesizer with FM, phase distortion, and fractal resonance.",
+      "price_type": "paid",
+      "url": "https://u-he.com/products/bazille/",
+      "year": 2014,
+      "tags": [
+        "synthesizer",
+        "modular",
+        "digital",
+        "fm",
+        "experimental"
+      ]
+    },
+    {
+      "slug": "ana-2",
+      "name": "ANA 2",
+      "manufacturer_slug": "slate-digital",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "ANA 2",
+        "Slate Digital ANA 2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Modern synthesizer designed for electronic music production.",
+      "price_type": "paid",
+      "url": "https://www.slatedigital.com/ana-2/",
+      "year": 2019,
+      "tags": [
+        "synthesizer",
+        "edm",
+        "wavetable",
+        "modern",
+        "electronic"
+      ]
+    },
+    {
+      "slug": "electra2",
+      "name": "Electra2",
+      "manufacturer_slug": "tone2",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Electra2",
+        "Tone2 Electra2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-synthesis workstation with 9 different synthesis methods.",
+      "price_type": "paid",
+      "url": "https://www.tone2.com/electra2.html",
+      "year": 2014,
+      "tags": [
+        "synthesizer",
+        "multi-synthesis",
+        "versatile",
+        "electronic"
+      ]
+    },
+    {
+      "slug": "icarus",
+      "name": "Icarus",
+      "manufacturer_slug": "tone2",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Icarus",
+        "Tone2 Icarus"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "3D wavetable synthesizer with resynthesis capabilities.",
+      "price_type": "paid",
+      "url": "https://www.tone2.com/icarus.html",
+      "year": 2017,
+      "tags": [
+        "synthesizer",
+        "wavetable",
+        "3d-wavetable",
+        "modern"
+      ]
+    },
+    {
+      "slug": "tal-noisemaker",
+      "name": "TAL-Noisemaker",
+      "manufacturer_slug": "tal-software",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "LV2"
+      ],
+      "aliases": [
+        "TAL-Noisemaker",
+        "TAL Software TAL-Noisemaker"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free virtual analog synthesizer with built-in effects.",
+      "price_type": "free",
+      "url": "https://tal-software.com/products/tal-noisemaker",
+      "year": 2009,
+      "tags": [
+        "synthesizer",
+        "free",
+        "virtual-analog",
+        "versatile"
+      ]
+    },
+    {
+      "slug": "odin-2",
+      "name": "Odin 2",
+      "manufacturer_slug": "the-wave-warden",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "LV2",
+        "Standalone"
+      ],
+      "aliases": [
+        "Odin 2",
+        "The Wave Warden Odin 2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free semi-modular synthesizer with 2400+ factory presets.",
+      "price_type": "free",
+      "url": "https://www.thewavewarden.com/odin2",
+      "year": 2020,
+      "tags": [
+        "synthesizer",
+        "free",
+        "open-source",
+        "semi-modular",
+        "versatile"
+      ]
+    },
+    {
+      "slug": "podolski",
+      "name": "Podolski",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "LV2"
+      ],
+      "aliases": [
+        "Podolski",
+        "u-he Podolski"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free simple virtual analog synth from u-he with great sound quality.",
+      "price_type": "free",
+      "url": "https://u-he.com/products/podolski/",
+      "year": 2005,
+      "tags": [
+        "synthesizer",
+        "free",
+        "virtual-analog",
+        "simple",
+        "warm"
+      ]
+    },
+    {
+      "slug": "triple-cheese",
+      "name": "Triple Cheese",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "LV2"
+      ],
+      "aliases": [
+        "Triple Cheese",
+        "u-he Triple Cheese"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free experimental synth using comb filter synthesis.",
+      "price_type": "free",
+      "url": "https://u-he.com/products/triplecheese/",
+      "year": 2006,
+      "tags": [
+        "synthesizer",
+        "free",
+        "creative",
+        "unusual",
+        "experimental"
+      ]
+    },
+    {
+      "slug": "tyrell-n6",
+      "name": "Tyrell N6",
+      "manufacturer_slug": "u-he",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "LV2"
+      ],
+      "aliases": [
+        "Tyrell N6",
+        "u-he Tyrell N6"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free virtual analog synth designed with Amazona magazine.",
+      "price_type": "free",
+      "url": "https://u-he.com/products/tyrelln6/",
+      "year": 2012,
+      "tags": [
+        "synthesizer",
+        "free",
+        "virtual-analog",
+        "subtractive"
+      ]
+    },
+    {
+      "slug": "ca2600",
+      "name": "CA2600",
+      "manufacturer_slug": "cherry-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "CA2600",
+        "Cherry Audio CA2600"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Faithful recreation of the ARP 2600 analog synthesizer.",
+      "price_type": "paid",
+      "url": "https://cherryaudio.com/products/ca2600",
+      "year": 2020,
+      "tags": [
+        "synthesizer",
+        "vintage",
+        "arp-2600",
+        "analog-modeling",
+        "semi-modular"
+      ]
+    },
+    {
+      "slug": "memorymode",
+      "name": "Memorymode",
+      "manufacturer_slug": "cherry-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Memorymode",
+        "Cherry Audio Memorymode"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Recreation of the Memorymoog polyphonic analog synthesizer.",
+      "price_type": "paid",
+      "url": "https://cherryaudio.com/products/memorymode",
+      "year": 2021,
+      "tags": [
+        "synthesizer",
+        "vintage",
+        "memorymoog",
+        "analog-modeling",
+        "polyphonic"
+      ]
+    },
+    {
+      "slug": "monique",
+      "name": "Monique",
+      "manufacturer_slug": "thomas-neuhaus",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "Standalone"
+      ],
+      "aliases": [
+        "Monique",
+        "Thomas Neuhaus Monique"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free monophonic synthesizer optimized for bass and lead sounds.",
+      "price_type": "free",
+      "url": "https://github.com/surge-synthesizer/monique-monosynth",
+      "year": 2018,
+      "tags": [
+        "synthesizer",
+        "free",
+        "monophonic",
+        "bass",
+        "lead"
+      ]
+    },
+    {
+      "slug": "ample-guitar",
+      "name": "Ample Guitar",
+      "manufacturer_slug": "ample-sound",
+      "category": "instrument",
+      "subcategory": "guitar",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Ample Guitar",
+        "Ample Sound Ample Guitar"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Realistic acoustic and electric guitar virtual instruments.",
+      "price_type": "freemium",
+      "url": "https://www.amplesound.net/en/pro-pd.asp?id=7",
+      "year": 2015,
+      "tags": [
+        "guitar",
+        "acoustic",
+        "sample-based",
+        "realistic"
+      ]
+    },
+    {
+      "slug": "addictive-keys",
+      "name": "Addictive Keys",
+      "manufacturer_slug": "xln-audio",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Addictive Keys",
+        "Xln Audio Addictive Keys"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Studio grand, electric grand, and modern upright piano instruments.",
+      "price_type": "paid",
+      "url": "https://www.xlnaudio.com/products/addictive-keys",
+      "year": 2012,
+      "tags": [
+        "piano",
+        "keyboard",
+        "sample-based",
+        "realistic"
+      ]
+    },
+    {
+      "slug": "decent-sampler",
+      "name": "Decent Sampler",
+      "manufacturer_slug": "decent-samples",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Decent Sampler",
+        "Decent Samples Decent Sampler"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free sample player that plays .dspreset format samples.",
+      "price_type": "free",
+      "url": "https://www.decentsamples.com/product/decent-sampler-plugin/",
+      "year": 2020,
+      "tags": [
+        "sampler",
+        "free",
+        "open-format",
+        "versatile"
+      ]
+    },
+    {
+      "slug": "sampletank-4",
+      "name": "SampleTank 4",
+      "manufacturer_slug": "ik-multimedia",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "SampleTank 4",
+        "IK Multimedia SampleTank 4"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Sound and groove workstation with thousands of instruments.",
+      "price_type": "paid",
+      "url": "https://www.ikmultimedia.com/products/sampletank4/",
+      "year": 2019,
+      "tags": [
+        "rompler",
+        "workstation",
+        "sample-based",
+        "multi-timbral"
+      ]
+    },
+    {
+      "slug": "falcon-3",
+      "name": "Falcon 3",
+      "manufacturer_slug": "uvi",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Falcon 3",
+        "UVI Falcon 3"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hybrid instrument combining sampling, synthesis, and effects.",
+      "price_type": "paid",
+      "url": "https://www.uvi.net/falcon.html",
+      "year": 2023,
+      "tags": [
+        "sampler",
+        "synthesizer",
+        "hybrid",
+        "sound-design"
+      ]
+    },
+    {
+      "slug": "grace",
+      "name": "Grace",
+      "manufacturer_slug": "one-small-clue",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "Grace",
+        "One Small Clue Grace"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free SFZ sample player with low CPU usage.",
+      "price_type": "free",
+      "url": "https://www.onesmallclue.com/plugin/grace/",
+      "year": 2015,
+      "tags": [
+        "sampler",
+        "free",
+        "sfz-player",
+        "lightweight"
+      ]
+    },
+    {
+      "slug": "sforzando",
+      "name": "Sforzando",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Sforzando",
+        "Plogue Sforzando"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free high-quality SFZ player from Plogue.",
+      "price_type": "free",
+      "url": "https://www.plogue.com/products/sforzando.html",
+      "year": 2012,
+      "tags": [
+        "sampler",
+        "free",
+        "sfz-player",
+        "versatile"
+      ]
+    },
+    {
+      "slug": "pro-q-4",
+      "name": "Pro-Q 4",
+      "manufacturer_slug": "fabfilter",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "CLAP"
+      ],
+      "aliases": [
+        "Pro-Q 4",
+        "FabFilter Pro-Q 4"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Industry-standard parametric EQ with dynamic EQ and spectrum analysis.",
+      "price_type": "paid",
+      "url": "https://www.fabfilter.com/products/pro-q-4-equalizer-plug-in",
+      "year": 2024,
+      "tags": [
+        "equalizer",
+        "mixing",
+        "mastering",
+        "dynamic-eq",
+        "precise"
+      ]
+    },
+    {
+      "slug": "nova-ge",
+      "name": "Nova GE",
+      "manufacturer_slug": "tdr",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Nova GE",
+        "TDR Nova GE"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Parallel dynamic equalizer for precision mixing.",
+      "price_type": "paid",
+      "url": "https://www.tokyodawn.net/tdr-nova-ge/",
+      "year": 2016,
+      "tags": [
+        "equalizer",
+        "dynamic-eq",
+        "mixing",
+        "mastering",
+        "precise"
+      ]
+    },
+    {
+      "slug": "kirchhoff-eq",
+      "name": "Kirchhoff EQ",
+      "manufacturer_slug": "three-body-technology",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "CLAP"
+      ],
+      "aliases": [
+        "Kirchhoff EQ",
+        "Three-Body Technology Kirchhoff EQ"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Modern equalizer with analog circuit modeling and AI-assisted features.",
+      "price_type": "paid",
+      "url": "https://www.threebodytech.com/kirchhoff-eq/",
+      "year": 2022,
+      "tags": [
+        "equalizer",
+        "mixing",
+        "mastering",
+        "analog-modeling",
+        "modern"
+      ]
+    },
+    {
+      "slug": "toned",
+      "name": "Toned",
+      "manufacturer_slug": "audiothing",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Toned",
+        "AudioThing Toned"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free Baxandall EQ with warm analog character.",
+      "price_type": "free",
+      "url": "https://www.audiothing.net/plugins/toned/",
+      "year": 2023,
+      "tags": [
+        "equalizer",
+        "free",
+        "simple",
+        "mixing",
+        "tone-shaping"
+      ]
+    },
+    {
+      "slug": "ozone-equalizer",
+      "name": "Ozone Equalizer",
+      "manufacturer_slug": "izotope",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Ozone Equalizer",
+        "iZotope Ozone Equalizer"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Mastering-grade equalizer from the Ozone suite.",
+      "price_type": "paid",
+      "url": "https://www.izotope.com/en/products/ozone.html",
+      "year": 2023,
+      "tags": [
+        "equalizer",
+        "mastering",
+        "mixing",
+        "dynamic-eq"
+      ]
+    },
+    {
+      "slug": "mequalizer",
+      "name": "MEqualizer",
+      "manufacturer_slug": "melda-production",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MEqualizer",
+        "Melda Production MEqualizer"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free 6-band parametric EQ with analyzer.",
+      "price_type": "free",
+      "url": "https://www.meldaproduction.com/MEqualizer",
+      "year": 2010,
+      "tags": [
+        "equalizer",
+        "free",
+        "parametric",
+        "mixing",
+        "versatile"
+      ]
+    },
+    {
+      "slug": "kotelnikov-ge",
+      "name": "Kotelnikov GE",
+      "manufacturer_slug": "tdr",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Kotelnikov GE",
+        "TDR Kotelnikov GE"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Gentlemen's Edition mastering compressor with surgical precision.",
+      "price_type": "paid",
+      "url": "https://www.tokyodawn.net/tdr-kotelnikov-ge/",
+      "year": 2017,
+      "tags": [
+        "compressor",
+        "mastering",
+        "transparent",
+        "precise",
+        "bus-compressor"
+      ]
+    },
+    {
+      "slug": "molotok",
+      "name": "Molotok",
+      "manufacturer_slug": "tdr",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Molotok",
+        "TDR Molotok"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free character compressor with aggressive sound.",
+      "price_type": "free",
+      "url": "https://www.tokyodawn.net/tdr-molotok/",
+      "year": 2019,
+      "tags": [
+        "compressor",
+        "free",
+        "character",
+        "drums",
+        "aggressive"
+      ]
+    },
+    {
+      "slug": "mjuc-jr",
+      "name": "MJUC jr.",
+      "manufacturer_slug": "klanghelm",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "MJUC jr.",
+        "Klanghelm MJUC jr."
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free variable-mu compressor with vintage character.",
+      "price_type": "free",
+      "url": "https://klanghelm.com/contents/products/MJUCjr.php",
+      "year": 2016,
+      "tags": [
+        "compressor",
+        "free",
+        "variable-mu",
+        "vintage",
+        "warm"
+      ]
+    },
+    {
+      "slug": "rough-rider-3",
+      "name": "Rough Rider 3",
+      "manufacturer_slug": "audio-damage",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP"
+      ],
+      "aliases": [
+        "Rough Rider 3",
+        "Audio Damage Rough Rider 3"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free modern compressor with aggressive character.",
+      "price_type": "free",
+      "url": "https://www.audiodamage.com/pages/ad056-roughrider3",
+      "year": 2020,
+      "tags": [
+        "compressor",
+        "free",
+        "aggressive",
+        "character",
+        "drums"
+      ]
+    },
+    {
+      "slug": "la-2a",
+      "name": "LA-2A",
+      "manufacturer_slug": "universal-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "LA-2A",
+        "Universal Audio LA-2A"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classic optical compressor emulation for smooth compression.",
+      "price_type": "paid",
+      "url": "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a.html",
+      "year": 2011,
+      "tags": [
+        "compressor",
+        "optical",
+        "vintage",
+        "warm",
+        "vocals"
+      ]
+    },
+    {
+      "slug": "1176",
+      "name": "1176",
+      "manufacturer_slug": "universal-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "1176",
+        "Universal Audio 1176"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "FET compressor emulation — the legendary 1176 hardware.",
+      "price_type": "paid",
+      "url": "https://www.uaudio.com/uad-plugins/compressors-limiters/1176-compressor-collection.html",
+      "year": 2011,
+      "tags": [
+        "compressor",
+        "fet",
+        "vintage",
+        "punchy",
+        "drums"
+      ]
+    },
+    {
+      "slug": "tai-chi",
+      "name": "Tai Chi",
+      "manufacturer_slug": "valhalla-dsp",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Tai Chi",
+        "Valhalla DSP Tai Chi"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Creative modulated reverb for evolving textures.",
+      "price_type": "paid",
+      "url": "https://valhalladsp.com/shop/reverb/valhalla-tai-chi/",
+      "year": 2024,
+      "tags": [
+        "reverb",
+        "creative",
+        "modulated",
+        "ambient",
+        "textural"
+      ]
+    },
+    {
+      "slug": "raum",
+      "name": "Raum",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Raum",
+        "Native Instruments Raum"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free creative reverb with three distinct algorithms.",
+      "price_type": "free",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/raum/",
+      "year": 2019,
+      "tags": [
+        "reverb",
+        "free",
+        "creative",
+        "ambient",
+        "textural"
+      ]
+    },
+    {
+      "slug": "cloudseed",
+      "name": "CloudSeed",
+      "manufacturer_slug": "ghost-note-audio",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP"
+      ],
+      "aliases": [
+        "CloudSeed",
+        "Ghost Note Audio CloudSeed"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free algorithmic reverb inspired by classic hardware.",
+      "price_type": "free",
+      "url": "https://github.com/ghostnoteaudio/cloudseed",
+      "year": 2022,
+      "tags": [
+        "reverb",
+        "free",
+        "algorithmic",
+        "ambient",
+        "lush"
+      ]
+    },
+    {
+      "slug": "mconvolutionez",
+      "name": "MConvolutionEZ",
+      "manufacturer_slug": "melda-production",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MConvolutionEZ",
+        "Melda Production MConvolutionEZ"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free convolution reverb with zero-latency processing.",
+      "price_type": "free",
+      "url": "https://www.meldaproduction.com/MConvolutionEZ",
+      "year": 2010,
+      "tags": [
+        "reverb",
+        "free",
+        "convolution",
+        "realistic",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "freeclip",
+      "name": "FreeClip",
+      "manufacturer_slug": "venn-audio",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "AU",
+        "CLAP"
+      ],
+      "aliases": [
+        "FreeClip",
+        "Venn Audio FreeClip"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free soft clipper for adding warmth and loudness.",
+      "price_type": "free",
+      "url": "https://www.vennaudio.com/freeclip/",
+      "year": 2021,
+      "tags": [
+        "clipper",
+        "free",
+        "saturation",
+        "mastering",
+        "loudness"
+      ]
+    },
+    {
+      "slug": "invisible-limiter-g2",
+      "name": "Invisible Limiter G2",
+      "manufacturer_slug": "aom",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Invisible Limiter G2",
+        "AOM Invisible Limiter G2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Ultra-transparent mastering limiter.",
+      "price_type": "paid",
+      "url": "https://aom-factory.jp/en/products/invisible-limiter-g2/",
+      "year": 2019,
+      "tags": [
+        "limiter",
+        "mastering",
+        "transparent",
+        "precise",
+        "loudness"
+      ]
+    },
+    {
+      "slug": "limiter-no6",
+      "name": "Limiter No6",
+      "manufacturer_slug": "vladg-sound",
+      "category": "effect",
+      "subcategory": "limiter",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Limiter No6",
+        "Vladg Sound Limiter No6"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free mastering limiter with 5 processing modules.",
+      "price_type": "free",
+      "url": "https://vladgsound.wordpress.com/plugins/limiter6/",
+      "year": 2012,
+      "tags": [
+        "limiter",
+        "free",
+        "mastering",
+        "multiband",
+        "versatile"
+      ]
+    },
+    {
+      "slug": "phasemistress",
+      "name": "PhaseMistress",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "PhaseMistress",
+        "Soundtoys PhaseMistress"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Analog phaser with extreme modulation options.",
+      "price_type": "paid",
+      "url": "https://www.soundtoys.com/product/phasemistress/",
+      "year": 2016,
+      "tags": [
+        "phaser",
+        "modulation",
+        "analog",
+        "vintage",
+        "creative"
+      ]
+    },
+    {
+      "slug": "mflanger",
+      "name": "MFlanger",
+      "manufacturer_slug": "melda-production",
+      "category": "effect",
+      "subcategory": "modulation",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MFlanger",
+        "Melda Production MFlanger"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free classic flanger effect with modern features.",
+      "price_type": "free",
+      "url": "https://www.meldaproduction.com/MFlanger",
+      "year": 2010,
+      "tags": [
+        "flanger",
+        "free",
+        "modulation",
+        "creative",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "chorus-ce-2w",
+      "name": "Chorus CE-2W",
+      "manufacturer_slug": "roland",
+      "category": "effect",
+      "subcategory": "chorus",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Chorus CE-2W",
+        "Roland Chorus CE-2W"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Software version of the legendary Boss CE-2W chorus.",
+      "price_type": "paid",
+      "url": "https://www.roland.com/global/products/rc_ce-2w/",
+      "year": 2019,
+      "tags": [
+        "chorus",
+        "vintage",
+        "warm",
+        "modulation",
+        "classic"
+      ]
+    },
+    {
+      "slug": "effectrix",
+      "name": "Effectrix",
+      "manufacturer_slug": "sugar-bytes",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Effectrix",
+        "Sugar Bytes Effectrix"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "14 effects in a sequencer grid for creative processing.",
+      "price_type": "paid",
+      "url": "https://sugar-bytes.de/effectrix",
+      "year": 2009,
+      "tags": [
+        "multi-effect",
+        "sequencer",
+        "creative",
+        "glitch",
+        "performance"
+      ]
+    },
+    {
+      "slug": "turnado",
+      "name": "Turnado",
+      "manufacturer_slug": "sugar-bytes",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Turnado",
+        "Sugar Bytes Turnado"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Real-time multi-effect processor for live performance.",
+      "price_type": "paid",
+      "url": "https://sugar-bytes.de/turnado",
+      "year": 2012,
+      "tags": [
+        "multi-effect",
+        "performance",
+        "creative",
+        "live",
+        "dj"
+      ]
+    },
+    {
+      "slug": "reference",
+      "name": "Reference",
+      "manufacturer_slug": "mastering-the-mix",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Reference",
+        "Mastering The Mix Reference"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Reference track comparison tool for mixing and mastering.",
+      "price_type": "paid",
+      "url": "https://www.masteringthemix.com/products/reference",
+      "year": 2018,
+      "tags": [
+        "reference",
+        "mixing",
+        "mastering",
+        "analysis",
+        "comparison"
+      ]
+    },
+    {
+      "slug": "levels",
+      "name": "LEVELS",
+      "manufacturer_slug": "mastering-the-mix",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "LEVELS",
+        "Mastering The Mix LEVELS"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Multi-metric metering tool for mix and master analysis.",
+      "price_type": "paid",
+      "url": "https://www.masteringthemix.com/products/levels",
+      "year": 2017,
+      "tags": [
+        "metering",
+        "mixing",
+        "mastering",
+        "lufs",
+        "analysis"
+      ]
+    },
+    {
+      "slug": "expose-2",
+      "name": "Expose 2",
+      "manufacturer_slug": "mastering-the-mix",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Expose 2",
+        "Mastering The Mix Expose 2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Audio quality control and analysis tool.",
+      "price_type": "paid",
+      "url": "https://www.masteringthemix.com/products/expose",
+      "year": 2021,
+      "tags": [
+        "analysis",
+        "mastering",
+        "quality-control",
+        "metering"
+      ]
+    },
+    {
+      "slug": "bx-meter",
+      "name": "bx_meter",
+      "manufacturer_slug": "brainworx",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "bx_meter",
+        "Brainworx bx_meter"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free loudness metering plugin with LUFS support.",
+      "price_type": "free",
+      "url": "https://www.plugin-alliance.com/en/products/bx_meter.html",
+      "year": 2012,
+      "tags": [
+        "metering",
+        "free",
+        "loudness",
+        "lufs",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "correlometer",
+      "name": "Correlometer",
+      "manufacturer_slug": "voxengo",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Correlometer",
+        "Voxengo Correlometer"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free stereo correlation meter for phase analysis.",
+      "price_type": "free",
+      "url": "https://www.voxengo.com/product/correlometer/",
+      "year": 2006,
+      "tags": [
+        "metering",
+        "free",
+        "correlation",
+        "phase",
+        "stereo"
+      ]
+    },
+    {
+      "slug": "dpmeter5",
+      "name": "dpMeter5",
+      "manufacturer_slug": "tbproaudio",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "dpMeter5",
+        "TBProAudio dpMeter5"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free loudness meter supporting all broadcast standards.",
+      "price_type": "free",
+      "url": "https://www.tbproaudio.de/products/dpmeter",
+      "year": 2020,
+      "tags": [
+        "metering",
+        "free",
+        "loudness",
+        "lufs",
+        "mastering"
+      ]
+    },
+    {
+      "slug": "plugin-doctor",
+      "name": "Plugin Doctor",
+      "manufacturer_slug": "ddmf",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Plugin Doctor",
+        "DDMF Plugin Doctor"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Plugin analysis tool for examining frequency response and distortion.",
+      "price_type": "paid",
+      "url": "https://ddmf.eu/plugindoctor/",
+      "year": 2015,
+      "tags": [
+        "analyzer",
+        "testing",
+        "plugin-analysis",
+        "frequency-response"
+      ]
+    },
+    {
+      "slug": "panagement",
+      "name": "Panagement",
+      "manufacturer_slug": "auburn-sounds",
+      "category": "utility",
+      "subcategory": "routing",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "CLAP"
+      ],
+      "aliases": [
+        "Panagement",
+        "Auburn Sounds Panagement"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free spatial audio plugin for natural 3D panning.",
+      "price_type": "free",
+      "url": "https://www.auburnsounds.com/products/Panagement.html",
+      "year": 2019,
+      "tags": [
+        "panning",
+        "free",
+        "spatial",
+        "stereo",
+        "imaging"
+      ]
+    },
+    {
+      "slug": "blue-cat-gain-suite",
+      "name": "Blue Cat Gain Suite",
+      "manufacturer_slug": "blue-cat-audio",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Blue Cat Gain Suite",
+        "Blue Cat Audio Blue Cat Gain Suite"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free gain, stereo, and channel utilities.",
+      "price_type": "free",
+      "url": "https://www.bluecataudio.com/Products/Bundle_FreePack/",
+      "year": 2005,
+      "tags": [
+        "gain",
+        "free",
+        "utility",
+        "metering",
+        "basic"
+      ]
+    },
+    {
+      "slug": "manalyzer",
+      "name": "MAnalyzer",
+      "manufacturer_slug": "melda-production",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "MAnalyzer",
+        "Melda Production MAnalyzer"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free dual-channel spectrum analyzer.",
+      "price_type": "free",
+      "url": "https://www.meldaproduction.com/MAnalyzer",
+      "year": 2010,
+      "tags": [
+        "analyzer",
+        "free",
+        "spectrum",
+        "mixing",
+        "dual-channel"
+      ]
+    },
+    {
+      "slug": "torpedo-wall-of-sound",
+      "name": "Torpedo Wall of Sound",
+      "manufacturer_slug": "two-notes",
+      "category": "utility",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Torpedo Wall of Sound",
+        "Two Notes Torpedo Wall of Sound"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Guitar and bass cabinet simulator with IR loading.",
+      "price_type": "freemium",
+      "url": "https://www.two-notes.com/wall-of-sound",
+      "year": 2016,
+      "tags": [
+        "cab-sim",
+        "guitar",
+        "amp",
+        "impulse-response",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "ssl-native-bus-compressor-2",
+      "name": "SSL Native Bus Compressor 2",
+      "manufacturer_slug": "ssl",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "SSL Native Bus Compressor 2",
+        "SSL SSL Native Bus Compressor 2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "The legendary SSL bus compressor — official native plugin.",
+      "price_type": "paid",
+      "url": "https://www.solidstatelogic.com/products/native-bus-compressor-2",
+      "year": 2022,
+      "tags": [
+        "compressor",
+        "bus-compressor",
+        "ssl",
+        "glue",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "compassion",
+      "name": "Compassion",
+      "manufacturer_slug": "dmg-audio",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Compassion",
+        "DMG Audio Compassion"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Advanced compressor with multiple detection and processing modes.",
+      "price_type": "paid",
+      "url": "https://dmgaudio.com/compassion",
+      "year": 2018,
+      "tags": [
+        "compressor",
+        "versatile",
+        "mixing",
+        "mastering",
+        "precise"
+      ]
+    },
+    {
+      "slug": "equick",
+      "name": "EQuick",
+      "manufacturer_slug": "dmg-audio",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "EQuick",
+        "DMG Audio EQuick"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free lightning-fast equalizer for quick mixing.",
+      "price_type": "free",
+      "url": "https://dmgaudio.com/equick",
+      "year": 2017,
+      "tags": [
+        "equalizer",
+        "free",
+        "fast",
+        "mixing",
+        "lightweight"
+      ]
+    },
+    {
+      "slug": "little-plate",
+      "name": "Little Plate",
+      "manufacturer_slug": "soundtoys",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Little Plate",
+        "Soundtoys Little Plate"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vintage plate reverb with simple two-knob interface.",
+      "price_type": "paid",
+      "url": "https://www.soundtoys.com/product/little-plate/",
+      "year": 2017,
+      "tags": [
+        "reverb",
+        "plate",
+        "vintage",
+        "simple",
+        "warm"
+      ]
+    },
+    {
+      "slug": "vu-meter",
+      "name": "VU Meter",
+      "manufacturer_slug": "klanghelm",
+      "category": "utility",
+      "subcategory": "meter",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "VU Meter",
+        "Klanghelm VU Meter"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free VU meter with vintage styling.",
+      "price_type": "free",
+      "url": "https://klanghelm.com/contents/products/VUMeter.php",
+      "year": 2015,
+      "tags": [
+        "metering",
+        "free",
+        "vu",
+        "vintage",
+        "mixing"
+      ]
+    },
+    {
+      "slug": "gclip",
+      "name": "GClip",
+      "manufacturer_slug": "gvst",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3"
+      ],
+      "aliases": [
+        "GClip",
+        "GVST GClip"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free waveshaping clipper for subtle saturation.",
+      "price_type": "free",
+      "url": "https://www.gvst.co.uk/gclip.htm",
+      "year": 2010,
+      "tags": [
+        "clipper",
+        "free",
+        "saturation",
+        "simple",
+        "mastering"
+      ]
     }
   ]
 }
