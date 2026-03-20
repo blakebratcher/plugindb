@@ -501,12 +501,18 @@ button, input, select { font: inherit; color: inherit; }
 
 /* Breadcrumb */
 .breadcrumb {
-  display: flex; align-items: center; gap: 6px;
-  font-size: 12px; color: var(--text-muted); margin-bottom: 16px;
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; color: var(--text-muted); margin-bottom: 20px;
+  padding: 8px 14px; background: var(--bg-secondary); border: 1px solid var(--border-subtle);
+  border-radius: var(--radius); font-weight: 500;
 }
-.breadcrumb a { color: var(--text-muted); transition: color var(--transition); }
+.breadcrumb a {
+  color: var(--text-muted); transition: color var(--transition);
+  display: inline-flex; align-items: center; gap: 4px;
+}
 .breadcrumb a:hover { color: var(--accent); }
-.breadcrumb span { color: var(--border); }
+.breadcrumb .bc-sep { color: var(--border); font-size: 10px; }
+.breadcrumb .bc-current { color: var(--text-secondary); }
 
 /* ==============================
    Plugin Detail — LaunchBox style
