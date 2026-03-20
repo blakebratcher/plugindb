@@ -233,9 +233,9 @@
         <h1>Discover Audio Plugins</h1>
         <p class="hero-tagline">The open database for VSTs, Audio Units, and CLAP plugins. Browse, search, and compare.</p>
         <div class="hero-stats">
-          <div class="hero-stat"><span class="hero-stat-num">${statsData.plugin_count || 294}</span><span class="hero-stat-label">Plugins</span></div>
-          <div class="hero-stat"><span class="hero-stat-num">${statsData.manufacturer_count || 93}</span><span class="hero-stat-label">Manufacturers</span></div>
-          <div class="hero-stat"><span class="hero-stat-num">${Object.keys(statsData.categories || {}).length || 6}</span><span class="hero-stat-label">Categories</span></div>
+          <div class="hero-stat"><span class="hero-stat-num">${statsData.total_plugins || 0}</span><span class="hero-stat-label">Plugins</span></div>
+          <div class="hero-stat"><span class="hero-stat-num">${statsData.total_manufacturers || 0}</span><span class="hero-stat-label">Manufacturers</span></div>
+          <div class="hero-stat"><span class="hero-stat-num">${Object.keys(statsData.categories || {}).length || 0}</span><span class="hero-stat-label">Categories</span></div>
         </div>
         <div class="search-wrap">
           <div class="search-input-wrap">
