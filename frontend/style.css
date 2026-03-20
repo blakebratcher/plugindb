@@ -311,6 +311,13 @@ button, input, select { font: inherit; color: inherit; }
 .toolbar-right {
   display: flex; align-items: center; gap: 8px;
 }
+.sort-indicator {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; font-weight: 500; color: var(--text-muted);
+  padding: 3px 10px; background: var(--bg-secondary); border: 1px solid var(--border-subtle);
+  border-radius: 9999px;
+}
+.sort-indicator svg { width: 10px; height: 10px; }
 .view-toggle {
   display: inline-flex; background: var(--bg-secondary); border: 1px solid var(--border);
   border-radius: var(--radius-sm); overflow: hidden;

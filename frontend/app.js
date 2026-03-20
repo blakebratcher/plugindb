@@ -430,10 +430,13 @@
         toolbarArea.innerHTML = '';
         showEmpty(resultsArea, 'No plugins found. Try adjusting your filters.');
       } else {
-        // Cycle 3: Toolbar with count + view toggle
+        // Toolbar with count + sort indicator + view toggle
+        const sortLabels = { name_asc: 'Name A-Z', name_desc: 'Name Z-A', created_at_desc: 'Newest', created_at_asc: 'Oldest' };
+        const sortLabel = sortVal && sortLabels[sortVal] ? sortLabels[sortVal] : '';
+        const sortPill = sortLabel ? `<span class="sort-indicator"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l5 5H4v7H2V7H-2L3 2zm10 12l-5-5h4V2h2v7h4l-5 5z"/></svg>${escapeHtml(sortLabel)}</span>` : '';
         toolbarArea.innerHTML = `<div class="results-toolbar">
           <span class="results-count">${data.total} plugin${data.total !== 1 ? 's' : ''}</span>
-          <div class="toolbar-right">${viewToggleHtml()}</div>
+          <div class="toolbar-right">${sortPill}${viewToggleHtml()}</div>
         </div>`;
 
         // Wire view toggle
