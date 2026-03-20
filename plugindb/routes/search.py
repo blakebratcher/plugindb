@@ -8,8 +8,6 @@ import math
 import re
 import sqlite3
 
-_logger = logging.getLogger("plugindb")
-
 from fastapi import APIRouter, HTTPException, Query
 
 from plugindb.main import get_db
@@ -21,6 +19,8 @@ from plugindb.models import (
     SuggestResponse,
 )
 from plugindb.queries import build_plugin_responses
+
+_logger = logging.getLogger("plugindb")
 
 router = APIRouter(tags=["search"])
 

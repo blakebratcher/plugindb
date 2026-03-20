@@ -62,7 +62,7 @@ def _compute_seed_etag(conn: sqlite3.Connection) -> str:
             "SELECT COUNT(*) as cnt, MAX(updated_at) as max_updated FROM plugins"
         ).fetchone()
         raw = f"{row['cnt']}:{row['max_updated']}"
-        return hashlib.md5(raw.encode()).hexdigest()[:12]
+        return hashlib.md5(raw.encode(), usedforsecurity=False).hexdigest()[:12]
     except Exception:
         return "unknown"
 
@@ -126,7 +126,7 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
         CORSMiddleware,
         allow_origins=["*"],
         allow_credentials=False,
-        allow_methods=["*"],
+        allow_methods=["GET", "POST", "HEAD", "OPTIONS"],
         allow_headers=["*"],
     )
 

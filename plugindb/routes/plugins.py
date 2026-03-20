@@ -51,7 +51,7 @@ def list_plugins(
     per_page = max(1, min(200, per_page))
 
     # Validate known-set filters
-    from plugindb.seed import VALID_CATEGORIES, VALID_FORMATS, VALID_PRICE_TYPES
+    from plugindb.seed import VALID_CATEGORIES, VALID_PRICE_TYPES
     if category is not None and category not in VALID_CATEGORIES:
         raise HTTPException(status_code=400, detail=f"Invalid category '{category}'. Valid: {sorted(VALID_CATEGORIES)}")
     if price_type is not None and price_type not in VALID_PRICE_TYPES:
