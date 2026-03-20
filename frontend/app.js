@@ -231,6 +231,7 @@
     app.innerHTML = `
       <section class="hero">
         <h1>Discover Audio Plugins</h1>
+        <p class="hero-tagline">The open database for VSTs, Audio Units, and CLAP plugins. Browse, search, and compare.</p>
         <div class="hero-stats">
           <div class="hero-stat"><span class="hero-stat-num">${statsData.plugin_count || 294}</span><span class="hero-stat-label">Plugins</span></div>
           <div class="hero-stat"><span class="hero-stat-num">${statsData.manufacturer_count || 93}</span><span class="hero-stat-label">Manufacturers</span></div>
