@@ -568,6 +568,17 @@ button, input, select { font: inherit; color: inherit; }
   border-bottom: 2px solid var(--border);
 }
 .pd-section { margin-bottom: 40px; }
+.section-count {
+  font-size: 11px; font-weight: 500; text-transform: none;
+  letter-spacing: 0; color: var(--text-muted);
+  margin-left: 8px;
+}
+.section-link {
+  float: right; font-size: 12px; font-weight: 500;
+  text-transform: none; letter-spacing: 0;
+  color: var(--accent); transition: color var(--transition);
+}
+.section-link:hover { color: var(--accent-hover); }
 
 /* CYCLE 11: Info table — icon-prefixed, tighter */
 .pd-info-table {

@@ -532,7 +532,7 @@
       </section>` : '';
 
       const tagsSection = hasTags ? `<section class="pd-section">
-        <h2 class="pd-section-title">Tags</h2>
+        <h2 class="pd-section-title">Genre &amp; Tags</h2>
         <div class="pd-tags">${formatTags(p.tags)}</div>
       </section>` : '';
 
@@ -542,7 +542,7 @@
       </section>`;
 
       const moreSection = hasMfrPlugins ? `<section class="pd-section">
-        <h2 class="pd-section-title">More from ${escapeHtml(mfr.name)}</h2>
+        <h2 class="pd-section-title">More from ${escapeHtml(mfr.name)} <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="section-link">View all &rarr;</a></h2>
         ${pluginGrid(p.manufacturer_plugins)}
       </section>` : '';
 
@@ -580,10 +580,10 @@
           const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 8 });
           const section = document.getElementById('similar-section');
           if (sim.data && sim.data.length && section) {
-            section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2>' + pluginCarousel(sim.data);
+            section.innerHTML = `<h2 class="pd-section-title">Similar Plugins <span class="section-count">${sim.total} found</span></h2>` + pluginCarousel(sim.data);
             wireImageLoading(section);
           } else if (section) {
-            section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:13px">No similar plugins found.</p>';
+            section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:14px">No similar plugins found in this category.</p>';
           }
         } catch (_) {
           var section = document.getElementById('similar-section');
