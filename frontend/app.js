@@ -354,61 +354,72 @@
       const p = await API.get(`/plugins/by-slug/${encodeURIComponent(slug)}`, { include: 'manufacturer_plugins' });
       const mfr = p.manufacturer || {};
       document.title = `${p.name} by ${mfr.name} - PluginDB`;
-      const fmtBadges = (p.formats || []).map(f => formatBadge(f, 'badge-format')).join('');
-      const osBadges = (p.os || []).map(o => formatBadge(o, 'badge-os')).join('');
-      const dawList = (p.daws || []).map(d => `<li>${escapeHtml(d)}</li>`).join('');
-      const aliases = (p.aliases || []);
 
       const placeholder = generatePlaceholder(p.name, p.category);
       const onerrorFallback = 'this.onerror=null;this.parentNode.innerHTML=decodeURIComponent(\'' + encodeURIComponent(placeholder) + '\')';
 
+      // Hero
       const heroHtml = p.image_url
         ? `<div class="pd-hero"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" onerror="${escapeHtml(onerrorFallback)}"><div class="pd-hero-overlay"></div></div>`
         : `<div class="pd-hero pd-hero--empty"><div class="pd-hero-placeholder">${placeholder}</div><div class="pd-hero-overlay"></div></div>`;
 
+      // Title bar
+      const titleHtml = `
+        <div class="pd-title-bar">
+          <h1 class="pd-name">${escapeHtml(p.name)}</h1>
+          <div class="pd-title-meta">
+            <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="pd-mfr-link">${escapeHtml(mfr.name)}</a>
+            ${p.year ? `<span class="pd-year">${escapeHtml(p.year)}</span>` : ''}
+            ${formatPriceBadge(p.price_type)}
+          </div>
+          <div class="pd-actions">
+            ${p.website ? `<a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit Website &rarr;</a>` : ''}
+            <button class="btn btn-sm" id="btn-share">Copy Link</button>
+          </div>
+        </div>`;
+
+      // Info table — LaunchBox-style label:value rows
+      const infoRows = [
+        ['Category', escapeHtml(p.category) + (p.subcategory ? ' / ' + escapeHtml(p.subcategory) : '')],
+        ['Formats', (p.formats || []).map(f => formatBadge(f, 'badge-format')).join(' ')],
+        ['Operating Systems', (p.os || []).map(o => formatBadge(o, 'badge-os')).join(' ')],
+        ['Price', formatPriceBadge(p.price_type)],
+        ['Release Year', p.year ? escapeHtml(p.year) : null],
+        ['Developer', `<a href="#/manufacturers/${escapeHtml(mfr.slug)}">${escapeHtml(mfr.name)}</a>`],
+        ['DAW Compatibility', (p.daws || []).join(', ')],
+        ['Alternate Names', (p.aliases || []).map(a => escapeHtml(a)).join(', ')],
+      ].filter(r => r[1]).map(([label, value]) =>
+        `<div class="pd-info-row"><span class="pd-info-label">${label}</span><span class="pd-info-value">${value}</span></div>`
+      ).join('');
+
+      // Overview
+      const overviewHtml = p.description
+        ? `<section class="pd-section"><h2 class="pd-section-title">Overview</h2><p class="pd-description">${escapeHtml(p.description)}</p></section>`
+        : '';
+
+      // Tags
+      const tagsHtml = (p.tags || []).length
+        ? `<section class="pd-section"><h2 class="pd-section-title">Genre &amp; Tags</h2><div class="pd-tags">${formatTags(p.tags)}</div></section>`
+        : '';
+
+      // Manufacturer plugins
+      const mfrPluginsHtml = (p.manufacturer_plugins && p.manufacturer_plugins.length)
+        ? `<section class="pd-section"><h2 class="pd-section-title">More from ${escapeHtml(mfr.name)}</h2>${pluginGrid(p.manufacturer_plugins)}</section>`
+        : '';
+
       let html = `
         <nav class="breadcrumb"><a href="#/">Plugins</a> <span>&rsaquo;</span> <span>${escapeHtml(p.name)}</span></nav>
         ${heroHtml}
-        <div class="pd-title-bar">
-          <div class="pd-title-content">
-            <h1 class="pd-name">${escapeHtml(p.name)}</h1>
-            <div class="pd-title-meta">
-              <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="pd-mfr-link">${escapeHtml(mfr.name)}</a>
-              ${p.year ? `<span class="pd-year">${escapeHtml(p.year)}</span>` : ''}
-              ${formatPriceBadge(p.price_type)}
-            </div>
-          </div>
-        </div>
-        <div class="pd-layout">
-          <div class="pd-main">
-            ${p.description ? `<section class="pd-section"><h2 class="pd-section-title">About</h2><p class="pd-description">${escapeHtml(p.description)}</p></section>` : ''}
-            ${(p.tags || []).length ? `<section class="pd-section"><h2 class="pd-section-title">Tags</h2><div class="pd-tags">${formatTags(p.tags)}</div></section>` : ''}
-            <section class="pd-section" id="similar-section"></section>
-            ${p.manufacturer_plugins && p.manufacturer_plugins.length ? `<section class="pd-section"><h2 class="pd-section-title">More from ${escapeHtml(mfr.name)}</h2>${pluginGrid(p.manufacturer_plugins)}</section>` : ''}
-          </div>
-          <aside class="pd-sidebar">
-            <div class="pd-sidebar-card">
-              <h2 class="pd-section-title">Details</h2>
-              <div class="pd-detail-list">
-                <div class="pd-detail-row"><span class="pd-detail-label">Category</span><span class="pd-detail-value">${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span></div>
-                ${(p.formats || []).length ? `<div class="pd-detail-row"><span class="pd-detail-label">Formats</span><span class="pd-detail-value pd-detail-badges">${fmtBadges}</span></div>` : ''}
-                ${(p.os || []).length ? `<div class="pd-detail-row"><span class="pd-detail-label">Operating Systems</span><span class="pd-detail-value pd-detail-badges">${osBadges}</span></div>` : ''}
-                ${dawList ? `<div class="pd-detail-row"><span class="pd-detail-label">DAW Compatibility</span><ul class="pd-detail-daws">${dawList}</ul></div>` : ''}
-                <div class="pd-detail-row"><span class="pd-detail-label">Price Type</span><span class="pd-detail-value">${formatPriceBadge(p.price_type)}</span></div>
-                ${p.year ? `<div class="pd-detail-row"><span class="pd-detail-label">Release Year</span><span class="pd-detail-value">${escapeHtml(p.year)}</span></div>` : ''}
-              </div>
-            </div>
-            ${aliases.length ? `<div class="pd-sidebar-card"><h2 class="pd-section-title">Also Known As</h2><ul class="pd-alias-list">${aliases.map(a => `<li>${escapeHtml(a)}</li>`).join('')}</ul></div>` : ''}
-            <div class="pd-sidebar-actions">
-              ${p.website ? `<a href="${escapeHtml(p.website)}" class="btn btn-primary pd-btn-full" target="_blank" rel="noopener">Visit Website &rarr;</a>` : ''}
-              <button class="btn btn-sm pd-btn-full" id="btn-share">Copy Link</button>
-            </div>
-          </aside>
-        </div>`;
+        ${titleHtml}
+        <section class="pd-section"><h2 class="pd-section-title">Details</h2><div class="pd-info-table">${infoRows}</div></section>
+        ${overviewHtml}
+        ${tagsHtml}
+        <section class="pd-section" id="similar-section"></section>
+        ${mfrPluginsHtml}`;
 
       app.innerHTML = html;
 
-      // Share/copy link button
+      // Share button
       const shareBtn = document.getElementById('btn-share');
       if (shareBtn) {
         shareBtn.addEventListener('click', async function () {
@@ -423,14 +434,14 @@
         });
       }
 
-      // Fetch similar plugins asynchronously
+      // Similar plugins (async)
       if (p.id) {
         try {
           const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 6 });
           if (sim.data && sim.data.length) {
             document.getElementById('similar-section').innerHTML = `<h2 class="pd-section-title">Similar Plugins</h2>${pluginGrid(sim.data)}`;
           }
-        } catch (_) { /* non-critical */ }
+        } catch (_) {}
       }
     } catch (err) { showError(app, err.message); }
   };
