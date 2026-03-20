@@ -168,6 +168,7 @@
     app.innerHTML = `
       <section class="hero">
         <h1>Discover Audio Plugins</h1>
+        <p class="hero-sub">294 plugins from 93 manufacturers &mdash; search, browse, and compare</p>
         <div class="search-wrap">
           <input id="search-input" type="search" class="search-input" placeholder="Search plugins\u2026" value="${escapeHtml(q)}" autocomplete="off" aria-label="Search plugins">
           <div id="suggest-dropdown" class="suggest-dropdown hidden"></div>
@@ -516,17 +517,20 @@
 
       let html = `
         <nav class="breadcrumb"><a href="#/manufacturers">Manufacturers</a> <span>&rsaquo;</span> <span>${escapeHtml(m.name)}</span></nav>
-        <section class="detail-header">
-          <h1>${escapeHtml(m.name)}</h1>
-          <p>${data.plugin_count} plugin${data.plugin_count !== 1 ? 's' : ''}${m.website ? ` &middot; <a href="${escapeHtml(m.website)}" target="_blank" rel="noopener">${escapeHtml(m.website.replace(/^https?:\/\//, ''))}</a>` : ''}</p>
-          ${catBadges ? `<div class="cat-badges">${catBadges}</div>` : ''}
-        </section>`;
+        <div class="pd-title-bar">
+          <h1 class="pd-name">${escapeHtml(m.name)}</h1>
+          <div class="pd-title-meta">
+            <span>${data.plugin_count} plugin${data.plugin_count !== 1 ? 's' : ''}</span>
+            ${m.website ? `<a href="${escapeHtml(m.website)}" class="pd-mfr-link" target="_blank" rel="noopener">${escapeHtml(m.website.replace(/^https?:\/\//, ''))}</a>` : ''}
+          </div>
+          ${catBadges ? `<div class="cat-badges" style="margin-top:12px">${catBadges}</div>` : ''}
+        </div>`;
 
       if (data.plugins && data.plugins.length) {
         const bh = '#/manufacturers/' + encodeURIComponent(slug);
-        html += `<section class="browse-section">${pluginGrid(data.plugins)}${renderPagination(data.pagination, bh)}</section>`;
+        html += `<section class="pd-section"><h2 class="pd-section-title">Plugins</h2>${pluginGrid(data.plugins)}${renderPagination(data.pagination, bh)}</section>`;
       } else {
-        html += '<section class="browse-section"><p>No plugins listed yet.</p></section>';
+        html += '<section class="pd-section"><p>No plugins listed yet.</p></section>';
       }
       app.innerHTML = html;
     } catch (err) { showError(app, err.message); }

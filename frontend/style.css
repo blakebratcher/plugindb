@@ -96,8 +96,9 @@ button, input, select { font: inherit; color: inherit; }
 .footer-inner a:hover { color: var(--text-primary); }
 
 /* Hero */
-.hero { text-align: center; margin-bottom: 24px; }
-.hero h1 { font-size: 28px; font-weight: 700; margin-bottom: 16px; }
+.hero { text-align: center; margin-bottom: 32px; padding: 20px 0 0; }
+.hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; letter-spacing: -0.02em; }
+.hero-sub { font-size: 15px; color: var(--text-secondary); margin-bottom: 20px; }
 
 /* Search */
 .search-wrap { max-width: 600px; margin: 0 auto; position: relative; display: flex; gap: 8px; align-items: center; }
@@ -198,7 +199,7 @@ button, input, select { font: inherit; color: inherit; }
   transition: transform var(--transition), box-shadow var(--transition);
   overflow: hidden;
 }
-.plugin-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35); }
+.plugin-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); border-left-color: var(--accent-hover); }
 .card-image {
   aspect-ratio: 16 / 9; overflow: hidden;
   border-radius: var(--radius) var(--radius) 0 0;
