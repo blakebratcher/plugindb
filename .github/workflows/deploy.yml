@@ -1,4 +1,4 @@
-name: Build & Push Docker Image
+name: Build & Deploy
 
 on:
   push:
@@ -35,9 +35,12 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Deploy to Render
+        run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK }}"
+
       - name: Deploy summary
         run: |
           echo "## Deploy Summary" >> $GITHUB_STEP_SUMMARY
           echo "- **Image:** ghcr.io/${{ github.repository }}:${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Live:** https://plugindb.onrender.com" >> $GITHUB_STEP_SUMMARY
-          echo "- **Docs:** https://plugindb.onrender.com/docs" >> $GITHUB_STEP_SUMMARY
+          echo "- **Deployed:** $(date -u)" >> $GITHUB_STEP_SUMMARY
