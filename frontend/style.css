@@ -506,7 +506,7 @@ input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin
   width: 100%; height: 100%; object-fit: cover;
   transition: transform 0.3s ease;
 }
-.plugin-card:hover .card-image img { transform: scale(1.02); }
+/* No scale on hover — keep it clean */
 .card-image::after {
   content: ""; position: absolute; inset: 0;
   background: radial-gradient(ellipse at center, transparent 50%, rgba(17,17,19,0.4) 100%);
