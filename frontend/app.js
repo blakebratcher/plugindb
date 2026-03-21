@@ -547,7 +547,7 @@
       </section>` : '';
 
       let html = `
-        <nav class="breadcrumb"><a href="#/"><svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M8 1l7 6h-2v7H3V7H1l7-6zm1 12V9H7v4h2z"/></svg></a> <span class="bc-sep">&rsaquo;</span> <a href="#/">Plugins</a> <span class="bc-sep">&rsaquo;</span> <span class="bc-current">${escapeHtml(p.name)}</span></nav>
+        <nav class="breadcrumb"><a href="#/">Plugins</a> <span class="bc-sep">/</span> <span class="bc-current">${escapeHtml(p.name)}</span></nav>
         ${heroHtml}
         ${titleHtml}
         ${detailsSection}
@@ -674,7 +674,7 @@
       // Cycle 15: Stats header for manufacturer detail
       const catCount = Object.keys(data.categories || {}).length;
       let html = `
-        <nav class="breadcrumb"><a href="#/"><svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M8 1l7 6h-2v7H3V7H1l7-6zm1 12V9H7v4h2z"/></svg></a> <span class="bc-sep">&rsaquo;</span> <a href="#/manufacturers">Manufacturers</a> <span class="bc-sep">&rsaquo;</span> <span class="bc-current">${escapeHtml(m.name)}</span></nav>
+        <nav class="breadcrumb"><a href="#/manufacturers">Manufacturers</a> <span class="bc-sep">/</span> <span class="bc-current">${escapeHtml(m.name)}</span></nav>
         <div class="pd-title-bar">
           <h1 class="pd-name">${escapeHtml(m.name)}</h1>
           <div class="pd-title-meta">
