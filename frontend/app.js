@@ -100,13 +100,7 @@
   function showEmpty(el, msg) { el.innerHTML = `<div class="state-empty"><p>${escapeHtml(msg || 'Nothing found.')}</p></div>`; }
 
   function generatePlaceholder(name, category) {
-    const colors = {
-      instrument: '#7c3aed', effect: '#3b82f6', utility: '#2dd4bf',
-      midi: '#a78bfa', container: '#f59e0b', 'note-effect': '#ec4899'
-    };
-    const color = colors[category] || '#6b7280';
-    const initials = (name || '').split(/[\s-]+/).slice(0, 2).map(function(w) { return w.charAt(0); }).join('').toUpperCase();
-    return '<div class="card-placeholder" style="background:' + color + '15;color:' + color + '"><span>' + initials + '</span></div>';
+    return '<div class="card-placeholder"></div>';
   }
 
   // Cycle 20: Lazy image loading with fade-in
@@ -134,10 +128,7 @@
       <div class="card-body">
         <div class="card-header"><span class="card-category">${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span>${formatPriceBadge(p.price_type)}</div>
         <h3 class="card-title">${escapeHtml(p.name)}</h3>
-        <p class="card-mfr">${escapeHtml(mfr.name || '')}${p.year ? ' &middot; ' + escapeHtml(p.year) : ''}</p>
-        ${tagPills ? '<div class="card-tags">' + tagPills + '</div>' : ''}
-        ${p.description ? '<p class="card-desc">' + escapeHtml(p.description) + '</p>' : ''}
-        <div class="card-footer">${(p.formats || []).map(f => formatBadge(f, 'badge-sm')).join('')}</div>
+        <p class="card-mfr">${escapeHtml(mfr.name || '')}${p.year ? ' \u00B7 ' + escapeHtml(p.year) : ''}</p>
       </div>
     </a>`;
   }
