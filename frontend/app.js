@@ -593,10 +593,7 @@
             ${p.year ? `<span class="pd-year">${escapeHtml(p.year)}</span>` : ''}
             ${formatPriceBadge(p.price_type)}
           </div>
-          <div class="pd-actions">
-            ${p.website ? `<a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit Website &rarr;</a>` : ''}
-            <button class="btn btn-sm" id="btn-share">Copy Link</button>
-          </div>
+          ${p.website ? `<div class="pd-actions"><a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit Website &rarr;</a></div>` : ''}
         </div>`;
 
       // Inline sections (LaunchBox-style: no tabs, all content visible)
@@ -658,22 +655,7 @@
       app.innerHTML = html;
       wireImageLoading(app);
 
-      // Share button
-      const shareBtn = document.getElementById('btn-share');
-      if (shareBtn) {
-        shareBtn.addEventListener('click', async function () {
-          const url = location.href;
-          if (navigator.share) {
-            try { await navigator.share({ title: p.name + ' - PluginDB', url }); } catch (_) {}
-          } else if (navigator.clipboard) {
-            await navigator.clipboard.writeText(url);
-            shareBtn.textContent = 'Copied!';
-            setTimeout(() => { shareBtn.textContent = 'Copy Link'; }, 2000);
-          }
-        });
-      }
-
-      // Cycle 13: Similar plugins (async, carousel)
+      // Similar plugins (async, carousel)
       if (p.id) {
         try {
           const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 8 });
