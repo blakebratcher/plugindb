@@ -2123,7 +2123,7 @@
         "dub",
         "analog-modeling",
         "tape",
-        "lo-fi",
+        "lofi",
         "creative"
       ]
     },
@@ -2199,7 +2199,7 @@
       "year": 2020,
       "tags": [
         "reverb",
-        "lo-fi",
+        "lofi",
         "vintage",
         "spring",
         "creative",
@@ -2506,7 +2506,7 @@
       "url": "https://babyaud.io/super-vhs-plugin",
       "tags": [
         "distortion",
-        "lo-fi",
+        "lofi",
         "tape",
         "vintage",
         "vhs",
@@ -3070,7 +3070,7 @@
       "tags": [
         "distortion",
         "bitcrusher",
-        "lo-fi",
+        "lofi",
         "sample-rate",
         "vintage",
         "creative"
@@ -4364,7 +4364,7 @@
       "year": 2016,
       "tags": [
         "distortion",
-        "lo-fi",
+        "lofi",
         "codec",
         "creative",
         "artifacts",
@@ -4454,7 +4454,7 @@
         "compressor",
         "character",
         "punchy",
-        "lo-fi",
+        "lofi",
         "mixing",
         "analog-modeling"
       ],
@@ -4497,7 +4497,7 @@
         "wow-flutter",
         "modulation",
         "tape",
-        "lo-fi",
+        "lofi",
         "vintage",
         "creative"
       ]
@@ -5514,7 +5514,7 @@
       "year": 2004,
       "url": "https://www.izotope.com/en/products/vinyl.html",
       "tags": [
-        "lo-fi",
+        "lofi",
         "vinyl",
         "free",
         "vintage",
@@ -5754,7 +5754,7 @@
       "tags": [
         "distortion",
         "bitcrusher",
-        "lo-fi",
+        "lofi",
         "aggressive",
         "creative",
         "electronic"
@@ -7862,7 +7862,7 @@
         "distortion",
         "bitcrusher",
         "chiptune",
-        "lo-fi",
+        "lofi",
         "retro",
         "8-bit"
       ],
@@ -8818,7 +8818,7 @@
       "tags": [
         "vocoder",
         "speech",
-        "lo-fi",
+        "lofi",
         "creative",
         "retro",
         "formant"
@@ -9136,7 +9136,7 @@
       "tags": [
         "distortion",
         "compressor",
-        "lo-fi",
+        "lofi",
         "aggressive",
         "crushing",
         "drums"
@@ -9366,7 +9366,7 @@
       "tags": [
         "delay",
         "vintage",
-        "lo-fi",
+        "lofi",
         "creative",
         "tape",
         "character"
@@ -9863,7 +9863,7 @@
         "dub",
         "free",
         "vintage",
-        "lo-fi",
+        "lofi",
         "creative"
       ],
       "image_url": "https://tal-software.com/images/products/tal-dub.jpg"
@@ -12385,7 +12385,7 @@
       "year": 2017,
       "url": "https://www.xlnaudio.com/products/rc-20-retro-color",
       "tags": [
-        "lo-fi",
+        "lofi",
         "vintage",
         "tape",
         "vinyl",
@@ -16511,7 +16511,7 @@
       "tags": [
         "phaser",
         "modulation",
-        "analog",
+        "analog-modeling",
         "vintage",
         "creative"
       ],
@@ -17432,7 +17432,7 @@
         "eq",
         "preamp",
         "neve",
-        "analog",
+        "analog-modeling",
         "vintage",
         "console",
         "channel-strip"
@@ -17477,7 +17477,7 @@
         "pultec",
         "tube",
         "vintage",
-        "analog",
+        "analog-modeling",
         "warm",
         "mastering"
       ]
@@ -17519,7 +17519,7 @@
         "reverb",
         "chamber",
         "vintage",
-        "analog",
+        "analog-modeling",
         "abbey-road",
         "classic",
         "spatial"
@@ -17562,7 +17562,7 @@
       "tags": [
         "reverb",
         "plate",
-        "analog",
+        "analog-modeling",
         "lush",
         "vintage",
         "mixing"
@@ -17608,7 +17608,7 @@
         "tape",
         "echo",
         "vintage",
-        "analog",
+        "analog-modeling",
         "roland",
         "dub"
       ]
@@ -17649,7 +17649,7 @@
       "tags": [
         "tape",
         "saturation",
-        "analog",
+        "analog-modeling",
         "vintage",
         "warm",
         "console",
@@ -17736,7 +17736,7 @@
         "compressor",
         "bus-compressor",
         "api",
-        "analog",
+        "analog-modeling",
         "punchy",
         "glue",
         "mixing"
@@ -17780,7 +17780,7 @@
         "ssl",
         "eq",
         "compressor",
-        "analog",
+        "analog-modeling",
         "console",
         "mixing"
       ]
@@ -17824,7 +17824,7 @@
         "punchy",
         "drums",
         "aggressive",
-        "analog",
+        "analog-modeling",
         "vintage"
       ]
     },
@@ -18667,7 +18667,7 @@
       "year": 2017,
       "tags": [
         "distortion",
-        "lo-fi",
+        "lofi",
         "bitcrusher",
         "creative",
         "aggressive",
@@ -19790,7 +19790,7 @@
       "tags": [
         "synthesizer",
         "vintage",
-        "analog",
+        "analog-modeling",
         "sample-based",
         "rompler",
         "classic"
@@ -19836,7 +19836,7 @@
         "bus-compressor",
         "ssl",
         "glue",
-        "analog",
+        "analog-modeling",
         "mixing",
         "mastering"
       ],
@@ -19925,7 +19925,7 @@
         "console",
         "eq",
         "compressor",
-        "analog",
+        "analog-modeling",
         "mixing"
       ],
       "image_url": "http://www.plugin-alliance.com/cdn/shop/files/productimage-300374_b2b44f03-8e78-4736-a7b6-ef8820665d5b.png?v=1745586738"
@@ -19975,7 +19975,7 @@
       "tags": [
         "eq",
         "api",
-        "analog",
+        "analog-modeling",
         "vintage",
         "channel-strip",
         "mixing"
@@ -20021,7 +20021,7 @@
         "compressor",
         "mastering",
         "mid-side",
-        "analog",
+        "analog-modeling",
         "transparent",
         "professional"
       ],
@@ -20066,7 +20066,7 @@
         "eq",
         "compressor",
         "mixing",
-        "analog"
+        "analog-modeling"
       ],
       "image_url": "https://slatedigital.com/wp-content/uploads/2024/12/Menu-Featured-Image-1.png"
     },
@@ -20106,7 +20106,7 @@
       "tags": [
         "eq",
         "parametric",
-        "analog",
+        "analog-modeling",
         "zero-latency",
         "mixing",
         "professional"
@@ -20506,7 +20506,7 @@
         "warm",
         "tube",
         "free",
-        "analog",
+        "analog-modeling",
         "subtle"
       ],
       "image_url": "https://www.voxengo.com/cdn/img/52/527pgq7hr.jpg"
@@ -20715,7 +20715,7 @@
         "tube",
         "warm",
         "free",
-        "analog",
+        "analog-modeling",
         "harmonic"
       ],
       "image_url": "https://www.voxengo.com/cdn/img/62/62nvo5hje.jpg"
@@ -20797,9 +20797,9 @@
       "year": 2018,
       "tags": [
         "sampler",
-        "lo-fi",
+        "lofi",
         "vintage",
-        "analog",
+        "analog-modeling",
         "creative",
         "retro"
       ],
@@ -20884,7 +20884,7 @@
       "tags": [
         "drum-machine",
         "free",
-        "analog",
+        "analog-modeling",
         "percussion",
         "electronic",
         "vintage"
@@ -21667,7 +21667,7 @@
         "warm",
         "compressor",
         "limiter",
-        "analog",
+        "analog-modeling",
         "mastering"
       ],
       "image_url": "https://www.pspaudioware.com/assets/PSP_VW_KVR.jpg"
@@ -21938,7 +21938,7 @@
         "neve",
         "saturation",
         "transformer",
-        "analog",
+        "analog-modeling",
         "vintage",
         "warm"
       ],
@@ -21983,7 +21983,7 @@
         "vintage",
         "warm",
         "smooth",
-        "analog"
+        "analog-modeling"
       ],
       "image_url": "https://blackroosteraudio.com//files/content/products/ro-gold/BlackRoosterAudio_RO-GOLD_Box_Medium.png"
     },
@@ -22023,7 +22023,7 @@
       "tags": [
         "tape",
         "saturation",
-        "analog",
+        "analog-modeling",
         "warm",
         "vintage",
         "mixing"
@@ -22068,7 +22068,7 @@
         "free",
         "vintage",
         "digital",
-        "analog",
+        "analog-modeling",
         "retro"
       ]
     },
@@ -22561,7 +22561,7 @@
       "year": 2018,
       "tags": [
         "tape",
-        "lo-fi",
+        "lofi",
         "cassette",
         "wow-flutter",
         "vintage",
@@ -22730,7 +22730,7 @@
       "url": "https://www.audiothing.net/effects/speakers/",
       "year": 2020,
       "tags": [
-        "lo-fi",
+        "lofi",
         "cab-sim",
         "convolution",
         "creative",
@@ -22775,7 +22775,7 @@
       "tags": [
         "noise",
         "vinyl",
-        "lo-fi",
+        "lofi",
         "ambient",
         "texture",
         "creative"
@@ -23531,7 +23531,7 @@
       "tags": [
         "saturation",
         "free",
-        "analog",
+        "analog-modeling",
         "warm",
         "character",
         "mixing"
@@ -23576,7 +23576,7 @@
         "tape",
         "saturation",
         "free",
-        "analog",
+        "analog-modeling",
         "warm",
         "vintage"
       ]
@@ -23617,7 +23617,7 @@
       "tags": [
         "compressor",
         "free",
-        "analog",
+        "analog-modeling",
         "dynamic",
         "character",
         "mixing"
@@ -23659,7 +23659,7 @@
       "year": 2018,
       "tags": [
         "bitcrusher",
-        "lo-fi",
+        "lofi",
         "free",
         "retro",
         "digital",
@@ -24098,7 +24098,7 @@
       "tags": [
         "delay",
         "tube",
-        "analog",
+        "analog-modeling",
         "warm",
         "saturation",
         "vintage"
@@ -24228,7 +24228,7 @@
         "phaser",
         "vintage",
         "modulation",
-        "analog",
+        "analog-modeling",
         "classic",
         "creative"
       ],
@@ -24271,7 +24271,7 @@
         "flanger",
         "vintage",
         "modulation",
-        "analog",
+        "analog-modeling",
         "metallic",
         "creative"
       ],
@@ -24933,7 +24933,7 @@
         "eq",
         "parametric",
         "ssl",
-        "analog",
+        "analog-modeling",
         "console",
         "mixing"
       ]
@@ -25401,7 +25401,7 @@
       "tags": [
         "compressor",
         "character",
-        "analog",
+        "analog-modeling",
         "parallel",
         "mixing",
         "punchy"
@@ -26001,7 +26001,7 @@
         "bitcrusher",
         "distortion",
         "free",
-        "lo-fi",
+        "lofi",
         "glitch",
         "creative"
       ],
@@ -26520,7 +26520,7 @@
         "vintage",
         "vocal",
         "smooth",
-        "analog"
+        "analog-modeling"
       ]
     },
     {
@@ -26601,7 +26601,7 @@
       "year": 2018,
       "tags": [
         "delay",
-        "analog",
+        "analog-modeling",
         "bucket-brigade",
         "chorus",
         "vibrato",
@@ -26906,7 +26906,7 @@
       "year": 2019,
       "tags": [
         "chorus",
-        "analog",
+        "analog-modeling",
         "ensemble",
         "juno",
         "lush",
@@ -27371,7 +27371,7 @@
         "fet",
         "1176",
         "vintage",
-        "analog",
+        "analog-modeling",
         "punchy"
       ]
     },
@@ -27752,7 +27752,7 @@
       "year": 2020,
       "tags": [
         "sampler",
-        "lo-fi",
+        "lofi",
         "vintage",
         "digital",
         "retro",
@@ -28855,7 +28855,7 @@
       "tags": [
         "tape",
         "cassette",
-        "lo-fi",
+        "lofi",
         "free",
         "wow-flutter",
         "vintage"
@@ -29063,7 +29063,7 @@
       "year": 2022,
       "tags": [
         "eq",
-        "analog",
+        "analog-modeling",
         "tube",
         "transistor",
         "character",
@@ -29703,7 +29703,7 @@
         "versatile",
         "character",
         "punchy",
-        "analog",
+        "analog-modeling",
         "mixing"
       ]
     },
@@ -30040,7 +30040,7 @@
       "year": 2020,
       "tags": [
         "tape",
-        "lo-fi",
+        "lofi",
         "cassette",
         "free",
         "saturation",
@@ -34431,7 +34431,7 @@
         "vintage",
         "ensemble",
         "pads",
-        "analog",
+        "analog-modeling",
         "70s"
       ]
     },
@@ -34509,7 +34509,7 @@
       "tags": [
         "synthesizer",
         "polysynth",
-        "analog",
+        "analog-modeling",
         "vintage",
         "80s"
       ],
@@ -34705,7 +34705,7 @@
       "year": 2019,
       "tags": [
         "vinyl",
-        "lo-fi",
+        "lofi",
         "retro",
         "noise",
         "character",
@@ -34977,7 +34977,7 @@
       "year": 2023,
       "tags": [
         "vinyl",
-        "lo-fi",
+        "lofi",
         "free",
         "retro",
         "noise",
@@ -35015,7 +35015,7 @@
       "url": "https://babyaud.io/generation-loss",
       "year": 2023,
       "tags": [
-        "lo-fi",
+        "lofi",
         "tape",
         "vhs",
         "vinyl",
@@ -35056,7 +35056,7 @@
       "tags": [
         "cassette",
         "tape",
-        "lo-fi",
+        "lofi",
         "free",
         "wow-flutter",
         "retro"
@@ -35404,7 +35404,7 @@
       "year": 2021,
       "tags": [
         "vinyl",
-        "lo-fi",
+        "lofi",
         "tape",
         "creative",
         "retro",
@@ -35483,7 +35483,7 @@
       "year": 2022,
       "tags": [
         "creative",
-        "lo-fi",
+        "lofi",
         "experimental",
         "mechanical",
         "texture"
@@ -37490,7 +37490,7 @@
       "year": 2020,
       "tags": [
         "vinyl",
-        "lo-fi",
+        "lofi",
         "abbey-road",
         "retro",
         "creative"
@@ -40256,7 +40256,7 @@
       "url": "https://hy-plugins.com",
       "year": 2022,
       "tags": [
-        "lo-fi",
+        "lofi",
         "bitcrusher",
         "noise",
         "free",
@@ -40799,7 +40799,7 @@
       "tags": [
         "delay",
         "tape",
-        "analog",
+        "analog-modeling",
         "digital",
         "versatile"
       ],
@@ -40837,7 +40837,7 @@
       "year": 2022,
       "tags": [
         "reverb",
-        "lo-fi",
+        "lofi",
         "vintage",
         "digital",
         "retro"
@@ -40951,7 +40951,7 @@
       "year": 2021,
       "tags": [
         "piano",
-        "lo-fi",
+        "lofi",
         "free",
         "sample-based",
         "tape",
@@ -40992,7 +40992,7 @@
         "vintage",
         "free",
         "ensemble",
-        "analog"
+        "analog-modeling"
       ],
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYTXMoYvrolagsgmzLVfidFGGzZy3kCzq92HCUZZbv5cNoQd7aSGRX3CrY-5jlmdlQkTrOgNnlW6cwafPg8yoM8_-yA3lFfwIVuQdUfoTljwUk0XzzwNuVAFCLGblFierZyRjBKAT7LNM/s460/SampleScience_Footer.jpg"
     },
@@ -41027,7 +41027,7 @@
       "tags": [
         "drum-machine",
         "drums",
-        "lo-fi",
+        "lofi",
         "tape",
         "free",
         "sample-based"
@@ -41438,7 +41438,7 @@
       "year": 2021,
       "tags": [
         "bitcrusher",
-        "lo-fi",
+        "lofi",
         "free",
         "8-bit",
         "retro"
@@ -42195,7 +42195,7 @@
       "tags": [
         "synthesizer",
         "oberheim",
-        "analog",
+        "analog-modeling",
         "polysynth",
         "vintage"
       ]
@@ -42237,7 +42237,7 @@
         "arp-2600",
         "semi-modular",
         "vintage",
-        "analog"
+        "analog-modeling"
       ]
     },
     {
@@ -42277,7 +42277,7 @@
         "modular",
         "moog",
         "vintage",
-        "analog",
+        "analog-modeling",
         "experimental"
       ]
     },
@@ -42360,7 +42360,7 @@
         "bass",
         "lead",
         "vintage",
-        "analog"
+        "analog-modeling"
       ]
     },
     {
@@ -42398,7 +42398,7 @@
       "tags": [
         "synthesizer",
         "semi-modular",
-        "analog",
+        "analog-modeling",
         "aggressive",
         "vintage"
       ]
@@ -42511,7 +42511,7 @@
       "year": 2022,
       "tags": [
         "tape",
-        "lo-fi",
+        "lofi",
         "mellotron",
         "vintage",
         "creative",
@@ -42890,7 +42890,7 @@
       "tags": [
         "distortion",
         "creative",
-        "analog",
+        "analog-modeling",
         "digital",
         "dual-channel"
       ]
@@ -43311,7 +43311,7 @@
       "year": 2022,
       "tags": [
         "compressor",
-        "lo-fi",
+        "lofi",
         "character",
         "saturation",
         "funk"
@@ -43935,7 +43935,8 @@
         "synth",
         "modular",
         "semi-modular"
-      ]
+      ],
+      "image_url": "https://madronalabs.com/assets/webflow/size_2600_aalto-179f713e1dde9da43f61fe1382086b7a.jpg"
     },
     {
       "slug": "dada-life-sausage-fattener",
@@ -44152,7 +44153,8 @@
         "compressor",
         "analog-modeling",
         "tube"
-      ]
+      ],
+      "image_url": "https://pulsar.audio/wp-content/uploads/2025/10/Pulsar-VM-COMP.png"
     },
     {
       "slug": "pulsar-echorec",
@@ -44181,7 +44183,8 @@
         "delay",
         "analog-modeling",
         "vintage"
-      ]
+      ],
+      "image_url": "https://pulsar.audio/wp-content/uploads/2019/02/Echorec_Main.jpg"
     },
     {
       "slug": "pulsar-smasher",
@@ -44210,7 +44213,8 @@
         "compressor",
         "free",
         "mixing"
-      ]
+      ],
+      "image_url": "https://pulsar.audio/wp-content/uploads/2019/12/PT-Smasher-window.png"
     },
     {
       "slug": "cytomic-the-glue",
@@ -44305,7 +44309,8 @@
         "transient",
         "dynamics",
         "mixing"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "spl-passeq",
@@ -44336,7 +44341,8 @@
         "eq",
         "passive",
         "mastering"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "spl-de-verb",
@@ -44367,7 +44373,8 @@
         "restoration",
         "de-reverb",
         "mixing"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "spl-twin-tube",
@@ -44397,7 +44404,8 @@
         "saturation",
         "tube",
         "warmth"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "spl-vitalizer-mk2t",
@@ -44427,7 +44435,8 @@
         "enhancer",
         "harmonic",
         "mixing"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "spl-drumxchanger",
@@ -44457,7 +44466,8 @@
         "drums",
         "replacement",
         "mixing"
-      ]
+      ],
+      "image_url": "https://spl.audio/wp-content/uploads/AlleDreiMastering2019.jpg"
     },
     {
       "slug": "spl-bass-ranger",
@@ -44797,7 +44807,8 @@
         "clipper",
         "distortion",
         "mixing"
-      ]
+      ],
+      "image_url": "http://joeysturgistones.com/cdn/shop/files/Store-Card_1.jpg?v=1701209829"
     },
     {
       "slug": "weiss-compressor-limiter",
@@ -45192,7 +45203,8 @@
         "metering",
         "loudness",
         "mastering"
-      ]
+      ],
+      "image_url": "https://nugenaudio.com/wp-content/uploads/2018/01/MasterCheck_Pro-IMG_2033FIX_R4.jpg"
     },
     {
       "slug": "captain-plugins",
@@ -45232,7 +45244,8 @@
         "midi",
         "ai",
         "chords"
-      ]
+      ],
+      "image_url": "https://mixedinkey.com/wp-content/uploads/2019/07/CaptainChords_3.0.png"
     },
     {
       "slug": "sonarworks-reference",
@@ -45264,7 +45277,8 @@
         "calibration",
         "monitoring",
         "reference"
-      ]
+      ],
+      "image_url": "https://s1.files.sonarworks.com/blueprint/pages/-/sonarworks-audio-calibration-software-interface-dashboard.png"
     },
     {
       "slug": "maat-theeq",
@@ -45334,7 +45348,8 @@
         "reverb",
         "algorithmic",
         "classic"
-      ]
+      ],
+      "image_url": "https://adn.harmanpro.com/assets/lexicon/logo-ee1cce9d933bbdc988926f71eb104b00d0872c96b8d972d8703f31e8100e8056.png"
     },
     {
       "slug": "eventide-h910",
@@ -45366,7 +45381,8 @@
         "pitch",
         "harmonizer",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-H910.png"
     },
     {
       "slug": "eventide-h949",
@@ -45398,7 +45414,8 @@
         "pitch",
         "harmonizer",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-H949.png"
     },
     {
       "slug": "eventide-omnipressor",
@@ -45429,7 +45446,8 @@
         "dynamics",
         "compressor",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Omnipressor.png"
     },
     {
       "slug": "bettermaker-eq232d",
@@ -45491,7 +45509,8 @@
         "vintage",
         "digital",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-cloud-jv-1080",
@@ -45525,7 +45544,8 @@
         "vintage",
         "rompler",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-cloud-jx-3p",
@@ -45555,9 +45575,10 @@
       "tags": [
         "synth",
         "vintage",
-        "analog",
+        "analog-modeling",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-cloud-tb-303",
@@ -45589,7 +45610,8 @@
         "bass",
         "acid",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-cloud-system-8",
@@ -45623,7 +45645,8 @@
         "synth",
         "analog-modeling",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-cloud-promars",
@@ -45653,9 +45676,10 @@
       "tags": [
         "synth",
         "vintage",
-        "analog",
+        "analog-modeling",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-srx-dance-trax",
@@ -45687,7 +45711,8 @@
         "rompler",
         "sound-design",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-sound-canvas-va",
@@ -45747,7 +45772,8 @@
         "vintage",
         "analog-modeling",
         "roland"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "roland-wavestation",
@@ -45776,7 +45802,8 @@
         "synth",
         "wave-sequencing",
         "digital"
-      ]
+      ],
+      "image_url": "http://static.roland.com/global/images/og.png"
     },
     {
       "slug": "goodhertz-good-dither",
@@ -45807,7 +45834,8 @@
         "dither",
         "mastering",
         "utility"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_good-dither__og_landscape.png"
     },
     {
       "slug": "goodhertz-lohi",
@@ -45837,7 +45865,8 @@
       "tags": [
         "filter",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_lohi__og_landscape.png"
     },
     {
       "slug": "goodhertz-megaverb",
@@ -45866,9 +45895,10 @@
       "year": 2020,
       "tags": [
         "reverb",
-        "lo-fi",
+        "lofi",
         "creative"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_megaverb__og_landscape.png"
     },
     {
       "slug": "goodhertz-tiltshift",
@@ -45899,7 +45929,8 @@
         "eq",
         "tilt",
         "mixing"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_tiltshift__og_landscape.png"
     },
     {
       "slug": "newfangled-equivocate",
@@ -45930,7 +45961,8 @@
         "eq",
         "graphic",
         "perceptual"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-EQuivocate.png"
     },
     {
       "slug": "newfangled-punctuate",
@@ -45961,7 +45993,8 @@
         "transient",
         "multiband",
         "dynamics"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Punctuate.png"
     },
     {
       "slug": "sonic-academy-kick-2",
@@ -45993,7 +46026,8 @@
         "kick",
         "synth",
         "edm"
-      ]
+      ],
+      "image_url": "https://images.sonicacademy.com/images/medium/62_800x800-website.jpg?1461316509"
     },
     {
       "slug": "faw-sublab",
@@ -46026,7 +46060,8 @@
         "808",
         "synth",
         "trap"
-      ]
+      ],
+      "image_url": "https://cdn.futureaudioworkshop.com/wp-content/uploads/2019/04/18125806/sublab-logo-1.svg"
     },
     {
       "slug": "crave-dsp-crave-eq",
@@ -46370,7 +46405,8 @@
         "channel-strip",
         "free",
         "mixing"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-arctic",
@@ -46402,7 +46438,8 @@
         "eq",
         "free",
         "clean"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-ceil",
@@ -46431,7 +46468,8 @@
       "tags": [
         "limiter",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-celestial",
@@ -46464,7 +46502,8 @@
       "tags": [
         "reverb",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-cerise",
@@ -46493,7 +46532,8 @@
       "tags": [
         "compressor",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-coffeepun",
@@ -46522,7 +46562,8 @@
       "tags": [
         "saturation",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-diamond",
@@ -46558,7 +46599,8 @@
         "dynamics",
         "free",
         "compressor"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-el-rey",
@@ -46588,7 +46630,8 @@
         "compressor",
         "tube",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-firetheclip",
@@ -46620,7 +46663,8 @@
         "clipper",
         "saturation",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-firethepump",
@@ -46650,7 +46694,8 @@
         "compressor",
         "pumping",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-frost",
@@ -46680,7 +46725,8 @@
         "eq",
         "free",
         "clean"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-gainstation",
@@ -46710,7 +46756,8 @@
         "preamp",
         "gain-staging",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-halo",
@@ -46739,7 +46786,8 @@
       "tags": [
         "reverb",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-holycomp",
@@ -46767,7 +46815,8 @@
       "tags": [
         "compressor",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-britpressor",
@@ -46796,7 +46845,8 @@
         "compressor",
         "british",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-brutus",
@@ -46824,7 +46874,8 @@
       "tags": [
         "saturation",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-combox",
@@ -46852,7 +46903,8 @@
       "tags": [
         "compressor",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-fiver",
@@ -46880,7 +46932,8 @@
       "tags": [
         "eq",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-lift",
@@ -46920,7 +46973,8 @@
         "limiter",
         "mastering",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-luxe",
@@ -46949,7 +47003,8 @@
         "enhancer",
         "exciter",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-mndala",
@@ -46977,7 +47032,8 @@
       "tags": [
         "reverb",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-mishby",
@@ -47003,10 +47059,11 @@
       "url": "https://analogobsession.com",
       "year": 2023,
       "tags": [
-        "lo-fi",
+        "lofi",
         "tape",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-random",
@@ -47035,7 +47092,8 @@
         "creative",
         "modulation",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-reddi",
@@ -47065,7 +47123,8 @@
         "tube",
         "di",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-rekt",
@@ -47093,7 +47152,8 @@
       "tags": [
         "distortion",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-silika",
@@ -47121,7 +47181,8 @@
       "tags": [
         "eq",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-tan",
@@ -47150,7 +47211,8 @@
       "tags": [
         "saturation",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-taupe",
@@ -47194,7 +47256,8 @@
         "channel-strip",
         "free",
         "mixing"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-tubelm",
@@ -47223,7 +47286,8 @@
         "limiter",
         "tube",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-violet",
@@ -47252,7 +47316,8 @@
       "tags": [
         "eq",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-n4-surrey",
@@ -47291,7 +47356,8 @@
         "channel-strip",
         "neve",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "refx-nexus",
@@ -47386,7 +47452,8 @@
         "808",
         "synth",
         "trap"
-      ]
+      ],
+      "image_url": "https://initialaudio.com/wp-content/uploads/2024/08/808studiobasssynth.webp"
     },
     {
       "slug": "voxengo-glisseq",
@@ -47416,7 +47483,8 @@
       "tags": [
         "eq",
         "dynamic"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/10/10wl1qr29.jpg"
     },
     {
       "slug": "voxengo-curveeq",
@@ -47446,7 +47514,8 @@
       "tags": [
         "eq",
         "spectrum-matching"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/20/20uac0jvv.jpg"
     },
     {
       "slug": "voxengo-soniformer",
@@ -47477,7 +47546,8 @@
         "dynamics",
         "spectral",
         "multiband"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/44/44cdjyyaw.jpg"
     },
     {
       "slug": "voxengo-harmonieq",
@@ -47507,7 +47577,8 @@
       "tags": [
         "eq",
         "harmonic"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/31/31axpatpk.jpg"
     },
     {
       "slug": "voxengo-voxformer",
@@ -47537,7 +47608,8 @@
       "tags": [
         "vocals",
         "channel-strip"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/93/93zrkwmw7.jpg"
     },
     {
       "slug": "voxengo-recorder",
@@ -47567,7 +47639,8 @@
         "recording",
         "utility",
         "free"
-      ]
+      ],
+      "image_url": "https://www.voxengo.com/cdn/img/26/26ht6epcy.jpg"
     },
     {
       "slug": "denise-audio-noize-2",
@@ -47629,7 +47702,8 @@
         "phase",
         "alignment",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/X Phase.jpg"
     },
     {
       "slug": "ssl-native-x-saturator",
@@ -47660,7 +47734,8 @@
         "saturation",
         "console",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/X Saturator.jpg"
     },
     {
       "slug": "ssl-native-x-valvecomp",
@@ -47691,7 +47766,8 @@
         "compressor",
         "tube",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/X Valvecomp.jpg"
     },
     {
       "slug": "accusonus-era-plosive-remover",
@@ -47901,7 +47977,8 @@
         "networking",
         "utility",
         "free"
-      ]
+      ],
+      "image_url": "https://audiogridder.com/wp-content/uploads/2020/09/diagram-1024x766.png"
     },
     {
       "slug": "fl-studio-vsti",
@@ -47928,7 +48005,8 @@
       "tags": [
         "host",
         "daw"
-      ]
+      ],
+      "image_url": "https://www.image-line.com/static/assets/flc-news-768x512.af672e6.png"
     },
     {
       "slug": "xln-audio-xo",
@@ -47959,7 +48037,8 @@
         "drums",
         "sampler",
         "ai"
-      ]
+      ],
+      "image_url": "https://assets.xlnaudio.com/merchant-feed/XOCP0001.jpg"
     },
     {
       "slug": "tse-x50",
@@ -48051,7 +48130,8 @@
         "eq",
         "mastering",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "eventide-tc2290",
@@ -48083,7 +48163,8 @@
         "delay",
         "dynamic",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2025/10/TemperancePro-Hero-scaled-1-1625x914.png"
     },
     {
       "slug": "camel-audio-camelphat",
@@ -48114,7 +48195,8 @@
         "distortion",
         "multi-effect",
         "creative"
-      ]
+      ],
+      "image_url": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743"
     },
     {
       "slug": "engl-amp-sim",
@@ -48145,7 +48227,8 @@
       "tags": [
         "amp-sim",
         "guitar"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "oto-biscuit",
@@ -48172,7 +48255,7 @@
       "url": "https://www.otomachines.com",
       "year": 2019,
       "tags": [
-        "lo-fi",
+        "lofi",
         "bitcrusher",
         "creative"
       ]
@@ -48205,7 +48288,8 @@
       "tags": [
         "amp-sim",
         "guitar"
-      ]
+      ],
+      "image_url": "http://www.stltones.com/cdn/shop/files/Shopify-Social-Sharing-Image.jpg?v=1642650192"
     },
     {
       "slug": "svt-suite",
@@ -48237,7 +48321,8 @@
         "amp-sim",
         "bass",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "pg-8x",
@@ -48298,7 +48383,8 @@
         "sampler",
         "free",
         "acoustic"
-      ]
+      ],
+      "image_url": "https://www.powerdrumkit.com/images/open-graph/og-index.jpg"
     },
     {
       "slug": "diezel-herbert",
@@ -48329,7 +48415,8 @@
         "amp-sim",
         "guitar",
         "high-gain"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "kush-ubk-1",
@@ -48359,7 +48446,8 @@
         "compressor",
         "bus",
         "saturation"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "kazrog-kclip",
@@ -48390,7 +48478,8 @@
         "clipper",
         "limiter",
         "mastering"
-      ]
+      ],
+      "image_url": "http://kazrog.com/cdn/shop/files/Kazrog_Logo_Vector_Black.png?v=1711000268"
     },
     {
       "slug": "kazrog-true-iron",
@@ -48421,7 +48510,8 @@
         "saturation",
         "transformer",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "http://kazrog.com/cdn/shop/files/Kazrog_Logo_Vector_Black.png?v=1711000268"
     },
     {
       "slug": "vengeance-vclip",
@@ -48510,7 +48600,8 @@
         "sampler",
         "player",
         "free"
-      ]
+      ],
+      "image_url": "https://cdn.uvi.net/UVIFC_Falcon/medias/conversions/1761051815_Falcon-26_cover-responsive-webp-retina.webp"
     },
     {
       "slug": "output-crtiv",
@@ -48543,7 +48634,8 @@
         "chorus",
         "reverb",
         "tape"
-      ]
+      ],
+      "image_url": "https://storyblok-assets.output.com/1200x675/80932cec72/home-seo.jpg"
     },
     {
       "slug": "magic-death-eye",
@@ -48573,7 +48665,8 @@
         "compressor",
         "optical",
         "tube"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "d16-punchbox",
@@ -48604,7 +48697,8 @@
         "drums",
         "kick",
         "synth"
-      ]
+      ],
+      "image_url": "http://www.d16.pl/images/products/punchbox/bg2.jpg"
     },
     {
       "slug": "ds10-drum-shaper",
@@ -48635,7 +48729,8 @@
         "transient",
         "drums",
         "shaper"
-      ]
+      ],
+      "image_url": "https://assets.xlnaudio.com/images/sitewide/rebrand/xln-audio-logo-og.png"
     },
     {
       "slug": "ppmulator",
@@ -48665,7 +48760,8 @@
       "tags": [
         "metering",
         "broadcast"
-      ]
+      ],
+      "image_url": "http://www.plugin-alliance.com/cdn/shop/files/Dave-Pensado-Andre-Sphere-Studios_41d84c5f-8d56-4bad-a393-0be29da019cb.jpg?v=1760428363"
     },
     {
       "slug": "sonoris-mastering-compressor",
@@ -48696,7 +48792,8 @@
         "compressor",
         "mastering",
         "transparent"
-      ]
+      ],
+      "image_url": "https://www.sonorissoftware.com/wordpress/wp-content/uploads/2020/03/sonoris-social.png"
     },
     {
       "slug": "audiority-rx950",
@@ -48724,7 +48821,7 @@
       "url": "https://www.audiority.com/shop/rx950/",
       "year": 2018,
       "tags": [
-        "lo-fi",
+        "lofi",
         "sampler",
         "vintage"
       ]
@@ -48783,7 +48880,8 @@
       "tags": [
         "amp-sim",
         "guitar"
-      ]
+      ],
+      "image_url": "https://www.kuassa.com/wp-content/uploads/2021/07/logo-kuassa-color-600-square-2021.png"
     },
     {
       "slug": "unison-midi-wizard",
@@ -48812,7 +48910,8 @@
         "midi",
         "chords",
         "composition"
-      ]
+      ],
+      "image_url": "https://unison.audio/wp-content/uploads/MIDI-Wizard-2.0-3-Plug-Ins-Graphic.png"
     },
     {
       "slug": "waves-adclip",
@@ -52107,7 +52206,7 @@
       "tags": [
         "compressor",
         "saturation",
-        "analog",
+        "analog-modeling",
         "warm",
         "character"
       ]
@@ -53158,7 +53257,7 @@
         "distortion",
         "bitcrusher",
         "aggressive",
-        "lo-fi",
+        "lofi",
         "creative"
       ]
     },
@@ -53197,7 +53296,7 @@
         "noise",
         "creative",
         "aggressive",
-        "lo-fi"
+        "lofi"
       ]
     },
     {
@@ -53718,7 +53817,7 @@
       "price_type": "paid",
       "tags": [
         "synthesizer",
-        "lo-fi",
+        "lofi",
         "vintage",
         "analog-modeling",
         "retro",
@@ -53756,7 +53855,7 @@
       "price_type": "paid",
       "tags": [
         "synthesizer",
-        "lo-fi",
+        "lofi",
         "retro",
         "electronic"
       ]
@@ -55674,7 +55773,7 @@
       "description": "Lo-fi audio degradation.",
       "price_type": "paid",
       "tags": [
-        "lo-fi",
+        "lofi",
         "glitch",
         "bitcrusher",
         "distortion",
@@ -55823,7 +55922,7 @@
       "description": "Magnetic tape/spring emulation.",
       "price_type": "paid",
       "tags": [
-        "lo-fi",
+        "lofi",
         "tape",
         "creative",
         "vintage"

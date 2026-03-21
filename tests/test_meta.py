@@ -354,7 +354,7 @@ class TestSearchAnalytics:
     def test_analytics_returns_structure(self, client):
         # Trigger a search first to generate log data
         client.get("/api/v1/search", params={"q": "reverb"})
-        resp = client.get("/api/v1/search-analytics")
+        resp = client.get("/api/v1/search-analytics", params={"key": "plugindb-admin"})
         assert resp.status_code == 200
         body = resp.json()
         assert "total_searches" in body
@@ -365,14 +365,14 @@ class TestSearchAnalytics:
     def test_analytics_logs_search(self, client):
         """Search queries are logged and appear in analytics."""
         client.get("/api/v1/search", params={"q": "test_unique_query_xyz"})
-        resp = client.get("/api/v1/search-analytics")
+        resp = client.get("/api/v1/search-analytics", params={"key": "plugindb-admin"})
         queries = [q["query"] for q in resp.json()["top_queries"]]
         assert "test_unique_query_xyz" in queries
 
     def test_analytics_tracks_zero_results(self, client):
         """Zero-result searches are tracked separately."""
         client.get("/api/v1/search", params={"q": "zznonexistent"})
-        resp = client.get("/api/v1/search-analytics")
+        resp = client.get("/api/v1/search-analytics", params={"key": "plugindb-admin"})
         zero_queries = [q["query"] for q in resp.json()["zero_result_queries"]]
         assert "zznonexistent" in zero_queries
 

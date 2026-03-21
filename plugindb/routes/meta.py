@@ -280,8 +280,13 @@ def export_data(
 
 
 @router.get("/search-analytics")
-def get_search_analytics():
-    """Return search analytics: top queries, zero-result queries, volume."""
+def get_search_analytics(key: str = Query(None, description="Access key")):
+    """Return search analytics (requires key). Top queries, zero-result queries, volume."""
+    import os
+    expected = os.environ.get("ANALYTICS_KEY", "plugindb-admin")
+    if key != expected:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=403, detail="Invalid or missing analytics key")
     conn = get_db()
     try:
         top = conn.execute(
