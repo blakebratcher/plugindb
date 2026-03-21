@@ -510,11 +510,12 @@
       } else {
         // Toolbar with count + sort dropdown + view toggle
         const sortDropdownHtml = `<select class="toolbar-sort" id="toolbar-sort" aria-label="Sort">
-          <option value="">Relevance</option>
+          <option value="">Sort by</option>
           <option value="name_asc"${sortVal === 'name_asc' ? ' selected' : ''}>Name A-Z</option>
           <option value="name_desc"${sortVal === 'name_desc' ? ' selected' : ''}>Name Z-A</option>
-          <option value="created_at_desc"${sortVal === 'created_at_desc' ? ' selected' : ''}>Newest</option>
-          <option value="created_at_asc"${sortVal === 'created_at_asc' ? ' selected' : ''}>Oldest</option>
+          <option value="year_desc"${sortVal === 'year_desc' ? ' selected' : ''}>Release Date (Newest)</option>
+          <option value="year_asc"${sortVal === 'year_asc' ? ' selected' : ''}>Release Date (Oldest)</option>
+          <option value="created_at_desc"${sortVal === 'created_at_desc' ? ' selected' : ''}>Recently Added</option>
         </select>`;
         toolbarArea.innerHTML = `<div class="results-toolbar">
           <span class="results-count">${data.total} plugin${data.total !== 1 ? 's' : ''}</span>
