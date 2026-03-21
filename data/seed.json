@@ -1579,7 +1579,8 @@
         "virtual-analog",
         "pads",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/hybrid_3-d.jpg"
     },
     {
       "slug": "vacuum-pro",
@@ -1619,7 +1620,8 @@
         "vintage",
         "warm",
         "polyphonic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/air_vacuumpro.jpg"
     },
     {
       "slug": "fetish",
@@ -2913,7 +2915,8 @@
         "moog",
         "retro",
         "monophonic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dreamsynth-ui_full_1600px.jpg"
     },
     {
       "slug": "voltage-modular",
@@ -3162,7 +3165,8 @@
         "vintage",
         "stereo",
         "modulation"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/lush-2---synth-view---main.jpg"
     },
     {
       "slug": "repeater",
@@ -3244,7 +3248,8 @@
         "mixing",
         "spatial",
         "modern"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/64e2b76b383c11b3c1d4d95a/675348661cb614653d76c109_perfect_room_final_UI%201.png"
     },
     {
       "slug": "duck",
@@ -4285,7 +4290,8 @@
         "experimental",
         "sound-design",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/hysteresis_ui-1-scaled.jpg"
     },
     {
       "slug": "canopener",
@@ -4546,7 +4552,8 @@
         "sound-design",
         "modern",
         "texture"
-      ]
+      ],
+      "image_url": "https://rekkerd.org/wp-content/uploads/2025/05/IFEA-OBRA.jpg"
     },
     {
       "slug": "ifea-obra",
@@ -4623,7 +4630,8 @@
         "transparent",
         "creative",
         "mixing"
-      ]
+      ],
+      "image_url": "https://rekkerd.org/wp-content/uploads/2025/05/IFEA-OBRA.jpg"
     },
     {
       "slug": "ifea-spectral-gate",
@@ -4661,7 +4669,8 @@
         "modern",
         "sound-design",
         "experimental"
-      ]
+      ],
+      "image_url": "https://rekkerd.org/wp-content/uploads/2025/05/IFEA-OBRA.jpg"
     },
     {
       "slug": "gatekeeper",
@@ -5642,7 +5651,8 @@
         "sound-design",
         "routing",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/slice_eq_full.jpg"
     },
     {
       "slug": "khs-compactor",
@@ -5727,7 +5737,8 @@
         "lightweight",
         "free",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/slice_eq_full.jpg"
     },
     {
       "slug": "maim",
@@ -6125,7 +6136,8 @@
         "simple",
         "utility",
         "coloring"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "st4b",
@@ -7283,7 +7295,8 @@
         "harmonic",
         "mixing",
         "warm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/faturator.jpg"
     },
     {
       "slug": "archetype-gojira",
@@ -7964,7 +7977,8 @@
         "open-source",
         "pure-data",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "plugdata-fx",
@@ -8005,7 +8019,8 @@
         "open-source",
         "pure-data",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "bx-console",
@@ -8361,7 +8376,8 @@
         "composition",
         "songwriting",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "blade-2",
@@ -8566,7 +8582,8 @@
         "loudness",
         "saturation",
         "clean"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/standardclip_1_4_product_image_1582px.jpg"
     },
     {
       "slug": "fg-x-2",
@@ -9517,7 +9534,8 @@
         "electric-piano",
         "vintage",
         "cinematic"
-      ]
+      ],
+      "image_url": "https://www.spectrasonics.net/img/products/keyscape/keyscape-hero.jpg"
     },
     {
       "slug": "omnisphere",
@@ -9787,7 +9805,8 @@
         "vintage",
         "creative",
         "warm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "tal-chorus-lx",
@@ -10852,7 +10871,8 @@
         "mixing",
         "vocal",
         "dense"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/valhallaplate_v1_0_0.png"
     },
     {
       "slug": "valhallaroom",
@@ -10975,7 +10995,8 @@
         "free",
         "creative",
         "stereo"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/valhallaspacemod.jpg"
     },
     {
       "slug": "valhallasupermassive",
@@ -12001,7 +12022,8 @@
         "utility",
         "routing",
         "plugin-management"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/h-reverb-hybrid-reverb.jpg"
     },
     {
       "slug": "spectre",
@@ -12540,7 +12562,8 @@
         "sound-design",
         "versatile",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/rob_papen_blue_iii.png"
     },
     {
       "slug": "reveal-sound-spire",
@@ -12899,7 +12922,8 @@
         "free",
         "open-source",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "klanghelm-ivgi",
@@ -13594,7 +13618,8 @@
         "vocal",
         "ai-assisted",
         "suite"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/tbb-fan-connected.jpg"
     },
     {
       "slug": "izotope-insight-2",
@@ -13688,7 +13713,8 @@
         "channel-strip",
         "versatile",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/h-reverb-hybrid-reverb.jpg"
     },
     {
       "slug": "waves-api-2500",
@@ -13914,7 +13940,8 @@
         "channel-strip",
         "versatile",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "bx-subsynth",
@@ -14092,7 +14119,8 @@
         "loudness",
         "simple",
         "utility"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/m/2018-06-05_16_40_45-window.png"
     },
     {
       "slug": "aegean-music-pitchproof",
@@ -14134,7 +14162,8 @@
         "octave",
         "creative",
         "simple"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "variety-of-sound-epicverb",
@@ -14256,7 +14285,8 @@
         "open-source",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://raw.githubusercontent.com/jatinchowdhury18/AnalogTapeModel/master/Plugin/Screenshots/full_gui.png"
     },
     {
       "slug": "chowdsp-chow-centaur",
@@ -14300,7 +14330,8 @@
         "open-source",
         "guitar",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://raw.githubusercontent.com/jatinchowdhury18/KlonCentaur/master/Paper/Figures/Plugin.png"
     },
     {
       "slug": "a1audio-a1stereocontrol",
@@ -14342,7 +14373,8 @@
         "utility",
         "imaging",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/a1stereocontrol.png"
     },
     {
       "slug": "a1audio-a1triggergate",
@@ -14384,7 +14416,8 @@
         "electronic",
         "rhythmic",
         "sidechain"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/a1triggergate.png"
     },
     {
       "slug": "lkjb-luftikus",
@@ -14463,7 +14496,8 @@
         "drums",
         "punch",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/transpire.png"
     },
     {
       "slug": "acustica-audio-aquamarine",
@@ -14689,7 +14723,8 @@
         "sound-design",
         "mixing",
         "spectral"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Physion.png"
     },
     {
       "slug": "soundtoys-sie-q",
@@ -15458,7 +15493,8 @@
         "acoustic",
         "sample-based",
         "realistic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "addictive-keys",
@@ -15498,7 +15534,8 @@
         "keyboard",
         "sample-based",
         "realistic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/06-explore-mark_one.jpg"
     },
     {
       "slug": "decent-sampler",
@@ -15581,7 +15618,8 @@
         "workstation",
         "sample-based",
         "multi-timbral"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/st4/main-banner-v1-20250625/regular.jpg"
     },
     {
       "slug": "falcon-3",
@@ -15661,7 +15699,8 @@
         "free",
         "sfz-player",
         "lightweight"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "sforzando",
@@ -15832,7 +15871,8 @@
         "mastering",
         "analog-modeling",
         "modern"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/detail0.png"
     },
     {
       "slug": "toned",
@@ -15873,7 +15913,8 @@
         "simple",
         "mixing",
         "tone-shaping"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "ozone-equalizer",
@@ -16249,7 +16290,8 @@
         "modulated",
         "ambient",
         "textural"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/valhallaplate_v1_0_0.png"
     },
     {
       "slug": "raum",
@@ -16332,7 +16374,8 @@
         "algorithmic",
         "ambient",
         "lush"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "mconvolutionez",
@@ -16626,7 +16669,8 @@
         "warm",
         "modulation",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "effectrix",
@@ -16961,7 +17005,8 @@
         "loudness",
         "lufs",
         "mastering"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dpmeter5_normal.jpg"
     },
     {
       "slug": "plugin-doctor",
@@ -17087,7 +17132,8 @@
         "utility",
         "metering",
         "basic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "manalyzer",
@@ -17171,7 +17217,8 @@
         "amp",
         "impulse-response",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "ssl-native-bus-compressor-2",
@@ -17214,7 +17261,8 @@
         "ssl",
         "glue",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/Bus Compressor 2.jpg"
     },
     {
       "slug": "compassion",
@@ -17420,7 +17468,8 @@
         "saturation",
         "simple",
         "mastering"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/gclip_ui.png"
     },
     {
       "slug": "ua-neve-1073",
@@ -17819,7 +17868,8 @@
         "analog-modeling",
         "console",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/uad-vcavu.jpg"
     },
     {
       "slug": "ua-dbx-160",
@@ -17862,7 +17912,8 @@
         "aggressive",
         "analog-modeling",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/uad-vcavu.jpg"
     },
     {
       "slug": "waves-l3-multimaximizer",
@@ -17993,7 +18044,8 @@
         "convolution",
         "lush",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/h-reverb-hybrid-reverb.jpg"
     },
     {
       "slug": "waves-cla-vocals",
@@ -18383,7 +18435,8 @@
         "de-harshness",
         "mixing",
         "mastering"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/tbb-fan-connected.jpg"
     },
     {
       "slug": "izotope-audiolens",
@@ -18467,7 +18520,8 @@
         "diffusion",
         "modern",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/products/ws_facelift/replika-xt.png"
     },
     {
       "slug": "ni-supercharger-gt",
@@ -18595,7 +18649,8 @@
         "vintage",
         "modern",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2018/mod-pack_pf.png"
     },
     {
       "slug": "ni-choral",
@@ -18637,7 +18692,8 @@
         "lush",
         "stereo",
         "width"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2018/mod-pack_pf.png"
     },
     {
       "slug": "ni-flair",
@@ -18679,7 +18735,8 @@
         "metallic",
         "sound-design",
         "stereo"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2018/mod-pack_pf.png"
     },
     {
       "slug": "ni-crush-pack",
@@ -18721,7 +18778,8 @@
         "creative",
         "aggressive",
         "bundle"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2018/crush-pack_pf.png"
     },
     {
       "slug": "ni-kontour",
@@ -18763,7 +18821,8 @@
         "sound-design",
         "textural",
         "unique"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/kontour.png"
     },
     {
       "slug": "ni-razor",
@@ -19334,7 +19393,8 @@
         "pads",
         "textural",
         "orchestral"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "archetype-nolly",
@@ -19645,7 +19705,8 @@
         "pedalboard",
         "effects-chain",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg"
     },
     {
       "slug": "t-racks-5",
@@ -19777,7 +19838,8 @@
         "physical-modeling",
         "realistic",
         "instrument"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/modobass2/main-banner/regular.jpg"
     },
     {
       "slug": "modo-drum",
@@ -19819,7 +19881,8 @@
         "acoustic-drums",
         "realistic",
         "drum-machine"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/mododrum/main-banner-1.5/regular.jpg"
     },
     {
       "slug": "syntronik-2",
@@ -19862,7 +19925,8 @@
         "sample-based",
         "rompler",
         "classic"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/syntronik2/main-banner/regular.jpg"
     },
     {
       "slug": "bx-townhouse",
@@ -21825,7 +21889,8 @@
         "plate",
         "classic",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "audiority-grainspace",
@@ -22263,7 +22328,8 @@
         "analog-modeling",
         "vintage",
         "simple"
-      ]
+      ],
+      "image_url": "https://www.fullbucket.de/music/images/bucketone_small.png"
     },
     {
       "slug": "full-bucket-fb-3300",
@@ -22431,7 +22497,8 @@
         "sequencer",
         "random",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "hy-plugins-hy-seq16x3",
@@ -22472,7 +22539,8 @@
         "step-sequencer",
         "modulation",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "socalabs-wavetable",
@@ -22554,7 +22622,8 @@
         "spectral",
         "harmonic",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "socalabs-organ",
@@ -23054,7 +23123,8 @@
         "creative",
         "tuning",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "minimal-audio-cluster",
@@ -23185,7 +23255,8 @@
         "keys",
         "textural",
         "hybrid"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "heavyocity-gravity",
@@ -23528,7 +23599,8 @@
         "metal",
         "phrase-based",
         "realistic"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/_processed_/d/f/csm_Iron-KV_aab8d6076c.jpg"
     },
     {
       "slug": "ujam-virtual-guitarist-sparkle",
@@ -23570,7 +23642,8 @@
         "pop",
         "funk",
         "phrase-based"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/_processed_/9/2/csm_vg-Sparkle_hero_header_302c7fa40d.png"
     },
     {
       "slug": "airwindows-density",
@@ -23656,7 +23729,8 @@
         "analog-modeling",
         "warm",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "airwindows-pressure-4",
@@ -23910,7 +23984,8 @@
         "compressor",
         "reverb",
         "gate"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dead-duck-free-effects.png"
     },
     {
       "slug": "lsp-plugins-compressor",
@@ -23948,7 +24023,8 @@
         "linux",
         "sidechain",
         "professional"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/compressor_stereo.1689879422.png"
     },
     {
       "slug": "lsp-plugins-parametric-eq",
@@ -23986,7 +24062,8 @@
         "open-source",
         "linux",
         "analyzer"
-      ]
+      ],
+      "image_url": "https://lsp-plug.in/img/plugins/para_equalizer_x8_stereo.png"
     },
     {
       "slug": "lsp-plugins-gate",
@@ -24024,7 +24101,8 @@
         "linux",
         "sidechain",
         "noise"
-      ]
+      ],
+      "image_url": "https://lsp-plug.in/img/plugins/sc_gate_stereo.png"
     },
     {
       "slug": "lsp-plugins-limiter",
@@ -24062,7 +24140,8 @@
         "linux",
         "brickwall",
         "true-peak"
-      ]
+      ],
+      "image_url": "https://lsp-plug.in/img/plugins/sc_limiter_stereo.png"
     },
     {
       "slug": "distrho-kars",
@@ -24100,7 +24179,8 @@
         "string",
         "physical-modeling",
         "open-source"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "distrho-miniopl",
@@ -24138,7 +24218,8 @@
         "retro",
         "chiptune",
         "open-source"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "softube-tube-delay",
@@ -24179,7 +24260,8 @@
         "warm",
         "saturation",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/99872527F1DFB3B5B99A1536691A3C9E0FF34989AC50909F4F35E5FB9599DA42/d94678ba83e34ca99c67c95e358d1f71/png/media/4b386615cec0416caea7663745a0d60b/tube-delay-product-image.png"
     },
     {
       "slug": "softube-amp-room",
@@ -24660,7 +24742,8 @@
         "rhythmic",
         "creative",
         "slicer"
-      ]
+      ],
+      "image_url": "https://sugar-bytes.de/storage/app/media/looperator/s1_1024x640.jpg"
     },
     {
       "slug": "sugar-bytes-obscurium",
@@ -24702,7 +24785,8 @@
         "algorithmic",
         "experimental",
         "creative"
-      ]
+      ],
+      "image_url": "https://sugar-bytes.de/storage/app/media/obscurium/s1.jpg"
     },
     {
       "slug": "roland-cloud-juno-106",
@@ -24972,7 +25056,8 @@
         "compressor",
         "console",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/Channel-Strip-New-GUI.png"
     },
     {
       "slug": "ssl-native-x-eq-2",
@@ -25014,7 +25099,8 @@
         "analog-modeling",
         "console",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/X EQ2.jpg"
     },
     {
       "slug": "ssl-native-x-comp",
@@ -25057,7 +25143,8 @@
         "sidechain",
         "mixing",
         "professional"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/X Comp.jpg"
     },
     {
       "slug": "ssl-native-drumstrip",
@@ -25100,7 +25187,8 @@
         "channel-strip",
         "ssl",
         "mixing"
-      ]
+      ],
+      "image_url": "https://www.solidstatelogic.com/assets/uploads/products/DrumStrip.jpg"
     },
     {
       "slug": "gvst-gchorus",
@@ -25138,7 +25226,8 @@
         "simple",
         "modulation",
         "stereo"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/gchorus_ui.png"
     },
     {
       "slug": "gvst-ggate",
@@ -25176,7 +25265,8 @@
         "noise",
         "simple",
         "utility"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ggate_ui.png"
     },
     {
       "slug": "gvst-gfader",
@@ -25214,7 +25304,8 @@
         "volume",
         "free",
         "simple"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/m/gfader_ui.png"
     },
     {
       "slug": "gvst-gtuner",
@@ -25254,7 +25345,8 @@
         "meter",
         "guitar",
         "tuning"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/gtune_ui.png"
     },
     {
       "slug": "tbproaudio-dpmeeter-xt",
@@ -25296,7 +25388,8 @@
         "free",
         "metering",
         "broadcast"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dpmeter5_normal.jpg"
     },
     {
       "slug": "tbproaudio-isol8",
@@ -25338,7 +25431,8 @@
         "mixing",
         "frequency-response",
         "utility"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png"
     },
     {
       "slug": "flux-stereo-tool",
@@ -25398,7 +25492,8 @@
         "utility",
         "phase",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "flux-bittersweet",
@@ -25698,7 +25793,8 @@
         "melody",
         "creative",
         "sequencer"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "blue-cat-connector",
@@ -25828,7 +25924,8 @@
         "realistic",
         "concert",
         "keyboard"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "ni-the-gentleman",
@@ -25870,7 +25967,8 @@
         "intimate",
         "warm",
         "vintage"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/the-gentleman.png"
     },
     {
       "slug": "ni-the-grandeur",
@@ -25955,7 +26053,8 @@
         "vox",
         "keyboard",
         "classic"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/vintage-organs.png"
     },
     {
       "slug": "ni-session-guitarist",
@@ -25997,7 +26096,8 @@
         "realistic",
         "strumming",
         "phrase-based"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/session-guitarist-strummed-acoustic.png"
     },
     {
       "slug": "meldaproduction-mautopan",
@@ -26128,7 +26228,8 @@
         "stereo",
         "ensemble",
         "lush"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "meldaproduction-mphaser",
@@ -26602,7 +26703,8 @@
         "vocal",
         "smooth",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/LALA-1-1024x665.png"
     },
     {
       "slug": "analog-obsession-specomp",
@@ -27118,7 +27220,8 @@
         "simple",
         "warm",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "fabfilter-pro-g-2",
@@ -27246,7 +27349,8 @@
         "mastering",
         "mixing",
         "surgical"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/c6-multiband-compressor.jpg"
     },
     {
       "slug": "waves-gate",
@@ -27288,7 +27392,8 @@
         "sidechain",
         "mixing",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/c6-multiband-compressor.jpg"
     },
     {
       "slug": "accusonus-regroover",
@@ -27330,7 +27435,8 @@
         "creative",
         "sample-based",
         "remix"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ui-pro-with-keyvisual_no-bg_17_067_19-min.png"
     },
     {
       "slug": "izotope-vocal-doubler",
@@ -27458,7 +27564,8 @@
         "vintage",
         "analog-modeling",
         "punchy"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/na-1176.png"
     },
     {
       "slug": "schaack-audio-transient-shaper",
@@ -27499,7 +27606,8 @@
         "precise",
         "multiband",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "oeksound-bloom",
@@ -27584,7 +27692,8 @@
         "free",
         "realistic",
         "guitar"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "three-body-tech-heavier7strings",
@@ -27670,7 +27779,8 @@
         "creative",
         "reverse",
         "pitch"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/hysteresis_ui-1-scaled.jpg"
     },
     {
       "slug": "arturia-farfisa-v",
@@ -27932,7 +28042,8 @@
         "sample-based",
         "realistic",
         "guitar"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/vintage-organs.png"
     },
     {
       "slug": "ni-alicia-keys",
@@ -28060,7 +28171,8 @@
         "pop",
         "phrase-based",
         "realistic"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/_processed_/7/7/csm_virtual-drummer-solid-header_28a7bfcaef.jpg"
     },
     {
       "slug": "ujam-virtual-drummer-phat",
@@ -28102,7 +28214,8 @@
         "electronic",
         "phrase-based",
         "beat"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/products/Drummer/Phat/virtual-drummer-phat-header.jpg"
     },
     {
       "slug": "ujam-virtual-guitarist-amber",
@@ -28144,7 +28257,8 @@
         "country",
         "pop",
         "phrase-based"
-      ]
+      ],
+      "image_url": "https://www.ujam.com/fileadmin/_processed_/6/6/csm_amber2-keyvisual-2x_e1d9177aad.jpg"
     },
     {
       "slug": "ik-multimedia-modo-guitar",
@@ -28185,7 +28299,8 @@
         "physical-modeling",
         "realistic",
         "versatile"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/modoguitar/main-banner/regular.jpg"
     },
     {
       "slug": "sampletank-4-se",
@@ -28227,7 +28342,8 @@
         "multi-timbral",
         "sample-based",
         "versatile"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ikc-l-sampletank_4_mixer.png"
     },
     {
       "slug": "noise-engineering-basimilus",
@@ -28269,7 +28385,8 @@
         "experimental",
         "modular",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/basimilus.png"
     },
     {
       "slug": "noise-engineering-virt-vereor",
@@ -28311,7 +28428,8 @@
         "fm",
         "experimental",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/virt-vereor.png"
     },
     {
       "slug": "sample-science-808-bass-module",
@@ -28352,7 +28470,8 @@
         "sub-bass",
         "free",
         "hip-hop"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "cherry-audio-memorymode",
@@ -28697,7 +28816,8 @@
         "mastering",
         "transparent",
         "dynamics"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/linear-phase-multiband-compressor.jpg"
     },
     {
       "slug": "sonible-smart-comp-2",
@@ -28911,7 +29031,8 @@
         "hall",
         "lush",
         "professional"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/screen_shot_2017-02-03_at_16_36_28_x1.png"
     },
     {
       "slug": "caelum-audio-tape-cassette-2",
@@ -28954,7 +29075,8 @@
         "free",
         "wow-flutter",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/marketing_image_v1_1.png"
     },
     {
       "slug": "caelum-audio-schlap",
@@ -28997,7 +29119,8 @@
         "slapback",
         "character",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/screenshot.1609428468.jpg"
     },
     {
       "slug": "audiaire-nuance",
@@ -29038,7 +29161,8 @@
         "mixing",
         "compressor",
         "modern"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/nuance.png"
     },
     {
       "slug": "audiaire-zenith",
@@ -29079,7 +29203,8 @@
         "modern",
         "electronic",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/zenith.png"
     },
     {
       "slug": "tone-empire-loc-ness",
@@ -29121,7 +29246,8 @@
         "warm",
         "smooth",
         "leveling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/loc-ness.png"
     },
     {
       "slug": "tone-empire-neural-q",
@@ -29163,7 +29289,8 @@
         "transistor",
         "character",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/neural-q.png"
     },
     {
       "slug": "voxengo-polysquasher",
@@ -29332,7 +29459,8 @@
         "free",
         "calibration",
         "analysis"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "meldaproduction-mtuner",
@@ -29545,7 +29673,8 @@
         "generator",
         "composition",
         "theory"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "audiaire-midi-kinetics",
@@ -29586,7 +29715,8 @@
         "creative",
         "probability",
         "modulation"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/midi-kinetics.png"
     },
     {
       "slug": "lostin70s-arp-vereor",
@@ -30018,7 +30148,8 @@
         "metallic",
         "modulation",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/fl3604.png"
     },
     {
       "slug": "kuassa-efektor-ph3604",
@@ -30060,7 +30191,8 @@
         "vintage",
         "modulation",
         "classic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ph3604.png"
     },
     {
       "slug": "kuassa-efektor-gq3604",
@@ -30102,7 +30234,8 @@
         "pedal",
         "simple",
         "guitar"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/gq3604.png"
     },
     {
       "slug": "denise-audio-bad-tape",
@@ -30144,7 +30277,8 @@
         "free",
         "saturation",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/64e2b76b383c11b3c1d4d95a/6930d31ea9f56ac05b7d4f63_Layer%2011-min.jpg"
     },
     {
       "slug": "denise-audio-the-sweeper",
@@ -30186,7 +30320,8 @@
         "resonant",
         "modulation",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/64e2b76b383c11b3c1d4d95a/6931aa8361f9cfb3d966e60c_MF_GUI%201.png"
     },
     {
       "slug": "analog-obsession-fetchd",
@@ -30227,7 +30362,8 @@
         "1176",
         "punchy",
         "vintage"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-messkontansen",
@@ -30268,7 +30404,8 @@
         "neve",
         "musical",
         "vintage"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-dontaste",
@@ -30309,7 +30446,8 @@
         "vocal",
         "mixing",
         "simple"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-kabin",
@@ -30384,7 +30522,8 @@
         "effects-chain",
         "creative",
         "workflow"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "bitwig-note-grid",
@@ -30418,7 +30557,8 @@
         "creative",
         "generator",
         "visual"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "bitwig-note-fx-layer",
@@ -30452,7 +30592,8 @@
         "layering",
         "parallel",
         "workflow"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "bitwig-arpeggiator",
@@ -30484,7 +30625,8 @@
         "midi",
         "pattern",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "bitwig-note-harmonizer",
@@ -30517,7 +30659,8 @@
         "chord",
         "interval",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "airwindows-console7",
@@ -32223,7 +32366,8 @@
         "cab-sim",
         "capture",
         "professional"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "stl-tones-amphub",
@@ -32461,7 +32605,8 @@
         "free",
         "neural",
         "open-source"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "guitarml-proteus",
@@ -32706,7 +32851,8 @@
         "metal",
         "heavy",
         "distortion"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "nembrini-na-blackface",
@@ -32946,7 +33092,8 @@
         "creative",
         "separation",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/physion.png"
     },
     {
       "slug": "eventide-splitek",
@@ -33664,7 +33811,8 @@
         "vocal",
         "easy-to-use",
         "simple"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/de-esser-ui-1.png"
     },
     {
       "slug": "accusonus-era-noise-remover",
@@ -33705,7 +33853,8 @@
         "cleanup",
         "easy-to-use",
         "vocal"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/s/noise-remover-ui-1.png"
     },
     {
       "slug": "accusonus-era-reverb-remover",
@@ -33745,7 +33894,8 @@
         "reverb",
         "easy-to-use",
         "post-production"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/reverb-remover-1.png"
     },
     {
       "slug": "arturia-stage-73-v2",
@@ -34199,7 +34349,8 @@
         "virtual-analog",
         "bass",
         "monophonic"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9kcmVhbXN5bnRoLWltZy1uYXYuanBn/dreamsynth-img-nav.jpg"
     },
     {
       "slug": "cherry-audio-polymode",
@@ -34239,7 +34390,8 @@
         "moog",
         "vintage",
         "pads"
-      ]
+      ],
+      "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi9kcmVhbXN5bnRoLWltZy1uYXYuanBn/dreamsynth-img-nav.jpg"
     },
     {
       "slug": "cherry-audio-dreamsynth-2",
@@ -34321,7 +34473,8 @@
         "tonewheel",
         "leslie",
         "vintage"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/hammondb3x/main-banner/regular.jpg"
     },
     {
       "slug": "ni-vintage-organs-b3",
@@ -34360,7 +34513,8 @@
         "tonewheel",
         "vintage",
         "keyboard"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2016facelift/vintage-organs.png"
     },
     {
       "slug": "socalabs-organ-b3",
@@ -34436,7 +34590,8 @@
         "free",
         "organic",
         "experimental"
-      ]
+      ],
+      "image_url": "https://www.fullbucket.de/music/images/modulair_small.png"
     },
     {
       "slug": "full-bucket-korg-m1",
@@ -34476,7 +34631,8 @@
         "vintage",
         "rompler",
         "80s"
-      ]
+      ],
+      "image_url": "https://www.fullbucket.de/music/images/fb3300_small.png"
     },
     {
       "slug": "uvi-model-d",
@@ -34559,7 +34715,8 @@
         "pads",
         "analog-modeling",
         "70s"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "uvi-digital-synsations",
@@ -35072,7 +35229,8 @@
         "easy-to-use",
         "warm",
         "bass-enhancement"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "izotope-vinyl-2",
@@ -35151,7 +35309,8 @@
         "creative",
         "cassette",
         "retro"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "aberrant-dsp-sketchcassette",
@@ -35189,7 +35348,8 @@
         "free",
         "wow-flutter",
         "retro"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/marketing_image_v1_1.png"
     },
     {
       "slug": "baby-audio-atoms",
@@ -35269,7 +35429,8 @@
         "creative",
         "sound-design",
         "experimental"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/fracture_xt_ui.png"
     },
     {
       "slug": "unfiltered-audio-sandman-pro",
@@ -35384,7 +35545,8 @@
         "waveshaping",
         "creative",
         "dynamic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "output-thermal",
@@ -35461,7 +35623,8 @@
         "creative",
         "rhythmic",
         "stutter"
-      ]
+      ],
+      "image_url": "https://sugar-bytes.de/storage/app/media/effectrix2/logo.png"
     },
     {
       "slug": "sugar-bytes-nest",
@@ -35499,7 +35662,8 @@
         "creative",
         "experimental",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://sugar-bytes.de/storage/app/media/nest/s1_1840x1381.jpg"
     },
     {
       "slug": "audiothing-vinyl-strip",
@@ -35858,7 +36022,8 @@
         "streaming",
         "analysis",
         "quality-control"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/pro-codec.png"
     },
     {
       "slug": "goodhertz-dethm",
@@ -35895,7 +36060,8 @@
         "mastering",
         "final-stage",
         "precision"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_canopener-studio__og_landscape.png"
     },
     {
       "slug": "voxengo-elephant-5",
@@ -36439,7 +36605,8 @@
         "free",
         "open-source",
         "algorithmic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/collage.1583515711.png"
     },
     {
       "slug": "dragonfly-room-reverb",
@@ -36478,7 +36645,8 @@
         "free",
         "open-source",
         "algorithmic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/collage.1583515711.png"
     },
     {
       "slug": "dragonfly-plate-reverb",
@@ -36516,7 +36684,8 @@
         "plate",
         "free",
         "open-source"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/collage.1583515711.png"
     },
     {
       "slug": "zam-audio-zamcompressor",
@@ -36666,7 +36835,8 @@
         "free",
         "keys",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png"
     },
     {
       "slug": "mda-dx10",
@@ -36706,7 +36876,8 @@
         "free",
         "dx7",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png"
     },
     {
       "slug": "mda-combo",
@@ -36745,7 +36916,8 @@
         "cabinet",
         "free",
         "simple"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png"
     },
     {
       "slug": "dead-duck-free-compressor",
@@ -36778,7 +36950,8 @@
         "free",
         "sidechain",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "dead-duck-free-eq",
@@ -36811,7 +36984,8 @@
         "parametric-eq",
         "free",
         "analyzer"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "gvst-gsnap",
@@ -36845,7 +37019,8 @@
         "vocal",
         "free",
         "auto-tune"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/gsnap_ui.png"
     },
     {
       "slug": "lsp-plugins-compressor-stereo",
@@ -36881,7 +37056,8 @@
         "open-source",
         "sidechain",
         "professional"
-      ]
+      ],
+      "image_url": "https://lsp-plug.in/img/plugins/sc_compressor_stereo.png"
     },
     {
       "slug": "lsp-plugins-graphic-eq",
@@ -36916,7 +37092,8 @@
         "graphic-eq",
         "free",
         "open-source"
-      ]
+      ],
+      "image_url": "https://lsp-plug.in/img/plugins/graph_equalizer_x32_stereo.png"
     },
     {
       "slug": "x42-eq",
@@ -36950,7 +37127,8 @@
         "open-source",
         "linux",
         "analyzer"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "x42-meters",
@@ -36985,7 +37163,8 @@
         "linux",
         "vu",
         "lufs"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "calf-compressor",
@@ -37016,7 +37195,8 @@
         "free",
         "open-source",
         "linux"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/compressor_stereo.1689879422.png"
     },
     {
       "slug": "calf-reverb",
@@ -37049,7 +37229,8 @@
         "linux",
         "room",
         "hall"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/compressor_stereo.1689879422.png"
     },
     {
       "slug": "calf-monosynth",
@@ -37083,7 +37264,8 @@
         "linux",
         "bass",
         "lead"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/compressor_stereo.1689879422.png"
     },
     {
       "slug": "tbproaudio-gyraf-buss-eq",
@@ -37121,7 +37303,8 @@
         "free",
         "analog-modeling",
         "mastering"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png"
     },
     {
       "slug": "venomode-phrasebox",
@@ -37235,7 +37418,8 @@
         "songwriting",
         "composition",
         "strumming"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/instacomposer_banner_1000x1000.jpg"
     },
     {
       "slug": "credland-audio-midi-monitor",
@@ -37271,7 +37455,8 @@
         "monitoring",
         "free",
         "debugging"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "puremagnetik-midi-madness",
@@ -37311,7 +37496,8 @@
         "random",
         "melody",
         "pattern"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "unplug-unfiltered-midi",
@@ -37740,7 +37926,8 @@
         "drums",
         "punch",
         "attack"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/smackattack.jpg"
     },
     {
       "slug": "waves-manny-marroquin-tone-shaper",
@@ -38017,7 +38204,8 @@
         "mastering",
         "reference",
         "visual"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/tbb-fan-connected.jpg"
     },
     {
       "slug": "izotope-relay",
@@ -38056,7 +38244,8 @@
         "panning",
         "free",
         "routing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/m/b54ae65f3761-nectar-3-plugin-relay_jpg.webp"
     },
     {
       "slug": "ni-massive-x-wavetables",
@@ -38215,7 +38404,8 @@
         "ambient",
         "atmospheric",
         "texture"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/Packshots2020/Cloud-Supply-product-finder.png"
     },
     {
       "slug": "ni-straylight",
@@ -38254,7 +38444,8 @@
         "texture",
         "sound-design",
         "atmospheric"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2019/Straylight-product-finder.png"
     },
     {
       "slug": "ni-pharlight",
@@ -38293,7 +38484,8 @@
         "texture",
         "cinematic",
         "atmospheric"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/Packshots2020/Pharlight-product-finder.png"
     },
     {
       "slug": "softube-harmonics",
@@ -38375,7 +38567,8 @@
         "modulation",
         "vintage",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/AD5AB3FB1F71F325B502C0733D3DFE865ED6A0583FD28A177609B75CD9E43EE7/d7b9121797144545a79af5ae58d955b2/png/media/25345cabf29e47b580c5f59f5bd113b3/fix-flanger-and-doubler-product-image.png"
     },
     {
       "slug": "softube-saturation-knob-pro",
@@ -38413,7 +38606,8 @@
         "simple",
         "easy-to-use",
         "warm"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/F45F15D60B921ED45EBE291145F98E0769FF079956ADBF44C26142545CFB32F9/35e961e2352947e9b10a2bbd7fb1a2e0/jpg/media/9b15c71bf05b44c08868c04297106dce/saturation-knob-product-image.jpg"
     },
     {
       "slug": "slate-digital-virtual-tape-machines-2",
@@ -38731,7 +38925,8 @@
         "synthesizer",
         "low-end",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/robpapen_subboombass2.jpg"
     },
     {
       "slug": "rob-papen-go2",
@@ -38769,7 +38964,8 @@
         "electronic",
         "pads",
         "edm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/robpapen_go2.png"
     },
     {
       "slug": "rob-papen-predator-3",
@@ -38807,7 +39003,8 @@
         "trance",
         "lead",
         "bass"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/robpapen_predator-3.jpg"
     },
     {
       "slug": "noise-engineering-ruina",
@@ -38966,7 +39163,8 @@
         "spectral",
         "creative",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "spectrasonics-keyscape",
@@ -39007,7 +39205,8 @@
         "keys",
         "vintage",
         "sample-based"
-      ]
+      ],
+      "image_url": "https://www.spectrasonics.net/img/products/keyscape/keyscape-hero.jpg"
     },
     {
       "slug": "output-movement",
@@ -39083,7 +39282,8 @@
         "3d-wavetable",
         "multi-synthesis",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/icarus3.png"
     },
     {
       "slug": "synapse-audio-dune-4",
@@ -39123,7 +39323,8 @@
         "polyphonic",
         "trance",
         "edm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dune4.png"
     },
     {
       "slug": "kv331-synthmaster-3",
@@ -39660,7 +39861,8 @@
         "mixing",
         "attack",
         "dynamic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/transient-designer-plus.png"
     },
     {
       "slug": "spl-vitalizer-mk3t",
@@ -39855,7 +40057,8 @@
         "film",
         "post-production",
         "professional"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/screen_shot_2017-02-03_at_16_36_28_x1.png"
     },
     {
       "slug": "liquidsonics-tai-chi-2",
@@ -39893,7 +40096,8 @@
         "vintage",
         "lush",
         "dense"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/screen_shot_2017-02-03_at_16_36_28_x1.png"
     },
     {
       "slug": "overloud-gem-comp-la",
@@ -39932,7 +40136,8 @@
         "opto",
         "analog-modeling",
         "warm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/comp-la.jpg"
     },
     {
       "slug": "overloud-gem-eq495",
@@ -39975,7 +40180,8 @@
         "parametric-eq",
         "analog-modeling",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/eq495.1497341507.jpg"
     },
     {
       "slug": "denise-audio-poltergate",
@@ -40013,7 +40219,8 @@
         "filter",
         "rhythmic",
         "sound-design"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/64e2b76b383c11b3c1d4d95a/6930d38c0623161aa9d39ef2_Poltergate-min.jpg"
     },
     {
       "slug": "denise-audio-bite-harder",
@@ -40051,7 +40258,8 @@
         "waveshaping",
         "free",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/64e2b76b383c11b3c1d4d95a/6930d3820dea05cdd38aa1a5_Bite%20Harder-min.jpg"
     },
     {
       "slug": "tone-empire-goliath-v2",
@@ -40515,7 +40723,8 @@
         "lufs",
         "free",
         "broadcast"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dpmeter5_normal.jpg"
     },
     {
       "slug": "klevgrand-reamp",
@@ -40636,7 +40845,8 @@
         "free",
         "simple",
         "mastering"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/niveau-filter.png"
     },
     {
       "slug": "elysia-nvelope",
@@ -41027,7 +41237,8 @@
         "filter",
         "free",
         "panning"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/png.png"
     },
     {
       "slug": "caelum-audio-smoosh",
@@ -41065,7 +41276,8 @@
         "free",
         "simple",
         "easy-to-use"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/marketing_image_v1_1.png"
     },
     {
       "slug": "sample-science-lofi-piano",
@@ -41349,7 +41561,8 @@
         "free",
         "open-source",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://raw.githubusercontent.com/jatinchowdhury18/ChowPhaser/master/res/screenshot_stereo.PNG"
     },
     {
       "slug": "chowdsp-byod",
@@ -41392,7 +41605,8 @@
         "free",
         "open-source",
         "pedalboard"
-      ]
+      ],
+      "image_url": "https://raw.githubusercontent.com/Chowdhury-DSP/BYOD/main/manual/screenshots/full_gui.png"
     },
     {
       "slug": "chowdsp-chow-kick",
@@ -41434,7 +41648,8 @@
         "free",
         "open-source",
         "bass"
-      ]
+      ],
+      "image_url": "https://raw.githubusercontent.com/Chowdhury-DSP/ChowKick/main/manual/screenshots/full_gui.png"
     },
     {
       "slug": "audiothing-things-fleet",
@@ -41472,7 +41687,8 @@
         "vintage",
         "bucket-brigade",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "audiothing-filterjam",
@@ -42239,7 +42455,8 @@
         "lufs",
         "free",
         "broadcast"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/lun.png"
     },
     {
       "slug": "hornet-gratis-compressor",
@@ -42275,7 +42492,8 @@
         "free",
         "vintage",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "hornet-vumeter-mk4",
@@ -44148,7 +44366,8 @@
         "saturation",
         "loudness",
         "edm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/sausagev2.jpg"
     },
     {
       "slug": "dada-life-endless-smile",
@@ -44430,7 +44649,8 @@
         "bus",
         "analog-modeling",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/m/theglue-v1-8-0-screenshot.png"
     },
     {
       "slug": "cytomic-the-scream",
@@ -44684,7 +44904,8 @@
         "eq",
         "enhancer",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/bass-ranger.png"
     },
     {
       "slug": "spl-de-esser-dual-band",
@@ -44714,7 +44935,8 @@
         "de-esser",
         "vocals",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/de-esser-dual-band.png"
     },
     {
       "slug": "archetype-abasi",
@@ -45028,7 +45250,8 @@
         "compressor",
         "limiter",
         "mastering"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/F45F15D60B921ED45EBE291145F98E0769FF079956ADBF44C26142545CFB32F9/35e961e2352947e9b10a2bbd7fb1a2e0/jpg/media/9b15c71bf05b44c08868c04297106dce/saturation-knob-product-image.jpg"
     },
     {
       "slug": "weiss-ds1-mk3",
@@ -45058,7 +45281,8 @@
       "tags": [
         "de-esser",
         "mastering"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ds1-mk3-gui.png"
     },
     {
       "slug": "weiss-eq1",
@@ -45088,7 +45312,8 @@
         "eq",
         "mastering",
         "linear-phase"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ds1-mk3-gui.png"
     },
     {
       "slug": "weiss-mm1-maximizer",
@@ -45118,7 +45343,8 @@
         "limiter",
         "mastering",
         "maximizer"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ds1-mk3-gui.png"
     },
     {
       "slug": "chandler-curve-bender",
@@ -45148,7 +45374,8 @@
         "eq",
         "mastering",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/curve-bender.png"
     },
     {
       "slug": "chandler-germanium-comp",
@@ -45178,7 +45405,8 @@
         "compressor",
         "analog-modeling",
         "germanium"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/germanium-comp.png"
     },
     {
       "slug": "chandler-zener-limiter",
@@ -45210,7 +45438,8 @@
         "limiter",
         "analog-modeling",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/zener-limiter.png"
     },
     {
       "slug": "shadow-hills-mastering-compressor",
@@ -45332,7 +45561,8 @@
         "compressor",
         "vca",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/vsc-2.png"
     },
     {
       "slug": "vertigo-vsm-3",
@@ -45362,7 +45592,8 @@
         "saturation",
         "harmonics",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/vsm-3.png"
     },
     {
       "slug": "nugen-mastercheck",
@@ -45932,7 +46163,8 @@
         "general-midi",
         "vintage",
         "roland"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "roland-cloud-ob-e",
@@ -47872,7 +48104,8 @@
         "noise",
         "texture",
         "creative"
-      ]
+      ],
+      "image_url": "https://cdn.prod.website-files.com/64e2b76b383c11b3c1d4d95a/6930d1da90f2a4d028d5c7dd_Noize%202-min.jpg"
     },
     {
       "slug": "ssl-native-x-phase",
@@ -48000,7 +48233,8 @@
         "restoration",
         "vocals",
         "plosive"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/s/plosive-remover-ui-1.png"
     },
     {
       "slug": "accusonus-era-voice-leveler",
@@ -48032,7 +48266,8 @@
         "dynamics",
         "vocals",
         "leveling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/leveler_1.png"
     },
     {
       "slug": "vps-avenger",
@@ -48063,7 +48298,8 @@
         "synth",
         "wavetable",
         "edm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/vps-avenger-1.jpg"
     },
     {
       "slug": "dblue-glitch",
@@ -48091,7 +48327,8 @@
         "glitch",
         "creative",
         "free"
-      ]
+      ],
+      "image_url": "https://illformed.com/img/glitch210-screenshot.png"
     },
     {
       "slug": "dblue-tapestop",
@@ -48118,7 +48355,8 @@
         "tape",
         "creative",
         "free"
-      ]
+      ],
+      "image_url": "https://illformed.com/img/glitch210-screenshot.png"
     },
     {
       "slug": "access-virus-ti",
@@ -48147,7 +48385,8 @@
         "synth",
         "hardware",
         "trance"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/virus_ti.jpg"
     },
     {
       "slug": "audiogridder",
@@ -48300,7 +48539,8 @@
       "tags": [
         "reverb",
         "algorithmic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/screen_shot_2017-02-03_at_16_36_28_x1.png"
     },
     {
       "slug": "dangerous-bax-eq",
@@ -48554,7 +48794,8 @@
         "analog-modeling",
         "free",
         "vintage"
-      ]
+      ],
+      "image_url": "https://www.fullbucket.de/music/images/fury800_small.png"
     },
     {
       "slug": "mt-power-drum-kit",
@@ -48742,7 +48983,8 @@
       "tags": [
         "clipper",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/vclip.png"
     },
     {
       "slug": "martinic-ax73",
@@ -49026,7 +49268,8 @@
         "lofi",
         "sampler",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/rx950-screenshot-vst.1521614634.jpg"
     },
     {
       "slug": "sq8l",
@@ -49155,7 +49398,8 @@
         "mastering",
         "loudness",
         "transparent"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/smackattack.jpg"
     },
     {
       "slug": "adptr-streamliner",
@@ -49194,7 +49438,8 @@
         "loudness",
         "intelligent",
         "broadcast"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "fabfilter-one",
@@ -49356,7 +49601,8 @@
         "synthesizer",
         "free"
       ],
-      "year": 2019
+      "year": 2019,
+      "image_url": "https://ymck.net/wp-content/uploads/screenshot-e1644926536421.png"
     },
     {
       "slug": "magical8bitplug3",
@@ -49394,7 +49640,8 @@
         "synthesizer",
         "free"
       ],
-      "year": 2023
+      "year": 2023,
+      "image_url": "https://ymck.net/wp-content/uploads/screenshot-e1644926536421.png"
     },
     {
       "slug": "sugar-bytes-drumcomputer",
@@ -49434,7 +49681,8 @@
         "electronic",
         "pattern"
       ],
-      "year": 2018
+      "year": 2018,
+      "image_url": "https://sugar-bytes.de/storage/app/media/drumcomputer/logo.png"
     },
     {
       "slug": "ignite-amps-emissary",
@@ -49474,7 +49722,8 @@
         "metal",
         "free"
       ],
-      "year": 2016
+      "year": 2016,
+      "image_url": "https://static.kvraudio.com/i/b/emissary_front_full.jpg"
     },
     {
       "slug": "ignite-amps-nadir",
@@ -49512,7 +49761,8 @@
         "convolution",
         "guitar",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ignite-amps-nadir2-software.1551449146.jpg"
     },
     {
       "slug": "plugin-boutique-bigkick",
@@ -49626,7 +49876,8 @@
         "creative",
         "experimental",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png"
     },
     {
       "slug": "mda-testtone",
@@ -49661,7 +49912,8 @@
         "calibration",
         "utility",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png"
     },
     {
       "slug": "2getheraudio-k1ck",
@@ -49735,7 +49987,8 @@
         "vintage",
         "convolution",
         "character"
-      ]
+      ],
+      "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg"
     },
     {
       "slug": "echo-cat",
@@ -49847,7 +50100,8 @@
         "tube",
         "vintage",
         "dynamics"
-      ]
+      ],
+      "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg"
     },
     {
       "slug": "acustica-alchemist",
@@ -49922,7 +50176,8 @@
         "eq",
         "dynamics",
         "modern"
-      ]
+      ],
+      "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg"
     },
     {
       "slug": "acustica-kristall",
@@ -49959,7 +50214,8 @@
         "dynamics",
         "clean",
         "transparent"
-      ]
+      ],
+      "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg"
     },
     {
       "slug": "acustica-big-goat",
@@ -49995,7 +50251,8 @@
         "vintage",
         "analog-modeling",
         "character"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/02/Big-Goat-1-768x554.jpg"
     },
     {
       "slug": "eventide-2016-stereo-room",
@@ -50035,7 +50292,8 @@
         "vintage",
         "stereo"
       ],
-      "year": 2016
+      "year": 2016,
+      "image_url": "https://static.kvraudio.com/i/b/2016stereoroom.png"
     },
     {
       "slug": "eventide-crystals",
@@ -50074,7 +50332,8 @@
         "shimmer",
         "h3000",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/crystals_desktop.jpg"
     },
     {
       "slug": "eventide-transmutator",
@@ -50111,7 +50370,8 @@
         "creative",
         "morphing",
         "experimental"
-      ]
+      ],
+      "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Blackhole.png"
     },
     {
       "slug": "eventide-quantum",
@@ -50261,7 +50521,8 @@
         "saturation",
         "analog-modeling",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-abpl2",
@@ -50297,7 +50558,8 @@
         "saturation",
         "analog-modeling",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-bspro",
@@ -50334,7 +50596,8 @@
         "preamp",
         "eq",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-bxq",
@@ -50556,7 +50819,8 @@
         "parametric-eq",
         "vintage",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/12/OAQ-1024x665.png"
     },
     {
       "slug": "analog-obsession-peq",
@@ -50629,7 +50893,8 @@
         "ssl",
         "parametric-eq",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/12/SSQ-1024x665.png"
     },
     {
       "slug": "analog-obsession-teq",
@@ -50739,7 +51004,8 @@
         "filter",
         "analog-modeling",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/filteq.png"
     },
     {
       "slug": "analog-obsession-pureq",
@@ -50776,7 +51042,8 @@
         "clean",
         "transparent",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-magc",
@@ -50812,7 +51079,8 @@
         "tape",
         "saturation",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-mamp",
@@ -50848,7 +51116,8 @@
         "tape",
         "warm",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-lcf",
@@ -50883,7 +51152,8 @@
         "filter",
         "analog-modeling",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-anspec",
@@ -50992,7 +51262,8 @@
         "aggressive",
         "dynamics",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-royalcompressor",
@@ -51028,7 +51299,8 @@
         "transparent",
         "dynamics",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-pristinepeaks",
@@ -51064,7 +51336,8 @@
         "transparent",
         "mastering",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-lowleveler",
@@ -51101,7 +51374,8 @@
         "leveling",
         "dynamics",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-nightshine",
@@ -51176,7 +51450,8 @@
         "british",
         "vintage",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-peakbuster",
@@ -51249,7 +51524,8 @@
         "aggressive",
         "dynamics",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-sccore",
@@ -51285,7 +51561,8 @@
         "sidechain",
         "dynamics",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-refunction",
@@ -51322,7 +51599,8 @@
         "compressor",
         "flexible",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-analogmatrix",
@@ -51358,7 +51636,8 @@
         "mixer",
         "analog-modeling",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-varisaturator",
@@ -51431,7 +51710,8 @@
         "octave",
         "harmonics",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-clonemeld",
@@ -51467,7 +51747,8 @@
         "ensemble",
         "vintage",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-piandphimkii",
@@ -51503,7 +51784,8 @@
         "phase",
         "analog-modeling",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-cl1",
@@ -51649,7 +51931,8 @@
         "transparent",
         "mastering",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-sideminder",
@@ -51685,7 +51968,8 @@
         "mid-side",
         "stereo",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-rescuemk2",
@@ -51757,7 +52041,8 @@
         "analog-modeling",
         "phase",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-stereoimagerd",
@@ -51793,7 +52078,8 @@
         "imaging",
         "width",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-rubberbandcomp",
@@ -51829,7 +52115,8 @@
         "dynamics",
         "flexible",
         "free"
-      ]
+      ],
+      "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png"
     },
     {
       "slug": "analog-obsession-seq",
@@ -51906,7 +52193,8 @@
         "multiband",
         "mastering",
         "transparent"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/dynone3.png"
     },
     {
       "slug": "leapwing-stageone",
@@ -52019,7 +52307,8 @@
         "mid-side",
         "imaging",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/centerone.png"
     },
     {
       "slug": "leapwing-prefix",
@@ -52095,7 +52384,8 @@
         "clean",
         "vintage",
         "modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/blackface-sc5.png"
     },
     {
       "slug": "nembrini-f59",
@@ -52133,7 +52423,8 @@
         "vintage",
         "clean",
         "modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/f59.png"
     },
     {
       "slug": "jst-toneforge-misha",
@@ -52325,7 +52616,8 @@
         "guitar",
         "tube",
         "modeling"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg"
     },
     {
       "slug": "knif-audio-knifonium",
@@ -52401,7 +52693,8 @@
         "pedal",
         "aggressive",
         "metal"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/08/Klirrton-Grindstein-768x554.jpg"
     },
     {
       "slug": "tone-empire-crunchessor",
@@ -52590,7 +52883,8 @@
         "limiter",
         "brickwall",
         "stereo"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png"
     },
     {
       "slug": "tbproaudio-knorr",
@@ -52627,7 +52921,8 @@
         "tape",
         "warm",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png"
     },
     {
       "slug": "softube-parallels",
@@ -52665,7 +52960,8 @@
         "pads",
         "organic",
         "atmospheric"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/29035015B3F292F74A394BA7ABC5EB9846A2E71588F89E790520DCEC3A0F666A/0e2a2261a3ce4dc9bfc701619626621a/png/media/3c88c65ad6d24f5a93aff3b2c16efae9/parallels-product-image.png"
     },
     {
       "slug": "softube-model72",
@@ -52704,7 +53000,8 @@
         "analog-modeling",
         "modular",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/F6C8968AB8D1F6FCFD36E4D7C624841CE31928809B04D014E58B6A865046F077/0de791a2a1fb44d5b1f4398475a7af3e/png/media/1b3a95e2668b47b4946dff365b9172f0/model-72-synthesizer-system-product-image.png"
     },
     {
       "slug": "softube-modular",
@@ -52782,7 +53079,8 @@
         "analog-modeling",
         "creative",
         "vintage"
-      ]
+      ],
+      "image_url": "https://cdn.softube.com/storage/2A5741308CF39C02364B99E6E931A8A11FA02ED26B89E90AE0AA06D3F93584D1/16d94223ffeb430ab3e1b5593f21e229/png/media/da49f4d62c354e22bae12bd0f57189d1/mutronics-mutator-product-image.png"
     },
     {
       "slug": "artsacoustic-reverb",
@@ -52894,7 +53192,8 @@
         "dynamics",
         "punch",
         "easy-to-use"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/2_beatformer-with-keyvisual_nobg.png"
     },
     {
       "slug": "drumformer",
@@ -53122,7 +53421,8 @@
         "creative",
         "experimental",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/frqshift.png"
     },
     {
       "slug": "voxengo-pha979",
@@ -53159,7 +53459,8 @@
         "alignment",
         "utility",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/pha979.png"
     },
     {
       "slug": "cloud-machine",
@@ -53539,7 +53840,8 @@
         "creative",
         "aggressive",
         "lofi"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "audio-assault-multidrive",
@@ -53577,7 +53879,8 @@
         "pedal",
         "overdrive",
         "drive"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "exponential-audio-r4",
@@ -53652,7 +53955,8 @@
         "brickwall",
         "mastering",
         "transparent"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/purelimit.png"
     },
     {
       "slug": "zynaptiq-retune",
@@ -53880,7 +54184,8 @@
         "pattern",
         "electronic",
         "rhythmic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/eternal-arps.png"
     },
     {
       "slug": "output-reveal",
@@ -53955,7 +54260,8 @@
         "textural",
         "atmospheric",
         "cinematic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/evoin.png"
     },
     {
       "slug": "output-pastfabric",
@@ -53992,7 +54298,8 @@
         "textural",
         "atmospheric",
         "warm"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/pastfabric.png"
     },
     {
       "slug": "trackgod-2",
@@ -54070,7 +54377,8 @@
         "analog-modeling",
         "retro",
         "vhs"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/phonec2.png"
     },
     {
       "slug": "ravegenerator2",
@@ -54106,7 +54414,8 @@
         "lofi",
         "retro",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ravegenerator2.png"
     },
     {
       "slug": "ssd-sampler5",
@@ -54145,7 +54454,8 @@
         "acoustic-drums",
         "sample-based",
         "professional"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "perfect-drums",
@@ -54363,7 +54673,8 @@
         "simple",
         "basic",
         "free"
-      ]
+      ],
+      "image_url": "https://www.fullbucket.de/music/images/blooo_small.gif"
     },
     {
       "slug": "full-bucket-k1v",
@@ -54398,7 +54709,8 @@
         "digital",
         "vintage",
         "free"
-      ]
+      ],
+      "image_url": "https://www.fullbucket.de/music/images/kern_small.gif"
     },
     {
       "slug": "emvoice-one",
@@ -54474,7 +54786,8 @@
         "vintage",
         "lead",
         "bass"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/legend.png"
     },
     {
       "slug": "synapse-obsession",
@@ -54587,7 +54900,8 @@
         "spectral",
         "sound-design",
         "electronic"
-      ]
+      ],
+      "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2019/Straylight-product-finder.png"
     },
     {
       "slug": "audiomodern-flare",
@@ -54624,7 +54938,8 @@
         "generative",
         "creative",
         "real-time"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "polyverse-beeper",
@@ -54698,7 +55013,8 @@
         "synthesizer",
         "additive",
         "electronic"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/genny.png"
     },
     {
       "slug": "tone2-melodya",
@@ -54844,7 +55160,8 @@
         "lead",
         "monophonic",
         "performance"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg"
     },
     {
       "slug": "ik-concerto",
@@ -54882,7 +55199,8 @@
         "sample-based",
         "strings",
         "brass"
-      ]
+      ],
+      "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg"
     },
     {
       "slug": "air-music-loom",
@@ -55029,7 +55347,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-symphonic-motions",
@@ -55064,7 +55383,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg?v=1755733391"
     },
     {
       "slug": "spitfire-ceilings-of-sound",
@@ -55099,7 +55419,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-raven-bush-moonglades",
@@ -55134,7 +55455,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-hsr-spectrum",
@@ -55169,7 +55491,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-alex-epton-entropy",
@@ -55204,7 +55527,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-opw",
@@ -55239,7 +55563,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-other-desert-cities",
@@ -55274,7 +55599,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/odc_1.webp"
     },
     {
       "slug": "spitfire-blumen-und-pflanzen",
@@ -55309,7 +55635,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/blumenfinal.jpg"
     },
     {
       "slug": "spitfire-antoka",
@@ -55344,7 +55671,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-innervelt",
@@ -55379,7 +55707,8 @@
         "atmospheric",
         "cinematic",
         "textural"
-      ]
+      ],
+      "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg"
     },
     {
       "slug": "spitfire-aperture-the-stack",
@@ -55487,7 +55816,8 @@
         "reverse",
         "creative",
         "experimental"
-      ]
+      ],
+      "image_url": "https://manuals.goodhertz.com/cards/ghz_canopener-studio__og_landscape.png"
     },
     {
       "slug": "goodhertz-pitchwheel",
@@ -55751,7 +56081,8 @@
         "surgical",
         "precise",
         "mixing"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/slice_eq_full.jpg"
     },
     {
       "slug": "kilohearts-splitch",
@@ -55788,7 +56119,8 @@
         "creative",
         "splitting",
         "experimental"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/slice_eq_full.jpg"
     },
     {
       "slug": "denise-lowender",
@@ -56008,7 +56340,8 @@
         "modulation",
         "creative",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "wave-shredder",
@@ -56044,7 +56377,8 @@
         "bitcrusher",
         "distortion",
         "creative"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/wave-shredder.png"
     },
     {
       "slug": "audiority-ovc128",
@@ -56195,7 +56529,8 @@
         "tape",
         "creative",
         "vintage"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "audiority-drip",
@@ -56308,7 +56643,8 @@
         "multi-tap",
         "rhythmic",
         "tempo-synced"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "audiority-mango",
@@ -56345,7 +56681,8 @@
         "analog-modeling",
         "warm",
         "musical"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "audiority-se-striiiings",
@@ -56382,7 +56719,8 @@
         "ensemble",
         "vintage",
         "synthesizer"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "audiority-tb-peach",
@@ -56419,7 +56757,8 @@
         "tube",
         "warm",
         "harmonics"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "audiority-tb-tapeworm",
@@ -56456,7 +56795,8 @@
         "tape",
         "tube",
         "vintage"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "audiority-tb-toad",
@@ -56494,7 +56834,8 @@
         "guitar",
         "pedal",
         "drive"
-      ]
+      ],
+      "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg"
     },
     {
       "slug": "algonaut-atlas",
@@ -56568,7 +56909,8 @@
         "dynamics",
         "punch",
         "analog-modeling"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/bolt.png"
     },
     {
       "slug": "ohmforce-zerone",
@@ -56785,7 +57127,8 @@
       "tags": [
         "compressor",
         "dynamics"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "sknote-tesslapro",
@@ -56821,7 +57164,8 @@
         "tube",
         "warm",
         "harmonics"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/tesslapro2.jpg"
     },
     {
       "slug": "sknote-tesslase",
@@ -56857,7 +57201,8 @@
         "tube",
         "warm",
         "free"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/tesslase.png"
     },
     {
       "slug": "sknote-bm-dope",
@@ -56893,7 +57238,8 @@
         "vintage",
         "console",
         "eq"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/bm-dope.png"
     },
     {
       "slug": "sknote-ccadvanced",
@@ -56929,7 +57275,8 @@
         "bus-compressor",
         "console",
         "vintage"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/ccadvanced.png"
     },
     {
       "slug": "apulsoft-apqualizr2",
@@ -57188,7 +57535,8 @@
         "creative",
         "distortion",
         "modulation"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/marketing_image_v1_1.png"
     },
     {
       "slug": "dirac-live-processor",
@@ -57374,7 +57722,8 @@
         "headphone",
         "reference",
         "calibration"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/app.png"
     },
     {
       "slug": "stw-zenithaps",
@@ -57590,7 +57939,8 @@
         "compressor",
         "aggressive",
         "punch"
-      ]
+      ],
+      "image_url": "https://www.audiopluginsforfree.com/wp-content/uploads/2012/10/camel-crusher-1.png"
     },
     {
       "slug": "arousor",
@@ -57666,7 +58016,8 @@
         "frequency-shifter",
         "creative",
         "modulation"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/canary.png"
     },
     {
       "slug": "audio-damage-canvas",
@@ -57779,7 +58130,8 @@
         "ambient",
         "atmospheric",
         "lush"
-      ]
+      ],
+      "image_url": "https://static.kvraudio.com/i/b/washout.png"
     },
     {
       "slug": "afmonitor",
