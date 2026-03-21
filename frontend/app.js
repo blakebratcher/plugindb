@@ -227,9 +227,12 @@
       return `<button class="cat-pill${active}" data-cat="${escapeHtml(c)}">${escapeHtml(c)}${count ? ` <span class="cat-pill-count">${count}</span>` : ''}</button>`;
     }).join('');
 
+    // Clear all link if any filter is active
+    const clearAllHtml = hasFilters ? `<button class="btn-clear-filters" id="btn-clear-all-filters">Clear all</button>` : '';
+
     // Render shell
     app.innerHTML = `
-      <section class="hero">
+      <section class="hero" id="hero-section">
         <h1>Discover Audio Plugins</h1>
         <p class="hero-tagline">The open database for VSTs, Audio Units, and CLAP plugins. Browse, search, and compare.</p>
         <div class="hero-stats">
@@ -245,22 +248,27 @@
             <span class="search-shortcut">/</span>
             <div id="suggest-dropdown" class="suggest-dropdown hidden"></div>
           </div>
-          <button id="btn-random" class="btn btn-accent" title="Random plugin">Discover</button>
+          <button id="btn-random" class="btn btn-accent" title="Random plugin">\uD83C\uDFB2 Random</button>
         </div>
       </section>
       <section class="browse-section">
+        ${q ? `<div class="search-active-banner" id="search-active-banner"><span class="search-query-text">Showing results for <strong>'${escapeHtml(q)}'</strong></span><button class="btn-clear-search" id="btn-clear-search">Clear search</button></div>` : ''}
         <div class="category-pills">
           <button class="cat-pill${!category ? ' active' : ''}" data-cat="">All</button>
           ${catPillsHtml}
         </div>
         <div class="filter-bar" id="filter-bar">
+          <span class="filter-bar-label">Filters</span>
           <select id="f-subcategory" aria-label="Subcategory"><option value="">All subcategories</option>${subcats.map(s => `<option value="${escapeHtml(s)}"${s === subcategory ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('')}</select>
           <select id="f-format" aria-label="Format"><option value="">All formats</option>${Object.keys(fmtData.formats).map(f => `<option value="${escapeHtml(f)}"${f === format ? ' selected' : ''}>${escapeHtml(f)}</option>`).join('')}</select>
           <select id="f-os" aria-label="OS"><option value="">All OS</option>${Object.keys(osData.os).map(o => `<option value="${escapeHtml(o)}"${o === os ? ' selected' : ''}>${escapeHtml(o)}</option>`).join('')}</select>
           <select id="f-price" aria-label="Price type"><option value="">All prices</option>${['free','freemium','paid','subscription'].map(p => `<option value="${escapeHtml(p)}"${p === priceType ? ' selected' : ''}>${escapeHtml(p)}</option>`).join('')}</select>
-          <input id="f-year-min" type="number" class="input-year" placeholder="Year from" value="${escapeHtml(yearMin)}" aria-label="Year from">
-          <input id="f-year-max" type="number" class="input-year" placeholder="Year to" value="${escapeHtml(yearMax)}" aria-label="Year to">
-          <select id="f-sort" aria-label="Sort"><option value="">Relevance</option><option value="name_asc"${sortVal === 'name_asc' ? ' selected' : ''}>Name A-Z</option><option value="name_desc"${sortVal === 'name_desc' ? ' selected' : ''}>Name Z-A</option><option value="created_at_desc"${sortVal === 'created_at_desc' ? ' selected' : ''}>Newest</option><option value="created_at_asc"${sortVal === 'created_at_asc' ? ' selected' : ''}>Oldest</option></select>
+          <div class="year-range">
+            <input id="f-year-min" type="number" class="input-year" placeholder="From" value="${escapeHtml(yearMin)}" aria-label="Year from">
+            <span class="year-range-sep">&ndash;</span>
+            <input id="f-year-max" type="number" class="input-year" placeholder="To" value="${escapeHtml(yearMax)}" aria-label="Year to">
+          </div>
+          ${clearAllHtml}
         </div>
         <div id="active-filters"></div>
         <div id="related-tags"></div>
@@ -273,6 +281,74 @@
     const searchInput = document.getElementById('search-input');
     const dropdown = document.getElementById('suggest-dropdown');
 
+    // Header compact search — show/hide based on scroll past hero
+    var heroSection = document.getElementById('hero-section');
+    var headerSearch = document.getElementById('header-search');
+    if (heroSection && headerSearch) {
+      var headerSearchInput = headerSearch.querySelector('.header-search-input');
+      var headerSearchClear = headerSearch.querySelector('.header-search-clear');
+      // Sync initial value
+      if (headerSearchInput) headerSearchInput.value = q;
+
+      var _heroObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            headerSearch.classList.remove('visible');
+          } else {
+            headerSearch.classList.add('visible');
+          }
+        });
+      }, { threshold: 0, rootMargin: '-48px 0px 0px 0px' });
+      _heroObserver.observe(heroSection);
+
+      // Wire header search input
+      if (headerSearchInput) {
+        headerSearchInput.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            var val = headerSearchInput.value.trim();
+            var p = new URLSearchParams(params);
+            p.delete('page');
+            if (val) p.set('q', val); else p.delete('q');
+            var qs = p.toString();
+            location.hash = qs ? '#/?' + qs : '#/';
+          }
+        });
+        headerSearchInput.addEventListener('input', function() {
+          if (headerSearchClear) headerSearchClear.classList.toggle('visible', headerSearchInput.value.length > 0);
+        });
+      }
+      if (headerSearchClear) {
+        headerSearchClear.addEventListener('click', function() {
+          if (headerSearchInput) headerSearchInput.value = '';
+          this.classList.remove('visible');
+          if (params.get('q')) { params.delete('q'); params.delete('page'); location.hash = '#/?' + params.toString(); }
+          if (headerSearchInput) headerSearchInput.focus();
+        });
+      }
+    }
+
+    // Wire clear search banner
+    var clearSearchBtn = document.getElementById('btn-clear-search');
+    if (clearSearchBtn) {
+      clearSearchBtn.addEventListener('click', function() {
+        var p = new URLSearchParams(params);
+        p.delete('q');
+        p.delete('page');
+        var qs = p.toString();
+        location.hash = qs ? '#/?' + qs : '#/';
+      });
+    }
+
+    // Wire clear all filters button in filter bar
+    var clearAllBtn = document.getElementById('btn-clear-all-filters');
+    if (clearAllBtn) {
+      clearAllBtn.addEventListener('click', function() {
+        if (q) location.hash = '#/?q=' + encodeURIComponent(q);
+        else location.hash = '#/';
+      });
+    }
+
     // Suggest typeahead
     const doSuggest = debounce(async function () {
       const val = searchInput.value.trim();
@@ -280,7 +356,7 @@
       try {
         const data = await API.get('/suggest', { q: val });
         if (!data.results || !data.results.length) { dropdown.classList.add('hidden'); return; }
-        dropdown.innerHTML = data.results.map(r =>
+        dropdown.innerHTML = `<div class="suggest-dropdown-header">Suggestions for <span>'${escapeHtml(val)}'</span></div>` + data.results.map(r =>
           `<div class="suggest-item" data-slug="${escapeHtml(r.slug)}">
             ${r.image_url ? `<img class="suggest-thumb" src="/api/v1/image-proxy?url=${encodeURIComponent(r.image_url)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
             <span class="suggest-name">${escapeHtml(r.name)}</span>
@@ -365,13 +441,14 @@
       const pv = document.getElementById('f-price').value; if (pv) p.set('price_type', pv);
       const ym = document.getElementById('f-year-min').value; if (ym) p.set('year_min', ym);
       const yx = document.getElementById('f-year-max').value; if (yx) p.set('year_max', yx);
-      const srt = document.getElementById('f-sort').value;
-      if (srt) { const [sf, so] = srt.split('_'); p.set('sort', sf); p.set('order', so); }
+      // Preserve current sort if set
+      if (sort) p.set('sort', sort);
+      if (order) p.set('order', order);
       const qs = p.toString();
       location.hash = qs ? '#/?' + qs : '#/';
     }
 
-    ['f-subcategory', 'f-format', 'f-os', 'f-price', 'f-sort'].forEach(id => {
+    ['f-subcategory', 'f-format', 'f-os', 'f-price'].forEach(id => {
       document.getElementById(id).addEventListener('change', applyFilters);
     });
 
@@ -431,14 +508,35 @@
         toolbarArea.innerHTML = '';
         showEmpty(resultsArea, 'No plugins found. Try adjusting your filters.');
       } else {
-        // Toolbar with count + sort indicator + view toggle
-        const sortLabels = { name_asc: 'Name A-Z', name_desc: 'Name Z-A', created_at_desc: 'Newest', created_at_asc: 'Oldest' };
-        const sortLabel = sortVal && sortLabels[sortVal] ? sortLabels[sortVal] : '';
-        const sortPill = sortLabel ? `<span class="sort-indicator"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M3 2l5 5H4v7H2V7H-2L3 2zm10 12l-5-5h4V2h2v7h4l-5 5z"/></svg>${escapeHtml(sortLabel)}</span>` : '';
+        // Toolbar with count + sort dropdown + view toggle
+        const sortDropdownHtml = `<select class="toolbar-sort" id="toolbar-sort" aria-label="Sort">
+          <option value="">Relevance</option>
+          <option value="name_asc"${sortVal === 'name_asc' ? ' selected' : ''}>Name A-Z</option>
+          <option value="name_desc"${sortVal === 'name_desc' ? ' selected' : ''}>Name Z-A</option>
+          <option value="created_at_desc"${sortVal === 'created_at_desc' ? ' selected' : ''}>Newest</option>
+          <option value="created_at_asc"${sortVal === 'created_at_asc' ? ' selected' : ''}>Oldest</option>
+        </select>`;
         toolbarArea.innerHTML = `<div class="results-toolbar">
           <span class="results-count">${data.total} plugin${data.total !== 1 ? 's' : ''}</span>
-          <div class="toolbar-right">${sortPill}${viewToggleHtml()}</div>
+          <div class="toolbar-right">${sortDropdownHtml}${viewToggleHtml()}</div>
         </div>`;
+
+        // Wire sort dropdown in toolbar
+        document.getElementById('toolbar-sort').addEventListener('change', function() {
+          var p = new URLSearchParams(params);
+          p.delete('page');
+          var srt = this.value;
+          if (srt) {
+            var parts = srt.split('_');
+            p.set('sort', parts[0]);
+            p.set('order', parts[1]);
+          } else {
+            p.delete('sort');
+            p.delete('order');
+          }
+          var qs = p.toString();
+          location.hash = qs ? '#/?' + qs : '#/';
+        });
 
         // Wire view toggle
         toolbarArea.querySelectorAll('.view-btn').forEach(function(btn) {
@@ -602,15 +700,23 @@
     const order = params.get('order') || 'asc';
     const page = parseInt(params.get('page'), 10) || 1;
 
+    const mfrSortVal = sort + '_' + order;
     app.innerHTML = `
       <section class="page-header"><h1>Manufacturers</h1></section>
       <section class="browse-section">
         <div class="filter-bar">
           <div class="search-input-wrap" style="flex:1">
             <svg class="search-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85-.017.016zm-5.242.156a5 5 0 110-10 5 5 0 010 10z"/></svg>
-            <input id="mfr-search" type="search" class="search-input" placeholder="Search manufacturers\u2026" value="${escapeHtml(search)}" aria-label="Search manufacturers">
+            <input id="mfr-search" type="search" class="search-input" placeholder="Search manufacturers\u2026" value="${escapeHtml(search)}" autocomplete="off" aria-label="Search manufacturers">
+            <button id="mfr-search-clear" class="search-clear${search ? ' visible' : ''}" aria-label="Clear search" type="button">&times;</button>
+            <span class="search-shortcut">/</span>
           </div>
-          <button id="mfr-sort" class="btn btn-sm">${sort === 'plugin_count' ? 'Most plugins' : 'A-Z'}</button>
+          <select id="mfr-sort" class="mfr-sort-select" aria-label="Sort manufacturers">
+            <option value="name_asc"${mfrSortVal === 'name_asc' ? ' selected' : ''}>Name A-Z</option>
+            <option value="name_desc"${mfrSortVal === 'name_desc' ? ' selected' : ''}>Name Z-A</option>
+            <option value="plugin_count_desc"${mfrSortVal === 'plugin_count_desc' ? ' selected' : ''}>Most plugins</option>
+            <option value="plugin_count_asc"${mfrSortVal === 'plugin_count_asc' ? ' selected' : ''}>Fewest plugins</option>
+          </select>
         </div>
         <div id="results-area"><div class="loading-spinner" aria-label="Loading"></div></div>
         <div id="pagination-area"></div>
@@ -627,14 +733,28 @@
       return '#/manufacturers' + (qs ? '?' + qs : '');
     }
 
-    document.getElementById('mfr-search').addEventListener('input', debounce(function () {
+    var mfrSearchInput = document.getElementById('mfr-search');
+    mfrSearchInput.addEventListener('input', debounce(function () {
+      var clearBtn = document.getElementById('mfr-search-clear');
+      if (clearBtn) clearBtn.classList.toggle('visible', mfrSearchInput.value.length > 0);
       location.hash = buildHash({ search: this.value.trim(), page: undefined });
     }, CONFIG.DEBOUNCE_MS));
 
-    document.getElementById('mfr-sort').addEventListener('click', function () {
-      const next = sort === 'plugin_count' ? 'name' : 'plugin_count';
-      const nextOrd = next === 'plugin_count' ? 'desc' : 'asc';
-      location.hash = buildHash({ sort: next, order: nextOrd });
+    var mfrSearchClear = document.getElementById('mfr-search-clear');
+    if (mfrSearchClear) {
+      mfrSearchClear.addEventListener('click', function() {
+        mfrSearchInput.value = '';
+        this.classList.remove('visible');
+        location.hash = buildHash({ search: '', page: undefined });
+        mfrSearchInput.focus();
+      });
+    }
+
+    document.getElementById('mfr-sort').addEventListener('change', function () {
+      var parts = this.value.split('_');
+      var nextSort = parts[0] + (parts.length > 2 ? '_' + parts[1] : '');
+      var nextOrd = parts[parts.length - 1];
+      location.hash = buildHash({ sort: nextSort, order: nextOrd });
     });
 
     const resultsArea = document.getElementById('results-area');

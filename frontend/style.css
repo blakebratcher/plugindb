@@ -203,12 +203,17 @@ button, input, select { font: inherit; color: inherit; }
   background: var(--bg-primary); border: 1px solid var(--border);
   border-radius: var(--radius); color: var(--text-primary); outline: none;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
-  transition: border-color var(--transition), box-shadow var(--transition);
+  transition: border-color var(--transition), box-shadow var(--transition), width 0.25s ease;
 }
 .search-input::placeholder { color: var(--text-muted); font-family: var(--font-mono); }
 .search-input:focus {
   border-color: var(--accent); box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 0 0 2px var(--accent-glow);
 }
+/* Search input expand on focus — hero context */
+.hero .search-input-wrap { transition: flex-basis 0.25s ease; flex-basis: 100%; }
+.hero .search-input:focus { }
+.hero .search-wrap:focus-within .search-input-wrap { flex-basis: 108%; }
+
 .search-shortcut {
   position: absolute; right: 12px; font-size: 11px; font-family: var(--font-mono);
   color: var(--text-muted); background: var(--bg-tertiary); border: 1px solid var(--border);
@@ -226,6 +231,24 @@ button, input, select { font: inherit; color: inherit; }
 .search-clear.visible { display: inline-flex; }
 .search-clear.visible ~ .search-shortcut { display: none; }
 
+/* ===== Header compact search — appears on scroll ===== */
+.header-search {
+  display: flex; align-items: center; flex: 1; max-width: 340px;
+  margin: 0 16px; opacity: 0; visibility: hidden; pointer-events: none;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+.header-search.visible { opacity: 1; visibility: visible; pointer-events: auto; }
+.header-search .search-input-wrap { flex: 1; }
+.header-search .search-input {
+  padding: 5px 12px 5px 32px; font-size: 12px;
+  border-radius: var(--radius-sm); height: 32px;
+}
+.header-search .search-icon { left: 10px; width: 13px; height: 13px; }
+.header-search .search-shortcut { right: 8px; font-size: 9px; padding: 0px 4px; }
+.header-search .search-clear { right: 8px; width: 16px; height: 16px; font-size: 10px; }
+.header-search .search-input:focus ~ .search-shortcut { display: none; }
+.header-search .search-clear.visible ~ .search-shortcut { display: none; }
+
 /* Suggest dropdown — dark panel, amber highlight */
 .suggest-dropdown {
   position: absolute; top: calc(100% + 4px); left: 0; right: 0;
@@ -234,12 +257,19 @@ button, input, select { font: inherit; color: inherit; }
   overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,0.6);
 }
 .suggest-dropdown.hidden { display: none; }
+.suggest-dropdown-header {
+  padding: 8px 14px; font-family: var(--font-mono); font-size: 10px;
+  font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--text-muted); border-bottom: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.suggest-dropdown-header span { color: var(--accent); font-weight: 700; }
 .suggest-item {
   display: flex; align-items: center; gap: 10px;
   padding: 9px 14px; cursor: pointer; transition: background var(--transition);
 }
 .suggest-item:hover, .suggest-item-active { background: var(--accent-muted); }
-.suggest-item:first-child { border-radius: var(--radius) var(--radius) 0 0; }
 .suggest-item:last-child { border-radius: 0 0 var(--radius) var(--radius); }
 .suggest-thumb {
   width: 30px; height: 30px; border-radius: var(--radius-sm);
@@ -285,6 +315,11 @@ button, input, select { font: inherit; color: inherit; }
   padding: 8px 12px; margin-bottom: 14px;
   background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius);
 }
+.filter-bar-label {
+  font-family: var(--font-mono); font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);
+  padding-right: 4px; flex-shrink: 0;
+}
 .filter-bar select,
 .filter-bar .input-year {
   padding: 5px 26px 5px 8px; font-family: var(--font-mono); font-size: 11px;
@@ -297,10 +332,29 @@ button, input, select { font: inherit; color: inherit; }
 .filter-bar select:focus,
 .filter-bar .input-year:focus { border-color: var(--accent); }
 .input-year {
-  width: 88px; padding: 5px 8px; font-family: var(--font-mono); font-size: 11px;
+  width: 78px; padding: 5px 8px; font-family: var(--font-mono); font-size: 11px;
   background: var(--bg-primary); border: 1px solid var(--border);
   border-radius: var(--radius-sm); color: var(--text-primary); outline: none; appearance: textfield;
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+}
+/* Year range visual grouping */
+.year-range {
+  display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0;
+}
+.year-range-sep {
+  font-family: var(--font-mono); font-size: 13px; color: var(--text-muted);
+  font-weight: 500; user-select: none;
+}
+/* Clear all filters link in filter bar */
+.filter-bar .btn-clear-filters {
+  margin-left: auto; padding: 4px 10px; font-family: var(--font-mono);
+  font-size: 10px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--accent); background: none;
+  border: 1px solid transparent; border-radius: var(--radius-sm);
+  cursor: pointer; transition: all var(--transition); flex-shrink: 0;
+}
+.filter-bar .btn-clear-filters:hover {
+  border-color: var(--accent); background: var(--accent-muted);
 }
 
 /* Active filter pills */
@@ -329,13 +383,25 @@ button, input, select { font: inherit; color: inherit; }
 /* ===== Results toolbar ===== */
 .results-toolbar {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 6px 0; margin-bottom: 14px; gap: 10px;
+  padding: 8px 12px; margin-bottom: 14px; gap: 10px;
+  background: var(--bg-tertiary); border-radius: var(--radius);
+  border: 1px solid var(--border);
 }
 .results-count {
   font-family: var(--font-mono); font-size: 12px; color: var(--text-muted);
   font-variant-numeric: tabular-nums;
 }
-.toolbar-right { display: flex; align-items: center; gap: 6px; }
+.toolbar-right { display: flex; align-items: center; gap: 8px; }
+/* Sort dropdown in toolbar */
+.toolbar-sort {
+  padding: 4px 24px 4px 8px; font-family: var(--font-mono); font-size: 11px;
+  background: var(--bg-primary) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238a8880'%3E%3Cpath d='M2 4l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 6px center;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  color: var(--text-primary); cursor: pointer; outline: none; appearance: none;
+  transition: border-color var(--transition);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+}
+.toolbar-sort:focus { border-color: var(--accent); }
 .sort-indicator {
   display: inline-flex; align-items: center; gap: 4px;
   font-family: var(--font-mono); font-size: 10px; font-weight: 500;
@@ -344,6 +410,30 @@ button, input, select { font: inherit; color: inherit; }
   border-radius: var(--radius-sm);
 }
 .sort-indicator svg { width: 10px; height: 10px; }
+
+/* Search query active state banner */
+.search-active-banner {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 16px; margin-bottom: 14px;
+  background: var(--accent-muted); border: 1px solid rgba(212,160,38,0.25);
+  border-radius: var(--radius); font-family: var(--font-mono); font-size: 13px;
+}
+.search-active-banner .search-query-text {
+  color: var(--text-primary); flex: 1;
+}
+.search-active-banner .search-query-text strong {
+  color: var(--accent); font-weight: 700;
+}
+.search-active-banner .btn-clear-search {
+  padding: 4px 12px; font-family: var(--font-mono); font-size: 10px;
+  font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--accent); background: rgba(212,160,38,0.1);
+  border: 1px solid rgba(212,160,38,0.3); border-radius: var(--radius-sm);
+  cursor: pointer; transition: all var(--transition); flex-shrink: 0;
+}
+.search-active-banner .btn-clear-search:hover {
+  background: rgba(212,160,38,0.2); border-color: var(--accent);
+}
 .view-toggle {
   display: inline-flex; background: var(--bg-secondary); border: 1px solid var(--border);
   border-radius: var(--radius-sm); overflow: hidden;
@@ -683,6 +773,17 @@ button, input, select { font: inherit; color: inherit; }
   display: flex; align-items: center; gap: 4px;
 }
 
+/* Manufacturer sort dropdown (matching plugin page pattern) */
+.mfr-sort-select {
+  padding: 5px 26px 5px 8px; font-family: var(--font-mono); font-size: 11px;
+  background: var(--bg-primary) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238a8880'%3E%3Cpath d='M2 4l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 6px center;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  color: var(--text-primary); cursor: pointer; outline: none; appearance: none;
+  transition: border-color var(--transition);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+}
+.mfr-sort-select:focus { border-color: var(--accent); }
+
 /* Manufacturer detail stats */
 .mfr-detail-stats { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
 .mfr-stat-card {
@@ -747,17 +848,24 @@ button, input, select { font: inherit; color: inherit; }
   .nav-link { padding: 5px 8px; font-size: 10px; }
   .nav-sep { margin: 0 3px; height: 14px; }
   .logo-text { font-size: 13px; }
+  .header-search { max-width: 200px; margin: 0 8px; }
+  .header-search .search-input { font-size: 11px; padding: 4px 10px 4px 28px; }
   #app { padding: 16px; }
   .hero h1 { font-size: 28px; }
   .hero-stats { gap: 16px; }
   .hero-stat-num { font-size: 18px; }
   .search-wrap { flex-direction: column; }
   .search-wrap .btn-accent { width: 100%; }
+  .hero .search-wrap:focus-within .search-input-wrap { flex-basis: 100%; }
   .plugin-grid, .mfr-grid { grid-template-columns: 1fr; }
   .plugin-grid.list-view { grid-template-columns: 1fr; }
   .list-view .plugin-card { grid-template-columns: 100px 1fr; }
   .filter-bar { flex-direction: column; align-items: stretch; }
+  .filter-bar-label { margin-bottom: 2px; }
   .filter-bar select { width: 100%; }
+  .filter-bar .btn-clear-filters { margin-left: 0; }
+  .year-range { width: 100%; }
+  .year-range .input-year { flex: 1; }
   .category-pills { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
   .pd-name { font-size: 22px; }
   .pd-hero img { height: 200px; }
@@ -765,6 +873,7 @@ button, input, select { font: inherit; color: inherit; }
   .pd-info-label { min-width: 0; }
   .pd-info-icon { display: none; }
   .results-toolbar { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .search-active-banner { flex-direction: column; align-items: flex-start; gap: 6px; }
   .mfr-detail-stats { gap: 8px; }
   .mfr-stat-card { flex: 1; min-width: 80px; padding: 10px 14px; }
   .mfr-stat-num { font-size: 20px; }
