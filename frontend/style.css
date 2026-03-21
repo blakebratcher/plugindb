@@ -3,23 +3,29 @@
    Inspired by SSL consoles, Neve 1073, pro audio hardware
    ====================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+/* Fonts loaded via <link> in HTML — no @import needed */
 
 :root {
+  /* Backgrounds — warm charcoal, never cold */
   --bg-primary: #111113;
   --bg-secondary: #18181b;
   --bg-tertiary: #1f1f23;
-  --bg-elevated: #232328;
+
+  /* Text — warm cream, not blue-white */
   --text-primary: #e8e6e1;
   --text-secondary: #a09e96;
   --text-muted: #8a8880;
+
+  /* Accent — amber/gold, like VU meter illumination */
   --accent: #d4a026;
   --accent-hover: #e0ad2e;
   --accent-glow: rgba(212, 160, 38, 0.25);
   --accent-muted: rgba(212, 160, 38, 0.12);
-  --accent-subtle: rgba(212, 160, 38, 0.06);
+
+  /* Borders — subtle panel seams */
   --border: #2a2a2e;
-  --border-subtle: #222225;
+
+  /* Status colors */
   --success: #5ab55e;
   --success-muted: rgba(90, 181, 94, 0.12);
   --teal: #4ecdc4;
@@ -28,18 +34,22 @@
   --blue-muted: rgba(91, 155, 213, 0.12);
   --purple: #a78bfa;
   --purple-muted: rgba(167, 139, 250, 0.12);
-  --orange: #e0832b;
-  --orange-muted: rgba(224, 131, 43, 0.12);
-  --red: #e85d4a;
+
+  /* Surfaces */
   --tag-bg: #1f1f23;
   --card-shadow: 0 1px 2px rgba(0,0,0,0.4);
   --card-shadow-hover: 0 2px 8px rgba(0,0,0,0.5);
+
+  /* Dimensions */
   --radius: 6px;
   --radius-sm: 3px;
-  --radius-lg: 8px;
   --max-width: 1340px;
+
+  /* Typography */
   --font: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, "SF Mono", "Cascadia Code", monospace;
+
+  /* Motion */
   --transition: 150ms ease;
   --transition-slow: 200ms ease;
 }
@@ -132,12 +142,16 @@ button, input, select { font: inherit; color: inherit; }
 .hero h1 {
   font-family: var(--font); font-size: 40px; font-weight: 800;
   letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 8px;
-  color: var(--text-primary);
+  background: linear-gradient(135deg, var(--text-primary) 40%, var(--accent) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .hero-sub { font-size: 14px; color: var(--text-secondary); margin-bottom: 20px; }
 .hero-tagline {
   font-size: 14px; color: var(--text-muted); margin-bottom: 20px;
   max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.6;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
 }
 .hero-stats { display: flex; justify-content: center; gap: 28px; margin-bottom: 22px; }
 .hero-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; }
@@ -757,6 +771,7 @@ button, input, select { font: inherit; color: inherit; }
 /* Empty state */
 .state-empty {
   display: flex; flex-direction: column; align-items: center; gap: 8px;
+  font-family: var(--font-mono); font-size: 13px;
 }
 .state-empty::before {
   content: ""; display: block; width: 40px; height: 40px;
