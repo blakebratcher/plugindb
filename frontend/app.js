@@ -198,7 +198,7 @@
 
   // == HOME / BROWSE ==
   Views.home = async function (params) {
-    document.title = 'PluginDB - Discover Audio Plugins';
+    document.title = 'PluginDB - The Plugin Database';
     const app = document.getElementById('app');
     const q = params.get('q') || '';
     const category = params.get('category') || '';
@@ -233,7 +233,7 @@
     app.innerHTML = `
       <section class="hero" id="hero-section">
         <div class="hero-title-row">
-          <h1>Discover Audio Plugins</h1>
+          <h1>The Plugin Database</h1>
           <div class="hero-stats-inline">
             <span class="hero-stat-inline"><strong>${statsData.total_plugins || 0}</strong> plugins</span>
             <span class="hero-stat-inline"><strong>${statsData.total_manufacturers || 0}</strong> manufacturers</span>
