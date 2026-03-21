@@ -220,25 +220,24 @@
 
     const sortVal = sort ? `${sort}_${order || 'asc'}` : '';
 
-    // Cycle 7: Category pills
+    // Cycle 7: Category pills (no counts — cleaner)
     const catPillsHtml = catData.categories.map(c => {
-      const count = statsData.categories ? (statsData.categories[c] || 0) : '';
       const active = c === category ? ' active' : '';
-      return `<button class="cat-pill${active}" data-cat="${escapeHtml(c)}">${escapeHtml(c)}${count ? ` <span class="cat-pill-count">${count}</span>` : ''}</button>`;
+      return `<button class="cat-pill${active}" data-cat="${escapeHtml(c)}">${escapeHtml(c)}</button>`;
     }).join('');
 
     // Clear all link if any filter is active
     const clearAllHtml = hasFilters ? `<button class="btn-clear-filters" id="btn-clear-all-filters">Clear all</button>` : '';
 
-    // Render shell
+    // Render shell — compact, content-first layout
     app.innerHTML = `
       <section class="hero" id="hero-section">
-        <h1>Discover Audio Plugins</h1>
-        <p class="hero-tagline">The open database for VSTs, Audio Units, and CLAP plugins. Browse, search, and compare.</p>
-        <div class="hero-stats">
-          <div class="hero-stat"><span class="hero-stat-num">${statsData.total_plugins || 0}</span><span class="hero-stat-label">Plugins</span></div>
-          <div class="hero-stat"><span class="hero-stat-num">${statsData.total_manufacturers || 0}</span><span class="hero-stat-label">Manufacturers</span></div>
-          <div class="hero-stat"><span class="hero-stat-num">${Object.keys(statsData.categories || {}).length || 0}</span><span class="hero-stat-label">Categories</span></div>
+        <div class="hero-title-row">
+          <h1>Discover Audio Plugins</h1>
+          <div class="hero-stats-inline">
+            <span class="hero-stat-inline"><strong>${statsData.total_plugins || 0}</strong> plugins</span>
+            <span class="hero-stat-inline"><strong>${statsData.total_manufacturers || 0}</strong> manufacturers</span>
+          </div>
         </div>
         <div class="search-wrap">
           <div class="search-input-wrap">
@@ -248,27 +247,28 @@
             <span class="search-shortcut">/</span>
             <div id="suggest-dropdown" class="suggest-dropdown hidden"></div>
           </div>
-          <button id="btn-random" class="btn btn-accent" title="Random plugin">\uD83C\uDFB2 Random</button>
+          <button id="btn-random" class="btn-random-sm" title="Random plugin">\uD83C\uDFB2</button>
         </div>
       </section>
       <section class="browse-section">
         ${q ? `<div class="search-active-banner" id="search-active-banner"><span class="search-query-text">Showing results for <strong>'${escapeHtml(q)}'</strong></span><button class="btn-clear-search" id="btn-clear-search">Clear search</button></div>` : ''}
-        <div class="category-pills">
-          <button class="cat-pill${!category ? ' active' : ''}" data-cat="">All</button>
-          ${catPillsHtml}
-        </div>
-        <div class="filter-bar" id="filter-bar">
-          <span class="filter-bar-label">Filters</span>
-          <select id="f-subcategory" aria-label="Subcategory"><option value="">All subcategories</option>${subcats.map(s => `<option value="${escapeHtml(s)}"${s === subcategory ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('')}</select>
-          <select id="f-format" aria-label="Format"><option value="">All formats</option>${Object.keys(fmtData.formats).map(f => `<option value="${escapeHtml(f)}"${f === format ? ' selected' : ''}>${escapeHtml(f)}</option>`).join('')}</select>
-          <select id="f-os" aria-label="OS"><option value="">All OS</option>${Object.keys(osData.os).map(o => `<option value="${escapeHtml(o)}"${o === os ? ' selected' : ''}>${escapeHtml(o)}</option>`).join('')}</select>
-          <select id="f-price" aria-label="Price type"><option value="">All prices</option>${['free','freemium','paid','subscription'].map(p => `<option value="${escapeHtml(p)}"${p === priceType ? ' selected' : ''}>${escapeHtml(p)}</option>`).join('')}</select>
-          <div class="year-range">
-            <input id="f-year-min" type="number" class="input-year" placeholder="From" value="${escapeHtml(yearMin)}" aria-label="Year from">
-            <span class="year-range-sep">&ndash;</span>
-            <input id="f-year-max" type="number" class="input-year" placeholder="To" value="${escapeHtml(yearMax)}" aria-label="Year to">
+        <div class="category-filter-bar" id="filter-bar">
+          <div class="cat-pills-group">
+            <button class="cat-pill${!category ? ' active' : ''}" data-cat="">All</button>
+            ${catPillsHtml}
           </div>
-          ${clearAllHtml}
+          <div class="filter-dropdowns-group">
+            <select id="f-subcategory" aria-label="Subcategory"><option value="">All subcategories</option>${subcats.map(s => `<option value="${escapeHtml(s)}"${s === subcategory ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('')}</select>
+            <select id="f-format" aria-label="Format"><option value="">All formats</option>${Object.keys(fmtData.formats).map(f => `<option value="${escapeHtml(f)}"${f === format ? ' selected' : ''}>${escapeHtml(f)}</option>`).join('')}</select>
+            <select id="f-os" aria-label="OS"><option value="">All OS</option>${Object.keys(osData.os).map(o => `<option value="${escapeHtml(o)}"${o === os ? ' selected' : ''}>${escapeHtml(o)}</option>`).join('')}</select>
+            <select id="f-price" aria-label="Price type"><option value="">All prices</option>${['free','freemium','paid','subscription'].map(p => `<option value="${escapeHtml(p)}"${p === priceType ? ' selected' : ''}>${escapeHtml(p)}</option>`).join('')}</select>
+            <div class="year-range">
+              <input id="f-year-min" type="number" class="input-year" placeholder="From" value="${escapeHtml(yearMin)}" aria-label="Year from">
+              <span class="year-range-sep">&ndash;</span>
+              <input id="f-year-max" type="number" class="input-year" placeholder="To" value="${escapeHtml(yearMax)}" aria-label="Year to">
+            </div>
+            ${clearAllHtml}
+          </div>
         </div>
         <div id="active-filters"></div>
         <div id="related-tags"></div>
@@ -527,9 +527,9 @@
           p.delete('page');
           var srt = this.value;
           if (srt) {
-            var parts = srt.split('_');
-            p.set('sort', parts[0]);
-            p.set('order', parts[1]);
+            var lastUnderscore = srt.lastIndexOf('_');
+            p.set('sort', srt.substring(0, lastUnderscore));
+            p.set('order', srt.substring(lastUnderscore + 1));
           } else {
             p.delete('sort');
             p.delete('order');
