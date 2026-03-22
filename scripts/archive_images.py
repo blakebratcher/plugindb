@@ -52,7 +52,6 @@ def upload_to_ia(
         "Authorization": f"LOW {access_key}:{secret_key}",
         "Content-Type": "image/jpeg",
         "x-amz-auto-make-bucket": "1",
-        "x-archive-meta-collection": COLLECTION,
         "x-archive-meta-mediatype": "image",
     }
 

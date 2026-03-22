@@ -49,7 +49,6 @@ def upload_to_ia(item_id: str, filename: str, data: bytes, content_type: str,
         "Authorization": f"LOW {access_key}:{secret_key}",
         "Content-Type": content_type or "application/pdf",
         "x-amz-auto-make-bucket": "1",
-        "x-archive-meta-collection": COLLECTION,
         "x-archive-meta-mediatype": "texts",
     }
     for key, value in metadata.items():
