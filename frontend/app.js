@@ -557,7 +557,6 @@
   Views.pluginDetail = async function (slug) {
     const app = document.getElementById('app');
     showLoading(app);
-    document.title = 'Loading... - PluginDB';
     try {
       const p = await API.get(`/plugins/by-slug/${encodeURIComponent(slug)}`, { include: 'manufacturer_plugins' });
       const mfr = p.manufacturer || {};
@@ -806,13 +805,6 @@
 
       // Compute stats
       const catCount = Object.keys(data.categories || {}).length;
-      const catBreakdown = Object.entries(data.categories || {}).map(([c, n]) => `${escapeHtml(c)} (${n})`).join(', ');
-
-      // Compute year range from all plugins
-      const allYears = (data.plugins || []).map(function(p) { return p.year; }).filter(function(y) { return y != null; });
-      const yearMin = allYears.length ? Math.min.apply(null, allYears) : null;
-      const yearMax = allYears.length ? Math.max.apply(null, allYears) : null;
-      const yearRangeStr = yearMin && yearMax ? (yearMin === yearMax ? String(yearMin) : yearMin + ' \u2013 ' + yearMax) : '\u2014';
 
       // Website link
       const websiteHtml = m.website ? `<a href="${escapeHtml(m.website)}" class="mfr-website-link" target="_blank" rel="noopener">
@@ -841,7 +833,6 @@
         <div class="mfr-detail-stats">
           <div class="mfr-stat-card"><div class="mfr-stat-num">${data.plugin_count}</div><div class="mfr-stat-label">Plugins</div></div>
           <div class="mfr-stat-card"><div class="mfr-stat-num">${catCount}</div><div class="mfr-stat-label">Categor${catCount !== 1 ? 'ies' : 'y'}</div></div>
-          <div class="mfr-stat-card"><div class="mfr-stat-num">${escapeHtml(yearRangeStr)}</div><div class="mfr-stat-label">Year Range</div></div>
         </div>`;
 
       if (data.plugins && data.plugins.length) {
