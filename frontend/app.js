@@ -120,9 +120,6 @@
     const imageHtml = p.image_url
       ? `<div class="card-image"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="${escapeHtml(onerrorFallback)}"></div>`
       : `<div class="card-image">${placeholder}</div>`;
-    const tagPills = (p.tags || []).slice(0, 3).map(t =>
-      `<span class="card-tag">${escapeHtml(t)}</span>`
-    ).join('');
     return `<a href="#/plugins/${escapeHtml(p.slug)}" class="plugin-card">
       ${imageHtml}
       <div class="card-body">
@@ -347,7 +344,7 @@
       try {
         const data = await API.get('/suggest', { q: val });
         if (!data.results || !data.results.length) { dropdown.classList.add('hidden'); return; }
-        dropdown.innerHTML = `<div class="suggest-dropdown-header">Suggestions for <span>'${escapeHtml(val)}'</span></div>` + data.results.map(r =>
+        dropdown.innerHTML = data.results.map(r =>
           `<div class="suggest-item" data-slug="${escapeHtml(r.slug)}">
             ${r.image_url ? `<img class="suggest-thumb" src="/api/v1/image-proxy?url=${encodeURIComponent(r.image_url)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
             <span class="suggest-name">${escapeHtml(r.name)}</span>
@@ -624,7 +621,7 @@
           <div><div class="resource-card-name">Official Website</div><div class="resource-card-domain">${escapeHtml(websiteDomain)}</div></div>
         </a>`);
       }
-      if (p.manual_url) {
+      if (p.manual_url && p.manual_url !== p.website) {
         const manualDomain = (function(url) { try { return new URL(url).hostname; } catch(_) { return url; } })(p.manual_url);
         resourceCards.push(`<a href="${escapeHtml(p.manual_url)}" class="resource-card" target="_blank" rel="noopener">
           <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M1 2.828c.885-.37 2.154-.769 3.388-.893C5.632 1.785 6.937 1.92 8 2.702c1.063-.782 2.368-.917 3.612-.767 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.188-.119-2.39-.023-3.413.56v.001c-.01.005-.022.009-.032.013-.005.002-.01.005-.017.007a.066.066 0 01-.048 0c-.007-.002-.012-.005-.017-.007a.148.148 0 01-.032-.013v-.001c-1.023-.583-2.225-.679-3.413-.56-1.18.118-2.37.46-3.287.81V2.828zM7.5 3.621C6.57 3.016 5.396 2.887 4.28 3.006c-.927.1-1.852.37-2.53.622v8.218c.748-.268 1.629-.508 2.53-.601 1.1-.114 2.204.01 3.22.543V3.62zm1 8.788c1.016-.533 2.12-.657 3.22-.543.9.093 1.782.333 2.53.6V3.63c-.678-.252-1.603-.522-2.53-.622-1.116-.12-2.29.01-3.22.615v8.787z"/></svg>
@@ -651,17 +648,14 @@
           <div><div class="resource-card-name">Plugin Boutique</div><div class="resource-card-domain">pluginboutique.com</div></div>
         </a>`);
       }
-      const resourcesSection = `<section class="pd-section">
+      const resourcesSection = resourceCards.length ? `<section class="pd-section">
         <h2 class="pd-section-title">Resources</h2>
         <div class="pd-resources-grid">${resourceCards.join('')}</div>
-      </section>`;
+      </section>` : '';
 
-      const similarSection = `<section class="pd-section" id="similar-section">
-        <h2 class="pd-section-title">Similar Plugins</h2>
-        <div class="loading-spinner" aria-label="Loading similar"></div>
-      </section>`;
-
-      const freeAltPlaceholder = p.price_type !== 'free' ? '<section class="pd-section" id="free-alternatives-section" style="display:none"><h2 class="pd-section-title">Free Alternatives</h2></section>' : '';
+      // Placeholders — only filled if results come back
+      const similarSection = '<div id="similar-section"></div>';
+      const freeAltPlaceholder = p.price_type !== 'free' ? '<div id="free-alternatives-section"></div>' : '';
 
       const moreSection = hasMfrPlugins ? `<section class="pd-section">
         <h2 class="pd-section-title">More from ${escapeHtml(mfr.name)} <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="section-link">View all &rarr;</a></h2>
@@ -688,14 +682,12 @@
           const sim = await API.get(`/plugins/${p.id}/similar`, { limit: 8 });
           const section = document.getElementById('similar-section');
           if (sim.data && sim.data.length && section) {
-            section.innerHTML = `<h2 class="pd-section-title">Similar Plugins <span class="section-count">${sim.total} found</span></h2>` + pluginCarousel(sim.data);
+            section.innerHTML = `<section class="pd-section"><h2 class="pd-section-title">Similar Plugins <span class="section-count">${sim.total} found</span></h2>${pluginCarousel(sim.data)}</section>`;
             wireImageLoading(section);
-          } else if (section) {
-            section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:14px">No similar plugins found in this category.</p>';
           }
+          // If no results, section stays empty — no "no results" message cluttering the page
         } catch (_) {
-          var section = document.getElementById('similar-section');
-          if (section) section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:13px">Could not load similar plugins.</p>';
+          // Silently skip — similar plugins are non-critical
         }
       }
 
@@ -707,8 +699,7 @@
           const freeAlt = await API.get('/plugins', params);
           const faSection = document.getElementById('free-alternatives-section');
           if (freeAlt.data && freeAlt.data.length && faSection) {
-            faSection.style.display = '';
-            faSection.innerHTML = `<h2 class="pd-section-title">Free Alternatives <span class="section-count">${freeAlt.total} found</span></h2>` + pluginGrid(freeAlt.data);
+            faSection.innerHTML = `<section class="pd-section"><h2 class="pd-section-title">Free Alternatives <span class="section-count">${freeAlt.total} found</span></h2>${pluginGrid(freeAlt.data)}</section>`;
             wireImageLoading(faSection);
           }
         } catch (_) { /* silently skip if free alternatives fail */ }
