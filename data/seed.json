@@ -333,6 +333,11 @@
       "website": "https://www.cockos.com"
     },
     {
+      "slug": "cotorro-audio",
+      "name": "Cotorro Audio",
+      "website": "https://cotorroaudio.com"
+    },
+    {
       "slug": "crave-dsp",
       "name": "Crave DSP",
       "website": "https://www.cravedsp.com"
@@ -516,6 +521,11 @@
       "website": "https://www.neuraldsp.com"
     },
     {
+      "slug": "frctl-audio",
+      "name": "FRCTL Audio",
+      "website": "https://frctlaudio.com"
+    },
+    {
       "slug": "full-bucket-music",
       "name": "Full Bucket Music",
       "website": "https://www.fullbucket.de"
@@ -543,6 +553,11 @@
       "slug": "goodhertz",
       "name": "Goodhertz",
       "website": "https://goodhertz.com"
+    },
+    {
+      "slug": "gooey",
+      "name": "Gooey",
+      "website": "https://gooeyaudio.com"
     },
     {
       "slug": "gsi",
@@ -807,6 +822,11 @@
       "website": "https://www.meldaproduction.com"
     },
     {
+      "slug": "mercurial-tones",
+      "name": "Mercurial Tones",
+      "website": "https://mercurialtones.com"
+    },
+    {
       "slug": "mercuriall",
       "name": "Mercuriall",
       "website": "https://mercuriall.com"
@@ -830,6 +850,11 @@
       "slug": "mixed-in-key",
       "name": "Mixed In Key",
       "website": "https://mixedinkey.com"
+    },
+    {
+      "slug": "mixing-night-audio",
+      "name": "Mixing Night Audio",
+      "website": "https://mixingnightaudio.com"
     },
     {
       "slug": "mod-audio",
@@ -1051,6 +1076,11 @@
       "website": "https://www.reveal-sound.com"
     },
     {
+      "slug": "rhodes-music",
+      "name": "Rhodes Music",
+      "website": "https://www.rhodesmusic.com"
+    },
+    {
       "slug": "rob-papen",
       "name": "Rob Papen",
       "website": "https://www.robpapen.com"
@@ -1170,6 +1200,11 @@
       "website": "https://www.soundradix.com"
     },
     {
+      "slug": "soundiron",
+      "name": "Soundiron",
+      "website": "https://soundiron.com"
+    },
+    {
       "slug": "soundspot",
       "name": "SoundSpot",
       "website": "https://www.soundspot.audio"
@@ -1287,6 +1322,11 @@
       "website": "https://techivation.com"
     },
     {
+      "slug": "the-very-loud-indeed-co",
+      "name": "The Very Loud Indeed Co.",
+      "website": "https://theveryloudindeedco.com"
+    },
+    {
       "slug": "the-wave-warden",
       "name": "The Wave Warden"
     },
@@ -1302,6 +1342,11 @@
     {
       "slug": "three-body-technology",
       "name": "Three-Body Technology"
+    },
+    {
+      "slug": "time-off-audio",
+      "name": "Time Off Audio",
+      "website": "https://timeoffaudio.com"
     },
     {
       "slug": "tin-brooke-tales",
@@ -58040,6 +58085,741 @@
         "metering"
       ],
       "image_url": "https://static.kvraudio.com/i/b/soundways---core-production-bundle---avid-marketpl.png"
+    },
+    {
+      "slug": "grainferno",
+      "name": "Grainferno",
+      "manufacturer_slug": "baby-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Grainferno",
+        "Baby Audio Grainferno"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Granular synthesizer with audio-rate grain engine that turns any sample into a playable synth voice.",
+      "price_type": "paid",
+      "url": "https://babyaud.io/grainferno",
+      "year": 2026,
+      "tags": [
+        "granular",
+        "synthesizer",
+        "sound-design",
+        "creative",
+        "morphing"
+      ]
+    },
+    {
+      "slug": "nox",
+      "name": "Nox",
+      "manufacturer_slug": "acustica-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Nox",
+        "Acustica Audio Nox"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Hybrid synthesizer designed for EDM and melodic techno, built on the Alice-9 architecture.",
+      "price_type": "paid",
+      "url": "https://www.acustica-audio.com/shop/products/NOX",
+      "year": 2026,
+      "tags": [
+        "synthesizer",
+        "edm",
+        "techno",
+        "hybrid",
+        "melodic"
+      ]
+    },
+    {
+      "slug": "evolve-air",
+      "name": "Evolve Air",
+      "manufacturer_slug": "excite-audio",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Evolve Air",
+        "Excite Audio Evolve Air"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Sample-based synth with quad-engine for blending and morphing between four sources.",
+      "price_type": "paid",
+      "url": "https://www.excite-audio.com",
+      "year": 2026,
+      "tags": [
+        "synthesizer",
+        "sample-based",
+        "texture",
+        "morphing",
+        "ambient"
+      ]
+    },
+    {
+      "slug": "efx-ambient",
+      "name": "Efx AMBIENT",
+      "manufacturer_slug": "arturia",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Efx AMBIENT",
+        "Arturia Efx AMBIENT"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Spectral processing and feedback-based delay plugin from the Arturia FX Collection.",
+      "price_type": "paid",
+      "url": "https://www.arturia.com/products/software-effects/efx-ambient/overview",
+      "year": 2026,
+      "tags": [
+        "reverb",
+        "ambient",
+        "spectral",
+        "creative",
+        "delay"
+      ]
+    },
+    {
+      "slug": "pitch-shifter-910",
+      "name": "Pitch SHIFTER-910",
+      "manufacturer_slug": "arturia",
+      "category": "effect",
+      "subcategory": "pitch",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Pitch SHIFTER-910",
+        "Arturia Pitch SHIFTER-910"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Pitch and formant shifting tool inspired by classic hardware pitch shifters.",
+      "price_type": "paid",
+      "url": "https://www.arturia.com/products/software-effects/pitch-shifter-910/overview",
+      "year": 2026,
+      "tags": [
+        "pitch-shift",
+        "formant",
+        "creative",
+        "harmonizer"
+      ]
+    },
+    {
+      "slug": "oxford-drum-gate-2",
+      "name": "Oxford Drum Gate 2",
+      "manufacturer_slug": "sonnox",
+      "category": "effect",
+      "subcategory": "gate",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Oxford Drum Gate 2",
+        "Sonnox Oxford Drum Gate 2"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Intelligent drum gate with advanced transient detection for precise gating.",
+      "price_type": "paid",
+      "url": "https://www.sonnox.com",
+      "year": 2026,
+      "tags": [
+        "gate",
+        "drums",
+        "transient",
+        "mixing",
+        "intelligent"
+      ]
+    },
+    {
+      "slug": "falcon-2026",
+      "name": "Falcon 2026",
+      "manufacturer_slug": "uvi",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Falcon 2026",
+        "UVI Falcon 2026"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Major update to UVI Falcon with new oscillators, effects, and modulators.",
+      "price_type": "paid",
+      "url": "https://www.uvi.net/falcon.html",
+      "year": 2026,
+      "tags": [
+        "synthesizer",
+        "hybrid",
+        "sampler",
+        "modular",
+        "sound-design"
+      ]
+    },
+    {
+      "slug": "corte-fino-eq",
+      "name": "Corte Fino EQ",
+      "manufacturer_slug": "cotorro-audio",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Corte Fino EQ",
+        "Cotorro Audio Corte Fino EQ"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Free subtractive equalizer with clean, transparent character.",
+      "price_type": "free",
+      "url": "https://cotorroaudio.com",
+      "year": 2026,
+      "tags": [
+        "equalizer",
+        "free",
+        "subtractive",
+        "mixing",
+        "clean"
+      ]
+    },
+    {
+      "slug": "pianology",
+      "name": "Pianology",
+      "manufacturer_slug": "rhodes-music",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "Pianology",
+        "Rhodes Music Pianology"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Acoustic and electric piano collection from Rhodes Music.",
+      "price_type": "paid",
+      "url": "https://www.rhodesmusic.com",
+      "year": 2026,
+      "tags": [
+        "piano",
+        "rhodes",
+        "electric-piano",
+        "keys",
+        "realistic"
+      ]
+    },
+    {
+      "slug": "grn-granular-fx",
+      "name": "GRN Granular FX",
+      "manufacturer_slug": "frctl-audio",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "GRN Granular FX",
+        "FRCTL Audio GRN Granular FX"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Granular effects processor for creative sound manipulation.",
+      "price_type": "paid",
+      "url": "https://frctlaudio.com",
+      "year": 2026,
+      "tags": [
+        "granular",
+        "creative",
+        "sound-design",
+        "textural",
+        "ambient"
+      ]
+    },
+    {
+      "slug": "echo-cube",
+      "name": "Echo Cube",
+      "manufacturer_slug": "audiothing",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Echo Cube",
+        "AudioThing Echo Cube"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dual acoustic delay effect with spatial processing capabilities.",
+      "price_type": "paid",
+      "url": "https://www.audiothing.net/plugins/echo-cube/",
+      "year": 2026,
+      "tags": [
+        "delay",
+        "acoustic",
+        "dual",
+        "creative",
+        "spatial"
+      ]
+    },
+    {
+      "slug": "dime-mb",
+      "name": "Dime[mb]",
+      "manufacturer_slug": "time-off-audio",
+      "category": "utility",
+      "subcategory": "routing",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Dime[mb]",
+        "Time Off Audio Dime[mb]"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Adds multiband processing to any plugin by splitting signal into five frequency bands.",
+      "price_type": "paid",
+      "url": "https://timeoffaudio.com",
+      "year": 2026,
+      "tags": [
+        "multiband",
+        "routing",
+        "utility",
+        "mixing",
+        "creative"
+      ]
+    },
+    {
+      "slug": "cascade",
+      "name": "Cascade",
+      "manufacturer_slug": "mixing-night-audio",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Cascade",
+        "Mixing Night Audio Cascade"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Creative delay plugin for mixing and sound design.",
+      "price_type": "paid",
+      "url": "https://mixingnightaudio.com",
+      "year": 2026,
+      "tags": [
+        "delay",
+        "creative",
+        "mixing",
+        "rhythmic"
+      ]
+    },
+    {
+      "slug": "tape-vibe",
+      "name": "Tape Vibe",
+      "manufacturer_slug": "three-body-technology",
+      "category": "effect",
+      "subcategory": "saturation",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "CLAP"
+      ],
+      "aliases": [
+        "Tape Vibe",
+        "Three-Body Technology Tape Vibe"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tape saturator plugin with vintage analog character.",
+      "price_type": "paid",
+      "url": "https://www.threebodytech.com",
+      "year": 2026,
+      "tags": [
+        "saturation",
+        "tape",
+        "vintage",
+        "warm",
+        "analog-modeling"
+      ]
+    },
+    {
+      "slug": "mortamer",
+      "name": "Mortamer",
+      "manufacturer_slug": "gooey",
+      "category": "effect",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "aliases": [
+        "Mortamer",
+        "Gooey Mortamer"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Lo-fi effects processor for creative audio degradation.",
+      "price_type": "paid",
+      "url": "https://gooeyaudio.com",
+      "year": 2026,
+      "tags": [
+        "lofi",
+        "creative",
+        "degradation",
+        "vintage",
+        "fx"
+      ]
+    },
+    {
+      "slug": "scepter",
+      "name": "Scepter",
+      "manufacturer_slug": "mercurial-tones",
+      "category": "utility",
+      "subcategory": "analyzer",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Scepter",
+        "Mercurial Tones Scepter"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Referencing and analysis workstation for mixing and mastering.",
+      "price_type": "paid",
+      "url": "https://mercurialtones.com",
+      "year": 2026,
+      "tags": [
+        "analyzer",
+        "reference",
+        "mastering",
+        "mixing",
+        "metering"
+      ]
+    },
+    {
+      "slug": "outland-iii",
+      "name": "Outland III",
+      "manufacturer_slug": "the-very-loud-indeed-co",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Outland III",
+        "The Very Loud Indeed Co. Outland III"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dark scoring textures instrument for cinematic composition.",
+      "price_type": "paid",
+      "url": "https://theveryloudindeedco.com",
+      "year": 2026,
+      "tags": [
+        "cinematic",
+        "dark",
+        "scoring",
+        "texture",
+        "atmospheric"
+      ]
+    },
+    {
+      "slug": "concert-vibraphone",
+      "name": "Concert Vibraphone",
+      "manufacturer_slug": "soundiron",
+      "category": "instrument",
+      "subcategory": "sampler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Concert Vibraphone",
+        "Soundiron Concert Vibraphone"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Deeply sampled concert vibraphone with multiple articulations.",
+      "price_type": "paid",
+      "url": "https://soundiron.com",
+      "year": 2026,
+      "tags": [
+        "vibraphone",
+        "percussion",
+        "orchestral",
+        "mallet",
+        "cinematic"
+      ]
     }
   ]
 }
