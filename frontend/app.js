@@ -126,7 +126,7 @@
     return `<a href="#/plugins/${escapeHtml(p.slug)}" class="plugin-card">
       ${imageHtml}
       <div class="card-body">
-        <div class="card-header"><span class="card-category">${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span>${formatPriceBadge(p.price_type)}</div>
+        <div class="card-header"><span class="card-category">${escapeHtml(p.category)}${p.subcategory ? ' / ' + escapeHtml(p.subcategory) : ''}</span></div>
         <h3 class="card-title">${escapeHtml(p.name)}</h3>
         <p class="card-mfr">${escapeHtml(mfr.name || '')}${p.year ? ' \u00B7 ' + escapeHtml(p.year) : ''}</p>
       </div>
