@@ -235,10 +235,10 @@
             <svg class="search-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85-.017.016zm-5.242.156a5 5 0 110-10 5 5 0 010 10z"/></svg>
             <input id="search-input" type="search" class="search-input" placeholder="Search plugins\u2026" value="${escapeHtml(q)}" autocomplete="off" aria-label="Search plugins">
             <button id="search-clear" class="search-clear${q ? ' visible' : ''}" aria-label="Clear search" type="button">&times;</button>
+            <button id="btn-random" class="btn-random-inline" title="Random plugin" type="button">\uD83C\uDFB2</button>
             <span class="search-shortcut">/</span>
             <div id="suggest-dropdown" class="suggest-dropdown hidden"></div>
           </div>
-          <button id="btn-random" class="btn-random-sm" title="Random plugin">\uD83C\uDFB2</button>
         </div>
       </section>
       <section class="browse-section">

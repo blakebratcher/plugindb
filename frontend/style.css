@@ -185,22 +185,25 @@ button, input, select { font: inherit; color: inherit; }
 
 /* ===== Search — recessed hardware input ===== */
 .search-wrap {
-  max-width: 680px; position: relative; display: flex; gap: 6px; align-items: center;
+  max-width: 680px; position: relative; display: flex; align-items: center;
 }
-.btn-random-sm {
-  width: 36px; height: 36px; flex-shrink: 0;
+/* Random button — inside search bar, right side */
+.btn-random-inline {
+  position: absolute; right: 40px; z-index: 1;
+  width: 28px; height: 28px;
   display: inline-flex; align-items: center; justify-content: center;
-  background: var(--accent); color: #111; border: none; border-radius: var(--radius-sm);
-  cursor: pointer; font-size: 16px; transition: all var(--transition); padding: 0;
+  background: none; color: var(--text-muted); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); cursor: pointer; font-size: 14px;
+  transition: all var(--transition); padding: 0;
 }
-.btn-random-sm:hover { background: var(--accent-hover); box-shadow: 0 0 8px var(--accent-glow); }
+.btn-random-inline:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-muted); }
 .search-input-wrap { flex: 1; position: relative; display: flex; align-items: center; }
 .search-icon {
   position: absolute; left: 14px; width: 15px; height: 15px;
   color: var(--text-muted); pointer-events: none; z-index: 1;
 }
 .search-input {
-  width: 100%; padding: 10px 16px 10px 38px; font-size: 14px;
+  width: 100%; padding: 10px 76px 10px 38px; font-size: 14px;
   font-family: var(--font-mono);
   background: var(--bg-primary); border: 1px solid var(--border);
   border-radius: var(--radius); color: var(--text-primary); outline: none;
