@@ -581,8 +581,6 @@
           <h1 class="pd-name">${escapeHtml(p.name)}</h1>
           <div class="pd-title-meta">
             <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="pd-mfr-link">${escapeHtml(mfr.name)}</a>
-            ${p.year ? `<span class="pd-year">${escapeHtml(p.year)}</span>` : ''}
-            ${formatPriceBadge(p.price_type)}
           </div>
         </div>`;
 
@@ -598,7 +596,6 @@
         ['Operating Systems', (p.os || []).map(o => formatBadge(o, 'badge-os')).join(' ')],
         ['Price', formatPriceBadge(p.price_type)],
         ['Release Year', p.year ? escapeHtml(p.year) : null],
-        ['Developer', `<a href="#/manufacturers/${escapeHtml(mfr.slug)}">${escapeHtml(mfr.name)}</a>`],
         ['Alternate Names', (p.aliases || []).length ? (p.aliases || []).map(a => escapeHtml(a)).join(', ') : null],
       ].filter(r => r[1]).map(([label, value]) => {
         const icon = INFO_ICONS[label] || '';
