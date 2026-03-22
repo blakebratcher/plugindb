@@ -27,6 +27,9 @@ def main():
     parser.add_argument("--aliases", help="Comma-separated aliases (include official name)")
     parser.add_argument("--os", help="Comma-separated OS (windows,macos,linux)", default="windows,macos")
     parser.add_argument("--daws", help="Comma-separated DAWs", default="Bitwig,Ableton,Cubase,Studio One,Reaper,FL Studio")
+    parser.add_argument("--image-url", help="Product image URL")
+    parser.add_argument("--manual-url", help="Manual/documentation URL")
+    parser.add_argument("--video-url", help="YouTube demo/tutorial URL")
     parser.add_argument("--dry-run", action="store_true", help="Validate without writing")
     args = parser.parse_args()
 
@@ -85,6 +88,9 @@ def main():
         "description": args.description,
         "price_type": args.price_type,
         "url": args.url,
+        "image_url": getattr(args, 'image_url', None),
+        "manual_url": getattr(args, 'manual_url', None),
+        "video_url": getattr(args, 'video_url', None),
         "year": args.year,
         "tags": tags,
     }
