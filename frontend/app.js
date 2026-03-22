@@ -118,7 +118,7 @@
     const placeholder = generatePlaceholder(p.name, p.category);
     const onerrorFallback = 'this.onerror=null;this.parentNode.innerHTML=decodeURIComponent(\'' + encodeURIComponent(placeholder) + '\')';
     const imageHtml = p.image_url
-      ? `<div class="card-image"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="${escapeHtml(onerrorFallback)}"></div>`
+      ? `<div class="card-image"><img src="/api/v1/image/${encodeURIComponent(p.slug)}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="${escapeHtml(onerrorFallback)}"></div>`
       : `<div class="card-image">${placeholder}</div>`;
     return `<a href="#/plugins/${escapeHtml(p.slug)}" class="plugin-card">
       ${imageHtml}
@@ -346,7 +346,7 @@
         if (!data.results || !data.results.length) { dropdown.classList.add('hidden'); return; }
         dropdown.innerHTML = data.results.map(r =>
           `<div class="suggest-item" data-slug="${escapeHtml(r.slug)}">
-            ${r.image_url ? `<img class="suggest-thumb" src="/api/v1/image-proxy?url=${encodeURIComponent(r.image_url)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+            ${r.image_url ? `<img class="suggest-thumb" src="/api/v1/image/${encodeURIComponent(r.slug)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
             <span class="suggest-name">${escapeHtml(r.name)}</span>
             <span class="suggest-meta">${escapeHtml(r.manufacturer_name)} &middot; ${escapeHtml(r.category)}</span>
           </div>`
@@ -567,7 +567,7 @@
 
       // Hero
       const heroHtml = p.image_url
-        ? `<div class="pd-hero"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" onerror="${escapeHtml(onerrorFallback)}"><div class="pd-hero-overlay"></div></div>`
+        ? `<div class="pd-hero"><img src="/api/v1/image/${encodeURIComponent(p.slug)}" alt="${escapeHtml(p.name)}" onerror="${escapeHtml(onerrorFallback)}"><div class="pd-hero-overlay"></div></div>`
         : `<div class="pd-hero pd-hero--empty"><div class="pd-hero-placeholder">${placeholder}</div><div class="pd-hero-overlay"></div></div>`;
 
       // Title bar — name, manufacturer, and description as subtitle
