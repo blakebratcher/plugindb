@@ -7,6 +7,21 @@ import sqlite3
 
 from plugindb.models import ManufacturerCompactResponse, ManufacturerResponse, PluginCompactResponse, PluginResponse
 
+# Load IA archive map once — maps slug to archive.org URL
+_archive_map: dict[str, str] = {}
+try:
+    from pathlib import Path as _Path
+    _archive_path = _Path(__file__).resolve().parent.parent / "data" / "image_archive.json"
+    if _archive_path.exists():
+        _archive_map = json.loads(_archive_path.read_text(encoding="utf-8"))
+except Exception:
+    pass
+
+
+def _resolve_image_url(slug: str, source_url: str | None) -> str | None:
+    """Return the best image URL — IA if available, otherwise source."""
+    return _archive_map.get(slug) or source_url
+
 
 def _row_to_plugin(
     row: sqlite3.Row,
@@ -33,7 +48,7 @@ def _row_to_plugin(
         tags=tags,
         description=row["description"],
         website=row["website"],
-        image_url=row["image_url"],
+        image_url=_resolve_image_url(row["slug"], row["image_url"]),
         manual_url=row["manual_url"],
         video_url=row["video_url"],
         is_free=bool(row["is_free"]),
@@ -143,7 +158,7 @@ def build_compact_responses(rows: list[sqlite3.Row], conn: sqlite3.Connection) -
             ),
             category=row["category"],
             subcategory=row["subcategory"],
-            image_url=row["image_url"],
+            image_url=_resolve_image_url(row["slug"], row["image_url"]),
             year=row["year"],
         )
         for row in rows

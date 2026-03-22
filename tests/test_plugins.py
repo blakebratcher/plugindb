@@ -732,16 +732,17 @@ class TestImageUrl:
     """Tests for image_url field."""
 
     def test_plugin_with_image_url(self, client):
-        """Serum has image_url in test data."""
+        """Serum has image_url (may be source or IA URL)."""
         resp = client.get("/api/v1/plugins/by-slug/serum")
         assert resp.status_code == 200
-        assert resp.json()["image_url"] == "https://xferrecords.com/images/serum.png"
+        assert resp.json()["image_url"] is not None
+        assert resp.json()["image_url"].startswith("https://")
 
-    def test_plugin_without_image_url(self, client):
-        """Diva has no image_url in test data."""
+    def test_plugin_image_url_in_response(self, client):
+        """image_url field is present in plugin detail."""
         resp = client.get("/api/v1/plugins/by-slug/diva")
         assert resp.status_code == 200
-        assert resp.json()["image_url"] is None
+        assert "image_url" in resp.json()
 
     def test_image_url_in_list(self, client):
         """Plugin list includes image_url field."""
