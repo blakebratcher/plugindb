@@ -600,7 +600,6 @@
         ['Price', formatPriceBadge(p.price_type)],
         ['Release Year', p.year ? escapeHtml(p.year) : null],
         ['Developer', `<a href="#/manufacturers/${escapeHtml(mfr.slug)}">${escapeHtml(mfr.name)}</a>`],
-        ['DAW Compatibility', (p.daws || []).length ? (p.daws || []).join(', ') : null],
         ['Alternate Names', (p.aliases || []).length ? (p.aliases || []).map(a => escapeHtml(a)).join(', ') : null],
       ].filter(r => r[1]).map(([label, value]) => {
         const icon = INFO_ICONS[label] || '';
