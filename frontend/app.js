@@ -62,13 +62,13 @@
       disabled ? `<span class="page-link disabled">${label}</span>`
                : `<a href="${baseHash}${sep}page=${p}" class="page-link">${label}</a>`;
     let html = '<nav class="pagination" aria-label="Pagination">';
-    html += link(pg.page - 1, '&laquo;', pg.page <= 1);
+    html += link(pg.page - 1, 'Prev', pg.page <= 1);
     const start = Math.max(1, pg.page - 2);
     const end = Math.min(pg.pages, pg.page + 2);
     if (start > 1) { html += link(1, '1'); if (start > 2) html += '<span class="page-ellipsis">&hellip;</span>'; }
     for (let i = start; i <= end; i++) html += `<a href="${baseHash}${sep}page=${i}" class="page-link${i === pg.page ? ' active' : ''}">${i}</a>`;
     if (end < pg.pages) { if (end < pg.pages - 1) html += '<span class="page-ellipsis">&hellip;</span>'; html += link(pg.pages, pg.pages); }
-    html += link(pg.page + 1, '&raquo;', pg.page >= pg.pages);
+    html += link(pg.page + 1, 'Next', pg.page >= pg.pages);
     html += '</nav>';
     return html;
   }
@@ -731,7 +731,6 @@
             <option value="name_asc"${mfrSortVal === 'name_asc' ? ' selected' : ''}>Name A-Z</option>
             <option value="name_desc"${mfrSortVal === 'name_desc' ? ' selected' : ''}>Name Z-A</option>
             <option value="plugin_count_desc"${mfrSortVal === 'plugin_count_desc' ? ' selected' : ''}>Most plugins</option>
-            <option value="plugin_count_asc"${mfrSortVal === 'plugin_count_asc' ? ' selected' : ''}>Fewest plugins</option>
           </select>
         </div>
         <div id="results-area"><div class="loading-spinner" aria-label="Loading"></div></div>
@@ -801,7 +800,6 @@
     const app = document.getElementById('app');
     showLoading(app);
     const page = parseInt(params.get('page'), 10) || 1;
-    const catFilter = params.get('category') || '';
     try {
       const data = await API.get(`/manufacturers/${encodeURIComponent(slug)}`, { page, per_page: CONFIG.ITEMS_PER_PAGE });
       const m = data.manufacturer;
@@ -823,15 +821,13 @@
         ${escapeHtml(m.website.replace(/^https?:\/\//, ''))}
       </a>` : '';
 
-      // Category filter pills (only if multiple categories)
-      const categories = Object.keys(data.categories || {});
-      let catPillsHtml = '';
+      // Category breakdown as links to browse page (filtered by this manufacturer)
+      const categories = Object.entries(data.categories || {});
+      let catLinksHtml = '';
       if (categories.length > 1) {
-        const bh = '#/manufacturers/' + encodeURIComponent(slug);
-        catPillsHtml = '<div class="mfr-cat-pills">' +
-          `<button class="cat-pill${!catFilter ? ' active' : ''}" data-mfr-cat="">All</button>` +
-          categories.map(function(c) {
-            return `<button class="cat-pill${c === catFilter ? ' active' : ''}" data-mfr-cat="${escapeHtml(c)}">${escapeHtml(c)} <span class="cat-pill-count">${data.categories[c]}</span></button>`;
+        catLinksHtml = '<div class="mfr-cat-pills">' +
+          categories.map(function([c, n]) {
+            return `<a href="#/?manufacturer=${escapeHtml(slug)}&category=${escapeHtml(c)}" class="cat-pill">${escapeHtml(c)} <span class="cat-pill-count">${n}</span></a>`;
           }).join('') + '</div>';
       }
 
@@ -850,13 +846,11 @@
         </div>`;
 
       if (data.plugins && data.plugins.length) {
-        // Filter plugins by category if filter is active
-        const filteredPlugins = catFilter ? data.plugins.filter(function(p) { return p.category === catFilter; }) : data.plugins;
         const bh = '#/manufacturers/' + encodeURIComponent(slug);
         html += `<section class="pd-section">
-          <h2 class="pd-section-title">Plugins by Category</h2>
-          ${catPillsHtml}
-          <div id="mfr-plugins-area">${pluginGrid(filteredPlugins)}</div>
+          <h2 class="pd-section-title">Plugins</h2>
+          ${catLinksHtml}
+          ${pluginGrid(data.plugins)}
           ${renderPagination(data.pagination, bh)}
         </section>`;
       } else {
@@ -865,18 +859,7 @@
       app.innerHTML = html;
       wireImageLoading(app);
 
-      // Wire category filter pills
-      app.querySelectorAll('[data-mfr-cat]').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var cat = this.dataset.mfrCat;
-          var p = new URLSearchParams(params);
-          p.delete('page');
-          if (cat) p.set('category', cat);
-          else p.delete('category');
-          var qs = p.toString();
-          location.hash = '#/manufacturers/' + encodeURIComponent(slug) + (qs ? '?' + qs : '');
-        });
-      });
+      // Category pills are now links — no click handler needed
     } catch (err) { showError(app, err.message); }
   };
 
