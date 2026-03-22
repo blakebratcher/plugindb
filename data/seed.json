@@ -60730,6 +60730,317 @@
       ],
       "image_url": "https://archive.org/download/plugindb-concert-vibraphone/concert-vibraphone.png",
       "manual_url": "https://soundiron.com"
+    },
+    {
+      "slug": "bidule",
+      "name": "Bidule",
+      "manufacturer_slug": "plogue",
+      "category": "utility",
+      "subcategory": "routing",
+      "formats": [
+        "VST3",
+        "AU",
+        "Standalone"
+      ],
+      "aliases": [
+        "Bidule",
+        "Plogue Bidule"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Modular audio and MIDI processing environment — host plugins within plugins, build custom signal chains.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/bidule.html",
+      "year": 2004,
+      "tags": [
+        "modular",
+        "routing",
+        "host",
+        "processing",
+        "midi"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/Bidule-Manual.pdf",
+      "image_url": "https://static.kvraudio.com/i/b/bidule.jpg"
+    },
+    {
+      "slug": "chipspeech",
+      "name": "chipspeech",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "chipspeech",
+        "Plogue chipspeech"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vintage speech synthesizer collection — emulates classic voice synthesis hardware from the 1970s-80s.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/chipspeech.html",
+      "year": 2014,
+      "tags": [
+        "speech-synthesis",
+        "vocoder",
+        "retro",
+        "chiptune",
+        "vocal"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/chipspeech-Manual.pdf",
+      "image_url": "https://www.plogue.com/images/full01.jpg"
+    },
+    {
+      "slug": "chipsynth-c64",
+      "name": "chipsynth C64",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "chipsynth C64",
+        "Plogue chipsynth C64"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cycle-exact emulation of the Commodore 64 SID chip — the most accurate C64 sound recreation.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/chipsynth-c64.html",
+      "year": 2020,
+      "tags": [
+        "chiptune",
+        "sid",
+        "commodore",
+        "retro",
+        "synthesizer"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/chipsynth-C64-Manual.pdf",
+      "image_url": "https://www.plogue.com/images/csc64_main_shot.png"
+    },
+    {
+      "slug": "chipsynth-md",
+      "name": "chipsynth MD",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "chipsynth MD",
+        "Plogue chipsynth MD"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cycle-exact emulation of the Sega Genesis/Mega Drive YM2612 FM synthesis chip.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/chipsynth-md.html",
+      "year": 2021,
+      "tags": [
+        "chiptune",
+        "fm",
+        "sega",
+        "genesis",
+        "retro",
+        "synthesizer"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/chipsynth-MD-Manual.pdf",
+      "image_url": "https://www.plogue.com/images/mdui.png"
+    },
+    {
+      "slug": "chipsynth-ops7",
+      "name": "chipsynth OPS7",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "chipsynth OPS7",
+        "Plogue chipsynth OPS7"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cycle-exact emulation of the Yamaha YM2151/OPM FM chip — the sound of 80s arcade machines and synths.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/chipsynth-ops7.html",
+      "year": 2022,
+      "tags": [
+        "chiptune",
+        "fm",
+        "yamaha",
+        "dx7",
+        "retro",
+        "synthesizer"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/chipsynth-OPS7-Manual.pdf",
+      "image_url": "https://www.plogue.com/images/csops7_main_shot.png"
+    },
+    {
+      "slug": "chipsynth-portafm",
+      "name": "chipsynth PortaFM",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "chipsynth PortaFM",
+        "Plogue chipsynth PortaFM"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cycle-exact emulation of portable FM sound chips — Game Boy-era handheld synthesis.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/chipsynth-portafm.html",
+      "year": 2023,
+      "tags": [
+        "chiptune",
+        "fm",
+        "portable",
+        "retro",
+        "game-boy",
+        "synthesizer"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/chipsynth-PortaFM-Manual.pdf",
+      "image_url": "https://www.plogue.com/images/portaui.png"
+    },
+    {
+      "slug": "chipsounds",
+      "name": "chipsounds",
+      "manufacturer_slug": "plogue",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX",
+        "Standalone"
+      ],
+      "aliases": [
+        "chipsounds",
+        "Plogue chipsounds"
+      ],
+      "daws": [
+        "Ableton",
+        "Bitwig",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "All-in-one chiptune synthesizer emulating 15 classic sound chips from retro computers and consoles.",
+      "price_type": "paid",
+      "url": "https://www.plogue.com/products/chipsounds.html",
+      "year": 2009,
+      "tags": [
+        "chiptune",
+        "retro",
+        "8-bit",
+        "nes",
+        "game-boy",
+        "synthesizer"
+      ],
+      "manual_url": "https://www.plogue.com/downloads/chipsounds-Manual.pdf",
+      "image_url": "https://www.plogue.com/images/cs16_Controls-tab2.png"
     }
   ]
 }
