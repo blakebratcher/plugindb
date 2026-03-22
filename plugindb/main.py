@@ -142,8 +142,9 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
     async def add_headers(request: Request, call_next):
         start = time.perf_counter()
 
-        # ETag conditional check BEFORE running the handler
-        if _seed_etag and request.method == "GET":
+        # ETag conditional check BEFORE running the handler (API only)
+        path = request.url.path
+        if _seed_etag and request.method == "GET" and (path.startswith("/api/") or path == "/health"):
             etag = f'"{_seed_etag}"'
             if_none_match = request.headers.get("if-none-match")
             if if_none_match and if_none_match == etag:
@@ -160,11 +161,15 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
         response.headers["X-Frame-Options"] = "DENY"
         response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
 
-        # Add ETag + Cache-Control to successful GET responses
+        # Add ETag + Cache-Control to API responses only (not static files)
         if _seed_etag and request.method == "GET":
-            etag = f'"{_seed_etag}"'
-            response.headers["ETag"] = etag
-            response.headers["Cache-Control"] = "public, max-age=3600"
+            path = request.url.path
+            if path.startswith("/api/") or path == "/health":
+                etag = f'"{_seed_etag}"'
+                response.headers["ETag"] = etag
+                response.headers["Cache-Control"] = "public, max-age=3600"
+            elif path.endswith((".css", ".js", ".svg")):
+                response.headers["Cache-Control"] = "no-cache"
 
         return response
 
