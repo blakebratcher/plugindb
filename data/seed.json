@@ -2048,7 +2048,8 @@
         "electronic"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1738860009/production/plugin_descriptions/screenshot/39137241.jpg",
-      "manual_url": "https://www.arturia.com/support/downloads-manuals"
+      "manual_url": "https://www.arturia.com/support/downloads-manuals",
+      "video_url": "https://www.youtube.com/watch?v=gDL8FkvYf7w"
     },
     {
       "slug": "arturia-prophet-v",
@@ -3039,7 +3040,8 @@
         "patching"
       ],
       "image_url": "https://cherryaudio.com/img/asset/YXNzZXRzL3Byb2R1Y3RzL25hdi92b2x0YWdlLW1vZHVsYXIuanBn/voltage-modular.jpg?p=seo_pro_og&s=fcd933e9d3df798381d29cd35346d86c",
-      "manual_url": "https://cherryaudio.com/docs/voltage-modular"
+      "manual_url": "https://cherryaudio.com/docs/voltage-modular",
+      "video_url": "https://www.youtube.com/watch?v=5HRp-fZhXjE"
     },
     {
       "slug": "reastream-standalone",
@@ -3375,7 +3377,8 @@
         "utility"
       ],
       "image_url": "https://deviousmachines.com/wp-content/uploads/2026/01/MultibandSidechain.png",
-      "manual_url": "https://deviousmachines.com/duck/"
+      "manual_url": "https://deviousmachines.com/duck/",
+      "video_url": "https://www.youtube.com/watch?v=8BXFwxHlXQk"
     },
     {
       "slug": "infiltrator",
@@ -3553,7 +3556,8 @@
         "creative"
       ],
       "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Blackhole.png",
-      "manual_url": "https://www.eventideaudio.com/support/"
+      "manual_url": "https://www.eventideaudio.com/support/",
+      "video_url": "https://www.youtube.com/watch?v=l8JFneg1oKI"
     },
     {
       "slug": "h3000",
@@ -3797,7 +3801,8 @@
         "sidechain"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/pro-c-3-intro.jpg?v=1768467508",
-      "manual_url": "https://www.fabfilter.com/help/pro-c-2"
+      "manual_url": "https://www.fabfilter.com/help/pro-c-2",
+      "video_url": "https://www.youtube.com/watch?v=Cxql34m0xTg"
     },
     {
       "slug": "fabfilter-pro-l-2",
@@ -3856,7 +3861,8 @@
         "metering"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/pro-l-2-intro.jpg?v=1710150538",
-      "manual_url": "https://www.fabfilter.com/help/pro-l-2"
+      "manual_url": "https://www.fabfilter.com/help/pro-l-2",
+      "video_url": "https://www.youtube.com/watch?v=8HoaEWx9sDo"
     },
     {
       "slug": "fabfilter-pro-mb",
@@ -4027,7 +4033,8 @@
         "clean"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/pro-r-2-intro.jpg?v=1711362615",
-      "manual_url": "https://www.fabfilter.com/help/pro-r-2"
+      "manual_url": "https://www.fabfilter.com/help/pro-r-2",
+      "video_url": "https://www.youtube.com/watch?v=3w7UwW5dxaA"
     },
     {
       "slug": "fabfilter-saturn-2",
@@ -4079,7 +4086,8 @@
         "mixing"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/saturn-2-intro.jpg?v=1710150538",
-      "manual_url": "https://www.fabfilter.com/help/saturn-2"
+      "manual_url": "https://www.fabfilter.com/help/saturn-2",
+      "video_url": "https://www.youtube.com/watch?v=fSa7m8F_AEI"
     },
     {
       "slug": "fabfilter-simplon",
@@ -4173,7 +4181,8 @@
         "analog-modeling"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/timeless-3-intro.jpg?v=1710150538",
-      "manual_url": "https://www.fabfilter.com/help/timeless-3"
+      "manual_url": "https://www.fabfilter.com/help/timeless-3",
+      "video_url": "https://www.youtube.com/watch?v=_1JGEz2QGZM"
     },
     {
       "slug": "fabfilter-twin-3",
@@ -4927,7 +4936,8 @@
         "formant"
       ],
       "image_url": "https://polyversemusic.com/wp-content/uploads/2019/10/SEO_Banner_Polyverse_Manipulator.jpg",
-      "manual_url": "https://polyversemusic.com/products/manipulator/"
+      "manual_url": "https://polyversemusic.com/products/manipulator/",
+      "video_url": "https://www.youtube.com/watch?v=F6h_WT8nDxs"
     },
     {
       "slug": "heat-up-3",
@@ -5209,7 +5219,8 @@
         "loudness"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/v1713901327/gear/share_images/iZotope_Ozone11_Std-product_shareImage-1.png",
-      "manual_url": "https://www.izotope.com/en/support.html"
+      "manual_url": "https://www.izotope.com/en/support.html",
+      "video_url": "https://www.youtube.com/watch?v=GrMZuVtwvh4"
     },
     {
       "slug": "ozone-11-equalizer",
@@ -6013,7 +6024,8 @@
         "electronic"
       ],
       "image_url": "https://kilohearts.com/resources/media_dynamic/offers/phase_plant/social.png",
-      "manual_url": "https://kilohearts.com/docs"
+      "manual_url": "https://kilohearts.com/docs",
+      "video_url": "https://www.youtube.com/watch?v=zUAjKY0Wjhk"
     },
     {
       "slug": "snap-heap",
@@ -6240,7 +6252,8 @@
         "lead"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1545405376/production/plugin_descriptions/screenshot/31.jpg",
-      "manual_url": "https://www.lennardigital.com/sylenth1/"
+      "manual_url": "https://www.lennardigital.com/sylenth1/",
+      "video_url": "https://www.youtube.com/watch?v=1Ck1f2aN2p8"
     },
     {
       "slug": "st1b",
@@ -6369,7 +6382,8 @@
         "electronic"
       ],
       "image_url": "https://tytel.org/static/images/helm_og_image_small.png",
-      "manual_url": "https://tytel.org/static/docs/helm_manual.pdf"
+      "manual_url": "https://tytel.org/static/docs/helm_manual.pdf",
+      "video_url": "https://www.youtube.com/watch?v=hmFnP4mB5G4"
     },
     {
       "slug": "vital",
@@ -6419,7 +6433,8 @@
         "modern"
       ],
       "image_url": "https://vital.audio/images/social.png",
-      "manual_url": "https://vital.audio/"
+      "manual_url": "https://vital.audio/",
+      "video_url": "https://www.youtube.com/watch?v=vVEP2Hkkagk"
     },
     {
       "slug": "mautopitch",
@@ -6965,7 +6980,8 @@
         "rock"
       ],
       "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/Packshots2023/Guitar-Rig-7-product-finder-2.png",
-      "manual_url": "https://www.native-instruments.com/en/support/downloads/"
+      "manual_url": "https://www.native-instruments.com/en/support/downloads/",
+      "video_url": "https://www.youtube.com/watch?v=jJpmgO0B0hI"
     },
     {
       "slug": "kontakt",
@@ -7012,7 +7028,8 @@
         "versatile"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258098/production/plugin_descriptions/screenshot/33.jpg",
-      "manual_url": "https://www.native-instruments.com/en/support/downloads/"
+      "manual_url": "https://www.native-instruments.com/en/support/downloads/",
+      "video_url": "https://www.youtube.com/watch?v=4Y-HqcJHZDY"
     },
     {
       "slug": "kontakt-7",
@@ -7243,7 +7260,8 @@
         "electronic"
       ],
       "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/Packshots2025/massive-x-product-finder-new.png",
-      "manual_url": "https://www.native-instruments.com/en/support/downloads/"
+      "manual_url": "https://www.native-instruments.com/en/support/downloads/",
+      "video_url": "https://www.youtube.com/watch?v=b-gY5p5tyes"
     },
     {
       "slug": "monark",
@@ -7335,7 +7353,8 @@
         "creative"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1387258132/production/plugin_descriptions/screenshot/112.jpg",
-      "manual_url": "https://www.native-instruments.com/en/support/downloads/"
+      "manual_url": "https://www.native-instruments.com/en/support/downloads/",
+      "video_url": "https://www.youtube.com/watch?v=0sZiNNPmL90"
     },
     {
       "slug": "super-8",
@@ -7511,7 +7530,8 @@
         "rock"
       ],
       "image_url": "https://cdn.shopify.com/s/files/1/0503/9089/2702/files/a-gojira-x-product-card_cfb2c9e8-e68e-493b-b7ff-4ab47441172f.png?v=1705306722",
-      "manual_url": "https://neuraldsp.com/support"
+      "manual_url": "https://neuraldsp.com/support",
+      "video_url": "https://www.youtube.com/watch?v=pcjsJhsW_-Y"
     },
     {
       "slug": "elevate",
@@ -7691,7 +7711,8 @@
         "vocal"
       ],
       "image_url": "https://oeksound.com/_astro/soothe2-screencap-nopreset-1.D1yT0Ejc.png",
-      "manual_url": "https://oeksound.com/manuals/soothe2"
+      "manual_url": "https://oeksound.com/manuals/soothe2",
+      "video_url": "https://www.youtube.com/watch?v=G0S9kEA5niA"
     },
     {
       "slug": "spiff",
@@ -8531,7 +8552,8 @@
         "mixing"
       ],
       "image_url": "https://polyversemusic.com/wp-content/uploads/2023/03/Wider-v2-Polyverse-SEO-Image-Banner.jpg",
-      "manual_url": "https://www.musictech.net/guides/buyers-guide/best-freeware-utilities"
+      "manual_url": "https://www.musictech.net/guides/buyers-guide/best-freeware-utilities",
+      "video_url": "https://www.youtube.com/watch?v=YhzD68SxQrE"
     },
     {
       "slug": "melodysauce2",
@@ -9340,7 +9362,8 @@
         "drive"
       ],
       "image_url": "https://www.soundtoys.com/wp-content/uploads/DecapitatorFB_1200x628-1.png",
-      "manual_url": "https://www.soundtoys.com/support/"
+      "manual_url": "https://www.soundtoys.com/support/",
+      "video_url": "https://www.youtube.com/watch?v=FVhYVBPaGcQ"
     },
     {
       "slug": "devil-loc",
@@ -9436,7 +9459,8 @@
         "versatile"
       ],
       "image_url": "https://www.soundtoys.com/wp-content/uploads/EchoBoyFB_1200x628.png",
-      "manual_url": "https://www.soundtoys.com/support/"
+      "manual_url": "https://www.soundtoys.com/support/",
+      "video_url": "https://www.youtube.com/watch?v=AJgfIIL2q8A"
     },
     {
       "slug": "filterfreak",
@@ -9806,7 +9830,8 @@
         "versatile"
       ],
       "image_url": "https://cdn.spectrasonics.net/website/sps/products/omni3-fb-x-thumb.jpg",
-      "manual_url": "https://support.spectrasonics.net/manual/Omnisphere3HW/3/en/topic/access-virus-a-overview"
+      "manual_url": "https://support.spectrasonics.net/manual/Omnisphere3HW/3/en/topic/access-virus-a-overview",
+      "video_url": "https://www.youtube.com/watch?v=rqmFey4qdHs"
     },
     {
       "slug": "trilian",
@@ -10226,7 +10251,8 @@
         "pads"
       ],
       "image_url": "https://tal-software.com/images/products/tal-u-no-lx-03.jpg",
-      "manual_url": "https://tal-software.com/products/tal-u-no-lx"
+      "manual_url": "https://tal-software.com/products/tal-u-no-lx",
+      "video_url": "https://www.youtube.com/watch?v=A9OCpNqWdbE"
     },
     {
       "slug": "tdr-kotelnikov",
@@ -10457,7 +10483,8 @@
         "rock"
       ],
       "image_url": "https://cdn.toontrack.com/app/uploads/product/ezdrummer-3/jpg/TT528_EZdrummer3_OG-image.jpg",
-      "manual_url": "https://www.toontrack.com/product/ezdrummer-3/"
+      "manual_url": "https://www.toontrack.com/product/ezdrummer-3/",
+      "video_url": "https://www.youtube.com/watch?v=N35p9GVPV6c"
     },
     {
       "slug": "superior-drummer-3",
@@ -10501,7 +10528,8 @@
         "professional"
       ],
       "image_url": "https://cdn.toontrack.com/app/uploads/product/superior-drummer-3/jpg/TT416_SuperiorDrummer3_OG-image-1.jpg",
-      "manual_url": "https://www.toontrack.com/product/superior-drummer-3/"
+      "manual_url": "https://www.toontrack.com/product/superior-drummer-3/",
+      "video_url": "https://www.youtube.com/watch?v=UDGm0qxrNdE"
     },
     {
       "slug": "ace",
@@ -10605,7 +10633,8 @@
         "classic"
       ],
       "image_url": "https://u-he.com/products/diva/assets/images/uhe-diva-splash-photo-studio-setup-1100x350.jpg",
-      "manual_url": "https://u-he.com/products/diva/#documentation"
+      "manual_url": "https://u-he.com/products/diva/#documentation",
+      "video_url": "https://www.youtube.com/watch?v=LXxorDJJIhg"
     },
     {
       "slug": "hive-2",
@@ -11297,7 +11326,8 @@
         "sound-design"
       ],
       "image_url": "https://valhalladsp.com/wp-content/uploads/2020/05/Supermassive_Aura_1300x540.png",
-      "manual_url": "https://valhalladsp.com/category/learn/documentation-learn/"
+      "manual_url": "https://valhalladsp.com/category/learn/documentation-learn/",
+      "video_url": "https://www.youtube.com/watch?v=c30dU8gKMac"
     },
     {
       "slug": "valhallaubermod",
@@ -11520,7 +11550,8 @@
         "mastering"
       ],
       "image_url": "https://www.voxengo.com/cdn/img/57/57mgztnaw.jpg",
-      "manual_url": "https://www.voxengo.com/product/span/"
+      "manual_url": "https://www.voxengo.com/product/span/",
+      "video_url": "https://www.youtube.com/watch?v=ihN3IhWFGLI"
     },
     {
       "slug": "span-plus",
@@ -12533,7 +12564,8 @@
         "free"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1399333470/production/plugin_descriptions/screenshot/3845.jpg",
-      "manual_url": "https://xferrecords.com/freeware"
+      "manual_url": "https://xferrecords.com/freeware",
+      "video_url": "https://www.youtube.com/watch?v=sYm_RNzlNnM"
     },
     {
       "slug": "serum",
@@ -12583,7 +12615,8 @@
         "electronic"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/v1739207685/gear/share_images/ztdcdfn0pbc8tqniv64c.png",
-      "manual_url": "https://xferrecords.com/products/serum"
+      "manual_url": "https://xferrecords.com/products/serum",
+      "video_url": "https://www.youtube.com/watch?v=8WbxBZG1Vyk"
     },
     {
       "slug": "serum-2",
@@ -12630,7 +12663,8 @@
         "visual"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/v1739207685/gear/share_images/ztdcdfn0pbc8tqniv64c.png",
-      "manual_url": "https://xferrecords.com/products/serum"
+      "manual_url": "https://xferrecords.com/products/serum",
+      "video_url": "https://www.youtube.com/watch?v=Z3P0rm4Bkp4"
     },
     {
       "slug": "addictive-drums-2",
@@ -12674,7 +12708,8 @@
         "pop"
       ],
       "image_url": "https://splice-res.cloudinary.com/image/upload/v1747059249/gear/share_images/t17efkmtqgizlhi5yv3e.png",
-      "manual_url": "https://www.xlnaudio.com/products/addictive-drums-2"
+      "manual_url": "https://www.xlnaudio.com/products/addictive-drums-2",
+      "video_url": "https://www.youtube.com/watch?v=pLKdQWQXSgE"
     },
     {
       "slug": "rc-20",
@@ -12719,7 +12754,8 @@
         "texture"
       ],
       "image_url": "https://assets.xlnaudio.com/products/fxfx0003/gui-1920w.png",
-      "manual_url": "https://www.xlnaudio.com/products/rc-20-retro-color"
+      "manual_url": "https://www.xlnaudio.com/products/rc-20-retro-color",
+      "video_url": "https://www.youtube.com/watch?v=fGxG8PJAqVw"
     },
     {
       "slug": "youlean-loudness-meter-2",
@@ -12762,7 +12798,8 @@
         "metering"
       ],
       "image_url": "https://cdn.youlean.co/wp-content/uploads/2019/08/Youlean-Lodness-Meter-2-V2.3.0.png",
-      "manual_url": "https://youlean.co/docs/"
+      "manual_url": "https://youlean.co/docs/",
+      "video_url": "https://www.youtube.com/watch?v=K2dGxLqLDUg"
     },
     {
       "slug": "pitchmap-colors",
@@ -13082,7 +13119,8 @@
         "versatile"
       ],
       "image_url": "https://surge-synthesizer.github.io/images/og_image.png",
-      "manual_url": "https://surge-synthesizer.github.io/manual-xt"
+      "manual_url": "https://surge-synthesizer.github.io/manual-xt",
+      "video_url": "https://www.youtube.com/watch?v=BFVoVf-8mLY"
     },
     {
       "slug": "cardinal",
@@ -13179,7 +13217,8 @@
         "open-source"
       ],
       "image_url": "https://static.kvraudio.com/i/b/dexed.png",
-      "manual_url": "https://asb2m10.github.io/dexed/"
+      "manual_url": "https://asb2m10.github.io/dexed/",
+      "video_url": "https://www.youtube.com/watch?v=F6R_fCYMat0"
     },
     {
       "slug": "zynaddsubfx",
@@ -16146,7 +16185,8 @@
         "precise"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/pro-q-4-intro.jpg?v=1733993612",
-      "manual_url": "https://www.fabfilter.com/help/pro-q-4"
+      "manual_url": "https://www.fabfilter.com/help/pro-q-4",
+      "video_url": "https://www.youtube.com/watch?v=_Fy3V5CPBgY"
     },
     {
       "slug": "nova-ge",
@@ -17657,7 +17697,8 @@
         "mixing"
       ],
       "image_url": "https://www.solidstatelogic.com/assets/uploads/products/Bus Compressor 2.jpg",
-      "manual_url": "https://www.solidstatelogic.com/support"
+      "manual_url": "https://www.solidstatelogic.com/support",
+      "video_url": "https://www.youtube.com/watch?v=Z2nQW9rRjYk"
     },
     {
       "slug": "compassion",
@@ -32577,7 +32618,8 @@
         "professional"
       ],
       "image_url": "https://antares.sfo2.cdn.digitaloceanspaces.com/imgs/AutoTune-Meta-Tag-1200x600.jpg",
-      "manual_url": "https://www.antarestech.com/product/auto-tune-pro/"
+      "manual_url": "https://www.antarestech.com/product/auto-tune-pro/",
+      "video_url": "https://www.youtube.com/watch?v=b96nwVMbNzk"
     },
     {
       "slug": "auto-tune-access",
@@ -59957,7 +59999,8 @@
         "morphing"
       ],
       "image_url": "https://cdn.prod.website-files.com/687ee2fa7f073e59ed93f259/69b06dbe06c2316f4127d07d_grainferno_OG.avif",
-      "manual_url": "https://babyaud.io/grainferno"
+      "manual_url": "https://babyaud.io/grainferno",
+      "video_url": "https://www.youtube.com/watch?v=CdnvhYgHa70"
     },
     {
       "slug": "nox",
@@ -60000,7 +60043,8 @@
         "melodic"
       ],
       "image_url": "https://cms.acustica-audio.com/assets/products/_width1200/267776/NOX_teaser_001.webp",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "video_url": "https://www.youtube.com/watch?v=E0GYuK6-T6o"
     },
     {
       "slug": "evolve-air",
