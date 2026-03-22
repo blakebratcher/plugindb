@@ -657,6 +657,8 @@
         <div class="loading-spinner" aria-label="Loading similar"></div>
       </section>`;
 
+      const freeAltPlaceholder = p.price_type !== 'free' ? '<section class="pd-section" id="free-alternatives-section" style="display:none"><h2 class="pd-section-title">Free Alternatives</h2></section>' : '';
+
       const moreSection = hasMfrPlugins ? `<section class="pd-section">
         <h2 class="pd-section-title">More from ${escapeHtml(mfr.name)} <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="section-link">View all &rarr;</a></h2>
         ${pluginGrid(p.manufacturer_plugins)}
@@ -671,6 +673,7 @@
         ${tagsSection}
         ${resourcesSection}
         ${similarSection}
+        ${freeAltPlaceholder}
         ${moreSection}`;
 
       app.innerHTML = html;
@@ -691,6 +694,21 @@
           var section = document.getElementById('similar-section');
           if (section) section.innerHTML = '<h2 class="pd-section-title">Similar Plugins</h2><p style="color:var(--text-muted);font-size:13px">Could not load similar plugins.</p>';
         }
+      }
+
+      // Free alternatives (only for paid plugins)
+      if (p.price_type !== 'free') {
+        try {
+          const params = { category: p.category, price_type: 'free', per_page: 6 };
+          if (p.subcategory) params.subcategory = p.subcategory;
+          const freeAlt = await API.get('/plugins', params);
+          const faSection = document.getElementById('free-alternatives-section');
+          if (freeAlt.data && freeAlt.data.length && faSection) {
+            faSection.style.display = '';
+            faSection.innerHTML = `<h2 class="pd-section-title">Free Alternatives <span class="section-count">${freeAlt.total} found</span></h2>` + pluginGrid(freeAlt.data);
+            wireImageLoading(faSection);
+          }
+        } catch (_) { /* silently skip if free alternatives fail */ }
       }
     } catch (err) { showError(app, err.message); }
   };

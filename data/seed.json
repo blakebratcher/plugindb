@@ -50621,7 +50621,9 @@
         "transparent"
       ],
       "image_url": "https://static.kvraudio.com/i/b/smackattack.jpg",
-      "manual_url": "https://www.waves.com/support/adclip"
+      "manual_url": "https://www.waves.com/support/adclip",
+      "year": 2017,
+      "url": "https://www.waves.com/plugins"
     },
     {
       "slug": "adptr-streamliner",
@@ -50662,7 +50664,9 @@
         "broadcast"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://www.plugin-alliance.com/en/support.html"
+      "manual_url": "https://www.plugin-alliance.com/en/support.html",
+      "year": 2020,
+      "url": "https://www.plugin-alliance.com/products/streamliner"
     },
     {
       "slug": "fabfilter-one",
@@ -50703,7 +50707,9 @@
         "subtractive"
       ],
       "image_url": "https://cdn-b.fabfilter.com/img/products/min/one-basic-synthesizer-plug-in-hero-s-min.jpg?v=1747816388",
-      "manual_url": "https://www.fabfilter.com/help/one"
+      "manual_url": "https://www.fabfilter.com/help/one",
+      "year": 2004,
+      "url": "https://www.fabfilter.com/products/one-basic-synthesizer-plug-in"
     },
     {
       "slug": "gsi-vb3-ii",
@@ -50750,7 +50756,8 @@
       ],
       "year": 2018,
       "image_url": "https://static.kvraudio.com/i/b/01.1698442217.jpg",
-      "manual_url": "https://www.genuinesoundware.com"
+      "manual_url": "https://www.genuinesoundware.com",
+      "url": "https://www.genuinesoundware.com"
     },
     {
       "slug": "europa-by-reason",
@@ -50792,7 +50799,8 @@
       ],
       "year": 2020,
       "image_url": "https://reasonstudios.wpengine.com/wp-content/uploads/Europa_Front-1212x1000.webp",
-      "manual_url": "https://www.reasonstudios.com"
+      "manual_url": "https://www.reasonstudios.com",
+      "url": "https://www.reasonstudios.com"
     },
     {
       "slug": "magical8bitplug2",
@@ -50832,7 +50840,8 @@
       ],
       "year": 2019,
       "image_url": "https://ymck.net/wp-content/uploads/screenshot-e1644926536421.png",
-      "manual_url": "https://ymck.net"
+      "manual_url": "https://ymck.net",
+      "url": "https://ymck.net"
     },
     {
       "slug": "magical8bitplug3",
@@ -50872,7 +50881,8 @@
       ],
       "year": 2023,
       "image_url": "https://ymck.net/wp-content/uploads/screenshot-e1644926536421.png",
-      "manual_url": "https://ymck.net"
+      "manual_url": "https://ymck.net",
+      "url": "https://ymck.net"
     },
     {
       "slug": "sugar-bytes-drumcomputer",
@@ -50913,7 +50923,8 @@
         "pattern"
       ],
       "year": 2018,
-      "image_url": "https://sugar-bytes.de/storage/app/media/drumcomputer/logo.png"
+      "image_url": "https://sugar-bytes.de/storage/app/media/drumcomputer/logo.png",
+      "url": "https://sugar-bytes.com"
     },
     {
       "slug": "ignite-amps-emissary",
@@ -50955,7 +50966,8 @@
       ],
       "year": 2016,
       "image_url": "https://static.kvraudio.com/i/b/emissary_front_full.jpg",
-      "manual_url": "https://www.igniteamps.com"
+      "manual_url": "https://www.igniteamps.com",
+      "url": "https://www.igniteamps.com"
     },
     {
       "slug": "ignite-amps-nadir",
@@ -50995,7 +51007,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/ignite-amps-nadir2-software.1551449146.jpg",
-      "manual_url": "https://www.igniteamps.com"
+      "manual_url": "https://www.igniteamps.com",
+      "year": 2013,
+      "url": "https://www.igniteamps.com"
     },
     {
       "slug": "plugin-boutique-bigkick",
@@ -51037,7 +51051,8 @@
       ],
       "year": 2015,
       "image_url": "https://static.kvraudio.com/i/b/bigkick_1_pluginboutique.jpg",
-      "manual_url": "https://www.pluginboutique.com"
+      "manual_url": "https://www.pluginboutique.com",
+      "url": "https://www.pluginboutique.com"
     },
     {
       "slug": "lifeline-expanse",
@@ -51079,7 +51094,8 @@
       ],
       "year": 2022,
       "image_url": "https://static.kvraudio.com/i/b/excite_audio_main_image-full_-pluginboutique.png",
-      "manual_url": "https://www.excite-audio.com"
+      "manual_url": "https://www.excite-audio.com",
+      "url": "https://www.excite-audio.com"
     },
     {
       "slug": "mda-shepard",
@@ -51115,7 +51131,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png",
-      "manual_url": "https://sourceforge.net/projects/mda-vst/"
+      "manual_url": "https://sourceforge.net/projects/mda-vst/",
+      "year": 2002,
+      "url": "https://sourceforge.net/projects/mda-vst/"
     },
     {
       "slug": "mda-testtone",
@@ -51152,7 +51170,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/mda-epiano.png",
-      "manual_url": "https://sourceforge.net/projects/mda-vst/"
+      "manual_url": "https://sourceforge.net/projects/mda-vst/",
+      "year": 2002,
+      "url": "https://sourceforge.net/projects/mda-vst/"
     },
     {
       "slug": "2getheraudio-k1ck",
@@ -51192,7 +51212,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/k1ck_synth_expert.jpg",
-      "manual_url": "https://www.2getheraudio.com"
+      "manual_url": "https://www.2getheraudio.com",
+      "year": 2018,
+      "url": "https://www.2getheraudio.com"
     },
     {
       "slug": "1989verb",
@@ -51230,7 +51252,9 @@
         "character"
       ],
       "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2022,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "echo-cat",
@@ -51269,7 +51293,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/echo-cat.png",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2021,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "edelweiss72",
@@ -51308,7 +51334,9 @@
         "preamp"
       ],
       "image_url": "https://static.kvraudio.com/i/b/edelweiss72.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2022,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "acustica-drp2amk2",
@@ -51346,7 +51374,9 @@
         "dynamics"
       ],
       "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2021,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "acustica-alchemist",
@@ -51385,7 +51415,9 @@
         "vintage"
       ],
       "image_url": "https://static.kvraudio.com/i/b/alchemist.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2020,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "acustica-contemporarycolor",
@@ -51424,7 +51456,9 @@
         "modern"
       ],
       "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2021,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "acustica-kristall",
@@ -51463,7 +51497,9 @@
         "transparent"
       ],
       "image_url": "https://www.acustica-audio.com/cdn/shop/collections/acqua.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2022,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "acustica-big-goat",
@@ -51501,7 +51537,9 @@
         "character"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/02/Big-Goat-1-768x554.jpg",
-      "manual_url": "https://www.acustica-audio.com/pages/support"
+      "manual_url": "https://www.acustica-audio.com/pages/support",
+      "year": 2023,
+      "url": "https://www.acustica-audio.com"
     },
     {
       "slug": "eventide-2016-stereo-room",
@@ -51543,7 +51581,8 @@
       ],
       "year": 2016,
       "image_url": "https://static.kvraudio.com/i/b/2016stereoroom.png",
-      "manual_url": "https://www.eventideaudio.com/support/"
+      "manual_url": "https://www.eventideaudio.com/support/",
+      "url": "https://www.eventideaudio.com/plug-ins/"
     },
     {
       "slug": "eventide-crystals",
@@ -51584,7 +51623,9 @@
         "creative"
       ],
       "image_url": "https://static.kvraudio.com/i/b/crystals_desktop.jpg",
-      "manual_url": "https://www.eventideaudio.com/support/"
+      "manual_url": "https://www.eventideaudio.com/support/",
+      "year": 2020,
+      "url": "https://www.eventideaudio.com/plug-ins/crystals/"
     },
     {
       "slug": "eventide-transmutator",
@@ -51623,7 +51664,9 @@
         "experimental"
       ],
       "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PLTM-Blackhole.png",
-      "manual_url": "https://www.eventideaudio.com/support/"
+      "manual_url": "https://www.eventideaudio.com/support/",
+      "year": 2020,
+      "url": "https://www.eventideaudio.com/plug-ins/"
     },
     {
       "slug": "eventide-quantum",
@@ -51662,7 +51705,9 @@
         "ambient"
       ],
       "image_url": "https://static.kvraudio.com/i/b/quantum.png",
-      "manual_url": "https://www.eventideaudio.com/support/"
+      "manual_url": "https://www.eventideaudio.com/support/",
+      "year": 2020,
+      "url": "https://www.eventideaudio.com/plug-ins/"
     },
     {
       "slug": "analog-obsession-eq45",
@@ -51701,7 +51746,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/eq45.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-eq65",
@@ -51740,7 +51787,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/eq65.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-abp2",
@@ -51778,7 +51827,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-abpl2",
@@ -51816,7 +51867,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-bspro",
@@ -51855,7 +51908,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-bxq",
@@ -51893,7 +51948,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/bxq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-eaq",
@@ -51931,7 +51988,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/eaq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-hlq",
@@ -51968,7 +52027,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/hlq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-nvq",
@@ -52007,7 +52068,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/nvq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-nvtq",
@@ -52046,7 +52109,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/nvtq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-oaq",
@@ -52084,7 +52149,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/12/OAQ-1024x665.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-peq",
@@ -52122,7 +52189,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/peq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-ssq",
@@ -52160,7 +52229,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/12/SSQ-1024x665.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-teq",
@@ -52198,7 +52269,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/teq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-treq",
@@ -52236,7 +52309,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/treq.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2020,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-filteq",
@@ -52274,7 +52349,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/filteq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-pureq",
@@ -52313,7 +52390,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-magc",
@@ -52351,7 +52430,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-mamp",
@@ -52389,7 +52470,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-lcf",
@@ -52426,7 +52509,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-anspec",
@@ -52464,7 +52549,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/anspec.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-oss",
@@ -52501,7 +52588,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/oss.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2021,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-maniccompressor",
@@ -52539,7 +52628,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-royalcompressor",
@@ -52577,7 +52668,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-pristinepeaks",
@@ -52615,7 +52708,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-lowleveler",
@@ -52654,7 +52749,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-nightshine",
@@ -52692,7 +52789,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/nightshine.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-nineteen91",
@@ -52732,7 +52831,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-peakbuster",
@@ -52770,7 +52871,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/peakbuster.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-enforcer",
@@ -52808,7 +52911,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-sccore",
@@ -52846,7 +52951,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-refunction",
@@ -52885,7 +52992,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-analogmatrix",
@@ -52923,7 +53032,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-varisaturator",
@@ -52961,7 +53072,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/varisaturator.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-octavlord",
@@ -52999,7 +53112,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-clonemeld",
@@ -53037,7 +53152,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-piandphimkii",
@@ -53075,7 +53192,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2022,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-cl1",
@@ -53113,7 +53232,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/cl1.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-clms1",
@@ -53150,7 +53271,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/clms1.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-clms1xl",
@@ -53187,7 +53310,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/clms1xl.jpg",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-softlimit",
@@ -53226,7 +53351,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-sideminder",
@@ -53264,7 +53391,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-rescuemk2",
@@ -53302,7 +53431,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/rescuemk2.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-balancemagphaeq",
@@ -53339,7 +53470,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-stereoimagerd",
@@ -53377,7 +53510,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-rubberbandcomp",
@@ -53415,7 +53550,9 @@
         "free"
       ],
       "image_url": "https://analogobsession.com/wp-content/uploads/2023/04/HOME.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "analog-obsession-seq",
@@ -53453,7 +53590,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/seq.png",
-      "manual_url": "https://analogobsession.com"
+      "manual_url": "https://analogobsession.com",
+      "year": 2023,
+      "url": "https://analogobsession.com"
     },
     {
       "slug": "leapwing-dynone3",
@@ -53495,7 +53634,9 @@
         "transparent"
       ],
       "image_url": "https://static.kvraudio.com/i/b/dynone3.png",
-      "manual_url": "https://www.leapwingaudio.com"
+      "manual_url": "https://www.leapwingaudio.com",
+      "year": 2019,
+      "url": "https://www.leapwingaudio.com/product/dynone/"
     },
     {
       "slug": "leapwing-stageone",
@@ -53534,7 +53675,9 @@
         "spatial"
       ],
       "image_url": "https://static.kvraudio.com/i/b/stageone.png",
-      "manual_url": "https://www.leapwingaudio.com"
+      "manual_url": "https://www.leapwingaudio.com",
+      "year": 2018,
+      "url": "https://www.leapwingaudio.com"
     },
     {
       "slug": "leapwing-rootone",
@@ -53573,7 +53716,9 @@
         "harmonics"
       ],
       "image_url": "https://static.kvraudio.com/i/b/rootone.png",
-      "manual_url": "https://www.leapwingaudio.com"
+      "manual_url": "https://www.leapwingaudio.com",
+      "year": 2019,
+      "url": "https://www.leapwingaudio.com"
     },
     {
       "slug": "leapwing-centerone",
@@ -53612,7 +53757,9 @@
         "mixing"
       ],
       "image_url": "https://static.kvraudio.com/i/b/centerone.png",
-      "manual_url": "https://www.leapwingaudio.com"
+      "manual_url": "https://www.leapwingaudio.com",
+      "year": 2017,
+      "url": "https://www.leapwingaudio.com"
     },
     {
       "slug": "leapwing-prefix",
@@ -53650,7 +53797,9 @@
         "utility"
       ],
       "image_url": "https://static.kvraudio.com/i/b/prefix.jpg",
-      "manual_url": "https://www.leapwingaudio.com"
+      "manual_url": "https://www.leapwingaudio.com",
+      "year": 2020,
+      "url": "https://www.leapwingaudio.com"
     },
     {
       "slug": "nembrini-blackface-sc5",
@@ -53691,7 +53840,9 @@
         "modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/blackface-sc5.png",
-      "manual_url": "https://www.nembriniaudio.com"
+      "manual_url": "https://www.nembriniaudio.com",
+      "year": 2020,
+      "url": "https://www.nembriniaudio.com"
     },
     {
       "slug": "nembrini-f59",
@@ -53731,7 +53882,9 @@
         "modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/f59.png",
-      "manual_url": "https://www.nembriniaudio.com"
+      "manual_url": "https://www.nembriniaudio.com",
+      "year": 2021,
+      "url": "https://www.nembriniaudio.com"
     },
     {
       "slug": "jst-toneforge-misha",
@@ -53771,7 +53924,9 @@
         "modeling"
       ],
       "image_url": "https://audiopluginsmexico.com/cdn/shop/products/toneforge_misha_mansoor.jpg?v=1626229779",
-      "manual_url": "https://joeysturgistones.com"
+      "manual_url": "https://joeysturgistones.com",
+      "year": 2017,
+      "url": "https://joeysturgistones.com"
     },
     {
       "slug": "peavey-revalver4",
@@ -53813,7 +53968,8 @@
       ],
       "year": 2015,
       "image_url": "https://static.kvraudio.com/i/b/r5-1.png",
-      "manual_url": "https://peavey.com"
+      "manual_url": "https://peavey.com",
+      "url": "https://peavey.com"
     },
     {
       "slug": "scuffham-s-gear2",
@@ -53854,7 +54010,8 @@
       ],
       "year": 2014,
       "image_url": "https://static.kvraudio.com/i/b/s-gearv3-2.png",
-      "manual_url": "https://www.scuffhamamps.com"
+      "manual_url": "https://www.scuffhamamps.com",
+      "url": "https://www.scuffhamamps.com"
     },
     {
       "slug": "hotone-vstompamp",
@@ -53894,7 +54051,9 @@
         "multi-effect"
       ],
       "image_url": "https://static.kvraudio.com/i/b/1.1527228496.jpg",
-      "manual_url": "https://www.hotoneaudio.com"
+      "manual_url": "https://www.hotoneaudio.com",
+      "year": 2019,
+      "url": "https://www.hotoneaudio.com"
     },
     {
       "slug": "cypress-tt-15",
@@ -53933,7 +54092,9 @@
         "modeling"
       ],
       "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg",
-      "manual_url": "https://www.ikmultimedia.com/support/"
+      "manual_url": "https://www.ikmultimedia.com/support/",
+      "year": 2020,
+      "url": "https://www.ikmultimedia.com"
     },
     {
       "slug": "knif-audio-knifonium",
@@ -53974,7 +54135,8 @@
       ],
       "year": 2018,
       "image_url": "https://static.kvraudio.com/i/b/knifonium.jpg",
-      "manual_url": "https://www.knifaudio.com"
+      "manual_url": "https://www.knifaudio.com",
+      "url": "https://www.knifaudio.com"
     },
     {
       "slug": "klirrton-grindstein",
@@ -54013,7 +54175,9 @@
         "metal"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/08/Klirrton-Grindstein-768x554.jpg",
-      "manual_url": "https://klirrton.de"
+      "manual_url": "https://klirrton.de",
+      "year": 2019,
+      "url": "https://klirrton.de"
     },
     {
       "slug": "tone-empire-crunchessor",
@@ -54053,7 +54217,9 @@
         "character"
       ],
       "image_url": "https://static.kvraudio.com/i/b/crunchessor.jpg",
-      "manual_url": "https://tone-empire.com"
+      "manual_url": "https://tone-empire.com",
+      "year": 2019,
+      "url": "https://tone-empire.com"
     },
     {
       "slug": "tone-empire-shinechilla",
@@ -54092,7 +54258,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/shinechilla.jpg",
-      "manual_url": "https://tone-empire.com"
+      "manual_url": "https://tone-empire.com",
+      "year": 2020,
+      "url": "https://tone-empire.com"
     },
     {
       "slug": "tbproaudio-ebusli",
@@ -54130,7 +54298,9 @@
         "mastering",
         "transparent"
       ],
-      "image_url": "https://static.kvraudio.com/i/b/ebuslim.jpg"
+      "image_url": "https://static.kvraudio.com/i/b/ebuslim.jpg",
+      "year": 2020,
+      "url": "https://www.tbproaudio.de"
     },
     {
       "slug": "tbproaudio-limiteds",
@@ -54167,7 +54337,9 @@
         "brickwall",
         "stereo"
       ],
-      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png"
+      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png",
+      "year": 2021,
+      "url": "https://www.tbproaudio.de"
     },
     {
       "slug": "tbproaudio-knorr",
@@ -54205,7 +54377,9 @@
         "warm",
         "analog-modeling"
       ],
-      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png"
+      "image_url": "https://static.kvraudio.com/i/b/isol8_normal.png",
+      "year": 2020,
+      "url": "https://www.tbproaudio.de"
     },
     {
       "slug": "softube-parallels",
@@ -54245,7 +54419,9 @@
         "atmospheric"
       ],
       "image_url": "https://cdn.softube.com/storage/29035015B3F292F74A394BA7ABC5EB9846A2E71588F89E790520DCEC3A0F666A/0e2a2261a3ce4dc9bfc701619626621a/png/media/3c88c65ad6d24f5a93aff3b2c16efae9/parallels-product-image.png",
-      "manual_url": "https://www.softube.com"
+      "manual_url": "https://www.softube.com",
+      "year": 2019,
+      "url": "https://www.softube.com/parallels"
     },
     {
       "slug": "softube-model72",
@@ -54286,7 +54462,9 @@
         "vintage"
       ],
       "image_url": "https://cdn.softube.com/storage/F6C8968AB8D1F6FCFD36E4D7C624841CE31928809B04D014E58B6A865046F077/0de791a2a1fb44d5b1f4398475a7af3e/png/media/1b3a95e2668b47b4946dff365b9172f0/model-72-synthesizer-system-product-image.png",
-      "manual_url": "https://www.softube.com"
+      "manual_url": "https://www.softube.com",
+      "year": 2020,
+      "url": "https://www.softube.com/model-72-synthesizer-system"
     },
     {
       "slug": "softube-modular",
@@ -54327,7 +54505,9 @@
         "creative"
       ],
       "image_url": "https://static.kvraudio.com/i/b/modular.jpg",
-      "manual_url": "https://www.softube.com"
+      "manual_url": "https://www.softube.com",
+      "year": 2016,
+      "url": "https://www.softube.com/modular"
     },
     {
       "slug": "softube-mutronics",
@@ -54367,7 +54547,9 @@
         "vintage"
       ],
       "image_url": "https://cdn.softube.com/storage/2A5741308CF39C02364B99E6E931A8A11FA02ED26B89E90AE0AA06D3F93584D1/16d94223ffeb430ab3e1b5593f21e229/png/media/da49f4d62c354e22bae12bd0f57189d1/mutronics-mutator-product-image.png",
-      "manual_url": "https://www.softube.com"
+      "manual_url": "https://www.softube.com",
+      "year": 2019,
+      "url": "https://www.softube.com"
     },
     {
       "slug": "artsacoustic-reverb",
@@ -54405,7 +54587,9 @@
         "hall",
         "natural"
       ],
-      "image_url": "https://static.kvraudio.com/i/b/aareverb.jpg"
+      "image_url": "https://static.kvraudio.com/i/b/aareverb.jpg",
+      "year": 2016,
+      "url": "https://www.artsacoustic.com"
     },
     {
       "slug": "bass-master",
@@ -54444,7 +54628,9 @@
         "low-end"
       ],
       "image_url": "https://www.loopmasters.com/system/articles/covers/000/004/069/tile/BM_JC_OfficialOverview.jpg?1530200612",
-      "manual_url": "https://www.loopmasters.com"
+      "manual_url": "https://www.loopmasters.com",
+      "year": 2018,
+      "url": "https://www.loopmasters.com"
     },
     {
       "slug": "beatformer",
@@ -54484,7 +54670,9 @@
         "easy-to-use"
       ],
       "image_url": "https://static.kvraudio.com/i/b/2_beatformer-with-keyvisual_nobg.png",
-      "manual_url": "https://accusonus.com"
+      "manual_url": "https://accusonus.com",
+      "year": 2020,
+      "url": "https://accusonus.com"
     },
     {
       "slug": "drumformer",
@@ -54524,7 +54712,9 @@
         "dynamics"
       ],
       "image_url": "https://static.kvraudio.com/i/b/drumformer.jpg",
-      "manual_url": "https://www.voxengo.com/product/drumformer/"
+      "manual_url": "https://www.voxengo.com/product/drumformer/",
+      "year": 2018,
+      "url": "https://www.voxengo.com"
     },
     {
       "slug": "zplane-elastiquepitch",
@@ -54563,7 +54753,9 @@
         "real-time"
       ],
       "image_url": "https://products.zplane.de/uploads/Images/Backgrounds/_boxCover/ELASTIQUE-PITCH_2_5_Web_Background_1500x1000_3_compressed.png",
-      "manual_url": "https://www.zplane.de"
+      "manual_url": "https://www.zplane.de",
+      "year": 2017,
+      "url": "https://www.zplane.de"
     },
     {
       "slug": "kush-electra-dsp",
@@ -54604,7 +54796,9 @@
         "character"
       ],
       "image_url": "https://static.kvraudio.com/i/b/electra-dsp.jpg",
-      "manual_url": "https://thehouseofkush.com"
+      "manual_url": "https://thehouseofkush.com",
+      "year": 2018,
+      "url": "https://thehouseofkush.com"
     },
     {
       "slug": "voxengo-engineersfilter",
@@ -54642,7 +54836,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/engineersfilter.png",
-      "manual_url": "https://www.voxengo.com/product/engineersfilter/"
+      "manual_url": "https://www.voxengo.com/product/engineersfilter/",
+      "year": 2015,
+      "url": "https://www.voxengo.com"
     },
     {
       "slug": "arturia-efx-fragments",
@@ -54682,7 +54878,9 @@
         "rhythmic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/gui-rhythmicmode-sequencer.png",
-      "manual_url": "https://www.arturia.com/support/downloads-manuals"
+      "manual_url": "https://www.arturia.com/support/downloads-manuals",
+      "year": 2022,
+      "url": "https://www.arturia.com/products/software-effects/efx-fragments/overview"
     },
     {
       "slug": "voxengo-frqshift",
@@ -54720,7 +54918,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/frqshift.png",
-      "manual_url": "https://www.voxengo.com/product/frqshift/"
+      "manual_url": "https://www.voxengo.com/product/frqshift/",
+      "year": 2016,
+      "url": "https://www.voxengo.com"
     },
     {
       "slug": "voxengo-pha979",
@@ -54759,7 +54959,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/pha979.png",
-      "manual_url": "https://www.voxengo.com/product/pha979/"
+      "manual_url": "https://www.voxengo.com/product/pha979/",
+      "year": 2015,
+      "url": "https://www.voxengo.com"
     },
     {
       "slug": "cloud-machine",
@@ -54799,7 +55001,9 @@
         "shimmer"
       ],
       "image_url": "https://puremagnetik.com/cdn/shop/products/CloudMachineMBP_4000_1024x1024.jpg?v=1759439079",
-      "manual_url": "https://unitedplugins.com"
+      "manual_url": "https://unitedplugins.com",
+      "year": 2021,
+      "url": "https://unitedplugins.com"
     },
     {
       "slug": "crowd-chamber",
@@ -54839,7 +55043,9 @@
         "immersive"
       ],
       "image_url": "https://static.kvraudio.com/i/b/crowdchamber-4.jpg",
-      "manual_url": "https://www.audioease.com"
+      "manual_url": "https://www.audioease.com",
+      "year": 2019,
+      "url": "https://www.audioease.com"
     },
     {
       "slug": "duck-delay",
@@ -54878,7 +55084,9 @@
         "creative"
       ],
       "image_url": "https://static.kvraudio.com/i/b/duck2-1.jpg",
-      "manual_url": "https://deviousmachines.com"
+      "manual_url": "https://deviousmachines.com",
+      "year": 2018,
+      "url": "https://deviousmachines.com"
     },
     {
       "slug": "vengeance-lf-max-punch",
@@ -54917,7 +55125,9 @@
         "dynamics"
       ],
       "image_url": "https://static.kvraudio.com/i/b/lf-max-punch.jpg",
-      "manual_url": "https://www.vengeance-sound.com"
+      "manual_url": "https://www.vengeance-sound.com",
+      "year": 2017,
+      "url": "https://www.vengeance-sound.com"
     },
     {
       "slug": "proaudiodsp-dsm-v3",
@@ -54956,7 +55166,9 @@
         "mastering"
       ],
       "image_url": "https://static.kvraudio.com/i/b/dsm-v3.png",
-      "manual_url": "https://www.proadio-dsp.com"
+      "manual_url": "https://www.proadio-dsp.com",
+      "year": 2018,
+      "url": "https://www.proadio-dsp.com"
     },
     {
       "slug": "loki-bass",
@@ -54995,7 +55207,9 @@
         "low-end"
       ],
       "image_url": "https://solemntones.com/cdn/shop/products/pluginmainwindow_88896531-0b11-42c2-a728-93c3f5b3a81a.png?v=1613953492",
-      "manual_url": "https://www.plugin-alliance.com"
+      "manual_url": "https://www.plugin-alliance.com",
+      "year": 2018,
+      "url": "https://www.plugin-alliance.com"
     },
     {
       "slug": "baby-audio-blyss",
@@ -55035,7 +55249,9 @@
         "mixing"
       ],
       "image_url": "https://static.kvraudio.com/i/b/blyss.jpg",
-      "manual_url": "https://babyaud.io"
+      "manual_url": "https://babyaud.io",
+      "year": 2021,
+      "url": "https://babyaud.io"
     },
     {
       "slug": "wavesfactory-cosmos",
@@ -55075,7 +55291,9 @@
         "sound-design"
       ],
       "image_url": "https://static.kvraudio.com/i/b/cosmos.jpg",
-      "manual_url": "https://www.wavesfactory.com"
+      "manual_url": "https://www.wavesfactory.com",
+      "year": 2021,
+      "url": "https://www.wavesfactory.com"
     },
     {
       "slug": "audio-assault-defacer",
@@ -55115,7 +55333,9 @@
         "creative"
       ],
       "image_url": "https://static.kvraudio.com/i/b/defacer.jpg",
-      "manual_url": "https://www.audioassault.mx"
+      "manual_url": "https://www.audioassault.mx",
+      "year": 2019,
+      "url": "https://www.audioassault.mx"
     },
     {
       "slug": "audio-assault-dumpster-fire",
@@ -55155,7 +55375,9 @@
         "lofi"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://www.audioassault.mx"
+      "manual_url": "https://www.audioassault.mx",
+      "year": 2020,
+      "url": "https://www.audioassault.mx"
     },
     {
       "slug": "audio-assault-multidrive",
@@ -55195,7 +55417,9 @@
         "drive"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://www.audioassault.mx"
+      "manual_url": "https://www.audioassault.mx",
+      "year": 2019,
+      "url": "https://www.audioassault.mx"
     },
     {
       "slug": "exponential-audio-r4",
@@ -55235,7 +55459,9 @@
         "natural"
       ],
       "image_url": "https://static.kvraudio.com/i/b/r4.png",
-      "manual_url": "https://www.izotope.com/en/support.html"
+      "manual_url": "https://www.izotope.com/en/support.html",
+      "year": 2017,
+      "url": "https://www.izotope.com"
     },
     {
       "slug": "sonnox-purelimit",
@@ -55273,7 +55499,9 @@
         "transparent"
       ],
       "image_url": "https://static.kvraudio.com/i/b/purelimit.png",
-      "manual_url": "https://www.sonnox.com/support"
+      "manual_url": "https://www.sonnox.com/support",
+      "year": 2022,
+      "url": "https://www.sonnox.com"
     },
     {
       "slug": "zynaptiq-retune",
@@ -55312,7 +55540,9 @@
         "real-time"
       ],
       "image_url": "https://static.kvraudio.com/i/b/retune_box_smaller.png",
-      "manual_url": "https://www.zynaptiq.com"
+      "manual_url": "https://www.zynaptiq.com",
+      "year": 2018,
+      "url": "https://www.zynaptiq.com"
     },
     {
       "slug": "zynaptiq-trax",
@@ -55351,7 +55581,9 @@
         "vocal"
       ],
       "image_url": "https://static.kvraudio.com/i/b/trax.png",
-      "manual_url": "https://www.zynaptiq.com"
+      "manual_url": "https://www.zynaptiq.com",
+      "year": 2016,
+      "url": "https://www.zynaptiq.com"
     },
     {
       "slug": "tapeotronic",
@@ -55391,7 +55623,9 @@
         "wow-flutter"
       ],
       "image_url": "https://static.kvraudio.com/i/b/tapeotronic.jpg",
-      "manual_url": "https://klevgrand.com"
+      "manual_url": "https://klevgrand.com",
+      "year": 2019,
+      "url": "https://klevgrand.com"
     },
     {
       "slug": "arturia-verv",
@@ -55430,7 +55664,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/rev-intensity-image.png",
-      "manual_url": "https://www.arturia.com/support/downloads-manuals"
+      "manual_url": "https://www.arturia.com/support/downloads-manuals",
+      "year": 2023,
+      "url": "https://www.arturia.com"
     },
     {
       "slug": "arturia-plate",
@@ -55469,7 +55705,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/rev-spring636-image.png",
-      "manual_url": "https://www.arturia.com/support/downloads-manuals"
+      "manual_url": "https://www.arturia.com/support/downloads-manuals",
+      "year": 2019,
+      "url": "https://www.arturia.com/products/software-effects/rev-plate140/overview"
     },
     {
       "slug": "output-eternal-arps",
@@ -55509,7 +55747,9 @@
         "rhythmic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/eternal-arps.png",
-      "manual_url": "https://output.com"
+      "manual_url": "https://output.com",
+      "year": 2019,
+      "url": "https://output.com"
     },
     {
       "slug": "output-reveal",
@@ -55549,7 +55789,9 @@
         "cinematic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/reveal.jpg",
-      "manual_url": "https://output.com"
+      "manual_url": "https://output.com",
+      "year": 2020,
+      "url": "https://output.com"
     },
     {
       "slug": "output-evoin",
@@ -55587,7 +55829,9 @@
         "cinematic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/evoin.png",
-      "manual_url": "https://output.com"
+      "manual_url": "https://output.com",
+      "year": 2020,
+      "url": "https://output.com"
     },
     {
       "slug": "output-pastfabric",
@@ -55626,7 +55870,9 @@
         "warm"
       ],
       "image_url": "https://static.kvraudio.com/i/b/pastfabric.png",
-      "manual_url": "https://output.com"
+      "manual_url": "https://output.com",
+      "year": 2019,
+      "url": "https://output.com"
     },
     {
       "slug": "trackgod-2",
@@ -55667,7 +55913,8 @@
       ],
       "year": 2018,
       "image_url": "https://static1.squarespace.com/static/5f6143d46c9c8f551823de5c/6001ec81041fba7c51d3d84d/6001ec81041fba7c51d3d850/1612034736952/Track+God+2+Review+-+Still.jpg?format=1500w",
-      "manual_url": "https://www.trackgodsound.com"
+      "manual_url": "https://www.trackgodsound.com",
+      "url": "https://www.trackgodsound.com"
     },
     {
       "slug": "psychic-modulation-phonec2",
@@ -55708,7 +55955,9 @@
         "vhs"
       ],
       "image_url": "https://static.kvraudio.com/i/b/phonec2.png",
-      "manual_url": "https://www.psychicmodulation.com"
+      "manual_url": "https://www.psychicmodulation.com",
+      "year": 2017,
+      "url": "https://www.psychicmodulation.com"
     },
     {
       "slug": "ravegenerator2",
@@ -55746,7 +55995,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/ravegenerator2.png",
-      "manual_url": "https://www.psychicmodulation.com"
+      "manual_url": "https://www.psychicmodulation.com",
+      "year": 2018,
+      "url": "https://www.psychicmodulation.com"
     },
     {
       "slug": "ssd-sampler5",
@@ -55787,7 +56038,9 @@
         "professional"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://slatedigital.com/support/"
+      "manual_url": "https://slatedigital.com/support/",
+      "year": 2018,
+      "url": "https://stevenslatedrums.com/ssd5/"
     },
     {
       "slug": "perfect-drums",
@@ -55825,7 +56078,9 @@
         "realistic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/pd_drums.jpg",
-      "manual_url": "https://noisebud.com"
+      "manual_url": "https://noisebud.com",
+      "year": 2019,
+      "url": "https://noisebud.com"
     },
     {
       "slug": "kshmr-essentials-kick",
@@ -55864,7 +56119,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/kshmr_essentials_kick_banner_1000x1000.jpg",
-      "manual_url": "https://www.dharma-worldwide.com"
+      "manual_url": "https://www.dharma-worldwide.com",
+      "year": 2019,
+      "url": "https://www.dharma-worldwide.com"
     },
     {
       "slug": "kikzilla",
@@ -55901,7 +56158,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/kikzilla1.png",
-      "manual_url": "https://thenatan.com"
+      "manual_url": "https://thenatan.com",
+      "year": 2020,
+      "url": "https://thenatan.com"
     },
     {
       "slug": "raw-kick",
@@ -55940,7 +56199,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/raw-kick_master.jpg",
-      "manual_url": "https://initialaudio.com"
+      "manual_url": "https://initialaudio.com",
+      "year": 2019,
+      "url": "https://initialaudio.com"
     },
     {
       "slug": "full-bucket-jp6k",
@@ -55979,7 +56240,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/jp6k.jpg",
-      "manual_url": "https://www.fullbucket.de"
+      "manual_url": "https://www.fullbucket.de",
+      "year": 2018,
+      "url": "https://www.fullbucket.de"
     },
     {
       "slug": "full-bucket-bl-sine",
@@ -56016,7 +56279,9 @@
         "free"
       ],
       "image_url": "https://www.fullbucket.de/music/images/blooo_small.gif",
-      "manual_url": "https://www.fullbucket.de"
+      "manual_url": "https://www.fullbucket.de",
+      "year": 2019,
+      "url": "https://www.fullbucket.de"
     },
     {
       "slug": "full-bucket-k1v",
@@ -56053,7 +56318,9 @@
         "free"
       ],
       "image_url": "https://www.fullbucket.de/music/images/kern_small.gif",
-      "manual_url": "https://www.fullbucket.de"
+      "manual_url": "https://www.fullbucket.de",
+      "year": 2020,
+      "url": "https://www.fullbucket.de"
     },
     {
       "slug": "emvoice-one",
@@ -56090,7 +56357,9 @@
         "synthesizer"
       ],
       "image_url": "https://static.kvraudio.com/i/b/emvoice_one_a_main_dark.png",
-      "manual_url": "https://www.emvoice.com"
+      "manual_url": "https://www.emvoice.com",
+      "year": 2019,
+      "url": "https://www.emvoice.com"
     },
     {
       "slug": "synapse-legend",
@@ -56133,7 +56402,9 @@
         "bass"
       ],
       "image_url": "https://static.kvraudio.com/i/b/legend.png",
-      "manual_url": "https://www.synapse-audio.com"
+      "manual_url": "https://www.synapse-audio.com",
+      "year": 2017,
+      "url": "https://www.synapse-audio.com"
     },
     {
       "slug": "synapse-obsession",
@@ -56173,7 +56444,9 @@
         "vintage"
       ],
       "image_url": "https://static.kvraudio.com/i/b/obsession.jpg",
-      "manual_url": "https://www.synapse-audio.com"
+      "manual_url": "https://www.synapse-audio.com",
+      "year": 2019,
+      "url": "https://www.synapse-audio.com"
     },
     {
       "slug": "dawesome-monoment-bass",
@@ -56212,7 +56485,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/monument-bass.jpg",
-      "manual_url": "https://www.dawesome.net"
+      "manual_url": "https://www.dawesome.net",
+      "year": 2020,
+      "url": "https://www.dawesome.net"
     },
     {
       "slug": "speektra",
@@ -56251,7 +56526,9 @@
         "electronic"
       ],
       "image_url": "https://www.native-instruments.com/fileadmin/ni_media/productfinder/packshots2019/Straylight-product-finder.png",
-      "manual_url": "https://www.native-instruments.com/en/support/downloads/"
+      "manual_url": "https://www.native-instruments.com/en/support/downloads/",
+      "year": 2018,
+      "url": "https://www.native-instruments.com"
     },
     {
       "slug": "audiomodern-flare",
@@ -56290,7 +56567,9 @@
         "real-time"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://audiomodern.com"
+      "manual_url": "https://audiomodern.com",
+      "year": 2020,
+      "url": "https://audiomodern.com"
     },
     {
       "slug": "polyverse-beeper",
@@ -56329,7 +56608,9 @@
         "experimental"
       ],
       "image_url": "https://static.kvraudio.com/i/b/beeper.jpg",
-      "manual_url": "https://polyversemusic.com"
+      "manual_url": "https://polyversemusic.com",
+      "year": 2020,
+      "url": "https://polyversemusic.com"
     },
     {
       "slug": "tone2-genny",
@@ -56367,7 +56648,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/genny.png",
-      "manual_url": "https://tone2.com"
+      "manual_url": "https://tone2.com",
+      "year": 2020,
+      "url": "https://tone2.com"
     },
     {
       "slug": "tone2-melodya",
@@ -56406,7 +56689,9 @@
         "sequencer"
       ],
       "image_url": "https://static.kvraudio.com/i/b/melodya.png",
-      "manual_url": "https://tone2.com"
+      "manual_url": "https://tone2.com",
+      "year": 2021,
+      "url": "https://tone2.com"
     },
     {
       "slug": "meowsynth",
@@ -56443,7 +56728,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/meowsynth.png",
-      "manual_url": "https://music.freshly-ground.com"
+      "manual_url": "https://music.freshly-ground.com",
+      "year": 2018,
+      "url": "https://music.freshly-ground.com"
     },
     {
       "slug": "ds-audio-viper",
@@ -56479,7 +56766,9 @@
         "virtual-analog",
         "subtractive"
       ],
-      "image_url": "https://static.kvraudio.com/i/b/viper.png"
+      "image_url": "https://static.kvraudio.com/i/b/viper.png",
+      "year": 2020,
+      "url": "https://www.ds-audio.com"
     },
     {
       "slug": "ik-statement-lead",
@@ -56517,7 +56806,9 @@
         "performance"
       ],
       "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg",
-      "manual_url": "https://www.ikmultimedia.com/support/"
+      "manual_url": "https://www.ikmultimedia.com/support/",
+      "year": 2019,
+      "url": "https://www.ikmultimedia.com"
     },
     {
       "slug": "ik-concerto",
@@ -56557,7 +56848,9 @@
         "brass"
       ],
       "image_url": "https://www.ikmultimedia.com/products/amplitube5/main-banner_5.4/regular.jpg",
-      "manual_url": "https://www.ikmultimedia.com/support/"
+      "manual_url": "https://www.ikmultimedia.com/support/",
+      "year": 2020,
+      "url": "https://www.ikmultimedia.com"
     },
     {
       "slug": "air-music-loom",
@@ -56596,7 +56889,9 @@
         "pads"
       ],
       "image_url": "https://static.kvraudio.com/i/b/loom.jpg",
-      "manual_url": "https://www.airmusictech.com"
+      "manual_url": "https://www.airmusictech.com",
+      "year": 2016,
+      "url": "https://www.airmusictech.com"
     },
     {
       "slug": "plogue-midi-choir",
@@ -56636,7 +56931,9 @@
         "realistic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/midichoirgui3.png",
-      "manual_url": "https://www.plogue.com"
+      "manual_url": "https://www.plogue.com",
+      "year": 2018,
+      "url": "https://www.plogue.com"
     },
     {
       "slug": "spitfire-fragile-string-evolutions",
@@ -56673,7 +56970,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2021,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-symphonic-motions",
@@ -56710,7 +57009,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg?v=1755733391",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2020,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-ceilings-of-sound",
@@ -56747,7 +57048,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-raven-bush-moonglades",
@@ -56784,7 +57087,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-hsr-spectrum",
@@ -56821,7 +57126,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-alex-epton-entropy",
@@ -56858,7 +57165,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-opw",
@@ -56895,7 +57204,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-other-desert-cities",
@@ -56932,7 +57243,9 @@
         "textural"
       ],
       "image_url": "https://static.kvraudio.com/i/b/odc_1.webp",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2023,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-blumen-und-pflanzen",
@@ -56969,7 +57282,9 @@
         "textural"
       ],
       "image_url": "https://static.kvraudio.com/i/b/blumenfinal.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2023,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-antoka",
@@ -57006,7 +57321,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-innervelt",
@@ -57043,7 +57360,9 @@
         "textural"
       ],
       "image_url": "https://www.spitfireaudio.com/cdn/shop/files/smc0208_square_press_605cfddf-cdc8-4d07-a344-960f3024605f.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2022,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-aperture-the-stack",
@@ -57080,7 +57399,9 @@
         "textural"
       ],
       "image_url": "https://static.kvraudio.com/i/b/aperture-the-stack.png",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2021,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "spitfire-arkinaut",
@@ -57117,7 +57438,9 @@
         "textural"
       ],
       "image_url": "https://static.kvraudio.com/i/b/arkinaut.jpg",
-      "manual_url": "https://www.spitfireaudio.com"
+      "manual_url": "https://www.spitfireaudio.com",
+      "year": 2023,
+      "url": "https://www.spitfireaudio.com"
     },
     {
       "slug": "goodhertz-backmask",
@@ -57155,7 +57478,9 @@
         "experimental"
       ],
       "image_url": "https://manuals.goodhertz.com/cards/ghz_canopener-studio__og_landscape.png",
-      "manual_url": "https://goodhertz.com"
+      "manual_url": "https://goodhertz.com",
+      "year": 2020,
+      "url": "https://goodhertz.com"
     },
     {
       "slug": "goodhertz-pitchwheel",
@@ -57193,7 +57518,9 @@
         "creative"
       ],
       "image_url": "https://static.kvraudio.com/i/b/pitchwheel.png",
-      "manual_url": "https://goodhertz.com"
+      "manual_url": "https://goodhertz.com",
+      "year": 2020,
+      "url": "https://goodhertz.com"
     },
     {
       "slug": "unfiltered-audio-eidolon",
@@ -57232,7 +57559,9 @@
         "sound-design"
       ],
       "image_url": "https://static.kvraudio.com/i/b/eidolon.jpg",
-      "manual_url": "https://www.unfilteredaudio.com"
+      "manual_url": "https://www.unfilteredaudio.com",
+      "year": 2019,
+      "url": "https://www.unfilteredaudio.com"
     },
     {
       "slug": "clone-ensemble",
@@ -57270,7 +57599,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/cloneensemble42.jpg",
-      "manual_url": "https://www.martinic.com"
+      "manual_url": "https://www.martinic.com",
+      "year": 2015,
+      "url": "https://www.martinic.com"
     },
     {
       "slug": "boz-sasquatch2",
@@ -57310,7 +57641,9 @@
         "drums"
       ],
       "image_url": "https://static.kvraudio.com/i/b/sasquatch-2-screenshot.1591629599.jpg",
-      "manual_url": "https://www.bozdigitallabs.com"
+      "manual_url": "https://www.bozdigitallabs.com",
+      "year": 2019,
+      "url": "https://www.bozdigitallabs.com"
     },
     {
       "slug": "boz-snarebuzz",
@@ -57349,7 +57682,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/snarebuzz.png",
-      "manual_url": "https://www.bozdigitallabs.com"
+      "manual_url": "https://www.bozdigitallabs.com",
+      "year": 2018,
+      "url": "https://www.bozdigitallabs.com"
     },
     {
       "slug": "wa-secret-sauce",
@@ -57388,7 +57723,9 @@
         "mixing"
       ],
       "image_url": "https://static.kvraudio.com/i/b/secret-sauce.jpg",
-      "manual_url": "https://www.waproduction.com"
+      "manual_url": "https://www.waproduction.com",
+      "year": 2020,
+      "url": "https://www.waproduction.com"
     },
     {
       "slug": "kilohearts-slice-eq",
@@ -57429,7 +57766,9 @@
         "mixing"
       ],
       "image_url": "https://static.kvraudio.com/i/b/slice_eq_full.jpg",
-      "manual_url": "https://kilohearts.com/docs"
+      "manual_url": "https://kilohearts.com/docs",
+      "year": 2018,
+      "url": "https://kilohearts.com"
     },
     {
       "slug": "kilohearts-splitch",
@@ -57468,7 +57807,9 @@
         "experimental"
       ],
       "image_url": "https://static.kvraudio.com/i/b/slice_eq_full.jpg",
-      "manual_url": "https://kilohearts.com/docs"
+      "manual_url": "https://kilohearts.com/docs",
+      "year": 2019,
+      "url": "https://kilohearts.com"
     },
     {
       "slug": "denise-lowender",
@@ -57507,7 +57848,9 @@
         "enhancement"
       ],
       "image_url": "https://static.kvraudio.com/i/b/lowender.jpg",
-      "manual_url": "https://www.denise.io"
+      "manual_url": "https://www.denise.io",
+      "year": 2020,
+      "url": "https://www.denise.io"
     },
     {
       "slug": "tdr-proximity",
@@ -57544,7 +57887,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/proximity.png",
-      "manual_url": "https://www.tokyodawn.net"
+      "manual_url": "https://www.tokyodawn.net",
+      "year": 2015,
+      "url": "https://www.tokyodawn.net"
     },
     {
       "slug": "lostin70s-quadrachor",
@@ -57583,7 +57928,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/quadrachor.jpg",
-      "manual_url": "https://lostin70s.com"
+      "manual_url": "https://lostin70s.com",
+      "year": 2017,
+      "url": "https://lostin70s.com"
     },
     {
       "slug": "venn-audio-powershaper",
@@ -57621,7 +57968,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/powershaper.jpg",
-      "manual_url": "https://www.vennaudio.com"
+      "manual_url": "https://www.vennaudio.com",
+      "year": 2019,
+      "url": "https://www.vennaudio.com"
     },
     {
       "slug": "transgainer",
@@ -57657,7 +58006,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/transgainer.jpg",
-      "manual_url": "https://sonic.supermaailma.net"
+      "manual_url": "https://sonic.supermaailma.net",
+      "year": 2017,
+      "url": "https://sonic.supermaailma.net"
     },
     {
       "slug": "cyclic-panner",
@@ -57695,7 +58046,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://sonic.supermaailma.net"
+      "manual_url": "https://sonic.supermaailma.net",
+      "year": 2017,
+      "url": "https://sonic.supermaailma.net"
     },
     {
       "slug": "wave-shredder",
@@ -57733,7 +58086,9 @@
         "creative"
       ],
       "image_url": "https://static.kvraudio.com/i/b/wave-shredder.png",
-      "manual_url": "https://www.psychicmodulation.com"
+      "manual_url": "https://www.psychicmodulation.com",
+      "year": 2019,
+      "url": "https://www.psychicmodulation.com"
     },
     {
       "slug": "audiority-ovc128",
@@ -57772,7 +58127,9 @@
         "strings"
       ],
       "image_url": "https://static.kvraudio.com/i/b/ovc-128.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2020,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-tcs68",
@@ -57811,7 +58168,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/tcs-68.png",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2020,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-aroma",
@@ -57850,7 +58209,9 @@
         "vintage"
       ],
       "image_url": "https://static.kvraudio.com/i/b/aroma.png",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-coil",
@@ -57889,7 +58250,9 @@
         "vintage"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-drip",
@@ -57928,7 +58291,9 @@
         "guitar"
       ],
       "image_url": "https://static.kvraudio.com/i/b/drip.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-bucket500",
@@ -57967,7 +58332,9 @@
         "vintage"
       ],
       "image_url": "https://static.kvraudio.com/i/b/bucket-500.png",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2020,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-mimik",
@@ -58006,7 +58373,9 @@
         "tempo-synced"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2020,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-mango",
@@ -58045,7 +58414,9 @@
         "musical"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-se-striiiings",
@@ -58084,7 +58455,9 @@
         "synthesizer"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-tb-peach",
@@ -58123,7 +58496,9 @@
         "harmonics"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-tb-tapeworm",
@@ -58162,7 +58537,9 @@
         "vintage"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "audiority-tb-toad",
@@ -58202,7 +58579,9 @@
         "drive"
       ],
       "image_url": "https://www.audiority.com/wp-content/uploads/2021/07/Polaris-768x554.jpg",
-      "manual_url": "https://www.audiority.com"
+      "manual_url": "https://www.audiority.com",
+      "year": 2021,
+      "url": "https://www.audiority.com"
     },
     {
       "slug": "algonaut-atlas",
@@ -58241,7 +58620,9 @@
         "electronic"
       ],
       "image_url": "https://static.kvraudio.com/i/b/atlas_2_various_screenshots.1632901406.png",
-      "manual_url": "https://algonaut.audio"
+      "manual_url": "https://algonaut.audio",
+      "year": 2019,
+      "url": "https://algonaut.audio"
     },
     {
       "slug": "elysia-bolt",
@@ -58280,7 +58661,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/bolt.png",
-      "manual_url": "https://www.elysia.com"
+      "manual_url": "https://www.elysia.com",
+      "year": 2020,
+      "url": "https://www.elysia.com"
     },
     {
       "slug": "d16-scratch-it",
@@ -58318,7 +58701,9 @@
         "performance"
       ],
       "image_url": "https://static.kvraudio.com/i/b/scratch-it.png",
-      "manual_url": "https://d16group.com"
+      "manual_url": "https://d16group.com",
+      "year": 2020,
+      "url": "https://d16group.com"
     },
     {
       "slug": "antares-symphony",
@@ -58356,7 +58741,9 @@
         "vocals"
       ],
       "image_url": "https://static.kvraudio.com/i/b/symphony.png",
-      "manual_url": "https://www.antarestech.com"
+      "manual_url": "https://www.antarestech.com",
+      "year": 2019,
+      "url": "https://www.antarestech.com"
     },
     {
       "slug": "ddmf-fusia",
@@ -58393,7 +58780,9 @@
         "saturation"
       ],
       "image_url": "https://static.kvraudio.com/i/b/fusia.jpg",
-      "manual_url": "https://ddmf.eu"
+      "manual_url": "https://ddmf.eu",
+      "year": 2019,
+      "url": "https://ddmf.eu"
     },
     {
       "slug": "hornet-hwmct",
@@ -58430,7 +58819,9 @@
         "dynamics"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://www.hornetplugins.com"
+      "manual_url": "https://www.hornetplugins.com",
+      "year": 2019,
+      "url": "https://www.hornetplugins.com"
     },
     {
       "slug": "sknote-tesslapro",
@@ -58468,7 +58859,9 @@
         "harmonics"
       ],
       "image_url": "https://static.kvraudio.com/i/b/tesslapro2.jpg",
-      "manual_url": "https://www.sknote.it"
+      "manual_url": "https://www.sknote.it",
+      "year": 2019,
+      "url": "https://www.sknote.it"
     },
     {
       "slug": "sknote-tesslase",
@@ -58506,7 +58899,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/tesslase.png",
-      "manual_url": "https://www.sknote.it"
+      "manual_url": "https://www.sknote.it",
+      "year": 2019,
+      "url": "https://www.sknote.it"
     },
     {
       "slug": "sknote-bm-dope",
@@ -58544,7 +58939,9 @@
         "eq"
       ],
       "image_url": "https://static.kvraudio.com/i/b/bm-dope.png",
-      "manual_url": "https://www.sknote.it"
+      "manual_url": "https://www.sknote.it",
+      "year": 2020,
+      "url": "https://www.sknote.it"
     },
     {
       "slug": "sknote-ccadvanced",
@@ -58582,7 +58979,9 @@
         "vintage"
       ],
       "image_url": "https://static.kvraudio.com/i/b/ccadvanced.png",
-      "manual_url": "https://www.sknote.it"
+      "manual_url": "https://www.sknote.it",
+      "year": 2020,
+      "url": "https://www.sknote.it"
     },
     {
       "slug": "apulsoft-apqualizr2",
@@ -58620,7 +59019,9 @@
         "visual"
       ],
       "image_url": "https://static.kvraudio.com/i/b/apq22x.png",
-      "manual_url": "https://apulsoft.ch"
+      "manual_url": "https://apulsoft.ch",
+      "year": 2018,
+      "url": "https://apulsoft.ch"
     },
     {
       "slug": "apulsoft-tranquilizr",
@@ -58658,7 +59059,9 @@
         "mastering"
       ],
       "image_url": "https://static.kvraudio.com/i/b/tranquilizr.jpg",
-      "manual_url": "https://apulsoft.ch"
+      "manual_url": "https://apulsoft.ch",
+      "year": 2019,
+      "url": "https://apulsoft.ch"
     },
     {
       "slug": "rapidcomposer",
@@ -58697,7 +59100,9 @@
         "songwriting"
       ],
       "image_url": "https://static.kvraudio.com/i/b/rapidcomposer.jpg",
-      "manual_url": "https://www.musicdevelopments.com"
+      "manual_url": "https://www.musicdevelopments.com",
+      "year": 2018,
+      "url": "https://www.musicdevelopments.com"
     },
     {
       "slug": "mixed-in-key-pilot",
@@ -58739,7 +59144,9 @@
         "songwriting"
       ],
       "image_url": "https://static.kvraudio.com/i/b/pilot-arpeggio-collapsed-1.webp",
-      "manual_url": "https://mixedinkey.com"
+      "manual_url": "https://mixedinkey.com",
+      "year": 2019,
+      "url": "https://mixedinkey.com"
     },
     {
       "slug": "harvest-mini",
@@ -58777,7 +59184,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/mini-100-1.png",
-      "manual_url": "https://harvestplugins.com"
+      "manual_url": "https://harvestplugins.com",
+      "year": 2020,
+      "url": "https://harvestplugins.com"
     },
     {
       "slug": "slimer-fm",
@@ -58814,7 +59223,9 @@
         "modulation"
       ],
       "image_url": "https://static.kvraudio.com/i/b/marketing_image_v1_1.png",
-      "manual_url": "https://caelumaudio.com"
+      "manual_url": "https://caelumaudio.com",
+      "year": 2021,
+      "url": "https://caelumaudio.com"
     },
     {
       "slug": "dirac-live-processor",
@@ -58853,7 +59264,9 @@
         "monitoring"
       ],
       "image_url": "https://mavenoidfiles.com/kjaue19upsitemhcgfi7piiau0u83h1q03st",
-      "manual_url": "https://www.dirac.com"
+      "manual_url": "https://www.dirac.com",
+      "year": 2020,
+      "url": "https://www.dirac.com"
     },
     {
       "slug": "sound-radix-frontdaw",
@@ -58891,7 +59304,9 @@
         "daw"
       ],
       "image_url": "https://static.kvraudio.com/i/b/frontdaw3screen.jpg",
-      "manual_url": "https://www.soundradix.com"
+      "manual_url": "https://www.soundradix.com",
+      "year": 2019,
+      "url": "https://www.soundradix.com"
     },
     {
       "slug": "djm-filter",
@@ -58928,7 +59343,9 @@
         "free"
       ],
       "image_url": "https://static.kvraudio.com/i/b/djmfilter.webp",
-      "manual_url": "https://www.image-line.com"
+      "manual_url": "https://www.image-line.com",
+      "year": 2018,
+      "url": "https://www.image-line.com"
     },
     {
       "slug": "eastwest-play",
@@ -58968,7 +59385,9 @@
         "orchestral"
       ],
       "image_url": "https://static.kvraudio.com/i/b/play-6-logo.png",
-      "manual_url": "https://www.soundsonline.com"
+      "manual_url": "https://www.soundsonline.com",
+      "year": 2010,
+      "url": "https://www.soundsonline.com"
     },
     {
       "slug": "slate-vsx",
@@ -59010,7 +59429,9 @@
         "calibration"
       ],
       "image_url": "https://static.kvraudio.com/i/b/app.png",
-      "manual_url": "https://slatedigital.com/support/"
+      "manual_url": "https://slatedigital.com/support/",
+      "year": 2020,
+      "url": "https://stevenslateaudio.com/en/vsx"
     },
     {
       "slug": "stw-zenithaps",
@@ -59049,7 +59470,9 @@
         "harmonics"
       ],
       "image_url": "https://audioplugin.deals/wp-content/uploads/2022/01/poster-min-3.jpg",
-      "manual_url": "https://stw-audio.com"
+      "manual_url": "https://stw-audio.com",
+      "year": 2020,
+      "url": "https://stw-audio.com"
     },
     {
       "slug": "nugen-levelmagic",
@@ -59089,7 +59512,9 @@
         "lufs"
       ],
       "image_url": "https://static.kvraudio.com/i/b/isl-st.png",
-      "manual_url": "https://nugenaudio.com"
+      "manual_url": "https://nugenaudio.com",
+      "year": 2018,
+      "url": "https://nugenaudio.com"
     },
     {
       "slug": "sonic-charge-pi",
@@ -59127,7 +59552,9 @@
         "phase"
       ],
       "image_url": "https://static.kvraudio.com/i/b/pi.png",
-      "manual_url": "https://soniccharge.com"
+      "manual_url": "https://soniccharge.com",
+      "year": 2018,
+      "url": "https://soniccharge.com"
     },
     {
       "slug": "fidef-plugin",
@@ -59161,7 +59588,9 @@
         "enhancer",
         "high-frequency"
       ],
-      "image_url": "https://static.kvraudio.com/i/b/fdj2-hero-v2.png"
+      "image_url": "https://static.kvraudio.com/i/b/fdj2-hero-v2.png",
+      "year": 2019,
+      "url": "https://www.auraplug.com"
     },
     {
       "slug": "fiedler-spatifier",
@@ -59199,7 +59628,9 @@
         "panning"
       ],
       "image_url": "https://static.kvraudio.com/i/b/spatifier.jpg",
-      "manual_url": "https://fiedler-audio.com"
+      "manual_url": "https://fiedler-audio.com",
+      "year": 2020,
+      "url": "https://fiedler-audio.com"
     },
     {
       "slug": "camel-slammer",
@@ -59235,7 +59666,9 @@
         "punch"
       ],
       "image_url": "https://www.audiopluginsforfree.com/wp-content/uploads/2012/10/camel-crusher-1.png",
-      "manual_url": "https://www.camelaudio.com"
+      "manual_url": "https://www.camelaudio.com",
+      "year": 2011,
+      "url": "https://www.camelaudio.com"
     },
     {
       "slug": "arousor",
@@ -59275,7 +59708,9 @@
         "analog-modeling"
       ],
       "image_url": "https://static.kvraudio.com/i/b/arousor.jpg",
-      "manual_url": "https://www.plugin-alliance.com"
+      "manual_url": "https://www.plugin-alliance.com",
+      "year": 2019,
+      "url": "https://www.plugin-alliance.com"
     },
     {
       "slug": "audio-damage-canary",
@@ -59314,7 +59749,9 @@
         "modulation"
       ],
       "image_url": "https://static.kvraudio.com/i/b/canary.png",
-      "manual_url": "https://www.audiodamage.com"
+      "manual_url": "https://www.audiodamage.com",
+      "year": 2020,
+      "url": "https://www.audiodamage.com"
     },
     {
       "slug": "audio-damage-canvas",
@@ -59353,7 +59790,9 @@
         "sound-design"
       ],
       "image_url": "https://static.kvraudio.com/i/b/canvas.png",
-      "manual_url": "https://www.audiodamage.com"
+      "manual_url": "https://www.audiodamage.com",
+      "year": 2020,
+      "url": "https://www.audiodamage.com"
     },
     {
       "slug": "audio-damage-fathoms",
@@ -59392,7 +59831,9 @@
         "phaser"
       ],
       "image_url": "https://static.kvraudio.com/i/b/fathoms.jpg",
-      "manual_url": "https://www.audiodamage.com"
+      "manual_url": "https://www.audiodamage.com",
+      "year": 2021,
+      "url": "https://www.audiodamage.com"
     },
     {
       "slug": "audio-damage-washout",
@@ -59431,7 +59872,9 @@
         "lush"
       ],
       "image_url": "https://static.kvraudio.com/i/b/washout.png",
-      "manual_url": "https://www.audiodamage.com"
+      "manual_url": "https://www.audiodamage.com",
+      "year": 2021,
+      "url": "https://www.audiodamage.com"
     },
     {
       "slug": "afmonitor",
@@ -59469,7 +59912,9 @@
         "metering"
       ],
       "image_url": "https://static.kvraudio.com/i/b/soundways---core-production-bundle---avid-marketpl.png",
-      "manual_url": "https://www.audiofile-engineering.com"
+      "manual_url": "https://www.audiofile-engineering.com",
+      "year": 2018,
+      "url": "https://www.audiofile-engineering.com"
     },
     {
       "slug": "grainferno",
