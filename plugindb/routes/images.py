@@ -16,8 +16,8 @@ logger = logging.getLogger("plugindb")
 
 router = APIRouter(tags=["images"])
 
-# Max 500KB per cached image, 100 images max (~50MB ceiling)
-_MAX_IMAGE_BYTES = 500_000
+# Max 2MB per cached image, 100 images max (~200MB ceiling)
+_MAX_IMAGE_BYTES = 2_000_000
 
 
 def _is_safe_url(url: str) -> bool:
