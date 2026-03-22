@@ -34,6 +34,7 @@ class PluginResponse(BaseModel):
     description: str | None = None
     website: str | None = None
     image_url: str | None = None
+    manual_url: str | None = None
     is_free: bool = False
     price_type: str = "paid"
     year: int | None = None

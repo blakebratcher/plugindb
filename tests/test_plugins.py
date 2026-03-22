@@ -300,7 +300,8 @@ class TestResponseFields:
         expected_keys = {
             "id", "slug", "name", "manufacturer", "category", "subcategory",
             "formats", "daws", "os", "aliases", "tags", "description",
-            "website", "image_url", "is_free", "price_type", "year", "created_at", "updated_at",
+            "website", "image_url", "manual_url", "is_free", "price_type", "year",
+            "created_at", "updated_at",
         }
         assert expected_keys.issubset(set(body.keys()))
 
@@ -702,6 +703,29 @@ class TestEdgeCases:
         """Non-integer IDs return 400."""
         resp = client.get("/api/v1/plugins/compare", params={"ids": "abc,def"})
         assert resp.status_code == 400
+
+
+class TestManualUrl:
+    """Tests for manual_url field."""
+
+    def test_plugin_with_manual_url(self, client):
+        """Serum has manual_url in test data."""
+        resp = client.get("/api/v1/plugins/by-slug/serum")
+        assert resp.status_code == 200
+        assert resp.json()["manual_url"] == "https://example.com/manual.pdf"
+
+    def test_plugin_without_manual_url(self, client):
+        """Diva has no manual_url in test data."""
+        resp = client.get("/api/v1/plugins/by-slug/diva")
+        assert resp.status_code == 200
+        assert resp.json()["manual_url"] is None
+
+    def test_manual_url_in_list(self, client):
+        """Plugin list includes manual_url field."""
+        resp = client.get("/api/v1/plugins")
+        assert resp.status_code == 200
+        plugin = resp.json()["data"][0]
+        assert "manual_url" in plugin
 
 
 class TestImageUrl:

@@ -584,7 +584,6 @@
             ${p.year ? `<span class="pd-year">${escapeHtml(p.year)}</span>` : ''}
             ${formatPriceBadge(p.price_type)}
           </div>
-          ${p.website ? `<div class="pd-actions"><a href="${escapeHtml(p.website)}" class="btn btn-primary" target="_blank" rel="noopener">Visit Website &rarr;</a></div>` : ''}
         </div>`;
 
       // Inline sections (LaunchBox-style: no tabs, all content visible)
@@ -622,6 +621,37 @@
         <div class="pd-tags">${formatTags(p.tags)}</div>
       </section>` : '';
 
+      // Resources section
+      const resourceCards = [];
+      if (p.website) {
+        const websiteDomain = (function(url) { try { return new URL(url).hostname; } catch(_) { return url; } })(p.website);
+        resourceCards.push(`<a href="${escapeHtml(p.website)}" class="resource-card" target="_blank" rel="noopener">
+          <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm-.5 1.07A6.97 6.97 0 001.05 7H4.1a18 18 0 01.4-4.43c.62-.22 1.28-.38 1.97-.46L7.5 1.07zM8.5 1.07l1.03 1.04c.69.08 1.35.24 1.97.46.26 1.35.38 2.86.4 4.43h3.05A6.97 6.97 0 008.5 1.07zM5.15 7a17 17 0 00-.05.5V8h5.8v-.5a17 17 0 00-.05-.5H5.15zm-1.05 0H1.05a6.97 6.97 0 006.45 7.93l-1.03-1.04c-.69-.08-1.35-.24-1.97-.46A17 17 0 014.1 9zm7.8 0a17 17 0 01-.4 4.43c-.62.22-1.28.38-1.97.46l-1.03 1.04A6.97 6.97 0 0014.95 9H11.9z"/></svg>
+          <div><div class="resource-card-name">Official Website</div><div class="resource-card-domain">${escapeHtml(websiteDomain)}</div></div>
+        </a>`);
+      }
+      if (p.manual_url) {
+        const manualDomain = (function(url) { try { return new URL(url).hostname; } catch(_) { return url; } })(p.manual_url);
+        resourceCards.push(`<a href="${escapeHtml(p.manual_url)}" class="resource-card" target="_blank" rel="noopener">
+          <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M1 2.828c.885-.37 2.154-.769 3.388-.893C5.632 1.785 6.937 1.92 8 2.702c1.063-.782 2.368-.917 3.612-.767 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.188-.119-2.39-.023-3.413.56v.001c-.01.005-.022.009-.032.013-.005.002-.01.005-.017.007a.066.066 0 01-.048 0c-.007-.002-.012-.005-.017-.007a.148.148 0 01-.032-.013v-.001c-1.023-.583-2.225-.679-3.413-.56-1.18.118-2.37.46-3.287.81V2.828zM7.5 3.621C6.57 3.016 5.396 2.887 4.28 3.006c-.927.1-1.852.37-2.53.622v8.218c.748-.268 1.629-.508 2.53-.601 1.1-.114 2.204.01 3.22.543V3.62zm1 8.788c1.016-.533 2.12-.657 3.22-.543.9.093 1.782.333 2.53.6V3.63c-.678-.252-1.603-.522-2.53-.622-1.116-.12-2.29.01-3.22.615v8.787z"/></svg>
+          <div><div class="resource-card-name">Documentation</div><div class="resource-card-domain">${escapeHtml(manualDomain)}</div></div>
+        </a>`);
+      }
+      const kvrSlug = encodeURIComponent(p.slug);
+      resourceCards.push(`<a href="https://www.kvraudio.com/product/${kvrSlug}" class="resource-card" target="_blank" rel="noopener">
+        <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 1.2a5.8 5.8 0 110 11.6A5.8 5.8 0 018 2.2zM7.4 5v1.4H6v1.2h1.4V9H6v1.2h1.4v1.4h1.2v-1.4H10V9H8.6V7.6H10V6.4H8.6V5H7.4z"/></svg>
+        <div><div class="resource-card-name">KVR Audio</div><div class="resource-card-domain">kvraudio.com</div></div>
+      </a>`);
+      const pbQuery = encodeURIComponent(p.name);
+      resourceCards.push(`<a href="https://www.pluginboutique.com/search?q=${pbQuery}" class="resource-card" target="_blank" rel="noopener">
+        <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M2 2a2 2 0 00-2 2v1h16V4a2 2 0 00-2-2H2zm0 5v5a2 2 0 002 2h8a2 2 0 002-2V7H2zm3 2h6v1H5V9z"/></svg>
+        <div><div class="resource-card-name">Plugin Boutique</div><div class="resource-card-domain">pluginboutique.com</div></div>
+      </a>`);
+      const resourcesSection = `<section class="pd-section">
+        <h2 class="pd-section-title">Resources</h2>
+        <div class="pd-resources-grid">${resourceCards.join('')}</div>
+      </section>`;
+
       const similarSection = `<section class="pd-section" id="similar-section">
         <h2 class="pd-section-title">Similar Plugins</h2>
         <div class="loading-spinner" aria-label="Loading similar"></div>
@@ -639,6 +669,7 @@
         ${detailsSection}
         ${overviewSection}
         ${tagsSection}
+        ${resourcesSection}
         ${similarSection}
         ${moreSection}`;
 

@@ -762,6 +762,31 @@ input[type=number] { -moz-appearance: textfield !important; }
 /* Tags */
 .pd-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 
+/* Resources grid */
+.pd-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.resource-card {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color var(--transition), background var(--transition);
+  font-family: var(--font-mono);
+  text-decoration: none;
+}
+.resource-card:hover {
+  border-color: var(--accent);
+  background: var(--accent-muted);
+}
+.resource-card-icon { flex-shrink: 0; color: var(--text-muted); }
+.resource-card:hover .resource-card-icon { color: var(--accent); }
+.resource-card-name { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+.resource-card-domain { font-size: 10px; color: var(--text-muted); }
+
 /* Similar plugins carousel */
 .pd-carousel {
   display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px;
