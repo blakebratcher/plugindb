@@ -249,7 +249,7 @@
             <select id="f-subcategory" aria-label="Subcategory"><option value="">All subcategories</option>${subcats.map(s => `<option value="${escapeHtml(s)}"${s === subcategory ? ' selected' : ''}>${escapeHtml(s)}</option>`).join('')}</select>
             <select id="f-format" aria-label="Format"><option value="">All formats</option>${Object.keys(fmtData.formats).map(f => `<option value="${escapeHtml(f)}"${f === format ? ' selected' : ''}>${escapeHtml(f)}</option>`).join('')}</select>
             <select id="f-os" aria-label="OS"><option value="">All OS</option>${Object.keys(osData.os).map(o => `<option value="${escapeHtml(o)}"${o === os ? ' selected' : ''}>${escapeHtml(o)}</option>`).join('')}</select>
-            <select id="f-price" aria-label="Price type"><option value="">All prices</option>${['free','freemium','paid','subscription'].map(p => `<option value="${escapeHtml(p)}"${p === priceType ? ' selected' : ''}>${escapeHtml(p)}</option>`).join('')}</select>
+            <select id="f-price" aria-label="Price type"><option value="">All prices</option>${['free','paid','freemium'].map(p => `<option value="${escapeHtml(p)}"${p === priceType ? ' selected' : ''}>${escapeHtml(p)}</option>`).join('')}</select>
             <div class="year-range">
               <input id="f-year-min" type="number" class="input-year" placeholder="From" value="${escapeHtml(yearMin)}" aria-label="Year from">
               <span class="year-range-sep">&ndash;</span>
@@ -459,11 +459,10 @@
     if (pills.length) {
       af.innerHTML = '<div class="filter-pills">' + pills.map(p =>
         `<span class="filter-pill" data-key="${escapeHtml(p.key)}">${escapeHtml(p.label)} <button aria-label="Remove filter">&times;</button></span>`
-      ).join('') + '<button class="btn btn-sm" id="clear-filters">Clear all</button></div>';
+      ).join('') + '</div>';
       af.addEventListener('click', function (e) {
         const pill = e.target.closest('.filter-pill');
-        if (pill) { params.delete(pill.dataset.key); params.delete('page'); location.hash = '#/?' + params.toString(); return; }
-        if (e.target.id === 'clear-filters') { location.hash = '#/'; }
+        if (pill) { params.delete(pill.dataset.key); params.delete('page'); location.hash = '#/?' + params.toString(); }
       });
     }
 
