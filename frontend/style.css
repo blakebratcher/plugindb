@@ -695,6 +695,10 @@ input[type=number] { -moz-appearance: textfield !important; }
   transition: color var(--transition);
 }
 .pd-mfr-link:hover { color: var(--accent-hover); }
+.pd-subtitle {
+  color: var(--text-secondary); font-size: 15px; line-height: 1.6;
+  margin-top: 10px; max-width: 700px;
+}
 .pd-year {
   font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);
   padding: 2px 8px; background: var(--bg-tertiary); border: 1px solid var(--border);

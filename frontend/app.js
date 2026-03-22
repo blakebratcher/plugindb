@@ -575,13 +575,14 @@
         ? `<div class="pd-hero"><img src="/api/v1/image-proxy?url=${encodeURIComponent(p.image_url)}" alt="${escapeHtml(p.name)}" onerror="${escapeHtml(onerrorFallback)}"><div class="pd-hero-overlay"></div></div>`
         : `<div class="pd-hero pd-hero--empty"><div class="pd-hero-placeholder">${placeholder}</div><div class="pd-hero-overlay"></div></div>`;
 
-      // Title bar
+      // Title bar — name, manufacturer, and description as subtitle
       const titleHtml = `
         <div class="pd-title-bar">
           <h1 class="pd-name">${escapeHtml(p.name)}</h1>
           <div class="pd-title-meta">
             <a href="#/manufacturers/${escapeHtml(mfr.slug)}" class="pd-mfr-link">${escapeHtml(mfr.name)}</a>
           </div>
+          ${p.description ? `<p class="pd-subtitle">${escapeHtml(p.description)}</p>` : ''}
         </div>`;
 
       // Inline sections (LaunchBox-style: no tabs, all content visible)
@@ -596,7 +597,6 @@
         ['Operating Systems', (p.os || []).map(o => formatBadge(o, 'badge-os')).join(' ')],
         ['Price', formatPriceBadge(p.price_type)],
         ['Release Year', p.year ? escapeHtml(p.year) : null],
-        ['Alternate Names', (p.aliases || []).length ? (p.aliases || []).map(a => escapeHtml(a)).join(', ') : null],
       ].filter(r => r[1]).map(([label, value]) => {
         const icon = INFO_ICONS[label] || '';
         return `<div class="pd-info-row">${icon ? `<span class="pd-info-icon">${icon}</span>` : ''}<span class="pd-info-label">${label}</span><span class="pd-info-value">${value}</span></div>`;
@@ -608,13 +608,10 @@
         <div class="pd-info-table">${infoRows}</div>
       </section>`;
 
-      const overviewSection = hasDesc ? `<section class="pd-section">
-        <h2 class="pd-section-title">Overview</h2>
-        <p class="pd-description">${escapeHtml(p.description)}</p>
-      </section>` : '';
+      // Description is now in the title bar as a subtitle — no separate Overview section
 
       const tagsSection = hasTags ? `<section class="pd-section">
-        <h2 class="pd-section-title">Genre &amp; Tags</h2>
+        <h2 class="pd-section-title">Tags</h2>
         <div class="pd-tags">${formatTags(p.tags)}</div>
       </section>` : '';
 
@@ -641,16 +638,19 @@
           <div><div class="resource-card-name">Watch Demo</div><div class="resource-card-domain">${escapeHtml(videoDomain)}</div></div>
         </a>`);
       }
-      const kvrSlug = encodeURIComponent(p.slug);
-      resourceCards.push(`<a href="https://www.kvraudio.com/product/${kvrSlug}" class="resource-card" target="_blank" rel="noopener">
-        <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 1.2a5.8 5.8 0 110 11.6A5.8 5.8 0 018 2.2zM7.4 5v1.4H6v1.2h1.4V9H6v1.2h1.4v1.4h1.2v-1.4H10V9H8.6V7.6H10V6.4H8.6V5H7.4z"/></svg>
-        <div><div class="resource-card-name">KVR Audio</div><div class="resource-card-domain">kvraudio.com</div></div>
-      </a>`);
-      const pbQuery = encodeURIComponent(p.name);
-      resourceCards.push(`<a href="https://www.pluginboutique.com/search?q=${pbQuery}" class="resource-card" target="_blank" rel="noopener">
-        <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M2 2a2 2 0 00-2 2v1h16V4a2 2 0 00-2-2H2zm0 5v5a2 2 0 002 2h8a2 2 0 002-2V7H2zm3 2h6v1H5V9z"/></svg>
-        <div><div class="resource-card-name">Plugin Boutique</div><div class="resource-card-domain">pluginboutique.com</div></div>
-      </a>`);
+      // Only show marketplace links for paid plugins (free ones usually aren't listed)
+      if (p.price_type === 'paid' || p.price_type === 'freemium') {
+        const kvrSlug = encodeURIComponent(p.slug);
+        resourceCards.push(`<a href="https://www.kvraudio.com/product/${kvrSlug}" class="resource-card" target="_blank" rel="noopener">
+          <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 1.2a5.8 5.8 0 110 11.6A5.8 5.8 0 018 2.2zM7.4 5v1.4H6v1.2h1.4V9H6v1.2h1.4v1.4h1.2v-1.4H10V9H8.6V7.6H10V6.4H8.6V5H7.4z"/></svg>
+          <div><div class="resource-card-name">KVR Audio</div><div class="resource-card-domain">kvraudio.com</div></div>
+        </a>`);
+        const pbQuery = encodeURIComponent(p.name);
+        resourceCards.push(`<a href="https://www.pluginboutique.com/search?q=${pbQuery}" class="resource-card" target="_blank" rel="noopener">
+          <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M2 2a2 2 0 00-2 2v1h16V4a2 2 0 00-2-2H2zm0 5v5a2 2 0 002 2h8a2 2 0 002-2V7H2zm3 2h6v1H5V9z"/></svg>
+          <div><div class="resource-card-name">Plugin Boutique</div><div class="resource-card-domain">pluginboutique.com</div></div>
+        </a>`);
+      }
       const resourcesSection = `<section class="pd-section">
         <h2 class="pd-section-title">Resources</h2>
         <div class="pd-resources-grid">${resourceCards.join('')}</div>
@@ -673,7 +673,6 @@
         ${heroHtml}
         ${titleHtml}
         ${detailsSection}
-        ${overviewSection}
         ${tagsSection}
         ${resourcesSection}
         ${similarSection}
