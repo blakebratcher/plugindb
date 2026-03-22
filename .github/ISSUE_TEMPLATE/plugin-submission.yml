@@ -98,6 +98,13 @@ body:
       description: "URL to plugin GUI screenshot or marketing image (optional)"
       placeholder: "https://..."
 
+  - type: input
+    id: manual_url
+    attributes:
+      label: Manual / Documentation URL
+      description: "Link to the plugin's user manual, PDF, or documentation page (optional)"
+      placeholder: "https://..."
+
   - type: textarea
     id: description
     attributes:
