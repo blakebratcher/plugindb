@@ -161,13 +161,13 @@ def create_app(db_connection: sqlite3.Connection | None = None) -> FastAPI:
         response.headers["X-Frame-Options"] = "DENY"
         response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
 
-        # Add ETag + Cache-Control to API responses only (not static files)
+        # Cache headers — always revalidate, use ETag for 304s
         if _seed_etag and request.method == "GET":
             path = request.url.path
+            etag = f'"{_seed_etag}"'
             if path.startswith("/api/") or path == "/health":
-                etag = f'"{_seed_etag}"'
                 response.headers["ETag"] = etag
-                response.headers["Cache-Control"] = "public, max-age=3600"
+                response.headers["Cache-Control"] = "no-cache"
             elif path.endswith((".css", ".js", ".svg")):
                 response.headers["Cache-Control"] = "no-cache"
 

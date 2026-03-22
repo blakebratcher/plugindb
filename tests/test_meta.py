@@ -263,7 +263,7 @@ class TestCaching:
     def test_response_has_cache_control(self, client):
         resp = client.get("/api/v1/plugins")
         assert "cache-control" in resp.headers
-        assert "public" in resp.headers["cache-control"]
+        assert "no-cache" in resp.headers["cache-control"]
 
     def test_conditional_304(self, client):
         """If-None-Match with matching ETag returns 304."""
