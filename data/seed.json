@@ -12880,7 +12880,7 @@
         "patching",
         "experimental"
       ],
-      "image_url": "https://opengraph.githubassets.com/a7edb5a6891ec2ccd0b396f237dd621ae1b75ce89dd2e44702b7f0acbef2fdf9/DISTRHO/Cardinal"
+      "image_url": null
     },
     {
       "slug": "dexed",
@@ -25624,7 +25624,7 @@
         "mixing",
         "punchy"
       ],
-      "image_url": "https://secure.gravatar.com/blavatar/2bc5cc8d758ba85f64087c2a69c7d08a4bf0b038f9a9a90210bae6aa6b27627e?s=200&#038;ts=1774042332"
+      "image_url": null
     },
     {
       "slug": "aom-invisible-limiter",
@@ -41524,7 +41524,7 @@
         "creative",
         "multi-timbral"
       ],
-      "image_url": "https://opengraph.githubassets.com/a80d3c93a9a14faa3b9e8cfb7a3211f7ed0919b5175c8135337dcc7669246e5a/surge-synthesizer/shortcircuit-xt"
+      "image_url": "https://static.kvraudio.com/i/b/shortcircuit.gif"
     },
     {
       "slug": "surge-synth-team-monique",
@@ -44180,7 +44180,7 @@
         "analog-modeling",
         "glue"
       ],
-      "image_url": "https://0.gravatar.com/avatar/cb3ed94d38ca72f8141f4aa1b37f4899dabd746b975664dd018b0c18e3cc8635?s=48&#038;d=identicon&#038;r=G"
+      "image_url": null
     },
     {
       "slug": "variety-of-sound-presto",
@@ -44215,7 +44215,7 @@
         "musical",
         "simple"
       ],
-      "image_url": "https://0.gravatar.com/avatar/cb3ed94d38ca72f8141f4aa1b37f4899dabd746b975664dd018b0c18e3cc8635?s=48&#038;d=identicon&#038;r=G"
+      "image_url": null
     },
     {
       "slug": "variety-of-sound-baxter-eq",
@@ -44252,7 +44252,7 @@
         "gentle",
         "mastering"
       ],
-      "image_url": "https://1.gravatar.com/avatar/1f11f9c2af0e039f97aed4bdf94f3c508b2b5e019f4ee2b47f5aa3d498b02757?s=48&#038;d=identicon&#038;r=G"
+      "image_url": null
     },
     {
       "slug": "zynaptiq-intensity",
