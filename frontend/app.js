@@ -637,6 +637,13 @@
           <div><div class="resource-card-name">Documentation</div><div class="resource-card-domain">${escapeHtml(manualDomain)}</div></div>
         </a>`);
       }
+      if (p.video_url) {
+        const videoDomain = (function(url) { try { return new URL(url).hostname; } catch(_) { return url; } })(p.video_url);
+        resourceCards.push(`<a href="${escapeHtml(p.video_url)}" class="resource-card" target="_blank" rel="noopener">
+          <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm-1.5 4.5l5 3.5-5 3.5v-7z"/></svg>
+          <div><div class="resource-card-name">Watch Demo</div><div class="resource-card-domain">${escapeHtml(videoDomain)}</div></div>
+        </a>`);
+      }
       const kvrSlug = encodeURIComponent(p.slug);
       resourceCards.push(`<a href="https://www.kvraudio.com/product/${kvrSlug}" class="resource-card" target="_blank" rel="noopener">
         <svg class="resource-card-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 1.2a5.8 5.8 0 110 11.6A5.8 5.8 0 018 2.2zM7.4 5v1.4H6v1.2h1.4V9H6v1.2h1.4v1.4h1.2v-1.4H10V9H8.6V7.6H10V6.4H8.6V5H7.4z"/></svg>
@@ -807,36 +814,82 @@
     const app = document.getElementById('app');
     showLoading(app);
     const page = parseInt(params.get('page'), 10) || 1;
+    const catFilter = params.get('category') || '';
     try {
       const data = await API.get(`/manufacturers/${encodeURIComponent(slug)}`, { page, per_page: CONFIG.ITEMS_PER_PAGE });
       const m = data.manufacturer;
       document.title = `${m.name} - PluginDB`;
-      const catBadges = Object.entries(data.categories || {}).map(([c, n]) => formatBadge(`${c} (${n})`, 'badge-outline')).join('');
 
-      // Cycle 15: Stats header for manufacturer detail
+      // Compute stats
       const catCount = Object.keys(data.categories || {}).length;
+      const catBreakdown = Object.entries(data.categories || {}).map(([c, n]) => `${escapeHtml(c)} (${n})`).join(', ');
+
+      // Compute year range from all plugins
+      const allYears = (data.plugins || []).map(function(p) { return p.year; }).filter(function(y) { return y != null; });
+      const yearMin = allYears.length ? Math.min.apply(null, allYears) : null;
+      const yearMax = allYears.length ? Math.max.apply(null, allYears) : null;
+      const yearRangeStr = yearMin && yearMax ? (yearMin === yearMax ? String(yearMin) : yearMin + ' \u2013 ' + yearMax) : '\u2014';
+
+      // Website link
+      const websiteHtml = m.website ? `<a href="${escapeHtml(m.website)}" class="mfr-website-link" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm-.5 1.07A6.97 6.97 0 001.05 7H4.1a18 18 0 01.4-4.43c.62-.22 1.28-.38 1.97-.46L7.5 1.07zM8.5 1.07l1.03 1.04c.69.08 1.35.24 1.97.46.26 1.35.38 2.86.4 4.43h3.05A6.97 6.97 0 008.5 1.07zM5.15 7a17 17 0 00-.05.5V8h5.8v-.5a17 17 0 00-.05-.5H5.15zm-1.05 0H1.05a6.97 6.97 0 006.45 7.93l-1.03-1.04c-.69-.08-1.35-.24-1.97-.46A17 17 0 014.1 9zm7.8 0a17 17 0 01-.4 4.43c-.62.22-1.28.38-1.97.46l-1.03 1.04A6.97 6.97 0 0014.95 9H11.9z"/></svg>
+        ${escapeHtml(m.website.replace(/^https?:\/\//, ''))}
+      </a>` : '';
+
+      // Category filter pills (only if multiple categories)
+      const categories = Object.keys(data.categories || {});
+      let catPillsHtml = '';
+      if (categories.length > 1) {
+        const bh = '#/manufacturers/' + encodeURIComponent(slug);
+        catPillsHtml = '<div class="mfr-cat-pills">' +
+          `<button class="cat-pill${!catFilter ? ' active' : ''}" data-mfr-cat="">All</button>` +
+          categories.map(function(c) {
+            return `<button class="cat-pill${c === catFilter ? ' active' : ''}" data-mfr-cat="${escapeHtml(c)}">${escapeHtml(c)} <span class="cat-pill-count">${data.categories[c]}</span></button>`;
+          }).join('') + '</div>';
+      }
+
       let html = `
         <nav class="breadcrumb"><a href="#/manufacturers">Manufacturers</a> <span class="bc-sep">/</span> <span class="bc-current">${escapeHtml(m.name)}</span></nav>
         <div class="pd-title-bar">
           <h1 class="pd-name">${escapeHtml(m.name)}</h1>
           <div class="pd-title-meta">
-            ${m.website ? `<a href="${escapeHtml(m.website)}" class="pd-mfr-link" target="_blank" rel="noopener">${escapeHtml(m.website.replace(/^https?:\/\//, ''))}</a>` : ''}
+            ${websiteHtml}
           </div>
         </div>
         <div class="mfr-detail-stats">
           <div class="mfr-stat-card"><div class="mfr-stat-num">${data.plugin_count}</div><div class="mfr-stat-label">Plugins</div></div>
-          <div class="mfr-stat-card"><div class="mfr-stat-num">${catCount}</div><div class="mfr-stat-label">Categories</div></div>
-        </div>
-        ${catBadges ? `<div class="cat-badges" style="margin-bottom:24px">${catBadges}</div>` : ''}`;
+          <div class="mfr-stat-card"><div class="mfr-stat-num">${catCount}</div><div class="mfr-stat-label">Categor${catCount !== 1 ? 'ies' : 'y'}</div></div>
+          <div class="mfr-stat-card"><div class="mfr-stat-num">${escapeHtml(yearRangeStr)}</div><div class="mfr-stat-label">Year Range</div></div>
+        </div>`;
 
       if (data.plugins && data.plugins.length) {
+        // Filter plugins by category if filter is active
+        const filteredPlugins = catFilter ? data.plugins.filter(function(p) { return p.category === catFilter; }) : data.plugins;
         const bh = '#/manufacturers/' + encodeURIComponent(slug);
-        html += `<section class="pd-section"><h2 class="pd-section-title">Plugins</h2>${pluginGrid(data.plugins)}${renderPagination(data.pagination, bh)}</section>`;
+        html += `<section class="pd-section">
+          <h2 class="pd-section-title">Plugins by Category</h2>
+          ${catPillsHtml}
+          <div id="mfr-plugins-area">${pluginGrid(filteredPlugins)}</div>
+          ${renderPagination(data.pagination, bh)}
+        </section>`;
       } else {
         html += '<section class="pd-section"><p style="color:var(--text-muted)">No plugins listed yet.</p></section>';
       }
       app.innerHTML = html;
       wireImageLoading(app);
+
+      // Wire category filter pills
+      app.querySelectorAll('[data-mfr-cat]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var cat = this.dataset.mfrCat;
+          var p = new URLSearchParams(params);
+          p.delete('page');
+          if (cat) p.set('category', cat);
+          else p.delete('category');
+          var qs = p.toString();
+          location.hash = '#/manufacturers/' + encodeURIComponent(slug) + (qs ? '?' + qs : '');
+        });
+      });
     } catch (err) { showError(app, err.message); }
   };
 

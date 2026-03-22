@@ -258,12 +258,12 @@ def export_data(
         writer = csv.writer(output)
         writer.writerow(["id", "slug", "name", "manufacturer", "category", "subcategory",
                          "formats", "daws", "os", "tags", "description", "website",
-                         "manual_url", "is_free", "price_type", "year"])
+                         "manual_url", "video_url", "is_free", "price_type", "year"])
         for p in plugins:
             writer.writerow([
                 p.id, p.slug, p.name, p.manufacturer.name, p.category, p.subcategory,
                 "|".join(p.formats), "|".join(p.daws), "|".join(p.os), "|".join(p.tags),
-                p.description, p.website, p.manual_url, p.is_free, p.price_type, p.year,
+                p.description, p.website, p.manual_url, p.video_url, p.is_free, p.price_type, p.year,
             ])
         from starlette.responses import Response
         return Response(

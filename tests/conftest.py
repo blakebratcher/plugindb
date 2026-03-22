@@ -37,6 +37,7 @@ SEED_DATA = {
             "os": ["windows", "macos"],
             "image_url": "https://xferrecords.com/images/serum.png",
             "manual_url": "https://example.com/manual.pdf",
+            "video_url": "https://youtube.com/watch?v=test",
         },
         {
             "slug": "diva",

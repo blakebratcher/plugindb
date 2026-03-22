@@ -105,6 +105,13 @@ body:
       description: "Link to the plugin's user manual, PDF, or documentation page (optional)"
       placeholder: "https://..."
 
+  - type: input
+    id: video_url
+    attributes:
+      label: Video Demo URL
+      description: "YouTube or other video link for a demo or tutorial (optional)"
+      placeholder: "https://youtube.com/watch?v=..."
+
   - type: textarea
     id: description
     attributes:

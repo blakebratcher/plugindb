@@ -35,6 +35,7 @@ def _row_to_plugin(
         website=row["website"],
         image_url=row["image_url"],
         manual_url=row["manual_url"],
+        video_url=row["video_url"],
         is_free=bool(row["is_free"]),
         price_type=row["price_type"],
         year=row["year"],

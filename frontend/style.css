@@ -851,6 +851,22 @@ input[type=number] { -moz-appearance: textfield !important; }
   text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px;
 }
 
+/* Manufacturer website link */
+.mfr-website-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-mono); font-size: 13px;
+  color: var(--accent); text-decoration: none;
+  transition: color var(--transition);
+}
+.mfr-website-link:hover { color: var(--accent-hover); text-decoration: underline; }
+.mfr-website-link svg { flex-shrink: 0; }
+
+/* Manufacturer category filter pills */
+.mfr-cat-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.mfr-cat-pills .cat-pill-count {
+  font-size: 10px; color: var(--text-muted); margin-left: 2px;
+}
+
 /* Category badges */
 .cat-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 
