@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import sqlite3
 
-from plugindb.models import ManufacturerResponse, PluginResponse
+from plugindb.models import ManufacturerCompactResponse, ManufacturerResponse, PluginCompactResponse, PluginResponse
 
 
 def _row_to_plugin(
@@ -110,5 +110,41 @@ def build_plugin_responses(rows: list[sqlite3.Row], conn: sqlite3.Connection) ->
     # Assemble responses
     return [
         _row_to_plugin(row, mfr_map[row["manufacturer_id"]], alias_map.get(row["id"], []))
+        for row in rows
+    ]
+
+
+def build_compact_responses(rows: list[sqlite3.Row], conn: sqlite3.Connection) -> list[PluginCompactResponse]:
+    """Build compact plugin responses for list views — 1 query (manufacturers only, no aliases)."""
+    if not rows:
+        return []
+
+    mfr_ids = list({row["manufacturer_id"] for row in rows})
+    placeholders = ",".join("?" for _ in mfr_ids)
+    mfr_rows = conn.execute(
+        f"SELECT id, slug, name, website, created_at FROM manufacturers WHERE id IN ({placeholders})",
+        mfr_ids,
+    ).fetchall()
+    mfr_map = {
+        r["id"]: ManufacturerResponse(
+            id=r["id"], slug=r["slug"], name=r["name"],
+            website=r["website"], created_at=r["created_at"],
+        )
+        for r in mfr_rows
+    }
+
+    return [
+        PluginCompactResponse(
+            slug=row["slug"],
+            name=row["name"],
+            manufacturer=ManufacturerCompactResponse(
+                slug=mfr_map[row["manufacturer_id"]].slug,
+                name=mfr_map[row["manufacturer_id"]].name,
+            ),
+            category=row["category"],
+            subcategory=row["subcategory"],
+            image_url=row["image_url"],
+            year=row["year"],
+        )
         for row in rows
     ]

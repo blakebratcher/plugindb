@@ -15,7 +15,7 @@ from plugindb.models import (
     PluginListResponse,
     PluginResponse,
 )
-from plugindb.queries import build_plugin_response, build_plugin_responses
+from plugindb.queries import build_compact_responses, build_plugin_response, build_plugin_responses
 
 router = APIRouter(tags=["plugins"])
 
@@ -42,6 +42,7 @@ def list_plugins(
     year_max: int | None = Query(None, description="Maximum release year (inclusive)"),
     sort: str | None = Query(None, description="Sort field: name, year, created_at"),
     order: str | None = Query(None, description="Sort direction: asc, desc"),
+    compact: bool = Query(False, description="Return compact response (fewer fields, faster)"),
 ) -> PluginListResponse:
     """List all plugins with optional filters, paginated."""
     if page < 1:
@@ -144,7 +145,7 @@ def list_plugins(
     """
     rows = conn.execute(query_sql, [*params, per_page, offset]).fetchall()
 
-    data = build_plugin_responses(rows, conn)
+    data = build_compact_responses(rows, conn) if compact else build_plugin_responses(rows, conn)
 
     # Compute related tags when any filter is active
     related_tags = None
@@ -167,6 +168,15 @@ def list_plugins(
             for t_val in tags.split(","):
                 tag_freq.pop(t_val.strip(), None)
         related_tags = dict(sorted(tag_freq.items(), key=lambda x: -x[1])[:10])
+
+    if compact:
+        from fastapi.responses import JSONResponse
+        return JSONResponse({
+            "data": [p.model_dump() for p in data],
+            "total": total,
+            "pagination": {"total": total, "page": page, "per_page": per_page, "pages": pages},
+            "related_tags": related_tags,
+        })
 
     return PluginListResponse(
         data=data,

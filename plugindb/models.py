@@ -47,6 +47,23 @@ class PluginResponse(BaseModel):
 # Pagination
 # ---------------------------------------------------------------------------
 
+class ManufacturerCompactResponse(BaseModel):
+    """Compact manufacturer — just name and slug."""
+    slug: str
+    name: str
+
+
+class PluginCompactResponse(BaseModel):
+    """Compact plugin for list views — only fields needed for cards."""
+    slug: str
+    name: str
+    manufacturer: ManufacturerCompactResponse
+    category: str
+    subcategory: str | None = None
+    image_url: str | None = None
+    year: int | None = None
+
+
 class PaginatedResponse(BaseModel):
     """Pagination metadata included in list responses."""
     total: int

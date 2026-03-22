@@ -471,7 +471,7 @@
     const paginationArea = document.getElementById('pagination-area');
     const toolbarArea = document.getElementById('results-toolbar');
     try {
-      const apiParams = { page, per_page: CONFIG.ITEMS_PER_PAGE };
+      const apiParams = { page, per_page: CONFIG.ITEMS_PER_PAGE, compact: true };
       if (category) apiParams.category = category;
       if (subcategory) apiParams.subcategory = subcategory;
       if (format) apiParams.format = format;

@@ -18,7 +18,7 @@ from plugindb.models import (
     SuggestItemResponse,
     SuggestResponse,
 )
-from plugindb.queries import build_plugin_responses
+from plugindb.queries import build_compact_responses, build_plugin_responses
 
 _logger = logging.getLogger("plugindb")
 
@@ -66,6 +66,7 @@ def search_plugins(
     order: str | None = Query(None, description="Sort direction: asc, desc"),
     page: int = Query(1, ge=1, description="Page number"),
     per_page: int = Query(20, ge=1, le=100, description="Results per page"),
+    compact: bool = Query(False, description="Return compact response (fewer fields, faster)"),
 ) -> PluginListResponse:
     """Full-text search across plugins using FTS5.
 
@@ -222,7 +223,7 @@ def search_plugins(
             },
         )
 
-    plugins = build_plugin_responses(rows, conn)
+    plugins = build_compact_responses(rows, conn) if compact else build_plugin_responses(rows, conn)
     pages = math.ceil(total / per_page) if total > 0 else 0
 
     # Log search query for analytics (non-blocking)
@@ -239,6 +240,14 @@ def search_plugins(
         conn.commit()
     except Exception:
         pass  # Never let analytics break search
+
+    if compact:
+        from fastapi.responses import JSONResponse
+        return JSONResponse({
+            "data": [p.model_dump() for p in plugins],
+            "total": total,
+            "pagination": {"total": total, "page": page, "per_page": per_page, "pages": pages},
+        })
 
     return PluginListResponse(
         data=plugins,
