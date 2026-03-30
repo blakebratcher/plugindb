@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'FILE=\"$CLAUDE_FILE_PATH\"; if [[ \"$FILE\" == *.py ]] && [[ \"$FILE\" != *__pycache__* ]]; then python -m pytest tests/ -x -q --tb=short 2>&1 | tail -5; fi'",
+            "timeout": 30000
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'if echo \"$CLAUDE_FILE_PATH\" | grep -q \"seed.json\"; then echo \"Warning: Editing seed.json — this is the canonical data source. Confirm this is intentional.\"; exit 2; fi'"
+          }
+        ]
+      }
+    ]
+  }
+}
