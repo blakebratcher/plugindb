@@ -64607,6 +64607,2068 @@
         "vintage"
       ],
       "image_url": ""
+    },
+    {
+      "slug": "ni-analog-dreams",
+      "name": "Analog Dreams",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Analog Dreams",
+        "NI Analog Dreams"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Play Series instrument featuring lush analog-style synth sounds including rich pads, warm basses, and retro leads with intuitive macro controls.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/play-series/analog-dreams/",
+      "year": 2019,
+      "tags": [
+        "synthesizer",
+        "analog",
+        "pads",
+        "retro",
+        "sample-based",
+        "play-series"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-ethereal-earth",
+      "name": "Ethereal Earth",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Ethereal Earth",
+        "NI Ethereal Earth"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Play Series instrument creating atmospheric and otherworldly sounds by combining organic recordings with hybrid synthesis.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/play-series/ethereal-earth/",
+      "year": 2019,
+      "tags": [
+        "synthesizer",
+        "atmospheric",
+        "organic",
+        "ambient",
+        "hybrid",
+        "play-series"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-hybrid-keys",
+      "name": "Hybrid Keys",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Hybrid Keys",
+        "NI Hybrid Keys"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Play Series instrument combining sampled acoustic and electronic keys with an advanced arpeggiator, from realistic pianos to futuristic synth textures.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/play-series/hybrid-keys/",
+      "year": 2019,
+      "tags": [
+        "piano",
+        "keys",
+        "hybrid",
+        "arpeggiator",
+        "sample-based",
+        "play-series"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-lo-fi-glow",
+      "name": "Lo-Fi Glow",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Lo-Fi Glow",
+        "NI Lo-Fi Glow",
+        "LoFi Glow"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Play Series instrument delivering hazy keys, synths, guitars, and bass processed for lo-fi warmth with over 150 tweakable presets.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/play-series/lo-fi-glow/",
+      "year": 2020,
+      "tags": [
+        "lo-fi",
+        "vintage",
+        "warm",
+        "keys",
+        "synth",
+        "play-series",
+        "hip-hop"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-modular-icons",
+      "name": "Modular Icons",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Modular Icons",
+        "NI Modular Icons"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Play Series instrument inspired by legendary modular synthesizers, delivering bold basses, searing leads, and evolving textures with macro controls.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/play-series/modular-icons/",
+      "year": 2019,
+      "tags": [
+        "synthesizer",
+        "modular",
+        "bass",
+        "leads",
+        "sample-based",
+        "play-series"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-noire",
+      "name": "Noire",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Noire",
+        "NI Noire"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Nils Frahm's signature Yamaha CFX concert grand piano with Pure and Felt modes plus an innovative Particles engine for generative harmonic textures.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/keys/noire/",
+      "year": 2019,
+      "tags": [
+        "piano",
+        "concert-grand",
+        "cinematic",
+        "ambient",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-una-corda",
+      "name": "Una Corda",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Una Corda",
+        "NI Una Corda"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Custom David Klavins one-string-per-key upright piano with pure, cotton, and felt preparations, created in collaboration with Nils Frahm.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/keys/una-corda/",
+      "year": 2015,
+      "tags": [
+        "piano",
+        "upright",
+        "intimate",
+        "felt",
+        "ambient",
+        "cinematic",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-the-giant",
+      "name": "The Giant",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "The Giant",
+        "NI The Giant"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Sampled Klavins Piano Model 370i — a super-sized upright standing over three meters high, delivering a colossal sonic spectrum for cinematic scoring.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/keys/the-giant/",
+      "year": 2012,
+      "tags": [
+        "piano",
+        "upright",
+        "cinematic",
+        "massive",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-retro-machines-mk2",
+      "name": "Retro Machines MK2",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Retro Machines MK2",
+        "NI Retro Machines MK2",
+        "Retro Machines Mk II"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Collection of 16 definitive analog synthesizers and keyboards from the '70s and '80s lovingly re-created for Kontakt, with arpeggiator and chord player.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/synths/retro-machines-mk2/",
+      "year": 2011,
+      "tags": [
+        "synthesizer",
+        "analog",
+        "vintage",
+        "retro",
+        "keys",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-electric-keys",
+      "name": "Electric Keys Collection",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "piano",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Electric Keys",
+        "Tines Duo",
+        "NI Electric Keys"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Two meticulously sampled electric pianos — Phoenix (Fender Rhodes 73) and Diamond (suitcase 88) — with detailed tonal controls for Kontakt.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/keys/electric-keys-collection/",
+      "year": 2024,
+      "tags": [
+        "electric-piano",
+        "rhodes",
+        "keys",
+        "vintage",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-damage",
+      "name": "Damage",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "drum-machine",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Damage",
+        "NI Damage",
+        "Heavyocity Damage"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cinematic percussion powerhouse by Heavyocity combining orchestral and industrial percussion with 25,000+ samples, 700 loops, and 58 kits.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/damage/",
+      "year": 2011,
+      "tags": [
+        "cinematic",
+        "percussion",
+        "drums",
+        "orchestral",
+        "sound-design",
+        "film-scoring"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-action-strings-2",
+      "name": "Action Strings 2",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Action Strings 2",
+        "NI Action Strings 2"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Epic orchestral string phrases for cinematic scoring with live-recorded articulations in collaboration with Sonuscore.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/action-strings-2/",
+      "year": 2021,
+      "tags": [
+        "cinematic",
+        "strings",
+        "orchestral",
+        "film-scoring",
+        "phrases",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-symphony-series-string-ensemble",
+      "name": "Symphony Series - String Ensemble",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Symphony Series String Ensemble",
+        "NI Symphony Series Strings"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "60-piece string section recorded at Studio 22 Budapest with 38 articulations, four mic mixes, and on-board effects.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/symphony-series-string-ensemble/",
+      "year": 2016,
+      "tags": [
+        "orchestral",
+        "strings",
+        "cinematic",
+        "ensemble",
+        "film-scoring",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-symphony-series-brass",
+      "name": "Symphony Series - Brass",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Symphony Series Brass",
+        "NI Symphony Series Brass"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Comprehensive brass library offering ensemble and solo instruments with extensive articulations for orchestral and cinematic brass scoring.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/symphony-series-brass/",
+      "year": 2015,
+      "tags": [
+        "orchestral",
+        "brass",
+        "cinematic",
+        "ensemble",
+        "film-scoring",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-symphony-series-woodwind",
+      "name": "Symphony Series - Woodwind",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Symphony Series Woodwind",
+        "NI Symphony Series Woodwind"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Detailed woodwind collection by Soundiron with ensemble and solo instruments for expressive orchestral scoring.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/symphony-series-woodwind-collection/",
+      "year": 2017,
+      "tags": [
+        "orchestral",
+        "woodwinds",
+        "cinematic",
+        "ensemble",
+        "film-scoring",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-symphony-series-percussion",
+      "name": "Symphony Series - Percussion",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Symphony Series Percussion",
+        "NI Symphony Series Percussion"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Orchestral percussion library with a wide range of tuned and untuned instruments for film, game, and orchestral scoring.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/symphony-series-percussion/",
+      "year": 2017,
+      "tags": [
+        "orchestral",
+        "percussion",
+        "cinematic",
+        "drums",
+        "film-scoring",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-mysteria",
+      "name": "Mysteria",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Mysteria",
+        "NI Mysteria"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cinematic vocal instrument with over 350 presets from 800 sound sources, using X-Y morphing for epic emotional voice-based textures.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/vocal/mysteria/",
+      "year": 2020,
+      "tags": [
+        "cinematic",
+        "vocal",
+        "atmospheric",
+        "sound-design",
+        "film-scoring",
+        "texture"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-thrill",
+      "name": "Thrill",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Thrill",
+        "NI Thrill"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cinematic scoring instrument combining orchestral power with expert sound design via X-Y performance control for suspenseful builds and scores.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/thrill/",
+      "year": 2017,
+      "tags": [
+        "cinematic",
+        "orchestral",
+        "sound-design",
+        "film-scoring",
+        "horror",
+        "suspense"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-rise-and-hit",
+      "name": "Rise & Hit",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Rise & Hit",
+        "Rise and Hit",
+        "NI Rise & Hit"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "The first instrument designed for expressive cinematic build-ups, with 700+ single-layer and 250 multi-layer sounds by Galaxy Instruments.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/rise-hit/",
+      "year": 2014,
+      "tags": [
+        "cinematic",
+        "build-up",
+        "riser",
+        "impact",
+        "film-scoring",
+        "sound-design"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-ashlight",
+      "name": "Ashlight",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Ashlight",
+        "NI Ashlight"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Dark granular synthesis instrument exploring unconventional sound sources like bowed metals, carbon, and glass with 300 presets for cinematic scoring.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/ashlight/",
+      "year": 2021,
+      "tags": [
+        "granular",
+        "cinematic",
+        "dark",
+        "atmospheric",
+        "sound-design",
+        "experimental"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-emotive-strings",
+      "name": "Emotive Strings",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Emotive Strings",
+        "NI Emotive Strings"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Live-recorded legato string phrases from a 44-piece ensemble by Sonuscore for quickly creating cinematic and emotional string arrangements.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/emotive-strings/",
+      "year": 2018,
+      "tags": [
+        "cinematic",
+        "strings",
+        "orchestral",
+        "legato",
+        "phrases",
+        "film-scoring"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-kinetic-metal",
+      "name": "Kinetic Metal",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Kinetic Metal",
+        "NI Kinetic Metal"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Cinematic instrument featuring 211 patches from unconventional metallic sound sources with X-Y morphing for ethereal textures and tonal percussion.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/kinetic-metal/",
+      "year": 2013,
+      "tags": [
+        "cinematic",
+        "metallic",
+        "texture",
+        "sound-design",
+        "experimental",
+        "percussion"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-kinetic-toys",
+      "name": "Kinetic Toys",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Kinetic Toys",
+        "NI Kinetic Toys"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Creative Kontakt instrument morphing 200+ recordings of vintage children's toys with synthesized layers via X-Y modulation.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/kinetic-toys/",
+      "year": 2016,
+      "tags": [
+        "cinematic",
+        "creative",
+        "sound-design",
+        "experimental",
+        "texture"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-stradivari-violin",
+      "name": "Stradivari Violin",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Stradivari Violin",
+        "NI Stradivari Violin"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Deeply sampled 1727 Stradivari 'Vesuvius' violin with 20 articulations and multiple mic positions recorded in Cremona's Auditorium.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/stradivari-violin/",
+      "year": 2020,
+      "tags": [
+        "violin",
+        "strings",
+        "solo",
+        "orchestral",
+        "cinematic",
+        "classical",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-stradivari-cello",
+      "name": "Stradivari Cello",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Stradivari Cello",
+        "NI Stradivari Cello"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Deeply sampled 1700 Stradivari 'Stauffer' cello with extensive articulations and multiple mic positions recorded in Cremona's Auditorium.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/stradivari-cello/",
+      "year": 2021,
+      "tags": [
+        "cello",
+        "strings",
+        "solo",
+        "orchestral",
+        "cinematic",
+        "classical",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-cremona-quartet",
+      "name": "Cremona Quartet",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Cremona Quartet",
+        "NI Cremona Quartet"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Four legendary stringed instruments (Stradivari Violin, Guarneri Violin, Amati Viola, Stradivari Cello) as a unified ensemble with auto divisi.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/cremona-quartet/",
+      "year": 2022,
+      "tags": [
+        "strings",
+        "quartet",
+        "orchestral",
+        "cinematic",
+        "classical",
+        "sample-based",
+        "ensemble"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-choir-omnia",
+      "name": "Choir: Omnia",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Choir Omnia",
+        "NI Choir Omnia"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "40-piece symphonic choir with soprano, alto, tenor, and bass sections featuring Syllabuilder engine, polyphonic true legato, and 189 presets.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/choir-omnia/",
+      "year": 2022,
+      "tags": [
+        "choir",
+        "vocal",
+        "orchestral",
+        "cinematic",
+        "classical",
+        "film-scoring",
+        "ensemble"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-vocal-colors",
+      "name": "Vocal Colors",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "synth",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Vocal Colors",
+        "NI Vocal Colors"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Expressive vocal instrument combining male and female voices with hybrid synthesis, morphing vocals into evolving pads, basses, and grooves.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/vocal/vocal-colors/",
+      "year": 2023,
+      "tags": [
+        "vocal",
+        "sound-design",
+        "hybrid",
+        "cinematic",
+        "expressive",
+        "creative"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-valves",
+      "name": "Valves",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Valves",
+        "NI Valves"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Emotive brass ensemble featuring flugelhorn, French horn, trombone, euphonium, and tuba with phrase engine and Moments slider for intimate textures.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/cinematic/valves/",
+      "year": 2023,
+      "tags": [
+        "brass",
+        "cinematic",
+        "ensemble",
+        "phrases",
+        "orchestral",
+        "intimate",
+        "film-scoring"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-solid-bus-comp",
+      "name": "Solid Bus Comp",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Solid Bus Comp",
+        "NI Solid Bus Comp"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Powerful bus compressor for finishing mixes with unmistakable high-end sound, part of the Solid Mix Series.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/",
+      "year": 2012,
+      "tags": [
+        "compressor",
+        "bus",
+        "mixing",
+        "mastering",
+        "dynamics",
+        "analog-modeling"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-solid-eq",
+      "name": "Solid EQ",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Solid EQ",
+        "NI Solid EQ"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Precise 6-band equalizer with two switchable curve models for subtle shading to aggressive shaping, part of the Solid Mix Series.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/solid-eq/",
+      "year": 2012,
+      "tags": [
+        "eq",
+        "equalizer",
+        "mixing",
+        "mastering",
+        "analog-modeling"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-solid-dynamics",
+      "name": "Solid Dynamics",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Solid Dynamics",
+        "NI Solid Dynamics"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Combined compressor and gate/expander for versatile dynamics control on individual tracks, part of the Solid Mix Series.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/solid-dynamics/",
+      "year": 2012,
+      "tags": [
+        "compressor",
+        "gate",
+        "dynamics",
+        "mixing",
+        "analog-modeling"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-passive-eq",
+      "name": "Passive EQ",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Passive EQ",
+        "NI Passive EQ"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "4-band passive equalizer by Softube modeling classic tube hardware, offering warm and musical tonal shaping for the Premium Tube Series.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/premium-tube-series/",
+      "year": 2012,
+      "tags": [
+        "eq",
+        "tube",
+        "analog-modeling",
+        "warm",
+        "vintage",
+        "mastering"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-vari-comp",
+      "name": "Vari Comp",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "compressor",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Vari Comp",
+        "NI Vari Comp"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Two-channel tube compressor by Softube delivering natural, musical compression modeled after classic Vari-Mu hardware.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/premium-tube-series/",
+      "year": 2012,
+      "tags": [
+        "compressor",
+        "tube",
+        "analog-modeling",
+        "warm",
+        "vintage",
+        "mastering"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-enhanced-eq",
+      "name": "Enhanced EQ",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "eq",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Enhanced EQ",
+        "NI Enhanced EQ"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Tube equalizer by Softube focused on filling out the low end and adding clarity to midrange with musical tonal shaping.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/premium-tube-series/",
+      "year": 2012,
+      "tags": [
+        "eq",
+        "tube",
+        "analog-modeling",
+        "warm",
+        "vintage"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-rc-24",
+      "name": "RC 24",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "RC 24",
+        "RC24",
+        "NI RC 24"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classic algorithmic reverb by Softube modeled after the legendary Lexicon 224, with intuitive visual display and lush harmonic character.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/rc-24/",
+      "year": 2013,
+      "tags": [
+        "reverb",
+        "algorithmic",
+        "vintage",
+        "classic",
+        "mixing"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-rc-48",
+      "name": "RC 48",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "reverb",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "RC 48",
+        "RC48",
+        "NI RC 48"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classic algorithmic reverb by Softube modeled after the legendary Lexicon 480L, delivering deep dimensional reverb with visual feedback.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/rc-48/",
+      "year": 2013,
+      "tags": [
+        "reverb",
+        "algorithmic",
+        "vintage",
+        "classic",
+        "mixing"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-transient-master",
+      "name": "Transient Master",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "dynamics",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Transient Master",
+        "NI Transient Master"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Essential dynamics effect with just three knobs (Attack, Sustain, Gain) for reshaping transients — simple, powerful, and extremely useful.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/transient-master/",
+      "year": 2012,
+      "tags": [
+        "transient",
+        "dynamics",
+        "envelope",
+        "drums",
+        "mixing",
+        "shaping"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-replika",
+      "name": "Replika",
+      "manufacturer_slug": "native-instruments",
+      "category": "effect",
+      "subcategory": "delay",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Replika",
+        "NI Replika"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Streamlined delay plugin with Modern, Vintage Digital, and Diffusion algorithms, plus resonant filter and classic phaser with stereo modes.",
+      "price_type": "free",
+      "url": "https://www.native-instruments.com/en/products/komplete/effects/replika/",
+      "year": 2014,
+      "tags": [
+        "delay",
+        "free",
+        "vintage",
+        "diffusion",
+        "creative"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-strummed-acoustic",
+      "name": "Session Guitarist - Strummed Acoustic",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "guitar",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Strummed Acoustic",
+        "NI Strummed Acoustic",
+        "Session Guitarist Strummed Acoustic"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Realistic strummed acoustic guitar for Kontakt with pattern-based playback engine and studio-quality recordings.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/session-guitarist-strummed-acoustic/",
+      "year": 2015,
+      "tags": [
+        "guitar",
+        "acoustic",
+        "strumming",
+        "patterns",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-electric-sunburst-deluxe",
+      "name": "Session Guitarist - Electric Sunburst Deluxe",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "guitar",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Electric Sunburst Deluxe",
+        "NI Electric Sunburst Deluxe"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Expanded electric guitar with 237 patterns including riffs, arpeggios, and chords, plus a melodic instrument for lead playing.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/session-guitarist-electric-sunburst-deluxe/",
+      "year": 2019,
+      "tags": [
+        "guitar",
+        "electric",
+        "patterns",
+        "riffs",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-picked-acoustic",
+      "name": "Session Guitarist - Picked Acoustic",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "guitar",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Picked Acoustic",
+        "NI Picked Acoustic",
+        "Session Guitarist Picked Acoustic"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Vintage acoustic guitar with 194 fingerpicking patterns recorded by a session pro, plus a melodic instrument with multiple articulations.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/session-guitarist-picked-acoustic/",
+      "year": 2019,
+      "tags": [
+        "guitar",
+        "acoustic",
+        "fingerpicking",
+        "patterns",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-picked-nylon",
+      "name": "Session Guitarist - Picked Nylon",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "guitar",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Picked Nylon",
+        "NI Picked Nylon",
+        "Session Guitarist Picked Nylon"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Classical nylon-string guitar for Kontakt by Drumasonic with pattern-based performance engine and melodic playing capabilities.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/session-guitarist-picked-nylon/",
+      "year": 2021,
+      "tags": [
+        "guitar",
+        "nylon",
+        "classical",
+        "fingerpicking",
+        "patterns",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-acoustic-sunburst-deluxe",
+      "name": "Session Guitarist - Acoustic Sunburst Deluxe",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "guitar",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Acoustic Sunburst Deluxe",
+        "NI Acoustic Sunburst Deluxe"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Premium acoustic guitar library with 254 picked and strummed patterns played by session professionals.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/session-guitarist-acoustic-sunburst-deluxe/",
+      "year": 2024,
+      "tags": [
+        "guitar",
+        "acoustic",
+        "strumming",
+        "fingerpicking",
+        "patterns",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-prime-bass",
+      "name": "Session Bassist - Prime Bass",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "general",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Prime Bass",
+        "Session Bassist Prime Bass",
+        "NI Prime Bass"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Kontakt electric bass instrument by Drumasonic with pattern-based engine delivering authentic bass guitar performances.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/guitar/session-bassist-prime-bass/",
+      "year": 2022,
+      "tags": [
+        "bass",
+        "electric",
+        "patterns",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-discovery-india",
+      "name": "Discovery Series: India",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Discovery Series India",
+        "NI India"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Comprehensive library of playable North and South Indian instruments with nine percussion and six melodic instruments and 96 raga scales.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/spotlight-collection/spotlight-collection/",
+      "year": 2014,
+      "tags": [
+        "world",
+        "indian",
+        "percussion",
+        "melodic",
+        "ethnic",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-discovery-west-africa",
+      "name": "Discovery Series: West Africa",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Discovery Series West Africa",
+        "NI West Africa"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "West African instrument collection for creating traditional polyrhythmic ensemble textures with one-touch playback.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/spotlight-collection/spotlight-collection/",
+      "year": 2014,
+      "tags": [
+        "world",
+        "african",
+        "percussion",
+        "ensemble",
+        "ethnic",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-discovery-middle-east",
+      "name": "Discovery Series: Middle East",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Discovery Series Middle East",
+        "NI Middle East"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "25 characteristic Arabic, Turkish, and Persian instruments including oud, ney, zurna, kanun, tanbur, and saz.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/spotlight-collection/spotlight-collection/",
+      "year": 2018,
+      "tags": [
+        "world",
+        "middle-eastern",
+        "ethnic",
+        "arabic",
+        "turkish",
+        "sample-based"
+      ],
+      "image_url": ""
+    },
+    {
+      "slug": "ni-discovery-cuba",
+      "name": "Discovery Series: Cuba",
+      "manufacturer_slug": "native-instruments",
+      "category": "instrument",
+      "subcategory": "rompler",
+      "formats": [
+        "VST3",
+        "AU",
+        "AAX"
+      ],
+      "aliases": [
+        "Discovery Series Cuba",
+        "NI Cuba"
+      ],
+      "daws": [
+        "Ableton",
+        "Cubase",
+        "Studio One",
+        "Reaper",
+        "FL Studio",
+        "Logic",
+        "Pro Tools"
+      ],
+      "os": [
+        "windows",
+        "macos"
+      ],
+      "description": "Meticulously sampled Cuban instruments with eight melodic and nine percussive ensembles reflecting Cuba's musical landscape.",
+      "price_type": "paid",
+      "url": "https://www.native-instruments.com/en/products/komplete/spotlight-collection/spotlight-collection/",
+      "year": 2016,
+      "tags": [
+        "world",
+        "cuban",
+        "latin",
+        "percussion",
+        "ensemble",
+        "ethnic",
+        "sample-based"
+      ],
+      "image_url": ""
     }
   ]
 }
